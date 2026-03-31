@@ -5,13 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <meta name="theme-color" content="#325497">
+  <meta name="theme-color" content="#14385d">
   <title>Painel Publico de Contratos - Iguape/SP</title>
+  <link rel="icon" type="image/png" href="./assets/iguape-brasao.png">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <main class="page-shell">
     <header class="hero">
+      <div class="brand-strip" aria-label="Identidade institucional">
+        <img class="brand-mark" src="./assets/iguape-brasao.png" alt="Brasao da Prefeitura de Iguape">
+        <div class="brand-copy">
+          <span class="brand-kicker">Prefeitura de Iguape</span>
+          <strong>Painel Publico de Contratos</strong>
+          <span class="brand-subcopy">Consulta institucional para acompanhamento externo e leitura gerencial.</span>
+        </div>
+      </div>
       <div class="hero-grid">
         <div class="hero-main">
           <div class="hero-kicker-row">
@@ -91,10 +100,13 @@
         </div>
         <button id="reset-filters" class="ghost-button" type="button">Limpar</button>
       </div>
+      <div id="quick-filters" class="quick-filters">
+        <div class="empty-card">Carregando atalhos de navegacao...</div>
+      </div>
       <div class="controls-grid">
         <label>
           <span>Busca</span>
-          <input id="search-input" type="search" placeholder="Objeto, empresa, orgao, numero...">
+          <input id="search-input" type="search" placeholder="Buscar por objeto, empresa, orgao, numero ou edicao...">
         </label>
         <label>
           <span>Tipo</span>
@@ -105,6 +117,7 @@
           <select id="year-select"></select>
         </label>
       </div>
+      <p id="active-filters" class="active-filters">Sem filtros ativos. A lista abaixo segue do mais novo para o mais antigo.</p>
       <div id="type-pills" class="pill-row"></div>
     </section>
 
@@ -125,7 +138,10 @@
     </section>
 
     <footer class="page-footer">
-      <p id="footer-copy">Base em atualizacao.</p>
+      <div class="footer-identity">
+        <strong>Prefeitura de Iguape/SP</strong>
+        <span id="footer-copy">Base em atualizacao.</span>
+      </div>
       <a href="https://www.iguape.sp.gov.br/portal/diario-oficial" target="_blank" rel="noopener noreferrer">Abrir Diario Oficial</a>
     </footer>
   </main>

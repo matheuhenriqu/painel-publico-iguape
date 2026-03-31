@@ -1,14 +1,14 @@
 :root {
-  --bg: #eef3f9;
+  --bg: #eef1f4;
   --surface: #ffffff;
-  --surface-alt: #f7f9fc;
-  --ink: #203044;
-  --ink-soft: #607187;
-  --line: rgba(50, 84, 151, 0.14);
-  --accent: #3a5ea6;
-  --accent-strong: #325497;
-  --accent-soft: #e9f0fb;
-  --shadow: 0 16px 34px rgba(34, 53, 86, 0.08);
+  --surface-alt: #f6f8fb;
+  --ink: #1b2b3d;
+  --ink-soft: #607080;
+  --line: rgba(20, 56, 93, 0.14);
+  --accent: #8c6a2d;
+  --accent-strong: #14385d;
+  --accent-soft: #edf2f8;
+  --shadow: 0 18px 40px rgba(27, 43, 61, 0.09);
   --radius-lg: 22px;
   --radius-md: 16px;
   --radius-sm: 12px;
@@ -23,10 +23,11 @@ body {
   margin: 0;
   min-height: 100%;
   background:
-    radial-gradient(circle at top left, rgba(58, 94, 166, 0.12), transparent 24%),
-    linear-gradient(180deg, #f9fbfe 0%, var(--bg) 100%);
+    radial-gradient(circle at top left, rgba(20, 56, 93, 0.11), transparent 24%),
+    radial-gradient(circle at top right, rgba(140, 106, 45, 0.09), transparent 28%),
+    linear-gradient(180deg, #f9fbfd 0%, var(--bg) 100%);
   color: var(--ink);
-  font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 button,
@@ -72,6 +73,59 @@ a {
   pointer-events: none;
 }
 
+.brand-strip {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 18px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(20, 56, 93, 0.1);
+}
+
+.brand-mark {
+  width: 68px;
+  height: 68px;
+  object-fit: contain;
+  border-radius: 18px;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.86);
+  border: 1px solid rgba(20, 56, 93, 0.1);
+  box-shadow: 0 10px 24px rgba(20, 56, 93, 0.08);
+}
+
+.brand-copy {
+  display: grid;
+  gap: 4px;
+}
+
+.brand-kicker,
+.brand-subcopy {
+  color: var(--ink-soft);
+}
+
+.brand-kicker {
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.brand-copy strong,
+.hero h1,
+.panel h2 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.brand-copy strong {
+  font-size: 1.15rem;
+}
+
+.brand-subcopy {
+  font-size: 0.94rem;
+  line-height: 1.5;
+}
+
 .hero-grid {
   position: relative;
   display: grid;
@@ -107,9 +161,9 @@ a {
 }
 
 .hero-badge {
-  background: rgba(50, 84, 151, 0.1);
+  background: rgba(20, 56, 93, 0.08);
   color: var(--accent-strong);
-  border: 1px solid rgba(50, 84, 151, 0.16);
+  border: 1px solid rgba(20, 56, 93, 0.16);
 }
 
 .hero-highlights {
@@ -121,15 +175,15 @@ a {
 .hero-highlight {
   background: rgba(255, 255, 255, 0.8);
   color: var(--ink-soft);
-  border: 1px solid rgba(50, 84, 151, 0.12);
+  border: 1px solid rgba(20, 56, 93, 0.12);
 }
 
 .hero-brief {
   align-content: start;
   padding: 18px;
   border-radius: var(--radius-md);
-  border: 1px solid rgba(50, 84, 151, 0.14);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(233, 240, 251, 0.86));
+  border: 1px solid rgba(20, 56, 93, 0.14);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(237, 242, 248, 0.9));
 }
 
 .hero-brief-title {
@@ -152,7 +206,7 @@ a {
 .hero-brief-card {
   padding: 14px;
   border-radius: var(--radius-sm);
-  border: 1px solid rgba(50, 84, 151, 0.12);
+  border: 1px solid rgba(20, 56, 93, 0.12);
   background: rgba(255, 255, 255, 0.85);
   display: grid;
   gap: 8px;
@@ -409,6 +463,58 @@ a {
   gap: 12px;
 }
 
+.controls-panel {
+  display: grid;
+  gap: 14px;
+}
+
+.quick-filters {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.quick-filter-button {
+  min-height: 74px;
+  padding: 12px 14px;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(20, 56, 93, 0.12);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(237, 242, 248, 0.92));
+  color: var(--ink);
+  display: grid;
+  gap: 6px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.quick-filter-button span {
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.quick-filter-button strong {
+  font-size: 0.96rem;
+  line-height: 1.35;
+}
+
+.quick-filter-button.active {
+  border-color: rgba(20, 56, 93, 0.25);
+  background: linear-gradient(180deg, rgba(20, 56, 93, 0.12), rgba(237, 242, 248, 0.98));
+}
+
+.active-filters {
+  margin: 0;
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  background: rgba(20, 56, 93, 0.05);
+  border: 1px solid rgba(20, 56, 93, 0.1);
+  color: var(--ink-soft);
+  line-height: 1.55;
+}
+
 .controls-grid label {
   display: grid;
   gap: 8px;
@@ -535,17 +641,33 @@ a {
   font-size: 0.92rem;
 }
 
+.footer-identity {
+  display: grid;
+  gap: 4px;
+}
+
+.footer-identity strong {
+  font-size: 0.96rem;
+}
+
 @media (max-width: 860px) {
   .headline-metrics,
   .controls-grid,
   .executive-cards,
-  .priority-cards {
+  .priority-cards,
+  .quick-filters {
     grid-template-columns: 1fr;
   }
 
+  .brand-strip,
   .hero-grid,
   .hero-brief-grid {
     grid-template-columns: 1fr;
+  }
+
+  .brand-strip {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .contract-head,

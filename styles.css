@@ -40,6 +40,17 @@ a {
   color: inherit;
 }
 
+button,
+input,
+select,
+a {
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    background-color 160ms ease,
+    transform 160ms ease;
+}
+
 .page-shell {
   width: min(100%, 1080px);
   margin: 0 auto;
@@ -503,6 +514,27 @@ a {
 .quick-filter-button.active {
   border-color: rgba(20, 56, 93, 0.25);
   background: linear-gradient(180deg, rgba(20, 56, 93, 0.12), rgba(237, 242, 248, 0.98));
+}
+
+.quick-filter-button:hover,
+.type-pill:hover,
+.ghost-button:hover,
+.action-link:hover,
+.hero-primary-link:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(20, 56, 93, 0.08);
+}
+
+.quick-filter-button:focus-visible,
+.type-pill:focus-visible,
+.ghost-button:focus-visible,
+.action-link:focus-visible,
+.hero-primary-link:focus-visible,
+.controls-grid input:focus-visible,
+.controls-grid select:focus-visible {
+  outline: none;
+  border-color: rgba(20, 56, 93, 0.32);
+  box-shadow: 0 0 0 4px rgba(20, 56, 93, 0.12);
 }
 
 .active-filters {

@@ -10,6 +10,19 @@
     activePreset: "recent",
   };
 
+  const BROKEN_TEXT_REPLACEMENTS = [
+    ["N┬║", "Nº"],
+    ["MAR├cO", "MARÇO"],
+    ["D├u", "DÁ"],
+    ["PROVID├eNCIAS", "PROVIDÊNCIAS"],
+    ["JOS├e", "JOSÉ"],
+    ["J├UNIOR", "JÚNIOR"],
+    ["S├uo", "São"],
+    ["atribui├º├Aes", "atribuições"],
+    ["Org├onica", "Orgânica"],
+    ["Munic├¡pio", "Município"],
+  ];
+
   const elements = {
     headlineMetrics: document.getElementById("headline-metrics"),
     heroUpdatedAt: document.getElementById("hero-updated-at"),
@@ -41,6 +54,39 @@
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#39;");
+  }
+
+  function repairBrokenText(value) {
+    let text = String(value ?? "");
+    BROKEN_TEXT_REPLACEMENTS.forEach(([broken, fixed]) => {
+      text = text.split(broken).join(fixed);
+    });
+    return text;
+  }
+
+  function normalizePayload(value) {
+    if (typeof value === "string") {
+      return repairBrokenText(value);
+    }
+
+    if (Array.isArray(value)) {
+      return value.map((item) => normalizePayload(item));
+    }
+
+    if (value && typeof value === "object") {
+      return Object.fromEntries(
+        Object.entries(value).map(([key, entryValue]) => [key, normalizePayload(entryValue)]),
+      );
+    }
+
+    return value;
+  }
+
+  function normalizeForSearch(value) {
+    return repairBrokenText(value)
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase();
   }
 
   function formatCurrency(value) {
@@ -78,7 +124,7 @@
 
   function formatOrganizationLabel(name, sphere) {
     const normalizedName = String(name || "").trim();
-    if (!normalizedName) return "Nao identificado";
+    if (!normalizedName) return "Não identificado";
 
     const governmentLabel = getGovernmentLabel(sphere);
     return governmentLabel ? `${normalizedName} - ${governmentLabel}` : normalizedName;
@@ -118,8 +164,8 @@
     const summary = state.payload?.summary || {};
     const cards = [
       { label: "Registros", value: formatNumber(summary.totalItems || 0), meta: "atos organizados" },
-      { label: "Valor identificado", value: formatCurrency(summary.totalValue || 0), meta: "somatorio extraido" },
-      { label: "Alta confianca", value: formatNumber(summary.highConfidenceItems || 0), meta: "itens consistentes" },
+      { label: "Valor identificado", value: formatCurrency(summary.totalValue || 0), meta: "somatório extraído" },
+      { label: "Alta confiança", value: formatNumber(summary.highConfidenceItems || 0), meta: "itens consistentes" },
     ];
 
     elements.headlineMetrics.innerHTML = cards.map((card) => `
@@ -131,10 +177,10 @@
     `).join("");
 
     elements.heroUpdatedAt.textContent = `Atualizado em ${formatDate(state.payload?.generatedAt, true)}`;
-    elements.heroStatusCopy.textContent = `${formatNumber(summary.totalItems || 0)} registros publicos organizados para consulta, com leitura consolidada do Diario Oficial.`;
+    elements.heroStatusCopy.textContent = `${formatNumber(summary.totalItems || 0)} registros públicos organizados para consulta, com leitura consolidada do Diário Oficial.`;
     elements.heroDiaryCount.textContent = formatNumber(summary.analyzedDiaryCount || 0);
     elements.heroSupplierCount.textContent = formatNumber(summary.uniqueSuppliers || 0);
-    elements.footerCopy.textContent = `Atualizado em ${formatDate(state.payload?.generatedAt, true)}. ${formatNumber(summary.analyzedDiaryCount || 0)} edicoes analisadas e ${formatNumber(summary.uniqueSuppliers || 0)} fornecedores identificados.`;
+    elements.footerCopy.textContent = `Atualizado em ${formatDate(state.payload?.generatedAt, true)}. ${formatNumber(summary.analyzedDiaryCount || 0)} edições analisadas e ${formatNumber(summary.uniqueSuppliers || 0)} fornecedores identificados.`;
   }
 
   function renderExecutiveSummary() {
@@ -147,13 +193,13 @@
     const coverageStart = years.length ? years[years.length - 1].year : "Sem recorte";
     const coverageEnd = years.length ? years[0].year : "Sem recorte";
 
-    elements.executiveMeta.textContent = `Base consolidada entre ${coverageStart} e ${coverageEnd}, com ultima publicacao em ${formatDate(newestItem?.publishedAt)}.`;
+    elements.executiveMeta.textContent = `Base consolidada entre ${coverageStart} e ${coverageEnd}, com última publicação em ${formatDate(newestItem?.publishedAt)}.`;
     elements.executiveOverview.innerHTML = `
       <article class="executive-overview-card">
-        <span class="executive-overview-label">Sintese executiva</span>
-        <h3>${escapeHtml(formatNumber(summary.totalItems || 0))} registros publicos reunidos para leitura gerencial</h3>
+        <span class="executive-overview-label">Síntese executiva</span>
+        <h3>${escapeHtml(formatNumber(summary.totalItems || 0))} registros públicos reunidos para leitura gerencial</h3>
         <p>
-          A base atual combina ${escapeHtml(formatNumber(summary.analyzedDiaryCount || 0))} edicoes analisadas,
+          A base atual combina ${escapeHtml(formatNumber(summary.analyzedDiaryCount || 0))} edições analisadas,
           ${escapeHtml(formatNumber(summary.uniqueSuppliers || 0))} fornecedores identificados e valor conhecido de
           ${escapeHtml(formatCurrency(summary.totalValue || 0))}.
         </p>
@@ -164,22 +210,22 @@
       {
         label: "Confiabilidade da leitura",
         value: formatPercent(highConfidenceRate),
-        meta: `${formatNumber(summary.highConfidenceItems || 0)} registros com alta confianca.`,
+        meta: `${formatNumber(summary.highConfidenceItems || 0)} registros com alta confiança.`,
       },
       {
         label: "Tipo predominante",
-        value: topType?.type || "Sem classificacao",
+        value: topType?.type || "Sem classificação",
         meta: `${formatNumber(topType?.count || 0)} registros no principal agrupamento.`,
       },
       {
-        label: "Maior concentracao institucional",
-        value: topOrganization?.displayName || "Nao identificado",
-        meta: `${formatNumber(topOrganization?.count || 0)} registros no orgao com maior volume.`,
+        label: "Maior concentração institucional",
+        value: topOrganization?.displayName || "Não identificado",
+        meta: `${formatNumber(topOrganization?.count || 0)} registros no órgão com maior volume.`,
       },
       {
-        label: "Recencia da base",
+        label: "Recência da base",
         value: formatDate(newestItem?.publishedAt),
-        meta: "Data do registro publico mais recente presente na base.",
+        meta: "Data do registro público mais recente presente na base.",
       },
     ];
 
@@ -203,14 +249,14 @@
     const missingValueSample = itemsWithoutValue.slice(0, 3);
     const topOrganizations = (state.payload?.organizationSummary || []).slice(0, 3);
 
-    elements.prioritiesMeta.textContent = "4 frentes organizadas para leitura inicial da chefia: recencia, maior valor, lacunas de valor e concentracao institucional.";
+    elements.prioritiesMeta.textContent = "4 frentes organizadas para leitura inicial da chefia: recência, maior valor, lacunas de valor e concentração institucional.";
 
     const cards = [
       {
         label: "Mais recentes",
         tone: "recent",
         headline: latestItems[0] ? formatDate(latestItems[0].publishedAt) : "Sem data recente",
-        summary: "Ultimos atos inseridos na base publicada.",
+        summary: "Últimos atos inseridos na base publicada.",
         items: latestItems.map((item) => ({
           primary: truncateText(item.title || "Ato contratual"),
           secondary: `${formatDate(item.publishedAt)} | ${truncateText(item.organizationDisplay || formatOrganizationLabel(item.organization, item.organizationSphere), 52)}`,
@@ -223,26 +269,26 @@
         summary: "Registros com maior impacto financeiro identificado na base.",
         items: highestValueItems.map((item) => ({
           primary: truncateText(item.title || "Ato contratual"),
-          secondary: `${item.value || "Valor nao informado"} | ${truncateText(item.organizationDisplay || formatOrganizationLabel(item.organization, item.organizationSphere), 52)}`,
+          secondary: `${item.value || "Valor não informado"} | ${truncateText(item.organizationDisplay || formatOrganizationLabel(item.organization, item.organizationSphere), 52)}`,
         })),
       },
       {
         label: "Sem valor informado",
         tone: "attention",
         headline: formatNumber(itemsWithoutValue.length),
-        summary: "Registros ainda sem valor consolidado para leitura rapida.",
+        summary: "Registros ainda sem valor consolidado para leitura rápida.",
         items: missingValueSample.map((item) => ({
           primary: truncateText(item.title || "Ato contratual"),
           secondary: `${formatDate(item.publishedAt)} | ${truncateText(item.organizationDisplay || formatOrganizationLabel(item.organization, item.organizationSphere), 52)}`,
         })),
       },
       {
-        label: "Maior concentracao por orgao",
+        label: "Maior concentração por órgão",
         tone: "institution",
-        headline: topOrganizations[0]?.displayName || "Nao identificado",
-        summary: "Orgaos com maior volume de registros na base publicada.",
+        headline: topOrganizations[0]?.displayName || "Não identificado",
+        summary: "Órgãos com maior volume de registros na base publicada.",
         items: topOrganizations.map((item) => ({
-          primary: truncateText(item.displayName || "Orgao nao identificado", 72),
+          primary: truncateText(item.displayName || "Órgão não identificado", 72),
           secondary: `${formatNumber(item.count || 0)} registro(s) | ${formatCurrency(item.totalValue || 0)}`,
         })),
       },
@@ -279,7 +325,7 @@
       {
         id: "recent",
         label: "Mais recentes",
-        meta: "Ordem cronologica padrao",
+        meta: "Ordem cronológica padrão",
       },
       {
         id: "latestYear",
@@ -289,12 +335,12 @@
       {
         id: "topType",
         label: "Tipo predominante",
-        meta: topType ? `${topType.type} (${formatNumber(topType.count)})` : "Sem classificacao",
+        meta: topType ? `${topType.type} (${formatNumber(topType.count)})` : "Sem classificação",
       },
       {
         id: "highestValue",
         label: "Maiores valores",
-        meta: highestValueItem ? `Ate ${highestValueItem.value || formatCurrency(highestValueItem.valueNumber)}` : "Sem valor identificado",
+        meta: highestValueItem ? `Até ${highestValueItem.value || formatCurrency(highestValueItem.valueNumber)}` : "Sem valor identificado",
       },
       {
         id: "missingValue",
@@ -319,6 +365,13 @@
 
   function renderActiveFiltersSummary({ query, type, year }) {
     const parts = [];
+    const hasManualFilter = Boolean(query || type || year || state.specialFilter === "missingValue" || state.sortMode === "highestValue" || state.activePreset && state.activePreset !== "recent");
+
+    if (!hasManualFilter) {
+      elements.activeFilters.textContent = "Sem filtros ativos. A lista abaixo segue do mais novo para o mais antigo.";
+      return;
+    }
+
     if (state.activePreset === "recent") {
       parts.push("Atalho: mais recentes");
     }
@@ -335,10 +388,10 @@
       parts.push("Somente registros sem valor informado");
     }
     if (state.sortMode === "highestValue") {
-      parts.push("Ordenacao: maior valor");
+      parts.push("Ordenação: maior valor");
     }
     else {
-      parts.push("Ordenacao: mais recentes");
+      parts.push("Ordenação: mais recentes");
     }
 
     elements.activeFilters.textContent = parts.join(" | ");
@@ -405,16 +458,16 @@
             <h3>${escapeHtml(item.title || "Ato contratual")}</h3>
           </div>
           <div class="meta-row">
-            <span class="meta-chip">${escapeHtml(`Edicao ${item.edition || "-"}`)}</span>
+            <span class="meta-chip">${escapeHtml(`Edição ${item.edition || "-"}`)}</span>
             <span class="meta-chip">${escapeHtml(formatDate(item.publishedAt))}</span>
           </div>
         </div>
-        <div class="meta-line"><strong>Orgao:</strong> ${escapeHtml(item.organizationDisplay || formatOrganizationLabel(item.organization, item.organizationSphere))}</div>
-        <div class="meta-line"><strong>Fornecedor:</strong> ${escapeHtml(item.contractor || "Nao identificado")}</div>
-        <div class="meta-line"><strong>Valor:</strong> ${escapeHtml(item.value || "Nao informado")}</div>
+        <div class="meta-line"><strong>Órgão:</strong> ${escapeHtml(item.organizationDisplay || formatOrganizationLabel(item.organization, item.organizationSphere))}</div>
+        <div class="meta-line"><strong>Fornecedor:</strong> ${escapeHtml(item.contractor || "Não identificado")}</div>
+        <div class="meta-line"><strong>Valor:</strong> ${escapeHtml(item.value || "Não informado")}</div>
         <p class="contract-summary">${escapeHtml(item.summary || "Sem resumo consolidado.")}</p>
         <div class="action-row">
-          ${item.viewUrl ? `<a class="action-link" href="${escapeHtml(item.viewUrl)}" target="_blank" rel="noopener noreferrer">Abrir edicao oficial</a>` : ""}
+          ${item.viewUrl ? `<a class="action-link" href="${escapeHtml(item.viewUrl)}" target="_blank" rel="noopener noreferrer">Abrir edição oficial</a>` : ""}
         </div>
       </article>
     `).join("");
@@ -422,14 +475,14 @@
   }
 
   function updateFilters({ resetVisible = false } = {}) {
-    const query = elements.searchInput.value.trim().toLowerCase();
+    const query = normalizeForSearch(elements.searchInput.value.trim());
     const type = elements.typeSelect.value;
     const year = elements.yearSelect.value;
     state.activeType = type;
 
     const filtered = getItems().filter((item) => {
       const organizationLabel = item.organizationDisplay || formatOrganizationLabel(item.organization, item.organizationSphere);
-      const haystack = [item.title, item.organization, organizationLabel, item.contractor, item.summary, item.type, item.edition].join(" ").toLowerCase();
+      const haystack = normalizeForSearch([item.title, item.organization, organizationLabel, item.contractor, item.summary, item.type, item.edition].join(" "));
       if (query && !haystack.includes(query)) return false;
       if (type && item.type !== type) return false;
       if (year && !(item.publishedAt || "").startsWith(year)) return false;
@@ -448,10 +501,10 @@
   async function loadDashboard() {
     const response = await fetch("./data/dashboard.json", { cache: "no-store" });
     if (!response.ok) {
-      throw new Error(`Falha ao carregar a base publica: ${response.status}`);
+      throw new Error(`Falha ao carregar a base pública: ${response.status}`);
     }
 
-    state.payload = await response.json();
+    state.payload = normalizePayload(await response.json());
     const typeOptions = (state.payload.typeSummary || []).map((item) => ({ value: item.type, label: item.type }));
     const yearOptions = (state.payload.yearSummary || []).map((item) => ({ value: item.year, label: `${item.year} (${item.count})` }));
     populateSelect(elements.typeSelect, typeOptions, "Todos os tipos");
@@ -497,12 +550,12 @@
     elements.headlineMetrics.innerHTML = `<div class="empty-card">${escapeHtml(error.message)}</div>`;
     elements.executiveOverview.innerHTML = `<div class="empty-card">${escapeHtml(error.message)}</div>`;
     elements.executiveCards.innerHTML = "";
-    elements.executiveMeta.textContent = "Nao foi possivel consolidar o panorama gerencial.";
+    elements.executiveMeta.textContent = "Não foi possível consolidar o panorama gerencial.";
     elements.priorityCards.innerHTML = "";
-    elements.prioritiesMeta.textContent = "Nao foi possivel consolidar os pontos de atencao.";
+    elements.prioritiesMeta.textContent = "Não foi possível consolidar os pontos de atenção.";
     elements.quickFilters.innerHTML = "";
-    elements.activeFilters.textContent = "Nao foi possivel consolidar os atalhos de navegacao.";
+    elements.activeFilters.textContent = "Não foi possível consolidar os atalhos de navegação.";
     elements.contractsList.innerHTML = `<div class="empty-card">${escapeHtml(error.message)}</div>`;
-    elements.resultsMeta.textContent = "Nao foi possivel carregar a base publica.";
+    elements.resultsMeta.textContent = "Não foi possível carregar a base pública.";
   });
 })();

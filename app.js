@@ -164,16 +164,17 @@
   function renderMetrics() {
     const summary = state.payload?.summary || {};
     const cards = [
-      { label: "Registros", value: formatNumber(summary.totalItems || 0), meta: "atos organizados" },
-      { label: "Valor identificado", value: formatCurrency(summary.totalValue || 0), meta: "somatório extraído" },
-      { label: "Alta confiança", value: formatNumber(summary.highConfidenceItems || 0), meta: "itens consistentes" },
+      { tone: "records", kicker: "Volume", label: "Registros", value: formatNumber(summary.totalItems || 0), meta: "atos organizados" },
+      { tone: "value", kicker: "Montante", label: "Valor identificado", value: formatCurrency(summary.totalValue || 0), meta: "somatório extraído" },
+      { tone: "trust", kicker: "Qualidade", label: "Alta confiança", value: formatNumber(summary.highConfidenceItems || 0), meta: "itens consistentes" },
     ];
 
     elements.headlineMetrics.innerHTML = cards.map((card) => `
-      <article class="metric-card">
+      <article class="metric-card metric-card-${escapeHtml(card.tone)}">
+        <span class="metric-card-kicker">${escapeHtml(card.kicker)}</span>
         <strong>${escapeHtml(card.value)}</strong>
-        <span>${escapeHtml(card.label)}</span>
-        <span>${escapeHtml(card.meta)}</span>
+        <span class="metric-card-label">${escapeHtml(card.label)}</span>
+        <span class="metric-card-meta">${escapeHtml(card.meta)}</span>
       </article>
     `).join("");
 
@@ -209,21 +210,25 @@
 
     const cards = [
       {
+        tone: "trust",
         label: "Confiabilidade da leitura",
         value: formatPercent(highConfidenceRate),
         meta: `${formatNumber(summary.highConfidenceItems || 0)} registros com alta confiança.`,
       },
       {
+        tone: "type",
         label: "Tipo predominante",
         value: topType?.type || "Sem classificação",
         meta: `${formatNumber(topType?.count || 0)} registros no principal agrupamento.`,
       },
       {
+        tone: "institution",
         label: "Maior concentração institucional",
         value: topOrganization?.displayName || "Não identificado",
         meta: `${formatNumber(topOrganization?.count || 0)} registros no órgão com maior volume.`,
       },
       {
+        tone: "date",
         label: "Recência da base",
         value: formatDate(newestItem?.publishedAt),
         meta: "Data do registro público mais recente presente na base.",
@@ -231,8 +236,8 @@
     ];
 
     elements.executiveCards.innerHTML = cards.map((card) => `
-      <article class="executive-card">
-        <span>${escapeHtml(card.label)}</span>
+      <article class="executive-card executive-card-${escapeHtml(card.tone)}">
+        <span class="executive-card-label">${escapeHtml(card.label)}</span>
         <strong>${escapeHtml(card.value)}</strong>
         <p>${escapeHtml(card.meta)}</p>
       </article>
@@ -351,7 +356,7 @@
     ];
 
     elements.quickFilters.innerHTML = presets.map((preset) => `
-      <button class="quick-filter-button ${state.activePreset === preset.id ? "active" : ""}" data-preset="${escapeHtml(preset.id)}" type="button">
+      <button class="quick-filter-button quick-filter-button-${escapeHtml(preset.id)} ${state.activePreset === preset.id ? "active" : ""}" data-preset="${escapeHtml(preset.id)}" type="button">
         <span>${escapeHtml(preset.label)}</span>
         <strong>${escapeHtml(preset.meta)}</strong>
       </button>
@@ -450,23 +455,36 @@
 
     elements.contractsList.innerHTML = visibleRows.map((item) => `
       <article class="contract-card">
-        <div class="contract-head">
-          <div>
-            <div class="badge-row">
-              <span class="badge">${escapeHtml(item.type || "Ato")}</span>
-              <span class="badge neutral">${escapeHtml(item.recordClass || "Registro")}</span>
+        <div class="contract-card-main">
+          <div class="contract-head">
+            <div>
+              <div class="badge-row">
+                <span class="badge">${escapeHtml(item.type || "Ato")}</span>
+                <span class="badge neutral">${escapeHtml(item.recordClass || "Registro")}</span>
+              </div>
+              <h3>${escapeHtml(item.title || "Ato contratual")}</h3>
             </div>
-            <h3>${escapeHtml(item.title || "Ato contratual")}</h3>
+            <div class="meta-row">
+              <span class="meta-chip">${escapeHtml(`Edição ${item.edition || "-"}`)}</span>
+              <span class="meta-chip">${escapeHtml(formatDate(item.publishedAt))}</span>
+            </div>
           </div>
-          <div class="meta-row">
-            <span class="meta-chip">${escapeHtml(`Edição ${item.edition || "-"}`)}</span>
-            <span class="meta-chip">${escapeHtml(formatDate(item.publishedAt))}</span>
-          </div>
+          <p class="contract-summary">${escapeHtml(item.summary || "Sem resumo consolidado.")}</p>
         </div>
-        <div class="meta-line"><strong>Órgão:</strong> ${escapeHtml(item.organizationDisplay || formatOrganizationLabel(item.organization, item.organizationSphere))}</div>
-        <div class="meta-line"><strong>Fornecedor:</strong> ${escapeHtml(item.contractor || "Não identificado")}</div>
-        <div class="meta-line"><strong>Valor:</strong> ${escapeHtml(item.value || "Não informado")}</div>
-        <p class="contract-summary">${escapeHtml(item.summary || "Sem resumo consolidado.")}</p>
+        <aside class="contract-side">
+          <div class="contract-side-item">
+            <span>Órgão</span>
+            <strong>${escapeHtml(item.organizationDisplay || formatOrganizationLabel(item.organization, item.organizationSphere))}</strong>
+          </div>
+          <div class="contract-side-item">
+            <span>Fornecedor</span>
+            <strong>${escapeHtml(item.contractor || "Não identificado")}</strong>
+          </div>
+          <div class="contract-side-item">
+            <span>Valor</span>
+            <strong>${escapeHtml(item.value || "Não informado")}</strong>
+          </div>
+        </aside>
         <div class="action-row">
           ${item.viewUrl ? `<a class="action-link" href="${escapeHtml(item.viewUrl)}" target="_blank" rel="noopener noreferrer">Abrir edição oficial</a>` : ""}
         </div>

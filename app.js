@@ -9,6 +9,10 @@
 
   const elements = {
     headlineMetrics: document.getElementById("headline-metrics"),
+    heroUpdatedAt: document.getElementById("hero-updated-at"),
+    heroStatusCopy: document.getElementById("hero-status-copy"),
+    heroDiaryCount: document.getElementById("hero-diary-count"),
+    heroSupplierCount: document.getElementById("hero-supplier-count"),
     searchInput: document.getElementById("search-input"),
     typeSelect: document.getElementById("type-select"),
     yearSelect: document.getElementById("year-select"),
@@ -82,6 +86,10 @@
       { label: "Alta confianca", value: summary.highConfidenceItems || 0, meta: "itens consistentes" },
     ];
     elements.headlineMetrics.innerHTML = cards.map((card) => `<article class="metric-card"><strong>${escapeHtml(card.value)}</strong><span>${escapeHtml(card.label)}</span><span>${escapeHtml(card.meta)}</span></article>`).join("");
+    elements.heroUpdatedAt.textContent = `Atualizado em ${formatDate(state.payload?.generatedAt, true)}`;
+    elements.heroStatusCopy.textContent = `${summary.totalItems || 0} registros publicos organizados para consulta, com leitura consolidada do Diario Oficial.`;
+    elements.heroDiaryCount.textContent = String(summary.analyzedDiaryCount || 0);
+    elements.heroSupplierCount.textContent = String(summary.uniqueSuppliers || 0);
     elements.footerCopy.textContent = `Atualizado em ${formatDate(state.payload?.generatedAt, true)}. ${summary.analyzedDiaryCount || 0} edicoes analisadas e ${summary.uniqueSuppliers || 0} fornecedores identificados.`;
   }
 

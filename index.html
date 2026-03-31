@@ -12,14 +12,45 @@
 <body>
   <main class="page-shell">
     <header class="hero">
-      <p class="eyebrow">Consulta publica</p>
-      <h1>Painel Publico de Contratos - Iguape/SP</h1>
-      <p class="hero-copy">
-        Leitura enxuta dos atos contratuais publicados no Diario Oficial. A exibicao e somente leitura,
-        otimizada para GitHub Pages e navegacao em desktop, tablet e celular.
-      </p>
-      <div id="headline-metrics" class="headline-metrics">
-        <div class="empty-card">Carregando indicadores...</div>
+      <div class="hero-grid">
+        <div class="hero-main">
+          <div class="hero-kicker-row">
+            <p class="eyebrow">Resumo executivo</p>
+            <span class="hero-badge">Leitura publica</span>
+          </div>
+          <h1>Painel Publico de Contratos de Iguape/SP</h1>
+          <p class="hero-copy">
+            Visao executiva dos atos contratuais publicados no Diario Oficial, com leitura consolidada,
+            filtros de consulta e acesso publico somente para acompanhamento gerencial.
+          </p>
+          <div class="hero-highlights" aria-label="Destaques do painel">
+            <span class="hero-highlight">Consulta em navegador</span>
+            <span class="hero-highlight">Base consolidada</span>
+            <span class="hero-highlight">Acompanhamento institucional</span>
+          </div>
+          <div id="headline-metrics" class="headline-metrics">
+            <div class="empty-card">Carregando indicadores...</div>
+          </div>
+        </div>
+
+        <aside class="hero-brief" aria-label="Resumo de atualizacao">
+          <p class="eyebrow">Atualizacao da base</p>
+          <strong id="hero-updated-at" class="hero-brief-title">Conferindo base publicada...</strong>
+          <p id="hero-status-copy" class="hero-brief-copy">
+            O painel organiza a leitura publica dos contratos para consulta executiva.
+          </p>
+          <div class="hero-brief-grid">
+            <article class="hero-brief-card">
+              <span>Edicoes analisadas</span>
+              <strong id="hero-diary-count">-</strong>
+            </article>
+            <article class="hero-brief-card">
+              <span>Fornecedores</span>
+              <strong id="hero-supplier-count">-</strong>
+            </article>
+          </div>
+          <a class="hero-primary-link" href="https://www.iguape.sp.gov.br/portal/diario-oficial" target="_blank" rel="noopener noreferrer">Abrir Diario Oficial</a>
+        </aside>
       </div>
     </header>
 

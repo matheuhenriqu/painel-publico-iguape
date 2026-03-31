@@ -213,7 +213,8 @@ a {
 }
 
 .headline-metrics,
-.contracts-list {
+.contracts-list,
+.executive-cards {
   display: grid;
   gap: 12px;
 }
@@ -248,6 +249,71 @@ a {
 .panel {
   padding: 20px;
   border-radius: var(--radius-lg);
+}
+
+.executive-panel {
+  display: grid;
+  gap: 16px;
+}
+
+.executive-overview-card,
+.executive-card {
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+}
+
+.executive-overview-card {
+  padding: 20px 22px;
+  background:
+    linear-gradient(135deg, rgba(50, 84, 151, 0.08), rgba(255, 255, 255, 0.96)),
+    var(--surface-alt);
+  display: grid;
+  gap: 10px;
+}
+
+.executive-overview-label {
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.executive-overview-card h3 {
+  margin: 0;
+  font-size: clamp(1.2rem, 2.4vw, 1.65rem);
+  line-height: 1.25;
+}
+
+.executive-overview-card p,
+.executive-card p {
+  margin: 0;
+  color: var(--ink-soft);
+  line-height: 1.6;
+}
+
+.executive-cards {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.executive-card {
+  padding: 18px;
+  background: var(--surface-alt);
+  display: grid;
+  gap: 10px;
+}
+
+.executive-card span {
+  color: var(--ink-soft);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.executive-card strong {
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  line-height: 1.35;
 }
 
 .panel-head {
@@ -392,7 +458,8 @@ a {
 
 @media (max-width: 860px) {
   .headline-metrics,
-  .controls-grid {
+  .controls-grid,
+  .executive-cards {
     grid-template-columns: 1fr;
   }
 

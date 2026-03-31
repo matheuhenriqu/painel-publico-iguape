@@ -13,6 +13,9 @@
     heroStatusCopy: document.getElementById("hero-status-copy"),
     heroDiaryCount: document.getElementById("hero-diary-count"),
     heroSupplierCount: document.getElementById("hero-supplier-count"),
+    executiveMeta: document.getElementById("executive-meta"),
+    executiveOverview: document.getElementById("executive-overview"),
+    executiveCards: document.getElementById("executive-cards"),
     searchInput: document.getElementById("search-input"),
     typeSelect: document.getElementById("type-select"),
     yearSelect: document.getElementById("year-select"),
@@ -35,6 +38,14 @@
 
   function formatCurrency(value) {
     return new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" }).format(Number(value || 0));
+  }
+
+  function formatNumber(value) {
+    return new Intl.NumberFormat("pt-BR").format(Number(value || 0));
+  }
+
+  function formatPercent(value) {
+    return new Intl.NumberFormat("pt-BR", { style: "percent", maximumFractionDigits: 1 }).format(Number(value || 0));
   }
 
   function formatDate(value, includeTime = false) {
@@ -81,16 +92,71 @@
   function renderMetrics() {
     const summary = state.payload?.summary || {};
     const cards = [
-      { label: "Registros", value: summary.totalItems || 0, meta: "atos organizados" },
+      { label: "Registros", value: formatNumber(summary.totalItems || 0), meta: "atos organizados" },
       { label: "Valor identificado", value: formatCurrency(summary.totalValue || 0), meta: "somatorio extraido" },
-      { label: "Alta confianca", value: summary.highConfidenceItems || 0, meta: "itens consistentes" },
+      { label: "Alta confianca", value: formatNumber(summary.highConfidenceItems || 0), meta: "itens consistentes" },
     ];
     elements.headlineMetrics.innerHTML = cards.map((card) => `<article class="metric-card"><strong>${escapeHtml(card.value)}</strong><span>${escapeHtml(card.label)}</span><span>${escapeHtml(card.meta)}</span></article>`).join("");
     elements.heroUpdatedAt.textContent = `Atualizado em ${formatDate(state.payload?.generatedAt, true)}`;
-    elements.heroStatusCopy.textContent = `${summary.totalItems || 0} registros publicos organizados para consulta, com leitura consolidada do Diario Oficial.`;
-    elements.heroDiaryCount.textContent = String(summary.analyzedDiaryCount || 0);
-    elements.heroSupplierCount.textContent = String(summary.uniqueSuppliers || 0);
+    elements.heroStatusCopy.textContent = `${formatNumber(summary.totalItems || 0)} registros publicos organizados para consulta, com leitura consolidada do Diario Oficial.`;
+    elements.heroDiaryCount.textContent = formatNumber(summary.analyzedDiaryCount || 0);
+    elements.heroSupplierCount.textContent = formatNumber(summary.uniqueSuppliers || 0);
     elements.footerCopy.textContent = `Atualizado em ${formatDate(state.payload?.generatedAt, true)}. ${summary.analyzedDiaryCount || 0} edicoes analisadas e ${summary.uniqueSuppliers || 0} fornecedores identificados.`;
+  }
+
+  function renderExecutiveSummary() {
+    const summary = state.payload?.summary || {};
+    const topType = state.payload?.typeSummary?.[0];
+    const topOrganization = state.payload?.organizationSummary?.[0];
+    const years = state.payload?.yearSummary || [];
+    const newestItem = sortByNewest(getItems())[0];
+    const highConfidenceRate = summary.totalItems ? summary.highConfidenceItems / summary.totalItems : 0;
+    const coverageStart = years.length ? years[years.length - 1].year : "Sem recorte";
+    const coverageEnd = years.length ? years[0].year : "Sem recorte";
+
+    elements.executiveMeta.textContent = `Base consolidada entre ${escapeHtml(coverageStart)} e ${escapeHtml(coverageEnd)}, com ultima publicacao em ${escapeHtml(formatDate(newestItem?.publishedAt))}.`;
+    elements.executiveOverview.innerHTML = `
+      <article class="executive-overview-card">
+        <span class="executive-overview-label">Sintese executiva</span>
+        <h3>${escapeHtml(formatNumber(summary.totalItems || 0))} registros publicos reunidos para leitura gerencial</h3>
+        <p>
+          A base atual combina ${escapeHtml(formatNumber(summary.analyzedDiaryCount || 0))} edicoes analisadas,
+          ${escapeHtml(formatNumber(summary.uniqueSuppliers || 0))} fornecedores identificados e valor conhecido de
+          ${escapeHtml(formatCurrency(summary.totalValue || 0))}.
+        </p>
+      </article>
+    `;
+
+    const cards = [
+      {
+        label: "Confiabilidade da leitura",
+        value: formatPercent(highConfidenceRate),
+        meta: `${formatNumber(summary.highConfidenceItems || 0)} registros com alta confianca.`,
+      },
+      {
+        label: "Tipo predominante",
+        value: topType?.type || "Sem classificacao",
+        meta: `${formatNumber(topType?.count || 0)} registros no principal agrupamento.`,
+      },
+      {
+        label: "Maior concentracao institucional",
+        value: topOrganization?.displayName || "Nao identificado",
+        meta: `${formatNumber(topOrganization?.count || 0)} registros no orgao com maior volume.`,
+      },
+      {
+        label: "Recencia da base",
+        value: formatDate(newestItem?.publishedAt),
+        meta: "Data do registro publico mais recente presente na base.",
+      },
+    ];
+
+    elements.executiveCards.innerHTML = cards.map((card) => `
+      <article class="executive-card">
+        <span>${escapeHtml(card.label)}</span>
+        <strong>${escapeHtml(card.value)}</strong>
+        <p>${escapeHtml(card.meta)}</p>
+      </article>
+    `).join("");
   }
 
   function renderTypePills() {
@@ -147,6 +213,7 @@
     populateSelect(elements.typeSelect, typeOptions, "Todos os tipos");
     populateSelect(elements.yearSelect, yearOptions, "Todos os anos");
     renderMetrics();
+    renderExecutiveSummary();
     updateFilters({ resetVisible: true });
   }
 
@@ -170,6 +237,9 @@
   wireEvents();
   loadDashboard().catch((error) => {
     elements.headlineMetrics.innerHTML = `<div class="empty-card">${escapeHtml(error.message)}</div>`;
+    elements.executiveOverview.innerHTML = `<div class="empty-card">${escapeHtml(error.message)}</div>`;
+    elements.executiveCards.innerHTML = "";
+    elements.executiveMeta.textContent = "Nao foi possivel consolidar o panorama gerencial.";
     elements.contractsList.innerHTML = `<div class="empty-card">${escapeHtml(error.message)}</div>`;
     elements.resultsMeta.textContent = "Nao foi possivel carregar a base publica.";
   });

@@ -7,7 +7,7 @@
     activeType: "",
     sortMode: "newest",
     specialFilter: "",
-    activePreset: "recent",
+    activePreset: "",
   };
 
   const BROKEN_TEXT_REPLACEMENTS = [
@@ -26,6 +26,8 @@
 
   const elements = {
     headlineMetrics: document.getElementById("headline-metrics"),
+    heroSearchForm: document.getElementById("hero-search-form"),
+    heroSearchInput: document.getElementById("hero-search-input"),
     heroUpdatedAt: document.getElementById("hero-updated-at"),
     heroStatusCopy: document.getElementById("hero-status-copy"),
     heroDiaryCount: document.getElementById("hero-diary-count"),
@@ -371,16 +373,13 @@
 
   function renderActiveFiltersSummary({ query, type, year }) {
     const parts = [];
-    const hasManualFilter = Boolean(query || type || year || state.specialFilter === "missingValue" || state.sortMode === "highestValue" || state.activePreset && state.activePreset !== "recent");
+    const hasManualFilter = Boolean(query || type || year || state.specialFilter === "missingValue" || state.sortMode === "highestValue" || state.activePreset);
 
     if (!hasManualFilter) {
       elements.activeFilters.textContent = "Sem filtros ativos. A lista abaixo segue do mais novo para o mais antigo.";
       return;
     }
 
-    if (state.activePreset === "recent") {
-      parts.push("Atalho: mais recentes");
-    }
     if (query) {
       parts.push(`Busca: ${query}`);
     }
@@ -536,7 +535,21 @@
   }
 
   function wireEvents() {
+    if (elements.heroSearchForm && elements.heroSearchInput) {
+      elements.heroSearchForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        elements.searchInput.value = elements.heroSearchInput.value.trim();
+        state.activePreset = "";
+        updateFilters({ resetVisible: true });
+        document.getElementById("section-controls")?.scrollIntoView({ behavior: "smooth", block: "start" });
+        elements.searchInput.focus({ preventScroll: true });
+      });
+    }
+
     elements.searchInput.addEventListener("input", () => {
+      if (elements.heroSearchInput) {
+        elements.heroSearchInput.value = elements.searchInput.value;
+      }
       state.activePreset = "";
       updateFilters({ resetVisible: true });
     });
@@ -549,13 +562,16 @@
       updateFilters({ resetVisible: true });
     });
     elements.resetFilters.addEventListener("click", () => {
+      if (elements.heroSearchInput) {
+        elements.heroSearchInput.value = "";
+      }
       elements.searchInput.value = "";
       elements.typeSelect.value = "";
       elements.yearSelect.value = "";
       state.activeType = "";
       state.sortMode = "newest";
       state.specialFilter = "";
-      state.activePreset = "recent";
+      state.activePreset = "";
       updateFilters({ resetVisible: true });
     });
     elements.loadMore.addEventListener("click", () => {

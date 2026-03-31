@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#325497">
+  <title>Painel Publico de Contratos - Iguape/SP</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <header class="hero">
+      <p class="eyebrow">Consulta publica</p>
+      <h1>Painel Publico de Contratos - Iguape/SP</h1>
+      <p class="hero-copy">
+        Leitura enxuta dos atos contratuais publicados no Diario Oficial. A exibicao e somente leitura,
+        otimizada para GitHub Pages e navegacao em desktop, tablet e celular.
+      </p>
+      <div id="headline-metrics" class="headline-metrics">
+        <div class="empty-card">Carregando indicadores...</div>
+      </div>
+    </header>
+
+    <section class="panel controls-panel">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">Filtros</p>
+          <h2>Consulta rapida</h2>
+        </div>
+        <button id="reset-filters" class="ghost-button" type="button">Limpar</button>
+      </div>
+      <div class="controls-grid">
+        <label>
+          <span>Busca</span>
+          <input id="search-input" type="search" placeholder="Objeto, empresa, orgao, numero...">
+        </label>
+        <label>
+          <span>Tipo</span>
+          <select id="type-select"></select>
+        </label>
+        <label>
+          <span>Ano</span>
+          <select id="year-select"></select>
+        </label>
+      </div>
+      <div id="type-pills" class="pill-row"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">Base publica</p>
+          <h2>Contratos mais recentes</h2>
+        </div>
+        <div id="results-meta" class="results-meta">Carregando base...</div>
+      </div>
+      <div id="contracts-list" class="contracts-list">
+        <div class="empty-card">Carregando registros...</div>
+      </div>
+      <div class="footer-actions">
+        <button id="load-more" class="ghost-button" type="button">Carregar mais</button>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <p id="footer-copy">Base em atualizacao.</p>
+      <a href="https://www.iguape.sp.gov.br/portal/diario-oficial" target="_blank" rel="noopener noreferrer">Abrir Diario Oficial</a>
+    </footer>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,316 @@
+:root {
+  --bg: #eef3f9;
+  --surface: #ffffff;
+  --surface-alt: #f7f9fc;
+  --ink: #203044;
+  --ink-soft: #607187;
+  --line: rgba(50, 84, 151, 0.14);
+  --accent: #3a5ea6;
+  --accent-strong: #325497;
+  --accent-soft: #e9f0fb;
+  --shadow: 0 16px 34px rgba(34, 53, 86, 0.08);
+  --radius-lg: 22px;
+  --radius-md: 16px;
+  --radius-sm: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background:
+    radial-gradient(circle at top left, rgba(58, 94, 166, 0.12), transparent 24%),
+    linear-gradient(180deg, #f9fbfe 0%, var(--bg) 100%);
+  color: var(--ink);
+  font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+.page-shell {
+  width: min(100%, 1080px);
+  margin: 0 auto;
+  padding: 22px;
+  display: grid;
+  gap: 18px;
+}
+
+.hero,
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.hero {
+  padding: 28px;
+  border-radius: var(--radius-lg);
+  display: grid;
+  gap: 14px;
+}
+
+.eyebrow {
+  margin: 0;
+  color: var(--accent);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.hero h1,
+.panel h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1.06;
+  letter-spacing: -0.03em;
+}
+
+.panel h2 {
+  font-size: clamp(1.2rem, 2.4vw, 1.7rem);
+}
+
+.hero-copy,
+.results-meta,
+.empty-card,
+.page-footer,
+.meta-line,
+.control label span {
+  color: var(--ink-soft);
+}
+
+.headline-metrics,
+.contracts-list {
+  display: grid;
+  gap: 12px;
+}
+
+.headline-metrics {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.metric-card,
+.contract-card,
+.empty-card {
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  background: var(--surface-alt);
+}
+
+.metric-card {
+  padding: 16px 18px;
+  display: grid;
+  gap: 6px;
+}
+
+.metric-card strong {
+  font-size: clamp(1.35rem, 2vw, 1.8rem);
+}
+
+.metric-card span {
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+
+.panel {
+  padding: 20px;
+  border-radius: var(--radius-lg);
+}
+
+.panel-head {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.controls-grid {
+  display: grid;
+  grid-template-columns: 1.4fr repeat(2, minmax(0, 0.7fr));
+  gap: 12px;
+}
+
+.controls-grid label {
+  display: grid;
+  gap: 8px;
+}
+
+.controls-grid span {
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: var(--ink-soft);
+}
+
+.controls-grid input,
+.controls-grid select {
+  min-height: 48px;
+  width: 100%;
+  padding: 0 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--surface-alt);
+  color: var(--ink);
+}
+
+.pill-row {
+  margin-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.type-pill,
+.ghost-button,
+.action-link {
+  min-height: 38px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: var(--surface-alt);
+  color: var(--accent-strong);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.type-pill.active {
+  background: var(--accent-soft);
+}
+
+.contract-card {
+  padding: 18px;
+  display: grid;
+  gap: 12px;
+}
+
+.contract-head {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.contract-head h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.badge-row,
+.meta-row,
+.action-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.badge,
+.meta-chip {
+  min-height: 28px;
+  padding: 0 10px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.badge {
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+}
+
+.badge.neutral,
+.meta-chip {
+  background: rgba(32, 48, 68, 0.06);
+  color: var(--ink-soft);
+}
+
+.contract-summary {
+  margin: 0;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
+
+.meta-line {
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.footer-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.page-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0 4px 6px;
+  font-size: 0.92rem;
+}
+
+@media (max-width: 860px) {
+  .headline-metrics,
+  .controls-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contract-head,
+  .panel-head,
+  .page-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-shell {
+    padding-top: calc(14px + env(safe-area-inset-top));
+    padding-right: calc(14px + env(safe-area-inset-right));
+    padding-bottom: calc(18px + env(safe-area-inset-bottom));
+    padding-left: calc(14px + env(safe-area-inset-left));
+  }
+
+  .hero,
+  .panel {
+    padding: 18px;
+    border-radius: 18px;
+  }
+
+  .controls-grid input,
+  .controls-grid select {
+    font-size: 16px;
+  }
+
+  .type-pill,
+  .ghost-button,
+  .action-link {
+    width: 100%;
+  }
+
+  .pill-row,
+  .action-row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

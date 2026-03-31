@@ -16,6 +16,8 @@
     executiveMeta: document.getElementById("executive-meta"),
     executiveOverview: document.getElementById("executive-overview"),
     executiveCards: document.getElementById("executive-cards"),
+    prioritiesMeta: document.getElementById("priorities-meta"),
+    priorityCards: document.getElementById("priority-cards"),
     searchInput: document.getElementById("search-input"),
     typeSelect: document.getElementById("type-select"),
     yearSelect: document.getElementById("year-select"),
@@ -53,6 +55,12 @@
     const date = new Date(value);
     if (Number.isNaN(date.getTime())) return value;
     return new Intl.DateTimeFormat("pt-BR", includeTime ? { dateStyle: "medium", timeStyle: "short" } : { dateStyle: "medium" }).format(date);
+  }
+
+  function truncateText(value, limit = 88) {
+    const text = String(value || "").replace(/\s+/g, " ").trim();
+    if (text.length <= limit) return text;
+    return `${text.slice(0, limit - 3).trim()}...`;
   }
 
   function getGovernmentLabel(sphere) {
@@ -159,6 +167,81 @@
     `).join("");
   }
 
+  function renderPriorities() {
+    const items = getItems();
+    const latestItems = sortByNewest(items).slice(0, 3);
+    const highestValueItems = [...items]
+      .filter((item) => Number(item.valueNumber || 0) > 0)
+      .sort((a, b) => Number(b.valueNumber || 0) - Number(a.valueNumber || 0))
+      .slice(0, 3);
+    const itemsWithoutValue = sortByNewest(items.filter((item) => Number(item.valueNumber || 0) <= 0));
+    const missingValueSample = itemsWithoutValue.slice(0, 3);
+    const topOrganizations = (state.payload?.organizationSummary || []).slice(0, 3);
+
+    elements.prioritiesMeta.textContent = `4 frentes organizadas para leitura inicial da chefia: recencia, maior valor, lacunas de valor e concentracao institucional.`;
+
+    const cards = [
+      {
+        label: "Mais recentes",
+        tone: "recent",
+        headline: latestItems[0] ? formatDate(latestItems[0].publishedAt) : "Sem data recente",
+        summary: "Ultimos atos inseridos na base publicada.",
+        items: latestItems.map((item) => ({
+          primary: truncateText(item.title || "Ato contratual"),
+          secondary: `${formatDate(item.publishedAt)} • ${truncateText(item.organizationDisplay || formatOrganizationLabel(item.organization, item.organizationSphere), 52)}`,
+        })),
+      },
+      {
+        label: "Maiores valores",
+        tone: "value",
+        headline: highestValueItems[0]?.value || "Sem valor identificado",
+        summary: "Registros com maior impacto financeiro identificado na base.",
+        items: highestValueItems.map((item) => ({
+          primary: truncateText(item.title || "Ato contratual"),
+          secondary: `${item.value || "Valor nao informado"} • ${truncateText(item.organizationDisplay || formatOrganizationLabel(item.organization, item.organizationSphere), 52)}`,
+        })),
+      },
+      {
+        label: "Sem valor informado",
+        tone: "attention",
+        headline: formatNumber(itemsWithoutValue.length),
+        summary: "Registros ainda sem valor consolidado para leitura rapida.",
+        items: missingValueSample.map((item) => ({
+          primary: truncateText(item.title || "Ato contratual"),
+          secondary: `${formatDate(item.publishedAt)} • ${truncateText(item.organizationDisplay || formatOrganizationLabel(item.organization, item.organizationSphere), 52)}`,
+        })),
+      },
+      {
+        label: "Maior concentracao por orgao",
+        tone: "institution",
+        headline: topOrganizations[0]?.displayName || "Nao identificado",
+        summary: "Orgaos com maior volume de registros na base publicada.",
+        items: topOrganizations.map((item) => ({
+          primary: truncateText(item.displayName || "Orgao nao identificado", 72),
+          secondary: `${formatNumber(item.count || 0)} registro(s) • ${formatCurrency(item.totalValue || 0)}`,
+        })),
+      },
+    ];
+
+    elements.priorityCards.innerHTML = cards.map((card) => `
+      <article class="priority-card priority-card-${escapeHtml(card.tone)}">
+        <div class="priority-card-head">
+          <span class="priority-label">${escapeHtml(card.label)}</span>
+          <strong>${escapeHtml(card.headline)}</strong>
+          <p>${escapeHtml(card.summary)}</p>
+        </div>
+        <div class="priority-list">
+          ${card.items.map((item) => `
+            <article class="priority-list-item">
+              <strong>${escapeHtml(item.primary)}</strong>
+              <span>${escapeHtml(item.secondary)}</span>
+            </article>
+          `).join("")}
+        </div>
+      </article>
+    `).join("");
+  }
+
   function renderTypePills() {
     const rows = state.payload?.typeSummary || [];
     elements.typePills.innerHTML = rows.map((row) => `<button class="type-pill ${state.activeType === row.type ? "active" : ""}" data-type="${escapeHtml(row.type)}" type="button">${escapeHtml(row.type)} (${escapeHtml(row.count)})</button>`).join("");
@@ -214,6 +297,7 @@
     populateSelect(elements.yearSelect, yearOptions, "Todos os anos");
     renderMetrics();
     renderExecutiveSummary();
+    renderPriorities();
     updateFilters({ resetVisible: true });
   }
 
@@ -240,6 +324,8 @@
     elements.executiveOverview.innerHTML = `<div class="empty-card">${escapeHtml(error.message)}</div>`;
     elements.executiveCards.innerHTML = "";
     elements.executiveMeta.textContent = "Nao foi possivel consolidar o panorama gerencial.";
+    elements.priorityCards.innerHTML = "";
+    elements.prioritiesMeta.textContent = "Nao foi possivel consolidar os pontos de atencao.";
     elements.contractsList.innerHTML = `<div class="empty-card">${escapeHtml(error.message)}</div>`;
     elements.resultsMeta.textContent = "Nao foi possivel carregar a base publica.";
   });

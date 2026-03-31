@@ -22,12 +22,19 @@ html,
 body {
   margin: 0;
   min-height: 100%;
+  width: 100%;
+  overflow-x: hidden;
   background:
     radial-gradient(circle at top left, rgba(20, 56, 93, 0.11), transparent 24%),
     radial-gradient(circle at top right, rgba(140, 106, 45, 0.09), transparent 28%),
     linear-gradient(180deg, #f9fbfd 0%, var(--bg) 100%);
   color: var(--ink);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 button,
@@ -108,6 +115,8 @@ a {
 .brand-copy {
   display: grid;
   gap: 4px;
+  min-width: 0;
+  flex: 1 1 auto;
 }
 
 .brand-kicker,
@@ -149,6 +158,7 @@ a {
 .hero-brief {
   display: grid;
   gap: 14px;
+  min-width: 0;
 }
 
 .hero-kicker-row {
@@ -169,6 +179,7 @@ a {
   justify-content: center;
   font-size: 0.78rem;
   font-weight: 800;
+  max-width: 100%;
 }
 
 .hero-badge {
@@ -200,6 +211,7 @@ a {
 .hero-brief-title {
   font-size: 1.1rem;
   line-height: 1.35;
+  overflow-wrap: anywhere;
 }
 
 .hero-brief-copy {
@@ -275,6 +287,20 @@ a {
 .meta-line,
 .control label span {
   color: var(--ink-soft);
+}
+
+.hero-copy,
+.brand-subcopy,
+.results-meta,
+.executive-overview-card h3,
+.executive-card strong,
+.priority-card-head strong,
+.priority-list-item strong,
+.contract-head h3,
+.contract-summary,
+.meta-line,
+.footer-identity span {
+  overflow-wrap: anywhere;
 }
 
 .headline-metrics,
@@ -468,6 +494,10 @@ a {
   margin-bottom: 16px;
 }
 
+.panel-head > * {
+  min-width: 0;
+}
+
 .controls-grid {
   display: grid;
   grid-template-columns: 1.4fr repeat(2, minmax(0, 0.7fr));
@@ -496,6 +526,7 @@ a {
   gap: 6px;
   text-align: left;
   cursor: pointer;
+  width: 100%;
 }
 
 .quick-filter-button span {
@@ -591,6 +622,7 @@ a {
   color: var(--accent-strong);
   font-weight: 700;
   cursor: pointer;
+  max-width: 100%;
 }
 
 .type-pill.active {
@@ -608,6 +640,17 @@ a {
   align-items: start;
   justify-content: space-between;
   gap: 14px;
+  flex-wrap: wrap;
+}
+
+.contract-head > div:first-child {
+  min-width: 0;
+  flex: 1 1 280px;
+}
+
+.meta-row {
+  justify-content: flex-end;
+  flex: 0 0 auto;
 }
 
 .contract-head h3 {
@@ -682,24 +725,32 @@ a {
   font-size: 0.96rem;
 }
 
+@media (max-width: 1100px) {
+  .page-shell {
+    padding: 18px;
+  }
+
+  .quick-filters {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
 @media (max-width: 860px) {
   .headline-metrics,
-  .controls-grid,
   .executive-cards,
-  .priority-cards,
-  .quick-filters {
+  .priority-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hero-grid {
     grid-template-columns: 1fr;
   }
 
-  .brand-strip,
-  .hero-grid,
+  .headline-metrics,
+  .controls-grid,
+  .quick-filters,
   .hero-brief-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .brand-strip {
-    flex-direction: column;
-    align-items: flex-start;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .contract-head,
@@ -707,6 +758,64 @@ a {
   .page-footer {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .results-meta {
+    max-width: none;
+    text-align: left;
+  }
+
+  .meta-row {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 640px) {
+  .brand-strip {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .hero-kicker-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .headline-metrics,
+  .controls-grid,
+  .executive-cards,
+  .priority-cards,
+  .quick-filters,
+  .hero-brief-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: clamp(1.9rem, 10vw, 2.55rem);
+  }
+
+  .hero-primary-link {
+    width: 100%;
+    justify-self: stretch;
+  }
+
+  .hero-highlights {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .hero-highlight,
+  .hero-badge {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .priority-card,
+  .contract-card,
+  .executive-card,
+  .executive-overview-card {
+    padding: 16px;
   }
 }
 
@@ -720,12 +829,18 @@ a {
 
   .hero,
   .panel {
-    padding: 18px;
+    padding: 16px;
     border-radius: 18px;
   }
 
-  .hero-primary-link {
-    width: 100%;
+  .brand-mark {
+    width: 56px;
+    height: 56px;
+    border-radius: 16px;
+  }
+
+  .brand-copy strong {
+    font-size: 1.05rem;
   }
 
   .controls-grid input,
@@ -733,6 +848,7 @@ a {
     font-size: 16px;
   }
 
+  .quick-filter-button,
   .type-pill,
   .ghost-button,
   .action-link {
@@ -743,5 +859,24 @@ a {
   .action-row {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .headline-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-actions {
+    width: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+  .hero h1 {
+    font-size: 1.72rem;
+  }
+
+  .brand-kicker,
+  .eyebrow {
+    letter-spacing: 0.12em;
   }
 }

@@ -63,7 +63,7 @@
         <a class="audience-card" href="#section-controls">
           <span class="audience-icon">03</span>
           <strong>Servidor</strong>
-          <span>Busca, filtros e navegação por tipo, ano e prioridade.</span>
+          <span>Busca, filtros, compartilhamento e exportação do recorte atual.</span>
         </a>
       </div>
 
@@ -71,6 +71,7 @@
         <a href="#section-top">Home</a>
         <a href="#section-executive">Panorama</a>
         <a href="#section-priorities">Prioridades</a>
+        <a href="#section-insights">Insights</a>
         <a href="#section-controls">Consulta</a>
         <a href="#section-contracts">Atos oficiais</a>
         <a href="https://www.iguape.sp.gov.br/portal/diario-oficial" target="_blank" rel="noopener noreferrer">Diário Oficial</a>
@@ -93,8 +94,8 @@
 
           <div class="hero-highlights" aria-label="Destaques do painel">
             <span class="hero-highlight">Base consolidada do Diário Oficial</span>
-            <span class="hero-highlight">Acompanhamento gerencial</span>
-            <span class="hero-highlight">Navegação por filtros</span>
+            <span class="hero-highlight">Consulta compartilhável</span>
+            <span class="hero-highlight">Exportação em CSV</span>
           </div>
 
           <div class="headline-stage">
@@ -173,17 +174,40 @@
       </div>
     </section>
 
+    <section id="section-insights" class="panel insights-panel">
+      <div class="panel-head">
+        <div class="panel-title">
+          <span class="panel-icon">+</span>
+          <div>
+            <p class="eyebrow">Insights automáticos</p>
+            <h2>Pistas úteis para leitura inicial</h2>
+          </div>
+        </div>
+        <div class="panel-head-tools">
+          <div id="insights-meta" class="results-meta">Analisando padrões da base...</div>
+          <a class="panel-link" href="#section-controls">Usar estes filtros</a>
+        </div>
+      </div>
+      <div id="insight-cards" class="insight-cards">
+        <div class="empty-card">Consolidando insights da base...</div>
+      </div>
+    </section>
+
     <section id="section-controls" class="panel controls-panel">
       <div class="panel-head">
         <div class="panel-title">
           <span class="panel-icon">?</span>
           <div>
             <p class="eyebrow">Consulta pública</p>
-            <h2>Busca rápida e filtros</h2>
+            <h2>Busca rápida, filtros e ações úteis</h2>
           </div>
         </div>
         <div class="panel-head-tools">
-          <button id="reset-filters" class="ghost-button" type="button">Limpar filtros</button>
+          <div class="panel-actions">
+            <button id="copy-link" class="ghost-button secondary-button" type="button">Compartilhar consulta</button>
+            <button id="export-csv" class="ghost-button secondary-button" type="button">Exportar CSV</button>
+            <button id="reset-filters" class="ghost-button" type="button">Limpar filtros</button>
+          </div>
         </div>
       </div>
 
@@ -191,7 +215,7 @@
         <div class="empty-card">Carregando atalhos de navegação...</div>
       </div>
 
-      <div class="controls-grid">
+      <div class="controls-grid controls-grid-extended">
         <label>
           <span>Busca</span>
           <input id="search-input" type="search" placeholder="Buscar por objeto, empresa, órgão, número ou edição...">
@@ -204,9 +228,26 @@
           <span>Ano</span>
           <select id="year-select"></select>
         </label>
+        <label>
+          <span>Confiabilidade</span>
+          <select id="confidence-select"></select>
+        </label>
+        <label>
+          <span>Ordenação</span>
+          <select id="sort-select">
+            <option value="newest">Mais recentes</option>
+            <option value="highestValue">Maior valor</option>
+            <option value="oldest">Mais antigos</option>
+            <option value="alphabetical">Ordem alfabética</option>
+          </select>
+        </label>
       </div>
 
       <p id="active-filters" class="active-filters">Sem filtros ativos. A lista abaixo segue do mais novo para o mais antigo.</p>
+      <p id="share-feedback" class="inline-feedback" aria-live="polite"></p>
+      <div id="selection-summary" class="selection-summary">
+        <div class="empty-card">Preparando leitura da consulta...</div>
+      </div>
       <div id="type-pills" class="pill-row"></div>
     </section>
 

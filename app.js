@@ -18,6 +18,7 @@
     ["JOS├e", "JOSÉ"],
     ["J├UNIOR", "JÚNIOR"],
     ["S├uo", "São"],
+    ["s├uo", "são"],
     ["atribui├º├Aes", "atribuições"],
     ["Org├onica", "Orgânica"],
     ["Munic├¡pio", "Município"],

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <meta name="theme-color" content="#3b64ae">
+  <meta name="theme-color" content="#e26d14">
   <meta name="description" content="Painel público de contratos da Prefeitura de Iguape/SP, com leitura executiva da base publicada no Diário Oficial.">
   <meta property="og:title" content="Painel Público de Contratos - Iguape/SP">
   <meta property="og:description" content="Consulta pública com visão executiva dos contratos publicados pela Prefeitura de Iguape/SP.">
@@ -16,191 +16,150 @@
 </head>
 <body>
   <main class="page-shell">
-    <header id="section-top" class="hero portal-header">
-      <div class="portal-top">
-        <div class="portal-brand" aria-label="Identidade institucional">
+    <header id="section-top" class="portal-header">
+      <div class="government-bar">
+        <div class="government-links">
+          <a href="https://www.iguape.sp.gov.br/" target="_blank" rel="noopener noreferrer">Portal oficial</a>
+          <a href="https://www.iguape.sp.gov.br/portal/diario-oficial" target="_blank" rel="noopener noreferrer">Diário Oficial</a>
+          <a href="#section-contracts">Contratos públicos</a>
+        </div>
+        <div class="government-links government-links-right">
+          <a href="#section-controls">Serviços digitais</a>
+          <a href="#section-insights">Destaques da base</a>
+        </div>
+      </div>
+
+      <div class="portal-masthead">
+        <div class="portal-brand" aria-label="Identidade institucional da Prefeitura de Iguape">
           <img class="brand-mark" src="./assets/iguape-brasao.png" alt="Brasão da Prefeitura de Iguape">
           <div class="brand-copy">
-            <span class="brand-kicker">Prefeitura de</span>
+            <span class="brand-kicker">Prefeitura do Município de</span>
             <strong>Iguape</strong>
-            <span class="brand-subcopy">Painel público de contratos com leitura executiva e consulta externa.</span>
+            <span class="brand-subcopy">Painel público de contratos com leitura executiva e navegação inspirada no portal institucional da Prefeitura de São Paulo.</span>
           </div>
         </div>
 
         <form id="hero-search-form" class="portal-search" action="#" novalidate>
-          <label class="sr-only" for="hero-search-input">O que você procura?</label>
-          <input id="hero-search-input" type="search" placeholder="O que você procura?">
+          <label class="sr-only" for="hero-search-input">Buscar contratos públicos</label>
+          <input id="hero-search-input" type="search" placeholder="Buscar por objeto, fornecedor, órgão ou edição">
           <button type="submit">Buscar</button>
         </form>
 
-        <div class="portal-utilities" aria-label="Atalhos institucionais">
-          <div class="utility-links">
-            <a class="utility-link" href="https://www.iguape.sp.gov.br/" target="_blank" rel="noopener noreferrer">Portal</a>
-            <a class="utility-link" href="https://www.iguape.sp.gov.br/portal/diario-oficial" target="_blank" rel="noopener noreferrer">Diário</a>
-            <a class="utility-link" href="#section-controls">Consulta</a>
-          </div>
-          <div class="utility-status">
-            <span class="utility-status-label">Leitura pública</span>
+        <div class="portal-utility-panel">
+          <div class="utility-access">
+            <span class="utility-label">Acesso</span>
             <div class="utility-pills">
-              <span class="utility-pill">Atualizado</span>
+              <span class="utility-pill">Consulta pública</span>
               <span class="utility-pill muted">Sem login</span>
             </div>
           </div>
+          <div class="utility-actions">
+            <a class="utility-action" href="#section-executive">Panorama</a>
+            <a class="utility-action" href="#section-contracts">Atos oficiais</a>
+          </div>
         </div>
-      </div>
-
-      <div class="audience-strip" aria-label="Perfis de acesso">
-        <a class="audience-card" href="#section-executive">
-          <span class="audience-icon">01</span>
-          <strong>Cidadão</strong>
-          <span>Visão geral, indicadores e leitura rápida da base.</span>
-        </a>
-        <a class="audience-card" href="#section-contracts">
-          <span class="audience-icon">02</span>
-          <strong>Empresa</strong>
-          <span>Contratos, fornecedores, valores e edições oficiais.</span>
-        </a>
-        <a class="audience-card" href="#section-controls">
-          <span class="audience-icon">03</span>
-          <strong>Servidor</strong>
-          <span>Busca, filtros, compartilhamento e exportação do recorte atual.</span>
-        </a>
       </div>
 
       <nav class="portal-nav" aria-label="Navegação principal">
-        <a href="#section-top">Home</a>
-        <a href="#section-executive">Panorama</a>
-        <a href="#section-priorities">Prioridades</a>
-        <a href="#section-insights">Insights</a>
-        <a href="#section-controls">Consulta</a>
-        <a href="#section-contracts">Atos oficiais</a>
-        <a href="https://www.iguape.sp.gov.br/portal/diario-oficial" target="_blank" rel="noopener noreferrer">Diário Oficial</a>
+        <a href="#section-executive">Órgãos públicos</a>
+        <a href="#section-controls">Serviços</a>
+        <a href="#section-priorities">Atualizações</a>
+        <a href="#section-insights">Agenda e destaques</a>
+        <a href="#section-contracts">Diário Oficial</a>
       </nav>
 
-      <div class="hero-grid">
-        <div class="hero-main banner-stage">
-          <div class="hero-kicker-row">
-            <p class="eyebrow">Portal Transparência</p>
-            <span class="hero-badge">Consulta externa</span>
-          </div>
-
-          <div class="hero-lead">
+      <section class="hero-grid">
+        <article class="hero-feature">
+          <div class="hero-feature-main">
+            <span class="section-kicker hero-kicker">Painel em destaque</span>
             <h1>Painel Público de Contratos</h1>
             <p class="hero-copy">
-              Consulta pública dos atos contratuais publicados pela Prefeitura de Iguape,
-              organizada em ambiente visual alinhado ao portal municipal para leitura institucional rápida.
+              Consulte a base pública de contratos de Iguape em um formato mais institucional,
+              com leitura executiva, filtros rápidos, destaques automáticos e acesso direto aos atos oficiais.
             </p>
-          </div>
 
-          <div class="hero-highlights" aria-label="Destaques do painel">
-            <span class="hero-highlight">Base consolidada do Diário Oficial</span>
-            <span class="hero-highlight">Consulta compartilhável</span>
-            <span class="hero-highlight">Exportação em CSV</span>
-          </div>
-
-          <div class="headline-stage">
-            <div id="headline-metrics" class="headline-metrics">
-              <div class="empty-card">Carregando indicadores...</div>
+            <div class="hero-actions">
+              <a class="hero-primary-link" href="#section-controls">Consultar agora</a>
+              <a class="hero-secondary-link" href="https://www.iguape.sp.gov.br/portal/diario-oficial" target="_blank" rel="noopener noreferrer">Abrir Diário Oficial</a>
             </div>
           </div>
 
-          <div class="banner-orbs" aria-hidden="true">
-            <span class="banner-orb banner-orb-large"></span>
-            <span class="banner-orb banner-orb-medium"></span>
-            <span class="banner-orb banner-orb-small"></span>
-            <span class="banner-orb banner-orb-mark"></span>
+          <div class="hero-feature-side" aria-hidden="true">
+            <div class="hero-orb hero-orb-large"></div>
+            <div class="hero-orb hero-orb-small"></div>
+            <div class="hero-emblem">
+              <img src="./assets/iguape-brasao.png" alt="">
+            </div>
+            <article class="hero-update-card">
+              <span class="hero-update-label">Base monitorada</span>
+              <strong id="hero-updated-at" class="hero-update-title">Conferindo base publicada...</strong>
+              <p id="hero-status-copy" class="hero-update-copy">
+                O painel organiza a leitura pública dos contratos para consulta executiva.
+              </p>
+            </article>
           </div>
-        </div>
 
-        <aside class="hero-brief" aria-label="Resumo de atualização">
-          <p class="eyebrow">Atualização da base</p>
-          <strong id="hero-updated-at" class="hero-brief-title">Conferindo base publicada...</strong>
-          <p id="hero-status-copy" class="hero-brief-copy">
-            O painel organiza a leitura pública dos contratos para consulta executiva.
-          </p>
-          <div class="hero-brief-grid">
-            <article class="hero-brief-card">
-              <span>Edições analisadas</span>
-              <strong id="hero-diary-count">-</strong>
-            </article>
-            <article class="hero-brief-card">
-              <span>Fornecedores</span>
-              <strong id="hero-supplier-count">-</strong>
-            </article>
+          <div id="headline-metrics" class="headline-metrics">
+            <div class="empty-card">Carregando indicadores...</div>
           </div>
-          <a class="hero-primary-link" href="https://www.iguape.sp.gov.br/portal/diario-oficial" target="_blank" rel="noopener noreferrer">Abrir Diário Oficial</a>
+        </article>
+
+        <aside class="hero-sidebar" aria-label="Atalhos institucionais">
+          <article class="hero-brief">
+            <div class="hero-brief-head">
+              <span class="section-kicker">Serviços em destaque</span>
+              <strong class="hero-brief-title">Acesso rápido aos principais caminhos do painel</strong>
+            </div>
+            <div class="shortcut-grid">
+              <a class="shortcut-card" href="https://www.iguape.sp.gov.br/portal/diario-oficial" target="_blank" rel="noopener noreferrer">
+                <strong>Diário Oficial</strong>
+                <span>Abrir a publicação oficial da Prefeitura.</span>
+              </a>
+              <a class="shortcut-card" href="#section-controls">
+                <strong>Consulta avançada</strong>
+                <span>Usar filtros, ordenação e exportação do recorte.</span>
+              </a>
+              <a class="shortcut-card" href="#section-executive">
+                <strong>Panorama gerencial</strong>
+                <span>Ver a síntese executiva da base publicada.</span>
+              </a>
+              <a class="shortcut-card" href="#section-contracts">
+                <strong>Atos oficiais</strong>
+                <span>Abrir a listagem consolidada dos registros.</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="hero-brief hero-brief-status">
+            <div class="hero-brief-head">
+              <span class="section-kicker">Situação da base</span>
+              <strong class="hero-brief-title">Números consolidados para leitura rápida</strong>
+            </div>
+            <div class="hero-brief-grid">
+              <article class="hero-brief-card">
+                <span>Edições analisadas</span>
+                <strong id="hero-diary-count">-</strong>
+              </article>
+              <article class="hero-brief-card">
+                <span>Fornecedores</span>
+                <strong id="hero-supplier-count">-</strong>
+              </article>
+            </div>
+            <article class="spotlight-box">
+              <span class="section-kicker">Leitura institucional</span>
+              <strong>Estrutura criada para chefia, controle interno e consulta externa.</strong>
+              <span>Use os blocos abaixo para localizar tendências, exportar recortes e compartilhar a leitura atual.</span>
+            </article>
+          </article>
         </aside>
-      </div>
+      </section>
     </header>
-
-    <section id="section-executive" class="panel executive-panel">
-      <div class="panel-head">
-        <div class="panel-title">
-          <span class="panel-icon">i</span>
-          <div>
-            <p class="eyebrow">Panorama gerencial</p>
-            <h2>Leitura rápida da base publicada</h2>
-          </div>
-        </div>
-        <div class="panel-head-tools">
-          <div id="executive-meta" class="results-meta">Consolidando panorama...</div>
-          <a class="panel-link" href="#section-contracts">Ver base</a>
-        </div>
-      </div>
-      <div id="executive-overview" class="executive-overview">
-        <div class="empty-card">Preparando síntese executiva...</div>
-      </div>
-      <div id="executive-cards" class="executive-cards">
-        <div class="empty-card">Carregando sinais gerenciais...</div>
-      </div>
-    </section>
-
-    <section id="section-priorities" class="panel priorities-panel">
-      <div class="panel-head">
-        <div class="panel-title">
-          <span class="panel-icon">!</span>
-          <div>
-            <p class="eyebrow">Prioridades</p>
-            <h2>Pontos de atenção imediata</h2>
-          </div>
-        </div>
-        <div class="panel-head-tools">
-          <div id="priorities-meta" class="results-meta">Organizando destaques...</div>
-          <a class="panel-link" href="#section-controls">Ir para filtros</a>
-        </div>
-      </div>
-      <div id="priority-cards" class="priority-cards">
-        <div class="empty-card">Consolidando prioridades da base...</div>
-      </div>
-    </section>
-
-    <section id="section-insights" class="panel insights-panel">
-      <div class="panel-head">
-        <div class="panel-title">
-          <span class="panel-icon">+</span>
-          <div>
-            <p class="eyebrow">Insights automáticos</p>
-            <h2>Pistas úteis para leitura inicial</h2>
-          </div>
-        </div>
-        <div class="panel-head-tools">
-          <div id="insights-meta" class="results-meta">Analisando padrões da base...</div>
-          <a class="panel-link" href="#section-controls">Usar estes filtros</a>
-        </div>
-      </div>
-      <div id="insight-cards" class="insight-cards">
-        <div class="empty-card">Consolidando insights da base...</div>
-      </div>
-    </section>
 
     <section id="section-controls" class="panel controls-panel">
       <div class="panel-head">
         <div class="panel-title">
-          <span class="panel-icon">?</span>
-          <div>
-            <p class="eyebrow">Consulta pública</p>
-            <h2>Busca rápida, filtros e ações úteis</h2>
-          </div>
+          <p class="section-kicker">Serviços digitais</p>
+          <h2>Busca rápida, filtros e ações úteis</h2>
         </div>
         <div class="panel-head-tools">
           <div class="panel-actions">
@@ -215,59 +174,142 @@
         <div class="empty-card">Carregando atalhos de navegação...</div>
       </div>
 
-      <div class="controls-grid controls-grid-extended">
-        <label>
-          <span>Busca</span>
-          <input id="search-input" type="search" placeholder="Buscar por objeto, empresa, órgão, número ou edição...">
-        </label>
-        <label>
-          <span>Tipo</span>
-          <select id="type-select"></select>
-        </label>
-        <label>
-          <span>Ano</span>
-          <select id="year-select"></select>
-        </label>
-        <label>
-          <span>Confiabilidade</span>
-          <select id="confidence-select"></select>
-        </label>
-        <label>
-          <span>Ordenação</span>
-          <select id="sort-select">
-            <option value="newest">Mais recentes</option>
-            <option value="highestValue">Maior valor</option>
-            <option value="oldest">Mais antigos</option>
-            <option value="alphabetical">Ordem alfabética</option>
-          </select>
-        </label>
+      <div class="controls-shell">
+        <div class="controls-grid controls-grid-extended">
+          <label>
+            <span>Busca</span>
+            <input id="search-input" type="search" placeholder="Buscar por objeto, empresa, órgão, número ou edição...">
+          </label>
+          <label>
+            <span>Ano</span>
+            <select id="year-select"></select>
+          </label>
+          <label>
+            <span>Tipo predominante</span>
+            <select id="type-select"></select>
+          </label>
+          <label>
+            <span>Maior valor / confiança</span>
+            <select id="confidence-select"></select>
+          </label>
+          <label>
+            <span>Ordenação</span>
+            <select id="sort-select">
+              <option value="newest">Mais recentes</option>
+              <option value="highestValue">Maior valor</option>
+              <option value="oldest">Mais antigos</option>
+              <option value="alphabetical">Ordem alfabética</option>
+            </select>
+          </label>
+        </div>
+
+        <p id="active-filters" class="active-filters">Sem filtros ativos. A lista abaixo segue do mais novo para o mais antigo.</p>
+        <p id="share-feedback" class="inline-feedback" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <div class="content-grid">
+      <section id="section-executive" class="panel executive-panel">
+        <div class="panel-head">
+          <div class="panel-title">
+            <p class="section-kicker">Últimas atualizações</p>
+            <h2>Leitura rápida da base publicada</h2>
+          </div>
+          <div class="panel-head-tools">
+            <div id="executive-meta" class="results-meta">Consolidando panorama...</div>
+            <a class="panel-link" href="#section-contracts">Ver base</a>
+          </div>
+        </div>
+
+        <div id="executive-overview" class="executive-overview">
+          <div class="empty-card">Preparando síntese executiva...</div>
+        </div>
+
+        <div id="executive-cards" class="executive-cards">
+          <div class="empty-card">Carregando sinais gerenciais...</div>
+        </div>
+      </section>
+
+      <section id="section-priorities" class="panel priorities-panel">
+        <div class="panel-head">
+          <div class="panel-title">
+            <p class="section-kicker">Atualizações</p>
+            <h2>Pontos de atenção imediata</h2>
+          </div>
+          <div class="panel-head-tools">
+            <div id="priorities-meta" class="results-meta">Organizando destaques...</div>
+            <a class="panel-link" href="#section-controls">Ir para filtros</a>
+          </div>
+        </div>
+
+        <div id="priority-cards" class="priority-cards">
+          <div class="empty-card">Consolidando prioridades da base...</div>
+        </div>
+      </section>
+    </div>
+
+    <section id="section-insights" class="panel insights-panel">
+      <div class="panel-head">
+        <div class="panel-title">
+          <p class="section-kicker">Agenda e destaques</p>
+          <h2>Pistas úteis para leitura inicial</h2>
+        </div>
+        <div class="panel-head-tools">
+          <div id="insights-meta" class="results-meta">Analisando padrões da base...</div>
+          <a class="panel-link" href="#section-controls">Usar estes filtros</a>
+        </div>
       </div>
 
-      <p id="active-filters" class="active-filters">Sem filtros ativos. A lista abaixo segue do mais novo para o mais antigo.</p>
-      <p id="share-feedback" class="inline-feedback" aria-live="polite"></p>
-      <div id="selection-summary" class="selection-summary">
-        <div class="empty-card">Preparando leitura da consulta...</div>
+      <div class="insights-layout">
+        <div id="insight-cards" class="insight-cards">
+          <div class="empty-card">Consolidando insights da base...</div>
+        </div>
+
+        <aside class="insights-side">
+          <article class="side-panel">
+            <div class="side-panel-head">
+              <p class="section-kicker">Resumo da consulta</p>
+              <h3>Panorama do recorte atual</h3>
+            </div>
+            <div id="selection-summary" class="selection-summary">
+              <div class="empty-card">Preparando leitura da consulta...</div>
+            </div>
+          </article>
+
+          <article class="side-panel">
+            <div class="side-panel-head">
+              <p class="section-kicker">Tipos de ato</p>
+              <h3>Navegação por classificação</h3>
+            </div>
+            <div id="type-pills" class="pill-row"></div>
+          </article>
+        </aside>
       </div>
-      <div id="type-pills" class="pill-row"></div>
     </section>
 
     <section id="section-contracts" class="panel records-panel">
       <div class="panel-head">
         <div class="panel-title">
-          <span class="panel-icon">#</span>
-          <div>
-            <p class="eyebrow">Atos oficiais</p>
-            <h2>Contratos mais recentes</h2>
-          </div>
+          <p class="section-kicker">Atos oficiais</p>
+          <h2>Contratos mais recentes</h2>
         </div>
         <div class="panel-head-tools">
           <div id="results-meta" class="results-meta">Carregando base...</div>
           <a class="panel-link" href="https://www.iguape.sp.gov.br/portal/diario-oficial" target="_blank" rel="noopener noreferrer">Abrir Diário</a>
         </div>
       </div>
+
+      <div class="records-intro">
+        <div class="records-intro-copy">
+          <span class="section-kicker">Consulta aberta</span>
+          <strong>Listagem consolidada dos contratos, com acesso direto aos atos publicados no Diário Oficial.</strong>
+        </div>
+      </div>
+
       <div id="contracts-list" class="contracts-list">
         <div class="empty-card">Carregando registros...</div>
       </div>
+
       <div class="footer-actions">
         <button id="load-more" class="ghost-button" type="button">Carregar mais</button>
       </div>
@@ -275,16 +317,22 @@
 
     <footer class="site-footer">
       <div class="footer-grid">
-        <div class="footer-block footer-brand-block">
+        <div class="footer-brand-block">
           <img class="footer-mark" src="./assets/iguape-brasao.png" alt="Brasão da Prefeitura de Iguape">
           <div class="footer-brand-copy">
-            <strong>Prefeitura de Iguape/SP</strong>
-            <span>Painel público para leitura executiva dos contratos publicados.</span>
+            <strong>Prefeitura do Município de Iguape</strong>
+            <span>Painel público de contratos com leitura institucional inspirada no portal da Prefeitura de São Paulo.</span>
           </div>
         </div>
 
         <div class="footer-block">
-          <span class="footer-heading">Acesso institucional</span>
+          <span class="footer-heading">Serviços</span>
+          <a class="footer-link" href="#section-controls">Consulta pública</a>
+          <a class="footer-link" href="#section-contracts">Atos oficiais</a>
+        </div>
+
+        <div class="footer-block">
+          <span class="footer-heading">Transparência</span>
           <a class="footer-link" href="https://www.iguape.sp.gov.br/" target="_blank" rel="noopener noreferrer">Portal oficial</a>
           <a class="footer-link" href="https://www.iguape.sp.gov.br/portal/diario-oficial" target="_blank" rel="noopener noreferrer">Diário Oficial</a>
         </div>
@@ -293,11 +341,6 @@
           <span class="footer-heading">Situação da base</span>
           <span id="footer-copy">Base em atualização.</span>
         </div>
-      </div>
-
-      <div class="footer-bottom">
-        <span>Consulta pública com foco em acompanhamento gerencial.</span>
-        <a class="footer-link footer-bottom-link" href="https://www.iguape.sp.gov.br/portal/diario-oficial" target="_blank" rel="noopener noreferrer">Abrir Diário Oficial</a>
       </div>
     </footer>
   </main>

@@ -544,7 +544,7 @@ function Merge-Diaries {
         }
 
         if (Test-PublicWorkflowMode) {
-            $existingAnalysis = if (@($candidateKeywords).Count -gt 0) { Get-ExistingAnalysis -DiaryId $id } else { $null }
+            $existingAnalysis = Get-ExistingAnalysis -DiaryId $id
             if (Test-ExistingDiaryAnalysisCurrent -ExistingDiary $existing -Analysis $existingAnalysis -NewDiaryRecord ([pscustomobject]$record)) {
                 $record.pdfUrl = [string]$existing.pdfUrl
                 $record.localPdfRelative = [string]$existing.localPdfRelative
@@ -1570,29 +1570,46 @@ function Invoke-ServerSideAnalysis {
         return
     }
 
-    $candidates = @($Diaries | Where-Object { @($_.candidateKeywords).Count -gt 0 -and $_.localPdfPath -and (Test-Path -LiteralPath $_.localPdfPath) })
-    $totalCandidates = @($candidates).Count
+    $candidates = @(
+        $Diaries |
+        Sort-Object publishedAt -Descending |
+        Where-Object {
+            if ([string]::IsNullOrWhiteSpace([string]$_.localPdfPath) -or -not (Test-Path -LiteralPath $_.localPdfPath)) {
+                return $false
+            }
+
+            $analysis = Get-ExistingAnalysis -DiaryId ([string]$_.id)
+            return -not (Test-AnalysisCurrent -Diary $_ -Analysis $analysis)
+        }
+    )
+
+    $totalCandidates = $candidates.Count
     $currentIndex = 0
 
     foreach ($diary in $candidates) {
         $currentIndex++
-        $analysis = Get-ExistingAnalysis -DiaryId ([string]$diary.id)
-        if (Test-AnalysisCurrent -Diary $diary -Analysis $analysis) {
-            continue
-        }
+        $analysisReason = Get-DiaryAnalysisReason -Diary $diary
+        $analysisModeLabel = if ([string]$analysisReason.primary -eq 'full_catalog') { 'catalogo historico' } else { 'busca prioritaria' }
 
         Update-Status -Updates @{
             syncStage = 'analisando'
-            message = "Analisando contratos: edicao $($diary.edition) ($currentIndex de $totalCandidates)."
+            message = "Analisando contratos: edicao $($diary.edition) ($currentIndex de $totalCandidates, $analysisModeLabel)."
         }
 
         try {
             $pageTexts = @(Convert-PdfToPageTexts -PdfPath $diary.localPdfPath -PdfToTextTool $pdfToTextTool)
             $items = New-Object System.Collections.Generic.List[object]
+            $relevantPageCount = 0
+            $blockCount = 0
 
             foreach ($page in $pageTexts) {
                 $pageContext = Get-PageContextText -PageText $page.text
                 $blocks = Get-TextBlocksFromPage -PageText $page.text
+                if (@($blocks).Count -gt 0) {
+                    $relevantPageCount++
+                    $blockCount += @($blocks).Count
+                }
+
                 foreach ($block in $blocks) {
                     if (-not (Test-RelevantContractBlock -Block $block)) {
                         continue
@@ -1623,8 +1640,11 @@ function Invoke-ServerSideAnalysis {
                 sourcePdfUrl = [string]$diary.pdfUrl
                 sourceLocalPdfRelative = [string]$diary.localPdfRelative
                 keywords = @($diary.candidateKeywords)
+                analysisReason = @($analysisReason.labels)
                 summary = [ordered]@{
                     pageCount = @($pageTexts).Count
+                    relevantPageCount = [int]$relevantPageCount
+                    blockCount = [int]$blockCount
                     itemCount = @($dedupedItems).Count
                     totalValue = (Format-BrazilianCurrency -Value $totalValue)
                 }
@@ -1639,8 +1659,11 @@ function Invoke-ServerSideAnalysis {
                 sourcePdfUrl = [string]$diary.pdfUrl
                 sourceLocalPdfRelative = [string]$diary.localPdfRelative
                 keywords = @($diary.candidateKeywords)
+                analysisReason = @($analysisReason.labels)
                 summary = [ordered]@{
                     pageCount = 0
+                    relevantPageCount = 0
+                    blockCount = 0
                     itemCount = 0
                     totalValue = (Format-BrazilianCurrency -Value 0)
                     error = $_.Exception.Message
@@ -1655,7 +1678,7 @@ function Invoke-ServerSideAnalysis {
     $analysisCount = @(Get-ChildItem -LiteralPath $script:AnalysisRoot -Filter '*.json' -File -ErrorAction SilentlyContinue).Count
     Update-Status -Updates @{
         analyzedDiaries = $analysisCount
-        pendingAnalysis = [Math]::Max($totalCandidates - $analysisCount, 0)
+        pendingAnalysis = @(Get-PendingAnalysisTasks -Limit 5000).Count
     }
 }
 

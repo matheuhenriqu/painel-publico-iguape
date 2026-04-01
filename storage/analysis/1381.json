@@ -1,0 +1,62 @@
+﻿{
+    "diaryId":  "1381",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-04-01T15:28:33",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1185_01080238.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1185_01080238.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
+    "summary":  {
+                    "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 918,75"
+                },
+    "items":  [
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "5º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 005/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "115/2020",
+                      "modality":  "",
+                      "contractor":  "MARIA CORREA DE AQUINO",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao e funcionamento da sede administrativa do Posto de Atendimento ESF-Itimirim I",
+                      "value":  "R$ 918,75",
+                      "term":  "",
+                      "signatureDate":  "27/03/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-pgm",
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Procuradoria-Geral do Municipio",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n5º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 005/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: MARIA CORREA DE AQUINO\nCPF: 166.xxx.xxx-77\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao e funcionamento da sede administrativa\ndo Posto de Atendimento ESF-Itimirim I.\nVALOR: R$ 918,75 (novecentos e dezoito reais e setenta e cinco centavos) mensais.\nDATA: 27/03/2026\nProcesso Administrativo nº 115/2020",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

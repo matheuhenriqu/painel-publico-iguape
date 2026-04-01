@@ -1,0 +1,24 @@
+﻿{
+    "diaryId":  "621",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-04-01T15:28:53",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/23a2f53d4c15997565b12bb6d577cf51.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/23a2f53d4c15997565b12bb6d577cf51.pdf",
+    "keywords":  [
+
+                 ],
+    "analysisReason":  [
+                           "full_catalog"
+                       ],
+    "summary":  {
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Items\u0027 porque ele é uma matriz vazia."
+                },
+    "items":  [
+
+              ]
+}

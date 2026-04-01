@@ -6348,6 +6348,28 @@ function Test-AnalysisCurrent {
     return $true
 }
 
+function Get-DiaryAnalysisReason {
+    param(
+        [Parameter(Mandatory = $true)]
+        [object]$Diary
+    )
+
+    $keywords = @($Diary.candidateKeywords)
+    $labels = @()
+
+    if ($keywords.Count -gt 0) {
+        $labels += 'keyword_map'
+    }
+    else {
+        $labels += 'full_catalog'
+    }
+
+    return [pscustomobject]@{
+        primary = [string]$labels[0]
+        labels = @($labels)
+    }
+}
+
 function Get-PendingAnalysisTasks {
     param(
         [Parameter(Mandatory = $false)]
@@ -6359,9 +6381,6 @@ function Get-PendingAnalysisTasks {
 
     foreach ($diary in @($payload.diaries | Sort-Object publishedAt -Descending)) {
         $keywords = @($diary.candidateKeywords)
-        if ($keywords.Count -eq 0) {
-            continue
-        }
 
         if ([string]::IsNullOrWhiteSpace([string]$diary.localPdfPath) -or -not (Test-Path -LiteralPath $diary.localPdfPath)) {
             continue
@@ -6372,12 +6391,14 @@ function Get-PendingAnalysisTasks {
             continue
         }
 
+        $analysisReason = Get-DiaryAnalysisReason -Diary $diary
         $tasks.Add([pscustomobject]@{
             diaryId = [string]$diary.id
             edition = [string]$diary.edition
             publishedAt = [string]$diary.publishedAt
             isExtra = [bool]$diary.isExtra
             candidateKeywords = @($keywords)
+            analysisReason = @($analysisReason.labels)
             pdfUrl = [string]$diary.webPdfPath
             sourcePdfUrl = [string]$diary.pdfUrl
             localPdfRelative = [string]$diary.localPdfRelative

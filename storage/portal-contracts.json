@@ -1,8 +1,8 @@
 ﻿{
-    "generatedAt":  "2026-03-27T16:25:57",
+    "generatedAt":  "2026-04-01T15:30:41",
     "source":  "https://www.iguape.sp.gov.br/portal/contratos",
     "totalItems":  153,
-    "downloadedDocumentCount":  128,
+    "downloadedDocumentCount":  0,
     "items":  [
                   {
                       "sourceType":  "portal_contratos",
@@ -10,12 +10,12 @@
                       "portalContractId":  "156",
                       "edition":  "Portal",
                       "publishedAt":  "2024-08-07T00:00:00",
-                      "updatedAt":  "2026-03-27T14:29:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2024/convenio_estagio_anhanguera_educacional_participacoes_10101117.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2024/convenio_estagio_anhanguera_educacional_participacoes_10101117.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenio_estagio_anhanguera_educacional_participacoes_10101117.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/156",
-                      "downloadTokenPath":  "/portal/download/contratos/GdxPL/",
+                      "downloadTokenPath":  "/portal/download/contratos/RnxPL/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -56,7 +56,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -64,12 +64,12 @@
                       "portalContractId":  "135",
                       "edition":  "Portal",
                       "publishedAt":  "2023-12-29T00:00:00",
-                      "updatedAt":  "2026-03-27T14:43:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2023/convEnio_gssp-atp-945-23_10024509.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2023/convEnio_gssp-atp-945-23_10024509.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_gssp-atp-945-23_10024509.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/135",
-                      "downloadTokenPath":  "/portal/download/contratos/GnxoP/",
+                      "downloadTokenPath":  "/portal/download/contratos/CsxoP/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -111,7 +111,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -119,12 +119,12 @@
                       "portalContractId":  "139",
                       "edition":  "Portal",
                       "publishedAt":  "2023-11-23T00:00:00",
-                      "updatedAt":  "2026-03-27T14:43:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2023/termo_de_convEnio_viva_leite_10025117.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2023/termo_de_convEnio_viva_leite_10025117.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/termo_de_convEnio_viva_leite_10025117.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/139",
-                      "downloadTokenPath":  "/portal/download/contratos/sRxow/",
+                      "downloadTokenPath":  "/portal/download/contratos/CGxow/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -166,7 +166,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -174,12 +174,12 @@
                       "portalContractId":  "93",
                       "edition":  "Portal",
                       "publishedAt":  "2023-07-30T00:00:00",
-                      "updatedAt":  "2026-03-27T14:34:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2023/convEnio_n_899869-2020_10103441.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2023/convEnio_n_899869-2020_10103441.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_n_899869-2020_10103441.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/93",
-                      "downloadTokenPath":  "/portal/download/contratos/KKwo/",
+                      "downloadTokenPath":  "/portal/download/contratos/snwo/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -222,7 +222,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -230,12 +230,12 @@
                       "portalContractId":  "137",
                       "edition":  "Portal",
                       "publishedAt":  "2023-05-23T00:00:00",
-                      "updatedAt":  "2026-03-27T14:29:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2023/termo_de_convEnio_n_sms_01-2023_10024834.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2023/termo_de_convEnio_n_sms_01-2023_10024834.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/termo_de_convEnio_n_sms_01-2023_10024834.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/137",
-                      "downloadTokenPath":  "/portal/download/contratos/GqxoT/",
+                      "downloadTokenPath":  "/portal/download/contratos/RsxoT/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -277,7 +277,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -285,12 +285,12 @@
                       "portalContractId":  "140",
                       "edition":  "Portal",
                       "publishedAt":  "2023-01-02T00:00:00",
-                      "updatedAt":  "2026-03-27T14:29:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2023/contrato_de_rateio_10025230.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2023/contrato_de_rateio_10025230.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_de_rateio_10025230.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/140",
-                      "downloadTokenPath":  "/portal/download/contratos/qGxjA/",
+                      "downloadTokenPath":  "/portal/download/contratos/CCxjA/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -332,7 +332,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -340,12 +340,12 @@
                       "portalContractId":  "138",
                       "edition":  "Portal",
                       "publishedAt":  "2023-01-01T00:00:00",
-                      "updatedAt":  "2026-03-27T14:29:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2023/extrato_termo_de_convEnio_sms_01-2023_10025002.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2023/extrato_termo_de_convEnio_sms_01-2023_10025002.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/extrato_termo_de_convEnio_sms_01-2023_10025002.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/138",
-                      "downloadTokenPath":  "/portal/download/contratos/Rqxoz/",
+                      "downloadTokenPath":  "/portal/download/contratos/hhxoz/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -388,7 +388,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -396,12 +396,12 @@
                       "portalContractId":  "136",
                       "edition":  "Portal",
                       "publishedAt":  "2023-01-01T00:00:00",
-                      "updatedAt":  "2026-03-27T14:29:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2023/convEnio_gssp-atp_–_772-23_10024630.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2023/convEnio_gssp-atp_–_772-23_10024630.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_gssp-atp_%E2%80%93_772-23_10024630.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/136",
-                      "downloadTokenPath":  "/portal/download/contratos/RRxoL/",
+                      "downloadTokenPath":  "/portal/download/contratos/GdxoL/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -443,7 +443,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -451,12 +451,12 @@
                       "portalContractId":  "128",
                       "edition":  "Portal",
                       "publishedAt":  "2022-09-09T00:00:00",
-                      "updatedAt":  "2026-03-27T14:30:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2022/contrato-de-repasse-mdr-cef-928593-2022-vitoriano-ribeiro_10125314.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2022/contrato-de-repasse-mdr-cef-928593-2022-vitoriano-ribeiro_10125314.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato-de-repasse-mdr-cef-928593-2022-vitoriano-ribeiro_10125314.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/128",
-                      "downloadTokenPath":  "/portal/download/contratos/sKx-z/",
+                      "downloadTokenPath":  "/portal/download/contratos/qBx-z/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -499,7 +499,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -507,12 +507,12 @@
                       "portalContractId":  "154",
                       "edition":  "Portal",
                       "publishedAt":  "2022-08-04T00:00:00",
-                      "updatedAt":  "2026-03-27T14:29:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2022/termo_de_parceria_instituto_soma_12090048.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2022/termo_de_parceria_instituto_soma_12090048.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/termo_de_parceria_instituto_soma_12090048.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/154",
-                      "downloadTokenPath":  "/portal/download/contratos/ddxPj/",
+                      "downloadTokenPath":  "/portal/download/contratos/KnxPj/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -555,7 +555,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -563,12 +563,12 @@
                       "portalContractId":  "155",
                       "edition":  "Portal",
                       "publishedAt":  "2022-07-15T00:00:00",
-                      "updatedAt":  "2026-03-27T14:29:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2022/licitaCAo_deserta_–_processo_n086-2022_–_15-07-22_12104732.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2022/licitaCAo_deserta_–_processo_n086-2022_–_15-07-22_12104732.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/licitaCAo_deserta_%E2%80%93_processo_n086-2022_%E2%80%93_15-07-22_12104732.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/155",
-                      "downloadTokenPath":  "/portal/download/contratos/hsxPP/",
+                      "downloadTokenPath":  "/portal/download/contratos/RsxPP/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -610,7 +610,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -618,12 +618,12 @@
                       "portalContractId":  "129",
                       "edition":  "Portal",
                       "publishedAt":  "2022-06-29T00:00:00",
-                      "updatedAt":  "2026-03-27T14:30:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2022/convEnio_–_estrada_do_coveiro_10125529.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2022/convEnio_–_estrada_do_coveiro_10125529.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_%E2%80%93_estrada_do_coveiro_10125529.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/129",
-                      "downloadTokenPath":  "/portal/download/contratos/Rsx-w/",
+                      "downloadTokenPath":  "/portal/download/contratos/hdx-w/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -666,7 +666,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -674,12 +674,12 @@
                       "portalContractId":  "126",
                       "edition":  "Portal",
                       "publishedAt":  "2022-06-20T00:00:00",
-                      "updatedAt":  "2026-03-27T14:31:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2022/convEnio_motoniveladora_10123256.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2022/convEnio_motoniveladora_10123256.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_motoniveladora_10123256.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/126",
-                      "downloadTokenPath":  "/portal/download/contratos/CGx-L/",
+                      "downloadTokenPath":  "/portal/download/contratos/Khx-L/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -722,7 +722,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -730,12 +730,12 @@
                       "portalContractId":  "131",
                       "edition":  "Portal",
                       "publishedAt":  "2022-05-27T00:00:00",
-                      "updatedAt":  "2026-03-27T14:30:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2022/convEnio_6553-2022_–_estrada_do_quatinga_10023214.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2022/convEnio_6553-2022_–_estrada_do_quatinga_10023214.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_6553-2022_%E2%80%93_estrada_do_quatinga_10023214.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/131",
-                      "downloadTokenPath":  "/portal/download/contratos/dRxox/",
+                      "downloadTokenPath":  "/portal/download/contratos/sGxox/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -778,7 +778,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -786,12 +786,12 @@
                       "portalContractId":  "125",
                       "edition":  "Portal",
                       "publishedAt":  "2022-04-01T00:00:00",
-                      "updatedAt":  "2026-03-27T14:31:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2022/convenio_fehidro_139-2022_–_2021-rb_cob-65_10123115.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2022/convenio_fehidro_139-2022_–_2021-rb_cob-65_10123115.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenio_fehidro_139-2022_%E2%80%93_2021-rb_cob-65_10123115.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/125",
-                      "downloadTokenPath":  "/portal/download/contratos/dGx-P/",
+                      "downloadTokenPath":  "/portal/download/contratos/dqx-P/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -834,7 +834,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -842,12 +842,12 @@
                       "portalContractId":  "132",
                       "edition":  "Portal",
                       "publishedAt":  "2022-04-01T00:00:00",
-                      "updatedAt":  "2026-03-27T14:30:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2022/extrato_de_contrato_n_086-2008_10023935.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2022/extrato_de_contrato_n_086-2008_10023935.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/extrato_de_contrato_n_086-2008_10023935.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/132",
-                      "downloadTokenPath":  "/portal/download/contratos/hdxo-/",
+                      "downloadTokenPath":  "/portal/download/contratos/nRxo-/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -899,12 +899,12 @@
                       "portalContractId":  "127",
                       "edition":  "Portal",
                       "publishedAt":  "2022-03-30T00:00:00",
-                      "updatedAt":  "2026-03-27T14:30:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2022/convEnio_–_processo_saa-prc-2022-03945_10124926.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2022/convEnio_–_processo_saa-prc-2022-03945_10124926.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_%E2%80%93_processo_saa-prc-2022-03945_10124926.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/127",
-                      "downloadTokenPath":  "/portal/download/contratos/sBx-T/",
+                      "downloadTokenPath":  "/portal/download/contratos/GBx-T/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -947,7 +947,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -955,12 +955,12 @@
                       "portalContractId":  "134",
                       "edition":  "Portal",
                       "publishedAt":  "2022-01-01T00:00:00",
-                      "updatedAt":  "2026-03-27T14:29:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2022/n_001-2022_10024301.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2022/n_001-2022_10024301.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/n_001-2022_10024301.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/134",
-                      "downloadTokenPath":  "/portal/download/contratos/qqxoj/",
+                      "downloadTokenPath":  "/portal/download/contratos/CGxoj/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -1003,7 +1003,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -1011,12 +1011,12 @@
                       "portalContractId":  "107",
                       "edition":  "Portal",
                       "publishedAt":  "2021-12-17T00:00:00",
-                      "updatedAt":  "2026-03-27T14:31:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/processo_segov-prc-2021-03278_10115139.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/processo_segov-prc-2021-03278_10115139.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/processo_segov-prc-2021-03278_10115139.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/107",
-                      "downloadTokenPath":  "/portal/download/contratos/GhxAT/",
+                      "downloadTokenPath":  "/portal/download/contratos/dBxAT/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -1059,7 +1059,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -1067,12 +1067,12 @@
                       "portalContractId":  "101",
                       "edition":  "Portal",
                       "publishedAt":  "2021-12-15T00:00:00",
-                      "updatedAt":  "2026-03-27T14:32:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/convEnio_n_104-2021_10114109.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/convEnio_n_104-2021_10114109.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_n_104-2021_10114109.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/101",
-                      "downloadTokenPath":  "/portal/download/contratos/GnxAx/",
+                      "downloadTokenPath":  "/portal/download/contratos/shxAx/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -1116,7 +1116,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -1124,12 +1124,12 @@
                       "portalContractId":  "105",
                       "edition":  "Portal",
                       "publishedAt":  "2021-12-15T00:00:00",
-                      "updatedAt":  "2026-03-27T14:32:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/convEnio_cmil_–_215-640-2021_10114657.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/convEnio_cmil_–_215-640-2021_10114657.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_cmil_%E2%80%93_215-640-2021_10114657.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/105",
-                      "downloadTokenPath":  "/portal/download/contratos/dKxAP/",
+                      "downloadTokenPath":  "/portal/download/contratos/KnxAP/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -1172,7 +1172,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -1180,12 +1180,12 @@
                       "portalContractId":  "117",
                       "edition":  "Portal",
                       "publishedAt":  "2021-12-15T00:00:00",
-                      "updatedAt":  "2026-03-27T14:31:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/n_000089-2021_10121934.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/n_000089-2021_10121934.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/n_000089-2021_10121934.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/117",
-                      "downloadTokenPath":  "/portal/download/contratos/CdxxT/",
+                      "downloadTokenPath":  "/portal/download/contratos/hnxxT/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -1227,7 +1227,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -1235,12 +1235,12 @@
                       "portalContractId":  "106",
                       "edition":  "Portal",
                       "publishedAt":  "2021-11-26T00:00:00",
-                      "updatedAt":  "2026-03-27T14:31:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/processo_saa-prc-2021-11201_10114858.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/processo_saa-prc-2021-11201_10114858.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/processo_saa-prc-2021-11201_10114858.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/106",
-                      "downloadTokenPath":  "/portal/download/contratos/GhxAL/",
+                      "downloadTokenPath":  "/portal/download/contratos/ssxAL/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -1283,7 +1283,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -1291,12 +1291,12 @@
                       "portalContractId":  "109",
                       "edition":  "Portal",
                       "publishedAt":  "2021-11-24T00:00:00",
-                      "updatedAt":  "2026-03-27T14:31:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/n_101365-2021_10120009.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/n_101365-2021_10120009.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/n_101365-2021_10120009.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/109",
-                      "downloadTokenPath":  "/portal/download/contratos/qhxAw/",
+                      "downloadTokenPath":  "/portal/download/contratos/RKxAw/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -1339,7 +1339,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -1347,12 +1347,12 @@
                       "portalContractId":  "118",
                       "edition":  "Portal",
                       "publishedAt":  "2021-10-14T00:00:00",
-                      "updatedAt":  "2026-03-27T14:31:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/processo_seds_prc_2021_–_00006_–_dm_10122102.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/processo_seds_prc_2021_–_00006_–_dm_10122102.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/processo_seds_prc_2021_%E2%80%93_00006_%E2%80%93_dm_10122102.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/118",
-                      "downloadTokenPath":  "/portal/download/contratos/sCxxz/",
+                      "downloadTokenPath":  "/portal/download/contratos/dKxxz/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -1395,7 +1395,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -1403,12 +1403,12 @@
                       "portalContractId":  "110",
                       "edition":  "Portal",
                       "publishedAt":  "2021-10-08T00:00:00",
-                      "updatedAt":  "2026-03-27T14:31:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/n_101113-2021_10120125.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/n_101113-2021_10120125.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/n_101113-2021_10120125.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/110",
-                      "downloadTokenPath":  "/portal/download/contratos/dBxxA/",
+                      "downloadTokenPath":  "/portal/download/contratos/hGxxA/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -1451,7 +1451,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -1459,12 +1459,12 @@
                       "portalContractId":  "111",
                       "edition":  "Portal",
                       "publishedAt":  "2021-10-08T00:00:00",
-                      "updatedAt":  "2026-03-27T14:31:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/n_101112-2021_10120249.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/n_101112-2021_10120249.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/n_101112-2021_10120249.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/111",
-                      "downloadTokenPath":  "/portal/download/contratos/KBxxx/",
+                      "downloadTokenPath":  "/portal/download/contratos/Csxxx/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -1507,7 +1507,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -1515,12 +1515,12 @@
                       "portalContractId":  "119",
                       "edition":  "Portal",
                       "publishedAt":  "2021-10-07T00:00:00",
-                      "updatedAt":  "2026-03-27T15:37:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/07-10-2021_17-50-32_10122235.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/07-10-2021_17-50-32_10122235.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/07-10-2021_17-50-32_10122235.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/119",
-                      "downloadTokenPath":  "/portal/download/contratos/Rdxxw/",
+                      "downloadTokenPath":  "/portal/download/contratos/dhxxw/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -1562,7 +1562,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -1570,12 +1570,12 @@
                       "portalContractId":  "104",
                       "edition":  "Portal",
                       "publishedAt":  "2021-08-24T00:00:00",
-                      "updatedAt":  "2026-03-27T14:32:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/convEnio_100693-2021_10114531.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/convEnio_100693-2021_10114531.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_100693-2021_10114531.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/104",
-                      "downloadTokenPath":  "/portal/download/contratos/qqxAj/",
+                      "downloadTokenPath":  "/portal/download/contratos/KCxAj/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -1618,7 +1618,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -1626,12 +1626,12 @@
                       "portalContractId":  "112",
                       "edition":  "Portal",
                       "publishedAt":  "2021-08-24T00:00:00",
-                      "updatedAt":  "2026-03-27T14:31:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/n_100693-2021_10120411.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/n_100693-2021_10120411.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/n_100693-2021_10120411.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/112",
-                      "downloadTokenPath":  "/portal/download/contratos/hCxx-/",
+                      "downloadTokenPath":  "/portal/download/contratos/CRxx-/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -1674,7 +1674,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -1682,12 +1682,12 @@
                       "portalContractId":  "113",
                       "edition":  "Portal",
                       "publishedAt":  "2021-07-20T00:00:00",
-                      "updatedAt":  "2026-03-27T14:31:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/n_100328-2021_10120521.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/n_100328-2021_10120521.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/n_100328-2021_10120521.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/113",
-                      "downloadTokenPath":  "/portal/download/contratos/RKxxo/",
+                      "downloadTokenPath":  "/portal/download/contratos/nBxxo/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -1730,7 +1730,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -1738,7 +1738,7 @@
                       "portalContractId":  "114",
                       "edition":  "Portal",
                       "publishedAt":  "2021-07-13T00:00:00",
-                      "updatedAt":  "2026-03-27T14:31:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -1794,12 +1794,12 @@
                       "portalContractId":  "116",
                       "edition":  "Portal",
                       "publishedAt":  "2021-06-22T00:00:00",
-                      "updatedAt":  "2026-03-27T14:31:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/n_100237-2021_10121759.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/n_100237-2021_10121759.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/n_100237-2021_10121759.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/116",
-                      "downloadTokenPath":  "/portal/download/contratos/GBxxL/",
+                      "downloadTokenPath":  "/portal/download/contratos/CqxxL/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -1842,7 +1842,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -1850,12 +1850,12 @@
                       "portalContractId":  "115",
                       "edition":  "Portal",
                       "publishedAt":  "2021-06-22T00:00:00",
-                      "updatedAt":  "2026-03-27T14:31:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/n_100256-2021_10121612.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/n_100256-2021_10121612.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/n_100256-2021_10121612.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/115",
-                      "downloadTokenPath":  "/portal/download/contratos/hdxxP/",
+                      "downloadTokenPath":  "/portal/download/contratos/dhxxP/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -1898,7 +1898,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -1906,12 +1906,12 @@
                       "portalContractId":  "121",
                       "edition":  "Portal",
                       "publishedAt":  "2021-06-02T00:00:00",
-                      "updatedAt":  "2026-03-27T14:31:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/termo_de_convenio_pista_de_skate_10122507.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/termo_de_convenio_pista_de_skate_10122507.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/termo_de_convenio_pista_de_skate_10122507.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/121",
-                      "downloadTokenPath":  "/portal/download/contratos/KRx-x/",
+                      "downloadTokenPath":  "/portal/download/contratos/hsx-x/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -1953,7 +1953,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -1961,12 +1961,12 @@
                       "portalContractId":  "122",
                       "edition":  "Portal",
                       "publishedAt":  "2021-06-02T00:00:00",
-                      "updatedAt":  "2026-03-27T14:31:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/termo_de_convenio_pista_de_skate_10122507772.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/termo_de_convenio_pista_de_skate_10122507772.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/termo_de_convenio_pista_de_skate_10122507772.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/122",
-                      "downloadTokenPath":  "/portal/download/contratos/nRx--/",
+                      "downloadTokenPath":  "/portal/download/contratos/ssx--/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -2008,7 +2008,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -2016,12 +2016,12 @@
                       "portalContractId":  "120",
                       "edition":  "Portal",
                       "publishedAt":  "2021-06-02T00:00:00",
-                      "updatedAt":  "2026-03-27T14:31:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/termo_de_convenio_academia_10122352.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/termo_de_convenio_academia_10122352.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/termo_de_convenio_academia_10122352.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/120",
-                      "downloadTokenPath":  "/portal/download/contratos/hhx-A/",
+                      "downloadTokenPath":  "/portal/download/contratos/dnx-A/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -2063,7 +2063,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -2071,12 +2071,12 @@
                       "portalContractId":  "123",
                       "edition":  "Portal",
                       "publishedAt":  "2021-04-26T00:00:00",
-                      "updatedAt":  "2026-03-27T14:31:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/convEnio_n_100016-2021_10122637.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/convEnio_n_100016-2021_10122637.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_n_100016-2021_10122637.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/123",
-                      "downloadTokenPath":  "/portal/download/contratos/nqx-o/",
+                      "downloadTokenPath":  "/portal/download/contratos/Knx-o/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -2119,7 +2119,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -2127,12 +2127,12 @@
                       "portalContractId":  "124",
                       "edition":  "Portal",
                       "publishedAt":  "2021-04-26T00:00:00",
-                      "updatedAt":  "2026-03-27T14:31:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/convEnio_n_100017-2021_10122838.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/convEnio_n_100017-2021_10122838.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_n_100017-2021_10122838.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/124",
-                      "downloadTokenPath":  "/portal/download/contratos/nsx-j/",
+                      "downloadTokenPath":  "/portal/download/contratos/CGx-j/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -2175,7 +2175,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -2183,12 +2183,12 @@
                       "portalContractId":  "130",
                       "edition":  "Portal",
                       "publishedAt":  "2021-04-14T00:00:00",
-                      "updatedAt":  "2026-03-27T14:30:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/convEnio_ppt_707_10021717.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/convEnio_ppt_707_10021717.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_ppt_707_10021717.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/130",
-                      "downloadTokenPath":  "/portal/download/contratos/CCxoA/",
+                      "downloadTokenPath":  "/portal/download/contratos/KGxoA/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -2231,7 +2231,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -2239,12 +2239,12 @@
                       "portalContractId":  "26",
                       "edition":  "Portal",
                       "publishedAt":  "2021-04-06T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/contrato_n_08-2021_09073431.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/contrato_n_08-2021_09073431.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n_08-2021_09073431.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/26",
-                      "downloadTokenPath":  "/portal/download/contratos/dq-L/",
+                      "downloadTokenPath":  "/portal/download/contratos/Kh-L/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -2287,7 +2287,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -2295,12 +2295,12 @@
                       "portalContractId":  "144",
                       "edition":  "Portal",
                       "publishedAt":  "2021-01-28T00:00:00",
-                      "updatedAt":  "2026-03-27T14:29:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/termo_de_colaboracao_01-2021_12083236.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/termo_de_colaboracao_01-2021_12083236.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/termo_de_colaboracao_01-2021_12083236.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/144",
-                      "downloadTokenPath":  "/portal/download/contratos/qKxjj/",
+                      "downloadTokenPath":  "/portal/download/contratos/CBxjj/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -2343,7 +2343,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -2351,12 +2351,12 @@
                       "portalContractId":  "153",
                       "edition":  "Portal",
                       "publishedAt":  "2021-01-28T00:00:00",
-                      "updatedAt":  "2026-03-27T14:29:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/termo_de_colaboracao_10-2021_12084426.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/termo_de_colaboracao_10-2021_12084426.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/termo_de_colaboracao_10-2021_12084426.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/153",
-                      "downloadTokenPath":  "/portal/download/contratos/GBxPo/",
+                      "downloadTokenPath":  "/portal/download/contratos/qsxPo/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -2399,7 +2399,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -2407,12 +2407,12 @@
                       "portalContractId":  "145",
                       "edition":  "Portal",
                       "publishedAt":  "2021-01-28T00:00:00",
-                      "updatedAt":  "2026-03-27T14:41:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/termo_de_colaboracao_02-2021_12083353.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/termo_de_colaboracao_02-2021_12083353.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/termo_de_colaboracao_02-2021_12083353.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/145",
-                      "downloadTokenPath":  "/portal/download/contratos/GdxjP/",
+                      "downloadTokenPath":  "/portal/download/contratos/nKxjP/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -2455,7 +2455,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -2463,12 +2463,12 @@
                       "portalContractId":  "146",
                       "edition":  "Portal",
                       "publishedAt":  "2021-01-28T00:00:00",
-                      "updatedAt":  "2026-03-27T14:29:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/termo_de_colaboracao_03-2021_12083452.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/termo_de_colaboracao_03-2021_12083452.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/termo_de_colaboracao_03-2021_12083452.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/146",
-                      "downloadTokenPath":  "/portal/download/contratos/dCxjL/",
+                      "downloadTokenPath":  "/portal/download/contratos/RnxjL/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -2511,7 +2511,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -2519,12 +2519,12 @@
                       "portalContractId":  "147",
                       "edition":  "Portal",
                       "publishedAt":  "2021-01-28T00:00:00",
-                      "updatedAt":  "2026-03-27T14:29:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/termo_de_colaboracao_04-2021_12083602.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/termo_de_colaboracao_04-2021_12083602.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/termo_de_colaboracao_04-2021_12083602.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/147",
-                      "downloadTokenPath":  "/portal/download/contratos/qRxjT/",
+                      "downloadTokenPath":  "/portal/download/contratos/sKxjT/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -2567,7 +2567,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -2575,12 +2575,12 @@
                       "portalContractId":  "148",
                       "edition":  "Portal",
                       "publishedAt":  "2021-01-28T00:00:00",
-                      "updatedAt":  "2026-03-27T14:29:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/termo_de_colaboracao_05-2021_12083842.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/termo_de_colaboracao_05-2021_12083842.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/termo_de_colaboracao_05-2021_12083842.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/148",
-                      "downloadTokenPath":  "/portal/download/contratos/hdxjz/",
+                      "downloadTokenPath":  "/portal/download/contratos/CKxjz/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -2623,7 +2623,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -2631,12 +2631,12 @@
                       "portalContractId":  "149",
                       "edition":  "Portal",
                       "publishedAt":  "2021-01-28T00:00:00",
-                      "updatedAt":  "2026-03-27T14:29:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/termo_de_colaboracao_06-2021_12084001.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/termo_de_colaboracao_06-2021_12084001.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/termo_de_colaboracao_06-2021_12084001.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/149",
-                      "downloadTokenPath":  "/portal/download/contratos/Ghxjw/",
+                      "downloadTokenPath":  "/portal/download/contratos/sRxjw/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -2679,7 +2679,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -2687,12 +2687,12 @@
                       "portalContractId":  "150",
                       "edition":  "Portal",
                       "publishedAt":  "2021-01-28T00:00:00",
-                      "updatedAt":  "2026-03-27T14:29:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/termo_de_colaboracao_07-2021_12084108.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/termo_de_colaboracao_07-2021_12084108.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/termo_de_colaboracao_07-2021_12084108.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/150",
-                      "downloadTokenPath":  "/portal/download/contratos/snxPA/",
+                      "downloadTokenPath":  "/portal/download/contratos/hqxPA/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -2735,7 +2735,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -2743,12 +2743,12 @@
                       "portalContractId":  "151",
                       "edition":  "Portal",
                       "publishedAt":  "2021-01-28T00:00:00",
-                      "updatedAt":  "2026-03-27T14:29:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/termo_de_colaboracao_08-2021_12084256.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/termo_de_colaboracao_08-2021_12084256.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/termo_de_colaboracao_08-2021_12084256.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/151",
-                      "downloadTokenPath":  "/portal/download/contratos/CsxPx/",
+                      "downloadTokenPath":  "/portal/download/contratos/CKxPx/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -2791,7 +2791,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -2799,12 +2799,12 @@
                       "portalContractId":  "152",
                       "edition":  "Portal",
                       "publishedAt":  "2021-01-28T00:00:00",
-                      "updatedAt":  "2026-03-27T14:29:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/termo_de_colaboracao_09-2021_12084340.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/termo_de_colaboracao_09-2021_12084340.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/termo_de_colaboracao_09-2021_12084340.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/152",
-                      "downloadTokenPath":  "/portal/download/contratos/RhxP-/",
+                      "downloadTokenPath":  "/portal/download/contratos/dhxP-/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -2847,7 +2847,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -2855,12 +2855,12 @@
                       "portalContractId":  "102",
                       "edition":  "Portal",
                       "publishedAt":  "2021-01-18T00:00:00",
-                      "updatedAt":  "2026-03-27T14:32:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/contrato_fehidro_018-2021_10114232.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/contrato_fehidro_018-2021_10114232.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_fehidro_018-2021_10114232.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/102",
-                      "downloadTokenPath":  "/portal/download/contratos/sCxA-/",
+                      "downloadTokenPath":  "/portal/download/contratos/sBxA-/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -2911,12 +2911,12 @@
                       "portalContractId":  "108",
                       "edition":  "Portal",
                       "publishedAt":  "2021-01-01T00:00:00",
-                      "updatedAt":  "2026-03-27T14:31:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/convEnio_consultOrio_veterinArio_em_contEiner_10115256.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/convEnio_consultOrio_veterinArio_em_contEiner_10115256.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_consultOrio_veterinArio_em_contEiner_10115256.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/108",
-                      "downloadTokenPath":  "/portal/download/contratos/hGxAz/",
+                      "downloadTokenPath":  "/portal/download/contratos/KBxAz/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -2959,7 +2959,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -2967,12 +2967,12 @@
                       "portalContractId":  "103",
                       "edition":  "Portal",
                       "publishedAt":  "2021-01-01T00:00:00",
-                      "updatedAt":  "2026-03-27T14:32:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2021/convEnio_000133-2021_10114404.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2021/convEnio_000133-2021_10114404.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_000133-2021_10114404.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/103",
-                      "downloadTokenPath":  "/portal/download/contratos/RBxAo/",
+                      "downloadTokenPath":  "/portal/download/contratos/nsxAo/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -3014,7 +3014,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -3022,12 +3022,12 @@
                       "portalContractId":  "143",
                       "edition":  "Portal",
                       "publishedAt":  "2020-12-08T00:00:00",
-                      "updatedAt":  "2026-03-27T14:41:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/termo_de_colaboraCAo_n_12-2020_12082847.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/termo_de_colaboraCAo_n_12-2020_12082847.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/termo_de_colaboraCAo_n_12-2020_12082847.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/143",
-                      "downloadTokenPath":  "/portal/download/contratos/Ghxjo/",
+                      "downloadTokenPath":  "/portal/download/contratos/qCxjo/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -3070,7 +3070,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -3078,12 +3078,12 @@
                       "portalContractId":  "25",
                       "edition":  "Portal",
                       "publishedAt":  "2020-09-22T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n_065-2020_ne_09073303.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n_065-2020_ne_09073303.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n_065-2020_ne_09073303.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/25",
-                      "downloadTokenPath":  "/portal/download/contratos/Ch-P/",
+                      "downloadTokenPath":  "/portal/download/contratos/CK-P/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -3125,7 +3125,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -3133,12 +3133,12 @@
                       "portalContractId":  "44",
                       "edition":  "Portal",
                       "publishedAt":  "2020-09-18T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/ata_de_sessAo_pUblica_licitacao_pr-g_n_36-2020_09121540.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/ata_de_sessAo_pUblica_licitacao_pr-g_n_36-2020_09121540.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/ata_de_sessAo_pUblica_licitacao_pr-g_n_36-2020_09121540.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/44",
-                      "downloadTokenPath":  "/portal/download/contratos/Gqjj/",
+                      "downloadTokenPath":  "/portal/download/contratos/Chjj/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -3180,7 +3180,7 @@
                       "portalOrigin":  "LI - Licitação",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -3188,7 +3188,7 @@
                       "portalContractId":  "59",
                       "edition":  "Portal",
                       "publishedAt":  "2020-09-01T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -3244,7 +3244,7 @@
                       "portalContractId":  "45",
                       "edition":  "Portal",
                       "publishedAt":  "2020-09-01T00:00:00",
-                      "updatedAt":  "2026-03-27T14:42:00",
+                      "updatedAt":  "2026-04-01T15:21:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -3300,12 +3300,12 @@
                       "portalContractId":  "95",
                       "edition":  "Portal",
                       "publishedAt":  "2020-08-14T00:00:00",
-                      "updatedAt":  "2026-03-27T14:33:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/convEnio_n1397129-2020_10105027.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/convEnio_n1397129-2020_10105027.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_n1397129-2020_10105027.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/95",
-                      "downloadTokenPath":  "/portal/download/contratos/RGwP/",
+                      "downloadTokenPath":  "/portal/download/contratos/dRwP/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -3348,7 +3348,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -3356,7 +3356,7 @@
                       "portalContractId":  "57",
                       "edition":  "Portal",
                       "publishedAt":  "2020-08-14T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -3412,7 +3412,7 @@
                       "portalContractId":  "58",
                       "edition":  "Portal",
                       "publishedAt":  "2020-08-12T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -3468,12 +3468,12 @@
                       "portalContractId":  "96",
                       "edition":  "Portal",
                       "publishedAt":  "2020-08-11T00:00:00",
-                      "updatedAt":  "2026-03-27T14:33:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/convEnio_n_000-2020_saa_10105209.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/convEnio_n_000-2020_saa_10105209.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_n_000-2020_saa_10105209.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/96",
-                      "downloadTokenPath":  "/portal/download/contratos/snwL/",
+                      "downloadTokenPath":  "/portal/download/contratos/sCwL/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -3516,7 +3516,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -3524,7 +3524,7 @@
                       "portalContractId":  "56",
                       "edition":  "Portal",
                       "publishedAt":  "2020-07-28T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -3580,12 +3580,12 @@
                       "portalContractId":  "8",
                       "edition":  "Portal",
                       "publishedAt":  "2020-07-23T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n-055-2020_08121929.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n-055-2020_08121929.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n-055-2020_08121929.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/8",
-                      "downloadTokenPath":  "/portal/download/contratos/qGz/",
+                      "downloadTokenPath":  "/portal/download/contratos/nqz/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -3628,7 +3628,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -3636,7 +3636,7 @@
                       "portalContractId":  "54",
                       "edition":  "Portal",
                       "publishedAt":  "2020-07-22T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -3692,7 +3692,7 @@
                       "portalContractId":  "53",
                       "edition":  "Portal",
                       "publishedAt":  "2020-07-20T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -3748,12 +3748,12 @@
                       "portalContractId":  "91",
                       "edition":  "Portal",
                       "publishedAt":  "2020-07-20T00:00:00",
-                      "updatedAt":  "2026-03-27T14:34:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/convEnio_093-2020_10103201.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/convEnio_093-2020_10103201.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_093-2020_10103201.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/91",
-                      "downloadTokenPath":  "/portal/download/contratos/qqwx/",
+                      "downloadTokenPath":  "/portal/download/contratos/Cswx/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -3795,7 +3795,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -3803,12 +3803,12 @@
                       "portalContractId":  "1",
                       "edition":  "Portal",
                       "publishedAt":  "2020-07-17T00:00:00",
-                      "updatedAt":  "2026-03-27T14:41:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n_063-2020_08120807.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n_063-2020_08120807.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n_063-2020_08120807.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/1",
-                      "downloadTokenPath":  "/portal/download/contratos/nKx/",
+                      "downloadTokenPath":  "/portal/download/contratos/hnx/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -3850,7 +3850,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -3858,7 +3858,7 @@
                       "portalContractId":  "52",
                       "edition":  "Portal",
                       "publishedAt":  "2020-07-16T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -3914,12 +3914,12 @@
                       "portalContractId":  "43",
                       "edition":  "Portal",
                       "publishedAt":  "2020-07-15T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/ata_sessAo_pp_23-2020_09121234.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/ata_sessAo_pp_23-2020_09121234.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/ata_sessAo_pp_23-2020_09121234.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/43",
-                      "downloadTokenPath":  "/portal/download/contratos/hdjo/",
+                      "downloadTokenPath":  "/portal/download/contratos/nsjo/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -3961,7 +3961,7 @@
                       "portalOrigin":  "LI - Licitação",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -3969,12 +3969,12 @@
                       "portalContractId":  "3",
                       "edition":  "Portal",
                       "publishedAt":  "2020-07-14T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n_061-2020_08121304.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n_061-2020_08121304.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n_061-2020_08121304.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/3",
-                      "downloadTokenPath":  "/portal/download/contratos/sRo/",
+                      "downloadTokenPath":  "/portal/download/contratos/qBo/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -4016,7 +4016,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -4024,12 +4024,12 @@
                       "portalContractId":  "2",
                       "edition":  "Portal",
                       "publishedAt":  "2020-07-14T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n_062-2020_08121049.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n_062-2020_08121049.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n_062-2020_08121049.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/2",
-                      "downloadTokenPath":  "/portal/download/contratos/sG-/",
+                      "downloadTokenPath":  "/portal/download/contratos/nC-/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -4071,7 +4071,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -4079,12 +4079,12 @@
                       "portalContractId":  "42",
                       "edition":  "Portal",
                       "publishedAt":  "2020-07-10T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/ata_de_sessAo__pUblica__–_pregAo_presencial_020-2020_09120848.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/ata_de_sessAo__pUblica__–_pregAo_presencial_020-2020_09120848.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/ata_de_sessAo__pUblica__%E2%80%93_pregAo_presencial_020-2020_09120848.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/42",
-                      "downloadTokenPath":  "/portal/download/contratos/ndj-/",
+                      "downloadTokenPath":  "/portal/download/contratos/nBj-/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -4127,7 +4127,7 @@
                       "portalOrigin":  "LI - Licitação",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -4135,12 +4135,12 @@
                       "portalContractId":  "27",
                       "edition":  "Portal",
                       "publishedAt":  "2020-07-09T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/termo_de_contrato_n010-2020_09073636.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/termo_de_contrato_n010-2020_09073636.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/termo_de_contrato_n010-2020_09073636.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/27",
-                      "downloadTokenPath":  "/portal/download/contratos/Rh-T/",
+                      "downloadTokenPath":  "/portal/download/contratos/Kh-T/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -4182,7 +4182,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -4190,12 +4190,12 @@
                       "portalContractId":  "7",
                       "edition":  "Portal",
                       "publishedAt":  "2020-07-02T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n-_057-2020_08121831.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n-_057-2020_08121831.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n-_057-2020_08121831.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/7",
-                      "downloadTokenPath":  "/portal/download/contratos/dKT/",
+                      "downloadTokenPath":  "/portal/download/contratos/dhT/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -4237,7 +4237,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -4245,12 +4245,12 @@
                       "portalContractId":  "6",
                       "edition":  "Portal",
                       "publishedAt":  "2020-07-02T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n-_058-2020_08121725.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n-_058-2020_08121725.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n-_058-2020_08121725.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/6",
-                      "downloadTokenPath":  "/portal/download/contratos/shL/",
+                      "downloadTokenPath":  "/portal/download/contratos/qqL/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -4292,7 +4292,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -4300,12 +4300,12 @@
                       "portalContractId":  "5",
                       "edition":  "Portal",
                       "publishedAt":  "2020-07-02T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n-_059-2020_08121613.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n-_059-2020_08121613.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n-_059-2020_08121613.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/5",
-                      "downloadTokenPath":  "/portal/download/contratos/dqP/",
+                      "downloadTokenPath":  "/portal/download/contratos/GGP/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -4347,7 +4347,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -4355,12 +4355,12 @@
                       "portalContractId":  "4",
                       "edition":  "Portal",
                       "publishedAt":  "2020-07-02T00:00:00",
-                      "updatedAt":  "2026-03-27T14:42:00",
+                      "updatedAt":  "2026-04-01T15:21:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n-_060-2020_08121457.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n-_060-2020_08121457.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n-_060-2020_08121457.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/4",
-                      "downloadTokenPath":  "/portal/download/contratos/dGj/",
+                      "downloadTokenPath":  "/portal/download/contratos/qsj/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -4402,7 +4402,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -4410,12 +4410,12 @@
                       "portalContractId":  "60",
                       "edition":  "Portal",
                       "publishedAt":  "2020-06-30T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/concessAo_de_crEdito_consignado_aos_seus_empregados_10081619.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/concessAo_de_crEdito_consignado_aos_seus_empregados_10081619.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/concessAo_de_crEdito_consignado_aos_seus_empregados_10081619.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/60",
-                      "downloadTokenPath":  "/portal/download/contratos/RqLA/",
+                      "downloadTokenPath":  "/portal/download/contratos/ssLA/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -4458,7 +4458,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -4466,12 +4466,12 @@
                       "portalContractId":  "41",
                       "edition":  "Portal",
                       "publishedAt":  "2020-06-23T00:00:00",
-                      "updatedAt":  "2026-03-27T14:42:00",
+                      "updatedAt":  "2026-04-01T15:21:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/ata_de_sessAo_pUblica_17-2020_09114704.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/ata_de_sessAo_pUblica_17-2020_09114704.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/ata_de_sessAo_pUblica_17-2020_09114704.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/41",
-                      "downloadTokenPath":  "/portal/download/contratos/nnjx/",
+                      "downloadTokenPath":  "/portal/download/contratos/Rdjx/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -4513,7 +4513,7 @@
                       "portalOrigin":  "LI - Licitação",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -4521,7 +4521,7 @@
                       "portalContractId":  "51",
                       "edition":  "Portal",
                       "publishedAt":  "2020-06-23T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -4577,12 +4577,12 @@
                       "portalContractId":  "94",
                       "edition":  "Portal",
                       "publishedAt":  "2020-06-22T00:00:00",
-                      "updatedAt":  "2026-03-27T14:33:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/convEnio_n_saa-prc-2020-01914_10103616.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/convEnio_n_saa-prc-2020-01914_10103616.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_n_saa-prc-2020-01914_10103616.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/94",
-                      "downloadTokenPath":  "/portal/download/contratos/sCwj/",
+                      "downloadTokenPath":  "/portal/download/contratos/Cdwj/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -4625,7 +4625,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -4633,7 +4633,7 @@
                       "portalContractId":  "50",
                       "edition":  "Portal",
                       "publishedAt":  "2020-06-19T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -4689,12 +4689,12 @@
                       "portalContractId":  "40",
                       "edition":  "Portal",
                       "publishedAt":  "2020-06-18T00:00:00",
-                      "updatedAt":  "2026-03-27T14:42:00",
+                      "updatedAt":  "2026-04-01T15:21:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/ata_de_sessAo_pg_016-2020_09114347.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/ata_de_sessAo_pg_016-2020_09114347.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/ata_de_sessAo_pg_016-2020_09114347.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/40",
-                      "downloadTokenPath":  "/portal/download/contratos/dnjA/",
+                      "downloadTokenPath":  "/portal/download/contratos/hCjA/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -4737,7 +4737,7 @@
                       "portalOrigin":  "LI - Licitação",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -4745,7 +4745,7 @@
                       "portalContractId":  "55",
                       "edition":  "Portal",
                       "publishedAt":  "2020-05-20T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -4801,7 +4801,7 @@
                       "portalContractId":  "14",
                       "edition":  "Portal",
                       "publishedAt":  "2020-05-20T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n_046-2020_08021950.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n_046-2020_08021950.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n_046-2020_08021950.pdf",
@@ -4849,7 +4849,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -4857,12 +4857,12 @@
                       "portalContractId":  "13",
                       "edition":  "Portal",
                       "publishedAt":  "2020-05-20T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n_047-2020_08021106.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n_047-2020_08021106.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n_047-2020_08021106.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/13",
-                      "downloadTokenPath":  "/portal/download/contratos/RKxo/",
+                      "downloadTokenPath":  "/portal/download/contratos/RRxo/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -4905,7 +4905,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -4913,12 +4913,12 @@
                       "portalContractId":  "12",
                       "edition":  "Portal",
                       "publishedAt":  "2020-05-20T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n_048-2020_08010005.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n_048-2020_08010005.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n_048-2020_08010005.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/12",
-                      "downloadTokenPath":  "/portal/download/contratos/hRx-/",
+                      "downloadTokenPath":  "/portal/download/contratos/GKx-/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -4961,7 +4961,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -4969,12 +4969,12 @@
                       "portalContractId":  "11",
                       "edition":  "Portal",
                       "publishedAt":  "2020-05-20T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n_049-2020_08125455.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n_049-2020_08125455.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n_049-2020_08125455.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/11",
-                      "downloadTokenPath":  "/portal/download/contratos/GRxx/",
+                      "downloadTokenPath":  "/portal/download/contratos/KRxx/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -5017,7 +5017,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -5025,12 +5025,12 @@
                       "portalContractId":  "10",
                       "edition":  "Portal",
                       "publishedAt":  "2020-05-20T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n_050-2020_08125007.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n_050-2020_08125007.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n_050-2020_08125007.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/10",
-                      "downloadTokenPath":  "/portal/download/contratos/dsxA/",
+                      "downloadTokenPath":  "/portal/download/contratos/dGxA/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -5073,7 +5073,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -5081,12 +5081,12 @@
                       "portalContractId":  "9",
                       "edition":  "Portal",
                       "publishedAt":  "2020-05-20T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n_051-2020_08122102.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n_051-2020_08122102.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n_051-2020_08122102.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/9",
-                      "downloadTokenPath":  "/portal/download/contratos/ssw/",
+                      "downloadTokenPath":  "/portal/download/contratos/nhw/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -5129,7 +5129,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -5137,7 +5137,7 @@
                       "portalContractId":  "28",
                       "edition":  "Portal",
                       "publishedAt":  "2020-05-19T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -5193,7 +5193,7 @@
                       "portalContractId":  "48",
                       "edition":  "Portal",
                       "publishedAt":  "2020-05-15T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -5249,12 +5249,12 @@
                       "portalContractId":  "19",
                       "edition":  "Portal",
                       "publishedAt":  "2020-05-11T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n_041-2020_08031624.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n_041-2020_08031624.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n_041-2020_08031624.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/19",
-                      "downloadTokenPath":  "/portal/download/contratos/Kdxw/",
+                      "downloadTokenPath":  "/portal/download/contratos/CCxw/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -5297,7 +5297,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -5305,12 +5305,12 @@
                       "portalContractId":  "18",
                       "edition":  "Portal",
                       "publishedAt":  "2020-05-11T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n_042-2020_08031057.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n_042-2020_08031057.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n_042-2020_08031057.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/18",
-                      "downloadTokenPath":  "/portal/download/contratos/dnxz/",
+                      "downloadTokenPath":  "/portal/download/contratos/qhxz/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -5353,7 +5353,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -5361,12 +5361,12 @@
                       "portalContractId":  "17",
                       "edition":  "Portal",
                       "publishedAt":  "2020-05-11T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n_043-2020_08030729.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n_043-2020_08030729.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n_043-2020_08030729.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/17",
-                      "downloadTokenPath":  "/portal/download/contratos/sCxT/",
+                      "downloadTokenPath":  "/portal/download/contratos/CdxT/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -5409,7 +5409,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -5417,12 +5417,12 @@
                       "portalContractId":  "16",
                       "edition":  "Portal",
                       "publishedAt":  "2020-05-11T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n044-2020_08024058.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n044-2020_08024058.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n044-2020_08024058.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/16",
-                      "downloadTokenPath":  "/portal/download/contratos/shxL/",
+                      "downloadTokenPath":  "/portal/download/contratos/sBxL/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -5465,7 +5465,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -5473,12 +5473,12 @@
                       "portalContractId":  "15",
                       "edition":  "Portal",
                       "publishedAt":  "2020-05-11T00:00:00",
-                      "updatedAt":  "2026-03-27T14:42:00",
+                      "updatedAt":  "2026-04-01T15:21:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n045-2020_08023740.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n045-2020_08023740.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n045-2020_08023740.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/15",
-                      "downloadTokenPath":  "/portal/download/contratos/nhxP/",
+                      "downloadTokenPath":  "/portal/download/contratos/CdxP/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -5521,7 +5521,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -5529,12 +5529,12 @@
                       "portalContractId":  "38",
                       "edition":  "Portal",
                       "publishedAt":  "2020-05-08T00:00:00",
-                      "updatedAt":  "2026-03-27T14:42:00",
+                      "updatedAt":  "2026-04-01T15:21:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/ata_de_sessAo_pUblica_15-2020_09110807.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/ata_de_sessAo_pUblica_15-2020_09110807.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/ata_de_sessAo_pUblica_15-2020_09110807.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/38",
-                      "downloadTokenPath":  "/portal/download/contratos/dhoz/",
+                      "downloadTokenPath":  "/portal/download/contratos/sCoz/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -5577,7 +5577,7 @@
                       "portalOrigin":  "LI - Licitação",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -5585,12 +5585,12 @@
                       "portalContractId":  "21",
                       "edition":  "Portal",
                       "publishedAt":  "2020-04-30T00:00:00",
-                      "updatedAt":  "2026-03-27T14:42:00",
+                      "updatedAt":  "2026-04-01T15:21:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n-_035-2020_09072203.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n-_035-2020_09072203.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n-_035-2020_09072203.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/21",
-                      "downloadTokenPath":  "/portal/download/contratos/sK-x/",
+                      "downloadTokenPath":  "/portal/download/contratos/sC-x/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -5633,7 +5633,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -5641,12 +5641,12 @@
                       "portalContractId":  "22",
                       "edition":  "Portal",
                       "publishedAt":  "2020-04-30T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n-_036-2020_09072325.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n-_036-2020_09072325.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n-_036-2020_09072325.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/22",
-                      "downloadTokenPath":  "/portal/download/contratos/GB--/",
+                      "downloadTokenPath":  "/portal/download/contratos/dn--/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -5689,7 +5689,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -5697,12 +5697,12 @@
                       "portalContractId":  "23",
                       "edition":  "Portal",
                       "publishedAt":  "2020-04-30T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n-_037-2020_09072436.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n-_037-2020_09072436.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n-_037-2020_09072436.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/23",
-                      "downloadTokenPath":  "/portal/download/contratos/hR-o/",
+                      "downloadTokenPath":  "/portal/download/contratos/Cn-o/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -5744,7 +5744,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -5752,12 +5752,12 @@
                       "portalContractId":  "24",
                       "edition":  "Portal",
                       "publishedAt":  "2020-04-30T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n-_038-2020_09072612.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n-_038-2020_09072612.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n-_038-2020_09072612.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/24",
-                      "downloadTokenPath":  "/portal/download/contratos/qB-j/",
+                      "downloadTokenPath":  "/portal/download/contratos/nh-j/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -5800,7 +5800,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -5808,12 +5808,12 @@
                       "portalContractId":  "37",
                       "edition":  "Portal",
                       "publishedAt":  "2020-04-28T00:00:00",
-                      "updatedAt":  "2026-03-27T14:42:00",
+                      "updatedAt":  "2026-04-01T15:21:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/ata_de_sessAo_pUblica_13-2020_09110116.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/ata_de_sessAo_pUblica_13-2020_09110116.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/ata_de_sessAo_pUblica_13-2020_09110116.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/37",
-                      "downloadTokenPath":  "/portal/download/contratos/KhoT/",
+                      "downloadTokenPath":  "/portal/download/contratos/KRoT/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -5856,7 +5856,7 @@
                       "portalOrigin":  "LI - Licitação",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -5864,12 +5864,12 @@
                       "portalContractId":  "86",
                       "edition":  "Portal",
                       "publishedAt":  "2020-04-28T00:00:00",
-                      "updatedAt":  "2026-03-27T14:36:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/convenios_fehidro_381_10102335.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/convenios_fehidro_381_10102335.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenios_fehidro_381_10102335.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/86",
-                      "downloadTokenPath":  "/portal/download/contratos/KdzL/",
+                      "downloadTokenPath":  "/portal/download/contratos/RBzL/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -5912,7 +5912,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -5920,7 +5920,7 @@
                       "portalContractId":  "29",
                       "edition":  "Portal",
                       "publishedAt":  "2020-04-24T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -5976,7 +5976,7 @@
                       "portalContractId":  "47",
                       "edition":  "Portal",
                       "publishedAt":  "2020-04-22T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -6032,12 +6032,12 @@
                       "portalContractId":  "20",
                       "edition":  "Portal",
                       "publishedAt":  "2020-04-22T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/contrato_n-_034-2020_09072042.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/contrato_n-_034-2020_09072042.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/contrato_n-_034-2020_09072042.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/20",
-                      "downloadTokenPath":  "/portal/download/contratos/GC-A/",
+                      "downloadTokenPath":  "/portal/download/contratos/hK-A/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -6080,7 +6080,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -6088,12 +6088,12 @@
                       "portalContractId":  "36",
                       "edition":  "Portal",
                       "publishedAt":  "2020-04-17T00:00:00",
-                      "updatedAt":  "2026-03-27T14:42:00",
+                      "updatedAt":  "2026-04-01T15:21:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/ata_de_sessAo_pUblica_09105726.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/ata_de_sessAo_pUblica_09105726.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/ata_de_sessAo_pUblica_09105726.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/36",
-                      "downloadTokenPath":  "/portal/download/contratos/nCoL/",
+                      "downloadTokenPath":  "/portal/download/contratos/RCoL/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -6136,7 +6136,7 @@
                       "portalOrigin":  "LI - Licitação",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -6144,7 +6144,7 @@
                       "portalContractId":  "30",
                       "edition":  "Portal",
                       "publishedAt":  "2020-04-17T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -6200,7 +6200,7 @@
                       "portalContractId":  "31",
                       "edition":  "Portal",
                       "publishedAt":  "2020-04-13T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -6256,12 +6256,12 @@
                       "portalContractId":  "98",
                       "edition":  "Portal",
                       "publishedAt":  "2020-04-07T00:00:00",
-                      "updatedAt":  "2026-03-27T14:41:00",
+                      "updatedAt":  "2026-04-01T15:21:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/convenios_fehidro_129_10113551.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/convenios_fehidro_129_10113551.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenios_fehidro_129_10113551.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/98",
-                      "downloadTokenPath":  "/portal/download/contratos/sGwz/",
+                      "downloadTokenPath":  "/portal/download/contratos/Rdwz/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -6303,7 +6303,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -6311,7 +6311,7 @@
                       "portalContractId":  "32",
                       "edition":  "Portal",
                       "publishedAt":  "2020-03-20T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -6367,7 +6367,7 @@
                       "portalContractId":  "34",
                       "edition":  "Portal",
                       "publishedAt":  "2020-03-18T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -6423,7 +6423,7 @@
                       "portalContractId":  "33",
                       "edition":  "Portal",
                       "publishedAt":  "2020-03-18T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -6479,7 +6479,7 @@
                       "portalContractId":  "35",
                       "edition":  "Portal",
                       "publishedAt":  "2020-03-17T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -6535,12 +6535,12 @@
                       "portalContractId":  "100",
                       "edition":  "Portal",
                       "publishedAt":  "2020-03-09T00:00:00",
-                      "updatedAt":  "2026-03-27T14:32:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/convenios_fehidro_131_10113835.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/convenios_fehidro_131_10113835.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenios_fehidro_131_10113835.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/100",
-                      "downloadTokenPath":  "/portal/download/contratos/KhxAA/",
+                      "downloadTokenPath":  "/portal/download/contratos/dGxAA/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -6582,7 +6582,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -6590,12 +6590,12 @@
                       "portalContractId":  "99",
                       "edition":  "Portal",
                       "publishedAt":  "2020-03-05T00:00:00",
-                      "updatedAt":  "2026-03-27T14:32:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/convenios_fehidro_130_10113711.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/convenios_fehidro_130_10113711.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenios_fehidro_130_10113711.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/99",
-                      "downloadTokenPath":  "/portal/download/contratos/nsww/",
+                      "downloadTokenPath":  "/portal/download/contratos/Cnww/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -6637,7 +6637,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -6645,12 +6645,12 @@
                       "portalContractId":  "92",
                       "edition":  "Portal",
                       "publishedAt":  "2020-01-01T00:00:00",
-                      "updatedAt":  "2026-03-27T14:34:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/convEnio_de_cooperaCAo_tEcnica_10103316.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/convEnio_de_cooperaCAo_tEcnica_10103316.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_de_cooperaCAo_tEcnica_10103316.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/92",
-                      "downloadTokenPath":  "/portal/download/contratos/qKw-/",
+                      "downloadTokenPath":  "/portal/download/contratos/Khw-/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -6693,7 +6693,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -6701,12 +6701,12 @@
                       "portalContractId":  "97",
                       "edition":  "Portal",
                       "publishedAt":  "2020-01-01T00:00:00",
-                      "updatedAt":  "2026-03-27T14:33:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2020/convEnio_consignaCAo_caixa_10105516.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2020/convEnio_consignaCAo_caixa_10105516.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_consignaCAo_caixa_10105516.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/97",
-                      "downloadTokenPath":  "/portal/download/contratos/GhwT/",
+                      "downloadTokenPath":  "/portal/download/contratos/RhwT/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -6748,7 +6748,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -6756,12 +6756,12 @@
                       "portalContractId":  "83",
                       "edition":  "Portal",
                       "publishedAt":  "2019-12-30T00:00:00",
-                      "updatedAt":  "2026-03-27T14:36:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2019/convEnio_n_896691-2019_10101428.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2019/convEnio_n_896691-2019_10101428.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_n_896691-2019_10101428.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/83",
-                      "downloadTokenPath":  "/portal/download/contratos/dqzo/",
+                      "downloadTokenPath":  "/portal/download/contratos/CBzo/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -6804,7 +6804,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -6812,12 +6812,12 @@
                       "portalContractId":  "84",
                       "edition":  "Portal",
                       "publishedAt":  "2019-12-27T00:00:00",
-                      "updatedAt":  "2026-03-27T14:36:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2019/convEnio_n_893950-2019_10101726.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2019/convEnio_n_893950-2019_10101726.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_n_893950-2019_10101726.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/84",
-                      "downloadTokenPath":  "/portal/download/contratos/sqzj/",
+                      "downloadTokenPath":  "/portal/download/contratos/Gnzj/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -6860,7 +6860,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -6868,12 +6868,12 @@
                       "portalContractId":  "85",
                       "edition":  "Portal",
                       "publishedAt":  "2019-12-20T00:00:00",
-                      "updatedAt":  "2026-03-27T14:36:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2019/convEnio_n_890545-2019_10102224.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2019/convEnio_n_890545-2019_10102224.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_n_890545-2019_10102224.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/85",
-                      "downloadTokenPath":  "/portal/download/contratos/dKzP/",
+                      "downloadTokenPath":  "/portal/download/contratos/dszP/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -6915,7 +6915,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -6923,12 +6923,12 @@
                       "portalContractId":  "74",
                       "edition":  "Portal",
                       "publishedAt":  "2019-12-08T00:00:00",
-                      "updatedAt":  "2026-03-27T14:38:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2019/convenio_n_2439_10093152.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2019/convenio_n_2439_10093152.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenio_n_2439_10093152.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/74",
-                      "downloadTokenPath":  "/portal/download/contratos/CnTj/",
+                      "downloadTokenPath":  "/portal/download/contratos/sBTj/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -6970,7 +6970,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -6978,12 +6978,12 @@
                       "portalContractId":  "88",
                       "edition":  "Portal",
                       "publishedAt":  "2019-11-28T00:00:00",
-                      "updatedAt":  "2026-03-27T14:35:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2019/convEnio_n_350_10102718.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2019/convEnio_n_350_10102718.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_n_350_10102718.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/88",
-                      "downloadTokenPath":  "/portal/download/contratos/sdzz/",
+                      "downloadTokenPath":  "/portal/download/contratos/KRzz/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -7026,7 +7026,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -7034,12 +7034,12 @@
                       "portalContractId":  "90",
                       "edition":  "Portal",
                       "publishedAt":  "2019-10-31T00:00:00",
-                      "updatedAt":  "2026-03-27T14:35:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2019/termo_de_convenio_236_10102903.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2019/termo_de_convenio_236_10102903.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/termo_de_convenio_236_10102903.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/90",
-                      "downloadTokenPath":  "/portal/download/contratos/nswA/",
+                      "downloadTokenPath":  "/portal/download/contratos/KGwA/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -7082,7 +7082,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -7090,7 +7090,7 @@
                       "portalContractId":  "87",
                       "edition":  "Portal",
                       "publishedAt":  "2019-10-24T00:00:00",
-                      "updatedAt":  "2026-03-27T14:36:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "",
                       "webPdfPath":  "",
                       "pdfUrl":  "",
@@ -7146,12 +7146,12 @@
                       "portalContractId":  "89",
                       "edition":  "Portal",
                       "publishedAt":  "2019-07-31T00:00:00",
-                      "updatedAt":  "2026-03-27T14:35:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2019/convEnio_n_349_10102809.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2019/convEnio_n_349_10102809.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_n_349_10102809.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/89",
-                      "downloadTokenPath":  "/portal/download/contratos/CKzw/",
+                      "downloadTokenPath":  "/portal/download/contratos/nnzw/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -7193,7 +7193,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -7201,12 +7201,12 @@
                       "portalContractId":  "61",
                       "edition":  "Portal",
                       "publishedAt":  "2019-01-29T00:00:00",
-                      "updatedAt":  "2026-03-27T14:29:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2019/convEnio_n_5041_10081925.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2019/convEnio_n_5041_10081925.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_n_5041_10081925.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/61",
-                      "downloadTokenPath":  "/portal/download/contratos/RGLx/",
+                      "downloadTokenPath":  "/portal/download/contratos/nCLx/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -7248,7 +7248,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  2,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -7256,12 +7256,12 @@
                       "portalContractId":  "66",
                       "edition":  "Portal",
                       "publishedAt":  "2018-12-27T00:00:00",
-                      "updatedAt":  "2026-03-27T14:39:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2018/convenio_n_510_10083123.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2018/convenio_n_510_10083123.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenio_n_510_10083123.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/66",
-                      "downloadTokenPath":  "/portal/download/contratos/sdLL/",
+                      "downloadTokenPath":  "/portal/download/contratos/KqLL/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -7304,7 +7304,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -7312,12 +7312,12 @@
                       "portalContractId":  "79",
                       "edition":  "Portal",
                       "publishedAt":  "2018-12-17T00:00:00",
-                      "updatedAt":  "2026-03-27T14:37:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2018/convEnio_n_195_10094844.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2018/convEnio_n_195_10094844.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_n_195_10094844.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/79",
-                      "downloadTokenPath":  "/portal/download/contratos/CKTw/",
+                      "downloadTokenPath":  "/portal/download/contratos/shTw/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -7360,7 +7360,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -7368,12 +7368,12 @@
                       "portalContractId":  "76",
                       "edition":  "Portal",
                       "publishedAt":  "2018-12-17T00:00:00",
-                      "updatedAt":  "2026-03-27T14:37:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2018/convenio_n685_10094223.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2018/convenio_n685_10094223.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenio_n685_10094223.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/76",
-                      "downloadTokenPath":  "/portal/download/contratos/nBTL/",
+                      "downloadTokenPath":  "/portal/download/contratos/dsTL/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -7416,7 +7416,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -7424,12 +7424,12 @@
                       "portalContractId":  "72",
                       "edition":  "Portal",
                       "publishedAt":  "2018-08-02T00:00:00",
-                      "updatedAt":  "2026-03-27T14:39:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2018/convEnio_n_871257-2018_10085928.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2018/convEnio_n_871257-2018_10085928.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_n_871257-2018_10085928.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/72",
-                      "downloadTokenPath":  "/portal/download/contratos/GKT-/",
+                      "downloadTokenPath":  "/portal/download/contratos/hBT-/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -7471,7 +7471,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -7479,12 +7479,12 @@
                       "portalContractId":  "75",
                       "edition":  "Portal",
                       "publishedAt":  "2018-06-28T00:00:00",
-                      "updatedAt":  "2026-03-27T14:37:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2018/convenio_n_1280_10093947.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2018/convenio_n_1280_10093947.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenio_n_1280_10093947.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/75",
-                      "downloadTokenPath":  "/portal/download/contratos/RRTP/",
+                      "downloadTokenPath":  "/portal/download/contratos/RqTP/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -7527,7 +7527,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -7535,12 +7535,12 @@
                       "portalContractId":  "78",
                       "edition":  "Portal",
                       "publishedAt":  "2018-06-11T00:00:00",
-                      "updatedAt":  "2026-03-27T14:37:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2018/convenio_n_373_10094729.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2018/convenio_n_373_10094729.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenio_n_373_10094729.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/78",
-                      "downloadTokenPath":  "/portal/download/contratos/RGTz/",
+                      "downloadTokenPath":  "/portal/download/contratos/hdTz/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -7583,7 +7583,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -7591,12 +7591,12 @@
                       "portalContractId":  "73",
                       "edition":  "Portal",
                       "publishedAt":  "2018-06-11T00:00:00",
-                      "updatedAt":  "2026-03-27T14:41:00",
+                      "updatedAt":  "2026-04-01T15:21:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2018/convEnio_n_717074-2018_10092956.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2018/convEnio_n_717074-2018_10092956.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_n_717074-2018_10092956.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/73",
-                      "downloadTokenPath":  "/portal/download/contratos/sKTo/",
+                      "downloadTokenPath":  "/portal/download/contratos/ddTo/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -7639,7 +7639,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -7647,12 +7647,12 @@
                       "portalContractId":  "80",
                       "edition":  "Portal",
                       "publishedAt":  "2018-06-06T00:00:00",
-                      "updatedAt":  "2026-03-27T14:37:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2018/convenio_n_167_10094951.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2018/convenio_n_167_10094951.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenio_n_167_10094951.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/80",
-                      "downloadTokenPath":  "/portal/download/contratos/KGzA/",
+                      "downloadTokenPath":  "/portal/download/contratos/KBzA/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -7695,7 +7695,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -7703,12 +7703,12 @@
                       "portalContractId":  "81",
                       "edition":  "Portal",
                       "publishedAt":  "2018-05-07T00:00:00",
-                      "updatedAt":  "2026-03-27T14:37:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2018/convenio_n_065_10095149.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2018/convenio_n_065_10095149.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenio_n_065_10095149.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/81",
-                      "downloadTokenPath":  "/portal/download/contratos/dszx/",
+                      "downloadTokenPath":  "/portal/download/contratos/qBzx/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -7751,7 +7751,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -7759,12 +7759,12 @@
                       "portalContractId":  "82",
                       "edition":  "Portal",
                       "publishedAt":  "2018-04-04T00:00:00",
-                      "updatedAt":  "2026-03-27T14:36:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2018/convenio_n_064_10095306.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2018/convenio_n_064_10095306.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenio_n_064_10095306.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/82",
-                      "downloadTokenPath":  "/portal/download/contratos/dhz-/",
+                      "downloadTokenPath":  "/portal/download/contratos/hdz-/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -7807,7 +7807,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -7815,12 +7815,12 @@
                       "portalContractId":  "141",
                       "edition":  "Portal",
                       "publishedAt":  "2018-03-26T00:00:00",
-                      "updatedAt":  "2026-03-27T14:29:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2018/termo_de_colaboraCAo_011_11040820.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2018/termo_de_colaboraCAo_011_11040820.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/termo_de_colaboraCAo_011_11040820.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/141",
-                      "downloadTokenPath":  "/portal/download/contratos/sCxjx/",
+                      "downloadTokenPath":  "/portal/download/contratos/hBxjx/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -7862,7 +7862,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -7870,12 +7870,12 @@
                       "portalContractId":  "77",
                       "edition":  "Portal",
                       "publishedAt":  "2018-03-23T00:00:00",
-                      "updatedAt":  "2026-03-27T14:41:00",
+                      "updatedAt":  "2026-04-01T15:21:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2018/convEnio_n558_10094355.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2018/convEnio_n558_10094355.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convEnio_n558_10094355.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/77",
-                      "downloadTokenPath":  "/portal/download/contratos/CqTT/",
+                      "downloadTokenPath":  "/portal/download/contratos/GsTT/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -7918,7 +7918,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  1,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -7926,12 +7926,12 @@
                       "portalContractId":  "142",
                       "edition":  "Portal",
                       "publishedAt":  "2018-02-27T00:00:00",
-                      "updatedAt":  "2026-03-27T14:41:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2018/termo_de_colaboraCAo_001_12081149.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2018/termo_de_colaboraCAo_001_12081149.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/termo_de_colaboraCAo_001_12081149.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/142",
-                      "downloadTokenPath":  "/portal/download/contratos/hsxj-/",
+                      "downloadTokenPath":  "/portal/download/contratos/Gqxj-/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -7973,7 +7973,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -7981,12 +7981,12 @@
                       "portalContractId":  "67",
                       "edition":  "Portal",
                       "publishedAt":  "2017-12-29T00:00:00",
-                      "updatedAt":  "2026-03-27T14:41:00",
+                      "updatedAt":  "2026-04-01T15:21:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2017/convenio__225_10083455.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2017/convenio__225_10083455.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenio__225_10083455.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/67",
-                      "downloadTokenPath":  "/portal/download/contratos/nCLT/",
+                      "downloadTokenPath":  "/portal/download/contratos/GRLT/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -8029,7 +8029,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -8037,12 +8037,12 @@
                       "portalContractId":  "64",
                       "edition":  "Portal",
                       "publishedAt":  "2017-12-29T00:00:00",
-                      "updatedAt":  "2026-03-27T14:39:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2017/convenio_n_605_10082913.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2017/convenio_n_605_10082913.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenio_n_605_10082913.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/64",
-                      "downloadTokenPath":  "/portal/download/contratos/sqLj/",
+                      "downloadTokenPath":  "/portal/download/contratos/dhLj/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -8085,7 +8085,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -8093,12 +8093,12 @@
                       "portalContractId":  "71",
                       "edition":  "Portal",
                       "publishedAt":  "2017-12-27T00:00:00",
-                      "updatedAt":  "2026-03-27T14:39:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2017/convenio_fussesp_n_000_10084512.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2017/convenio_fussesp_n_000_10084512.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenio_fussesp_n_000_10084512.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/71",
-                      "downloadTokenPath":  "/portal/download/contratos/sRTx/",
+                      "downloadTokenPath":  "/portal/download/contratos/sGTx/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -8141,7 +8141,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -8149,12 +8149,12 @@
                       "portalContractId":  "65",
                       "edition":  "Portal",
                       "publishedAt":  "2017-12-27T00:00:00",
-                      "updatedAt":  "2026-03-27T14:39:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2017/convenio_n_535_10083019.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2017/convenio_n_535_10083019.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenio_n_535_10083019.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/65",
-                      "downloadTokenPath":  "/portal/download/contratos/hqLP/",
+                      "downloadTokenPath":  "/portal/download/contratos/RhLP/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -8197,7 +8197,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -8205,12 +8205,12 @@
                       "portalContractId":  "68",
                       "edition":  "Portal",
                       "publishedAt":  "2017-12-21T00:00:00",
-                      "updatedAt":  "2026-03-27T14:41:00",
+                      "updatedAt":  "2026-04-01T15:21:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2017/convenio_n_214_10083911.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2017/convenio_n_214_10083911.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenio_n_214_10083911.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/68",
-                      "downloadTokenPath":  "/portal/download/contratos/CCLz/",
+                      "downloadTokenPath":  "/portal/download/contratos/KsLz/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -8253,7 +8253,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -8261,12 +8261,12 @@
                       "portalContractId":  "69",
                       "edition":  "Portal",
                       "publishedAt":  "2017-12-08T00:00:00",
-                      "updatedAt":  "2026-03-27T14:39:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2017/convenio_gssp-atp_n_189_10084136.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2017/convenio_gssp-atp_n_189_10084136.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenio_gssp-atp_n_189_10084136.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/69",
-                      "downloadTokenPath":  "/portal/download/contratos/snLw/",
+                      "downloadTokenPath":  "/portal/download/contratos/GsLw/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -8309,7 +8309,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -8317,12 +8317,12 @@
                       "portalContractId":  "63",
                       "edition":  "Portal",
                       "publishedAt":  "2017-09-14T00:00:00",
-                      "updatedAt":  "2026-03-27T14:39:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2017/convenio_contrato_de_repasse_n_844500_10082756.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2017/convenio_contrato_de_repasse_n_844500_10082756.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenio_contrato_de_repasse_n_844500_10082756.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/63",
-                      "downloadTokenPath":  "/portal/download/contratos/hqLo/",
+                      "downloadTokenPath":  "/portal/download/contratos/sGLo/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -8364,7 +8364,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -8372,12 +8372,12 @@
                       "portalContractId":  "70",
                       "edition":  "Portal",
                       "publishedAt":  "2017-08-07T00:00:00",
-                      "updatedAt":  "2026-03-27T14:39:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2017/convenio_n_019_10084311.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2017/convenio_n_019_10084311.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenio_n_019_10084311.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/70",
-                      "downloadTokenPath":  "/portal/download/contratos/CCTA/",
+                      "downloadTokenPath":  "/portal/download/contratos/nCTA/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -8419,7 +8419,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -8427,12 +8427,12 @@
                       "portalContractId":  "62",
                       "edition":  "Portal",
                       "publishedAt":  "2015-12-16T00:00:00",
-                      "updatedAt":  "2026-03-27T14:40:00",
+                      "updatedAt":  "2026-04-01T15:20:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2015/convenio_360_10082447.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2015/convenio_360_10082447.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/convenio_360_10082447.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/62",
-                      "downloadTokenPath":  "/portal/download/contratos/GKL-/",
+                      "downloadTokenPath":  "/portal/download/contratos/nCL-/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -8475,7 +8475,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   },
                   {
                       "sourceType":  "portal_contratos",
@@ -8483,12 +8483,12 @@
                       "portalContractId":  "133",
                       "edition":  "Portal",
                       "publishedAt":  "2007-12-28T00:00:00",
-                      "updatedAt":  "2026-03-27T14:30:00",
+                      "updatedAt":  "2026-04-01T15:19:00",
                       "localPdfRelative":  "storage/pdfs/portal-contratos/2007/n_002-2022_10024121.pdf",
                       "webPdfPath":  "/pdfs/portal-contratos/2007/n_002-2022_10024121.pdf",
                       "pdfUrl":  "https://www.iguape.sp.gov.br/arquivos/n_002-2022_10024121.pdf",
                       "viewUrl":  "https://www.iguape.sp.gov.br/portal/contrato/133",
-                      "downloadTokenPath":  "/portal/download/contratos/dBxoo/",
+                      "downloadTokenPath":  "/portal/download/contratos/dhxoo/",
                       "candidateKeywords":  [
                                                 "portal-contratos",
                                                 "site-oficial"
@@ -8531,7 +8531,7 @@
                       "portalOrigin":  "OU - Outra",
                       "revenueExpense":  "Receita",
                       "aditiveCount":  0,
-                      "downloadedDocument":  true
+                      "downloadedDocument":  false
                   }
               ]
 }

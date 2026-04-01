@@ -1,0 +1,162 @@
+﻿{
+    "diaryId":  "695",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-04-01T15:28:52",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/38c3e106e6075d569cc4f8a2a946ca3a.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/38c3e106e6075d569cc4f8a2a946ca3a.pdf",
+    "keywords":  [
+
+                 ],
+    "analysisReason":  [
+                           "full_catalog"
+                       ],
+    "summary":  {
+                    "pageCount":  5,
+                    "relevantPageCount":  2,
+                    "blockCount":  6,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 41.601,54"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 324",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "193/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa SILVANO FERREIRA SERVICOS E LOCACAO – ME",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 324\n DE 23 DE NOVEMBRO DE 2023\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\nArt. 1º - WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado\nArt. 2º - de Sao Paulo, no uso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa\n a seguinte:\n\n PORTARIA\n\n Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0\n SSP/SP, inscrito no CPF/MF nº 256.609.068-85, para ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "TERMO DE PRORROGACAO AO CONTRATO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MARIALDO AUGUSTO",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a Instalacao do “Cartorio Eleitoral da 51ª Zona do “Municipio de Iguape”",
+                      "value":  "R$ 4.526,08",
+                      "term":  "",
+                      "signatureDate":  "22/11/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nTERMO DE PRORROGACAO AO CONTRATO\nDE LOCACAO DE IMOVEL Nº 356/2015\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: MARIALDO AUGUSTO\nCORDEIRO DE SOUZA\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a Instalacao do “Cartorio Eleitoral da 51ª Zona\ndo “Municipio de Iguape”\nDATA: 22/11/2023\nVALOR: R$ 4.526,08 (quatro mil, quinhentos e vinte e seis reais e oito centavos) mensais.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  },
+                  {
+                      "type":  "Dispensa",
+                      "actTitle":  "Iguape, 24 de novembro de 2023.",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  4,
+                      "contractNumber":  "",
+                      "processNumber":  "880/2023",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "21.406.938/0001-86",
+                      "object":  "",
+                      "value":  "R$ 22.075,46",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n Iguape, 24 de novembro de 2023.\n\nProcesso nº 880/2023\nDESPACHO DE RATIFICACAO.\n\n Tomando ciencia da justificativa oriunda da origem e do conteudo do procedimento, RATIFICO a contratacao por DISPENSA DE LICITACAO da\nempresa LN PEREIRA BRUNO, Inscrita no CNPJ: 21.406.938/0001-86, PARA CONTRATACAO DE EMPRESA ESPECIALIZADA EM SERVICO NO\nVEICULO DE PLACA DMN-9141 ANO 2011/2011, QUE PERTENCE AO DEPT. DE OBRAS E ATENDE AS NECESSIDADES DO MUNICIPIO NA\nCOLETA DE LIXO, PECAS PARA REFORMA DE ASSOALHO, TETO E CUBA E ",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Dispensa",
+                      "actTitle":  "Iguape, 24 de novembro de 2023.",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  4,
+                      "contractNumber":  "",
+                      "processNumber":  "671/2023",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "21.406.938/0001-86",
+                      "object":  "",
+                      "value":  "R$ 15.000,00",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n Iguape, 24 de novembro de 2023.\n\nProcesso nº 671/2023\nDESPACHO DE RATIFICACAO.\n\n Tomando ciencia da justificativa oriunda da origem e do conteudo do procedimento, RATIFICO a contratacao por DISPENSA DE LICITACAO da\nempresa LN PEREIRA BRUNO, Inscrita no CNPJ: 21.406.938/0001-86, PARA CONTRATACAO DE EMPRESA ESPECIALIZADA EM SERVICO NO\nVEICULO DE PLACA DMN-9141 ANO 2011/2011, QUE PERTENCE AO DEPT. DE OBRAS E ATENDE AS NECESSIDADES DO MUNICIPIO NA\nCOLETA DE LIXO, PARA REFORMA DE ASSOALHO, TETO E CUBA E CAIXA ",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

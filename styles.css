@@ -341,6 +341,52 @@ button {
   background: rgba(255, 255, 255, 0.12);
 }
 
+.page-view {
+  display: grid;
+  gap: 22px;
+}
+
+.page-view[hidden] {
+  display: none !important;
+}
+
+.view-switcher {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.view-button {
+  min-width: 0;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(180deg, #fff, #fbfcfd);
+  color: var(--ink);
+  display: grid;
+  gap: 8px;
+  text-align: left;
+}
+
+.view-button span {
+  color: var(--accent-strong);
+  font-size: 0.95rem;
+  font-weight: 800;
+}
+
+.view-button strong {
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  line-height: 1.55;
+  font-weight: 600;
+}
+
+.view-button.active {
+  border-color: rgba(226, 109, 20, 0.3);
+  background: linear-gradient(180deg, #fff, var(--accent-soft));
+  box-shadow: 0 14px 30px rgba(226, 109, 20, 0.08);
+}
+
 .hero-grid,
 .content-grid,
 .insights-layout,
@@ -823,7 +869,7 @@ button {
 }
 
 .controls-grid {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 14px;
 }
 
@@ -1189,6 +1235,8 @@ button {
 .type-pill:focus-visible,
 .insight-action:hover,
 .insight-action:focus-visible,
+.view-button:hover,
+.view-button:focus-visible,
 .shortcut-card:hover,
 .shortcut-card:focus-visible,
 .quick-filter-button:hover,
@@ -1222,6 +1270,10 @@ a:focus-visible {
   .content-grid,
   .insights-layout {
     grid-template-columns: 1fr;
+  }
+
+  .controls-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .hero-feature {
@@ -1268,6 +1320,7 @@ a:focus-visible {
   }
 
   .quick-filters,
+  .view-switcher,
   .controls-grid,
   .headline-metrics,
   .executive-cards,
@@ -1344,6 +1397,7 @@ a:focus-visible {
   }
 
   .quick-filters,
+  .view-switcher,
   .controls-grid,
   .headline-metrics,
   .executive-cards,

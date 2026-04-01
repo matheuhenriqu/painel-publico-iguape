@@ -1,6 +1,8 @@
 (() => {
   const PAGE_SIZE = 30;
   const FEEDBACK_TIMEOUT_MS = 2400;
+  const DEFAULT_VIEW = "overview";
+  const VALID_VIEWS = new Set(["overview", "consulta", "contratos"]);
   const SORT_LABELS = {
     newest: "mais recentes",
     highestValue: "maior valor",
@@ -16,6 +18,7 @@
     sortMode: "newest",
     specialFilter: "",
     activePreset: "",
+    currentView: DEFAULT_VIEW,
     feedbackTimer: 0,
   };
   const initialUrlState = readUrlState();
@@ -66,6 +69,7 @@
     searchInput: document.getElementById("search-input"),
     typeSelect: document.getElementById("type-select"),
     yearSelect: document.getElementById("year-select"),
+    administrationSelect: document.getElementById("administration-select"),
     confidenceSelect: document.getElementById("confidence-select"),
     sortSelect: document.getElementById("sort-select"),
     typePills: document.getElementById("type-pills"),
@@ -76,6 +80,9 @@
     contractsList: document.getElementById("contracts-list"),
     loadMore: document.getElementById("load-more"),
     footerCopy: document.getElementById("footer-copy"),
+    viewButtons: [...document.querySelectorAll("[data-view-button]")],
+    viewLinks: [...document.querySelectorAll("[data-view-target]")],
+    pageViews: [...document.querySelectorAll("[data-page-view]")],
   };
 
   function readUrlState() {
@@ -85,10 +92,12 @@
       query: params.get("q") || "",
       type: params.get("type") || "",
       year: params.get("year") || "",
+      administration: params.get("administration") || "",
       confidence: params.get("confidence") || "",
       sort: SORT_LABELS[sort] ? sort : "newest",
       special: params.get("special") === "missingValue" ? "missingValue" : "",
       preset: params.get("preset") || "",
+      view: VALID_VIEWS.has(params.get("view")) ? params.get("view") : DEFAULT_VIEW,
     };
   }
 
@@ -224,6 +233,63 @@
     return state.payload?.typeSummary?.[0] || null;
   }
 
+  function getAdministrationValueForDate(value) {
+    if (!value) return "";
+    const date = new Date(value);
+    const yearNumber = Number.isNaN(date.getTime())
+      ? Number(String(value).slice(0, 4))
+      : date.getFullYear();
+    if (!Number.isFinite(yearNumber) || yearNumber <= 0) return "";
+    const start = yearNumber - ((yearNumber - 1) % 4);
+    return `${start}-${start + 3}`;
+  }
+
+  function formatAdministrationLabel(value) {
+    return value ? `Gestão ${value}` : "";
+  }
+
+  function buildAdministrationEntries(items) {
+    const counts = new Map();
+    items.forEach((item) => {
+      const administration = getAdministrationValueForDate(item.publishedAt);
+      if (!administration) return;
+      counts.set(administration, (counts.get(administration) || 0) + 1);
+    });
+    return [...counts.entries()]
+      .sort((a, b) => Number(b[0].split("-")[0]) - Number(a[0].split("-")[0]))
+      .map(([value, count]) => ({ value, label: `${formatAdministrationLabel(value)} (${formatNumber(count)})` }));
+  }
+
+  function administrationIncludesYear(administration, year) {
+    if (!administration || !year) return true;
+    const yearNumber = Number(String(year).slice(0, 4));
+    const [start, end] = String(administration).split("-").map(Number);
+    if (!Number.isFinite(yearNumber) || !Number.isFinite(start) || !Number.isFinite(end)) return false;
+    return yearNumber >= start && yearNumber <= end;
+  }
+
+  function applyView(view, { scroll = false, sync = true } = {}) {
+    const nextView = VALID_VIEWS.has(view) ? view : DEFAULT_VIEW;
+    state.currentView = nextView;
+
+    elements.pageViews.forEach((pageView) => {
+      const isActive = pageView.dataset.pageView === nextView;
+      pageView.hidden = !isActive;
+      pageView.classList.toggle("is-active", isActive);
+    });
+
+    elements.viewButtons.forEach((button) => {
+      const isActive = button.dataset.viewButton === nextView;
+      button.classList.toggle("active", isActive);
+      button.setAttribute("aria-pressed", String(isActive));
+    });
+
+    if (sync) syncUrlState();
+    if (scroll) {
+      document.getElementById(`page-view-${nextView}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+
   function getPresetLabel(presetId) {
     return {
       recent: "mais recentes",
@@ -325,15 +391,18 @@
     const query = elements.searchInput.value.trim();
     const type = elements.typeSelect.value;
     const year = elements.yearSelect.value;
+    const administration = elements.administrationSelect.value;
     const confidence = elements.confidenceSelect.value;
 
     if (query) params.set("q", query);
     if (type) params.set("type", type);
     if (year) params.set("year", year);
+    if (administration) params.set("administration", administration);
     if (confidence) params.set("confidence", confidence);
     if (state.sortMode !== "newest") params.set("sort", state.sortMode);
     if (state.specialFilter) params.set("special", state.specialFilter);
     if (state.activePreset) params.set("preset", state.activePreset);
+    if (state.currentView !== DEFAULT_VIEW) params.set("view", state.currentView);
 
     const queryString = params.toString();
     window.history.replaceState(null, "", `${window.location.pathname}${queryString ? `?${queryString}` : ""}`);
@@ -346,11 +415,13 @@
     }
     setSelectIfValid(elements.typeSelect, repairBrokenText(initialUrlState.type));
     setSelectIfValid(elements.yearSelect, initialUrlState.year);
+    setSelectIfValid(elements.administrationSelect, initialUrlState.administration);
     setSelectIfValid(elements.confidenceSelect, initialUrlState.confidence);
     setSelectIfValid(elements.sortSelect, initialUrlState.sort);
     state.sortMode = elements.sortSelect.value || "newest";
     state.specialFilter = initialUrlState.special;
     state.activePreset = initialUrlState.preset;
+    state.currentView = initialUrlState.view;
   }
 
   function renderMetrics() {
@@ -567,9 +638,9 @@
     `).join("");
   }
 
-  function renderActiveFiltersSummary({ query, type, year, confidence }) {
+  function renderActiveFiltersSummary({ query, type, year, administration, confidence }) {
     const parts = [];
-    const hasManualFilter = Boolean(query || type || year || confidence || state.specialFilter === "missingValue" || state.sortMode !== "newest" || state.activePreset);
+    const hasManualFilter = Boolean(query || type || year || administration || confidence || state.specialFilter === "missingValue" || state.sortMode !== "newest" || state.activePreset);
     if (!hasManualFilter) {
       elements.activeFilters.textContent = "Sem filtros ativos. A lista abaixo segue do mais novo para o mais antigo.";
       return;
@@ -579,6 +650,7 @@
     if (query) parts.push(`Busca: ${query}`);
     if (type) parts.push(`Tipo: ${type}`);
     if (year) parts.push(`Ano: ${year}`);
+    if (administration) parts.push(`Gestão: ${formatAdministrationLabel(administration)}`);
     if (confidence) parts.push(`Confiabilidade: ${formatConfidenceLabel(confidence)}`);
     if (state.specialFilter === "missingValue") parts.push("Somente registros sem valor informado");
     parts.push(`Ordenação: ${SORT_LABELS[state.sortMode] || SORT_LABELS.newest}`);
@@ -664,6 +736,7 @@
     elements.searchInput.value = "";
     elements.typeSelect.value = "";
     elements.yearSelect.value = "";
+    elements.administrationSelect.value = "";
     elements.confidenceSelect.value = "";
     elements.sortSelect.value = "newest";
     state.activeType = "";
@@ -677,6 +750,7 @@
     const query = normalizeForSearch(rawQuery);
     const type = elements.typeSelect.value;
     const year = elements.yearSelect.value;
+    const administration = elements.administrationSelect.value;
     const confidence = elements.confidenceSelect.value;
     state.activeType = type;
     state.sortMode = elements.sortSelect.value || "newest";
@@ -687,6 +761,7 @@
       if (query && !haystack.includes(query)) return false;
       if (type && item.type !== type) return false;
       if (year && !(item.publishedAt || "").startsWith(year)) return false;
+      if (administration && getAdministrationValueForDate(item.publishedAt) !== administration) return false;
       if (confidence && String(item.confidence || "").toLowerCase() !== confidence) return false;
       if (state.specialFilter === "missingValue" && Number(item.valueNumber || 0) > 0) return false;
       return true;
@@ -696,7 +771,7 @@
     if (resetVisible) state.visibleCount = PAGE_SIZE;
     syncUrlState();
     renderQuickFilters();
-    renderActiveFiltersSummary({ query: rawQuery, type, year, confidence });
+    renderActiveFiltersSummary({ query: rawQuery, type, year, administration, confidence });
     renderSelectionSummary();
     renderTypePills();
     renderContracts();
@@ -730,8 +805,11 @@
   function applyInsightAction(action, value) {
     if (!action || !value) return;
     resetAllFilters();
+    applyView("consulta", { sync: false });
     if (action === "year") {
       elements.yearSelect.value = value;
+      const administrationValue = getAdministrationValueForDate(`${value}-01-01`);
+      if (administrationValue) elements.administrationSelect.value = administrationValue;
     }
     else if (action === "search") {
       elements.searchInput.value = value;
@@ -797,9 +875,11 @@
     state.payload = normalizePayload(await response.json());
     populateSelect(elements.typeSelect, (state.payload.typeSummary || []).map((item) => ({ value: item.type, label: item.type })), "Todos os tipos");
     populateSelect(elements.yearSelect, (state.payload.yearSummary || []).map((item) => ({ value: item.year, label: `${item.year} (${item.count})` })), "Todos os anos");
+    populateSelect(elements.administrationSelect, buildAdministrationEntries(getItems()), "Todas as gestões");
     populateSelect(elements.confidenceSelect, buildConfidenceEntries(getItems()), "Todas as leituras");
 
     applyInitialUrlState();
+    applyView(state.currentView, { sync: false });
     renderMetrics();
     renderExecutiveSummary();
     renderPriorities();
@@ -814,6 +894,7 @@
         event.preventDefault();
         elements.searchInput.value = elements.heroSearchInput.value.trim();
         state.activePreset = "";
+        applyView("consulta", { sync: false });
         updateFilters({ resetVisible: true });
         document.getElementById("section-controls")?.scrollIntoView({ behavior: "smooth", block: "start" });
         elements.searchInput.focus({ preventScroll: true });
@@ -830,6 +911,17 @@
       updateFilters({ resetVisible: true });
     });
     elements.yearSelect.addEventListener("change", () => {
+      if (elements.yearSelect.value) {
+        const administrationValue = getAdministrationValueForDate(`${elements.yearSelect.value}-01-01`);
+        if (administrationValue) elements.administrationSelect.value = administrationValue;
+      }
+      state.activePreset = "";
+      updateFilters({ resetVisible: true });
+    });
+    elements.administrationSelect.addEventListener("change", () => {
+      if (!administrationIncludesYear(elements.administrationSelect.value, elements.yearSelect.value)) {
+        elements.yearSelect.value = "";
+      }
       state.activePreset = "";
       updateFilters({ resetVisible: true });
     });
@@ -855,6 +947,24 @@
       state.visibleCount += PAGE_SIZE;
       renderSelectionSummary();
       renderContracts();
+    });
+    elements.viewButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        applyView(button.dataset.viewButton, { scroll: true });
+      });
+    });
+    elements.viewLinks.forEach((link) => {
+      link.addEventListener("click", (event) => {
+        const targetView = link.dataset.viewTarget;
+        if (!VALID_VIEWS.has(targetView)) return;
+        const href = link.getAttribute("href") || "";
+        if (href.startsWith("#")) event.preventDefault();
+        applyView(targetView, { sync: false });
+        if (href.startsWith("#")) {
+          document.querySelector(href)?.scrollIntoView({ behavior: "smooth", block: "start" });
+          syncUrlState();
+        }
+      });
     });
   }
 

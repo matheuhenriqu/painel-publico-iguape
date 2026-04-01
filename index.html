@@ -21,11 +21,11 @@
         <div class="government-links">
           <a href="https://www.iguape.sp.gov.br/" target="_blank" rel="noopener noreferrer">Portal oficial</a>
           <a href="https://www.iguape.sp.gov.br/portal/diario-oficial" target="_blank" rel="noopener noreferrer">Diário Oficial</a>
-          <a href="#section-contracts">Contratos públicos</a>
+          <a href="#page-view-contratos" data-view-target="contratos">Contratos públicos</a>
         </div>
         <div class="government-links government-links-right">
-          <a href="#section-controls">Serviços digitais</a>
-          <a href="#section-insights">Destaques da base</a>
+          <a href="#page-view-consulta" data-view-target="consulta">Serviços digitais</a>
+          <a href="#page-view-consulta" data-view-target="consulta">Destaques da base</a>
         </div>
       </div>
 
@@ -54,18 +54,18 @@
             </div>
           </div>
           <div class="utility-actions">
-            <a class="utility-action" href="#section-executive">Panorama</a>
-            <a class="utility-action" href="#section-contracts">Atos oficiais</a>
+            <a class="utility-action" href="#page-view-overview" data-view-target="overview">Panorama</a>
+            <a class="utility-action" href="#page-view-contratos" data-view-target="contratos">Atos oficiais</a>
           </div>
         </div>
       </div>
 
       <nav class="portal-nav" aria-label="Navegação principal">
-        <a href="#section-executive">Órgãos públicos</a>
-        <a href="#section-controls">Serviços</a>
-        <a href="#section-priorities">Atualizações</a>
-        <a href="#section-insights">Agenda e destaques</a>
-        <a href="#section-contracts">Diário Oficial</a>
+        <a href="#page-view-overview" data-view-target="overview">Panorama</a>
+        <a href="#page-view-consulta" data-view-target="consulta">Consulta</a>
+        <a href="#page-view-consulta" data-view-target="consulta">Destaques</a>
+        <a href="#page-view-contratos" data-view-target="contratos">Contratos</a>
+        <a href="https://www.iguape.sp.gov.br/portal/diario-oficial" target="_blank" rel="noopener noreferrer">Diário Oficial</a>
       </nav>
 
       <section class="hero-grid">
@@ -79,7 +79,7 @@
             </p>
 
             <div class="hero-actions">
-              <a class="hero-primary-link" href="#section-controls">Consultar agora</a>
+              <a class="hero-primary-link" href="#page-view-consulta" data-view-target="consulta">Consultar agora</a>
               <a class="hero-secondary-link" href="https://www.iguape.sp.gov.br/portal/diario-oficial" target="_blank" rel="noopener noreferrer">Abrir Diário Oficial</a>
             </div>
           </div>
@@ -115,15 +115,15 @@
                 <strong>Diário Oficial</strong>
                 <span>Abrir a publicação oficial da Prefeitura.</span>
               </a>
-              <a class="shortcut-card" href="#section-controls">
+              <a class="shortcut-card" href="#page-view-consulta" data-view-target="consulta">
                 <strong>Consulta avançada</strong>
                 <span>Usar filtros, ordenação e exportação do recorte.</span>
               </a>
-              <a class="shortcut-card" href="#section-executive">
+              <a class="shortcut-card" href="#page-view-overview" data-view-target="overview">
                 <strong>Panorama gerencial</strong>
                 <span>Ver a síntese executiva da base publicada.</span>
               </a>
-              <a class="shortcut-card" href="#section-contracts">
+              <a class="shortcut-card" href="#page-view-contratos" data-view-target="contratos">
                 <strong>Atos oficiais</strong>
                 <span>Abrir a listagem consolidada dos registros.</span>
               </a>
@@ -155,11 +155,81 @@
       </section>
     </header>
 
-    <section id="section-controls" class="panel controls-panel">
+    <section class="panel view-panel">
+      <div class="panel-head">
+        <div class="panel-title">
+          <p class="section-kicker">Navegação do painel</p>
+          <h2>Escolha qual área quer abrir</h2>
+        </div>
+        <div class="panel-head-tools">
+          <div class="results-meta">O painel agora está dividido em áreas separadas para facilitar a leitura.</div>
+        </div>
+      </div>
+
+      <div class="view-switcher">
+        <button class="view-button active" type="button" data-view-button="overview">
+          <span>Panorama</span>
+          <strong>Resumo executivo e pontos de atenção.</strong>
+        </button>
+        <button class="view-button" type="button" data-view-button="consulta">
+          <span>Consulta</span>
+          <strong>Filtros, período de gestão e insights.</strong>
+        </button>
+        <button class="view-button" type="button" data-view-button="contratos">
+          <span>Contratos</span>
+          <strong>Listagem completa dos atos oficiais.</strong>
+        </button>
+      </div>
+    </section>
+
+    <div id="page-view-overview" class="page-view" data-page-view="overview">
+      <div class="content-grid">
+        <section id="section-executive" class="panel executive-panel">
+          <div class="panel-head">
+            <div class="panel-title">
+              <p class="section-kicker">Últimas atualizações</p>
+              <h2>Leitura rápida da base publicada</h2>
+            </div>
+            <div class="panel-head-tools">
+              <div id="executive-meta" class="results-meta">Consolidando panorama...</div>
+              <a class="panel-link" href="#page-view-contratos" data-view-target="contratos">Ver base</a>
+            </div>
+          </div>
+
+          <div id="executive-overview" class="executive-overview">
+            <div class="empty-card">Preparando síntese executiva...</div>
+          </div>
+
+          <div id="executive-cards" class="executive-cards">
+            <div class="empty-card">Carregando sinais gerenciais...</div>
+          </div>
+        </section>
+
+        <section id="section-priorities" class="panel priorities-panel">
+          <div class="panel-head">
+            <div class="panel-title">
+              <p class="section-kicker">Atualizações</p>
+              <h2>Pontos de atenção imediata</h2>
+            </div>
+            <div class="panel-head-tools">
+              <div id="priorities-meta" class="results-meta">Organizando destaques...</div>
+              <a class="panel-link" href="#page-view-consulta" data-view-target="consulta">Ir para filtros</a>
+            </div>
+          </div>
+
+          <div id="priority-cards" class="priority-cards">
+            <div class="empty-card">Consolidando prioridades da base...</div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div id="page-view-consulta" class="page-view" data-page-view="consulta" hidden>
+      <section id="section-controls" class="panel controls-panel">
       <div class="panel-head">
         <div class="panel-title">
           <p class="section-kicker">Serviços digitais</p>
-          <h2>Busca rápida, filtros e ações úteis</h2>
+          <h2>Busca rápida, filtros e período da gestão</h2>
         </div>
         <div class="panel-head-tools">
           <div class="panel-actions">
@@ -185,6 +255,10 @@
             <select id="year-select"></select>
           </label>
           <label>
+            <span>Gestão / período</span>
+            <select id="administration-select"></select>
+          </label>
+          <label>
             <span>Tipo predominante</span>
             <select id="type-select"></select>
           </label>
@@ -206,49 +280,9 @@
         <p id="active-filters" class="active-filters">Sem filtros ativos. A lista abaixo segue do mais novo para o mais antigo.</p>
         <p id="share-feedback" class="inline-feedback" aria-live="polite"></p>
       </div>
-    </section>
-
-    <div class="content-grid">
-      <section id="section-executive" class="panel executive-panel">
-        <div class="panel-head">
-          <div class="panel-title">
-            <p class="section-kicker">Últimas atualizações</p>
-            <h2>Leitura rápida da base publicada</h2>
-          </div>
-          <div class="panel-head-tools">
-            <div id="executive-meta" class="results-meta">Consolidando panorama...</div>
-            <a class="panel-link" href="#section-contracts">Ver base</a>
-          </div>
-        </div>
-
-        <div id="executive-overview" class="executive-overview">
-          <div class="empty-card">Preparando síntese executiva...</div>
-        </div>
-
-        <div id="executive-cards" class="executive-cards">
-          <div class="empty-card">Carregando sinais gerenciais...</div>
-        </div>
       </section>
 
-      <section id="section-priorities" class="panel priorities-panel">
-        <div class="panel-head">
-          <div class="panel-title">
-            <p class="section-kicker">Atualizações</p>
-            <h2>Pontos de atenção imediata</h2>
-          </div>
-          <div class="panel-head-tools">
-            <div id="priorities-meta" class="results-meta">Organizando destaques...</div>
-            <a class="panel-link" href="#section-controls">Ir para filtros</a>
-          </div>
-        </div>
-
-        <div id="priority-cards" class="priority-cards">
-          <div class="empty-card">Consolidando prioridades da base...</div>
-        </div>
-      </section>
-    </div>
-
-    <section id="section-insights" class="panel insights-panel">
+      <section id="section-insights" class="panel insights-panel">
       <div class="panel-head">
         <div class="panel-title">
           <p class="section-kicker">Agenda e destaques</p>
@@ -285,9 +319,11 @@
           </article>
         </aside>
       </div>
-    </section>
+      </section>
+    </div>
 
-    <section id="section-contracts" class="panel records-panel">
+    <div id="page-view-contratos" class="page-view" data-page-view="contratos" hidden>
+      <section id="section-contracts" class="panel records-panel">
       <div class="panel-head">
         <div class="panel-title">
           <p class="section-kicker">Atos oficiais</p>
@@ -313,7 +349,8 @@
       <div class="footer-actions">
         <button id="load-more" class="ghost-button" type="button">Carregar mais</button>
       </div>
-    </section>
+      </section>
+    </div>
 
     <footer class="site-footer">
       <div class="footer-grid">
@@ -327,8 +364,8 @@
 
         <div class="footer-block">
           <span class="footer-heading">Serviços</span>
-          <a class="footer-link" href="#section-controls">Consulta pública</a>
-          <a class="footer-link" href="#section-contracts">Atos oficiais</a>
+          <a class="footer-link" href="#page-view-consulta" data-view-target="consulta">Consulta pública</a>
+          <a class="footer-link" href="#page-view-contratos" data-view-target="contratos">Atos oficiais</a>
         </div>
 
         <div class="footer-block">

@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "188",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:05:12",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:54:12",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/c0f0b4a3a9fd6814e5f421d0442fd7ab.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2021/c0f0b4a3a9fd6814e5f421d0442fd7ab.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  8,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "que se fizerem necessarias para a sua execucao",
+                       "normalizedName":  "QUE SE FIZEREM NECESSARIAS PARA A SUA EXECUCAO",
+                       "pageNumber":  6,
+                       "excerpt":  "NHALIMENTO. Artigo 2º - Sem prejuízo da designação prevista no artigo anterior, fica nomeada Giulia Baretto Bezerra, como Gestora do referido projeto, assumindo o gerenciamento, junto ao órgão convenente, de medidas e ações que se fizerem necessárias para a sua execução. Artigo 3",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2021-11-27T00:00:00",
+                       "diaryId":  "188",
+                       "edition":  "179"
+                   }
                ]
 }

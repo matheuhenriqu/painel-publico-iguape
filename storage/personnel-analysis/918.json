@@ -1,11 +1,14 @@
 ﻿{
     "diaryId":  "918",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:03:06",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:52:28",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_838_20070131.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_838_20070131.pdf",
+    "pageCount":  27,
     "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
+    "pageErrors":  [
+
+                   ],
     "events":  [
 
                ]

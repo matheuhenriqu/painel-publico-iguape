@@ -1754,53 +1754,19 @@ function Get-PersonnelEventsFromPageText {
         [string]$PageText,
 
         [Parameter(Mandatory = $true)]
-        [int]$PageNumber
+        [int]$PageNumber,
+
+        [AllowNull()]
+        [string]$PublishedAt = '',
+
+        [AllowNull()]
+        [string]$DiaryId = '',
+
+        [AllowNull()]
+        [string]$Edition = ''
     )
 
-    $compact = ($PageText -replace "[\r\n]+", ' ' -replace '\s{2,}', ' ').Trim()
-    if ([string]::IsNullOrWhiteSpace($compact)) {
-        return @()
-    }
-
-    $normalized = Normalize-SearchText -Text $compact
-    if ($normalized -notmatch '\bEXONERAD[OA]\b') {
-        return @()
-    }
-
-    $events = New-Object System.Collections.Generic.List[object]
-    $seen = New-Object 'System.Collections.Generic.HashSet[string]'
-    $matches = [regex]::Matches(
-        $compact,
-        '(?is)Fica\s+exonerad[oa](?:,\s*|\s+)(?:a\s+partir\s+de\s+[^,\.]+,\s*)?(?:o|a)\s+(?:servidor(?:a)?\s+public[ao]\s+)?(?<name>[\p{L}''\-]+(?:\s+[\p{L}''\-]+){1,7})(?=\s*(?:\(|,\s*ocupante|\s+ocupante|\s+do\s+cargo|,?\s*matr[iÃ­]cula|\.))',
-        [System.Text.RegularExpressions.RegexOptions]::IgnoreCase -bor
-        [System.Text.RegularExpressions.RegexOptions]::Singleline
-    )
-
-    foreach ($match in $matches) {
-        $personName = Clean-PersonDisplayName -Text ([string]$match.Groups['name'].Value)
-        if ([string]::IsNullOrWhiteSpace($personName)) {
-            continue
-        }
-
-        $normalizedName = Normalize-IndexText -Text $personName
-        if ([string]::IsNullOrWhiteSpace($normalizedName) -or -not $seen.Add($normalizedName)) {
-            continue
-        }
-
-        $startIndex = [Math]::Max($match.Index - 80, 0)
-        $excerptLength = [Math]::Min(280, $compact.Length - $startIndex)
-        $excerpt = $compact.Substring($startIndex, $excerptLength).Trim()
-
-        $events.Add([pscustomobject]@{
-            type = 'exoneracao'
-            personName = $personName
-            normalizedName = $normalizedName
-            pageNumber = $PageNumber
-            excerpt = $excerpt
-        })
-    }
-
-    return @($events.ToArray())
+    return @(Get-PersonnelEventsFromTextSnippet -Text $PageText -PublishedAt $PublishedAt -DiaryId $DiaryId -Edition $Edition -PageNumber $PageNumber)
 }
 
 function Invoke-PersonnelEventAnalysis {
@@ -1834,21 +1800,31 @@ function Invoke-PersonnelEventAnalysis {
         }
 
         try {
-            $pageTexts = @(Convert-PdfToPageTexts -PdfPath $diary.localPdfPath -PdfToTextTool $pdfToTextTool)
+            $pageTexts = @(Get-ManagementPdfPages -RelativePath ([string]$diary.localPdfRelative))
             $events = New-Object System.Collections.Generic.List[object]
+            $pageErrors = New-Object System.Collections.Generic.List[object]
 
             foreach ($page in $pageTexts) {
-                foreach ($event in @(Get-PersonnelEventsFromPageText -PageText $page.text -PageNumber ([int]$page.pageNumber))) {
-                    $events.Add([pscustomobject]@{
-                        type = [string]$event.type
-                        personName = [string]$event.personName
-                        normalizedName = [string]$event.normalizedName
-                        pageNumber = [int]$event.pageNumber
-                        excerpt = [string]$event.excerpt
-                        publishedAt = [string]$diary.publishedAt
-                        diaryId = [string]$diary.id
-                        edition = [string]$diary.edition
-                    })
+                try {
+                    foreach ($event in @(Get-PersonnelEventsFromPageText -PageText ([string]$page.text) -PageNumber ([int]$page.pageNumber) -PublishedAt ([string]$diary.publishedAt) -DiaryId ([string]$diary.id) -Edition ([string]$diary.edition))) {
+                        $events.Add([pscustomobject]@{
+                            type = [string]$event.type
+                            personName = [string]$event.personName
+                            normalizedName = [string]$event.normalizedName
+                            pageNumber = [int]$event.pageNumber
+                            excerpt = [string]$event.excerpt
+                            effectiveAt = [string]$event.effectiveAt
+                            publishedAt = [string]$diary.publishedAt
+                            diaryId = [string]$diary.id
+                            edition = [string]$diary.edition
+                        })
+                    }
+                }
+                catch {
+                    $pageErrors.Add([pscustomobject]@{
+                        pageNumber = [int]$page.pageNumber
+                        message = $_.Exception.Message
+                    }) | Out-Null
                 }
             }
 
@@ -1858,8 +1834,10 @@ function Invoke-PersonnelEventAnalysis {
                 analyzedAt = Get-IsoNow
                 sourcePdfUrl = [string]$diary.pdfUrl
                 sourceLocalPdfRelative = [string]$diary.localPdfRelative
-                eventCount = @($events).Count
-                events = @($events)
+                pageCount = @($pageTexts).Count
+                eventCount = [int]$events.Count
+                pageErrors = @($pageErrors.ToArray())
+                events = @($events.ToArray())
             }
         }
         catch {

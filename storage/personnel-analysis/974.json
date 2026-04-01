@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "974",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:03:00",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:52:23",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_882_07084600.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_882_07084600.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  7,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "I - D",
+                       "normalizedName":  "I D",
+                       "pageNumber":  1,
+                       "excerpt":  "II,da Lei Orgânica do Município de Iguape, baixa a seguinte: PORTARIA Art. 1º - Fica nomeada, Ligiane Caracas Barroso Lopes, (Medica) titular da Cédula de Identidade RG n° 63.282.393-8 SSP/CE, inscrita no CPF ri° 052.645.545-44, para o cargo Diretor – I - D.C.A-1, do Ouadro de Pe",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2024-12-07T08:45:00",
+                       "diaryId":  "974",
+                       "edition":  "882"
+                   }
                ]
 }

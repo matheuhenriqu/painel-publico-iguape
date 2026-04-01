@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "894",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:03:09",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:52:30",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_816-_20073804.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_816-_20073804.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  5,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "Diretor II - Centro de Convivencia do Idoso",
+                       "normalizedName":  "DIRETOR II CENTRO DE CONVIVENCIA DO IDOSO",
+                       "pageNumber":  1,
+                       "excerpt":  "da Lei Orgânica do Município de Iguape, baixa a seguinte: Art. 1º - PORTARIA . Fica nomeado, Bruno Fernandes Veiga, titular da Cédula de Identidade – RG nº 44.367.772-4 SSP/SP, inscrito no CPF/MF sob o nº Art. 2º - 411.995.558-35, para prover interinamente o cargo de Diretor II",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2024-08-20T07:37:00",
+                       "diaryId":  "894",
+                       "edition":  "816"
+                   }
                ]
 }

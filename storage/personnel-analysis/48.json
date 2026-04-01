@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "48",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:05:36",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:54:33",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/09ac1289f02109abec99b33ef01f3e77.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2021/09ac1289f02109abec99b33ef01f3e77.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  5,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "exoneracao",
+                       "personName":  "do ca",
+                       "normalizedName":  "DO CA",
+                       "pageNumber":  4,
+                       "excerpt":  "nida Adhemar de Barros n.º 1.070, Bairro Porto do Ribeira, Igua- pe/SP. Art. 1º Fica exonerado, Sergio Croco, titular da Cédula de Identi- dade RG nº 20.179.373 SSP/SP, inscrito no CPF/MF nº Fica os autos do Processo com vista franqueada aos interessa- 100.180.378-79, do cargo de",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2021-05-04T00:00:00",
+                       "diaryId":  "48",
+                       "edition":  "45"
+                   }
                ]
 }

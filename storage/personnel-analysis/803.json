@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "803",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:03:20",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:52:40",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_741_24072215.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_741_24072215.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  2,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "exoneracao",
+                       "personName":  "do ca",
+                       "normalizedName":  "DO CA",
+                       "pageNumber":  2,
+                       "excerpt":  "V, da Lei Orgânica do Município de Iguape, baixa a seguinte: PORTARIA Art. 1º - Fica exonerada, Victoria Nogueira Vilches, titular da Cédula de Identidade RG nº 38.814.919-X SSP/SP, inscrita no CPF/MFnº.455.749.648 21, do cargo de Diretor Técnico de Meio Ambiente. Art. 2º - Esta",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2024-04-24T07:21:00",
+                       "diaryId":  "803",
+                       "edition":  "741"
+                   }
                ]
 }

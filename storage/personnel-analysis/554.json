@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "554",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:04:08",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:53:16",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/c828b761a17db0f95dfb643fa0ca9191.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/c828b761a17db0f95dfb643fa0ca9191.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  12,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "Lourdes Rodrigues de Moraes",
+                       "normalizedName":  "LOURDES RODRIGUES DE MORAES",
+                       "pageNumber":  3,
+                       "excerpt":  "ei Complementar municipal 140, de 29 de março de 2022; D E C R E T A: Art. 1º - Fica nomeada, para exercer função comissionada na Secretaria Municipal de Gestão e Planejamento, a servidora pública a seguir mencionada, com base na Lei Complementar municipal 140, de 29 de março de",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2023-05-16T00:00:00",
+                       "diaryId":  "554",
+                       "edition":  "525"
+                   }
                ]
 }

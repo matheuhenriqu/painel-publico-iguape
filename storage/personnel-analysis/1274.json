@@ -1,11 +1,14 @@
 ﻿{
     "diaryId":  "1274",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:02:16",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:51:46",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_121_02092709.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_extra_121_02092709.pdf",
+    "pageCount":  130,
     "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
+    "pageErrors":  [
+
+                   ],
     "events":  [
 
                ]

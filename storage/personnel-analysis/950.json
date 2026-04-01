@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "950",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:03:02",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:52:25",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_865_06075231.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_865_06075231.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  7,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "Lotado no Gabinete",
+                       "normalizedName":  "LOTADO NO GABINETE",
+                       "pageNumber":  1,
+                       "excerpt":  "I, da Lei Orgânica do Município de Iguape, baixa a seguinte: PORTARIA Art. 1º - Fica nomeado, Jose Benedito Ribeiro, titular da Cédula de Identidade RG nº 17.304.519-4 SSP/SP, inscrito no CPF/MF nº 059.454.478- . 54, para prover o cargo Coordenador de Subprefeitura, Lotado no Gab",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2024-11-06T07:52:00",
+                       "diaryId":  "950",
+                       "edition":  "865"
+                   }
                ]
 }

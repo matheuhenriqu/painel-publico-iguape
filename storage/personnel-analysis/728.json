@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "728",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:03:40",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:52:53",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/61297d1129e4203925133dd10ff28fbc.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/61297d1129e4203925133dd10ff28fbc.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  12,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "exoneracao",
+                       "personName":  "Erik Ricardo Espasiani C",
+                       "normalizedName":  "ERIK RICARDO ESPASIANI C",
+                       "pageNumber":  2,
+                       "excerpt":  "Orgânica do Município de Iguape, baixa a seguinte: Art. 1º - PORTARIA Art. 2º - Fica exonerado, sob a justificativa de abando no serviço público, Erik Ricardo Espasiani C. Pereira, titular da Cédula de Identidade - RG nº 337657245 SSP/SP, inscrito no CPF/MF sob o nº. 285.610.438-",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2024-01-05T00:00:00",
+                       "diaryId":  "728",
+                       "edition":  "673"
+                   }
                ]
 }

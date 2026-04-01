@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "136",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:05:22",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:54:21",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/a2b4e0865140c3c9813330d89506a3d9.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2021/a2b4e0865140c3c9813330d89506a3d9.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  7,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "e B",
+                       "normalizedName":  "E B",
+                       "pageNumber":  2,
+                       "excerpt":  "or do PORTARIA Departamento de Administração, através do Memorando nº Art. 1º - Fica nomeada, Comissão de Sindicância Administrativa, 106/2021 e B.O nº 1333/2021, composta pelos seguintes mem- destinada a apurar faltas, apontadas através do memorando nº bros: Dr. Celso Luiz Garci",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2021-09-18T00:00:00",
+                       "diaryId":  "136",
+                       "edition":  "133"
+                   }
                ]
 }

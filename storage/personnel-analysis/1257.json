@@ -1,12 +1,36 @@
 ﻿{
     "diaryId":  "1257",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:02:19",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:51:48",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1101-_13073404.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1101-_13073404.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  3,
+    "eventCount":  2,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "ALVARO PEREZ JUNIOR",
+                       "normalizedName":  "ALVARO PEREZ JUNIOR",
+                       "pageNumber":  1,
+                       "excerpt":  "go de provimento em comissão de Assessor III, DCA-20, Referência 4-F. Art. 2º - Fica nomeado, a partir de 13 de novembro de 2025, ÁLVARO PEREZ JUNIOR (RG 10.295.468-9), para o cargo de provimento em comissão de Assessor III, DCA-20, Referência 4-F, com lotação na Secretaria Munic",
+                       "effectiveAt":  "2025-11-13T00:00:00",
+                       "publishedAt":  "2025-11-13T07:33:00",
+                       "diaryId":  "1257",
+                       "edition":  "1101"
+                   },
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "WAGNER OLIVEIRA DA SILVA",
+                       "normalizedName":  "WAGNER OLIVEIRA DA SILVA",
+                       "pageNumber":  2,
+                       "excerpt":  "a-feira, 13 de Novembro de 2025 - www.iguape.sp.gov.br D E C R E T A: Art. 1º - Fica nomeado, a partir de 13 de novembro de 2025, WAGNER OLIVEIRA DA SILVA (RG 20.237.093-8), para o cargo de provimento em comissão de Assessor I, DCA-4, Referência 4, com lotação na Secretaria Munic",
+                       "effectiveAt":  "2025-11-13T00:00:00",
+                       "publishedAt":  "2025-11-13T07:33:00",
+                       "diaryId":  "1257",
+                       "edition":  "1101"
+                   }
                ]
 }

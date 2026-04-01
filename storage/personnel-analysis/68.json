@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "68",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:05:34",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:54:31",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/bf1b77c87834634bf9a3d524074812c9.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2021/bf1b77c87834634bf9a3d524074812c9.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  3,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "tados pelo TCE",
+                       "normalizedName":  "TADOS PELO TCE",
+                       "pageNumber":  2,
+                       "excerpt":  "RTARIA quantitativos de exames e a readequação de planilha dos servi- Art. 1º - Fica nomeada, Comissão de Sindicância Adminis- ços sem alteração de custos, nos termos do artigo 65, inciso II, trativa, destinada a apurar ocorrências e autoria dos fatos, apon- alínea “b” da lei 8.6",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2021-06-02T00:00:00",
+                       "diaryId":  "68",
+                       "edition":  "65"
+                   }
                ]
 }

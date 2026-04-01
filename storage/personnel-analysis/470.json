@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "470",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:04:22",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:53:27",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/e86fd7d305a6a164e51da75b163b03ec.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/e86fd7d305a6a164e51da75b163b03ec.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  2,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "composta pelos",
+                       "normalizedName":  "COMPOSTA PELOS",
+                       "pageNumber":  1,
+                       "excerpt":  "I, da Lei Orgânica do Município de Iguape, baixa a seguinte: PORTARIA Art. 1º - Fica nomeada, Comissão de Processo Administrativa, destinada a apurar ocorrências, apontadas através do Memorando nº 169/2023 – Secretaria da Saúde, Infração disciplinar na Unidade de Saúde de Icapara",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2023-01-17T00:00:00",
+                       "diaryId":  "470",
+                       "edition":  "447"
+                   }
                ]
 }

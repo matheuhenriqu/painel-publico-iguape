@@ -1,12 +1,47 @@
 ﻿{
     "diaryId":  "1026",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:02:52",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:52:16",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_923-_13073506.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_923-_13073506.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  2,
+    "eventCount":  3,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "Ricardo Ribeiro Goncalves",
+                       "normalizedName":  "RICARDO RIBEIRO GONCALVES",
+                       "pageNumber":  1,
+                       "excerpt":  "DCA-6, Referência 3-S, com lotação na Secretaria Municipal de Saúde. Art. 2º - Fica nomeado, para ocupar o cargo em comissão de Coordenador I – DCA-6, Referência 3-S, com lotação na Secretaria Municipal de Saúde, Ricardo Ribeiro Gonçalves (RG 30.731.351-7). Art. 3º - Fica nomead",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2025-02-13T07:34:00",
+                       "diaryId":  "1026",
+                       "edition":  "923"
+                   },
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "Dario Joao Ponsone dos Santos",
+                       "normalizedName":  "DARIO JOAO PONSONE DOS SANTOS",
+                       "pageNumber":  1,
+                       "excerpt":  "aria Municipal de Saúde, Ricardo Ribeiro Gonçalves (RG 30.731.351-7). Art. 3º - Fica nomeado, para ocupar o cargo em comissão de Assessor II – DCA-5, Referência 4-E, com lotação na Secretaria Municipal de Saúde, Dario João Ponsone dos Santos (RG 41.310.943-4). Art. 4º - Fica nome",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2025-02-13T07:34:00",
+                       "diaryId":  "1026",
+                       "edition":  "923"
+                   },
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "Luana Rosa Xavier",
+                       "normalizedName":  "LUANA ROSA XAVIER",
+                       "pageNumber":  1,
+                       "excerpt":  "Municipal de Saúde, Dario João Ponsone dos Santos (RG 41.310.943-4). Art. 4º - Fica nomeada, para ocupar o cargo em comissão de Coordenadora II – DCA-7, Referência 5, com lotação na Secretaria Municipal de Desenvolvimento Sustentável, Luana Rosa Xavier (RG 58.364.719-4). Art. 5º",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2025-02-13T07:34:00",
+                       "diaryId":  "1026",
+                       "edition":  "923"
+                   }
                ]
 }

@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "417",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:04:30",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:53:35",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/959fb26a99608e6a5a9e824fee2b41c9.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/959fb26a99608e6a5a9e824fee2b41c9.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  19,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "exoneracao",
+                       "personName":  "do ca",
+                       "normalizedName":  "DO CA",
+                       "pageNumber":  2,
+                       "excerpt":  "02 – Nº 399 Quinta-feira, 03 de Novembro de 2022 de Janeiro de 2022 2 PORTARIA Fica exonerada, Camila Lago Alves de Freitas, titular da Cédula de Identidade RG nº 20.339.321-09 SSP/BH, inscrita no CPF/MF nº. 062.928.754-66 do cargo de Coordenador Técnico Cultural. Esta portaria",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2022-11-03T00:00:00",
+                       "diaryId":  "417",
+                       "edition":  "399"
+                   }
                ]
 }

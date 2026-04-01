@@ -1,12 +1,36 @@
 ﻿{
     "diaryId":  "992",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:02:58",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:52:21",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_897_03093527.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_897_03093527.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  5,
+    "eventCount":  2,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "exoneracao",
+                       "personName":  "Peter Prandini Aguiar",
+                       "normalizedName":  "PETER PRANDINI AGUIAR",
+                       "pageNumber":  2,
+                       "excerpt":  "SP ANO 04 – Nº 897 Sexta-feira, 03 de Janeiro de 2025 D E C R E T A: Art. 1º - Fica exonerado, a partir de 03 de janeiro de 2025, do cargo de provimento em comissão, Peter Prandini Aguiar (RG 48.916.567-9), do cargo de Coordenador II. Art. 2º - Fica nomeado, para ocupar o cargo",
+                       "effectiveAt":  "2025-01-03T00:00:00",
+                       "publishedAt":  "2025-01-03T21:35:00",
+                       "diaryId":  "992",
+                       "edition":  "897"
+                   },
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "Ricardo Oliveira Ragni de Castro Leite",
+                       "normalizedName":  "RICARDO OLIVEIRA RAGNI DE CASTRO LEITE",
+                       "pageNumber":  2,
+                       "excerpt":  "Peter Prandini Aguiar (RG 48.916.567-9), do cargo de Coordenador II. Art. 2º - Fica nomeado, para ocupar o cargo em comissão de Secretário Municipal – SM, Referência 1, com lotação na Secretaria Municipal de Infraestrutura Urbana e Obras, com base na Lei Complementar municipal 1",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2025-01-03T21:35:00",
+                       "diaryId":  "992",
+                       "edition":  "897"
+                   }
                ]
 }

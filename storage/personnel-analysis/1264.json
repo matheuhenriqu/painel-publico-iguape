@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "1264",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:02:17",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:51:47",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_117_21055442.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_extra_117_21055442.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  1,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "KARIMY DE RAMOS AGUIAR",
+                       "normalizedName":  "KARIMY DE RAMOS AGUIAR",
+                       "pageNumber":  1,
+                       "excerpt":  "mento em comissão de Secretária Municipal de Saúde, SM, Referência 1. Art. 2º - Fica nomeada, a partir de 21 de novembro de 2025, KARIMY DE RAMOS AGUIAR (RG 42.908.060-8), para o cargo de provimento em comissão de Secretária Municipal de Saúde, SM, Referência 1, fazendo jus à rem",
+                       "effectiveAt":  "2025-11-21T00:00:00",
+                       "publishedAt":  "2025-11-21T17:54:00",
+                       "diaryId":  "1264",
+                       "edition":  "117"
+                   }
                ]
 }

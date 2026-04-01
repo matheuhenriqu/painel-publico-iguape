@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "1158",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:02:33",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:51:59",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_094_24021852.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_extra_094_24021852.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  23,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "FLAVIO APARECIDO RIBEIRO",
+                       "normalizedName":  "FLAVIO APARECIDO RIBEIRO",
+                       "pageNumber":  1,
+                       "excerpt":  "de 29 de março de 2022, e suas alterações posteriores, D E C R E T A: Art. 1º - Fica nomeado, a partir de 24 de julho de 2025, FLÁVIO APARECIDO RIBEIRO (RG 25.637.087-4), lotado na Secretaria Municipal de Gestão e Planejamento, no cargo de provimento em comissão de Assessor II, D",
+                       "effectiveAt":  "2025-07-24T00:00:00",
+                       "publishedAt":  "2025-07-24T14:17:00",
+                       "diaryId":  "1158",
+                       "edition":  "094"
+                   }
                ]
 }

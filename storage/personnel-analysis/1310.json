@@ -1,12 +1,36 @@
 ﻿{
     "diaryId":  "1310",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:02:09",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:51:40",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1136_17102944.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1136_17102944.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  48,
+    "eventCount":  2,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "exoneracao",
+                       "personName":  "GUILHERME ROMERA DE ALMEIDA",
+                       "normalizedName":  "GUILHERME ROMERA DE ALMEIDA",
+                       "pageNumber":  5,
+                       "excerpt":  "36 Sábado, 17 de Janeiro de 2026 - www.iguape.sp.gov.br D E C R E T A Art. 1º - Fica exonerado, a partir de 15 de janeiro de 2026, o servidor público GUILHERME ROMERA DE ALMEIDA (RG n. 40.302.070-0 – SSP/SP), ocupante do cargo em comissão Assessor IV DCA-30, Referência 4-G, na Se",
+                       "effectiveAt":  "2026-01-15T00:00:00",
+                       "publishedAt":  "2026-01-17T10:29:00",
+                       "diaryId":  "1310",
+                       "edition":  "1136"
+                   },
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "CLEISSON CARLOS DE SOUZA",
+                       "normalizedName":  "CLEISSON CARLOS DE SOUZA",
+                       "pageNumber":  5,
+                       "excerpt":  "sessor IV DCA-30, Referência 4-G, na Secretaria Municipal de Cultura. Art. 2º - Fica nomeado, a partir de 16 de janeiro de 2026, para ocupar o cargo em comissão de Assessor IV DCA-30, Referência 4-G, na Secretaria Municipal de Cultura, CLEISSON CARLOS DE SOUZA (RG n. 32.943.578-4",
+                       "effectiveAt":  "2026-01-16T00:00:00",
+                       "publishedAt":  "2026-01-17T10:29:00",
+                       "diaryId":  "1310",
+                       "edition":  "1136"
+                   }
                ]
 }

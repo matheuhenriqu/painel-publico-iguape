@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "1256",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:02:19",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:51:48",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1100_12091759.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1100_12091759.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  22,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "exoneracao",
+                       "personName":  "do ca",
+                       "normalizedName":  "DO CA",
+                       "pageNumber":  3,
+                       "excerpt":  ", da Lei Orgânica do Município de Iguape, baixa a segu inte: PORTARIA Art. 1º - Fica exonerada, a pedido Memorando 10.601/2025, Julliana Rodrigues Gato, inscrita no CPF/MF nº 324.XXX.XXX-63, do cargo de Art. 2º - Assessor I, lotado na Secretaria Municipal de Desenvolvimento Suste",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2025-11-12T09:16:00",
+                       "diaryId":  "1256",
+                       "edition":  "1100"
+                   }
                ]
 }

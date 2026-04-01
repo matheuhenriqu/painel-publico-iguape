@@ -1,12 +1,36 @@
 ﻿{
     "diaryId":  "1119",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:02:38",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:52:04",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1001_14074428.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1001_14074428.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  2,
+    "eventCount":  2,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "exoneracao",
+                       "personName":  "DARIO JOAO PONSONE DOS SANTOS",
+                       "normalizedName":  "DARIO JOAO PONSONE DOS SANTOS",
+                       "pageNumber":  1,
+                       "excerpt":  "ialmente, aquelas conferidas pela Lei Orgânica do Município, DECRETA, Art. 1º - Fica exonerado, a partir de 13 de junho de 2025, o servidor público DÁRIO JOÃO PONSONE DOS SANTOS (RG 41.310.943-4-SSP/SP) do cargo de provimento em comissão de Assessor III–DCA–20, Referência 4–F, na",
+                       "effectiveAt":  "2025-06-13T00:00:00",
+                       "publishedAt":  "2025-06-14T07:44:00",
+                       "diaryId":  "1119",
+                       "edition":  "1001"
+                   },
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "JULIANA DE SOUZA CESAR",
+                       "normalizedName":  "JULIANA DE SOUZA CESAR",
+                       "pageNumber":  1,
+                       "excerpt":  "nformidade da Lei Complementar municipal 140, de 29 de março de 2022. Art. 2º - Fica nomeada, a partir de 14 de junho de 2025, JULIANA DE SOUZA CESAR (RG 42.065.887-7-SSP/SP), nos termos da Lei Complementar municipal 140, de 29 de março de 2022, para o cargo de provimento em comi",
+                       "effectiveAt":  "2025-06-14T00:00:00",
+                       "publishedAt":  "2025-06-14T07:44:00",
+                       "diaryId":  "1119",
+                       "edition":  "1001"
+                   }
                ]
 }

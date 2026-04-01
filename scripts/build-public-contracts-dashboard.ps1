@@ -591,7 +591,11 @@ function Get-ManagementStateSummary {
 
         [bool]$ManagerChanged = $false,
 
-        [bool]$InspectorChanged = $false
+        [bool]$InspectorChanged = $false,
+
+        [bool]$ManagerExonerationSignal = $false,
+
+        [bool]$InspectorExonerationSignal = $false
     )
 
     switch ($State) {
@@ -601,9 +605,24 @@ function Get-ManagementStateSummary {
             }
             return 'Gestor e fiscal atuais identificados.'
         }
-        'sem_gestor' { return 'Sem gestor atual identificado.' }
-        'sem_fiscal' { return 'Sem fiscal atual identificado.' }
-        'sem_gestor_e_fiscal' { return 'Sem gestor e fiscal atuais identificados.' }
+        'sem_gestor' {
+            if ($ManagerExonerationSignal) {
+                return 'Sem gestor atual; ultimo designado teve exoneracao posterior.'
+            }
+            return 'Sem gestor atual identificado.'
+        }
+        'sem_fiscal' {
+            if ($InspectorExonerationSignal) {
+                return 'Sem fiscal atual; ultimo designado teve exoneracao posterior.'
+            }
+            return 'Sem fiscal atual identificado.'
+        }
+        'sem_gestor_e_fiscal' {
+            if ($ManagerExonerationSignal -or $InspectorExonerationSignal) {
+                return 'Sem gestor e fiscal atuais; ha exoneracao posterior de responsavel designado.'
+            }
+            return 'Sem gestor e fiscal atuais identificados.'
+        }
         'revisao' { return 'Responsavel atual com revisao pendente.' }
         'exoneracao' { return 'Responsavel com sinal de exoneracao.' }
         default { return 'Situacao de gestao em acompanhamento.' }
@@ -1450,6 +1469,30 @@ function Get-RecordVigency {
     }
 }
 
+function Get-PersonnelStatusForResponsible {
+    param(
+        [Parameter(Mandatory = $true)]
+        [hashtable]$Person,
+
+        [hashtable]$PersonnelEventIndex = @{}
+    )
+
+    if ([string]::IsNullOrWhiteSpace([string]$Person.name)) {
+        return [ordered]@{
+            status = 'sem_evento_pessoal'
+            latestEventType = ''
+            latestEventAt = $null
+            latestEventExcerpt = ''
+        }
+    }
+
+    return (Get-PersonnelStatusAfterAssignment `
+            -NormalizedName (Normalize-IndexText -Text ([string]$Person.name)) `
+            -AssignedAt ([string]$Person.assignedAt) `
+            -PersonnelEventIndex $PersonnelEventIndex
+        )
+}
+
 function Get-ManagementState {
     param(
         [Parameter(Mandatory = $true)]
@@ -1463,16 +1506,16 @@ function Get-ManagementState {
         [bool]$InspectorExonerationSignal
     )
 
-    if ($ManagerExonerationSignal -or $InspectorExonerationSignal) {
-        return 'exoneracao'
-    }
-    if ([string]::IsNullOrWhiteSpace([string]$Manager.name) -and [string]::IsNullOrWhiteSpace([string]$Inspector.name)) {
+    $managerPresent = -not [string]::IsNullOrWhiteSpace([string]$Manager.name) -and -not $ManagerExonerationSignal
+    $inspectorPresent = -not [string]::IsNullOrWhiteSpace([string]$Inspector.name) -and -not $InspectorExonerationSignal
+
+    if (-not $managerPresent -and -not $inspectorPresent) {
         return 'sem_gestor_e_fiscal'
     }
-    if ([string]::IsNullOrWhiteSpace([string]$Manager.name)) {
+    if (-not $managerPresent) {
         return 'sem_gestor'
     }
-    if ([string]::IsNullOrWhiteSpace([string]$Inspector.name)) {
+    if (-not $inspectorPresent) {
         return 'sem_fiscal'
     }
     if ([bool]$Manager.needsReview -or [bool]$Inspector.needsReview) {
@@ -2231,6 +2274,8 @@ function New-MasterContractModel {
 }
 
 $source = Get-Content -LiteralPath $SourcePath -Raw | ConvertFrom-Json
+$diariesById = Get-DiariesById
+$personnelEventIndex = Get-PersonnelEventIndex -DiariesById $diariesById
 
 $movementGroups = @{}
 foreach ($movement in @($source.contractMovements)) {
@@ -2314,13 +2359,17 @@ foreach ($profile in @($source.managementProfiles)) {
     $manager = $resolvedPeople.manager
     $inspector = $resolvedPeople.inspector
     $vigency = Get-RecordVigency -OfficialContract $officialContract -Movements $movements -Lifecycle $lifecycle
-    $managerExonerationSignal = [bool]$profile.managerExonerationSignal
-    $inspectorExonerationSignal = [bool]$profile.inspectorExonerationSignal
+    $managerPersonnelStatus = Get-PersonnelStatusForResponsible -Person $manager -PersonnelEventIndex $personnelEventIndex
+    $inspectorPersonnelStatus = Get-PersonnelStatusForResponsible -Person $inspector -PersonnelEventIndex $personnelEventIndex
+    $managerExonerationSignal = [bool]$profile.managerExonerationSignal -or ([string](Get-ObjectValue -Item $managerPersonnelStatus -Name 'status') -eq 'exonerado')
+    $inspectorExonerationSignal = [bool]$profile.inspectorExonerationSignal -or ([string](Get-ObjectValue -Item $inspectorPersonnelStatus -Name 'status') -eq 'exonerado')
     $managementState = Get-ManagementState -Manager $manager -Inspector $inspector -ManagerExonerationSignal $managerExonerationSignal -InspectorExonerationSignal $inspectorExonerationSignal
     $managementSummary = Get-ManagementStateSummary `
         -State $managementState `
         -ManagerChanged ([bool](Get-ObjectValue -Item $profile -Name 'managerChanged')) `
-        -InspectorChanged ([bool](Get-ObjectValue -Item $profile -Name 'inspectorChanged'))
+        -InspectorChanged ([bool](Get-ObjectValue -Item $profile -Name 'inspectorChanged')) `
+        -ManagerExonerationSignal $managerExonerationSignal `
+        -InspectorExonerationSignal $inspectorExonerationSignal
     $year = Get-ContractYear -NormalizedKey $normalizedKey -Movements $movements -OfficialContract $officialContract
     $organization = Get-PreferredTextValue -Values @(
         (Get-ObjectValue -Item $preferredMovement -Name 'primaryOrganizationName'),
@@ -2447,6 +2496,10 @@ foreach ($profile in @($source.managementProfiles)) {
         managementSummary = $managementSummary
         manager = $manager
         inspector = $inspector
+        managerPersonnelStatus = Get-CleanText -Value (Get-ObjectValue -Item $managerPersonnelStatus -Name 'status')
+        inspectorPersonnelStatus = Get-CleanText -Value (Get-ObjectValue -Item $inspectorPersonnelStatus -Name 'status')
+        managerExonerationSignal = $managerExonerationSignal
+        inspectorExonerationSignal = $inspectorExonerationSignal
         hasDiary = $true
         hasOfficialPortal = [bool]$officialContract
         sourceStatus = if ($officialContract) { 'cruzado' } else { 'somente_diario' }
@@ -2546,6 +2599,10 @@ foreach ($official in @($source.officialContracts | Sort-Object @{ Expression = 
         managementSummary = Get-CleanText -Value $official.managementSummary
         manager = $emptyManager
         inspector = $emptyInspector
+        managerPersonnelStatus = 'sem_evento_pessoal'
+        inspectorPersonnelStatus = 'sem_evento_pessoal'
+        managerExonerationSignal = $false
+        inspectorExonerationSignal = $false
         hasDiary = [bool](@($movements).Count)
         hasOfficialPortal = $true
         sourceStatus = if (@($movements).Count) { 'cruzado' } else { 'somente_portal' }
@@ -2624,7 +2681,7 @@ $masterSummary = [ordered]@{
 
 $payload = [ordered]@{
     generatedAt = Convert-ToIsoString -Value $source.generatedAt
-    masterSchemaVersion = '2026-04-01.2'
+    masterSchemaVersion = '2026-04-01.3'
     methodology = [ordered]@{
         title = 'Leitura cruzada de contratos vigentes e responsáveis'
         summary = 'O painel cruza Diário Oficial, contratos do portal e eventos de gestão contratual para destacar vigência, gestor, fiscal e alertas de vacância.'
@@ -2644,7 +2701,7 @@ $payload = [ordered]@{
         semFiscal = [int]@($currentRecords | Where-Object { [string]$_.managementState -in @('sem_fiscal', 'sem_gestor_e_fiscal') }).Count
         semGestorEFiscal = [int]@($currentRecords | Where-Object { [string]$_.managementState -eq 'sem_gestor_e_fiscal' }).Count
         comResponsaveisCompletos = [int]@($currentRecords | Where-Object { [string]$_.managementState -eq 'completos' }).Count
-        sinaisExoneracao = [int]@($currentRecords | Where-Object { [string]$_.managementState -eq 'exoneracao' }).Count
+        sinaisExoneracao = [int]@($currentRecords | Where-Object { [bool]$_.managerExonerationSignal -or [bool]$_.inspectorExonerationSignal }).Count
         alertasCriticos = [int]@($currentRecords | Where-Object { [int]$_.alertWeight -ge 3 }).Count
         aditivadosAtuais = [int]@($currentRecords | Where-Object { [bool]$_.additives.isAdditivado }).Count
         comPrazoConsolidado = [int]@($currentRecords | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_.lifecycle.currentEndDate) }).Count

@@ -1,12 +1,36 @@
 ﻿{
     "diaryId":  "165",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:05:16",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:54:16",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/dc9ee13ddec4d5aa6a86ce20b6549c9c.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2021/dc9ee13ddec4d5aa6a86ce20b6549c9c.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  17,
+    "eventCount":  2,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "composta pelos seguintes membros Dr",
+                       "normalizedName":  "COMPOSTA PELOS SEGUINTES MEMBROS DR",
+                       "pageNumber":  2,
+                       "excerpt":  "V, da Lei Orgânica do Município de Iguape, baixa a seguinte: PORTARIA Art. 1º - Fica nomeada, Comissão de Processo Administrativo Disciplinar, destinada a apurar os fatos apontados pelo memorando nº 17/2021 – Coordenação da Urgência e Emergência/DMS, composta pelos seguintes memb",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2021-11-04T00:00:00",
+                       "diaryId":  "165",
+                       "edition":  "162"
+                   },
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "apontados B",
+                       "normalizedName":  "APONTADOS B",
+                       "pageNumber":  3,
+                       "excerpt":  "V, da Lei Orgânica do Município de Iguape, baixa a seguinte: PORTARIA Art. 1º - Fica nomeada, Comissão de Sindicância Administrativa, destinada a apurar ocorrências, apontados B. O nº 1553/2021 - furto, composta pelos seguintes membros Celso Luiz Garcia S. Junior, Advogado Munici",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2021-11-04T00:00:00",
+                       "diaryId":  "165",
+                       "edition":  "162"
+                   }
                ]
 }

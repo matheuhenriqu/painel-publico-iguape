@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "1248",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:02:20",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:51:49",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1094_04013325.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1094_04013325.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  5,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "LEILA MARIA MACIEL",
+                       "normalizedName":  "LEILA MARIA MACIEL",
+                       "pageNumber":  1,
+                       "excerpt":  "VI do artigo 117 da Lei Complementar n. 123, de 31 de março de 2021. Art. 2º - Fica nomeada, a partir de 1º de novembro de 2025, LEILA MARIA MACIEL (RG 18.739.555), lotada na Secretaria Municipal de Gestão e Planejamento, para o cargo de provimento em comissão de Assessor II, DC",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2025-11-04T13:33:00",
+                       "diaryId":  "1248",
+                       "edition":  "1094"
+                   }
                ]
 }

@@ -48,12 +48,14 @@ $script:ContractCollectionPayloadContractVersion = '2026.03.30.01'
 $script:StatusPayloadContractVersion = '2026.03.27.01'
 $script:PublicStatusPayloadContractVersion = '2026.03.27.02'
 $script:SearchPayloadContractVersion = '2026.03.27.01'
-$script:PersonnelParserVersion = '2026.03.23.01'
+$script:PersonnelParserVersion = '2026.04.01.05'
 $script:JsonFileCache = @{}
 $script:DashboardPayloadCache = @{}
 $script:WorkspaceSessionPayloadCache = @{}
 $script:SearchEntriesCache = @{}
 $script:FinancialPortalMetadataCache = @{}
+$script:ManagementPdfPageCache = @{}
+$script:ManagementTextWindowCache = @{}
 $script:RuntimeCacheMetrics = [ordered]@{
     json = [ordered]@{
         hits = 0
@@ -811,8 +813,30 @@ function Clean-PersonDisplayName {
     }
 
     $clean = $clean -replace '^(?:O|A)\s+', ''
+    $clean = $clean -replace '^(?:SERVIDOR(?:A)?\s+PUBLIC[AO]\s+)', ''
+    $clean = $clean -replace '^(?:SERVIDOR(?:A)?\s+)', ''
     $clean = $clean -replace ',?\s*(?:inscrit[oa].*|titular da.*|portador.*|cpf.*|rg.*)$', ''
     $clean = $clean.Trim(" -,:;.")
+    $normalized = Normalize-IndexText -Text $clean
+    if ([string]::IsNullOrWhiteSpace($normalized)) {
+        return ''
+    }
+
+    if ($normalized -match '\d') {
+        return ''
+    }
+
+    if (
+        $normalized -match '\b(PORTARIA|DECRETO|RESOLUCAO|ATO|EXTRATO|CONTRATO|PROCESSO|PREFEITO|PREFEITURA|SECRETARIA|GESTOR|FISCAL|ART|SERVIDOR|SERVIDORA|SERVIDORES|SERVIDORAS|MUNICIPIO|IGUAPE|LEI|COMPLEMENTAR|CARGO|COMISSAO|REFERENCIA|DCA)\b' -or
+        $normalized -match '\bCOM\s+BASE\b' -or
+        $normalized -match '\bNA\s+SECRETARIA\b' -or
+        $normalized -match '\bTECNICO\s+DE\b' -or
+        $normalized -match '\b(ESPORTE|TURISMO|CULTURA|SAUDE|EDUCACAO|OBRAS|PLANEJAMENTO|AMBIENTE|ASSISTENCIA|SOCIAL|FAZENDA|ADMINISTRACAO)\b' -or
+        $normalized -match '\b(NA|NO|EM|PARA)\s*$'
+    ) {
+        return ''
+    }
+
     $wordCount = @($clean -split '\s+' | Where-Object { $_ }).Count
     if ($wordCount -lt 2 -or $wordCount -gt 8) {
         return ''
@@ -835,6 +859,122 @@ function Clean-RoleDisplayText {
 
     $clean = $clean -replace ',?\s*(?:inscrit[oa].*|titular da.*|cpf.*|rg.*)$', ''
     return $clean.Trim(" -,:;.")
+}
+
+function Convert-PortugueseDateLiteralToIso {
+    param(
+        [Parameter(Mandatory = $false)]
+        [AllowNull()]
+        [string]$Text
+    )
+
+    $clean = Collapse-Whitespace -Text $Text
+    if ([string]::IsNullOrWhiteSpace($clean)) {
+        return ''
+    }
+
+    $normalized = (Remove-DiacriticsCommon -Text $clean).ToLowerInvariant()
+    $culture = [System.Globalization.CultureInfo]::GetCultureInfo('pt-BR')
+    $parsed = [DateTime]::MinValue
+
+    foreach ($format in @('dd/MM/yyyy', 'd/M/yyyy')) {
+        if ([DateTime]::TryParseExact($normalized, $format, $culture, [System.Globalization.DateTimeStyles]::None, [ref]$parsed)) {
+            return $parsed.ToString('s')
+        }
+    }
+
+    $monthMap = @{
+        janeiro = 1
+        fevereiro = 2
+        marco = 3
+        abril = 4
+        maio = 5
+        junho = 6
+        julho = 7
+        agosto = 8
+        setembro = 9
+        outubro = 10
+        novembro = 11
+        dezembro = 12
+    }
+
+    $match = [regex]::Match($normalized, '(?<day>\d{1,2})\s+de\s+(?<month>[a-z]+)\s+de\s+(?<year>\d{4})')
+    if ($match.Success) {
+        $monthName = [string]$match.Groups['month'].Value
+        if ($monthMap.ContainsKey($monthName)) {
+            try {
+                return (Get-Date -Year ([int]$match.Groups['year'].Value) -Month ([int]$monthMap[$monthName]) -Day ([int]$match.Groups['day'].Value) -Hour 0 -Minute 0 -Second 0).ToString('s')
+            }
+            catch {
+            }
+        }
+    }
+
+    return ''
+}
+
+function Get-PersonnelEventEffectiveAt {
+    param(
+        [Parameter(Mandatory = $false)]
+        [AllowNull()]
+        [string]$Text,
+
+        [Parameter(Mandatory = $false)]
+        [AllowNull()]
+        [string]$PublishedAt = ''
+    )
+
+    $clean = Collapse-Whitespace -Text $Text
+    if ([string]::IsNullOrWhiteSpace($clean)) {
+        return ''
+    }
+
+    $normalized = Remove-DiacriticsCommon -Text $clean
+    $patterns = @(
+        'a\s+partir\s+de\s+(?<date>\d{1,2}/\d{1,2}/\d{4})',
+        'a\s+partir\s+de\s+(?<date>\d{1,2}\s+de\s+[a-z]+\s+de\s+\d{4})',
+        'com\s+efeitos?\s+a\s+partir\s+de\s+(?<date>\d{1,2}/\d{1,2}/\d{4})',
+        'com\s+efeitos?\s+a\s+partir\s+de\s+(?<date>\d{1,2}\s+de\s+[a-z]+\s+de\s+\d{4})'
+    )
+
+    foreach ($pattern in @($patterns)) {
+        $match = [regex]::Match($normalized, $pattern, [System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
+        if (-not $match.Success) {
+            continue
+        }
+
+        $effectiveAt = Convert-PortugueseDateLiteralToIso -Text ([string]$match.Groups['date'].Value)
+        if (-not [string]::IsNullOrWhiteSpace($effectiveAt)) {
+            return $effectiveAt
+        }
+    }
+
+    return ''
+}
+
+function Get-PersonnelEventMoment {
+    param(
+        [Parameter(Mandatory = $false)]
+        [AllowNull()]
+        [object]$Event
+    )
+
+    foreach ($candidate in @(
+            [string]$Event.effectiveAt,
+            [string]$Event.publishedAt
+        )) {
+        if ([string]::IsNullOrWhiteSpace($candidate)) {
+            continue
+        }
+
+        try {
+            return [DateTime]::Parse($candidate)
+        }
+        catch {
+        }
+    }
+
+    return $null
 }
 
 function Get-ContractReferenceTokens {
@@ -897,11 +1037,145 @@ function Get-PrimaryContractReferenceToken {
     return ''
 }
 
+function Get-ManagementPdfPages {
+    param(
+        [AllowNull()]
+        [string]$RelativePath
+    )
+
+    $cleanRelativePath = Collapse-Whitespace -Text $RelativePath
+    if ([string]::IsNullOrWhiteSpace($cleanRelativePath)) {
+        return @()
+    }
+
+    $absolutePath = Join-Path $script:AppRoot ($cleanRelativePath -replace '/', '\')
+    if (-not (Test-Path -LiteralPath $absolutePath)) {
+        return @()
+    }
+
+    if ($script:ManagementPdfPageCache.ContainsKey($absolutePath)) {
+        return @($script:ManagementPdfPageCache[$absolutePath])
+    }
+
+    $pdfToTextTool = Get-PdfToTextToolPath
+    if ([string]::IsNullOrWhiteSpace($pdfToTextTool) -or -not (Test-Path -LiteralPath $pdfToTextTool)) {
+        $script:ManagementPdfPageCache[$absolutePath] = @()
+        return @()
+    }
+
+    $rawText = & $pdfToTextTool -enc UTF-8 -layout $absolutePath - 2>$null
+    $joined = ($rawText | Out-String)
+    if ([string]::IsNullOrWhiteSpace($joined)) {
+        $script:ManagementPdfPageCache[$absolutePath] = @()
+        return @()
+    }
+
+    $pages = New-Object System.Collections.ArrayList
+    $pageNumber = 1
+    foreach ($page in @($joined -split [char]12)) {
+        $text = [string]$page
+        if (-not [string]::IsNullOrWhiteSpace($text)) {
+            [void]$pages.Add([pscustomobject]@{
+                pageNumber = $pageNumber
+                text = $text
+            })
+        }
+        $pageNumber++
+    }
+
+    $script:ManagementPdfPageCache[$absolutePath] = @($pages)
+    return @($script:ManagementPdfPageCache[$absolutePath])
+}
+
+function Get-ManagementTextWindowFromItem {
+    param(
+        [Parameter(Mandatory = $true)]
+        [object]$Item
+    )
+
+    $cacheKey = [string]::Join('|', @(
+            Collapse-Whitespace -Text ([string]$Item.localPdfRelative),
+            Collapse-Whitespace -Text ([string]$Item.pageNumber),
+            Collapse-Whitespace -Text ([string]$Item.contractNumber),
+            Collapse-Whitespace -Text ([string]$Item.actTitle)
+        ))
+    if ($script:ManagementTextWindowCache.ContainsKey($cacheKey)) {
+        return [string]$script:ManagementTextWindowCache[$cacheKey]
+    }
+
+    $pages = @(Get-ManagementPdfPages -RelativePath ([string]$Item.localPdfRelative))
+    if (@($pages).Count -eq 0) {
+        $script:ManagementTextWindowCache[$cacheKey] = ''
+        return ''
+    }
+
+    $targetPages = @($pages)
+    if ($null -ne $Item.pageNumber -and [string]$Item.pageNumber -ne '') {
+        $targetPageNumber = 0
+        try {
+            $targetPageNumber = [int]$Item.pageNumber
+        }
+        catch {
+            $targetPageNumber = 0
+        }
+
+        if ($targetPageNumber -gt 0) {
+            $targetPages = @($pages | Where-Object { [int]$_.pageNumber -eq $targetPageNumber })
+            if (@($targetPages).Count -eq 0) {
+                $targetPages = @($pages)
+            }
+        }
+    }
+
+    $pageText = [string]::Join("`n`n", @($targetPages | ForEach-Object { [string]$_.text }))
+    $window = ''
+    $actTitle = Collapse-Whitespace -Text ([string]$Item.actTitle)
+    if (-not [string]::IsNullOrWhiteSpace($actTitle)) {
+        $pattern = '(?is).{0,80}' + [regex]::Escape($actTitle) + '.{0,1800}'
+        $match = [regex]::Match($pageText, $pattern)
+        if ($match.Success) {
+            $window = [string]$match.Value
+        }
+    }
+
+    if ([string]::IsNullOrWhiteSpace($window)) {
+        $contractNumber = Collapse-Whitespace -Text ([string]$Item.contractNumber)
+        if ($contractNumber -match '^(?<number>\d+)/(?<year>\d{4})$') {
+            $number = [int]$matches['number']
+            $year = [string]$matches['year']
+            $pattern = '(?is).{0,500}(?:CONTRATO\s*(?:N\S{0,2}\s*)?)?0*' + $number + '\s*/\s*' + $year + '.{0,1800}'
+            $match = [regex]::Match($pageText, $pattern)
+            if ($match.Success) {
+                $window = [string]$match.Value
+            }
+        }
+    }
+
+    if ([string]::IsNullOrWhiteSpace($window)) {
+        $window = $pageText
+    }
+
+    $window = Collapse-Whitespace -Text ([string]$window)
+    $script:ManagementTextWindowCache[$cacheKey] = $window
+    return $window
+}
+
 function Get-ManagementTextSource {
     param(
         [Parameter(Mandatory = $true)]
         [object]$Item
     )
+
+    $window = ''
+    try {
+        $window = Get-ManagementTextWindowFromItem -Item $Item
+    }
+    catch {
+        $window = ''
+    }
+    if (-not [string]::IsNullOrWhiteSpace($window)) {
+        return $window
+    }
 
     return Collapse-Whitespace -Text ([string]$Item.excerpt)
 }
@@ -923,47 +1197,109 @@ function Get-ManagementActionType {
     }
 
     if ($normalized -match '\bSUBSTITU' -or
+        $normalized -match '\bSUBSTITUICAO\b' -or
         $normalized -match '\bALTERACAO DO ACOMPANHAMENTO E FISCALIZACAO\b' -or
         $normalized -match '\bONDE SE LE\b' -or
         $normalized -match '\bLEIA SE\b' -or
         $normalized -match '\bALTERA(?:R|CAO)\b.{0,40}\b(?:GESTOR|FISCAL)\b') {
-        return 'alteracao'
+        return 'substituicao'
     }
 
     return 'designacao'
 }
 
-function Get-ManagementRoleMatch {
+function Get-ManagementCandidateTexts {
     param(
         [Parameter(Mandatory = $true)]
         [string]$Text,
 
         [Parameter(Mandatory = $true)]
+        [ValidateSet('manager', 'inspector')]
+        [string]$RoleType
+    )
+
+    $compact = Collapse-Whitespace -Text $Text
+    if ([string]::IsNullOrWhiteSpace($compact)) {
+        return @()
+    }
+
+    $candidates = New-Object System.Collections.ArrayList
+    [void]$candidates.Add($compact)
+
+    foreach ($pattern in @(
+            'ART\.\s*1[ºO]?',
+            'FICAM?\s+DESIGNADOS?',
+            'FICA\s+DESIGNADO',
+            'DESIGNA[, ]',
+            'NOMEIA[, ]',
+            'SUBSTITU'
+        )) {
+        $match = [regex]::Match(
+            $compact,
+            $pattern,
+            [System.Text.RegularExpressions.RegexOptions]::IgnoreCase
+        )
+        if ($match.Success -and $match.Index -gt 0) {
+            $slice = $compact.Substring($match.Index)
+            if (-not [string]::IsNullOrWhiteSpace($slice) -and $slice -notin $candidates) {
+                [void]$candidates.Add($slice)
+            }
+        }
+    }
+
+    $keyword = if ($RoleType -eq 'manager') { 'Gestor' } else { 'Fiscal' }
+    $keywordIndex = $compact.IndexOf($keyword, [System.StringComparison]::OrdinalIgnoreCase)
+    if ($keywordIndex -ge 0) {
+        $start = [Math]::Max(0, $keywordIndex - 520)
+        $length = [Math]::Min($compact.Length - $start, 980)
+        $localized = $compact.Substring($start, $length)
+        if (-not [string]::IsNullOrWhiteSpace($localized) -and $localized -notin $candidates) {
+            [void]$candidates.Add($localized)
+        }
+    }
+
+    return @($candidates)
+}
+
+function Get-ManagementRoleMatch {
+    param(
+        [AllowEmptyCollection()]
+        [string[]]$Texts = @(),
+
+        [Parameter(Mandatory = $true)]
         [string[]]$Patterns
     )
 
-    foreach ($pattern in $Patterns) {
-        $match = [regex]::Match(
-            $Text,
-            $pattern,
-            [System.Text.RegularExpressions.RegexOptions]::IgnoreCase -bor
-            [System.Text.RegularExpressions.RegexOptions]::Singleline
-        )
-
-        if (-not $match.Success) {
+    foreach ($text in @($Texts)) {
+        if ([string]::IsNullOrWhiteSpace([string]$text)) {
             continue
         }
 
-        $name = Clean-PersonDisplayName -Text ([string]$match.Groups['name'].Value)
-        if ([string]::IsNullOrWhiteSpace($name)) {
-            continue
-        }
+        foreach ($pattern in $Patterns) {
+            $matches = [regex]::Matches(
+                $text,
+                $pattern,
+                [System.Text.RegularExpressions.RegexOptions]::IgnoreCase -bor
+                [System.Text.RegularExpressions.RegexOptions]::Singleline
+            )
 
-        $role = Clean-RoleDisplayText -Text ([string]$match.Groups['role'].Value)
-        return [pscustomobject]@{
-            name = $name
-            normalizedName = (Normalize-IndexText -Text $name)
-            role = $role
+            foreach ($match in @($matches)) {
+                if (-not $match.Success) {
+                    continue
+                }
+
+                $name = Clean-PersonDisplayName -Text ([string]$match.Groups['name'].Value)
+                if ([string]::IsNullOrWhiteSpace($name)) {
+                    continue
+                }
+
+                $role = Clean-RoleDisplayText -Text ([string]$match.Groups['role'].Value)
+                return [pscustomobject]@{
+                    name = $name
+                    normalizedName = (Normalize-IndexText -Text $name)
+                    role = $role
+                }
+            }
         }
     }
 
@@ -986,67 +1322,418 @@ function Get-ManagementAssignmentsFromText {
         }
     }
 
+    $namePattern = "(?<name>[\p{L}'\-]+(?:\s+[\p{L}'\-]+){1,7})"
     $managerPatterns = @(
-        '(?is)(?:FICAM?\s+DESIGNADOS?\s+|FICA\s+DESIGNADO\s+|DESIGNA,\s*|DESIGNA\s+)(?<name>[^,\n]{4,120}?)\s*,\s*(?<role>.*?)(?=(?:,\s*INSCRIT|\s+INSCRIT|,\s*TITULAR|\s+TITULAR|\s+CPF|\s+RG|\s+PARA\s+EXERCER)).{0,160}?\s+PARA\s+EXERCER\s+A?\s*FUNCAO\s+DE\s+GESTOR',
-        '(?is)(?<name>[^,\n]{4,120}?)\s*,\s*(?<role>.*?)(?=(?:,\s*INSCRIT|\s+INSCRIT|,\s*TITULAR|\s+TITULAR|\s+CPF|\s+RG|\s+PARA\s+EXERCER)).{0,160}?\s+PARA\s+EXERCER\s+A?\s*FUNCAO\s+DE\s+GESTOR'
+        '(?is)(?:FICAM?\s+DESIGNADOS?\s+|FICA\s+DESIGNADO\s+|DESIGNA,\s*|DESIGNA\s+)' + $namePattern + '\s*,\s*(?<role>.*?)(?=(?:,\s*INSCRIT|\s+INSCRIT|,\s*TITULAR|\s+TITULAR|,\s*PORTADOR|\s+PORTADOR|\s+CPF|\s+RG|\s+PARA\s+EXERCER)).{0,220}?\s+PARA\s+EXERCER\s+A?\s*FUN\S{0,8}\s+DE\s+GESTOR',
+        '(?is)' + $namePattern + '\s*,\s*(?<role>.*?)(?=(?:,\s*INSCRIT|\s+INSCRIT|,\s*TITULAR|\s+TITULAR|,\s*PORTADOR|\s+PORTADOR|\s+CPF|\s+RG|\s+PARA\s+EXERCER)).{0,220}?\s+PARA\s+EXERCER\s+A?\s*FUN\S{0,8}\s+DE\s+GESTOR'
     )
     $inspectorPatterns = @(
-        '(?is)(?:,\s*E\s+|FICAM?\s+DESIGNADOS?\s+|FICA\s+DESIGNADO\s+|DESIGNA,\s*|DESIGNA\s+)(?<name>[^,\n]{4,120}?)\s*,\s*(?<role>.*?)(?=(?:,\s*INSCRIT|\s+INSCRIT|,\s*TITULAR|\s+TITULAR|\s+CPF|\s+RG|\s+PARA\s+(?:ATUAR|EXERCER))).{0,180}?\s+PARA\s+(?:ATUAR\s+COMO|EXERCER\s+A?\s*FUNCAO\s+DE)\s+FISCAL',
-        '(?is)(?<name>[^,\n]{4,120}?)\s*,\s*(?<role>.*?)(?=(?:,\s*INSCRIT|\s+INSCRIT|,\s*TITULAR|\s+TITULAR|\s+CPF|\s+RG|\s+PARA\s+(?:ATUAR|EXERCER))).{0,180}?\s+PARA\s+(?:ATUAR\s+COMO|EXERCER\s+A?\s*FUNCAO\s+DE)\s+FISCAL'
+        '(?is)(?:,\s*E\s+|FICAM?\s+DESIGNADOS?\s+|FICA\s+DESIGNADO\s+|DESIGNA,\s*|DESIGNA\s+)' + $namePattern + '\s*,\s*(?<role>.*?)(?=(?:,\s*INSCRIT|\s+INSCRIT|,\s*TITULAR|\s+TITULAR|,\s*PORTADOR|\s+PORTADOR|\s+CPF|\s+RG|\s+PARA\s+(?:ATUAR|EXERCER))).{0,240}?\s+PARA\s+(?:ATUAR\s+COMO|EXERCER\s+A?\s*FUN\S{0,8}\s+DE)\s+FISCAL',
+        '(?is)' + $namePattern + '\s*,\s*(?<role>.*?)(?=(?:,\s*INSCRIT|\s+INSCRIT|,\s*TITULAR|\s+TITULAR|,\s*PORTADOR|\s+PORTADOR|\s+CPF|\s+RG|\s+PARA\s+(?:ATUAR|EXERCER))).{0,240}?\s+PARA\s+(?:ATUAR\s+COMO|EXERCER\s+A?\s*FUN\S{0,8}\s+DE)\s+FISCAL'
     )
+    $managerTexts = @(Get-ManagementCandidateTexts -Text $compact -RoleType 'manager')
+    $inspectorTexts = @(Get-ManagementCandidateTexts -Text $compact -RoleType 'inspector')
 
     return [pscustomobject]@{
-        manager = (Get-ManagementRoleMatch -Text $compact -Patterns $managerPatterns)
-        inspector = (Get-ManagementRoleMatch -Text $compact -Patterns $inspectorPatterns)
+        manager = (Get-ManagementRoleMatch -Texts $managerTexts -Patterns $managerPatterns)
+        inspector = (Get-ManagementRoleMatch -Texts $inspectorTexts -Patterns $inspectorPatterns)
         actionType = (Get-ManagementActionType -Text $compact)
     }
 }
 
-function Get-PersonnelExonerationIndex {
-    $eventIndex = @{}
-    $files = @(Get-ChildItem -LiteralPath $script:PersonnelAnalysisRoot -Filter '*.json' -File -ErrorAction SilentlyContinue)
+function Get-PersonnelEventsFromTextSnippet {
+    param(
+        [Parameter(Mandatory = $true)]
+        [AllowNull()]
+        [object]$Text,
 
-    foreach ($file in $files) {
+        [AllowNull()]
+        [object]$PublishedAt = '',
+
+        [AllowNull()]
+        [object]$DiaryId = '',
+
+        [AllowNull()]
+        [object]$Edition = '',
+
+        [AllowNull()]
+        [object]$PageNumber = 0
+    )
+
+    $compact = Collapse-Whitespace -Text ([string]$Text)
+    if ([string]::IsNullOrWhiteSpace($compact)) {
+        return @()
+    }
+
+    $safePageNumber = 0
+    try {
+        if ($null -ne $PageNumber -and [string]$PageNumber -ne '') {
+            $safePageNumber = [int]$PageNumber
+        }
+    }
+    catch {
+        $safePageNumber = 0
+    }
+
+    $searchText = Remove-DiacriticsCommon -Text $compact
+    $normalized = Normalize-IndexText -Text $searchText
+    if ($normalized -notmatch '\b(EXONER|NOMEA)\w*\b') {
+        return @()
+    }
+
+    $events = New-Object System.Collections.ArrayList
+    $seen = New-Object 'System.Collections.Generic.HashSet[string]'
+    foreach ($eventType in @('exoneracao', 'nomeacao')) {
+        $patterns = switch ($eventType) {
+            'exoneracao' {
+                @(
+                    '(?is)Fica\s+exonerad[oa](?:,\s*|\s+)(?:a\s+partir\s+de\s+[^,\.]+,\s*)?(?:o|a)\s+(?:servidor(?:a)?\s+public[ao]\s+)?(?<name>[\p{L}''\-]+(?:\s+[\p{L}''\-]+){1,7})(?=\s*(?:\(|,\s*ocupante|\s+ocupante|\s+do\s+cargo|,\s*para\s+ocupar|,?\s*matr[ií]cula|\.))'
+                )
+            }
+            default {
+                @(
+                    '(?is)Fica\s+nomead[oa](?:,\s*|\s+)(?:a\s+partir\s+de\s+[^,\.]+,\s*)?(?:o|a)\s+(?:servidor(?:a)?\s+public[ao]\s+)?(?<name>[\p{L}''\-]+(?:\s+[\p{L}''\-]+){1,7})(?=\s*(?:,\s*para\s+ocupar|\s+para\s+ocupar|\s*\(|,\s*ocupante|\s+ocupante|\s+do\s+cargo|,?\s*matr[ií]cula|\.))',
+                    '(?is)Fica\s+nomead[oa].{0,220}?(?<name>[\p{L}''\-]+(?:\s+[\p{L}''\-]+){1,7})(?=\s*(?:\(|,\s*ocupante|\s+ocupante|,\s*para\s+ocupar|\s+para\s+ocupar|\.))'
+                )
+            }
+        }
+
+        foreach ($pattern in @($patterns)) {
+            $matches = [regex]::Matches(
+                $searchText,
+                $pattern,
+                [System.Text.RegularExpressions.RegexOptions]::IgnoreCase -bor
+                [System.Text.RegularExpressions.RegexOptions]::Singleline
+            )
+
+            foreach ($match in @($matches)) {
+            $personName = Clean-PersonDisplayName -Text ([string]$match.Groups['name'].Value)
+            if ([string]::IsNullOrWhiteSpace($personName)) {
+                continue
+            }
+
+            $normalizedName = Normalize-IndexText -Text $personName
+            $dedupeKey = [string]::Join('|', @($eventType, $normalizedName, [string]$DiaryId, [string]$safePageNumber))
+            if ([string]::IsNullOrWhiteSpace($normalizedName) -or -not $seen.Add($dedupeKey)) {
+                continue
+            }
+
+            $startIndex = [Math]::Max($match.Index - 80, 0)
+            $excerptLength = [Math]::Min(280, $compact.Length - $startIndex)
+            $excerpt = $compact.Substring($startIndex, $excerptLength).Trim()
+
+                [void]$events.Add([pscustomobject]@{
+                type = $eventType
+                personName = $personName
+                normalizedName = $normalizedName
+                pageNumber = $safePageNumber
+                excerpt = $excerpt
+                publishedAt = [string]$PublishedAt
+                diaryId = [string]$DiaryId
+                edition = [string]$Edition
+            })
+        }
+        }
+    }
+
+    return @($events)
+}
+
+function Get-PersonnelEventsFromTextSnippet {
+    param(
+        [Parameter(Mandatory = $true)]
+        [AllowNull()]
+        [object]$Text,
+
+        [AllowNull()]
+        [object]$PublishedAt = '',
+
+        [AllowNull()]
+        [object]$DiaryId = '',
+
+        [AllowNull()]
+        [object]$Edition = '',
+
+        [AllowNull()]
+        [object]$PageNumber = 0
+    )
+
+    $compact = Collapse-Whitespace -Text ([string]$Text)
+    if ([string]::IsNullOrWhiteSpace($compact)) {
+        return @()
+    }
+
+    $safePageNumber = 0
+    try {
+        if ($null -ne $PageNumber -and [string]$PageNumber -ne '') {
+            $safePageNumber = [int]$PageNumber
+        }
+    }
+    catch {
+        $safePageNumber = 0
+    }
+
+    $searchText = Remove-DiacriticsCommon -Text $compact
+    $normalized = Normalize-IndexText -Text $searchText
+    if ($normalized -notmatch '\b(EXONER|NOMEA)\w*\b') {
+        return @()
+    }
+
+    $events = New-Object System.Collections.ArrayList
+    $seen = New-Object 'System.Collections.Generic.HashSet[string]'
+    foreach ($eventType in @('exoneracao', 'nomeacao')) {
+        $patterns = switch ($eventType) {
+            'exoneracao' {
+                @(
+                    '(?is)Fica\s+exonerad[oa](?:,\s*|\s+)(?:a\s+partir\s+de\s+[^,\.]+,\s*)?(?:o|a)\s+(?:servidor(?:a)?\s+public[ao]\s+)?(?<name>[A-Z''\-]+(?:\s+[A-Z''\-]+){1,7})(?=\s*(?:\(|,\s*ocupante|\s+ocupante|\s+do\s+cargo|,\s*para\s+ocupar|,?\s*matricula|\.))',
+                    '(?is)Fica\s+exonerad[oa].{0,220}?(?<name>[A-Z''\-]+(?:\s+[A-Z''\-]+){1,7})(?=\s*(?:\(|,\s*ocupante|\s+ocupante|\s+do\s+cargo|,?\s*matricula|\.))'
+                )
+            }
+            default {
+                @(
+                    '(?is)Fica\s+nomead[oa](?:,\s*|\s+)(?:a\s+partir\s+de\s+[^,\.]+,\s*)?(?:o|a)\s+(?:servidor(?:a)?\s+public[ao]\s+)?(?<name>[A-Z''\-]+(?:\s+[A-Z''\-]+){1,7})(?=\s*(?:,\s*para\s+ocupar|\s+para\s+ocupar|\s*\(|,\s*ocupante|\s+ocupante|\s+do\s+cargo|,?\s*matricula|\.))',
+                    '(?is)Fica\s+nomead[oa].{0,220}?(?<name>[A-Z''\-]+(?:\s+[A-Z''\-]+){1,7})(?=\s*(?:\(|,\s*ocupante|\s+ocupante|,\s*para\s+ocupar|\s+para\s+ocupar|\.))'
+                )
+            }
+        }
+
+        foreach ($pattern in @($patterns)) {
+            $matches = [regex]::Matches(
+                $searchText,
+                $pattern,
+                [System.Text.RegularExpressions.RegexOptions]::IgnoreCase -bor
+                [System.Text.RegularExpressions.RegexOptions]::Singleline
+            )
+
+            foreach ($match in @($matches)) {
+                $personName = Clean-PersonDisplayName -Text ([string]$match.Groups['name'].Value)
+                if ([string]::IsNullOrWhiteSpace($personName)) {
+                    continue
+                }
+
+                $normalizedName = Normalize-IndexText -Text $personName
+                $dedupeKey = [string]::Join('|', @($eventType, $normalizedName, [string]$DiaryId, [string]$safePageNumber))
+                if ([string]::IsNullOrWhiteSpace($normalizedName) -or -not $seen.Add($dedupeKey)) {
+                    continue
+                }
+
+                $startIndex = [Math]::Max($match.Index - 80, 0)
+                $excerptLength = [Math]::Min(280, $compact.Length - $startIndex)
+                $excerpt = $compact.Substring($startIndex, $excerptLength).Trim()
+                $effectiveAt = Get-PersonnelEventEffectiveAt -Text ([string]$match.Value) -PublishedAt ([string]$PublishedAt)
+
+                [void]$events.Add([pscustomobject]@{
+                    type = $eventType
+                    personName = $personName
+                    normalizedName = $normalizedName
+                    pageNumber = $safePageNumber
+                    excerpt = $excerpt
+                    effectiveAt = $effectiveAt
+                    publishedAt = [string]$PublishedAt
+                    diaryId = [string]$DiaryId
+                    edition = [string]$Edition
+                })
+            }
+        }
+    }
+
+    return @($events)
+}
+
+function Add-PersonnelEventToIndex {
+    param(
+        [Parameter(Mandatory = $true)]
+        [hashtable]$EventIndex,
+
+        [Parameter(Mandatory = $true)]
+        [AllowEmptyCollection()]
+        [System.Collections.Generic.HashSet[string]]$SeenKeys,
+
+        [AllowNull()]
+        [object]$Event
+    )
+
+    if ($null -eq $Event) {
+        return
+    }
+
+    $normalizedName = Normalize-IndexText -Text ([string]$Event.normalizedName)
+    if ([string]::IsNullOrWhiteSpace($normalizedName)) {
+        $normalizedName = Normalize-IndexText -Text ([string]$Event.personName)
+    }
+    if ([string]::IsNullOrWhiteSpace($normalizedName)) {
+        return
+    }
+
+    $eventType = Collapse-Whitespace -Text ([string]$Event.type)
+    if ([string]::IsNullOrWhiteSpace($eventType)) {
+        return
+    }
+
+    $dedupeKey = [string]::Join('|', @(
+            $eventType,
+            $normalizedName,
+            [string]$Event.diaryId,
+            [string]$(if ($null -ne $Event.pageNumber) { $Event.pageNumber } else { 0 }),
+            [string]$Event.publishedAt
+        ))
+    if (-not $SeenKeys.Add($dedupeKey)) {
+        return
+    }
+
+    if (-not $EventIndex.ContainsKey($normalizedName)) {
+        $EventIndex[$normalizedName] = New-Object System.Collections.Generic.List[object]
+    }
+
+    $EventIndex[$normalizedName].Add([pscustomobject]@{
+        type = $eventType
+        personName = [string]$Event.personName
+        normalizedName = $normalizedName
+        effectiveAt = [string]$Event.effectiveAt
+        publishedAt = [string]$Event.publishedAt
+        diaryId = [string]$Event.diaryId
+        edition = [string]$Event.edition
+        pageNumber = [int]$(if ($null -ne $Event.pageNumber) { $Event.pageNumber } else { 0 })
+        excerpt = [string]$Event.excerpt
+    })
+}
+
+function Get-PersonnelEventIndex {
+    param(
+        [hashtable]$DiariesById = @{}
+    )
+
+    $eventIndex = @{}
+    $seenKeys = New-Object 'System.Collections.Generic.HashSet[string]'
+    $personnelFiles = @(Get-ChildItem -LiteralPath $script:PersonnelAnalysisRoot -Filter '*.json' -File -ErrorAction SilentlyContinue)
+
+    foreach ($file in $personnelFiles) {
         $analysis = Read-JsonFile -Path $file.FullName -Default $null
         if ($null -eq $analysis) {
             continue
         }
 
-        if ([string]$analysis.parserVersion -ne $script:PersonnelParserVersion) {
+        foreach ($event in @($analysis.events)) {
+            Add-PersonnelEventToIndex -EventIndex $eventIndex -SeenKeys $seenKeys -Event $event
+        }
+    }
+
+    $analysisFiles = @(Get-ChildItem -LiteralPath $script:AnalysisRoot -Filter '*.json' -File -ErrorAction SilentlyContinue)
+    foreach ($file in $analysisFiles) {
+        $analysis = Read-JsonFile -Path $file.FullName -Default $null
+        if ($null -eq $analysis) {
             continue
         }
 
-        foreach ($event in @($analysis.events)) {
-            if ([string]$event.type -ne 'exoneracao') {
-                continue
+        $diaryId = [string]$analysis.diaryId
+        $diary = if (-not [string]::IsNullOrWhiteSpace($diaryId) -and $DiariesById.ContainsKey($diaryId)) { $DiariesById[$diaryId] } else { $null }
+        $publishedAt = if ($diary) { [string]$diary.publishedAt } else { '' }
+        $edition = if ($diary) { [string]$diary.edition } else { '' }
+
+        foreach ($item in @($analysis.items)) {
+            $pageNumber = [int]$(if ($null -ne $item.pageNumber) { $item.pageNumber } else { 0 })
+            $snippet = [string]::Join(' ', @([string]$item.actTitle, [string]$item.excerpt))
+            try {
+                $parsedEvents = @(Get-PersonnelEventsFromTextSnippet -Text ([string]$snippet) -PublishedAt ([string]$publishedAt) -DiaryId ([string]$diaryId) -Edition ([string]$edition) -PageNumber ([int]$pageNumber))
+            }
+            catch {
+                $parsedEvents = @()
             }
 
-            $normalizedName = Normalize-IndexText -Text ([string]$event.normalizedName)
-            if ([string]::IsNullOrWhiteSpace($normalizedName)) {
-                $normalizedName = Normalize-IndexText -Text ([string]$event.personName)
+            foreach ($event in @($parsedEvents)) {
+                Add-PersonnelEventToIndex -EventIndex $eventIndex -SeenKeys $seenKeys -Event $event
             }
-            if ([string]::IsNullOrWhiteSpace($normalizedName)) {
-                continue
-            }
-
-            if (-not $eventIndex.ContainsKey($normalizedName)) {
-                $eventIndex[$normalizedName] = New-Object System.Collections.Generic.List[object]
-            }
-
-            $eventIndex[$normalizedName].Add([pscustomobject]@{
-                type = [string]$event.type
-                personName = [string]$event.personName
-                normalizedName = $normalizedName
-                publishedAt = [string]$event.publishedAt
-                diaryId = [string]$event.diaryId
-                edition = [string]$event.edition
-                pageNumber = [int]$(if ($null -ne $event.pageNumber) { $event.pageNumber } else { 0 })
-                excerpt = [string]$event.excerpt
-            })
         }
     }
 
     return $eventIndex
+}
+
+function Get-PersonnelStatusAfterAssignment {
+    param(
+        [string]$NormalizedName = '',
+
+        [string]$AssignedAt = '',
+
+        [hashtable]$PersonnelEventIndex = @{}
+    )
+
+    $normalized = Normalize-IndexText -Text $NormalizedName
+    if ([string]::IsNullOrWhiteSpace($normalized) -or -not $PersonnelEventIndex.ContainsKey($normalized)) {
+        return [ordered]@{
+            status = 'sem_evento_pessoal'
+            latestEventType = ''
+            latestEventAt = $null
+            latestEventExcerpt = ''
+            postAssignmentEvents = @()
+            exonerationEvents = @()
+            nomeacaoEvents = @()
+        }
+    }
+
+    $assignmentMoment = $null
+    try {
+        if (-not [string]::IsNullOrWhiteSpace($AssignedAt)) {
+            $assignmentMoment = [DateTime]::Parse($AssignedAt)
+        }
+    }
+    catch {
+        $assignmentMoment = $null
+    }
+
+    $personEvents = @($PersonnelEventIndex[$normalized].ToArray())
+    $postAssignmentEvents = @(
+        $personEvents |
+        Where-Object {
+            $eventMoment = Get-PersonnelEventMoment -Event $_
+            if ($null -eq $assignmentMoment -or $null -eq $eventMoment) {
+                return $true
+            }
+
+            return $eventMoment -ge $assignmentMoment
+        } |
+        Sort-Object @{ Expression = {
+                $eventMoment = Get-PersonnelEventMoment -Event $_
+                if ($null -ne $eventMoment) {
+                    return $eventMoment
+                }
+                return [DateTime]::MinValue
+            }; Descending = $true }
+    )
+
+    $latestEvent = @($postAssignmentEvents | Select-Object -First 1)
+    $exonerationEvents = @($postAssignmentEvents | Where-Object { [string]$_.type -eq 'exoneracao' })
+    $nomeacaoEvents = @($postAssignmentEvents | Where-Object { [string]$_.type -eq 'nomeacao' })
+
+    $status = if (@($latestEvent).Count -eq 0) {
+        'sem_evento_pessoal'
+    }
+    elseif ([string]$latestEvent[0].type -eq 'exoneracao') {
+        'exonerado'
+    }
+    elseif ([string]$latestEvent[0].type -eq 'nomeacao') {
+        'ativo'
+    }
+    else {
+        [string]$latestEvent[0].type
+    }
+
+    return [ordered]@{
+        status = $status
+        latestEventType = if (@($latestEvent).Count -gt 0) { [string]$latestEvent[0].type } else { '' }
+        latestEventEffectiveAt = if (@($latestEvent).Count -gt 0) { [string]$latestEvent[0].effectiveAt } else { '' }
+        latestEventAt = if (@($latestEvent).Count -gt 0) { [string]$latestEvent[0].publishedAt } else { $null }
+        latestEventMoment = if (@($latestEvent).Count -gt 0) {
+            if (-not [string]::IsNullOrWhiteSpace([string]$latestEvent[0].effectiveAt)) { [string]$latestEvent[0].effectiveAt } else { [string]$latestEvent[0].publishedAt }
+        }
+        else {
+            $null
+        }
+        latestEventExcerpt = if (@($latestEvent).Count -gt 0) { [string]$latestEvent[0].excerpt } else { '' }
+        postAssignmentEvents = @($postAssignmentEvents)
+        exonerationEvents = @($exonerationEvents)
+        nomeacaoEvents = @($nomeacaoEvents)
+    }
 }
 
 function Get-ManagementStatusTone {
@@ -1087,7 +1774,7 @@ function Build-ContractManagementProfiles {
         [object[]]$Items,
 
         [Parameter(Mandatory = $false)]
-        [hashtable]$PersonnelExonerationIndex = @{}
+        [hashtable]$PersonnelEventIndex = @{}
     )
 
     $groups = @{}
@@ -1197,50 +1884,43 @@ function Build-ContractManagementProfiles {
         $managerChanged = @($managerNames).Count -gt 1
         $inspectorChanged = @($inspectorNames).Count -gt 1
 
-        $managerExonerationEvents = @()
-        if ($latestManagerEvent -and $latestManagerEvent.manager -and $PersonnelExonerationIndex.ContainsKey([string]$latestManagerEvent.manager.normalizedName)) {
-            $managerExonerationEvents = @(
-                $PersonnelExonerationIndex[[string]$latestManagerEvent.manager.normalizedName] |
-                Where-Object {
-                    if ([string]::IsNullOrWhiteSpace([string]$_.publishedAt) -or [string]::IsNullOrWhiteSpace([string]$latestManagerEvent.publishedAt)) {
-                        return $false
-                    }
-
-                    try {
-                        return [DateTime]::Parse([string]$_.publishedAt) -ge [DateTime]::Parse([string]$latestManagerEvent.publishedAt)
-                    }
-                    catch {
-                        return $false
-                    }
-                } |
-                Sort-Object -Property publishedAt -Descending
-            )
+        $managerPersonnelStatus = if ($latestManagerEvent -and $latestManagerEvent.manager) {
+            Get-PersonnelStatusAfterAssignment -NormalizedName ([string]$latestManagerEvent.manager.normalizedName) -AssignedAt ([string]$latestManagerEvent.publishedAt) -PersonnelEventIndex $PersonnelEventIndex
+        }
+        else {
+            [ordered]@{
+                status = 'sem_evento_pessoal'
+                latestEventType = ''
+                latestEventAt = $null
+                latestEventExcerpt = ''
+                postAssignmentEvents = @()
+                exonerationEvents = @()
+                nomeacaoEvents = @()
+            }
         }
 
-        $inspectorExonerationEvents = @()
-        if ($latestInspectorEvent -and $latestInspectorEvent.inspector -and $PersonnelExonerationIndex.ContainsKey([string]$latestInspectorEvent.inspector.normalizedName)) {
-            $inspectorExonerationEvents = @(
-                $PersonnelExonerationIndex[[string]$latestInspectorEvent.inspector.normalizedName] |
-                Where-Object {
-                    if ([string]::IsNullOrWhiteSpace([string]$_.publishedAt) -or [string]::IsNullOrWhiteSpace([string]$latestInspectorEvent.publishedAt)) {
-                        return $false
-                    }
-
-                    try {
-                        return [DateTime]::Parse([string]$_.publishedAt) -ge [DateTime]::Parse([string]$latestInspectorEvent.publishedAt)
-                    }
-                    catch {
-                        return $false
-                    }
-                } |
-                Sort-Object -Property publishedAt -Descending
-            )
+        $inspectorPersonnelStatus = if ($latestInspectorEvent -and $latestInspectorEvent.inspector) {
+            Get-PersonnelStatusAfterAssignment -NormalizedName ([string]$latestInspectorEvent.inspector.normalizedName) -AssignedAt ([string]$latestInspectorEvent.publishedAt) -PersonnelEventIndex $PersonnelEventIndex
         }
+        else {
+            [ordered]@{
+                status = 'sem_evento_pessoal'
+                latestEventType = ''
+                latestEventAt = $null
+                latestEventExcerpt = ''
+                postAssignmentEvents = @()
+                exonerationEvents = @()
+                nomeacaoEvents = @()
+            }
+        }
+
+        $managerExonerationEvents = @($managerPersonnelStatus.exonerationEvents)
+        $inspectorExonerationEvents = @($inspectorPersonnelStatus.exonerationEvents)
 
         $hasManager = $null -ne $latestManagerEvent
         $hasInspector = $null -ne $latestInspectorEvent
-        $managerExonerationSignal = @($managerExonerationEvents).Count -gt 0
-        $inspectorExonerationSignal = @($inspectorExonerationEvents).Count -gt 0
+        $managerExonerationSignal = [string]$managerPersonnelStatus.status -eq 'exonerado'
+        $inspectorExonerationSignal = [string]$inspectorPersonnelStatus.status -eq 'exonerado'
         $tone = Get-ManagementStatusTone `
             -HasManager:$hasManager `
             -HasInspector:$hasInspector `
@@ -1257,6 +1937,14 @@ function Build-ContractManagementProfiles {
         if ($managerExonerationSignal) { $summaryParts.Add('Há sinal de exoneração do gestor atual') }
         if ($inspectorExonerationSignal) { $summaryParts.Add('Há sinal de exoneração do fiscal atual') }
         if (@($summaryParts).Count -eq 0) { $summaryParts.Add('Gestor e fiscal atuais identificados no Diário') }
+
+        $filteredSummaryParts = New-Object System.Collections.Generic.List[string]
+        foreach ($summaryPart in @($summaryParts | Where-Object { [string]$_ -notmatch 'sinal de exoner' })) {
+            $null = $filteredSummaryParts.Add([string]$summaryPart)
+        }
+        $summaryParts = $filteredSummaryParts
+        if ($managerExonerationSignal) { $summaryParts.Add('Gestor designado com exoneracao posterior sem nova nomeacao') }
+        if ($inspectorExonerationSignal) { $summaryParts.Add('Fiscal designado com exoneracao posterior sem nova nomeacao') }
 
         $profiles.Add([pscustomobject]@{
             contractKey = [string]$entry.Value.contractKey
@@ -1281,6 +1969,12 @@ function Build-ContractManagementProfiles {
             inspectorExonerationAt = if ($inspectorExonerationSignal) { [string]$inspectorExonerationEvents[0].publishedAt } else { $null }
             managerExonerationExcerpt = if ($managerExonerationSignal) { [string]$managerExonerationEvents[0].excerpt } else { '' }
             inspectorExonerationExcerpt = if ($inspectorExonerationSignal) { [string]$inspectorExonerationEvents[0].excerpt } else { '' }
+            managerPersonnelStatus = [string]$managerPersonnelStatus.status
+            inspectorPersonnelStatus = [string]$inspectorPersonnelStatus.status
+            managerPersonnelLastEventType = [string]$managerPersonnelStatus.latestEventType
+            inspectorPersonnelLastEventType = [string]$inspectorPersonnelStatus.latestEventType
+            managerPersonnelLastEventAt = [string]$managerPersonnelStatus.latestEventAt
+            inspectorPersonnelLastEventAt = [string]$inspectorPersonnelStatus.latestEventAt
             lastManagementActAt = if (@($sortedEvents).Count -gt 0) { [string]$sortedEvents[-1].publishedAt } else { $null }
             lastManagementActTitle = if (@($sortedEvents).Count -gt 0) { [string]$sortedEvents[-1].actTitle } else { '' }
             linkedMovementCount = @($sortedEvents).Count
@@ -1367,6 +2061,12 @@ function Add-ManagementFieldsToItem {
     $data.inspectorExonerationSignal = if ($profile) { [bool]$profile.inspectorExonerationSignal } else { $false }
     $data.managerExonerationAt = if ($profile) { [string]$profile.managerExonerationAt } else { $null }
     $data.inspectorExonerationAt = if ($profile) { [string]$profile.inspectorExonerationAt } else { $null }
+    $data.managerPersonnelStatus = if ($profile) { [string]$profile.managerPersonnelStatus } else { 'sem_evento_pessoal' }
+    $data.inspectorPersonnelStatus = if ($profile) { [string]$profile.inspectorPersonnelStatus } else { 'sem_evento_pessoal' }
+    $data.managerPersonnelLastEventType = if ($profile) { [string]$profile.managerPersonnelLastEventType } else { '' }
+    $data.inspectorPersonnelLastEventType = if ($profile) { [string]$profile.inspectorPersonnelLastEventType } else { '' }
+    $data.managerPersonnelLastEventAt = if ($profile) { [string]$profile.managerPersonnelLastEventAt } else { $null }
+    $data.inspectorPersonnelLastEventAt = if ($profile) { [string]$profile.inspectorPersonnelLastEventAt } else { $null }
     $data.managementStatusTone = if ($profile) { [string]$profile.statusTone } else { 'critical' }
     $data.managementSummary = if ($profile) { [string]$profile.summary } else { 'Sem ato de gestor e fiscal identificado no Diário.' }
     $data.managementLastActAt = if ($profile) { [string]$profile.lastManagementActAt } else { $null }
@@ -8631,7 +9331,7 @@ function Refresh-ContractsAggregate {
     $supplierSet = New-Object 'System.Collections.Generic.HashSet[string]'
     $typeCounter = @{}
     $organizationCounter = @{}
-    $personnelExonerationIndex = Get-PersonnelExonerationIndex
+    $personnelEventIndex = Get-PersonnelEventIndex -DiariesById $diariesById
     $totalValue = 0.0
     $confirmedItems = 0
     $procurementItems = 0
@@ -8871,7 +9571,7 @@ function Refresh-ContractsAggregate {
         Sort-Object -Property @{ Expression = { $_.count }; Descending = $true }, @{ Expression = { $_.name }; Descending = $false }
     )
 
-    $managementProfiles = @(Build-ContractManagementProfiles -Items $movementItems.ToArray() -PersonnelExonerationIndex $personnelExonerationIndex)
+    $managementProfiles = @(Build-ContractManagementProfiles -Items $movementItems.ToArray() -PersonnelEventIndex $personnelEventIndex)
     $managementProfileIndex = @{}
     foreach ($profile in $managementProfiles) {
         foreach ($token in @($profile.referenceTokens)) {

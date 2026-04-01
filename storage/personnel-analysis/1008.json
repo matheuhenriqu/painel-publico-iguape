@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "1008",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:02:56",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:52:19",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_910_25082428.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_910_25082428.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  13,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "exoneracao",
+                       "personName":  "professora MIRIAN DE SOUZA FISCHER",
+                       "normalizedName":  "PROFESSORA MIRIAN DE SOUZA FISCHER",
+                       "pageNumber":  1,
+                       "excerpt":  "nte aquelas conferidas pela Lei Orgânica do Município, D E C R E T A: Art. 1º - Fica exonerada, a partir de 25 de janeiro de 2025, do cargo de provimento em comissão de Secretária Adjunta - SAD, Referência 1-A, a professora MIRIAN DE SOUZA FISCHER (RG 15.597.555-9-SSP/SP), vincul",
+                       "effectiveAt":  "2025-01-25T00:00:00",
+                       "publishedAt":  "2025-01-25T08:24:00",
+                       "diaryId":  "1008",
+                       "edition":  "910"
+                   }
                ]
 }

@@ -1,12 +1,36 @@
 ﻿{
     "diaryId":  "39",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:05:38",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:54:34",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/45357e60a19fde35d21fbdcc055fd588.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2021/45357e60a19fde35d21fbdcc055fd588.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  10,
+    "eventCount":  2,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "exoneracao",
+                       "personName":  "revogadas as disposicoes em contrario",
+                       "normalizedName":  "REVOGADAS AS DISPOSICOES EM CONTRARIO",
+                       "pageNumber":  2,
+                       "excerpt":  "eguinte: Art. 2º - Esta portaria entra em vigor na data de sua publi- Art. 1º - Fica exonerado, Carlos Mateus de Menezes, titular da cação, revogadas as disposições em contrário. GABINETE DO PREFEITO WILSON ALMEIDA LIMA PREFEITO",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2021-04-17T00:00:00",
+                       "diaryId":  "39",
+                       "edition":  "36"
+                   },
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "revogadas as disposicoes em contrario",
+                       "normalizedName":  "REVOGADAS AS DISPOSICOES EM CONTRARIO",
+                       "pageNumber":  3,
+                       "excerpt":  "eguinte: Art. 2º - Esta portaria entra em vigor na data de sua publi- Art. 1º - Fica nomeado, Luis Guilherme de Mattos Maciel, cação, revogadas as disposições em contrário. Titular da Cédula de Identidade RG nº 18.996.309-8, inscrito no CPF/MF nº 085.255.098-76, para compor a Jun",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2021-04-17T00:00:00",
+                       "diaryId":  "39",
+                       "edition":  "36"
+                   }
                ]
 }

@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "540",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:04:11",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:53:18",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/8ed655c0fc8feba820f5da2b00639ce1.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/8ed655c0fc8feba820f5da2b00639ce1.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  4,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "Celia Maria Alves Veiga Barbosa",
+                       "normalizedName":  "CELIA MARIA ALVES VEIGA BARBOSA",
+                       "pageNumber":  1,
+                       "excerpt":  "ada pela Lei Complementar 150, de 19 de abril de 2023, D E C R E T A: Art. 1º - Fica nomeada, a partir de 24 de abril de 2023, para o exercício do cargo de provimento em comissão de Secretária Municipal de Governo – SMG, Referência 1, a servidora Célia Maria Alves Veiga Barbosa (",
+                       "effectiveAt":  "2023-04-24T00:00:00",
+                       "publishedAt":  "2023-04-26T00:00:00",
+                       "diaryId":  "540",
+                       "edition":  "512"
+                   }
                ]
 }

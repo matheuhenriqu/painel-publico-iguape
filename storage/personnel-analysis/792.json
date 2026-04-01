@@ -1,11 +1,14 @@
 ﻿{
     "diaryId":  "792",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:03:22",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:52:41",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/20240405_2024-04-05_diariooficialedicao730_16023202.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/20240405_2024-04-05_diariooficialedicao730_16023202.pdf",
+    "pageCount":  4,
     "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
+    "pageErrors":  [
+
+                   ],
     "events":  [
 
                ]

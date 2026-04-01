@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "283",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:04:52",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:53:54",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/fa4b7bee94382f9e15924f07bbf771f8.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/fa4b7bee94382f9e15924f07bbf771f8.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  12,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "Celso Luiz Garcia S",
+                       "normalizedName":  "CELSO LUIZ GARCIA S",
+                       "pageNumber":  5,
+                       "excerpt":  "V, da Lei Orgânica do Município de Iguape, baixa a seguinte: PORTARIA Art. 1º - Fica nomeada, Comissão de Sindicância Administrativa, destinada a apurar ocorrências, apontadas através do memorando nº 45/2022 – adm, Boletim de Ocorrência nº AZ8076-1//2022, composta pelos seguintes",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2022-04-19T00:00:00",
+                       "diaryId":  "283",
+                       "edition":  "271"
+                   }
                ]
 }

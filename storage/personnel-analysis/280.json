@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "280",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:04:53",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:53:55",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/b9cb646845db3075a33bbf952cb3e733.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/b9cb646845db3075a33bbf952cb3e733.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  3,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "em desfavor de Erick Ricardo Espassiani C",
+                       "normalizedName":  "EM DESFAVOR DE ERICK RICARDO ESPASSIANI C",
+                       "pageNumber":  1,
+                       "excerpt":  "V, da Lei Orgânica do Município de Iguape, baixa a seguinte: PORTARIA Art. 1º - Fica nomeada, Comissão de Processo Administrativo, para a apurar falta de assiduidade nas atividades junto ao município, conforme apurado no relatório final da Comissão de Sindicância, Portaria nº 148",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2022-04-13T00:00:00",
+                       "diaryId":  "280",
+                       "edition":  "268"
+                   }
                ]
 }

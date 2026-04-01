@@ -1,12 +1,36 @@
 ﻿{
     "diaryId":  "1033",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:02:50",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:52:15",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_928_20071305.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_928_20071305.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  3,
+    "eventCount":  2,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "exoneracao",
+                       "personName":  "Nilson Tiago Ferreira",
+                       "normalizedName":  "NILSON TIAGO FERREIRA",
+                       "pageNumber":  2,
+                       "excerpt":  "ANO 05 – Nº 928 Quinta-feira, 20 de Fevereiro de 2025 D E C R E T A: Art. 1º - Fica exonerado do cargo de Diretor I – DCA-1, Referência 2, com lotação na Secretaria Municipal de Gestão e Planejamento, Nilson Tiago Ferreira (RG 42.066.830-5). Art. 2º - Fica nomeada, para ocupar o",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2025-02-20T07:06:00",
+                       "diaryId":  "1033",
+                       "edition":  "928"
+                   },
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "Juliana Silva Ferrari",
+                       "normalizedName":  "JULIANA SILVA FERRARI",
+                       "pageNumber":  2,
+                       "excerpt":  "al de Gestão e Planejamento, Nilson Tiago Ferreira (RG 42.066.830-5). Art. 2º - Fica nomeada, para ocupar o cargo de Diretor I – DCA-1, Referência 2, com lotação na Secretaria Municipal de Gestão e Planejamento, Juliana Silva Ferrari (RG 37.575.479-9). Art. 3º - Este decreto entr",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2025-02-20T07:06:00",
+                       "diaryId":  "1033",
+                       "edition":  "928"
+                   }
                ]
 }

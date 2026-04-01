@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "291",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:04:51",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:53:53",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/5ddcd32550581c68e08a21b7b11fef33.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/5ddcd32550581c68e08a21b7b11fef33.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  6,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "para prover a funcao de Coordenador Tecnico",
+                       "normalizedName":  "PARA PROVER A FUNCAO DE COORDENADOR TECNICO",
+                       "pageNumber":  2,
+                       "excerpt":  "I, da Lei Orgânica do Município de Iguape, baixa a seguinte: PORTARIA Art. 1º - Fica nomeada Camila Lago Alves de Freitas, titular da Cédula de Identidade - RG nº 20.339.321-09 SSP/BH, inscrita no CPF/MF sob o nº. 062.928.754-66, para prover a função de Coordenador Técnico . Cult",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2022-05-03T00:00:00",
+                       "diaryId":  "291",
+                       "edition":  "279"
+                   }
                ]
 }

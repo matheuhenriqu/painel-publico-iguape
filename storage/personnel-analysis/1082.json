@@ -1,12 +1,36 @@
 ﻿{
     "diaryId":  "1082",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:02:43",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:52:08",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_970_25065039.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_970_25065039.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  2,
+    "eventCount":  2,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "exoneracao",
+                       "personName":  "Leonilda Ribeiro Braga",
+                       "normalizedName":  "LEONILDA RIBEIRO BRAGA",
+                       "pageNumber":  1,
+                       "excerpt":  "cialmente, aquelas conferidas pela Lei Orgânica do Município, DECRETA Art. 1º - Fica exonerada, a partir de 24 de abril de 2025, a servidora pública Leonilda Ribeiro Braga (RG 20.528.847-9-SSP/SP) do cargo de provimento em comissão de Coordenadoria da Subprefeitura do Icapara – D",
+                       "effectiveAt":  "2025-04-24T00:00:00",
+                       "publishedAt":  "2025-04-25T06:50:00",
+                       "diaryId":  "1082",
+                       "edition":  "970"
+                   },
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "CELIO PEREIRA DE SOUZA",
+                       "normalizedName":  "CELIO PEREIRA DE SOUZA",
+                       "pageNumber":  1,
+                       "excerpt":  "nformidade da Lei Complementar municipal 140, de 29 de março de 2022. Art. 2º - Fica nomeado, a partir de 25 de abril de 2025, CÉLIO PEREIRA DE SOUZA (RG 14.196.394-3-SSP/SP), nos termos da Lei Complementar municipal 140, de 29 de março de 2022, para o cargo de provimento em comi",
+                       "effectiveAt":  "2025-04-25T00:00:00",
+                       "publishedAt":  "2025-04-25T06:50:00",
+                       "diaryId":  "1082",
+                       "edition":  "970"
+                   }
                ]
 }

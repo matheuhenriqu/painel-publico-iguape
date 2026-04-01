@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "543",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:04:11",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:53:18",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/eb0d20c5e02c33edc8967b44df4d8a88.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/eb0d20c5e02c33edc8967b44df4d8a88.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  27,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "Dario Joao dos Santos",
+                       "normalizedName":  "DARIO JOAO DOS SANTOS",
+                       "pageNumber":  2,
+                       "excerpt":  "ei Complementar municipal 140, de 29 de março de 2022; D E C R E T A: Art. 1º - Fica nomeado, para exercer função comissionada na Secretaria Municipal de Saúde, o servidor público a seguir mencionado, com base na Lei Complementar municipal 140, de 29 de março de 2022: - Dario Joã",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2023-04-29T00:00:00",
+                       "diaryId":  "543",
+                       "edition":  "515"
+                   }
                ]
 }

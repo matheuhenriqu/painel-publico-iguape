@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "186",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:05:13",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:54:12",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/ab2182e114d89f077d2bfc453e748e7b.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2021/ab2182e114d89f077d2bfc453e748e7b.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  12,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "destinada a apurar fatos relatados no B",
+                       "normalizedName":  "DESTINADA A APURAR FATOS RELATADOS NO B",
+                       "pageNumber":  7,
+                       "excerpt":  "V, da Lei Orgânica do Município de Iguape, baixa a seguinte: PORTARIA Art. 1º - Fica nomeada, Comissão de Sindicância Administrativa, destinada a apurar fatos relatados no B.O nº 1574/2021 - furto de Material Elétrico - Transbordo, composta pelos seguintes membros: Dr. Celso Luiz",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2021-11-25T00:00:00",
+                       "diaryId":  "186",
+                       "edition":  "177"
+                   }
                ]
 }

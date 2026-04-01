@@ -1,12 +1,25 @@
 ﻿{
     "diaryId":  "287",
-    "parserVersion":  "2026.03.23.01",
-    "analyzedAt":  "2026-03-25T11:04:51",
+    "parserVersion":  "2026.04.01.05",
+    "analyzedAt":  "2026-04-01T19:53:54",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/69f10a5e0ad48a077cca8221eb79c80c.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/69f10a5e0ad48a077cca8221eb79c80c.pdf",
-    "eventCount":  0,
-    "error":  "Os tipos de argumento não correspondem",
-    "events":  [
+    "pageCount":  3,
+    "eventCount":  1,
+    "pageErrors":  [
 
+                   ],
+    "events":  [
+                   {
+                       "type":  "nomeacao",
+                       "personName":  "Diretor Tecnico do CCI - Centro de Convivencia",
+                       "normalizedName":  "DIRETOR TECNICO DO CCI CENTRO DE CONVIVENCIA",
+                       "pageNumber":  1,
+                       "excerpt":  "I, da Lei Orgânica do Município de Iguape, baixa a seguinte: PORTARIA Art. 1º - Fica nomeada Simone Silva de Fontes, titular da Cédula de Identidade - RG nº 24.519.087-9 SSP/SP, inscrita no CPF/MF sob o nº. 157.723.248-88 para prover a função de Diretor Técnico do CCI - Centro de",
+                       "effectiveAt":  "",
+                       "publishedAt":  "2022-04-27T00:00:00",
+                       "diaryId":  "287",
+                       "edition":  "275"
+                   }
                ]
 }

@@ -9,7 +9,11 @@ on:
       - main
     paths:
       - ".github/workflows/update-data.yml"
+      - ".github/workflows/validate-public-site.yml"
       - "scripts/**"
+      - "index.html"
+      - "app.js"
+      - "styles.css"
       - "data/organization-catalog.json"
       - "storage/analysis/**"
       - "storage/personnel-analysis/**"
@@ -34,6 +38,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Restore sync cache
         id: restore-cache
@@ -51,6 +57,9 @@ jobs:
 
       - name: Update public dataset
         run: ./scripts/update-public-data.ps1
+
+      - name: Validate public dashboard
+        run: ./scripts/validate-public-dashboard.ps1
 
       - name: Save sync cache
         if: always()

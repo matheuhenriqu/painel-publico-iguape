@@ -1,0 +1,41 @@
+name: Validate Public Dashboard
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "index.html"
+      - "app.js"
+      - "styles.css"
+      - "data/contracts-dashboard.json"
+      - "scripts/**"
+      - ".github/workflows/validate-public-site.yml"
+      - ".github/workflows/update-data.yml"
+  pull_request:
+    paths:
+      - "index.html"
+      - "app.js"
+      - "styles.css"
+      - "data/contracts-dashboard.json"
+      - "scripts/**"
+      - ".github/workflows/validate-public-site.yml"
+      - ".github/workflows/update-data.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: pwsh
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate public dashboard
+        run: ./scripts/validate-public-dashboard.ps1

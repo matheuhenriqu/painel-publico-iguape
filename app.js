@@ -1,9 +1,15 @@
 (() => {
   const PAGE_SIZE = 18;
   const SEARCH_DEBOUNCE_MS = 140;
+  const MAX_QUERY_LENGTH = 160;
+  const FETCH_TIMEOUT_MS = 15000;
   const DEFAULT_VIEW = "overview";
   const VALID_VIEWS = new Set(["overview", "alerts", "contracts"]);
+  const ALLOWED_EXTERNAL_HOSTS = new Set(["iguape.sp.gov.br", "www.iguape.sp.gov.br"]);
   const collator = new Intl.Collator("pt-BR", { numeric: true, sensitivity: "base" });
+  const trustedTypesPolicy = window.trustedTypes?.createPolicy("contracts-dashboard", {
+    createHTML: (value) => String(value),
+  });
 
   const DEFAULT_FILTERS = {
     query: "",
@@ -148,6 +154,48 @@
       .replace(/'/g, "&#39;");
   }
 
+  function setHtml(element, html) {
+    const value = String(html ?? "");
+    element.innerHTML = trustedTypesPolicy ? trustedTypesPolicy.createHTML(value) : value;
+  }
+
+  function sanitizePlainText(value, limit = 400) {
+    return repairText(value)
+      .replace(/[\u0000-\u001f\u007f]+/g, " ")
+      .replace(/\s+/g, " ")
+      .trim()
+      .slice(0, limit);
+  }
+
+  function sanitizeQueryInput(value) {
+    return sanitizePlainText(value, MAX_QUERY_LENGTH);
+  }
+
+  function sanitizeExternalUrl(value) {
+    const raw = String(value ?? "").trim();
+    if (!raw) return "";
+
+    try {
+      const url = new URL(raw, window.location.origin);
+      if (url.origin === window.location.origin) {
+        return `${url.pathname}${url.search}${url.hash}`;
+      }
+      if (url.protocol !== "https:") return "";
+      if (!ALLOWED_EXTERNAL_HOSTS.has(url.hostname.toLowerCase())) return "";
+      return url.toString();
+    } catch {
+      return "";
+    }
+  }
+
+  function validatePayloadShape(payload) {
+    if (!payload || typeof payload !== "object") return false;
+    if (!payload.summary || typeof payload.summary !== "object") return false;
+    if (!Array.isArray(payload.records)) return false;
+    if (!payload.filters || typeof payload.filters !== "object") return false;
+    return true;
+  }
+
   function qualityScore(text) {
     const printable = (text.match(/[0-9A-Za-zÀ-ÿ\s.,;:!?()/%ºª°"'/\-]/g) || []).length;
     const noise = (text.match(/[ÃÂ�┬]/g) || []).length;
@@ -284,17 +332,17 @@
     return {
       ...payload,
       methodology: {
-        title: repairText(payload.methodology?.title),
-        summary: repairText(payload.methodology?.summary),
-        notes: (payload.methodology?.notes || []).map((note) => repairText(note)),
+        title: sanitizePlainText(payload.methodology?.title),
+        summary: sanitizePlainText(payload.methodology?.summary, 800),
+        notes: (payload.methodology?.notes || []).map((note) => sanitizePlainText(note, 300)),
       },
       filters: {
         ...payload.filters,
-        organizations: (payload.filters?.organizations || []).map((value) => repairText(value)),
-        administrations: (payload.filters?.administrations || []).map((value) => repairText(value)),
+        organizations: (payload.filters?.organizations || []).map((value) => sanitizePlainText(value, 160)),
+        administrations: (payload.filters?.administrations || []).map((value) => sanitizePlainText(value, 160)),
       },
       organizationSummary: (payload.organizationSummary || []).map((item) => ({
-        organization: repairText(item.organization),
+        organization: sanitizePlainText(item.organization, 160),
         count: Number(item.count || 0),
       })),
       generatedAt,
@@ -305,26 +353,26 @@
   function preprocessRecord(record, index) {
     const manager = {
       ...record.manager,
-      name: repairText(record.manager?.name),
-      role: repairText(record.manager?.role),
+      name: sanitizePlainText(record.manager?.name, 160),
+      role: sanitizePlainText(record.manager?.role, 220),
     };
 
     const inspector = {
       ...record.inspector,
-      name: repairText(record.inspector?.name),
-      role: repairText(record.inspector?.role),
+      name: sanitizePlainText(record.inspector?.name, 160),
+      role: sanitizePlainText(record.inspector?.role, 220),
     };
 
     const alerts = (record.alerts || []).map((alert) => ({
       ...alert,
-      title: repairText(alert.title),
-      description: repairText(alert.description),
+      title: sanitizePlainText(alert.title, 220),
+      description: sanitizePlainText(alert.description, 500),
     }));
 
     const vigency = {
       ...record.vigency,
-      label: repairText(record.vigency?.label),
-      sourceLabel: repairText(record.vigency?.sourceLabel),
+      label: sanitizePlainText(record.vigency?.label, 220),
+      sourceLabel: sanitizePlainText(record.vigency?.sourceLabel, 220),
       daysUntilEnd:
         record.vigency?.daysUntilEnd == null || Number.isNaN(Number(record.vigency?.daysUntilEnd))
           ? null
@@ -338,22 +386,22 @@
     return {
       ...record,
       id: record.id || `record-${index}`,
-      contractNumber: repairText(record.contractNumber),
-      administration: repairText(record.administration),
-      organization: repairText(record.organization),
-      supplier: repairText(record.supplier),
-      object: repairText(record.object),
-      valueLabel: repairText(record.valueLabel),
-      managementSummary: repairText(record.managementSummary),
-      lastMovementTitle: repairText(record.lastMovementTitle),
-      normalizedKey: repairText(record.normalizedKey),
+      contractNumber: sanitizePlainText(record.contractNumber, 80),
+      administration: sanitizePlainText(record.administration, 160),
+      organization: sanitizePlainText(record.organization, 160),
+      supplier: sanitizePlainText(record.supplier, 240),
+      object: sanitizePlainText(record.object, 1200),
+      valueLabel: sanitizePlainText(record.valueLabel, 120),
+      managementSummary: sanitizePlainText(record.managementSummary, 300),
+      lastMovementTitle: sanitizePlainText(record.lastMovementTitle, 220),
+      normalizedKey: sanitizePlainText(record.normalizedKey, 80),
       manager,
       inspector,
       alerts,
       vigency,
       links: {
-        diary: record.links?.diary || "",
-        portal: record.links?.portal || "",
+        diary: sanitizeExternalUrl(record.links?.diary),
+        portal: sanitizeExternalUrl(record.links?.portal),
       },
       _movementDate: movementDate,
       _movementTimestamp: movementDate ? movementDate.getTime() : 0,
@@ -392,9 +440,9 @@
     return {
       view: VALID_VIEWS.has(params.get("view")) ? params.get("view") : DEFAULT_VIEW,
       filters: {
-        query: params.get("q") || "",
-        organization: params.get("org") || "",
-        administration: params.get("adm") || "",
+        query: sanitizeQueryInput(params.get("q") || ""),
+        organization: sanitizePlainText(params.get("org") || "", 160),
+        administration: sanitizePlainText(params.get("adm") || "", 160),
         vigency: params.get("vig") || DEFAULT_FILTERS.vigency,
         management: params.get("mgmt") || DEFAULT_FILTERS.management,
         source: params.get("src") || DEFAULT_FILTERS.source,
@@ -579,7 +627,7 @@
 
   function setLabeledOptions(select, values, groupName) {
     const previous = select.value;
-    select.innerHTML = "";
+    setHtml(select, "");
 
     values.forEach((value) => {
       const option = document.createElement("option");
@@ -595,7 +643,7 @@
 
   function setPlainOptions(select, values, emptyLabel) {
     const previous = select.value;
-    select.innerHTML = "";
+    setHtml(select, "");
 
     const emptyOption = document.createElement("option");
     emptyOption.value = "";
@@ -620,7 +668,9 @@
   }
 
   function renderCardCollection(container, cards) {
-    container.innerHTML = cards
+    setHtml(
+      container,
+      cards
       .map(
         (card) => `
           <article class="analysis-card ${card.className || ""}">
@@ -630,7 +680,8 @@
           </article>
         `
       )
-      .join("");
+      .join("")
+    );
   }
 
   function renderSummaryCards() {
@@ -659,7 +710,9 @@
       },
     ];
 
-    elements.summaryCards.innerHTML = cards
+    setHtml(
+      elements.summaryCards,
+      cards
       .map(
         (card) => `
           <article class="metric-card">
@@ -669,15 +722,19 @@
           </article>
         `
       )
-      .join("");
+      .join("")
+    );
   }
 
   function renderMethodology() {
     elements.updatedAt.textContent = `Atualizado em ${formatDateTime(state.payload.generatedAt)}`;
     elements.methodSummary.textContent = "Visão geral, ocorrências prioritárias e consulta detalhada.";
-    elements.methodNotes.innerHTML = ["Painel estratégico", "Priorização operacional", "Consulta avançada"]
-      .map((note) => `<article class="note-card">${escapeHtml(note)}</article>`)
-      .join("");
+    setHtml(
+      elements.methodNotes,
+      ["Painel estratégico", "Priorização operacional", "Consulta avançada"]
+        .map((note) => `<article class="note-card">${escapeHtml(note)}</article>`)
+        .join("")
+    );
   }
 
   function renderHero() {
@@ -730,7 +787,9 @@
       },
     ];
 
-    elements.statusGrid.innerHTML = cards
+    setHtml(
+      elements.statusGrid,
+      cards
       .map(
         (card) => `
           <article class="status-card ${card.className}">
@@ -740,7 +799,8 @@
           </article>
         `
       )
-      .join("");
+      .join("")
+    );
   }
 
   function renderCoverageGrid() {
@@ -831,14 +891,16 @@
   function renderOrganizationSummary() {
     const list = state.payload.organizationSummary || [];
     if (!list.length) {
-      elements.organizationSummary.innerHTML = `<div class="empty-state">Nenhum registro disponível.</div>`;
+      setHtml(elements.organizationSummary, `<div class="empty-state">Nenhum registro disponível.</div>`);
       return;
     }
 
     const maxCount = Math.max(...list.map((item) => item.count), 1);
     const currentTotal = state.payload.summary?.contratosAtuais || 1;
 
-    elements.organizationSummary.innerHTML = list
+    setHtml(
+      elements.organizationSummary,
+      list
       .map(
         (item) => `
           <div class="organization-row">
@@ -855,7 +917,8 @@
           </div>
         `
       )
-      .join("");
+      .join("")
+    );
   }
 
   function sampleContracts(records) {
@@ -894,7 +957,9 @@
       },
     ];
 
-    elements.priorityGroups.innerHTML = groups
+    setHtml(
+      elements.priorityGroups,
+      groups
       .map(
         (group) => `
           <article class="priority-card">
@@ -906,7 +971,8 @@
           </article>
         `
       )
-      .join("");
+      .join("")
+    );
   }
 
   function renderInsights() {
@@ -949,7 +1015,9 @@
       },
     ];
 
-    elements.insightList.innerHTML = insights
+    setHtml(
+      elements.insightList,
+      insights
       .map(
         (insight) => `
           <article class="insight-item">
@@ -958,7 +1026,8 @@
           </article>
         `
       )
-      .join("");
+      .join("")
+    );
   }
 
   function renderRecentMovements() {
@@ -968,11 +1037,13 @@
       .slice(0, 6);
 
     if (!records.length) {
-      elements.recentMovements.innerHTML = `<div class="empty-state">Nenhuma movimentação disponível.</div>`;
+      setHtml(elements.recentMovements, `<div class="empty-state">Nenhuma movimentação disponível.</div>`);
       return;
     }
 
-    elements.recentMovements.innerHTML = records
+    setHtml(
+      elements.recentMovements,
+      records
       .map(
         (record) => `
           <article class="movement-item">
@@ -985,23 +1056,27 @@
           </article>
         `
       )
-      .join("");
+      .join("")
+    );
   }
 
   function renderQuickPresets() {
-    elements.quickPresets.innerHTML = Object.entries(PRESETS)
-      .map(([key, preset]) => {
-        const active =
-          Object.entries(preset.filters).every(([filterKey, filterValue]) => state.filters[filterKey] === filterValue) &&
-          state.view === "contracts";
+    setHtml(
+      elements.quickPresets,
+      Object.entries(PRESETS)
+        .map(([key, preset]) => {
+          const active =
+            Object.entries(preset.filters).every(([filterKey, filterValue]) => state.filters[filterKey] === filterValue) &&
+            state.view === "contracts";
 
-        return `
-          <button class="filter-chip ${active ? "active" : ""}" type="button" data-preset="${escapeHtml(key)}">
-            ${escapeHtml(preset.label)}
-          </button>
-        `;
-      })
-      .join("");
+          return `
+            <button class="filter-chip ${active ? "active" : ""}" type="button" data-preset="${escapeHtml(key)}">
+              ${escapeHtml(preset.label)}
+            </button>
+          `;
+        })
+        .join("")
+    );
   }
 
   function getPersonDisplay(person) {
@@ -1216,11 +1291,11 @@
       .slice(0, 12);
 
     if (!records.length) {
-      elements.alertRecords.innerHTML = `<div class="empty-state">Nenhuma ocorrência prioritária.</div>`;
+      setHtml(elements.alertRecords, `<div class="empty-state">Nenhuma ocorrência prioritária.</div>`);
       return;
     }
 
-    elements.alertRecords.innerHTML = records.map(renderRecordCard).join("");
+    setHtml(elements.alertRecords, records.map(renderRecordCard).join(""));
   }
 
   function getActiveFiltersText() {
@@ -1278,12 +1353,12 @@
     renderResultInsights(filtered);
 
     if (!visible.length) {
-      elements.recordList.innerHTML = `<div class="empty-state">Nenhum registro encontrado.</div>`;
+      setHtml(elements.recordList, `<div class="empty-state">Nenhum registro encontrado.</div>`);
       elements.loadMore.classList.add("hidden");
       return;
     }
 
-    elements.recordList.innerHTML = visible.map(renderRecordCard).join("");
+    setHtml(elements.recordList, visible.map(renderRecordCard).join(""));
     elements.loadMore.classList.toggle("hidden", visible.length >= filtered.length);
   }
 
@@ -1331,7 +1406,13 @@
   }
 
   function updateFilter(key, value) {
-    state.filters[key] = value;
+    if (key === "query") {
+      state.filters[key] = sanitizeQueryInput(value);
+    } else if (key === "organization" || key === "administration") {
+      state.filters[key] = sanitizePlainText(value, 160);
+    } else {
+      state.filters[key] = value;
+    }
     state.visibleCount = PAGE_SIZE;
     renderAll();
   }
@@ -1519,17 +1600,46 @@
     });
   }
 
+  async function fetchDashboardPayload() {
+    const controller = new AbortController();
+    const timeoutId = window.setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+
+    try {
+      const requestUrl = new URL("./data/contracts-dashboard.json", window.location.href);
+      requestUrl.searchParams.set("ts", String(Date.now()));
+
+      const response = await fetch(requestUrl.toString(), {
+        cache: "no-store",
+        credentials: "same-origin",
+        mode: "same-origin",
+        redirect: "error",
+        signal: controller.signal,
+        headers: {
+          Accept: "application/json",
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error("Informações indisponíveis.");
+      }
+
+      const payload = await response.json();
+      if (!validatePayloadShape(payload)) {
+        throw new Error("Dados inválidos.");
+      }
+
+      return payload;
+    } finally {
+      window.clearTimeout(timeoutId);
+    }
+  }
+
   async function bootstrap() {
     const initialState = readUrlState();
     state.view = initialState.view;
     state.filters = { ...DEFAULT_FILTERS, ...initialState.filters };
 
-    const response = await fetch(`./data/contracts-dashboard.json?ts=${Date.now()}`, { cache: "no-store" });
-    if (!response.ok) {
-      throw new Error("Informações indisponíveis.");
-    }
-
-    const payload = await response.json();
+    const payload = await fetchDashboardPayload();
     state.payload = preprocessPayload(payload);
     state.filteredCache.clear();
 
@@ -1560,20 +1670,20 @@
   function renderError(message) {
     elements.heroSummary.textContent = message;
     elements.heroCallout.textContent = "";
-    elements.summaryCards.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
-    elements.methodNotes.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
-    elements.statusGrid.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
-    elements.coverageGrid.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
-    elements.sourceGrid.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
-    elements.deadlineGrid.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
-    elements.organizationSummary.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
-    elements.recentMovements.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
-    elements.insightList.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
-    elements.priorityGroups.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
-    elements.alertSummaryGrid.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
-    elements.alertRecords.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
-    elements.resultInsightGrid.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
-    elements.recordList.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
+    setHtml(elements.summaryCards, `<div class="empty-state">${escapeHtml(message)}</div>`);
+    setHtml(elements.methodNotes, `<div class="empty-state">${escapeHtml(message)}</div>`);
+    setHtml(elements.statusGrid, `<div class="empty-state">${escapeHtml(message)}</div>`);
+    setHtml(elements.coverageGrid, `<div class="empty-state">${escapeHtml(message)}</div>`);
+    setHtml(elements.sourceGrid, `<div class="empty-state">${escapeHtml(message)}</div>`);
+    setHtml(elements.deadlineGrid, `<div class="empty-state">${escapeHtml(message)}</div>`);
+    setHtml(elements.organizationSummary, `<div class="empty-state">${escapeHtml(message)}</div>`);
+    setHtml(elements.recentMovements, `<div class="empty-state">${escapeHtml(message)}</div>`);
+    setHtml(elements.insightList, `<div class="empty-state">${escapeHtml(message)}</div>`);
+    setHtml(elements.priorityGroups, `<div class="empty-state">${escapeHtml(message)}</div>`);
+    setHtml(elements.alertSummaryGrid, `<div class="empty-state">${escapeHtml(message)}</div>`);
+    setHtml(elements.alertRecords, `<div class="empty-state">${escapeHtml(message)}</div>`);
+    setHtml(elements.resultInsightGrid, `<div class="empty-state">${escapeHtml(message)}</div>`);
+    setHtml(elements.recordList, `<div class="empty-state">${escapeHtml(message)}</div>`);
     elements.loadMore.classList.add("hidden");
   }
 

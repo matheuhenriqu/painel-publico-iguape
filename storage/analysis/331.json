@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "331",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:39",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:45",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/1c34232da43302e6b46f6dabea94227a.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/1c34232da43302e6b46f6dabea94227a.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  32,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 244.791,47"
                 },
@@ -24,7 +29,7 @@
                       "contractNumber":  "063/2022",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "SAMUEL RIBEIRO - ME",
+                      "contractor":  "SAMUEL RIBEIRO - ME CONTRATO N°: 063/2022",
                       "cnpj":  "",
                       "object":  "contratacao de empresa especializada para obra de reforma do sanitario publico municipal, localizado na Rua Porto General Camara – Centro, nesse municipio de Iguape/SP CARTA CONVITE Nº 006/2022",
                       "value":  "R$ 244.791,47",
@@ -62,7 +67,7 @@
                       "contractNumber":  "064/2022",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "SAMUEL RIBEIRO - ME",
+                      "contractor":  "SAMUEL RIBEIRO - ME CONTRATO N°: 064/2022",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para obra de adequacao de predio municipal para implantacao da Unidade Poupatempo, localizado na rua XV de Novembro -Centro, neste municipio de Iguape/SP",
                       "value":  "",

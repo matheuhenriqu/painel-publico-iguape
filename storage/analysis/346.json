@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "346",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:35",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:39",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/b4c72a54443f1e3fba9dbc4bcef7e2ef.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/b4c72a54443f1e3fba9dbc4bcef7e2ef.pdf",
     "keywords":  [
@@ -9,115 +9,18 @@
                      "contrato",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  3,
-                    "itemCount":  3,
-                    "totalValue":  "R$ 49.800,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "1º TERMO ADITIVO DE ADEQUACAO AO LOTE I",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "",
-                      "processNumber":  "027/2022",
-                      "modality":  "Pregao Presencial nº 019/2022",
-                      "contractor":  "FRANKLIN CANGUSSU SAMPAIO EIRELI",
-                      "cnpj":  "",
-                      "object":  "Constitui o presente termo de Adequacao ao Lote I, sem alteracao de custos nos termos do artigo 65, inciso II, alinea “b” da Lei 8.666/93",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "18/07/2022",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "1º TERMO ADITIVO DE ADEQUACAO AO LOTE I\nCONTRATO DE 035/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: FRANKLIN CANGUSSU SAMPAIO EIRELI\nOBJETO: Constitui o presente termo de Adequacao ao Lote I, sem alteracao de custos nos termos do artigo 65, inciso II, alinea “b”\nda Lei 8.666/93\nDATA: 18/07/2022\nProcesso Administrativo nº 027/2022\nPregao Presencial nº 019/2022",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem numero do contrato",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Inexigibilidade",
-                      "actTitle":  "INEXIGIBILIDADE DE LICITACAO da empresa ANA CAROLINA BARBIERI WAGNER PRODUCOES, inscrita no CNPJ: 12.152.564/0001",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  2,
-                      "contractNumber":  "",
-                      "processNumber":  "564/0001",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "R$ 49.800,00",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
 
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "INEXIGIBILIDADE DE LICITACAO da empresa ANA CAROLINA BARBIERI WAGNER PRODUCOES, inscrita no CNPJ: 12.152.564/0001-\n29, PARA APRESENTACAO MUSICAL do “RENATO TEIXEIRA”, NO DIA 04 DE AGOSTO DE 2022, A PARTIR DAS 23H00, POR\n90MIN. DE SHOW, NO CENTRO DE EVENTOS PREFEITO CASEMIRO TEIXEIRA, COMO PARTE DO EVENTO “FESTA DE AGOSTO\n2022” COM FUNDAMENTO NO ARTIGO 25, INCISO III, DA LEI FEDERAL 8.666/93, sendo o valor contratado de R$ 49.800,00\n(quarenta e nove mil e oitocentos reais), pois que, ao analisar o caso concreto, eis",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem objeto identificado",
-                                    "Sem modalidade identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Aviso de Licitacao",
-                      "actTitle":  "AVISO DE LICITACAO - Encontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira,",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "",
-                      "processNumber":  "048/2022",
-                      "modality":  "PREGAO PRESENCIAL nº. 048/2022",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA EVENTUAL LOCACAO DE MAO DE OBRA COM A FINALIDADE DE EXECUCAO E MANUTENCAO DA INFRAESTRUTURA DE EVENTOS, NESTE MUNICIPIO DE IGUAPE/SP. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013, Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "AVISO DE LICITACAO\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira,\nIguape/SP, CEP 11.920-000, o PREGAO PRESENCIAL nº. 048/2022, do tipo MENOR VALOR GLOBAL conforme especificacoes\ndetalhadas no Edital.\nOBJETO: REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES PARA CONTRATACAO DE EMPRESA\nESPECIALIZADA PARA EVENTUAL LOCACAO DE MAO DE OBRA COM A FINALIDADE DE EXECUCAO E MANUTENCAO DA\nINFRAESTRUTURA DE EVENTOS, NESTE MUNICIPIO DE IGUAPE/SP",
-                      "completeness":  "media",
-                      "flags":  [
-
-                                ]
-                  }
               ]
 }

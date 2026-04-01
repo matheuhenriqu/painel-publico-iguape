@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1259",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:06",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:25",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1103_15080833.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1103_15080833.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  112,
+                    "relevantPageCount":  8,
+                    "blockCount":  8,
                     "itemCount":  8,
                     "totalValue":  "R$ 0,00"
                 },
@@ -32,7 +37,7 @@
                       "object":  "Locacao de Imovel destinado a Residencia Terapeutica",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -47,7 +52,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "PORTARIA Nº 293,\n DE 12 DE NOVEMBRO DE 2025\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Victor Pereira de Matos, Assessor I, inscrito no CPF/MF nº. 405.XXX.XXX- 66, para exercer a funcao de fiscal do contrato\nArt. 2º - 225/2017, Objeto: Locacao de Imovel destinado",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -68,7 +73,7 @@
                       "object":  "contratacao de empresa especializada para obra de Execucao de servicos de manutencao e requalificacao da iluminacao publica da orla do Mar Pequeno, com fornecimento e instalacao de luminarias LED, cabeamento eletrico, reles fotoeletricos e componentes diversos",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -83,7 +88,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "3\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – Nº 1103 Sabado, 15 de Novembro de 2025 - www.iguape.sp.gov.br\n\nArt. 2º - Esta portaria entra em vigor na data de sua publicacao, revogadas as disposicoes em contrario.\n\n GABINETE DO PREFEITO, 12 DE NOVEMBRO DE 2025\n\n SALVADOR JOSE BARBOSA JUNIOR\n PREFEITO\n\n PORTARIA\n\n POERXTTARRATIAONº 296,\n DE 13 DE NOVEMBRO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuic",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -104,7 +109,7 @@
                       "object":  "Contratacao Apresentacao Musical “GRUPO FANDANGUEIROS DO PRELADO”, atraves de LUIS ADILSON DE LIMA 10368846865, na Festa do Robalo 2025 no bairro da Barra do Ribeira, Iguape-SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-turismo-esporte",
                       "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
@@ -123,7 +128,7 @@
                                                          "Advocacia-Geral da Uniao"
                                                      ],
                       "excerpt":  "PORTARIA Nº 298,\n DE 13 DE NOVEMBRO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º - Designa, Anisia Ricardo Lourenco, Secretaria Municipal Adjunto de Cultura, Esporte e Turismo, inscrita no CPF/MF nº. XXX. 043.188.XX,\n para exercer a funcao de gestor do Contrat",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -144,7 +149,7 @@
                       "object":  "Contratacao Apresentacao Musical de “Presenca A+” atraves de MARY DE LIMA 08924702831 na Festa do Robalo 2025, no Bairro Barra do Ribeira, Iguape-SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-turismo-esporte",
                       "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
@@ -163,7 +168,7 @@
                                                          "Advocacia-Geral da Uniao"
                                                      ],
                       "excerpt":  "5\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – Nº 1103 Sabado, 15 de Novembro de 2025 - www.iguape.sp.gov.br\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º - Designa, Anisia Ricardo Lourenco, Secretaria Municipal Adjunto de Cultura, Esporte e Turismo, inscrita no CPF/MF nº. XXX. 043.188.XX,\n para exercer a funcao de gestor do ",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -173,18 +178,18 @@
                       "actTitle":  "Portaria de gestao do contrato 178/2025",
                       "recordClass":  "gestao_contratual",
                       "recordClassLabel":  "Gestao do contrato",
-                      "confidenceScore":  10,
-                      "confidenceLabel":  "alta",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
                       "pageNumber":  6,
                       "contractNumber":  "178/2025",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "(A), da apresentacao musical “Geracao Fandangueira Do",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "CONTRATACAO APRESENTACAO MUSICAL de “CAROLINA SOARES” atraves de CAROLINA SOARES LOUREIRO SANTOS na Festa do Robalo 2025, no bairro Barra do Ribeira, Iguape-SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-turismo-esporte",
                       "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
@@ -203,7 +208,7 @@
                                                          "Secretaria de Cultura"
                                                      ],
                       "excerpt":  "6\n\n Diario Oficial\n\n Iguape - SP\n\nArt. 2º - ANO 05 – Nº 1103 Sabado, 15 de Novembro de 2025 - www.iguape.sp.gov.br\n\n Esta portaria entra em vigor na data de sua publicacao, revogadas as disposicoes em contrario.\n\n GABINETE DO PREFEITO, 14 DE NOVEMBRO DE 2025\n\n SALVADOR JOSE BARBOSA JUNIOR\n PREFEITO\n\n PORTARIA\n\n EPXOTRRTAATORIA Nº 303,\n DE 14 DE NOVEMBRO DE 2025\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribui",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -213,18 +218,18 @@
                       "actTitle":  "Portaria de gestao do contrato 180/2025",
                       "recordClass":  "gestao_contratual",
                       "recordClassLabel":  "Gestao do contrato",
-                      "confidenceScore":  10,
-                      "confidenceLabel":  "alta",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
                       "pageNumber":  7,
                       "contractNumber":  "180/2025",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "(A), da apresentacao musical “Geracao Fandangueira Do",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "CONTRATADO(A), da apresentacao musical “Geracao Fandangueira Do Prelado” atraves de MARCO ANTONIO PEREIRA DE OLIVEIRA 04332951808, na Festa do Robalo 2025, no bairro Barra do Ribeira, Iguape-SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-turismo-esporte",
                       "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
@@ -243,7 +248,7 @@
                                                          "Secretaria de Cultura"
                                                      ],
                       "excerpt":  "7\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – Nº 1103 Sabado, 15 de Novembro de 2025 - www.iguape.sp.gov.br\n\n PORTARIA\n\n EXPTORARTTOARIA Nº 305,\n DE 14 DE NOVEMBRO DE 2025\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Fernando Eiji Yanaguizawa, Secretaria Mun",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -264,7 +269,7 @@
                       "object":  "CONTRATACAO APRESENTACAO MUSICAL “GRUPO NUTS” atraves de JOAO PIO DE LIMA NETTO 31024702898 na Festa do Robalo 2025, no bairro Barra do Ribeira, Iguape/SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-turismo-esporte",
                       "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
@@ -283,7 +288,7 @@
                                                          "Secretaria de Cultura"
                                                      ],
                       "excerpt":  "8\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – Nº 1103 Sabado, 15 de Novembro de 2025 - www.iguape.sp.gov.br\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º - Designa, Fernando Eiji Yanaguizawa, Secretaria Municipal Adjunto de Cultura, Esporte e Turismo, inscrito no CPF/MF nº. XX.453.608-\n XX, para exercer a funcao de fiscal do",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]

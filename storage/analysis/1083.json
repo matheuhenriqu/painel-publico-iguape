@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1083",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:33",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:21",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_971_26021907.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_971_26021907.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  10,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  2,
                     "totalValue":  "R$ 123,04"
                 },
@@ -26,11 +31,11 @@
                       "contractNumber":  "028/2024",
                       "processNumber":  "086/2023",
                       "modality":  "Pregao Presencial n°. 086/2023",
-                      "contractor":  "M LOPES AMBIENTAL LTDA",
+                      "contractor":  "M LOPES AMBIENTAL LTDA CONTRATO N°: 028/2024",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para execucao de fornecimento e Instalacao de Unidades Sanitarias Individuais (usi’s) para tratamento de esgoto unifamiliar nos Bairros Pinheirinho e Jaire, do Municipio de Iguape/SP, conforme contrato celebrado com o Fehidro – Fundo Estadual de Recursos Hidricos, nº 359/2023. Pregao Presencial n°. 086/2023",
                       "value":  "",
-                      "term":  "E EXECUCAO: 90 (noventa) dias-Periodo de 25/04/2025 a 23/07/2025",
+                      "term":  "90 (noventa) dias-Periodo de 25/04/2025 a 23/07/2025",
                       "signatureDate":  "24/04/2025",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
@@ -56,13 +61,13 @@
                       "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  12,
+                      "confidenceScore":  10,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "",
                       "processNumber":  "266/2025",
                       "modality":  "EDITAL CHAMADA PUBLICA Nº: 02/2025",
-                      "contractor":  "J.A. DE SOUZA CARDOSO LTDA - ME",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "Credenciamento de empresas para prestacao dos servicos de poda com equipe manual (ate 3,5 m, sem munck), poda com caminhao munck (com cesto aereo) e rocada manual com rastelamento e ensacamento de residuos vegetais em estradas vicinais e areas publicas nao abrangidas por contrato de limpeza urbana no Municipio de Iguape/SP",
                       "value":  "R$ 123,04",

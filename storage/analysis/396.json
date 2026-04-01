@@ -1,52 +1,25 @@
 ﻿{
     "diaryId":  "396",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:29",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:30",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/2b747d83c23027016def9a7eb5560be2.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/2b747d83c23027016def9a7eb5560be2.pdf",
     "keywords":  [
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  3,
-                    "itemCount":  1,
-                    "totalValue":  "R$ 42.000,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:096/2022",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "6/2022",
-                      "processNumber":  "052/2022",
-                      "modality":  "Pregao Presencial n°. 052/2022",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos Pelo periodo de 12 (doze) meses, para contratacao de Jornal Diario de Grande Circulacao Regional, para Prestacao de Servicos de Publicacao de Atos Oficiais da Prefeitura Municipal de Iguape. Pregao Presencial n°. 052/2022",
-                      "value":  "R$ 42.000,00",
-                      "term":  "27/09/2022 a 26/09/2023",
-                      "signatureDate":  "27/09/2022",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:096/2022\nOBJETO: Registro de Precos Pelo periodo de 12 (doze) meses, para contratacao de Jornal Diario de Grande Circulacao Regional,\npara Prestacao de Servicos de Publicacao de Atos Oficiais da Prefeitura Municipal de Iguape.\nPregao Presencial n°. 052/2022\nDATA: 27/09/2022\nVIGENCIA: 27/09/2022 a 26/09/2023\nVALOR: R$ 42.000,00 (quarenta e dois mil reais).",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  }
+
               ]
 }

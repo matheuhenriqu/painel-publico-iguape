@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "926",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:56",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:58",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_845_02073637.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_845_02073637.pdf",
     "keywords":  [
@@ -9,116 +9,18 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  7,
-                    "itemCount":  3,
-                    "totalValue":  "R$ 4.795.140,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Homologacao",
-                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  6,
-                      "contractNumber":  "",
-                      "processNumber":  "281/2024",
-                      "modality":  "CP-E - CONCORRENCIA PUBLICA ELETRONICA - 8/2024 - EDITAL Nº: 20/2024",
-                      "contractor":  "ENGENHARIA INTELIGENTE PROJETOS E SOLUCOES LTDA",
-                      "cnpj":  "",
-                      "object":  "EVENTUAL CONTRATACAO DE EMPRESAESPECIALIZADA PARA CONSTRUCAO DE ABRIGO DE PONTO DE ONIBUS, NESTEMUNICIPIO DE IGUAPE/SP, por meio do Sistema de Registro de Precos – SRP",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
-                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "infraestrutura",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-infraestrutura-obras"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Infraestrutura Urbana e Obras"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 281/2024\nEVENTUAL CONTRATACAO DE EMPRESAESPECIALIZADA PARA CONSTRUCAO DE ABRIGO DE PONTO DE ONIBUS, NESTEMUNICIPIO DE\nIGUAPE/SP, por meio do Sistema de Registro de Precos – SRP.\nCP-E - CONCORRENCIA PUBLICA ELETRONICA - 8/2024 - EDITAL Nº: 20/2024\nINTERESSADOS: SECRETARIA MUNIC. DE INFRAESTRUTURA URBANA E OBRAS.\n\n HOMOLOGO E ADJUDICO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\n\nitens abaixo.\n\nFORNECEDOR: ENGENHARIA INTELIGENTE",
-                      "completeness":  "media",
-                      "flags":  [
 
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 074/2024.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  6,
-                      "contractNumber":  "074/2024",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "REGISTRO DE PRECOS, objetivando futuras aquisicoes parceladas de combustiveis (gasolina comum, etanol, oleo diesel s-500 e s-10) para atender a frota do municipio de Iguape/SP, pelo periodo de 12 (doze) meses",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 074/2024.\nOBJETO: REGISTRO DE PRECOS, objetivando futuras aquisicoes parceladas de combustiveis (gasolina comum, etanol, oleo diesel s-500 e s-10) para\natender a frota do municipio de Iguape/SP, pelo periodo de 12 (doze) meses.",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem contratada identificada",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Aviso de Licitacao",
-                      "actTitle":  "Pregao Eletronico n°. 010/2024",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  6,
-                      "contractNumber":  "",
-                      "processNumber":  "010/2024",
-                      "modality":  "Pregao Eletronico n°. 010/2024",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "R$ 4.795.140,00",
-                      "term":  "Validade do presente Registro de Precos 12 (doze) meses – periodo de 30/09/2024 a 29/09/2025",
-                      "signatureDate":  "26/092024",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-camara",
-                      "primaryOrganizationName":  "Camara Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-camara"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Camara Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "Pregao Eletronico n°. 010/2024\nData: 26/092024\nVIGENCIA: Validade do presente Registro de Precos 12 (doze) meses – periodo de 30/09/2024 a 29/09/2025\nVALOR: R$ 4.795.140,00 (quatro milhoes, setecentos e noventa e cinco mil, cento e quarenta reais)\n\n FINANCEIRO\n\n LEI\n\n LEI Nº 2.562,\n DE 1º DE OUTUBRO DE 2024\n\n Autoria: Executivo\n\n AUTORIZA A ABERTURA DE CREDITO ADICIONAL SUPLEMENTAR, E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito de Iguape – Estancia Balnearia, no uso de suas atribuicoes legais, FAZ SABER",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem objeto identificado"
-                                ]
-                  }
               ]
 }

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1015",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:45",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:40",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_915_01075526.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_915_01075526.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  11,
+                    "relevantPageCount":  1,
+                    "blockCount":  6,
                     "itemCount":  4,
                     "totalValue":  "R$ 557.270,00"
                 },
@@ -27,7 +32,7 @@
                       "contractNumber":  "029/2025",
                       "processNumber":  "078/2023",
                       "modality":  "Pregao Presencial n°. 078/2023",
-                      "contractor":  "RICARDO GIUSEPPE SILVI - AREiA",
+                      "contractor":  "RICARDO GIUSEPPE SILVI - AREiA CONTRATO Nº 029/2025 – ORIUNDO DA ATA DE REGISTRO DE PRECOS N°:016/2024",
                       "cnpj":  "",
                       "object":  "Registro de Precos para futuras e eventuais contratacoes de empresa(s) especializada(s) para fornecimento de agregados minerais a serem utilizados neste municipio de Iguape. Pregao Presencial n°. 078/2023",
                       "value":  "R$ 47.460,00",
@@ -61,7 +66,7 @@
                       "contractNumber":  "030/2025",
                       "processNumber":  "078/2023",
                       "modality":  "Pregao Presencial n°. 078/2023",
-                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU CONTRATO Nº 030/2025 – ORIUNDO DA ATA DE REGISTRO DE PRECOS N°:017/2024",
                       "cnpj":  "",
                       "object":  "Registro de Precos para futuras e eventuais contratacoes de empresa(s) especializada(s) para fornecimento de agregados minerais a serem utilizados neste municipio de Iguape Pregao Presencial n°. 078/2023",
                       "value":  "R$ 419.510,00",
@@ -93,9 +98,9 @@
                       "confidenceLabel":  "alta",
                       "pageNumber":  3,
                       "contractNumber":  "032/2025",
-                      "processNumber":  "4/2023",
+                      "processNumber":  "074/2023",
                       "modality":  "Pregao Presencial n°.074/2023",
-                      "contractor":  "ULTRACOM COMERCIO E SERVICOS LTDA executados em diversas vias, em atendimento a demanda do Departamento",
+                      "contractor":  "ULTRACOM COMERCIO E SERVICOS LTDA executados em diversas vias, em atendimento a demanda do Departamento CONTRATO Nº 032/2025 ORIUNDO DA ATA DE REGISTRO DE PRECOS N°:019/2024",
                       "cnpj":  "",
                       "object":  "Registro de Precos pra aquisicoes de asfalto reciclado usinado a frio) e emulsao asfaltica RR-2C, para os servicos de “tapa buraco” a serem de Obras e Servicos deste Municipio de Iguape Pregao Presencial n°.074/2023",
                       "value":  "R$ 72.300,00",

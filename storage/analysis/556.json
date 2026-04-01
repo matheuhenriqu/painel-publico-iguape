@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "556",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:00",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:52",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/8511127619bf375a711a3188c99efac8.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/8511127619bf375a711a3188c99efac8.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  5,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -27,10 +32,10 @@
                       "modality":  "PREGAO ELETRONICO nº. 002/2023",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA FORNECIMENTO DE SERVICOS DE PROFISSIONAIS DA AREA ESPORTIVA EM ATENDIMENTO AO CONVENIO 923931/2021 – CELEBRADO ENTRE O MINISTERIO DA CIDADANIA- SECRETARIA ESPECIAL DE ESPORTES E A PREFEITURA MUNICIPAL DE IGUAPE. LEGISLACAO: Lei Federal nº 10.520, de 17 de julho de 2002, e subsidiariamente, a Lei Federal nº 8.666/93 em conformidade com o Decreto Federal nº 10.024/2019, com as alteracoes posteriores e Artigos 42, 43, 44, 45 e 46 da Lei Complementar 123, de 14 de dezembro de 2006, Lei Complementar nº 147 de 07 de agosto de 2014 e Decreto Municipal nº 2.789 de 07 de abril de 2020",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA FORNECIMENTO DE SERVICOS DE PROFISSIONAIS DA AREA ESPORTIVA EM ATENDIMENTO AO CONVENIO 923931/2021 – CELEBRADO ENTRE O MINISTERIO DA CIDADANIA- SECRETARIA ESPECIAL DE ESPORTES E A PREFEITURA MUNICIPAL DE IGUAPE",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -63,10 +68,10 @@
                       "modality":  "PREGAO ELETRONICO nº. 003/2023",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "AQUISICAO DE MATERIAIS ESPORTIVOS PARA ATENDER O CONVENIO Nº 923931/2021 CELEBRADO ENTRE A O MINISTERIO DA CIDADANIA SECRETARIA ESPECIAL DE ESPORTES E A PREFEITURA MUNICIPAL DE IGUAPE/SP. LEGISLACAO: Lei Federal nº 10.520, de 17 de julho de 2002, e subsidiariamente, a Lei Federal nº 8.666/93 em conformidade com o Decreto Federal nº 10.024/2019, com as alteracoes posteriores e Artigos 42, 43, 44, 45 e 46 da Lei Complementar 123, de 14 de dezembro de 2006, Lei Complementar nº 147 de 07 de agosto de 2014 e Decreto Municipal nº 2.789 de 07 de abril de 2020",
+                      "object":  "AQUISICAO DE MATERIAIS ESPORTIVOS PARA ATENDER O CONVENIO Nº 923931/2021 CELEBRADO ENTRE A O MINISTERIO DA CIDADANIA SECRETARIA ESPECIAL DE ESPORTES E A PREFEITURA MUNICIPAL DE IGUAPE/SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",

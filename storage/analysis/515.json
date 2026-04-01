@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "515",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:08",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:02",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/7e380958bc83940bcc33e4d10c1cff26.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/7e380958bc83940bcc33e4d10c1cff26.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  5,
+                    "relevantPageCount":  2,
+                    "blockCount":  4,
                     "itemCount":  2,
                     "totalValue":  "R$ 116.950,11"
                 },
@@ -32,7 +37,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -63,7 +68,7 @@
                       "contractNumber":  "063/2022",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "SAMUEL RIBEIRO - ME",
+                      "contractor":  "SAMUEL RIBEIRO - ME CONTRATO N°: 063/2022",
                       "cnpj":  "77540246806803",
                       "object":  "contratacao de empresa especializada para obra de reforma do sanitario publico municipal, localizado na Rua Porto General Camara – Centro, nesse municipio de Iguape/SP, o valor do termo aditivo corresponde a R$ 103.482,01 (cento e tres mil, quatrocentos e oitenta e dois reais e um centavo), sendo acrescimo de servicos no valor de R$ 116.950,11 (cento e dezesseis mil, novecentos e cinquenta reais e onze centavos), correspondente ao percentual de 47,77540246806803% e supressao de servicos no valor de R$ 13.468,10 (treze mil, quatrocentos e sessenta e oito reais e dez centavos). CARTA CONVITE Nº O06/2022",
                       "value":  "R$ 116.950,11",

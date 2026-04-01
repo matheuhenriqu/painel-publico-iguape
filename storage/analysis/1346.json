@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1346",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:49",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:38",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1161_25075026.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1161_25075026.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  43,
+                    "relevantPageCount":  2,
+                    "blockCount":  3,
                     "itemCount":  3,
                     "totalValue":  "R$ 37.985.000,59"
                 },
@@ -20,18 +25,18 @@
                       "actTitle":  "PORTARIA Nº 47,",
                       "recordClass":  "gestao_contratual",
                       "recordClassLabel":  "Gestao do contrato",
-                      "confidenceScore":  6,
+                      "confidenceScore":  7,
                       "confidenceLabel":  "media",
                       "pageNumber":  39,
                       "contractNumber":  "046/2026",
-                      "processNumber":  "",
+                      "processNumber":  "001/2024",
                       "modality":  "",
                       "contractor":  "",
                       "cnpj":  "",
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-educacao",
                       "primaryOrganizationName":  "Secretaria de Educacao",

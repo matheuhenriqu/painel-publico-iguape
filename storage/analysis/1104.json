@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "1104",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:30",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:15",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_990_30072544.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_990_30072544.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  9,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 170.000,00"
                 },
@@ -24,7 +29,7 @@
                       "contractNumber":  "064/2025",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "OLIVEIRA ENGENHARIA LTDA",
+                      "contractor":  "OLIVEIRA ENGENHARIA LTDA CONTRATO Nº 064/2025",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para Reforma do Centro de Atencao Psicossocial (CAPS) com fornecimento de materiais e mao de obra",
                       "value":  "",
@@ -67,7 +72,7 @@
                       "object":  "",
                       "value":  "R$ 170.000,00",
                       "term":  "03 (tres) meses, Periodo de 29/05/2025 a 28/08/2025",
-                      "signatureDate":  "-29/05/2025",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",

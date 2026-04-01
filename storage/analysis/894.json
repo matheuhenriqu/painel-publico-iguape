@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "894",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:59",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:07",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_816-_20073804.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_816-_20073804.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  5,
+                    "relevantPageCount":  3,
+                    "blockCount":  3,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -31,7 +36,7 @@
                       "object":  "empresa AUTO POSTO PORTO IGUAPE LTDA",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -48,7 +53,7 @@
                                                          "Secretaria de Assistencia e Desenvolvimento Social"
                                                      ],
                       "excerpt":  "PORTARIA Nº 220\n DE 16 DE AGOSTO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Mauro Christofaro, Diretoe de Frota e Veiculo, titular da Cedula de Identidade RG nº. 14.414.980-1 SSP/SP, inscrito no CPF/MF\n nº 030.456.698/59, para exercer a funcao de gestor d",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -58,18 +63,18 @@
                       "actTitle":  "PREGAO ELETRONICO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  7,
+                      "confidenceScore":  8,
                       "confidenceLabel":  "media",
                       "pageNumber":  4,
                       "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "PREGAO ELETRONICO",
+                      "processNumber":  "009/2024",
+                      "modality":  "PREGAO ELETRONICO – n.º 009/2024",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "Contratacao de empresa especializada para o REGISTRO DE PRECOS, visando a eventual “AQUISICAO DE MATERIAIS E EQUIPAMENTOS MEDICO- HOSPITALARES DE ‘A a Z’, CONSTANTES NA REVISTA SIMPRO HOSPITLAR (edicao vigente). LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
+                      "object":  "Contratacao de empresa especializada para o REGISTRO DE PRECOS, visando a eventual “AQUISICAO DE MATERIAIS E EQUIPAMENTOS MEDICO- HOSPITALARES DE ‘A a Z’, CONSTANTES NA REVISTA SIMPRO HOSPITLAR (edicao vigente)",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "signatureDate":  "",
                       "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -84,7 +89,7 @@
                       "excerpt":  "PREGAO ELETRONICO\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO – n.º 009/2024, do tipo MAIOR PERCENTUAL DE DESCONTO,\nsituada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: Contratacao de empresa especializada para o REGISTRO DE PRECOS, visando a eventual “AQUISICAO DE MATERIAIS E\nEQUIPAMENTOS MEDICO- HOSPITALARES DE ‘A a Z’, CONSTANTES NA REVISTA SIMPRO HOSPITLAR (edicao vigente).\nLEGISLACAO",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem numero principal identificado"
+
                                 ]
                   }
               ]

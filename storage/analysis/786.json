@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "786",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:13",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:37",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/20240327_2024-03-27_diariooficialedicao725_16015702.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/20240327_2024-03-27_diariooficialedicao725_16015702.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  6,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 41.720,00"
                 },
@@ -25,7 +30,7 @@
                       "contractNumber":  "040/2024",
                       "processNumber":  "018/2023",
                       "modality":  "Pregao Presencial n°. 018/2023",
-                      "contractor":  "TONY COMERCIO DE CHOCOLATES LTDA",
+                      "contractor":  "TONY COMERCIO DE CHOCOLATES LTDA CONTRATO N°: 040/2024 – ORIUNDO DA ATA DE REGISTRO DE PRECCOS Nº 044/2023",
                       "cnpj":  "",
                       "object":  "Registro de Precos para aquisicao de Ovos de Chocolate ao leite, peso minimo de 200 gramas, para distribuicao aos alunos das Escolas Municipais em comemoracao a Pascoa. Pregao Presencial n°. 018/2023",
                       "value":  "R$ 41.720,00",
@@ -53,13 +58,13 @@
                       "actTitle":  "2º TERMO ADITIVO DE PRAZO AO CONTRATO 077/2023",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  6,
                       "contractNumber":  "077/2023",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "SIGMA ENGENHARIA INDUSTRIA E COMERCIO LTDA",
+                      "processNumber":  "002/2023",
+                      "modality":  "TOMADA DE PRECO Nº 002/2023",
+                      "contractor":  "SIGMA ENGENHARIA INDUSTRIA E COMERCIO LTDA CONTRATO N°: 077/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa espcializada para obra de eficientizacao de Sistema de Iluminacao Publica Iguape/SP, conforme termo de conveno nº 101385/2022, celebrado entre a Secretaria de Desenvolvimento TOMADA DE PRECO Nº 002/2023",
                       "value":  "",
@@ -79,7 +84,7 @@
                                                          "Camara Municipal de Iguape"
                                                      ],
                       "excerpt":  "2º TERMO ADITIVO DE PRAZO AO CONTRATO 077/2023 em diversos Bairros do Municipio de\nCONTRATANTE:- MUNICIPIO DE IGUAPE Regional e a Prefeitura de Iguape.\nCONTRATADA: SIGMA ENGENHARIA INDUSTRIA E COMERCIO LTDA\nCONTRATO N°: 077/2023\nOBJETO: Contratacao de Empresa espcializada para obra de eficientizacao de Sistema de Iluminacao Publica\nIguape/SP, conforme termo de conveno nº 101385/2022, celebrado entre a Secretaria de Desenvolvimento\nTOMADA DE PRECO Nº 002/2023\nDATA: 19/03/2024\nVIGENCIA: permanecera vigente pelo perio",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]

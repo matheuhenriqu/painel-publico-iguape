@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "614",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:47",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:31",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/cf6ee5526f3c24571f4276b559f380c1.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/cf6ee5526f3c24571f4276b559f380c1.pdf",
     "keywords":  [
@@ -9,153 +9,18 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  11,
-                    "itemCount":  4,
-                    "totalValue":  "R$ 222.935,80"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Gestao Contratual",
-                      "actTitle":  "PORTARIA Nº 252",
-                      "recordClass":  "gestao_contratual",
-                      "recordClassLabel":  "Gestao do contrato",
-                      "confidenceScore":  8,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  2,
-                      "contractNumber":  "154/2023",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "empresa LOCALIZA VEICULOS ESPECIAIS S.A",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "PORTARIA Nº 252\n DE 28 JULHO DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Fritz Walter Klimke, Secretario Adjunto de Gestao e Planejamento, titular da Cedula de Identidade RG nº 10.450.701-9 SSP/SP,\nArt. 2º - inscrito no CPF/MF nº 973.246.638-34, para exercer a func",
-                      "completeness":  "media",
-                      "flags":  [
 
-                                ]
-                  },
-                  {
-                      "type":  "Gestao Contratual",
-                      "actTitle":  "PORTARIA Nº 253",
-                      "recordClass":  "gestao_contratual",
-                      "recordClassLabel":  "Gestao do contrato",
-                      "confidenceScore":  16,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "154/2023",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "CASA PRIME COMUNIDADE TERAPEUTICA LTDA",
-                      "cnpj":  "45.500.505/0002-34",
-                      "object":  "CONTRATACAO EMERGENCIAL DE EMPRESA ESPECIALIZADA PARA INTERNACAO COMPULSORIA DO PACIENTE E.F.S.G., EM ATENDIMENTO A ORDEM JUDICIAL, CONFORME CONSTA NOS AUTOS DO PROCESSO Nº 1002308-70.2022.8.26.0244, PELO PERIODO DE SEIS MESES",
-                      "value":  "R$31.400,00",
-                      "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "PORTARIA Nº 253\n DE 28 DE JULHO DE 2023\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Mauro Christofaro, Diretor de Frota e Veiculos, titular da Cedula de Identidade RG nº 144149801 SSP/SP, inscrito no CPF/MF\nArt. 2º - nº 030.456.698-59, para exercer a funcao de Fiscal, do C",
-                      "completeness":  "media",
-                      "flags":  [
-
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:-082/2023.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  10,
-                      "contractNumber":  "2/2023",
-                      "processNumber":  "045/2023",
-                      "modality":  "Pregao Presencial n°. 045/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Aquisicao de Agua Mineral para atender as Diversas Secretarias da Prefeitura Municipal de Iguape, pelo periodo de 12 (Doze) meses Pregao Presencial n°. 045/2023",
-                      "value":  "R$ 160.175,00",
-                      "term":  "- 28/07/2023 a 27/07/2024- 12 (doze) meses.",
-                      "signatureDate":  "26/07/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "federal-agu",
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Advocacia-Geral da Uniao",
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:-082/2023.\nOBJETO: Aquisicao de Agua Mineral para atender as Diversas Secretarias da Prefeitura Municipal de Iguape, pelo periodo de 12 (Doze) meses\nPregao Presencial n°. 045/2023\nDATA: 26/07/2023\nVIGENCIA:- 28/07/2023 a 27/07/2024- 12 (doze) meses.\nVALOR: R$ 160.175,00 (cento e sessenta mil, cento e setenta e cinco reais)",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:-083/2023.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  10,
-                      "contractNumber":  "3/2023",
-                      "processNumber":  "045/2023",
-                      "modality":  "Pregao Presencial n°. 045/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Aquisicao de Agua Mineral para atender as Diversas Secretarias da Prefeitura Municipal de Iguape, pelo periodo de 12 (Doze) meses Pregao Presencial n°. 045/2023",
-                      "value":  "R$ 31.360,80",
-                      "term":  "- 27/07/2023 a 28/07/2024 - 12 (doze) meses.",
-                      "signatureDate":  "26/07/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "federal-agu",
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Advocacia-Geral da Uniao",
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:-083/2023.\nOBJETO: Aquisicao de Agua Mineral para atender as Diversas Secretarias da Prefeitura Municipal de Iguape, pelo periodo de 12 (Doze) meses\nPregao Presencial n°. 045/2023\nDATA: 26/07/2023\nVIGENCIA:- 27/07/2023 a 28/07/2024 - 12 (doze) meses.\nVALOR: R$ 31.360,80 (trinta e um mil, trezentos e sessenta reais e oitenta centavos)",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  }
               ]
 }

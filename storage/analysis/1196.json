@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1196",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:17",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:47",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1052_04071824.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1052_04071824.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "dispensa",
                      "rescisao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -21,18 +26,18 @@
                       "actTitle":  "PREGAO ELETRONICO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  7,
+                      "confidenceScore":  8,
                       "confidenceLabel":  "media",
                       "pageNumber":  3,
                       "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "PREGAO ELETRONICO",
+                      "processNumber":  "020/2025",
+                      "modality":  "PREGAO ELETRONICO – n.º 020/2025",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "Registro de precos para aquisicao de trajes padronizados para os integrantes da Banda Municipal Maestro Aquilino Jarbas de Carvalho, em atendimento a Secretaria de Cultura, Esportes e Turismo pelo periodo de 12 meses, conforme especificacoes detalhadas no termo de referencia. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
+                      "object":  "Registro de precos para aquisicao de trajes padronizados para os integrantes da Banda Municipal Maestro Aquilino Jarbas de Carvalho, em atendimento a Secretaria de Cultura, Esportes e Turismo pelo periodo de 12 meses, conforme especificacoes detalhadas no termo de referencia",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "signatureDate":  "",
                       "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
                       "primaryOrganizationId":  "municipal-cultura",
                       "primaryOrganizationName":  "Secretaria de Cultura",
@@ -51,7 +56,7 @@
                       "excerpt":  "PREGAO ELETRONICO\n\n EXCLUSIVO PARA ME/EPP\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO – n.º 020/2025, do tipo MENOR PRECO POR LOTE, situada na Avenida\nAdhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: Registro de precos para aquisicao de trajes padronizados para os integrantes da Banda Municipal Maestro Aquilino Jarbas de Carvalho, em\natendimento a Secretaria de Cultura, Esportes e Turismo pelo periodo d",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem numero principal identificado"
+
                                 ]
                   }
               ]

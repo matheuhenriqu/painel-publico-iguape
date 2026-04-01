@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "609",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:47",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:33",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/6b571338fa9266cbcd9c8cc46da9980e.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/6b571338fa9266cbcd9c8cc46da9980e.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  24,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -21,13 +26,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "",
                       "processNumber":  "640/2023",
                       "modality":  "",
-                      "contractor":  "POINT PARK DIVERSOES EVENTOS TRANSPORTES E FEIRAS -ME",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "LEILAO- 005/2023 - MAIOR LANCE EDITAL Nº: 071/2023 CONTRATACAO DE EMPRESA PARA EXPLORACAO DE ESPACO PUBLICO PARA INSTALACAO DE UM PARQUE DE DIVERSOES E GERENCIAMENTO, POR OCASIAO DA REALIZACAO DA FESTA DE BOM JESUS, BEM COMO CONTEMPLAR ACOES QUE VISEM CONTRIBUIR COM OUTRO(S) EVENTO(S) NO MUNICIPIO DE IGUAPE",
                       "value":  "",
@@ -53,7 +58,7 @@
                                                          "Advocacia-Geral da Uniao"
                                                      ],
                       "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\n PROCESSO Nº: 640/2023\n LEILAO- 005/2023 - MAIOR LANCE\n\n EDITAL Nº: 071/2023\n\nCONTRATACAO DE EMPRESA PARA EXPLORACAO DE ESPACO PUBLICO PARA INSTALACAO DE UM PARQUE DE DIVERSOES E\nGERENCIAMENTO, POR OCASIAO DA REALIZACAO DA FESTA DE BOM JESUS, BEM COMO CONTEMPLAR ACOES QUE VISEM CONTRIBUIR\nCOM OUTRO(S) EVENTO(S) NO MUNICIPIO DE IGUAPE.\nINTERESSADOS: SECRETARIA MUNIC. DE CULTURA, ESPORTES E TURISMO, SECRETARIA MUNIC. DE INFRAESTRUTURA URBANA E\nOBRAS.\n\n ADJUDICO E HOMOLOGO, nos ter",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
                                     "Sem modalidade identificada"
                                 ]

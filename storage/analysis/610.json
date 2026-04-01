@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "610",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:47",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:32",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/fbcc3b6e3392e3b0c4474cd6960d68c2.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/fbcc3b6e3392e3b0c4474cd6960d68c2.pdf",
     "keywords":  [
@@ -9,155 +9,18 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  4,
-                    "itemCount":  4,
-                    "totalValue":  "R$ 2.740.400,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 076/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  1,
-                      "contractNumber":  "076/2023",
-                      "processNumber":  "043/2023",
-                      "modality":  "Pregao Presencial n°. 043/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para contratacao de servicos de locacao de veiculos nas categorias passageiro, leve, utilitario e pesado, para atender a demanda das secretarias da Prefeitura Municipal de Iguape. Pregao Presencial n°. 043/2023",
-                      "value":  "R$ 304.800,00",
-                      "term":  "20/07/2023 a 19/07/2024 - 12 (doze) meses.",
-                      "signatureDate":  "20/07/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 076/2023\nOBJETO: Registro de Precos para contratacao de servicos de locacao de veiculos nas categorias passageiro, leve, utilitario e pesado, para atender a\ndemanda das secretarias da Prefeitura Municipal de Iguape.\nPregao Presencial n°. 043/2023\nDATA: 20/07/2023\nVIGENCIA: 20/07/2023 a 19/07/2024 - 12 (doze) meses.\nVALOR: R$ 304.800,00 (trezentos e quatro mil e oitocentos reais)",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 077/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  1,
-                      "contractNumber":  "077/2023",
-                      "processNumber":  "043/2023",
-                      "modality":  "Pregao Presencial n°. 043/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para contratacao de servicos de locacao de veiculos nas categorias passageiro, leve, utilitario e pesado, para atender a demanda das secretarias da Prefeitura Municipal de Iguape. Pregao Presencial n°. 043/2023",
-                      "value":  "R$ 1.099.200,00",
-                      "term":  "20/07/2023 a 19/07/2024 - 12 (doze) meses.",
-                      "signatureDate":  "20/07/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 077/2023\nOBJETO: Registro de Precos para contratacao de servicos de locacao de veiculos nas categorias passageiro, leve, utilitario e pesado, para atender a\ndemanda das secretarias da Prefeitura Municipal de Iguape.\nPregao Presencial n°. 043/2023\nDATA: 20/07/2023\nVIGENCIA: 20/07/2023 a 19/07/2024 - 12 (doze) meses.\nVALOR: R$ 1.099.200,00 (um milhao, noventa e nove mil e duzentos reais)",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 078/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  1,
-                      "contractNumber":  "078/2023",
-                      "processNumber":  "043/2023",
-                      "modality":  "Pregao Presencial n°. 043/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para contratacao de servicos de locacao de veiculos nas categorias passageiro, leve, utilitario e pesado, para atender a demanda das Secretarias da Prefeitura Municipal de Iguape. Pregao Presencial n°. 043/2023",
-                      "value":  "R$ 1.292.400,00",
-                      "term":  "20/07/2023 a 19/07/2024 - 12 (doze) meses.",
-                      "signatureDate":  "20/07/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 078/2023\nOBJETO: Registro de Precos para contratacao de servicos de locacao de veiculos nas categorias passageiro, leve, utilitario e pesado, para atender a\ndemanda das Secretarias da Prefeitura Municipal de Iguape.\nPregao Presencial n°. 043/2023\nDATA: 20/07/2023\nVIGENCIA: 20/07/2023 a 19/07/2024 - 12 (doze) meses.\nVALOR: R$ 1.292.400,00 (um milhao, duzentos e noventa e dois mil e quatrocentos reais)",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:-079/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  1,
-                      "contractNumber":  "9/2023",
-                      "processNumber":  "039/2023",
-                      "modality":  "Pregao Presencial n°. 039/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Contratacao de empresa especializada para locacao de estruturas: tendas e cobertura e galpao, fechamento em placas e grades de contencao, a serem utilizados nos eventos do Municipio de Iguape/SP Pregao Presencial n°. 039/2023",
-                      "value":  "R$ 44.000,00",
-                      "term":  "21/07/2023 a 19/09/2023 60 (sessenta) dias.",
-                      "signatureDate":  "21/07/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:-079/2023\nOBJETO: Contratacao de empresa especializada para locacao de estruturas: tendas e cobertura e galpao, fechamento em placas e grades de\ncontencao, a serem utilizados nos eventos do Municipio de Iguape/SP Pregao Presencial n°. 039/2023\nDATA: 21/07/2023\nVIGENCIA: 21/07/2023 a 19/09/2023 60 (sessenta) dias.\nVALOR: R$ 44.000,00 (quarenta e quatro mil reais).",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  }
+
               ]
 }

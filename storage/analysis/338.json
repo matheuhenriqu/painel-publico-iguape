@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "338",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:37",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:42",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/5105284b76d9e5c958ad5d4c08a955cd.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/5105284b76d9e5c958ad5d4c08a955cd.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 4,17"
                 },
@@ -21,12 +26,12 @@
                       "actTitle":  "2º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "",
+                      "processNumber":  "033/2021",
+                      "modality":  "PREGAO PRESENCIAL - n°. 033/2021",
                       "contractor":  "COMEDER – COMERCIO DE MERCADORIAS E DERIVADOS DE PRODUTOS ALIMENTICIOS LTDA - EPP",
                       "cnpj":  "",
                       "object":  "Registro de Preco para aquisicao de Generos Alimenticios pereciveis e nao pereciveis para atender a demanda do Departamento de Educacao (Merenda Escolar) e demais Departamentos e Divisoes da Prefeitura Municipal de Iguape, pelo periodo de 12 (doze) meses,referente ao item 110 - Bolacha Tipo Rosquinha. PREGAO PRESENCIAL - n°. 033/2021",
@@ -45,7 +50,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "2º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO\n\nONDE SE LE:\nATA DE REGISTRO DE PRECO Nº 070/2022\nLEIA-SE:\nATA DE REGISTRO DE PRECO Nº 070/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COMEDER – COMERCIO DE MERCADORIAS E DERIVADOS DE PRODUTOS ALIMENTICIOS LTDA - EPP\nOBJETO: Registro de Preco para aquisicao de Generos Alimenticios pereciveis e nao pereciveis para atender a demanda do\nDepartamento de Educacao (Merenda Escolar) e demais Departamentos e Divisoes da Prefeitura Municipal de Iguape, pelo periodo",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem numero do contrato"
                                 ]

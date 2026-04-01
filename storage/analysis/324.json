@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "324",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:41",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:47",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/0c16f8dddc4b0c6dc0d0982efc9f4c42.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/0c16f8dddc4b0c6dc0d0982efc9f4c42.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -18,13 +23,13 @@
                       "actTitle":  "CONTRATADA: CIACAN ENGENHARIA EIRELI",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  15,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "056/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "processNumber":  "005/2022",
+                      "modality":  "TOMADA DE PRECOS Nº 005/2022",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI CONTRATO N°: 056/2022",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para obra de construcao de Centro Multiuso no bairro da Barra do Ribeira, conforme Convenio nº 000104/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o municipio de Iguape/SP TOMADA DE PRECOS Nº 005/2022",
                       "value":  "R$ 1.459,809,42",

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "476",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:15",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:11",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/8f5e925ed8563eac83aceda25f86d419.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/8f5e925ed8563eac83aceda25f86d419.pdf",
     "keywords":  [
@@ -11,147 +11,18 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  7,
-                    "itemCount":  4,
-                    "totalValue":  "R$ 815.860,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:003/2023 – LOTE 01",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  6,
-                      "contractNumber":  "3/2023",
-                      "processNumber":  "065/2022",
-                      "modality":  "Pregao Presencial n°. 065/2022",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para futuras aquisicoes de equipamento de ponto eletronico biometrico com software e bobina de papel pelo periodo de 12 (doze) meses. Pregao Presencial n°. 065/2022",
-                      "value":  "R$ 455.000,00",
-                      "term":  "18/01/2023 a 17/01/2024",
-                      "signatureDate":  "18/01/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
 
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:003/2023 – LOTE 01\nOBJETO: Registro de Precos para futuras aquisicoes de equipamento de ponto eletronico biometrico com software e bobina de papel\npelo periodo de 12 (doze) meses.\nPregao Presencial n°. 065/2022\nDATA: 18/01/2023\nVIGENCIA: 18/01/2023 a 17/01/2024\nVALOR: R$ 455.000,00 (quatrocentos e cinquenta e cinco mil reais).",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:005/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  6,
-                      "contractNumber":  "5/2023",
-                      "processNumber":  "001/2023",
-                      "modality":  "Pregao Presencial n°. 001/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Contratacao de empresa especializada para locacao de banheiros quimicos tipo convencional, standard e pne, a serem utilizados nos eventos do municipio de Iguape, pelo periodo de 12 (doze) meses. Pregao Presencial n°. 001/2023",
-                      "value":  "R$ 360.860,00",
-                      "term":  "20/01/2023 a 19/01/2024",
-                      "signatureDate":  "20/01/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:005/2023\nOBJETO: Contratacao de empresa especializada para locacao de banheiros quimicos tipo convencional, standard e\npne, a serem utilizados nos eventos do municipio de Iguape, pelo periodo de 12 (doze) meses.\nPregao Presencial n°. 001/2023\nDATA: 20/01/2023\nVIGENCIA: 20/01/2023 a 19/01/2024\nVALOR: R$ 360.860,00 (trezentos e sessenta mil e oitocentos e sessenta reais).",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Aviso de Licitacao",
-                      "actTitle":  "AVISO DE LICITACAO - PREGAO PRESENCIAL",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  8,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  6,
-                      "contractNumber":  "",
-                      "processNumber":  "005/2023",
-                      "modality":  "PREGAO PRESENCIAL nº. 005/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "AQUISICAO DE SUPLEMENTOS, FORMULAS ALIMENTARES E DIETAS PARA ATENDER A SECRETARIA DE SAUDE DA PREFEITURA MUNICIPAL DE IGUAPE, PELO PERIODO DE 12 MESES. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013, Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "AVISO DE LICITACAO\n PREGAO PRESENCIAL\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira,\nIguape/SP, CEP 11.920-000 ,o PREGAO PRESENCIAL nº. 005/2023, do tipo MENOR PRECO POR ITEM, conforme especificacoes\ndetalhadas no Edital.\n\nOBJETO: AQUISICAO DE SUPLEMENTOS, FORMULAS ALIMENTARES E DIETAS PARA ATENDER A SECRETARIA DE SAUDE\nDA PREFEITURA MUNICIPAL DE IGUAPE, PELO PERIODO DE 12 MESES.\nLEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de",
-                      "completeness":  "media",
-                      "flags":  [
-
-                                ]
-                  },
-                  {
-                      "type":  "Homologacao",
-                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  6,
-                      "contractNumber":  "",
-                      "processNumber":  "788/2022",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "REGISTRO DE PRECOS PARA AQUISICOES DE ASFALTO RECICLADO USINADO A QUENTE COM ADITIVO DE RETARDO (A GRANEL), MASSA ASFALTICA CBUQ(APLICACAO A FRIO) E EMULSAO ASFALTICA RR-2C,PARA OS SERVICOS DE \"TAPA",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
-
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 788/2022\nREGISTRO DE PRECOS PARA AQUISICOES DE ASFALTO RECICLADO USINADO A QUENTE COM ADITIVO DE RETARDO (A\nGRANEL), MASSA ASFALTICA CBUQ(APLICACAO A FRIO) E EMULSAO ASFALTICA RR-2C,PARA OS SERVICOS DE \"TAPA",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem modalidade identificada"
-                                ]
-                  }
               ]
 }

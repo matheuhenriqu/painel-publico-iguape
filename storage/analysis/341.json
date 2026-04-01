@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "341",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:37",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:41",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/1a35ea5a9ad4720f9fa8ca91fdbe7877.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/1a35ea5a9ad4720f9fa8ca91fdbe7877.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  21,
+                    "relevantPageCount":  2,
+                    "blockCount":  5,
                     "itemCount":  4,
                     "totalValue":  "R$ 3.800,00"
                 },
@@ -132,13 +137,13 @@
                       "actTitle":  "ADJUDICACAO E HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  10,
-                      "confidenceLabel":  "alta",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
                       "pageNumber":  2,
                       "contractNumber":  "",
                       "processNumber":  "89/2022",
                       "modality":  "PR-G - PREGAO PRESENCIAL - 46/2022",
-                      "contractor":  "HELDER FRANCISCO NALIATO EPP",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "REGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA EM LOCACAO DE BANHEIROSE ESCRITORIO CONTAINER, A SEREM UTILIZADOS NOS EVENTOS DO MUNICIPIO DE IGUAPE/SP",
                       "value":  "",

@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "612",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:47",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:32",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/f4f302c018943f10dcd9293878f36ed7.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/f4f302c018943f10dcd9293878f36ed7.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  2,
+                    "blockCount":  3,
                     "itemCount":  3,
                     "totalValue":  "R$ 80.853,03"
                 },
@@ -19,18 +24,18 @@
                       "actTitle":  "PORTARIA Nº 251",
                       "recordClass":  "gestao_contratual",
                       "recordClassLabel":  "Gestao do contrato",
-                      "confidenceScore":  8,
-                      "confidenceLabel":  "media",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
                       "pageNumber":  1,
                       "contractNumber":  "153/2023",
-                      "processNumber":  "",
+                      "processNumber":  "01/2022",
                       "modality":  "",
                       "contractor":  "",
                       "cnpj":  "",
                       "object":  "empresa POINT PARK DIVERSOES EVENTOS TRANSPORTES E FEIRAS LTDA",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -61,7 +66,7 @@
                       "contractNumber":  "066/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "SAMUEL RIBEIRO- EPP",
+                      "contractor":  "SAMUEL RIBEIRO- EPP CONTRATO N°: 066/2023",
                       "cnpj":  "08796702868346",
                       "object":  "contratacao de empresa especializada para execucao do servico de limpeza, troca de valvulas e de filtros das caixas d´agua nas escolas e creches municipais de Iguape/SP CARTA CONVITE Nº 006/2023",
                       "value":  "R$ 853,03",
@@ -88,16 +93,16 @@
                   },
                   {
                       "type":  "Contrato",
-                      "actTitle":  "Contrato publicado",
+                      "actTitle":  "Contrato 3/2023",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  15,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
-                      "contractNumber":  "",
+                      "contractNumber":  "3/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "POINT PARK DIVERSOES EVENTOS TRANSPORTES E FEIRAS LTDA",
+                      "contractor":  "POINT PARK DIVERSOES EVENTOS TRANSPORTES E FEIRAS LTDA CONTRATO:N°:153/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa para exploracao de espaco publico para instalacao de um Parque de Diversoes e gerenciamento, por ocasiao da realizacao da Festa de Bom Jesus, bem como contemplar acoes que visem contribuir com outro(s) Evento(s) no Municipio de Iguape LEILAO Nº 005/2023",
                       "value":  "R$ 80.000,00",
@@ -115,9 +120,9 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: POINT PARK DIVERSOES EVENTOS TRANSPORTES E FEIRAS LTDA\nCONTRATO:N°:153/2023\nOBJETO: Contratacao de empresa para exploracao de espaco publico para instalacao de um Parque de Diversoes e gerenciamento, por ocasiao da\nrealizacao da Festa de Bom Jesus, bem como contemplar acoes que visem contribuir com outro(s) Evento(s) no Municipio de Iguape\nLEILAO Nº 005/2023\nDATA:26/07/2023\nVALOR: Pagara a contratante o valor de R$ 80.000,00 (oitenta mil reais), sendo descontado",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
-                                    "Sem numero do contrato"
+
                                 ]
                   }
               ]

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "594",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:53",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:42",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/cc5ad5d7b4e77662d258517fca3104c4.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/cc5ad5d7b4e77662d258517fca3104c4.pdf",
     "keywords":  [
@@ -10,9 +10,14 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  11,
-                    "itemCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  4,
+                    "itemCount":  3,
                     "totalValue":  "R$ 7.137.776,65"
                 },
     "items":  [
@@ -27,7 +32,7 @@
                       "contractNumber":  "029/2023",
                       "processNumber":  "004/2023",
                       "modality":  "PREGAO PRESENCIAL Nº 004/2023",
-                      "contractor":  "REALITY SERVICOS E TRANSPORTES EIRELI",
+                      "contractor":  "REALITY SERVICOS E TRANSPORTES EIRELI CONTRATO N°: 029/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para Prestacao de Servicos de Transporte por Onibus com monitor escolar, nos Bairros Rurais e Urbanos, destinados aos alunos da Rede Publica de Ensino (Municipal e Estadual) do Municipio de Iguape, pelo periodo de ate 102 dias letivos do calendario escolar. PREGAO PRESENCIAL Nº 004/2023",
                       "value":  "R$ 820.736,06",
@@ -61,7 +66,7 @@
                       "contractNumber":  "003/2022",
                       "processNumber":  "001/2022",
                       "modality":  "PREGAO PRESENCIAL Nº 001/2022",
-                      "contractor":  "REALITY SERVICOS E TRANSPORTES EIRELI",
+                      "contractor":  "REALITY SERVICOS E TRANSPORTES EIRELI CONTRATO N°: 003/2022",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para Prestacao de Servicos de Transporte por Kombi ou Van com monitor escolar, nos Bairros Rurais e Urbanos, destinados aos alunos da Rede Publica de Ensino (Municipal e Estadual) do Municipio de Iguape, pelo periodo de ate 102 dias letivos do calendario escolar. PREGAO PRESENCIAL Nº 001/2022",
                       "value":  "R$ 2.682.799,46",
@@ -95,7 +100,7 @@
                       "contractNumber":  "002/2022",
                       "processNumber":  "001/2022",
                       "modality":  "PREGAO PRESENCIAL Nº 001/2022",
-                      "contractor":  "COOPERATIVA DE TRABALHADORES DE TRANSPORTE ESCOLAR DE IGUAPE",
+                      "contractor":  "COOPERATIVA DE TRABALHADORES DE TRANSPORTE ESCOLAR DE IGUAPE CONTRATO N°: 002/2022",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para Prestacao de Servicos de Transporte por Kombi ou Van com monitor escolar, nos Bairros Rurais e Urbanos, destinados aos alunos da Rede Publica de Ensino (Municipal e Estadual) do Municipio de Iguape, pelo periodo de ate 102 dias letivos do calendario escolar. PREGAO PRESENCIAL Nº 001/2022",
                       "value":  "R$ 3.634.241,13",
@@ -116,42 +121,6 @@
                       "completeness":  "alta",
                       "flags":  [
 
-                                ]
-                  },
-                  {
-                      "type":  "Ato Contratual",
-                      "actTitle":  "EXTRATO DE PUBLICACAO DO RESULTADO DE JULGAMENTO E ABERTURA DO CERTAME",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  6,
-                      "contractNumber":  "",
-                      "processNumber":  "022/2023",
-                      "modality":  "PREGAO PRESENCIAL Nº 022/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "e o REGISTRO DE PRECOS PARA EVENTUAL EXECUCAO DE SERVICOS DE SINALIZACAO VIARIA HORIZONTAL E DISPOSITIVOS AUXILIARES, COM FORNECIMENTO E IMPLANTACAO DE MATERIAIS DE SINALIZACAO NAS VIAS, COM UTILIZACAO DE EQUIPAMENTOS E MAO-DE- OBRA ESPECIALIZADA. Com o seguinte RESULTADO: NEGAR PROVIMENTO ao recurso interposto pela empresa MEGA SINAL ENGENHARIA EIRELI, mantendo-se o julgamento da ata de sessao do presente certame licitatorio, mantendoa empresa INABILITADA do certame. Fica os autos do Processo com vista franqueada aos interessados. Iguape, 03 de julho de 2023. MARIA CLAUDIA DA SILVA Pregoeira",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "EXTRATO DE PUBLICACAO DO RESULTADO DE JULGAMENTO E ABERTURA DO CERTAME\n PREGAO PRESENCIAL Nº 022/2023- MENOR VALOR GLOBAL\n\nA PREFEITURA MUNICIPAL DE IGUAPE, atraves da Presidente da Comissao, no uso legais de suas atribuicoes ; torna publico para conhecimento\ndos interessados o RESULTADO do julgamento da fase II- Habilitacao referente ao Pregao Presencial acima especificada, cujo objeto e o REGISTRO\nDE PRECOS PARA EVENTUAL EXECUCAO DE SERVICOS DE SINALIZACAO VIARIA HORIZONTAL E DISPOSITIVOS AUXILIARES, COM\nFORNECIM",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem numero do contrato",
-                                    "Sem contratada identificada",
-                                    "Sem valor identificado"
                                 ]
                   }
               ]

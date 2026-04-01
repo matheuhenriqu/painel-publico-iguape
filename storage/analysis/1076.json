@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1076",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:34",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:22",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_965_16072449.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_965_16072449.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  8,
+                    "relevantPageCount":  3,
+                    "blockCount":  5,
                     "itemCount":  3,
                     "totalValue":  "R$ 1.070.000,00"
                 },
@@ -32,7 +37,7 @@
                       "object":  "EMPRESA ADRIANA FABER DE ANDRADE – MEI",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -47,7 +52,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 105, DE 14 DE ABRIL DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes\nque lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Ricardo de Oliveira Ragni de Castro, Secretario Municipal de Infraestrutura Urbana e Obras, inscrito no CPF/MF nº. 293.199.448-\n 06, para exercer a funcao de gestor do Contrato 56/",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -93,18 +98,18 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  12,
+                      "confidenceScore":  10,
                       "confidenceLabel":  "alta",
                       "pageNumber":  6,
                       "contractNumber":  "",
                       "processNumber":  "232/2025",
                       "modality":  "PR-E - PREGAO ELETRONICO - 3/2025 - EDITAL Nº: 5/2025",
-                      "contractor":  "ALFA EXCELENCIA DIAGNOSTICA LTDA",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "REGISTRO DE PRECOS PARA CONTRATACAO DEEMPRESA ESPECIALIZADA PARA PRESTACAO DE SERVICOS MEDICOS AUXILIARES DEDIAGNOSTICO E TERAPIA CONSISTENTE EM EXAMES DE ULTRASSONOGRAFIA A SEREMREALIZADOS NOS PACIENTES DA REDE PUBLICA MUNICIPAL ATENDENDO A SECRETARIAMUNICIPAL DE SAUDE DE IGUAPE PELO PERIODO DE 12 MESES, CONFORMEESPECIFICACOES E QUANTIDADES ESTIMADAS CONSTANTES NO TERMO DE REFERENCIA",
                       "value":  "R$ 1.070.000,00",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -117,7 +122,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 232/2025\nREGISTRO DE PRECOS PARA CONTRATACAO DEEMPRESA ESPECIALIZADA PARA PRESTACAO DE SERVICOS MEDICOS AUXILIARES\nDEDIAGNOSTICO E TERAPIA CONSISTENTE EM EXAMES DE ULTRASSONOGRAFIA A SEREMREALIZADOS NOS PACIENTES DA REDE PUBLICA\nMUNICIPAL ATENDENDO A SECRETARIAMUNICIPAL DE SAUDE DE IGUAPE PELO PERIODO DE 12 MESES, CONFORMEESPECIFICACOES E\nQUANTIDADES ESTIMADAS CONSTANTES NO TERMO DE REFERENCIA.\nPR-E - PREGAO ELETRONICO - 3/2025 - EDITAL Nº: 5/2025\nINTERESSADOS: SECR",
-                      "completeness":  "alta",
+                      "completeness":  "media",
                       "flags":  [
 
                                 ]

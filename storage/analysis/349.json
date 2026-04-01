@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "349",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:34",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:38",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/3c1cda45d7def6512e5bf2b132a2dabc.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/3c1cda45d7def6512e5bf2b132a2dabc.pdf",
     "keywords":  [
@@ -12,183 +12,18 @@
                      "inexigibilidade",
                      "rescisao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  12,
-                    "itemCount":  5,
-                    "totalValue":  "R$ 11.150,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Inexigibilidade",
-                      "actTitle":  "INEXIGIBILIDADE DE LICITACAO da empresa RAFAEL FEITOSA CARDOSO 31359963871, Inscrita no CNPJ: 29.196.306/0001-47",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  11,
-                      "contractNumber":  "",
-                      "processNumber":  "306/0001",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "29.196.306/0001-47",
-                      "object":  "",
-                      "value":  "R$4.000,00",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
 
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "INEXIGIBILIDADE DE LICITACAO da empresa RAFAEL FEITOSA CARDOSO 31359963871, Inscrita no CNPJ: 29.196.306/0001-47\nPARA APRESENTACAO MUSICAL de “MUSICA DE INTEROR”, NO DIA 07 DE AGOSTO DE 2022, A PARTIR DAS 12H00, NO CENTRO\n,DE EVENTOS PREFEITO CASEMIRO TEIXEIRA, COMO PARTE DO EVENTO “FESTA DE AGOSTO” COM FUNDAMENTO NO\nARTIGO 25,\nINCISO III, DA LEI FEDERAL 8.666/93, sendo o valor contratado de R$4.000,00 (quatro mil reais), pois que, ao analisar o caso concreto, eis\nque estao preenchidos todos os requisitos legais.\n\n",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem objeto identificado",
-                                    "Sem modalidade identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Inexigibilidade",
-                      "actTitle":  "Processo nº 249/2022",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  11,
-                      "contractNumber":  "",
-                      "processNumber":  "249/2022",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "24.360.727/0001-48",
-                      "object":  "",
-                      "value":  "R$ 2.500,00",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
-
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "EXTRATO\n\nProcesso nº 249/2022\nDESPACHO DE RATIFICACAO\n\n Tomando ciencia da justificativa oriunda da origem e do conteudo do procedimento, RATIFICO a contratacao por INEXIGIBILIDADE\nDE LICITACAO da empresa ODIRLEI FRANCO DE LIMA 32310313890, inscrita no CNPJ: 24.360.727/0001-48, PARA\nAPRESENTACAO do “Vivencias Caicaras: confeccao de rabecas, violas, toques do Fandango (rabeca e viola), referente a cinco oficinas\ne cinco workshops”, NO DIA 24 DE JULHO DE 2022, A PARTIR DAS 14H00, NO BAIRRO DE ICAPARA, COMO PARTE DO E",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem objeto identificado",
-                                    "Sem modalidade identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "3º TERMO ADITIVO DE PRAZO CONTRATO Nº 047/2021",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  12,
-                      "contractNumber":  "047/2021",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "OLIVEIRA ENGENHARIA EIRELI-EPP",
-                      "cnpj":  "",
-                      "object":  "Contratacao de Empresa Especializada para obra de reforma/Ampliacao do Predio que abriga o Projeto “Fazendo Acontecer”, conforme convenio n° 100328/2021, celebrado entre o Estado de Sao Paulo, por meio da Secretaria de Desenvolvimento Regional e o municipio de Iguape/SP Tomada de Precos - n°. 007/2021",
-                      "value":  "",
-                      "term":  "periodo de 19/07/2022 a 18/01/2023 e a execucao periodo de 18/08/2022 a 17/02/2023 – 06 (seis) meses.",
-                      "signatureDate":  "18/07/2022",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "3º TERMO ADITIVO DE PRAZO CONTRATO Nº 047/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: OLIVEIRA ENGENHARIA EIRELI-EPP\nCONTRATO N°: 047/2021\nOBJETO: Contratacao de Empresa Especializada para obra de reforma/Ampliacao do Predio que abriga o Projeto “Fazendo Acontecer”,\nconforme convenio n° 100328/2021, celebrado entre o Estado de Sao Paulo, por meio da Secretaria de Desenvolvimento\nRegional e o municipio de Iguape/SP\nTomada de Precos - n°. 007/2021\nDATA: 18/07/2022\nVIGENCIA: periodo de 19/07/2022 a 18/01/2023 e ",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "2º TERMO ADITIVO DE PRAZO AO CONTRATO N.º 096/2021",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  12,
-                      "contractNumber":  "096/2021",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "ENGETEC ENGENHARIA EIRELI - ME",
-                      "cnpj":  "",
-                      "object":  "Constitui objeto do presente termo a prorrogacao da vigencia do contrato supra mencionado, referente a contratacao de empresa especializada para pavimentacao e obras complementares de trechos das ruas Manoel Camargo e Lauro Jose Ferreira no bairro do Rocio- conforme convenio nº 101113/2021-SDR (Lote-002) TOMADA DE PRECO – Nº 015/2021",
-                      "value":  "",
-                      "term":  "do contrato supra mencionado, referente a contratacao de",
-                      "signatureDate":  "20/07/2022",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "2º TERMO ADITIVO DE PRAZO AO CONTRATO N.º 096/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ENGETEC ENGENHARIA EIRELI - ME\nOBJETO: Constitui objeto do presente termo a prorrogacao da vigencia do contrato supra mencionado, referente a contratacao de\nempresa especializada para pavimentacao e obras complementares de trechos das ruas Manoel Camargo e Lauro Jose Ferreira no\nbairro do Rocio- conforme convenio nº 101113/2021-SDR (Lote-002)\nTOMADA DE PRECO – Nº 015/2021\nDATA: 20/07/2022\nVIGENCIA: 21/07/2022 a 19/10/202",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Contrato",
-                      "actTitle":  "CONTRATADA: HG COMERCIO DE MOVEIS E EQUIPAMENTOS PARA ESCRITORIOS LTDA - EPP",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  16,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  12,
-                      "contractNumber":  "108/2022",
-                      "processNumber":  "042/2022",
-                      "modality":  "PREGAO PRESENCIAL Nº: 042/2022",
-                      "contractor":  "HG COMERCIO DE MOVEIS E EQUIPAMENTOS PARA ESCRITORIOS LTDA - EPP",
-                      "cnpj":  "",
-                      "object":  "Aquisicao de Equipamentos e utensilios domesticos, destinados a instalacao de cozinha piloto experimental (modelo 2), contemplada atraves do projeto estadual “cozinhalimento”, celebrado entre o municipio Iguape e a Secretaria de Agricultura e Abastecimento do Governo do Estado de Sao Paulo – Processo nº SAA - PRC - 2021/14235 (Resolucao nº83, de 19/11/2021) PREGAO PRESENCIAL Nº: 042/2022",
-                      "value":  "R$ 4.650,00",
-                      "term":  "60 (sessenta) dias,contados da data assinatura.",
-                      "signatureDate":  "21/07/2022",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
-
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "EXTRATO\n\nCONTRATADA: HG COMERCIO DE MOVEIS E EQUIPAMENTOS PARA ESCRITORIOS LTDA - EPP\nCONTRATO N°: 108/2022\nOBJETO: Aquisicao de Equipamentos e utensilios domesticos, destinados a instalacao de cozinha piloto experimental (modelo 2),\ncontemplada atraves do projeto estadual “cozinhalimento”, celebrado entre o municipio Iguape e a Secretaria de Agricultura e\nAbastecimento do Governo do Estado de Sao Paulo – Processo nº SAA - PRC - 2021/14235 (Resolucao nº83, de 19/11/2021)\nPREGAO PRESENCIAL Nº: 042/2022\nDATA:21/07/20",
-                      "completeness":  "alta",
-                      "flags":  [
-
-                                ]
-                  }
               ]
 }

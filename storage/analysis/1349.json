@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1349",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:48",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:37",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1164_28071832.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1164_28071832.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -20,7 +25,7 @@
                       "actTitle":  "CONCORRENCIA ELETRONICA Nº 009/2025 – MENOR PRECO GLOBAL",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  8,
+                      "confidenceScore":  6,
                       "confidenceLabel":  "media",
                       "pageNumber":  1,
                       "contractNumber":  "",
@@ -28,7 +33,7 @@
                       "modality":  "CONCORRENCIA ELETRONICA Nº 009/2025",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "e a CONTRATACAO DE EMPRESA ESPECIALIZADA PARA CONSTRUCAO DE 32 (trinta e duas) UNIDADES HABITACIONAIS, no Bairro do Rocio, neste Municipio de Iguape/SP, conforme convenio nº 974479/2024 do Programa FNHIS –SUB 50, Termo de Compromisso celebrado entre o Municipio de Iguape e a Caixa Economica Federal. Com o seguinte RESULTADO: INDEFERINDO o recurso interposto pela empresa SOLUCOES SERVICOS TERCEIRIZADOS LTDA, mantendo assim o certame SEM VENCEDOR. Ficam os autos do Processo com vista franqueada aos interessados. Iguape, 27 de fevereiro de 2026 Daniel Factore Moroni Sella Agente de Contratacao",
+                      "object":  "",
                       "value":  "",
                       "term":  "",
                       "signatureDate":  "",
@@ -46,9 +51,9 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "CONCORRENCIA ELETRONICA Nº 009/2025 – MENOR PRECO GLOBAL\n\n A PREFEITURA MUNICIPAL DE IGUAPE, atraves do Agente de Contratacao, nos usos legais de suas atribuicoes, torna publico para conhecimento\n dos interessados o RESULTADO do julgamento do recurso administrativo da licitacao Concorrencia Eletronica nº 009/2025, cujo objeto e a\n CONTRATACAO DE EMPRESA ESPECIALIZADA PARA CONSTRUCAO DE 32 (trinta e duas) UNIDADES HABITACIONAIS, no Bairro do Rocio,\n neste Municipio de Iguape/SP, conforme convenio nº 974479/2024 do P",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
-
+                                    "Sem objeto identificado"
                                 ]
                   },
                   {
@@ -64,7 +69,7 @@
                       "modality":  "CONCORRENCIA ELETRONICA Nº: 009/2025",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA CONSTRUCAO DE 32 (trinta e duas) UNIDADES HABITACIONAIS, no Bairro do Rocio, neste Municipio de Iguape/SP, conforme convenio nº 974479/2024 do Programa FNHIS –SUB 50, Termo de Compromisso celebrado entre o Municipio de Iguape e a Caixa Economica Federal. Nos termos da Legislacao em vigor, o procedimento licitatorio restou-se FRACASSADO, visto que os participantes nao atenderam aos requisitos editalicios minimos para a contratacao. Iguape, 27 de fevereiro de 2026 RICARDO OLIVEIRA RAGNI DE CASTRO LEITE Secretario Municipal de Infraestrutura Urbana e Obras",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA CONSTRUCAO DE 32 (trinta e duas) UNIDADES HABITACIONAIS, no Bairro do Rocio, neste Municipio de Iguape/SP, conforme convenio nº 974479/2024 do Programa FNHIS –SUB 50, Termo de Compromisso celebrado entre o Municipio de Iguape e a Caixa Economica Federal. Nos termos da Legislacao em vigor, o procedimento licitatorio restou-se FRACASSADO, visto que os participantes nao atenderam aos requisitos editalicios minimos para a contratacao",
                       "value":  "",
                       "term":  "",
                       "signatureDate":  "",

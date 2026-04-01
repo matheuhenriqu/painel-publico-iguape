@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1211",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:14",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:42",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1064_20081310.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1064_20081310.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  7,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -20,13 +25,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  4,
                       "contractNumber":  "",
                       "processNumber":  "540/2025",
                       "modality":  "PR-E - PREGAO ELETRONICO - 19/2025 - EDITAL Nº: 27/2025",
-                      "contractor":  "W. S PINO LTDA",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "REGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA FORNECIMENTO DE OXIGENIO MEDICINAL, COM CESSAO EM COMODATO DE CILINDROS PELO PERIODO DE 12 (DOZE) MESES",
                       "value":  "",

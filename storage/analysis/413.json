@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "413",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:26",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:26",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/170bb711e9d3fa013fcc61a808560f9a.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/170bb711e9d3fa013fcc61a808560f9a.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -20,13 +25,13 @@
                       "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  1,
                       "contractNumber":  "",
                       "processNumber":  "639/2022",
                       "modality":  "",
-                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA SERVICOS DE EXECUCAO DE PISO EM CONCRETO ARMADO PARA IMPLANTACAO DE ACADEMIA AO AR LIVRE, LOCALIZADOS NOS SEGUINTES ENDERECOS: PRACA DOS MACONS - AVENIDA JANIO QUADROS; PRACA DOS ANOES - RUA JALDE ANTONIO FRAGOSO - ROCIO E PRACA BENEDITO MASSA -ROCIO , NESTA CIDADE DE IGUAPE/SP CO-O - CONVITE / OBRAS - 14/2022 - EDITAL Nº: 83/2022",
                       "value":  "",
@@ -46,7 +51,7 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 639/2022\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA SERVICOS DE EXECUCAO DE PISO EM CONCRETO ARMADO PARA\nIMPLANTACAO DE ACADEMIA AO AR LIVRE, LOCALIZADOS NOS SEGUINTES ENDERECOS: PRACA DOS MACONS - AVENIDA\nJANIO QUADROS; PRACA DOS ANOES - RUA JALDE ANTONIO FRAGOSO - ROCIO E PRACA BENEDITO MASSA -ROCIO , NESTA\nCIDADE DE IGUAPE/SP\nCO-O - CONVITE / OBRAS - 14/2022 - EDITAL Nº: 83/2022\nINTERESSADOS: DEPARTAMENTO DE OBRAS .\n\n HOMOLOGO E ADJUDICO, nos termos da Legislacao ",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
                                     "Sem modalidade identificada"
                                 ]

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1141",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:25",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:04",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1017-_12095108.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1017-_12095108.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  27,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -20,18 +25,18 @@
                       "actTitle":  "PREGAO ELETRONICO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  7,
+                      "confidenceScore":  8,
                       "confidenceLabel":  "media",
                       "pageNumber":  24,
                       "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "PREGAO ELETRONICO",
+                      "processNumber":  "015/2025",
+                      "modality":  "PREGAO ELETRONICO – n.º 015/2025",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "REGISTRO DE PRECO PARA AQUISICAO DE OLEOS LUBRIFICANTES E CORRELATOS PARA OS VEICULOS LEVES E PESADOS, MAQUINAS E EQUIPAMENTOS, PERTENCENTES A FROTA MUNICIPAL, PELO PERIODO DE 12 (DOZE) MESES conforme especificacoes nos anexos I e II do edital. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
+                      "object":  "REGISTRO DE PRECO PARA AQUISICAO DE OLEOS LUBRIFICANTES E CORRELATOS PARA OS VEICULOS LEVES E PESADOS, MAQUINAS E EQUIPAMENTOS, PERTENCENTES A FROTA MUNICIPAL, PELO PERIODO DE 12 (DOZE) MESES conforme especificacoes nos anexos I e II do edital",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "signatureDate":  "",
                       "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -46,7 +51,7 @@
                       "excerpt":  "PREGAO ELETRONICO\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO – n.º 015/2025, do tipo MENOR PRECO POR ITEM, situada na\nAvenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: REGISTRO DE PRECO PARA AQUISICAO DE OLEOS LUBRIFICANTES E CORRELATOS PARA OS VEICULOS LEVES E PESADOS,\nMAQUINAS E EQUIPAMENTOS, PERTENCENTES A FROTA MUNICIPAL, PELO PERIODO DE 12 (DOZE) MESES conforme especificacoes nos\nanexos I e",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem numero principal identificado"
+
                                 ]
                   },
                   {
@@ -60,7 +65,7 @@
                       "contractNumber":  "023/2021",
                       "processNumber":  "12/2021",
                       "modality":  "Pregao Presencial nº 12/2021",
-                      "contractor":  "CECAM – CONSULTORIA ECONOMICA, CONTABIL E ADMINISTRATIVA MUNICIPAL LTDA",
+                      "contractor":  "CECAM – CONSULTORIA ECONOMICA, CONTABIL E ADMINISTRATIVA MUNICIPAL LTDA CONTRATO N°: 023/2021",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para cessao de direito de uso de sotfwares (modulos) de gestao publica, nas areas de ajuizamento eletronico (procuradoria), administracao de pessoal, almoxarifado, siafic, controle interno, portal datransparencia, compras e licitacoes, protocolo, frotas, patrimonio, IPTU e ITBI, IPTU E ITBI web, obras, ISS, ISS web, ISS eletronico e nota fiscal eletronica, saude e cemiterio, envolvendo conversao, migracao, implantacao dos modulos e capacitacao dos usuarios. . Pregao Presencial nº 12/2021 ALTERACAO DE CLAUSULA: QUARTA E SEXTA",
                       "value":  "",

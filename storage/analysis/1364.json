@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1364",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:45",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:33",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1174_17073747.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1174_17073747.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  2,
+                    "blockCount":  4,
                     "itemCount":  4,
                     "totalValue":  "R$ 2,57"
                 },
@@ -31,7 +36,7 @@
                       "object":  "a contratacao de empresa especializada para prestacao de servicos de transporte escolar atraves de veiculos tipo onibus escolar exclusivo para atendimento de alunos da rede publica d e ensino (municipal e estadual) do Municipio de Iguape",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-educacao",
                       "primaryOrganizationName":  "Secretaria de Educacao",
@@ -46,7 +51,7 @@
                                                          "Secretaria de Educacao"
                                                      ],
                       "excerpt":  "PORTARIA Nº 70,\n DE 16 DE MARCO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Thales Kodi Namba, Secretario Municipal de Educacao, inscrita no CPF/MF nº. XXX.826.718-XX, para exercer a\n funcao de Gestor do Contrato nº 055/2026, e Zenildo Si",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -67,7 +72,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
                       "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
@@ -134,7 +139,7 @@
                       "contractNumber":  "",
                       "processNumber":  "003/2026",
                       "modality":  "CHAMADA PUBLICA Nº: 003/2026",
-                      "contractor":  "COOPERATIVA DE CREDITO, POUPANCA E INVESTIMENTO CAMPOS GERAIS, GRANDE CURITIBA, VALE DO RIBEIRA E",
+                      "contractor":  "COOPERATIVA DE CREDITO, POUPANCA E INVESTIMENTO CAMPOS GERAIS, GRANDE CURITIBA, VALE DO RIBEIRA E FORCA DOS VENTOS - SICREDI CAMPOS GERAIS E GRANDE CURITIBA PR/SP",
                       "cnpj":  "",
                       "object":  "",
                       "value":  "R$ 2,57",

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "721",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:31",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:07",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/fae521789960bae31d189bc44e588b6d.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/fae521789960bae31d189bc44e588b6d.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  10,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -21,18 +26,18 @@
                       "actTitle":  "AVISO DE LICITACAO - TOMADA DE PRECOS",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  7,
+                      "confidenceScore":  8,
                       "confidenceLabel":  "media",
                       "pageNumber":  3,
                       "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "AVISO DE LICITACAO - TOMADA DE PRECOS",
+                      "processNumber":  "017/2023",
+                      "modality":  "TOMADA DE PRECOS – n.º 017/2023",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE CONSTRUCAO DE BANHEIRO PUBLICO NA PRACA DA BASILICA, LOCALIZADA NO CENTRO HISTORICO DE IGUAPE. LEGISLACAO: Lei Federal nº 8.666/93 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Lei Complementar 139, de 10 de novembro de 2011 ,Lei Complementar 147 de 07 de agosto de 2014",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE CONSTRUCAO DE BANHEIRO PUBLICO NA PRACA DA BASILICA, LOCALIZADA NO CENTRO HISTORICO DE IGUAPE",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE CUMPRE OS",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -47,7 +52,7 @@
                       "excerpt":  "AVISO DE LICITACAO\nTOMADA DE PRECOS\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, a TOMADA DE PRECOS – n.º 017/2023, do tipo MENOR PRECO GLOBAL, situada na Avenida\nAdhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE CONSTRUCAO DE BANHEIRO PUBLICO NA PRACA DA BASILICA,\nLOCALIZADA NO CENTRO HISTORICO DE IGUAPE.\n\nLEGISLACAO: Lei Federal nº 8.666/93 e suas alteracoes posteriores, e L",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem numero principal identificado"
+
                                 ]
                   },
                   {
@@ -55,18 +60,18 @@
                       "actTitle":  "AVISO DE LICITACAO - TOMADA DE PRECOS",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  7,
+                      "confidenceScore":  8,
                       "confidenceLabel":  "media",
                       "pageNumber":  3,
                       "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "AVISO DE LICITACAO - TOMADA DE PRECOS",
+                      "processNumber":  "018/2023",
+                      "modality":  "TOMADA DE PRECOS – n.º 018/2023",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E AMPLIACAO DA CASA DA CRIANCA, LOCALIZADA NA RUA K, Nº 180, BAIRRO JARDIM PRIMAVERA, NESTE MUNICIPIO DE IGUAPE/SP. LEGISLACAO: Lei Federal nº 8.666/93 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Lei Complementar 139, de 10 de novembro de 2011 ,Lei Complementar 147 de 07 de agosto de 2014",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E AMPLIACAO DA CASA DA CRIANCA, LOCALIZADA NA RUA K, Nº 180, BAIRRO JARDIM PRIMAVERA, NESTE MUNICIPIO DE IGUAPE/SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE CUMPRE OS",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -81,7 +86,7 @@
                       "excerpt":  "AVISO DE LICITACAO\n TOMADA DE PRECOS\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, a TOMADA DE PRECOS – n.º 018/2023, do tipo MENOR PRECO GLOBAL, situada na Avenida\nAdhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E AMPLIACAO DA CASA DA CRIANCA, LOCALIZADA\nNA RUA K, Nº 180, BAIRRO JARDIM PRIMAVERA, NESTE MUNICIPIO DE IGUAPE/SP.\n\nLEGISLACAO: Lei Federal nº 8.666/93 e su",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem numero principal identificado"
+
                                 ]
                   }
               ]

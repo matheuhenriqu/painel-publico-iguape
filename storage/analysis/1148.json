@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1148",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:24",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:01",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1020_17074240.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1020_17074240.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  2,
+                    "blockCount":  5,
                     "itemCount":  4,
                     "totalValue":  "R$ 0,00"
                 },
@@ -31,7 +36,7 @@
                       "object":  "EMPRESA S FERREIRA SERVICOS E LOCACAO LTDA",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -48,7 +53,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 154,\n DE 16 DE JULHO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Ricardo de Oliveira Ragni de Castro Leite, Secretario Municipal de Infraestrutura Urbana e Obras, inscrito no CPF/MF nº.\n 293.199.448-06, para exercer a funcao de gestor do Contra",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -64,7 +69,7 @@
                       "contractNumber":  "005/2025",
                       "processNumber":  "076/2023",
                       "modality":  "Pregao Presencial n°. 076/2023",
-                      "contractor":  "JORNAL GAZETA SP – LTDA-EPP",
+                      "contractor":  "JORNAL GAZETA SP – LTDA-EPP CONTRATO Nº 005/2025",
                       "cnpj":  "",
                       "object":  "Registro de precos pelo periodo de 12 (doze) meses, para contratacao de Jornal Diario de Grande Circulacao Regional, para prestacao de servicos de publicacao de atos oficiais da Prefeitura Municipal de Iguape. Pregao Presencial n°. 076/2023",
                       "value":  "",
@@ -92,13 +97,13 @@
                       "actTitle":  "6º TERMO ADITIVO DE PRAZO AO CONTRATO 008/2024",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "008/2024",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA",
+                      "processNumber":  "018/2023",
+                      "modality":  "TOMADA DE PRECO – Nº 018/2023",
+                      "contractor":  "EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA CONTRATO N°: 008/2024",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa especializada para obra de reforma e ampliacao da Casa da Crianca, localizada na rua k, nº 180, bairro jardim primavera, neste Municipio de Iguape/SP. TOMADA DE PRECO – Nº 018/2023",
                       "value":  "",
@@ -116,7 +121,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "6º TERMO ADITIVO DE PRAZO AO CONTRATO 008/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA\nCONTRATO N°: 008/2024\nOBJETO: Contratacao de Empresa especializada para obra de reforma e ampliacao da Casa da Crianca, localizada na rua k, nº 180, bairro jardim\nprimavera, neste Municipio de Iguape/SP.\nTOMADA DE PRECO – Nº 018/2023\nData:11/07/2025\nVIGENCIA:Vigencia e Execucao:-120 (cento e vinte) dias – Periodo de 14/07/2025 a 10/11/2025 inclusive.",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]
@@ -126,18 +131,18 @@
                       "actTitle":  "PREGAO ELETRONICO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  7,
+                      "confidenceScore":  8,
                       "confidenceLabel":  "media",
                       "pageNumber":  2,
                       "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "PREGAO ELETRONICO",
+                      "processNumber":  "016/2025",
+                      "modality":  "PREGAO ELETRONICO – n.º 016/2025",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "AQUISICAO PARCELADA DE GENEROS ALIMENTICIOS PARA AS SECRETARIAS MUNICIPAIS DA EDUCACAO, SAUDE E ASSISTENCIA SOCIAL AS NECESSIDADES DA ADMINISTRACAO PUBLICA. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
+                      "object":  "AQUISICAO PARCELADA DE GENEROS ALIMENTICIOS PARA AS SECRETARIAS MUNICIPAIS DA EDUCACAO, SAUDE E ASSISTENCIA SOCIAL AS NECESSIDADES DA ADMINISTRACAO PUBLICA",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "signatureDate":  "",
                       "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
                       "primaryOrganizationId":  "municipal-assistencia-social",
                       "primaryOrganizationName":  "Secretaria de Assistencia e Desenvolvimento Social",
@@ -156,7 +161,7 @@
                       "excerpt":  "PREGAO ELETRONICO\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO – n.º 016/2025, do tipo MENOR PRECO GLOBAL POR LOTE ,\nsituada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: AQUISICAO PARCELADA DE GENEROS ALIMENTICIOS PARA AS SECRETARIAS MUNICIPAIS DA EDUCACAO, SAUDE E\nASSISTENCIA SOCIAL AS NECESSIDADES DA ADMINISTRACAO PUBLICA.\nLEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posterio",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem numero principal identificado"
+
                                 ]
                   }
               ]

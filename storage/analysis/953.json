@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "953",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:53",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:53",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_867_08064245.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_867_08064245.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "inexigibilidade",
                      "rescisao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -27,11 +32,11 @@
                       "contractNumber":  "062/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU CONTRATO N°: 062/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para obra de revitalizacao da orla do Mar Pequeno Fase-III – Convenio nº 000184/2022, que entre si celebram o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens, e o Municipio de Iguape, objetivando a transferencia de recursos financeiros do Fundo de Melhorias dos Municipios Turisticos",
                       "value":  "",
-                      "term":  "ao Contrato 062/2023",
+                      "term":  "",
                       "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
@@ -62,12 +67,12 @@
                       "pageNumber":  2,
                       "contractNumber":  "010/2024",
                       "processNumber":  "999/2023",
-                      "modality":  "",
+                      "modality":  "Tomada de Precos nº 015/2023",
                       "contractor":  "EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA",
                       "cnpj":  "",
-                      "object":  "Tem por objeto a Rescisao Amigavel do Contrato 010/2024, a partir de 06/11/2024, entre o Municipio de Iguape e a Empresa, conforme dispoe o art. 79, inciso II da lei 8.666/93, em funcao da suspensao da execucao de servicos de engenharia objeto do contrato, por ordem escrita da Administracao, por prazo superior a 120 (cento e vinte) dias",
+                      "object":  "a Rescisao Amigavel do Contrato 010/2024, a partir de 06/11/2024, entre o Municipio de Iguape e a Empresa, conforme dispoe o art. 79, inciso II da lei 8.666/93, em funcao da suspensao da execucao de servicos de engenharia objeto do contrato, por ordem escrita da Administracao, por prazo superior a 120 (cento e vinte) dias",
                       "value":  "",
-                      "term":  "superior a 120 (cento e vinte) dias.",
+                      "term":  "",
                       "signatureDate":  "06/11/2024",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",

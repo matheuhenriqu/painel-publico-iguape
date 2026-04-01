@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "672",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:38",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:18",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/16628c150262d9ec2c156f55d87a1406.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/16628c150262d9ec2c156f55d87a1406.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  7,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -25,12 +30,12 @@
                       "contractNumber":  "",
                       "processNumber":  "029/2023",
                       "modality":  "PREGAO PRESENCIAL N,º 029/2023",
-                      "contractor":  "CLEBER ALVES DE OLIVEIRA - ME",
+                      "contractor":  "CLEBER ALVES DE OLIVEIRA - ME ATA DE REGISTRO N°: 063/2023",
                       "cnpj":  "",
                       "object":  "Reducao de valor economico financeiro a Ata de Registro de Precos na prestacao de servicos de manutencao preventiva, corretiva e instalacao de aparelhos de ar condicionado para atender diversos departamentos da Prefeitura Municipal de Iguape PREGAO PRESENCIAL N,º 029/2023",
                       "value":  "R$ 3.006,27,",
                       "term":  "",
-                      "signatureDate":  "-20/10/2023",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -45,7 +50,7 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "2º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO\nATA DE REGISTRO Nº 063/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CLEBER ALVES DE OLIVEIRA - ME\nATA DE REGISTRO N°: 063/2023\nOBJETO: Reducao de valor economico financeiro a Ata de Registro de Precos na prestacao de servicos de manutencao preventiva, corretiva e\ninstalacao de aparelhos de ar condicionado para atender diversos departamentos da Prefeitura Municipal de Iguape\nPREGAO PRESENCIAL N,º 029/2023\nDATA:-20/10/2023\nVALOR: Item 5 – valor licitado - R$ ",
-                      "completeness":  "alta",
+                      "completeness":  "media",
                       "flags":  [
                                     "Sem numero do contrato"
                                 ]

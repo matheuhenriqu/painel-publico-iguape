@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "783",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:14",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:39",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/20240321_2024-03-21_diariooficialedicao722_16014919.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/20240321_2024-03-21_diariooficialedicao722_16014919.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  17,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -53,13 +58,13 @@
                       "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  16,
                       "contractNumber":  "",
                       "processNumber":  "994/2023",
-                      "modality":  "",
-                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU",
+                      "modality":  "CONCORRENCIA PUBLICA / OBRAS - 5/2023",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "CONTRATACAO DE EMPRESA ESPECIALIAZADA PARA CONTRATACAO DE EMPRESAESPECIALIZADA PARA REALIZACAO DE OBRAS DEINFRAESTRUTURA URBANA NO MUNICIPIO DE IGUAPE/SP CONFORME PROGRAMAEFICIENCIA MUNICIPAL – BANCO DO BRASIL",
                       "value":  "",
@@ -83,7 +88,7 @@
                       "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\nPROCESSO Nº: 994/2023\nCONTRATACAO DE EMPRESA ESPECIALIAZADA PARA CONTRATACAO DE EMPRESAESPECIALIZADA PARA REALIZACAO DE OBRAS\nDEINFRAESTRUTURA URBANA NO MUNICIPIO DE IGUAPE/SP CONFORME PROGRAMAEFICIENCIA MUNICIPAL – BANCO DO BRASIL ,\nCP-O - CONCORRENCIA PUBLICA / OBRAS - 5/2023 - EDITAL Nº: 130/2023\nINTERESSADOS: SECRETARIA MUNIC. DE INFRAESTRUTURA URBANA E OBRAS .\n\n HOMOLOGO E ADJUDICO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\nlotes aba",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem modalidade identificada"
+
                                 ]
                   }
               ]

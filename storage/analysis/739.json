@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "739",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:25",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:59",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/e3da987040f90651585eb704f8b4cd8b.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/e3da987040f90651585eb704f8b4cd8b.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 179.600,00"
                 },
@@ -25,7 +30,7 @@
                       "contractNumber":  "002/2024",
                       "processNumber":  "065/2023",
                       "modality":  "Pregao Presencial n°. 065/2023",
-                      "contractor":  "GENTE SEGURADORA S.A",
+                      "contractor":  "GENTE SEGURADORA S.A. CONTRATO N°: 002/2024",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa especializada para a Pestacao de servicos de Seguro dos diversos veiculos que compoem a frota da Prefeitura Municipal de Iguape. Pregao Presencial n°. 065/2023",
                       "value":  "R$ 179.600,00",

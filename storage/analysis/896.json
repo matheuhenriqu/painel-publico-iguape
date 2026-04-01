@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "896",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:59",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:06",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_818_22072535.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_818_22072535.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 940.637,00"
                 },
@@ -26,7 +31,7 @@
                       "contractNumber":  "052/2024",
                       "processNumber":  "031/2023",
                       "modality":  "Pregao Presencial n°. 031/2023",
-                      "contractor":  "AUTO POSTO PORTO IGUAPE LTDA",
+                      "contractor":  "AUTO POSTO PORTO IGUAPE LTDA CONTRATO Nº 052/2024 – ORIUNDO DA ATA DE REGISTRO DE PRECOS N°: 062/2023",
                       "cnpj":  "",
                       "object":  "Aquisicoes de combustiveis para atender diversas Secretarias desta Prefeitura de Iguape/SP, pelo periodo de 03 (tres) meses. Item 1 - Gasolina Comum – R$ 5,94 o litro- Item 2 - Diesel S-10 – R$ 6,44 o litro Item 3 - Diesel S-500 – R$ 5.45 o litro – Item 4 - Etanol – R$ 3,98 o litro. Pregao Presencial n°. 031/2023",
                       "value":  "R$ 940.637,00",

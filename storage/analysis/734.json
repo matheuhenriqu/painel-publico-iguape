@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "734",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:27",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:01",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/11e36df9ea01bb840bd823d3702e0a21.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/11e36df9ea01bb840bd823d3702e0a21.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  17,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 32.903,60"
                 },
@@ -26,7 +31,7 @@
                       "contractNumber":  "005/2024",
                       "processNumber":  "001/2023",
                       "modality":  "PREGAO PRESENCIAL n°. 001/2023",
-                      "contractor":  "RENATO DE OLIVEIRA LIMPEZA LTDA – D.D. REGIS",
+                      "contractor":  "RENATO DE OLIVEIRA LIMPEZA LTDA – D.D. REGIS CONTRATO N°: 005/2024 – ORIUNDO DA ATA DE REGISTRO DE PRECCOS Nº 005/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa especializada para locacao de Banheiros Quimicos tipo convencional, standart e PNE, a serem utilizados nos eventos do municipio de Iguape, pelo periodo de 60 (sessenta) dias. PREGAO PRESENCIAL n°. 001/2023. VALOR: Pagara a contratada o valor global de R$ 32.903,60 (trinta e dois mil, novecentos e tres reais e sessenta centavos)",
                       "value":  "R$ 32.903,60",

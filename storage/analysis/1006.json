@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "1006",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:47",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:43",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_908_22070449.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_908_22070449.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  2,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -29,7 +34,7 @@
                       "object":  "firmado com a empresa SMARAPD INFORMATICA LTDA",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, tornando sem efeito a Portaria nº 275, de 20 de dezembro de 2024, e revogando",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -44,7 +49,7 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "PORTARIA Nº 20, DE 21 DE JANEIRO DE 2025\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Edson Luiz Novais Machado, Diretor II, titular da Cedula de Identidade RG nº 18188315, inscrito no CPF/MF nº 103.327.138-14,\nArt. 2º - para exercer a funcao de gestor e fi",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -60,7 +65,7 @@
                       "contractNumber":  "141/2024",
                       "processNumber":  "050/2023",
                       "modality":  "Pregao Presencial nº 050/2023",
-                      "contractor":  "ROGERIO F DE FREITAS",
+                      "contractor":  "ROGERIO F DE FREITAS CONTRATO N°: 141/2024",
                       "cnpj":  "",
                       "object":  "Ccontratacoes futuras para confeccao de Materiais Graficos, divulgacao e impressao para atender diversas Secretarias e Departamentos da Prefeitura Municipal de Iguape/SP Pregao Presencial nº 050/2023",
                       "value":  "",

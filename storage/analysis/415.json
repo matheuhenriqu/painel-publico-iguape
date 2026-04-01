@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "415",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:26",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:26",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/4944d6c13794c38971efe657fb89ba3d.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/4944d6c13794c38971efe657fb89ba3d.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -21,13 +26,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "",
                       "processNumber":  "632/2022",
                       "modality":  "PR-G - PREGAO PRESENCIAL - 57/2022 - EDITAL Nº: 82/2022",
-                      "contractor":  "REGIS PAPER COMERCIAL LTDA",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "Aquisicao de Materiais Permanentes (mobiliarios e eletrodomesticos) em atendimento a Secretaria Municipal de Assistencia e Desenvolvimento Social",
                       "value":  "",

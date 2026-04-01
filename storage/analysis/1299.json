@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1299",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:57",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:54",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1129_08071614.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1129_08071614.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  7,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -20,13 +25,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  1,
                       "contractNumber":  "",
                       "processNumber":  "618/2025",
                       "modality":  "PR-E - PREGAO ELETRONICO - 31/2025 - EDITAL Nº: 42/2025",
-                      "contractor":  "49.387.926 ANA LUCIA GERMANO SILVA",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES PARA AQUISICAO FUTURAS DE MATERIAIS DE ACABAMENTO, PINTURA, ELETRICA, HIDRAULICA E ALVENARIA, PARA MANUTENCAO DOS PREDIOS DA PREFEITURA MUNICIPAL DE IGUAPE/SP",
                       "value":  "",

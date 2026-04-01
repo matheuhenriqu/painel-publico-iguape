@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "543",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:03",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:56",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/eb0d20c5e02c33edc8967b44df4d8a88.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/eb0d20c5e02c33edc8967b44df4d8a88.pdf",
     "keywords":  [
@@ -12,8 +12,13 @@
                      "inexigibilidade",
                      "rescisao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  27,
+                    "relevantPageCount":  1,
+                    "blockCount":  4,
                     "itemCount":  3,
                     "totalValue":  "R$ 299.758,44"
                 },
@@ -65,7 +70,7 @@
                       "contractNumber":  "063/2023",
                       "processNumber":  "019/2023",
                       "modality":  "PREGAO PRESENCIAL Nº 019/2023",
-                      "contractor":  "ETHICA CUROS LIVRES PROFISSIONAL \u0026 GERENCIAMENTO LTDA",
+                      "contractor":  "ETHICA CUROS LIVRES PROFISSIONAL \u0026 GERENCIAMENTO LTDA CONTRATO N°: 063/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa(s) especializada(s) para oferta de profissionais qualificados para ministrar oficinas para idosos, adolescentes e familias usuarios dos servicos do cras-centro de referencia de assistencia social, bem como para cadastradores para o cadunico e para execucao do servico de abordagem social da protecao social especial de media complexidade em cumprimento aos servicos da assistencia social, no municipio de Iguape, pelo periodo de 12 (doze) meses. cofinanciamento federal e estadual. PREGAO PRESENCIAL Nº 019/2023",
                       "value":  "R$ 297.700,00",
@@ -93,13 +98,13 @@
                       "actTitle":  "2º TERMO ADITIVO AO CONTRATO Nº 053/2022",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  5,
                       "contractNumber":  "053/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "SUL VALE CONSTRUTORA LTDA-ME",
+                      "processNumber":  "009/2022",
+                      "modality":  "Tomada de Precos - n°. 009/2022",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA-ME CONTRATO N°: 053/2022",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa Especializada para obra de Centro Multiuso, localizada na Avenida Maestro Moacir Serra s/n – Bairro Canto do Morro, confome termo de Convenio nº 100813/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape. Tomada de Precos - n°. 009/2022",
                       "value":  "",
@@ -117,7 +122,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "2º TERMO ADITIVO AO CONTRATO Nº 053/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SUL VALE CONSTRUTORA LTDA-ME\nCONTRATO N°: 053/2022\nOBJETO: Contratacao de Empresa Especializada para obra de Centro Multiuso, localizada na Avenida Maestro Moacir\nSerra s/n – Bairro Canto do Morro, confome termo de Convenio nº 100813/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura\nde Iguape.\nTomada de Precos - n°. 009/2022\nDATA: 25/04/2023\nVIGENCIA: Prorrogada a Execucao do Servico e Vigencia do Contr",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]

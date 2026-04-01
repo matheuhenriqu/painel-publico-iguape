@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "390",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:29",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:31",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/e7de1131ce771672f88d7b3771b58497.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/e7de1131ce771672f88d7b3771b58497.pdf",
     "keywords":  [
@@ -9,218 +9,18 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  7,
-                    "itemCount":  6,
-                    "totalValue":  "R$ 0,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "1º TERMO ADITIVO AO CONTRATO N.º 051/2022",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "051/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "EMPRESA EPCCO ENGENHARIA DE PROJETOS CONSULTORIA E CONSTRUCOES LTDA",
-                      "cnpj":  "",
-                      "object":  "Contratacao de Empresa Especializada para obra de recapeamento e obras complementares da Rua Celso Ramos no Bairro do Rocio, conforme Termo de Covenio nº 100622/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape. Tomada de Precos - n°. 008/2022",
-                      "value":  "",
-                      "term":  "Prazo de vigencia e execucao - 03(tres) meses, contados de seu vencimento.",
-                      "signatureDate":  "13/09/2022",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "1º TERMO ADITIVO AO CONTRATO N.º 051/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: EMPRESA EPCCO ENGENHARIA DE PROJETOS CONSULTORIA E CONSTRUCOES LTDA\nOBJETO: Contratacao de Empresa Especializada para obra de recapeamento e obras complementares da Rua Celso Ramos no Bairro\ndo Rocio, conforme Termo de Covenio nº 100622/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de\nIguape.\nTomada de Precos - n°. 008/2022\nDATA: 13/09/2022\nVIGENCIA: Prazo de vigencia e execucao - 03(tres) meses, c",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS Nº 073/2021",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "073/2021",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "RONIE PETERSON RAMPONI",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS Nº 073/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: RONIE PETERSON RAMPONI",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem objeto identificado",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 073/2021",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  10,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "073/2021",
-                      "processNumber":  "033/2021",
-                      "modality":  "Pregao Presencial n°. 033/2021",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Ficam CANCELADOS da Ata de Registro os presentes sabor morango Pregao Presencial n°. 033/2021",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "14/09/2022",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
 
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 073/2021\nOBJETO: Ficam CANCELADOS da Ata de Registro os presentes\nsabor morango\nPregao Presencial n°. 033/2021\nDATA: 14/09/2022",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem contratada identificada",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "2º TERMO ADITIVO DE ADEQUACAO AO LOTE III nos termos do artigo 65, inciso II, alinea",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "",
-                      "processNumber":  "027/2022",
-                      "modality":  "Pregao Presencial nº 019/2022",
-                      "contractor":  "FRANKLIN CANGUSSU SAMPAIO EIRELI",
-                      "cnpj":  "",
-                      "object":  "Constitui o presente termo de Adequacao ao Lote III, sem alteracao de custos “b” da Lei 8.666/93",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "09/09/2022",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "2º TERMO ADITIVO DE ADEQUACAO AO LOTE III nos termos do artigo 65, inciso II, alinea\nCONTRATO DE 035/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: FRANKLIN CANGUSSU SAMPAIO EIRELI\nOBJETO: Constitui o presente termo de Adequacao ao Lote III, sem alteracao de custos\n“b” da Lei 8.666/93\nDATA: 09/09/2022\nProcesso Administrativo nº 027/2022\nPregao Presencial nº 019/2022",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem numero do contrato",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 048/2021",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "048/2021",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "OLIVEIRA ENGENHARIA EIRELI-EPP",
-                      "cnpj":  "",
-                      "object":  "Contratacao de Empresa Especializada para obra de construcao do Centro de Convivencia do Idoso, convenioProcesso SEDS/ n° 627/2020, celebrado entre o Estado de Sao Paulo, por meio da Secretaria de Desenvolvimento municipio de Iguape/SP Tomada de Precos - n°. 006/2021",
-                      "value":  "",
-                      "term":  "Periodo de 02 (dois) meses de 19/10/2022 a 18/12/2022 e a execucao de 20/09/2022 a 19/11/2022",
-                      "signatureDate":  "19/09/2022",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 048/2021 conforme\nCONTRATANTE: MUNICIPIO DE IGUAPE Social e o\nCONTRATADA: OLIVEIRA ENGENHARIA EIRELI-EPP\nCONTRATO N°: 048/2021\nOBJETO: Contratacao de Empresa Especializada para obra de construcao do Centro de Convivencia do Idoso,\nconvenioProcesso SEDS/ n° 627/2020, celebrado entre o Estado de Sao Paulo, por meio da Secretaria de Desenvolvimento\nmunicipio de Iguape/SP\nTomada de Precos - n°. 006/2021\nDATA: 19/09/2022\nVIGENCIA: Periodo de 02 (dois) meses de 19/10/2022 a 18/12/",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO N.º 095/2021",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "095/2021",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "ENGETEC ENGENHARIA EIRELI - ME",
-                      "cnpj":  "",
-                      "object":  "Constitui objeto do presente termo a prorrogacao da vigencia do contrato supramencionado, referente a contratacao de empresa especializada para pavimentacao e obras complementares da Rua Manoel Felix da Rocha no bairro do Rocio- conforme convenio nº 101112/2021-SDR (Lote-001) TOMADA DE PRECOS Nº 15/2021",
-                      "value":  "",
-                      "term":  "do contrato supramencionado, referente a contratacao de",
-                      "signatureDate":  "19/09/2022",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO N.º 095/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ENGETEC ENGENHARIA EIRELI - ME\nOBJETO: Constitui objeto do presente termo a prorrogacao da vigencia do contrato supramencionado, referente a contratacao de\nempresa especializada para pavimentacao e obras complementares da Rua Manoel Felix da Rocha no bairro do Rocio- conforme\nconvenio nº 101112/2021-SDR (Lote-001)\nTOMADA DE PRECOS Nº 15/2021\nDATA: 19/09/2022\nVIGENCIA: 20/09/2022 a 19/12/2022 (inclusive).",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem valor identificado"
-                                ]
-                  }
               ]
 }

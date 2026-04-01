@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "458",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:17",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:15",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/87ebacb1f68046f044f0c09b92ea7849.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/87ebacb1f68046f044f0c09b92ea7849.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  6,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -25,7 +30,7 @@
                       "contractNumber":  "",
                       "processNumber":  "1191/2022",
                       "modality":  "PR-G - PREGAO PRESENCIAL - 70/2022 - EDITAL Nº: 97/2022",
-                      "contractor":  "SOM DA ILHA COMERCIO E PRODUCOES LTDA",
+                      "contractor":  "SOM DA ILHA COMERCIO E PRODUCOES LTDA. TOTAL GERAL: 7.313.000,00 WILSON ALMEIDA LIMA Iguape, 29 de dezembro de 2022. PREFEITO",
                       "cnpj":  "",
                       "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12(DOZE) MESES PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA LOCACAO DE PROJECAO DE IMAGEM, PAINEL DE LED E TELAO, ILUMINACAO, SONORIZACAO, GERADORES, GRADES, PALCOS, PISOS, TENDAS, GALPOES, CONTAINERS CAMARINS/ESCRITORIO E SANITARIOS, E ESTRUTURAS COMPLEMENTARES E APOIO, A SEREM UTILIZADOS NOS EVENTOS, NESTE MUNICIPIO DE IGUAPE/SP",
                       "value":  "",

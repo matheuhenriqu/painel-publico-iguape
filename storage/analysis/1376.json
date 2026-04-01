@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1376",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-27T14:28:44",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:25",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1182_27073407.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1182_27073407.pdf",
     "keywords":  [
@@ -9,15 +9,20 @@
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  5,
-                    "itemCount":  1,
+                    "relevantPageCount":  2,
+                    "blockCount":  2,
+                    "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
     "items":  [
                   {
                       "type":  "Gestao Contratual",
-                      "actTitle":  "PORTARIA N┬║ 76,",
+                      "actTitle":  "PORTARIA Nº 76,",
                       "recordClass":  "gestao_contratual",
                       "recordClassLabel":  "Gestao do contrato",
                       "confidenceScore":  6,
@@ -31,22 +36,62 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publica├º├uo, revogadas as disposi├º├Aes em contr├irio",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura",
+                                                       "municipal-desenvolvimento-sustentavel"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 76,\n DE 25 DE MARCO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Selma Xavier Pontes, Secretaria Municipal de Desenvolvimento Economico Sustentavel, inscrito no CPF/MF nº.\n XXX.362.768-XX, para exercer a funcao de Gestor do Cont",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO Nº: 029/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "029/2024",
+                      "processNumber":  "023/2023",
+                      "modality":  "TOMADA DE PRECO N°. 023/2023",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de Requalificacao da Orla do Valo Grande - fase IV, convenio que entre si celebram o Estado de Sao Paulo, por meio da Secretaria de Turismo e Viagens e o Municipio de Iguape/SP – Termo de Convenio nº 178/2023. TOMADA DE PRECO N°. 023/2023 Data:-20/03/2026",
+                      "value":  "",
+                      "term":  "06 (seis) meses, periodo de 24/03/2026 a 23/09/2026 inclusive.",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
                       "primaryOrganizationSphere":  "municipal",
                       "primaryOrganizationAreaId":  "governo",
                       "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
+                                                       "municipal-prefeitura",
+                                                       "estadual-turismo"
                                                    ],
                       "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Turismo e Viagens"
                                                      ],
-                      "excerpt":  "PORTARIA N┬║ 76,\n DE 25 DE MAR├cO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E D├u OUTRAS PROVID├eNCIAS.\n\n SALVADOR JOS├e BARBOSA J├UNIOR, Prefeito Municipal de Iguape, Estado de S├uo Paulo, no uso das atribui├º├Aes que lhe s├uo conferidas\npelo artigo 85, inciso IV, da Lei Org├onica do Munic├¡pio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1┬║ - Ficam designados Selma Xavier Pontes, Secretaria Municipal de Desenvolvimento Econ├┤mico Sustent├ivel, inscrito no CPF/MF n┬║.\n XXX.362.768-XX, para exercer a fun├º├uo",
-                      "completeness":  "baixa",
+                      "excerpt":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO Nº: 029/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU\nCNPJ: 33.xxx.xxx.xxxx-56\nCONTRATO N°: 029/2024\nLOTE-01: Requalificacao da Orla do Valo Grande Fase IV\nOBJETO: Contratacao de empresa especializada para obra de Requalificacao da Orla do Valo Grande - fase IV, convenio que entre si celebram o Estado\nde Sao Paulo, por meio da Secretaria de Turismo e Viagens e o Municipio de Iguape/SP – Termo de Convenio nº 178/2023.\nTOMADA DE PREC",
+                      "completeness":  "alta",
                       "flags":  [
-                                    "Sem objeto identificado"
+                                    "Sem valor identificado"
                                 ]
                   }
               ]

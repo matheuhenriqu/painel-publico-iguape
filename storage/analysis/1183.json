@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "1183",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:19",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:51",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1040_19072531.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1040_19072531.pdf",
     "keywords":  [
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  5,
+                    "relevantPageCount":  2,
+                    "blockCount":  3,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -30,7 +35,7 @@
                       "object":  "EMPRESA LFC CONSTRUTORA LTDA",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -47,7 +52,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 195, DE 15 DE AGOSTO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Ricardo de Oliveira Ragni de Castro Leite, Secretario Municipal de Infraestrutura Urbana e Obras, inscrito no CPF/MF nº.\n 293.199.448-06, para exercer a funcao de gestor do Contrat",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -57,18 +62,18 @@
                       "actTitle":  "PREGAO ELETRONICO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  7,
+                      "confidenceScore":  8,
                       "confidenceLabel":  "media",
                       "pageNumber":  4,
                       "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "PREGAO ELETRONICO",
+                      "processNumber":  "017/2025",
+                      "modality":  "PREGAO ELETRONICO – n.º 017/2025",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "Aquisicao de um Veiculo tipo Caminhonete PICK-UP, zero KM, cabine dupla, em atendimento ao Fundo Social de Solidariedade do Municipio de Iguape/SP, conforme especificacoes tecnicas detalhadas nos termos e condicoes estabelecidos nos documentos anexos. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
+                      "object":  "Aquisicao de um Veiculo tipo Caminhonete PICK-UP, zero KM, cabine dupla, em atendimento ao Fundo Social de Solidariedade do Municipio de Iguape/SP, conforme especificacoes tecnicas detalhadas nos termos e condicoes estabelecidos nos documentos anexos",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "signatureDate":  "",
                       "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -85,7 +90,7 @@
                       "excerpt":  "PREGAO ELETRONICO\n\nEncontra-se REABERTO na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO – n.º 017/2025, do tipo MENOR PRECO, situada na Avenida\nAdhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: Aquisicao de um Veiculo tipo Caminhonete PICK-UP, zero KM, cabine dupla, em atendimento ao Fundo Social de Solidariedade do\nMunicipio de Iguape/SP, conforme especificacoes tecnicas detalhadas nos termos e condicoes estabelecidos nos docu",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem numero principal identificado"
+
                                 ]
                   }
               ]

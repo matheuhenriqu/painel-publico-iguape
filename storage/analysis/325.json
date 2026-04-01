@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "325",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:41",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:47",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/fd955c8a189a4d3d210b952488464fb7.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/fd955c8a189a4d3d210b952488464fb7.pdf",
     "keywords":  [
@@ -12,8 +12,13 @@
                      "homologacao",
                      "rescisao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  36,
+                    "relevantPageCount":  4,
+                    "blockCount":  7,
                     "itemCount":  4,
                     "totalValue":  "R$ 0,00"
                 },
@@ -34,7 +39,7 @@
                       "object":  "Metalurgica Sillott LTDA ME",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -47,7 +52,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "PORTARIA Nº 153\n DE 13 DE JUNHO DE 2022\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRA PROVIDENCIA.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao\nPaulo, no uso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Giulia Barreto Bezerra, sub Secretaria Municipal Adjunto, titular da Cedula de Identidade RG nº 42.960.429-\n 4 SSP/SP, inscrita no CPF/MF nº 440.698.418-65, para exercer a funcao de Gestor do",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -68,7 +73,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -104,7 +109,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -140,7 +145,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",

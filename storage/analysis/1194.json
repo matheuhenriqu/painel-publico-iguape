@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "1194",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:18",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:48",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1050_02070428.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1050_02070428.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -29,7 +34,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "marcada para o dia 03/09/2025 as 09h00m na plataforma BLL",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -44,7 +49,7 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "PREGAO ELETRONICO Nº 012/2025- MENOR VALOR GLOBAL\n\nA PREFEITURA MUNICIPAL DE IGUAPE, atraves do Pregoeiro, no uso legais de suas atribuicoes; torna publico para conhecimento dos interessados\no RESULTADO do julgamento do recurso administrativo, cujo objeto e a Contratacao de empresa especializada para o Sistema de Registro de\nPrecos para Sinalizacao Viaria Horizontal e Vertical com fornecimento de material e mao de obra, pelo periodo de 12 (doze)meses, demais\ninformacoes constantes no termo de referencia Anexo I do ",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
                                     "Sem objeto identificado"
                                 ]

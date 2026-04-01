@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "1210",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:14",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:42",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_107_19094230.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_extra_107_19094230.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 130,50"
                 },
@@ -19,15 +24,15 @@
                       "actTitle":  "Chamada Publica nº: 11/2025 Edital nº: 30/2025 Processo nº: 727/2025",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  12,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  1,
                       "contractNumber":  "",
                       "processNumber":  "727/2025",
                       "modality":  "Chamada Publica nº: 11/2025",
-                      "contractor":  "es Qtd. Distribuida Vlr. Unitario Vlr. Total",
+                      "contractor":  "es Qtd. Distribuida Vlr. Unitario Vlr. Total 12 meses 150,2500 312520,00 1º- BEM ESTAR E SAUDE MEDICINA E DIAGNOSTICO LTDA 2º-DOCTOR GESTAO EM SERVICOS LTDA 01 profissional 2080,000 Item-3: TERAPEUTA OCUPACIONAL 40h",
                       "cnpj":  "",
-                      "object":  "",
+                      "object":  "o Credenciamento de pessoas fisicas e juridicas para a prestacao de servicos medicos plantonistas, Medicos para Saude da Familia, medicos especialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTA OCUPACIONAL, FONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de saude de Iguape, bem como todos os locais de atendimento que a compoe, pelo periodo de 12 meses",
                       "value":  "R$ 130,5000",
                       "term":  "",
                       "signatureDate":  "",
@@ -45,7 +50,7 @@
                       "excerpt":  "Chamada Publica nº: 11/2025 Edital nº: 30/2025 Processo nº: 727/2025\n\nObjeto: o Credenciamento de pessoas fisicas e juridicas para a prestacao de servicos medicos plantonistas, Medicos para Saude da Familia,\n medicos especialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTA\n OCUPACIONAL, FONOAUDIOLOGO E\n NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de saude de Iguape, bem como todos os locais de\n atendimento que a compoe, pelo periodo de 12 meses. .\n\n INT",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem objeto identificado"
+
                                 ]
                   }
               ]

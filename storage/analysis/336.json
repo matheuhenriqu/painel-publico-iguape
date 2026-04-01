@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "336",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:37",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:43",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/20e172c6d11df18487ca72a5fb733045.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/20e172c6d11df18487ca72a5fb733045.pdf",
     "keywords":  [
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -19,18 +24,18 @@
                       "actTitle":  "EXTRATO DE RATIFICACAO DO PROCESSO DE DISPENSA Nº 015/2022",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
-                      "confidenceLabel":  "alta",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
                       "pageNumber":  3,
                       "contractNumber":  "",
                       "processNumber":  "015/2022",
                       "modality":  "",
-                      "contractor":  "(a): SIMONE NOVAIS RIBEIRO 32855780845, com sede a Rua Iguape nº 52, Balneario Meu Recanto –",
+                      "contractor":  "",
                       "cnpj":  "33.096.661/0001-11",
-                      "object":  "Aquisicao de Agua Mineral parceladamente para atender as necessidades da Camara Municipal de Iguape. • Contratado (a): SIMONE NOVAIS RIBEIRO 32855780845, com sede a Rua Iguape nº 52, Balneario Meu Recanto – Ilha Comprida/SP, CEP: 11.925-000, inscrita no CNPJ sob nº 33.096.661/0001-11",
+                      "object":  "",
                       "value":  "",
                       "term":  "06 (seis) meses a partir da assinatura do contrato.",
-                      "signatureDate":  "do contrato",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-camara",
                       "primaryOrganizationName":  "Camara Municipal de Iguape",
@@ -47,8 +52,9 @@
                                                          "Advocacia-Geral da Uniao"
                                                      ],
                       "excerpt":  "EXTRATO DE RATIFICACAO DO PROCESSO DE DISPENSA Nº 015/2022\n\nNo dia cinco de julho dois mil e vinte e dois, por determinacao do Excelentissimo Senhor Eduardo de Lara, Presidente da Camara\nMunicipal de Iguape, em cumprimento ao Art. 72 da Lei 14.133 de 2021, apos ratificacao autoriza a publicacao do resumo do\nprocesso de Dispensa de Licitacao N° 015/2022, tendo como objeto, Aquisicao de Agua Mineral parceladamente para atender as\nnecessidades da Camara Municipal de Iguape.\n\n• Contratado (a): SIMONE NOVAIS RIBEIRO 328",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
+                                    "Sem objeto identificado",
                                     "Sem modalidade identificada"
                                 ]
                   }

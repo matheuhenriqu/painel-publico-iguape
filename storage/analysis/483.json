@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "483",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:14",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:10",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/318ce3ed0c90e1a542d2421f9666ded0.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/318ce3ed0c90e1a542d2421f9666ded0.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -20,10 +25,10 @@
                       "actTitle":  "3º TERMO ADITIVO DE ADEQUACAO AO LOTE I de Referencia ao Lote I, sem alteracao de custos nos termos do artigo",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  3,
-                      "contractNumber":  "",
+                      "contractNumber":  "035/2022",
                       "processNumber":  "027/2022",
                       "modality":  "Pregao Presencial nº 019/2022",
                       "contractor":  "FRANKLIN CANGUSSU SAMPAIO EIRELI",
@@ -44,9 +49,8 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "3º TERMO ADITIVO DE ADEQUACAO AO LOTE I de Referencia ao Lote I, sem alteracao de custos nos termos do artigo\nCONTRATO DE 035/2022 do Medico Generalista do ESF Jaire para o ESF Barra do Ribeira.\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: FRANKLIN CANGUSSU SAMPAIO EIRELI\nOBJETO: Constitui o presente termo de Adequacao ao Termo\n65, inciso II, alinea “b” da Lei 8.666/93, sendo: Realocacao\nDATA: 30/01/2023\nProcesso Administrativo nº 027/2022\nPregao Presencial nº 019/2022",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
-                                    "Sem numero do contrato",
                                     "Sem valor identificado"
                                 ]
                   }

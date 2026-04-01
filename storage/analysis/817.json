@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "817",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:09",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:28",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_755_16073124.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_755_16073124.pdf",
     "keywords":  [
                      "contrato",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 150.000,00"
                 },
@@ -25,7 +30,7 @@
                       "contractNumber":  "039/2020",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+                      "contractor":  "BRASILEIRA DE CORREIOS E TELEGRAFOS",
                       "cnpj":  "",
                       "object":  "Contrato Multiplo de Prestacao de Servicos e Vendas de Produtos – Correios e Telegrafos",
                       "value":  "",

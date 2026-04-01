@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "652",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:41",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:23",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/db33cd8733a2c3d1c4d7a89e4512ea61.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/db33cd8733a2c3d1c4d7a89e4512ea61.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -20,13 +25,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "",
                       "processNumber":  "441/2023",
                       "modality":  "PR-G - PREGAO PRESENCIAL - 48/2023 - EDITAL Nº: 77/2023",
-                      "contractor":  "S NO FUTURO, DA ADMINISTRACAO PUBLICA",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "MAIOR PRECO GLOBAL CONTRATACAO DE INSTITUICAO FINANCEIRA PARA O RECEBIMENTO DOS CREDITOS EM CONTA, DOS ATUAIS SERVIDORES ATIVOS, INATIVOS E PENSIONISTAS, BEM COMO, AQUELES QUE FOREM CONTRATADOS NO FUTURO, DA ADMINISTRACAO PUBLICA",
                       "value":  "",

@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "636",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:44",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:27",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/d35279aba748ca48e6d2a190d907ebb4.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/d35279aba748ca48e6d2a190d907ebb4.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  9,
                     "itemCount":  5,
                     "totalValue":  "R$ 0,00"
                 },

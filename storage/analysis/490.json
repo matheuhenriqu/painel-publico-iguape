@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "490",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:13",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:08",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/d8d9e5ca20b5c0228c54ba88d668f6ed.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/d8d9e5ca20b5c0228c54ba88d668f6ed.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  26,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -20,13 +25,13 @@
                       "actTitle":  "2º TERMO ADITIVO AO CONTRATO Nº 091/2021",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  5,
                       "contractNumber":  "091/2021",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "YPUA SANEAMENTO AMBIENTAL EIRELI",
+                      "processNumber":  "014/2021",
+                      "modality":  "Tomada de Precos - n°. 014/2021",
+                      "contractor":  "YPUA SANEAMENTO AMBIENTAL EIRELI CONTRATO N°: 091/2021 LOTE 01- BAIRRO PE DA SERRA",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa Especializada para execucao de fornecimento e instalacao de unidade sanitaria individual (USI) para tratamento de esgoto unifamiliar nos bairros deste municipio de Iguape/SP, conforme contrtatos nº 129,130,131/2020 e 019/2021, celebrados entre a Prefeitura de Iguape e FEHIDRO – Fundo Estadual de Recursos Hidricos Tomada de Precos - n°. 014/2021",
                       "value":  "",
@@ -46,7 +51,7 @@
                                                          "Advocacia-Geral da Uniao"
                                                      ],
                       "excerpt":  "2º TERMO ADITIVO AO CONTRATO Nº 091/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: YPUA SANEAMENTO AMBIENTAL EIRELI\nCONTRATO N°: 091/2021\nLOTE 01- BAIRRO PE DA SERRA\nOBJETO: Contratacao de Empresa Especializada para execucao de fornecimento e instalacao de unidade sanitaria individual (USI)\npara tratamento de esgoto unifamiliar nos bairros deste municipio de Iguape/SP, conforme contrtatos nº 129,130,131/2020 e 019/2021,\ncelebrados entre a Prefeitura de Iguape e FEHIDRO – Fundo Estadual de Recursos Hidricos\nTomad",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]
@@ -56,13 +61,13 @@
                       "actTitle":  "2º TERMO ADITIVO AO CONTRATO Nº 093/2021",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  5,
                       "contractNumber":  "093/2021",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "YPUA SANEAMENTO AMBIENTAL EIRELI",
+                      "processNumber":  "014/2021",
+                      "modality":  "Tomada de Precos - n°. 014/2021",
+                      "contractor":  "YPUA SANEAMENTO AMBIENTAL EIRELI CONTRATO N°: 093/2021 LOTE 03- RETIRO",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa Especializada para execucao de fornecimento e instalacao de unidade sanitaria individual (USI) para tratamento de esgoto unifamiliar nos bairros deste municipio de Iguape/SP, conforme contrtatos nº 129,130,131/2020 e 019/2021, celebrados entre a Prefeitura de Iguape e FEHIDRO – Fundo Estadual de Recursos Hidricos Tomada de Precos - n°. 014/2021",
                       "value":  "",
@@ -82,7 +87,7 @@
                                                          "Advocacia-Geral da Uniao"
                                                      ],
                       "excerpt":  "2º TERMO ADITIVO AO CONTRATO Nº 093/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: YPUA SANEAMENTO AMBIENTAL EIRELI\nCONTRATO N°: 093/2021\nLOTE 03- RETIRO\nOBJETO: Contratacao de Empresa Especializada para execucao de fornecimento e instalacao de unidade sanitaria individual (USI)\npara tratamento de esgoto unifamiliar nos bairros deste municipio de Iguape/SP, conforme contrtatos nº 129,130,131/2020 e 019/2021,\ncelebrados entre a Prefeitura de Iguape e FEHIDRO – Fundo Estadual de Recursos Hidricos\nTomada de Precos ",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]

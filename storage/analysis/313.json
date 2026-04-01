@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "313",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:43",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:51",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/4b53d6fa013b20d4aa5c312e24868525.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/4b53d6fa013b20d4aa5c312e24868525.pdf",
     "keywords":  [
@@ -13,147 +13,18 @@
                      "inexigibilidade",
                      "rescisao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  41,
-                    "itemCount":  4,
-                    "totalValue":  "R$ 2.579.559,52"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:068/2022",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  16,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  39,
-                      "contractNumber":  "8/2022",
-                      "processNumber":  "032/2022",
-                      "modality":  "Pregao Presencial n°. 032/2022",
-                      "contractor":  "o valor global de R$ 411.375,00 (quatrocentos e onze mil, trezentos e setenta e cinco reais)",
-                      "cnpj":  "",
-                      "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICAO DE TUBOS DE CONCRETO ARMADO, PARA EXECUCAO DE SERVICOS DE MANEJO DE VALAS, TRANSPOSICOES DE CORPOS HIDRICOS E DRENAGEM PLUVIAL NO MUNICIPIO DE IGUAPE/SP. Pregao Presencial n°. 032/2022",
-                      "value":  "R$ 411.375,00",
-                      "term":  "27/05/2022 a 26/05/2023",
-                      "signatureDate":  "27/05/2022",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:068/2022\nOBJETO: REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICAO DE TUBOS DE\nCONCRETO ARMADO, PARA EXECUCAO DE SERVICOS DE MANEJO DE VALAS, TRANSPOSICOES DE\nCORPOS HIDRICOS E DRENAGEM PLUVIAL NO MUNICIPIO DE IGUAPE/SP.\nPregao Presencial n°. 032/2022\nDATA: 27/05/2022\nVIGENCIA: 27/05/2022 a 26/05/2023\nVALOR: Pagara a contratada o valor global de R$ 411.375,00 (quatrocentos e onze mil, trezentos e setenta e cinco reais)",
-                      "completeness":  "alta",
-                      "flags":  [
 
-                                ]
-                  },
-                  {
-                      "type":  "Contrato",
-                      "actTitle":  "Contrato 046/2022",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  16,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  39,
-                      "contractNumber":  "046/2022",
-                      "processNumber":  "029/2022",
-                      "modality":  "Pregao Presencial nº 029/2022",
-                      "contractor":  "INTERVALE TRANSPORTE E TURISMO EIRELI-EPP",
-                      "cnpj":  "",
-                      "object":  "contratacao de empresa especializada na prestacao de Servicos de Transporte Diario de pacientes atendidos pelo SUS na Rede Basica de Saude do Municipio de Iguape pelo periodo de 12 (doze) meses. Pregao Presencial nº 029/2022",
-                      "value":  "R$ 2.033.394,52",
-                      "term":  "26/05/2022 a 25/05/2023",
-                      "signatureDate":  "25/05/2022",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: INTERVALE TRANSPORTE E TURISMO EIRELI-EPP\nCONTRATO N°: 046/2022\nOBJETO: contratacao de empresa especializada na prestacao de Servicos de Transporte Diario de pacientes atendidos\npelo SUS na Rede Basica de Saude do Municipio de Iguape pelo periodo de 12 (doze) meses.\nPregao Presencial nº 029/2022\nDATA: 25/05/2022\nVALOR: Pagara a contratada o valor global de R$ 2.033.394,52 (dois milhoes, trinta e tres mil e trezentos e noventa e\nquatro reais e cinquenta e dois ce",
-                      "completeness":  "alta",
-                      "flags":  [
-
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "6º TERMO ADITIVO AO CONTRATO Nº 019/2019",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  39,
-                      "contractNumber":  "019/2019",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "ENGETEC ENGENHARIA EIRELI - ME",
-                      "cnpj":  "",
-                      "object":  "Constitui objeto do presente termo a prorrogacao da vigencia do contrato supra mencionado, pelo periodo de mais 06 (seis) meses, contados de seu vencimento, no que se refere a Contratacao de Empresa Especializada para Execucao das Obras de Requalificacao da Orla do Valo Grande “FASE III” Convenio nº 167/2018 – DADETUR 349/2018, com fornecimento de equipamentos, material e mao de obra",
-                      "value":  "",
-                      "term":  "do contrato supra mencionado, pelo periodo de",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "6º TERMO ADITIVO AO CONTRATO Nº 019/2019\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ENGETEC ENGENHARIA EIRELI - ME\nOBJETO: Constitui objeto do presente termo a prorrogacao da vigencia do contrato supra mencionado, pelo periodo de\nmais 06 (seis) meses, contados de seu vencimento, no que se refere a Contratacao de Empresa Especializada\npara Execucao das Obras de Requalificacao da Orla do Valo Grande “FASE III” Convenio nº 167/2018 – DADETUR\n349/2018, com fornecimento de equipamentos, material e mao de obra.",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "10º TERMO ADITIVO AO CONTRATO Nº 230/2017",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  16,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  39,
-                      "contractNumber":  "230/2017",
-                      "processNumber":  "054/2017",
-                      "modality":  "Pregao Presencial n°. 054/2017",
-                      "contractor":  "FENICIA CURSOS TREINAMENTOS E CAPACITACAO LTDA - ME",
-                      "cnpj":  "",
-                      "object":  "Constitui objeto do presente termo a prorrogacao da vigencia do contrato 230/2017, referente a contratacao de empresa especializada para oferta de profissionais qualificados para ministrar oficinas para idosos, adolescentes e familias usuarios dos servicos do CRAS, bem como para cadastradores para o CADUNICO, e para execucao do programa “ACESSUAIS” em atendimento aos programas do Governo Federal, no Municipio de Iguape, pelo periodo de 06 (seis) meses. Pregao Presencial n°. 054/2017",
-                      "value":  "R$ 134.790,00",
-                      "term":  "do contrato 230/2017, referente a contratacao de",
-                      "signatureDate":  "20/05/2022",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "10º TERMO ADITIVO AO CONTRATO Nº 230/2017\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: FENICIA CURSOS TREINAMENTOS E CAPACITACAO LTDA - ME\nOBJETO: Constitui objeto do presente termo a prorrogacao da vigencia do contrato 230/2017, referente a contratacao de\nempresa especializada para oferta de profissionais qualificados para ministrar oficinas para idosos, adolescentes e familias\nusuarios dos servicos do CRAS, bem como para cadastradores para o CADUNICO, e para execucao do programa\n“ACESSUAIS” em atendimento aos pro",
-                      "completeness":  "alta",
-                      "flags":  [
-
-                                ]
-                  }
               ]
 }

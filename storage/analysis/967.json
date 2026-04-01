@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "967",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:51",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:51",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_876_27075425.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_876_27075425.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -19,13 +24,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  1,
                       "contractNumber":  "",
                       "processNumber":  "504/2024",
                       "modality":  "PR-E - PREGAO ELETRONICO - 13/2024 - EDITAL Nº: 24/2024",
-                      "contractor":  "ELITH INFORMATICA LTDA",
+                      "contractor":  "",
                       "cnpj":  "35203012022000",
                       "object":  "Aquisicao de equipamentos de informatica, com destinacao dos bens para o Centro de Referencia de Assistencia Social (CRAS), oriundo do RECURSO: EMENDA PARLAMENTARPROCESSONº202281000306.PROGRAMACAO SIGTV N° 352030120220002, emconformidade com os anex",
                       "value":  "",

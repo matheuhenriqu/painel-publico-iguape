@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "569",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:57",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:48",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/a4504ecb8811b29c1ea97ae7df69374a.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/a4504ecb8811b29c1ea97ae7df69374a.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  5,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 2.118.486,18"
                 },
@@ -21,10 +26,10 @@
                       "actTitle":  "3º TERMO ADITIVO DE PRORROGACAO",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  14,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
-                      "contractNumber":  "",
+                      "contractNumber":  "046/2022",
                       "processNumber":  "029/2022",
                       "modality":  "Pregao Presencial nº 029/2022",
                       "contractor":  "INTERVALE TRANSPORTE TURISMO EIRELI-EPP",
@@ -49,7 +54,7 @@
                       "excerpt":  "3º TERMO ADITIVO DE PRORROGACAO\nCONTRATO DE 046/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: INTERVALE TRANSPORTE TURISMO EIRELI-EPP\nOBJETO: contratacao de empresa especializada na prestacao de servicos de transporte diario de pacientes atendidos pelo SUS na Rede Basica de\nSaude do municipio de Iguape pelo periodo de 12 (doze) meses.\nDATA: 25/05/2023\nPregao Presencial nº 029/2022\nVIGENCIA: Periodo de 26/05/2023 a 25/05/2024\nVALOR: O valor global e de R$ 2.118.486,18 (dois milhoes, cento e dezoito mil, quatroce",
                       "completeness":  "alta",
                       "flags":  [
-                                    "Sem numero do contrato"
+
                                 ]
                   }
               ]

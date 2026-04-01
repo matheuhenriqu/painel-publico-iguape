@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "893",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:59",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:07",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_815_17080203.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_815_17080203.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  2,
+                    "blockCount":  6,
                     "itemCount":  4,
                     "totalValue":  "R$ 630.000,00"
                 },
@@ -32,7 +37,7 @@
                       "object":  "destina-se exclusivamente a Contratacao para a Locacao de Imovel para atendimento da Estrategia Saude da Familia (ESF) Aeroporto atendendo a demanda da Secretaria de Saude",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -47,7 +52,7 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "PORTARIA Nº 215\n DE 15 DE AGOSTO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Eder Henrique de Ramos Silva, Coordenador I PSF, titular da Cedula de Identidade – RG nº 30.992.438-8 SSP/SP, inscrito\n no CPF/MF sob o nº 384.443.768-17, para exercer a funcao de gestor d",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -91,13 +96,13 @@
                       "actTitle":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO 008/2024",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  3,
                       "contractNumber":  "008/2024",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA",
+                      "processNumber":  "018/2023",
+                      "modality":  "TOMADA DE PRECO Nº 018/2023",
+                      "contractor":  "EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA CONTRATO N°: 008/2024",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para obra de reforma e ampliacao da Casa da Crianca, localizada na rua k, nº 180, bairro Jardim Primavera, neste Municipio de Iguape/SP. TOMADA DE PRECO Nº 018/2023",
                       "value":  "",
@@ -115,7 +120,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO 008/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA\nCONTRATO N°: 008/2024\nOBJETO: Contratacao de empresa especializada para obra de reforma e ampliacao da Casa da Crianca, localizada na rua k, nº 180, bairro Jardim\nPrimavera, neste Municipio de Iguape/SP.\nTOMADA DE PRECO Nº 018/2023\nData: 15/08/2024\nVIGENCIA: Vigencia e Execucao: 90 (noventa) dias – Periodo de 18/08/2024 a 15/11/2024 inclusive.\n\n CADERNO LEGISLATIVO\n\n ASSUNTOS F",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]
@@ -130,7 +135,7 @@
                       "pageNumber":  3,
                       "contractNumber":  "",
                       "processNumber":  "028/2024",
-                      "modality":  "Concorrencia publica n° 01/2024",
+                      "modality":  "CONCORRENCIA PUBLICA Nº - 01/2024",
                       "contractor":  "",
                       "cnpj":  "08.098.069/0001-01",
                       "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA PRESTACAO DE SERVICOS TECNICOS DE CONSULTORIA NAS AREAS ORCAMENTARIA, CONTABIL E FINANCEIRA OBJETIVANDO O CUMPRIMENTO DAS EXIGENCIAS LEGAIS, ATRAVES DE INFORMACOES PREVENTIVAS E CONSULTIVAS PARA ATENDIMENTO DAS DEMANDAS DESTA CAMARA MUNICIPAL",

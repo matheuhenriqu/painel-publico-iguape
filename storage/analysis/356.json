@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "356",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:33",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:36",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/d1e0ca171b04038ca7678e717e6b4473.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/d1e0ca171b04038ca7678e717e6b4473.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -20,13 +25,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "",
                       "processNumber":  "211/2022",
                       "modality":  "PR-G - PREGAO PRESENCIAL - 48/2022 - EDITAL Nº: 72/2022",
-                      "contractor":  "ENGETEC ENGENHARIA EIRELI - ME",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA EVENTUAL LOCACAO DE MAO DE OBRA COM A FINALIDADE DE EXECUCAO E MANUTENCAO DA INFRAESTRUTURA DE EVENTOS , NESTE MUNICIPIO DE IGUAPE/SP",
                       "value":  "",

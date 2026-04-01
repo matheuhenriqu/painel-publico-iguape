@@ -1,88 +1,25 @@
 ﻿{
     "diaryId":  "673",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:37",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:18",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/4acd9652293fa49c925dbb0dacd82851.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/4acd9652293fa49c925dbb0dacd82851.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  4,
-                    "itemCount":  2,
-                    "totalValue":  "R$ 95,41"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "1º TERMO ADITIVO DE CANCELAMENTO DE ITEM",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  7,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  4,
-                      "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "DENTAL PRIME PRODUTOS ODONTOLOGICOS MEDICOS HOSPITALARES LTDA",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "1º TERMO ADITIVO DE CANCELAMENTO DE ITEM\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: DENTAL PRIME PRODUTOS ODONTOLOGICOS MEDICOS HOSPITALARES LTDA",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem numero do contrato",
-                                    "Sem objeto identificado",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:048/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  4,
-                      "contractNumber":  "8/2023",
-                      "processNumber":  "009/2023",
-                      "modality":  "Pregao Presencial n°. 009/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicao de Material de Enfermagem, Radiologia, Odontologia e Fisioterapia, para atender as Unidades das Secretarias de Saude da Prefeitura Municipal de Iguape. Fica cancelado da Ata de Registro o item nº 07 – Anestesico cloridrato de lidocaina a 30 mg/ml com vaso constritor hemitartarato de norepinefrina 0,04 mg/ml, caixa c 50 tubetes – marca lidotesindla – 210 tb – valor unitario R$ 95,41 e valor total R$ 20.036,10. Pregao Presencial n°. 009/2023",
-                      "value":  "R$ 95,41",
-                      "term":  "",
-                      "signatureDate":  "23/10/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:048/2023\nOBJETO: Registro de Precos para aquisicao de Material de Enfermagem, Radiologia, Odontologia e Fisioterapia, para atender as Unidades das\nSecretarias de Saude da Prefeitura Municipal de Iguape. Fica cancelado da Ata de Registro o item nº 07 – Anestesico cloridrato de lidocaina a 30\nmg/ml com vaso constritor hemitartarato de norepinefrina 0,04 mg/ml, caixa c 50 tubetes – marca lidotesindla – 210 tb – valor unitario R$ 95,41 e valor\ntotal R$ 20.036,10.\nPregao Presencial n°. 009/2",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  }
+
               ]
 }

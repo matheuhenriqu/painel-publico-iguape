@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "1215",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:14",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:41",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1066-_24080527.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1066-_24080527.pdf",
     "keywords":  [
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  6,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -53,18 +58,18 @@
                       "actTitle":  "Chamada Publica/ Credenciamento nº11/2025.Objeto: OBJETO Contratacao de pessoas fisicas e juridicas para prestacao de servicos medicos",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  8,
+                      "confidenceScore":  6,
                       "confidenceLabel":  "media",
                       "pageNumber":  3,
                       "contractNumber":  "",
                       "processNumber":  "11/2025",
-                      "modality":  "Chamada Publica/ Credenciamento nº11/2025.Objeto: OBJETO Contratacao de pessoas fisicas e juridicas para prestacao de servicos medicos",
-                      "contractor":  "S/HABILITADAS e INABILITADAS as seguintes PARTICIPANTES",
+                      "modality":  "Chamada Publica/ Credenciamento nº11/2025",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "/ Nome PJ/ PF CREDENCIADA",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  null,
                       "primaryOrganizationName":  null,
@@ -77,7 +82,7 @@
 
                                                      ],
                       "excerpt":  "Chamada Publica/ Credenciamento nº11/2025.Objeto: OBJETO Contratacao de pessoas fisicas e juridicas para prestacao de servicos medicos\nplantonistas, Medicos para Saude da Familia, medicos especialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA,\nPSICOLOGO, TERAPEUTA OCUPACIONAL, ,FONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de\nsaude de Iguape, bem como todos os locais de atendimento que a compoe. Pelo periodo de 12 meses. Apos a analise dos documentos apresent",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
                                     "Sem objeto identificado"
                                 ]

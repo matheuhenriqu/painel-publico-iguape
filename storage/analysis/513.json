@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "513",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:08",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:02",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/471517324cff55e39922294e2c1e050f.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/471517324cff55e39922294e2c1e050f.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 160.400,00"
                 },
@@ -25,7 +30,7 @@
                       "contractNumber":  "043/2023",
                       "processNumber":  "008/2022",
                       "modality":  "PREGAO PRESENCIAL Nº: 008/2022",
-                      "contractor":  "L. AUGUSTA F. PEREIRA",
+                      "contractor":  "L. AUGUSTA F. PEREIRA CONTRATO N°: 043/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa especializada em servicos de arbitragem para eventos esportivos de Futebol e Futsal neste municipio de Iguape/SP PREGAO PRESENCIAL Nº: 008/2022",
                       "value":  "R$ 160.400,00",

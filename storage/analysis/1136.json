@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "1136",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:26",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:05",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1014_08071441.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1014_08071441.pdf",
     "keywords":  [
                      "contrato",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  2,
+                    "blockCount":  3,
                     "itemCount":  3,
                     "totalValue":  "R$ 0,00"
                 },
@@ -30,7 +35,7 @@
                       "object":  "JONATHAN LOPES PEREIRA (RJ SERVICOS)",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -47,7 +52,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 148,\n DE 07 DE JULHO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Ricardo de Oliveira Ragni de Castro Leite, Secretario Municipal de Infraestrutura Urbana e Obras, inscrito no CPF/MF nº.\n 293.199.448-06, para exercer a funcao de gestor do Contra",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -68,7 +73,7 @@
                       "object":  "EMPRESA JONATHAN LOPES PEREIRA (RJ SERVICOS)",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -85,7 +90,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 149,\n DE 07 DE JULHO DE 2025\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Demilson Pereira Fabricio, Assessor I, inscrito no CPF/MF nº 358.118.788-42, para exercer a funcao de fiscal do Contrato\n 082/2025, EMPRESA JONATHAN LOPES PEREIRA (RJ SERVICOS).\n\n",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -106,7 +111,7 @@
                       "object":  "Contratacao de empresa especializada para fornecimento e execucao de infraestrutura eletrica e hidraulica ,destinada a realizacao da Festa em Louvor ao Senhor Bom Jesus de Iguape – 2025, incluindo materiais, mao de obra, instalacao e posterior desmontagem, conforme projeto, memoria de calculo, cronograma e planilha orcamentaria anexos. A Prefeitura Municipal de Iguape, TORNA PUBLICO para conhecimento dos interessados, que o extrato e o edital de licitacao, sofreu retificacao conforme segue: Onde se le",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "872",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:02",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:11",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_798_20021350.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_798_20021350.pdf",
     "keywords":  [
@@ -10,116 +10,18 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  7,
-                    "itemCount":  3,
-                    "totalValue":  "R$ 244.000,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:067/2024.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  7,
-                      "contractNumber":  "7/2024",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para contratacao de empresa especializada em locacao de banheiros (container), a serem utilizados nos eventos do Municipio de Iguape/SP, pelo periodo de 02 (dois) meses",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:067/2024.\nOBJETO: Registro de Precos para contratacao de empresa especializada em locacao de banheiros (container), a serem utilizados nos eventos do\nMunicipio de Iguape/SP, pelo periodo de 02 (dois) meses.",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem contratada identificada",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "PREGAO ELETRONICO Nº 004/2024",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  7,
-                      "contractNumber":  "",
-                      "processNumber":  "004/2024",
-                      "modality":  "PREGAO ELETRONICO Nº 004/2024",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "R$ 244.000,00",
-                      "term":  "A Ata de Registro de Precos tera validade de 60 (sessenta) dias, contados a partir da sua assinatura.",
-                      "signatureDate":  "18/07/2024",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
 
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "PREGAO ELETRONICO Nº 004/2024\nData: 18/07/2024\nVIGENCIA: A Ata de Registro de Precos tera validade de 60 (sessenta) dias, contados a partir da sua assinatura.\nEXECUCAO: Periodo para a realizacao dos servicos sera entre 26/07/2024 e 09/08/2024.\nVALOR: Valor Global da Ata de Registro de Precos: R$ 244.000,00 (duzentos e quarenta e quatro mil).",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem numero do contrato",
-                                    "Sem contratada identificada",
-                                    "Sem objeto identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Homologacao",
-                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  7,
-                      "contractNumber":  "",
-                      "processNumber":  "317/2024",
-                      "modality":  "PR-E - PREGAO ELETRONICO - 6/2024 - EDITAL Nº: 13/2024",
-                      "contractor":  "LENITA PIRES DE ABREU 12836071826",
-                      "cnpj":  "",
-                      "object":  "REGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA EM PRESTACAO DE SERVICO DE LOCACAO DE CARRO DE SOM, INCLUINDO GRAVACAO DE ANUNCIOS, MOTORISTA, COMBUSTIVEL E DEMAIS INSUMOS PARA DIVULGACOES DE FUTURAS ACOES PARA SECRETARIAS/DEPARTAMENTOS DESTA",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-cultura",
-                      "primaryOrganizationName":  "Secretaria de Cultura",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "cultura",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-cultura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Secretaria de Cultura"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 317/2024\nREGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA EM PRESTACAO DE SERVICO DE LOCACAO DE CARRO DE\nSOM, INCLUINDO GRAVACAO DE ANUNCIOS, MOTORISTA, COMBUSTIVEL E DEMAIS INSUMOS PARA DIVULGACOES DE FUTURAS ACOES\nPARA SECRETARIAS/DEPARTAMENTOS DESTA\nPR-E - PREGAO ELETRONICO - 6/2024 - EDITAL Nº: 13/2024\nINTERESSADOS: SECRETARIA MUNIC. DE ASSISTENCIA E DESENV. SOCIAL e SECRETARIA MUNIC. DE CULTURA, ESPORTES E TURISMO.\n\n ADJUDICO E HOMOLOGO, nos termos ",
-                      "completeness":  "media",
-                      "flags":  [
-
-                                ]
-                  }
               ]
 }

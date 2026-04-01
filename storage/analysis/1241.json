@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "1241",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:09",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:31",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1087_23071343.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1087_23071343.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  2,
+                    "blockCount":  4,
                     "itemCount":  3,
                     "totalValue":  "R$ 0,00"
                 },
@@ -29,7 +34,7 @@
                       "object":  "empresa COPA S.A. COMPANHIA DE OBRAS PARIQUERA- ACU",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -46,7 +51,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 274, DE 21 DE OUTUBRO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas pelo\nartigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Ricardo de Oliveira Ragni de Castro Leite, Secretario Municipal de Infraestrutura Urbana e Obras, inscrito no CPF/MF nº.\nArt. 2º - 293.XXX.XXX-06, para exercer a funcao de gestor",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -67,7 +72,7 @@
                       "object":  "contratacao de palestrante para formacao dos profissionais de educacao. Sera no dia 16/10/2025, no centro de eventos, em comemoracao ao dia dos professores. e ficara vigente por 30 dias (trinta dias) a partir da assinatura do contrato",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-educacao",
                       "primaryOrganizationName":  "Secretaria de Educacao",
@@ -82,7 +87,7 @@
                                                          "Secretaria de Educacao"
                                                      ],
                       "excerpt":  "PORTARIA Nº 276, DE 21 DE OUTUBRO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas pelo\nartigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Luciano Pereira Viana, Secretario Municipal de Educacao, inscrito no CPF/MF nº 131.XXX.XXX-54, para exercer a funcao de\nArt. 2º - gestor do contrato 165/2025, contratacao de pales",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -103,7 +108,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-educacao",
                       "primaryOrganizationName":  "Secretaria de Educacao",

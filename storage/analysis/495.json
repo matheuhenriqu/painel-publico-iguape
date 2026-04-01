@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "495",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:12",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:07",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/ec962566f10e7c993f1dac2a35a23476.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/ec962566f10e7c993f1dac2a35a23476.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  6,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -18,15 +23,15 @@
                       "actTitle":  "AVISO DE RETI – RATIFICACAO - PREGAO PRESENCIAL Nº007/2023",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  6,
+                      "confidenceScore":  8,
                       "confidenceLabel":  "media",
                       "pageNumber":  2,
                       "contractNumber":  "",
-                      "processNumber":  "7/2023",
+                      "processNumber":  "007/2023",
                       "modality":  "PREGAO PRESENCIAL Nº007/2023",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "",
+                      "object":  "REGISTRO DE PRECOS PARA PRESTACAO DE SERVICOS FUNERARIOS A FIM DE ATENDER AS FAMILIAS EM SITUACAO DE VULNERABILIDADE DO MUNICIPIO DE IGUAPE/SP. A Prefeitura Municipal de Iguape, atraves do Setor de Licitacoes, TORNA PUBLICO para conhecimento dos interessados que o edital de licitacao,sofreu retificacao conforme segue: Onde se le: 17.4.1 - As mesmas sancoes serao aplicadas a adjudicataria que, devidamente convocada a assinar a Ata de Registro de Precos e Termo de Ciencia e Notificacao, deixar de atender ou apresentar o documento exigido na alinea “a” do subitem 10.3.1 ou apresenta-lo de forma defeituosa. Leia se: 17.4.1-As mesmas sancoes serao aplicadas a adjudicataria que, devidamente convocada se recusar a assinar a Ata de Registro de Precos e Termo de Ciencia e Notificacao , em conformidade com o subitem 10.4 e 10.5. deste edital",
                       "value":  "",
                       "term":  "",
                       "signatureDate":  "",
@@ -44,11 +49,10 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "AVISO DE RETI – RATIFICACAO\n PREGAO PRESENCIAL Nº007/2023\nOBJETO: REGISTRO DE PRECOS PARA PRESTACAO DE SERVICOS FUNERARIOS A FIM DE ATENDER AS FAMILIAS EM\nSITUACAO DE VULNERABILIDADE DO MUNICIPIO DE IGUAPE/SP.\n\nA Prefeitura Municipal de Iguape, atraves do Setor de Licitacoes, TORNA PUBLICO para conhecimento dos interessados que o edital\nde licitacao,sofreu retificacao conforme segue:\nOnde se le:\n17.4.1 - As mesmas sancoes serao aplicadas a adjudicataria que, devidamente convocada a assinar a Ata de Registro de Prec",
-                      "completeness":  "baixa",
+                      "completeness":  "media",
                       "flags":  [
                                     "Sem numero do contrato",
                                     "Sem contratada identificada",
-                                    "Sem objeto identificado",
                                     "Sem valor identificado"
                                 ]
                   }

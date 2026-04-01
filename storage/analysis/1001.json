@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "1001",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:47",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:44",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_905_17011431.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_905_17011431.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  17,
+                    "relevantPageCount":  2,
+                    "blockCount":  5,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -29,7 +34,7 @@
                       "object":  "EMPRESA RENATO DE OLIVEIRA LIMPEZA LTDA (DD REGIS)",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-turismo-esporte",
                       "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
@@ -52,7 +57,7 @@
                                                          "Secretaria de Educacao"
                                                      ],
                       "excerpt":  "PORTARIA Nº 17, DE 16 DE JANEIRO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte\n\n PORTARIA\n\nArt. 1º - Designa, Fernando Eiji Yanaguizawa, Secretario Adjunto de Cultura, Esporte e Turismo, titular da Cedula de Identidade RG nº 40.705.823-\n 0 SSP/SP, inscrito no CPF/MF nº. 368.453.608-39, par",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -68,7 +73,7 @@
                       "contractNumber":  "",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "AEROFOTO NORDESTE LTDA",
+                      "contractor":  "AEROFOTO NORDESTE LTDA ATA DE REGISTRO N°: 001/2025",
                       "cnpj":  "",
                       "object":  "Registro de Precos pelo periodo de 12 (doze) meses para contratacao de empresa especializada para eventual locacao de mao de obra com a finalidade de execucao e manutencao da infraestrutura de eventos, neste municipio de Iguape/SP",
                       "value":  "",

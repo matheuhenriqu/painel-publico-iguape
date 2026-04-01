@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1084",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:33",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:21",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_972_29071714.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_972_29071714.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  6,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -26,7 +31,7 @@
                       "contractNumber":  "004/2025",
                       "processNumber":  "073/2023",
                       "modality":  "Pregao Presencial n°. 073/2023",
-                      "contractor":  "RENATO DE OLIVEIRA LIMPEZA LTDA (DD REGIS)",
+                      "contractor":  "RENATO DE OLIVEIRA LIMPEZA LTDA (DD REGIS) CONTRATO Nº 004/2025 – ORIUNDO DO SALDO DA ATA DE REGISTRO DE PRECOS N°: 004/2024",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para locacao de banheiros quimicos tipo convencional, standard e PNE, a serem utilizados nos eventos do municipio de Iguape. Pregao Presencial n°. 073/2023",
                       "value":  "",
@@ -54,18 +59,18 @@
                       "actTitle":  "CONCORRENCIA PUBLICA Nº 001/2025- MENOR VALOR GLOBAL",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
                       "pageNumber":  4,
                       "contractNumber":  "",
                       "processNumber":  "001/2025",
                       "modality":  "CONCORRENCIA PUBLICA Nº 001/2025",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "e a Contratacao de empresa especializada para Reforma do Centro de Atencao Psicossocial (CAPS) com fornecimento de materiais e mao de obra. Com o seguinte: RESULTADO: Dar-lhe PROVIMENTO ao recurso administrativo apresentando pela empresa CONSTRUZEIYN ENGENHARIA LTDA, inabilitando do certame a empresa SAMUEL RIBEIRO- EPP, com fundamento nos termos do artigo 59, inciso III da lei 14.133/2021. Ficam CONVOCADAS as empresas para a REABERTURA do certame, com data marcada para o dia 05/05/2025 as 09h00m na plataforma BLL. Ficam os autos do Processo com vista franqueada aos interessados",
+                      "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "marcada para o dia 05/05/2025 as 09h00m na plataforma BLL",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -78,9 +83,9 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "CONCORRENCIA PUBLICA Nº 001/2025- MENOR VALOR GLOBAL\n\n A PREFEITURA MUNICIPAL DE IGUAPE, atraves da Agente de Contratacao, no uso legais de suas atribuicoes; torna publico para\nconhecimento dos interessados o RESULTADO do julgamento do recurso administrativo, cujo objeto e a Contratacao de empresa especializada para\nReforma do Centro de Atencao Psicossocial (CAPS) com fornecimento de materiais e mao de obra. Com o seguinte: RESULTADO: Dar-lhe\nPROVIMENTO ao recurso administrativo apresentando pela empresa CONSTRUZEI",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
-
+                                    "Sem objeto identificado"
                                 ]
                   }
               ]

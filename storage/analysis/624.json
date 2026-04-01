@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "624",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:46",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:30",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/ee0fc760b9dcc8d2d9ae755d746eab3f.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/ee0fc760b9dcc8d2d9ae755d746eab3f.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -19,13 +24,13 @@
                       "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  1,
                       "contractNumber":  "",
                       "processNumber":  "402/2023",
-                      "modality":  "",
-                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "modality":  "TOMADA DE PRECOS / OBRAS - 10/2023",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "a CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E MANUTENCAO DA ESCOLA MUNICIPAL ‘BENEDITO ROSA CARNEIRO’ - FASE II, NESTE MUNICIPIO DE IGUAPE/SP. TP-O - TOMADA DE PRECOS / OBRAS - 10/2023 - EDITAL Nº: 55/2023",
                       "value":  "",
@@ -49,7 +54,7 @@
                       "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 402/2023\na CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E MANUTENCAO DA ESCOLA MUNICIPAL ‘BENEDITO ROSA\nCARNEIRO’ - FASE II, NESTE MUNICIPIO DE IGUAPE/SP.\nTP-O - TOMADA DE PRECOS / OBRAS - 10/2023 - EDITAL Nº: 55/2023\nINTERESSADOS: SECRETARIA MUNIC. DE INFRAESTRUTURA URBANA E OBRAS .\n\n HOMOLOGO E ADJUDICO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos itens abaixo.\n\nFORNECEDOR: CIACAN ENGENHARIA EIRELI\nItem 1 - MANU",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem modalidade identificada"
+
                                 ]
                   }
               ]

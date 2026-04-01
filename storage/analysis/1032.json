@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "1032",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:41",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:35",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_927_19093707.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_927_19093707.pdf",
     "keywords":  [
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  8,
+                    "relevantPageCount":  2,
+                    "blockCount":  6,
                     "itemCount":  3,
                     "totalValue":  "R$ 0,00"
                 },
@@ -30,7 +35,7 @@
                       "object":  "referente a locacao de imovel para instalacao e funcionamento de uma Unidade Escolar no Bairro Icapara",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -45,7 +50,7 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "PORTARIA Nº 65, DE 17 DE FEVEREIRO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa Celio Paulo de Lima Junior, Secretario Adjunto de Administracao Geral, inscrito no CPF/MF nº 192.921.628-96, para exercer a\n funcao de gestor do Contrato 041/2025, refer",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -61,7 +66,7 @@
                       "contractNumber":  "037/2025",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "BRADESCO S.A",
+                      "contractor":  "BRADESCO S.A CONTRATO Nº 037/2025",
                       "cnpj":  "",
                       "object":  "Servicos bancarios de recebimento de tributos, impostos, taxas, divida ativa e demais receitas municipais atraves de DAM – Documento de Arrecadacao Municipal, padrao FEBRABAN",
                       "value":  "",
@@ -95,7 +100,7 @@
                       "contractNumber":  "038/2025",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "COOPERATIVA DE CREDITO, POUPANCA E INVESTIMENTO CAMPOS GERAIS E GRANDE CURITIBA SICREDI CAMPOS E",
+                      "contractor":  "COOPERATIVA DE CREDITO, POUPANCA E INVESTIMENTO CAMPOS GERAIS E GRANDE CURITIBA SICREDI CAMPOS E GERAIS E GRANDE CURITIBA PR/SP CONTRATO Nº 038/2025",
                       "cnpj":  "",
                       "object":  "Servicos bancarios de recebimento de tributos, impostos, taxas, divida ativa e demais receitas municipais atraves de DAM – Documento de Arrecadacao Municipal, padrao FEBRABAN",
                       "value":  "",

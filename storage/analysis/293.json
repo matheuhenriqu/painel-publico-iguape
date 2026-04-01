@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "293",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:49",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T16:00:00",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/18a76300faa5b8258eac50ae2100064b.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/18a76300faa5b8258eac50ae2100064b.pdf",
     "keywords":  [
@@ -11,8 +11,13 @@
                      "homologacao",
                      "rescisao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  11,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -22,17 +27,17 @@
                       "actTitle":  "1º TERMO ADITIVO DE PRAZO – CONTRATO 040/2021",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  5,
                       "contractNumber":  "040/2021",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "ENGETEC ENGENHARIA EIRELI - ME",
+                      "processNumber":  "009/2021",
+                      "modality":  "Tomada de Precos - n°. 009/2021",
+                      "contractor":  "ENGETEC ENGENHARIA EIRELI - ME CONTRATO N°: 040/2021",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa Especializada para obra do Iguape/SP Tomada de Precos - n°. 009/2021",
                       "value":  "",
-                      "term":  "do contrato 90 (noventa) dias",
+                      "term":  "Execucao 90 (noventa) dias periodo de 04/05/2022 a",
                       "signatureDate":  "02/05/2022",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
@@ -46,7 +51,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "1º TERMO ADITIVO DE PRAZO – CONTRATO 040/2021 predio da escola Vaz Caminha, neste municipio de\nCONTRATANTE: MUNICIPIO DE IGUAPE 02/08/2022 e Vigencia do contrato 90 (noventa) dias\nCONTRATADA: ENGETEC ENGENHARIA EIRELI - ME\nCONTRATO N°: 040/2021\nOBJETO: Contratacao de Empresa Especializada para obra do\nIguape/SP\nTomada de Precos - n°. 009/2021\nDATA: 02/05/2022\nVIGENCIA: Execucao 90 (noventa) dias periodo de 04/05/2022 a\nperiodo de 04/05/2022 a 02/09/2022",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]
@@ -62,7 +67,7 @@
                       "contractNumber":  "021/2021",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "ENGETEC ENGENHARIA EIRELI ME",
+                      "contractor":  "ENGETEC ENGENHARIA EIRELI ME CONTRATO N°: 021/2021",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa Especializada para Pavimentacao Asfaltica e obras complementares de trechos da rua Itapema no bairro do rocio neste municipio de Iguape/SP, conforme contrato de repasse nº 899869/2020, celebrado",
                       "value":  "",

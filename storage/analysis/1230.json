@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1230",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:11",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:34",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1078_10062310.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1078_10062310.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  3,
                     "totalValue":  "R$ 129.382,79"
                 },
@@ -20,12 +25,12 @@
                       "actTitle":  "8º TERMO ADITIVO AO CONTRATO N.º 044/2022",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "044/2022",
-                      "processNumber":  "",
-                      "modality":  "",
+                      "processNumber":  "003/2022",
+                      "modality":  "TOMADA DE PRECOS Nº 003/2022",
                       "contractor":  "CIACAN ENGENHARIA EIRELI",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa especializada para execucao de obra de construcao Campo de Futebol na Barra do Ribeira, conforme convenio nº 00089/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o Municipio de Iguape/SP TOMADA DE PRECOS Nº 003/2022",
@@ -48,7 +53,7 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "8º TERMO ADITIVO AO CONTRATO N.º 044/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CIACAN ENGENHARIA EIRELI\nCNPJ: 35.XXX.XXX/0001-24\nCONTRATO N°: 044/2022\nOBJETO: Contratacao de Empresa especializada para execucao de obra de construcao Campo de Futebol na Barra do Ribeira, conforme convenio nº\n00089/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o Municipio de Iguape/SP\nTOMADA DE PRECOS Nº 003/2022\nDATA: 09/10/2025\nVIGENCIA: Prazo de vigencia e o prazo da execucao do servico",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]
@@ -58,12 +63,12 @@
                       "actTitle":  "2º TERMO ADITIVO DE PRORROGACAO – CONTRATO 162/2023",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  11,
+                      "confidenceScore":  12,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
-                      "contractNumber":  "162/2023",
-                      "processNumber":  "",
-                      "modality":  "",
+                      "contractNumber":  "2/2023",
+                      "processNumber":  "47/2023",
+                      "modality":  "PREGAO PRESENCIAL - Nº 47/2023",
                       "contractor":  "ASSOCIACAO HOSPITALAR DE PROTECAO A INFANCIA Dr. Paulo Carneiro",
                       "cnpj":  "",
                       "object":  "",
@@ -94,15 +99,15 @@
                       "actTitle":  "PREGAO ELETRONICO Nº 012/2025- MENOR VALOR GLOBAL",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
                       "pageNumber":  2,
                       "contractNumber":  "",
                       "processNumber":  "012/2025",
                       "modality":  "PREGAO ELETRONICO Nº 012/2025",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "e a contratacao de empresa especializada para o Sistema de Registro de Precos para Sinalizacao Viaria Horizontal e Vertical com fornecimento de material e mao de obra, pelo periodo de 12 (doze)meses, demais informacoes constantes no termo de referencia Anexo I do edital. . Com o seguinte: RESULTADO: Indeferindo o recurso administrativo da empresa SINALEX COMERCIO INTERNACIONAL LTDA, mantendo HABILITADA a empresa TS SINALIZACAO E SERVICOS LTDA. Ficam os autos do Processo com vista franqueada aos interessados. Iguape, 09 de outubro de 2025. Daniel Factore Moroni Sella Pregoeiro",
+                      "object":  "",
                       "value":  "",
                       "term":  "",
                       "signatureDate":  "",
@@ -120,9 +125,9 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "PREGAO ELETRONICO Nº 012/2025- MENOR VALOR GLOBAL\n\nA PREFEITURA MUNICIPAL DE IGUAPE, atraves do Pregoeiro, no uso legais de suas atribuicoes; torna publico para conhecimento dos interessados\no RESULTADO do julgamento do recurso administrativo, cujo objeto e a contratacao de empresa especializada para o Sistema de Registro de\nPrecos para Sinalizacao Viaria Horizontal e Vertical com fornecimento de material e mao de obra, pelo periodo de 12 (doze)meses, demais\ninformacoes constantes no termo de referencia Anexo I do ",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
-
+                                    "Sem objeto identificado"
                                 ]
                   }
               ]

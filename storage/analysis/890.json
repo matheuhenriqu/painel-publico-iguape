@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "890",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:59",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:07",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_812_14074354.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_812_14074354.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  5,
+                    "relevantPageCount":  3,
+                    "blockCount":  4,
                     "itemCount":  3,
                     "totalValue":  "R$ 138.754,04"
                 },
@@ -56,13 +61,13 @@
                       "actTitle":  "2º TERMO ADITIVO AO CONTRATO 026/2024",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  15,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  5,
                       "contractNumber":  "026/2024",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA",
+                      "processNumber":  "022/2023",
+                      "modality":  "TOMADA DE PRECOS Nº 022/2023",
+                      "contractor":  "EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA CONTRATO N°: 026/2024",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para obra de reforma E.S.F Cavalcante, localizado na estrada do Arataca – Bairro Cavalcante neste municipio de Iguape/SP. TOMADA DE PRECOS Nº 022/2023",
                       "value":  "R$ 75.175,22",
@@ -80,7 +85,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "2º TERMO ADITIVO AO CONTRATO 026/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA\nCONTRATO N°: 026/2024\nOBJETO: Contratacao de empresa especializada para obra de reforma E.S.F Cavalcante, localizado na estrada do Arataca – Bairro Cavalcante\nneste municipio de Iguape/SP.\nTOMADA DE PRECOS Nº 022/2023\nDATA: 09/08/2024\nValor: Corresponde ao acrescimo de servicos no valor de R$ 75.175,22 (setenta e cinco mil, cento e setenta e cinco reais e vinte e dois centavos),\ne supre",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
 
                                 ]
@@ -93,10 +98,10 @@
                       "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  5,
-                      "contractNumber":  "146/2023",
+                      "contractNumber":  "6/2023",
                       "processNumber":  "23/2023",
                       "modality":  "PREGAO PRESENCIAL Nº 23/2023",
-                      "contractor":  "RONIE CARLOS GODOI",
+                      "contractor":  "RONIE CARLOS GODOI CONTRATO:N°:146/2023",
                       "cnpj":  "",
                       "object":  "Prestacao de Servicos de empresa especializada para manutencao preventiva e corretiva com calibracao e teste de seguranca eletrica em equipamentos odontologicos das unidade de saude do municipio, atendendo a solicitacao da Secretaria Municipal de Saude, pelo periodo de 12 (doze) meses. PREGAO PRESENCIAL Nº 23/2023",
                       "value":  "R$ 63.578,82",

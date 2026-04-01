@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "305",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:45",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:54",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/a7fdb059cfb7965fe9e2483c1ec0cbcf.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/a7fdb059cfb7965fe9e2483c1ec0cbcf.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  9,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },

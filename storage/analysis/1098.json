@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1098",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:31",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:17",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_984_22072409.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_984_22072409.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  6,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  2,
                     "totalValue":  "R$ 1.834,33"
                 },
@@ -20,13 +25,13 @@
                       "actTitle":  "2º TERMO ADITIVO DE PRAZO AO CONTRATO 067/2023",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  3,
                       "contractNumber":  "067/2023",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "SUL VALE CONSTRUTORA LTDA",
+                      "processNumber":  "001/2023",
+                      "modality":  "TOMADA DE PRECO Nº 001/2023",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA CONTRATO N°: 067/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para obra de reforma de Ginasio Poliesportivo, localizado na Rua dos Estu dantes com aRua Antonio Jose de Morais e a Rua Tiradentes no Municipio de Iguape, conforme termo de convenio 101008/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape. TOMADA DE PRECO Nº 001/2023",
                       "value":  "",
@@ -46,7 +51,7 @@
                                                          "Advocacia-Geral da Uniao"
                                                      ],
                       "excerpt":  "2º TERMO ADITIVO DE PRAZO AO CONTRATO 067/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SUL VALE CONSTRUTORA LTDA\nCONTRATO N°: 067/2023\nOBJETO: Contratacao de empresa especializada para obra de reforma de Ginasio Poliesportivo, localizado na Rua dos Estu dantes com aRua\nAntonio Jose de Morais e a Rua Tiradentes no Municipio de Iguape, conforme termo de convenio 101008/2022, celebrado entre a Secretaria de\nDesenvolvimento Regional e a Prefeitura de Iguape.\nTOMADA DE PRECO Nº 001/2023\nDATA: 20/05/2025\nVIGENCIA: V",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]

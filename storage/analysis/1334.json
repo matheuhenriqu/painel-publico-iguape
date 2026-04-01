@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1334",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:51",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:42",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1153_11074410.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1153_11074410.pdf",
     "keywords":  [
@@ -11,8 +11,13 @@
                      "inexigibilidade",
                      "rescisao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  3,
                     "totalValue":  "R$ 125.000,00"
                 },
@@ -104,10 +109,10 @@
                       "modality":  "",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E AMPLIACAO DA CASA DA CRIANCA, LOCALIZADA NA RUA K, Nº 180, BAIRRO JARDIM PRIMAVERA, NESTE MUNICIPIO DE IGUAPE/SP, Ato: Anulacao da rescisao contratual Motivo: Por razoes de legalidade e interesse publico, conforme principio da autotutela administrativa (Sumula 473/STF), fica anulada a rescisao contratual anteriormente formalizada. Efeitos: Esta anulacao retroage seus efeitos a data de 16/01/2026, restabelecendo a plena vigencia do contrato a partir desta data. Iguape, 10 de fevereiro de 2026. RICARDO OLIVEIRA RAGNI DE CASTRO LEITE Secretario de Infraestrutura Urbana e Obras",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E AMPLIACAO DA CASA DA CRIANCA, LOCALIZADA NA RUA K, Nº 180, BAIRRO JARDIM PRIMAVERA, NESTE MUNICIPIO DE IGUAPE/SP, Ato: Anulacao da rescisao contratual Motivo: Por razoes de legalidade e interesse publico, conforme principio da autotutela administrativa (Sumula 473/STF), fica anulada a rescisao contratual anteriormente formalizada. Efeitos: Esta anulacao retroage seus efeitos a data de 16/01/2026, restabelecendo a plena vigencia do contrato a partir desta data",
                       "value":  "",
-                      "term":  "do contrato a partir desta data.",
-                      "signatureDate":  "de 16/01/2026, restabelecendo a plena vigencia do contrato a partir desta data",
+                      "term":  "",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
                       "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
@@ -122,7 +127,7 @@
                                                          "Secretaria de Desenvolvimento Economico Sustentavel"
                                                      ],
                       "excerpt":  "EXTRATO DE ANULACAEOXTDREATROESCISAO CONTRATUAL\n\nContrato nº008/2024 C\n\nPartes: PREFEITURA MUNICIPAL DE IGUAPE e a EMPRESA EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA.\n\nObjeto: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E AMPLIACAO DA CASA DA CRIANCA, LOCALIZADA NA\n\nRUA K, Nº 180, BAIRRO JARDIM PRIMAVERA, NESTE MUNICIPIO DE IGUAPE/SP,\n\nAto: Anulacao da rescisao contratual\n\nMotivo: Por razoes de legalidade e interesse publico, conforme principio da autotutela administrativa (Sumula 473/STF), fica ",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
                                     "Sem contratada identificada",
                                     "Sem valor identificado"

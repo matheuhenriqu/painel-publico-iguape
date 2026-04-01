@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "445",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:20",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:19",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/39cca77d3e5f88b4a3384fbd0cd86dd5.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/39cca77d3e5f88b4a3384fbd0cd86dd5.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 820.000,00"
                 },
@@ -26,7 +31,7 @@
                       "contractNumber":  "198/2022",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "JANE RIBEIRO PEREIRA KUSNIER 16948985807 - MEI",
+                      "contractor":  "JANE RIBEIRO PEREIRA KUSNIER 16948985807 - MEI CONTRATO N°: 198/2022",
                       "cnpj":  "",
                       "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA FORNECIMENTO DE MATERIAIS E SERVICOS DE DECORACAO DE NATAL EM PRACAS E PREDIOS PUBLICOS, PORTAIS DA ENTRADA DA CIDADE, ORLA DA AVENIDA NOSSA SENHORA DO ROCIO, ORLA DO PORTO DO RIBEIRA, E ESPACOS PUBLICOS",
                       "value":  "R$ 170.000,0000",
@@ -62,7 +67,7 @@
                       "contractNumber":  "199/2022",
                       "processNumber":  "60/2022",
                       "modality":  "PREGAO PRESENCIAL Nº: 60/2022",
-                      "contractor":  "COFIPE VEICULOS LTDA COMPACTADOR DE RESIDUOS",
+                      "contractor":  "COFIPE VEICULOS LTDA COMPACTADOR DE RESIDUOS- CONTRATO N°: 199/2022",
                       "cnpj":  "",
                       "object":  "AQUISICAO DE 01 (UM) CAMINHAO DOTADO DE EQUIPAMENTO COLETOR COLETA TRASEIRA, COM CAPACIDADE MINIMA DE 15M³ PREGAO PRESENCIAL Nº: 60/2022",
                       "value":  "R$ 650.000,0000",

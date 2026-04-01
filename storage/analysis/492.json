@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "492",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:13",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:08",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/0b8ad90cc4c9fad2726e4120f810eda5.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/0b8ad90cc4c9fad2726e4120f810eda5.pdf",
     "keywords":  [
@@ -10,79 +10,18 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  5,
-                    "itemCount":  2,
-                    "totalValue":  "R$ 223.543,20"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:011/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "1/2023",
-                      "processNumber":  "005/2023",
-                      "modality":  "Pregao Presencial n°. 005/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicao aquisicao de suplementos, formulas alimentares e dietas, para atender a Secretaria de Saude da Prefeitura Municipal de Iguape, pelo periodo de 12 meses Pregao Presencial n°. 005/2023",
-                      "value":  "R$155.083,20",
-                      "term":  "10/02/2023 a 09/02/2024",
-                      "signatureDate":  "10/02/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:011/2023\nOBJETO: Registro de Precos para aquisicao aquisicao de suplementos, formulas alimentares e dietas, para atender a Secretaria de\nSaude da Prefeitura Municipal de Iguape, pelo periodo de 12 meses\nPregao Presencial n°. 005/2023\nDATA: 10/02/2023\nVIGENCIA: 10/02/2023 a 09/02/2024\nVALOR: R$155.083,20 (cento e cinquenta e cinco mil, oitenta e tres reais e vinte centavos).",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:012/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "2/2023",
-                      "processNumber":  "005/2023",
-                      "modality":  "Pregao Presencial n°. 005/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicao aquisicao de suplementos, formulas alimentares e dietas, para atender a Secretaria de Saude da Prefeitura Municipal de Iguape, pelo periodo de 12 meses Pregao Presencial n°. 005/2023",
-                      "value":  "R$ 68.460,00",
-                      "term":  "10/02/2023 a 09/02/2024",
-                      "signatureDate":  "10/02/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:012/2023\nOBJETO: Registro de Precos para aquisicao aquisicao de suplementos, formulas alimentares e dietas, para atender a Secretaria de\nSaude da Prefeitura Municipal de Iguape, pelo periodo de 12 meses\nPregao Presencial n°. 005/2023\nDATA: 10/02/2023\nVIGENCIA: 10/02/2023 a 09/02/2024\nVALOR: R$ 68.460,00 (sessenta e oito mil, quatrocentos e sessenta reais)",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  }
+
               ]
 }

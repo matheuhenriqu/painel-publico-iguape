@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "880",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:01",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:09",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_804_30074820.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_804_30074820.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  11,
+                    "relevantPageCount":  2,
+                    "blockCount":  3,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -31,7 +36,7 @@
                       "object":  "Empresa VALDECI ALVES DE ALMEIDA 26175929870",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -46,7 +51,7 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "PORTARIA Nº 202\n DE 29 DE JULHO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Fernando Joao Carlos da Silva Noidoif, Diretor de Gestao e Planejamento, titular da Cedula de Identidade RG nº 45.760.408-6\n SSP/SP, inscrito no CPF/MF nº. 387.363.538-09, para exe",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -56,13 +61,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  3,
                       "contractNumber":  "",
                       "processNumber":  "362/2024",
                       "modality":  "PR-E - PREGAO ELETRONICO - 8/2024 - EDITAL Nº: 15/2024",
-                      "contractor":  "SOLDA ACO COMERCIAL LTDA. - EPP",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "REGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA FORNECIMENTO DE OXIGENIO MEDICINAL, COM CESSAO EM COMODATO DE CILINDROS PELO PERIODO DE 12 (DOZE) MESES",
                       "value":  "",

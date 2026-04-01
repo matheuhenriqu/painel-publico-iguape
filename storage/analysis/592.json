@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "592",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:53",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:43",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/0462bf7856dc3b7da60b603fcc338520.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/0462bf7856dc3b7da60b603fcc338520.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  6,
+                    "relevantPageCount":  2,
+                    "blockCount":  11,
                     "itemCount":  7,
                     "totalValue":  "R$ 4.600,00"
                 },
@@ -31,7 +36,7 @@
                       "object":  "empresa VF ALVES DE SOUZA OLIVEIRA REPRESENTACOES",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -46,7 +51,7 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "PORTARIA Nº 202\n DE 29 JUNHO DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Simone Silva de Fontes, Diretor Tecnico do Centro de Convivencia do Idoso, titular da Cedula de Identidade RG nº 24.519.087-\n 9 SSP/SP, inscrita no CPF/MF nº 157.723.248-88, para exer",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -62,7 +67,7 @@
                       "contractNumber":  "101/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "ALTERNATVA COMERCIAL TEXTIL LTDA-ME",
+                      "contractor":  "ALTERNATVA COMERCIAL TEXTIL LTDA-ME CONTRATO N°: 101/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa para fornecimento de uniformes, para atender o convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de Esportes e a Prefeitura Muicipal de Iguape/SP",
                       "value":  "",
@@ -90,13 +95,13 @@
                       "actTitle":  "PREGAO ELETRONICO Nº 004/2023",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  10,
-                      "confidenceLabel":  "alta",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
                       "pageNumber":  3,
                       "contractNumber":  "",
                       "processNumber":  "004/2023",
                       "modality":  "PREGAO ELETRONICO Nº 004/2023",
-                      "contractor":  "o valor de R$ 4.600,00 (quatro mil e seiscentos reais)",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "",
                       "value":  "R$ 4.600,00",
@@ -114,7 +119,7 @@
 
                                                      ],
                       "excerpt":  "PREGAO ELETRONICO Nº 004/2023\nDATA: 27/06/2023\nVALOR: Pagara a contratada o valor de R$ 4.600,00 (quatro mil e seiscentos reais)\nVIGENCIA: permanecera vigente pelo periodo de 90 (noventa) dias – 28/06/2023 a 26/09/2023.",
-                      "completeness":  "alta",
+                      "completeness":  "media",
                       "flags":  [
                                     "Sem objeto identificado"
                                 ]
@@ -130,7 +135,7 @@
                       "contractNumber":  "102/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "DIAS MELLO LTDA",
+                      "contractor":  "DIAS MELLO LTDA CONTRATO N°: 102/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa para fornecimento de uniformes, para atender o convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de Esportes e a Prefeitura Muicipal de Iguape/SP",
                       "value":  "",
@@ -164,7 +169,7 @@
                       "contractNumber":  "103/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "M TESTA CONFECCAO - ME",
+                      "contractor":  "M TESTA CONFECCAO - ME CONTRATO N°: 103/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa para fornecimento de uniformes, para atender o convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de Esportes e a Prefeitura Muicipal de Iguape/SP",
                       "value":  "",
@@ -198,7 +203,7 @@
                       "contractNumber":  "104/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "REGIS AUGUSTO PIANI - ME",
+                      "contractor":  "REGIS AUGUSTO PIANI - ME CONTRATO N°: 104/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa para fornecimento de uniformes, para atender o convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de Esportes e a Prefeitura Muicipal de Iguape/SP",
                       "value":  "",
@@ -232,7 +237,7 @@
                       "contractNumber":  "105/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU CONTRATO N°: 105/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa Especializada para obra de pavimentacao e obras complementares de vias do bairro do Rocio e Jardim",
                       "value":  "",

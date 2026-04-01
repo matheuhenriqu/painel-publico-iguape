@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "557",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:59",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:51",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/f83247c9ec05a30ef4677af5f47b8ca4.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/f83247c9ec05a30ef4677af5f47b8ca4.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -26,10 +31,10 @@
                       "modality":  "PREGAO PRESENCIAL nº. 031/2023",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "REGISTRO DE PRECO PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICOES FUTURAS DE COMBUSTIVEIS PARA ATENDER DIVERSAS SECRETARIAS DO MUNICIPIO DE IGUAPE/SP. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013, Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "object":  "REGISTRO DE PRECO PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICOES FUTURAS DE COMBUSTIVEIS PARA ATENDER DIVERSAS SECRETARIAS DO MUNICIPIO DE IGUAPE/SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE CUMPRE OS",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",

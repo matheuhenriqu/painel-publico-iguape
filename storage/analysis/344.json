@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "344",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:35",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:40",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/4b026aa801b54e5b0a237a527efff75b.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/4b026aa801b54e5b0a237a527efff75b.pdf",
     "keywords":  [
                      "contrato",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  2,
+                    "blockCount":  3,
                     "itemCount":  1,
                     "totalValue":  "R$ 3.500,00"
                 },

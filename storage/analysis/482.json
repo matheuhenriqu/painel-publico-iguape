@@ -1,132 +1,25 @@
 ﻿{
     "diaryId":  "482",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:14",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:10",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/5b2c4c55710b066034ca6cb98b6cd4ee.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/5b2c4c55710b066034ca6cb98b6cd4ee.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  4,
-                    "itemCount":  3,
-                    "totalValue":  "R$ 675.365,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:006/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  4,
-                      "contractNumber":  "6/2023",
-                      "processNumber":  "002/2023",
-                      "modality":  "Pregao Presencial n°. 002/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicoes de asfalto reciclado usinado a quente com aditivo de retardo (a granel), massa asfaltica cbuq (aplicacao a frio) e emulsao asfaltica rr-2c, para os servicos de “tapa buraco” a serem executados em diversas vias, em atendimento a demanda do departamento de obras e servicos deste municipio de Iguape, pelo periodo de 12 (doze) meses Pregao Presencial n°. 002/2023",
-                      "value":  "R$ 154.500,00",
-                      "term":  "26/01/2023 a 25/01/2024",
-                      "signatureDate":  "26/01/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-turismo-esporte",
-                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "turismo-esporte",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-turismo-esporte",
-                                                       "municipal-cultura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Turismo e Esporte",
-                                                         "Secretaria de Cultura"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:006/2023\nOBJETO: Registro de Precos para aquisicoes de asfalto reciclado usinado a quente com aditivo de retardo (a granel), massa asfaltica\ncbuq (aplicacao a frio) e emulsao asfaltica rr-2c, para os servicos de “tapa buraco” a serem executados em diversas vias, em atendimento\na demanda do departamento de obras e servicos deste municipio de Iguape, pelo periodo de 12 (doze) meses\nPregao Presencial n°. 002/2023\nDATA: 26/01/2023\nVIGENCIA: 26/01/2023 a 25/01/2024\nVALOR: R$ 154.500,00 (cent",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:007/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  4,
-                      "contractNumber":  "7/2023",
-                      "processNumber":  "002/2023",
-                      "modality":  "Pregao Presencial n°. 002/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicoes de asfalto reciclado usinado a quente com aditivo de retardo (a granel), massa asfaltica cbuq (aplicacao a frio) e emulsao asfaltica rr-2c, para os servicos de “tapa buraco” a serem executados em diversas vias, em atendimento a demanda do Departamento de Obras e Servicos deste municipio de Iguape, pelo periodo de 12 (doze) meses Pregao Presencial n°. 002/2023",
-                      "value":  "R$ 498.400,00",
-                      "term":  "26/01/2023 a 25/01/2024",
-                      "signatureDate":  "26/01/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-turismo-esporte",
-                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "turismo-esporte",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-turismo-esporte",
-                                                       "municipal-cultura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Turismo e Esporte",
-                                                         "Secretaria de Cultura"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:007/2023\nOBJETO: Registro de Precos para aquisicoes de asfalto reciclado usinado a quente com aditivo de retardo (a granel), massa asfaltica\ncbuq (aplicacao a frio) e emulsao asfaltica rr-2c, para os servicos de “tapa buraco” a serem executados em diversas vias, em atendimento\na demanda do Departamento de Obras e Servicos deste municipio de Iguape, pelo periodo de 12 (doze) meses\nPregao Presencial n°. 002/2023\nDATA: 26/01/2023\nVIGENCIA: 26/01/2023 a 25/01/2024\nVALOR: R$ 498.400,00 (quat",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "12º TERMO ADITIVO AO CONTRATO Nº 230/2017",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  16,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  4,
-                      "contractNumber":  "230/2017",
-                      "processNumber":  "262/2017",
-                      "modality":  "",
-                      "contractor":  "FENICIA CURSOS TREINAMENTOS E CAPACITACAO LTDA - ME",
-                      "cnpj":  "",
-                      "object":  "Constitui objeto do presente Termo a Prorrogacao da Vigencia do Contrato 230/2017, referente a contratacao de empresa especializada para oferta de profissionais qualificados para ministrar oficinas para idosos, adolescentes e familias usuarios dos servicos do CRAS, bem como para cadastradores para o CADUNICO, e para execucao do programa “ACESSUAIS” em atendimento aos programas do Governo Federal, no Municipio de Iguape, Processo Administrativo n°. 262/2017",
-                      "value":  "R$ 22.465,00",
-                      "term":  "do Contrato 230/2017, referente a contratacao de empresa",
-                      "signatureDate":  "25/01/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-turismo-esporte",
-                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "turismo-esporte",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-turismo-esporte",
-                                                       "municipal-cultura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Turismo e Esporte",
-                                                         "Secretaria de Cultura"
-                                                     ],
-                      "excerpt":  "12º TERMO ADITIVO AO CONTRATO Nº 230/2017\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: FENICIA CURSOS TREINAMENTOS E CAPACITACAO LTDA - ME\nOBJETO: Constitui objeto do presente Termo a Prorrogacao da Vigencia do Contrato 230/2017, referente a contratacao de empresa\nespecializada para oferta de profissionais qualificados para ministrar oficinas para idosos, adolescentes e familias usuarios dos servicos\ndo CRAS, bem como para cadastradores para o CADUNICO, e para execucao do programa “ACESSUAIS” em atendimento aos\npro",
-                      "completeness":  "alta",
-                      "flags":  [
 
-                                ]
-                  }
               ]
 }

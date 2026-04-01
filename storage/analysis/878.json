@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "878",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:01",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:10",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_802_26073531.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_802_26073531.pdf",
     "keywords":  [
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  3,
+                    "blockCount":  7,
                     "itemCount":  3,
                     "totalValue":  "R$ 0,00"
                 },
@@ -30,7 +35,7 @@
                       "object":  "empresa LOCALIZA VEICULOS ESPECIAIS S.A",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -45,7 +50,7 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "PORTARIA Nº 192\n DE 24 DE JULHO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Fritz Walter Klimke, Secretario Adjunto de Administracao Geral, titular da Cedula de Identidade RG nº 10.450.701-4 SSP/SP,\n inscrito no CPF/MF nº. 973.246.638/34, para exercer a fu",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -66,7 +71,7 @@
                       "object":  "Empresa PIROTECNICA IMPORTACAO E EXPORTACAO LTDA ME",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-cultura",
                       "primaryOrganizationName":  "Secretaria de Cultura",
@@ -83,7 +88,7 @@
                                                          "Secretaria de Cultura"
                                                      ],
                       "excerpt":  "PORTARIA Nº 194\n DE 25 DE JULHO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Fernando Eiji Yanaguizawa, Secretario Adjunto de Cultura, titular da Cedula de Identidade RG nº 40.705.823-0 SSP/SP, inscrito\nArt. 2º - no CPF/MF nº. 368.453.608-39, para exercer a funcao d",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -104,7 +109,7 @@
                       "object":  "que autoriza temporariamente o espaco publico para exploracao comercial da Rua Saldanha Marinho, Bairro Canto do Morro, no periodo de 28 de julho a 06 de agosto de 2024",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-justica-cidadania",
                       "primaryOrganizationName":  "Secretaria de Justica e Cidadania",
@@ -119,7 +124,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "4 3\n\nArt. 1º - Diario Oficial\nArt. 2º -\n Iguape - SP\n\n ANO 04 – Nº 802 Sexta-feira, 26 de Julho de 2024\n\n PORTARIA\n\n Designa, Antonio Matheus da Veiga Neto, Secretario Municipal de Justica e Cidadania, titular da Cedula de Identidade RG nº 43.743.261\n SSP/SP, inscrito no CPF/MF nº. 348.200.038-79, para exercer a funcao de Gestor do Contrato 112/2024, que autoriza temporariamente\n o espaco publico para exploracao comercial da Rua Saldanha Marinho, Bairro Canto do Morro, no periodo de 28 de julho a 06 de agosto\n de 2",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]

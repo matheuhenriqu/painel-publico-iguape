@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "1002",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:47",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:44",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_059-_17102135.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_extra_059-_17102135.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 2,60"
                 },
@@ -22,7 +27,7 @@
                       "confidenceLabel":  "media",
                       "pageNumber":  1,
                       "contractNumber":  "",
-                      "processNumber":  "001/2025",
+                      "processNumber":  "031/2025",
                       "modality":  "EDITAL CHAMADA PUBLICA N° 001/2025",
                       "contractor":  "",
                       "cnpj":  "",
@@ -54,13 +59,13 @@
                       "actTitle":  "CHAMADA PUBLICA Nº 001/2025 – PARA CREDENCIAMENTO DE INSTITUICAO FINANCEIRA PARA RECEBIMENTO DE ARRECADACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
                       "pageNumber":  1,
                       "contractNumber":  "",
                       "processNumber":  "001/2025",
                       "modality":  "CHAMADA PUBLICA Nº 001/2025",
-                      "contractor":  "pela prestacao dos servicos a tarifa de R$ 2,60 (dois reais e sessenta centavos) por guia arrecadada",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "",
                       "value":  "R$ 2,60",

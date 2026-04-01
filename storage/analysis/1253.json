@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1253",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:08",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:28",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1098_08082128.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1098_08082128.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  9,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  3,
                     "totalValue":  "R$ 1.221,00"
                 },
@@ -57,18 +62,18 @@
                       "actTitle":  "PREGAO ELETRONICO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  7,
+                      "confidenceScore":  8,
                       "confidenceLabel":  "media",
                       "pageNumber":  6,
                       "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "PREGAO ELETRONICO",
+                      "processNumber":  "028/2025",
+                      "modality":  "PREGAO ELETRONICO – n.º 028/2025",
                       "contractor":  "",
                       "cnpj":  "",
                       "object":  "REGISTRO DE PRECOS, PELO PERIODO DE 12 (DOZE) MESES, PARA CONTRATACAO DE EMPRESA PARA PRESTACAO DE SERVICOS DE PUBLICACAO DE ATOS OFICIAIS DA PREFEITURA DE IGUAPE EM JORNAL DE GRANDE CIRCULACAO NO ESTADO DE SAO PAULO. 1.2. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "signatureDate":  "",
                       "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -85,7 +90,7 @@
                       "excerpt":  "PREGAO ELETRONICO\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO – n.º 028/2025, do tipo MENOR PRECO POR CM/CL, situada na\nAvenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\n1.1. OBJETO: REGISTRO DE PRECOS, PELO PERIODO DE 12 (DOZE) MESES, PARA\n\nCONTRATACAO DE EMPRESA PARA PRESTACAO DE SERVICOS DE PUBLICACAO DE ATOS OFICIAIS DA PREFEITURA DE IGUAPE EM\n\nJORNAL DE GRANDE CIRCULACAO NO ESTADO DE SAO PAULO.\n\n1.2",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem numero principal identificado"
+
                                 ]
                   },
                   {
@@ -93,18 +98,18 @@
                       "actTitle":  "PREGAO ELETRONICO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  7,
+                      "confidenceScore":  8,
                       "confidenceLabel":  "media",
                       "pageNumber":  6,
                       "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "PREGAO ELETRONICO",
+                      "processNumber":  "029/2025",
+                      "modality":  "PREGAO ELETRONICO – n.º 029/2025",
                       "contractor":  "",
                       "cnpj":  "",
                       "object":  "Aquisicao de equipamentos/materiais permanentes odontologicos para as unidades basicas de saude - ESF Rocio Aeroporto e ESF Rocio Areia Branca, celebrado entre o Ministerio da Saude e o Municipio de Iguape/SP,em atendimento a proposta nº 13901.68400/1230-13/2023, 1.4. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "signatureDate":  "",
                       "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -123,7 +128,7 @@
                       "excerpt":  "PREGAO ELETRONICO\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO – n.º 029/2025, do tipo MENOR PRECO POR ITEM, situada na\nAvenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\n1.3. OBJETO: Aquisicao de equipamentos/materiais permanentes odontologicos para as unidades\n\nbasicas de saude - ESF Rocio Aeroporto e ESF Rocio Areia Branca, celebrado entre o Ministerio da Saude e o Municipio de Iguape/SP,em\n\natendimento",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem numero principal identificado"
+
                                 ]
                   }
               ]

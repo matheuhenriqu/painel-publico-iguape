@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "764",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:20",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:47",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/567fddd913298740b78c7098f4bf1ce8.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/567fddd913298740b78c7098f4bf1ce8.pdf",
     "keywords":  [
@@ -9,24 +9,29 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  10,
-                    "itemCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
+                    "itemCount":  2,
                     "totalValue":  "R$ 993.511,02"
                 },
     "items":  [
                   {
                       "type":  "Contrato",
-                      "actTitle":  "Contrato publicado",
+                      "actTitle":  "Contrato 011/2024",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  8,
-                      "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU C",
+                      "contractNumber":  "011/2024",
+                      "processNumber":  "019/2023",
+                      "modality":  "TOMADA DE PRECOS – Nº 019/2023",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU C CONTRATO-N°: 011/2024 - Lote 01: - Fase I",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa especializada para obra de pavimentacao e obras complementares da “Rua Tenente Ascelino Cunha “fase I e fase II, conforme convenio nº 103190/2023, celebrado com a Secretaria de Governo e relacoes institucionais do Governo do Estado de Sao Paulo, e Recursos da Uniao. TOMADA DE PRECOS – Nº 019/2023",
                       "value":  "R$ 993.511,02",
@@ -46,9 +51,45 @@
                                                          "Secretaria de Governo e Relacoes Institucionais"
                                                      ],
                       "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\n\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU C\n\nCONTRATO-N°: 011/2024 - Lote 01: - Fase I\n\nOBJETO: Contratacao de Empresa especializada para obra de pavimentacao e obras complementares da “Rua Tenente Ascelino Cunha “fase I e fase\n\nII, conforme convenio nº 103190/2023, celebrado com a Secretaria de Governo e relacoes institucionais do Governo do Estado de Sao Paulo, e Recursos\n\nda Uniao.\n\nTOMADA DE PRECOS – Nº 019/2023.\n\nVALOR: O valor do presente ajuste e de R$ ",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 012/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  8,
+                      "contractNumber":  "012/2024",
+                      "processNumber":  "019/2023",
+                      "modality":  "TOMADA DE PRECOS – Nº 019/2023",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU CONTRATO-N°: 012/2024 - Lote – 02 – Fase II",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para obra de pavimentacao e obras complementares da “Rua Tenente Ascelino Cunha “fase I e fase II, conforme convenio nº 103190/2023, celebrado com a Secretaria de Governo e relacoes institucionais do Governo do Estado de Sao Paulo, e Recursos da Uniao. TOMADA DE PRECOS – Nº 019/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "estadual-governo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Governo e Relacoes Institucionais"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU\nCONTRATO-N°: 012/2024 - Lote – 02 – Fase II\nOBJETO: Contratacao de Empresa especializada para obra de pavimentacao e obras complementares da “Rua Tenente Ascelino Cunha “fase I e fase\nII, conforme convenio nº 103190/2023, celebrado com a Secretaria de Governo e relacoes institucionais do Governo do Estado de Sao Paulo, e Recursos\nda Uniao.\nTOMADA DE PRECOS – Nº 019/2023.",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem numero do contrato"
+                                    "Sem valor identificado"
                                 ]
                   }
               ]

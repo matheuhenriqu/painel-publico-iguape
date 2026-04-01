@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "1309",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:55",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:51",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1135_16073427.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1135_16073427.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  5,
+                    "relevantPageCount":  3,
+                    "blockCount":  6,
                     "itemCount":  5,
                     "totalValue":  "R$ 3.600,00"
                 },
@@ -29,7 +34,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -65,7 +70,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, retroagindo seus efeitos a 1º de janeiro de 2026, revogadas as disposicoes em",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
                       "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
@@ -101,7 +106,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, retroagindo seus efeitos a 1º de janeiro de 2026, revogadas as disposicoes em",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
                       "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
@@ -164,14 +169,14 @@
                       "confidenceLabel":  "media",
                       "pageNumber":  3,
                       "contractNumber":  "",
-                      "processNumber":  "013/2025",
+                      "processNumber":  "929/2025",
                       "modality":  "CHAMADA PUBLICA Nº 013/2025",
                       "contractor":  "",
                       "cnpj":  "",
                       "object":  "",
                       "value":  "",
-                      "term":  "s do art. 165, da Lei 14.133/21,",
-                      "signatureDate":  "s do Agente de Contratacao e membros da Equipe de Apoio:",
+                      "term":  "",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -184,7 +189,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "EXTRATO\n\n ATA DE SESSAO PUBLICA\nLicitacao: CHAMADA PUBLICA Nº 013/2025\nForma de Julgamento: tecnica e preco\nProcesso: 929/2025\nObjeto: Selecao de Entidade Privada, sem fins lucrativos, previamente qualificadas como Organizacao Social de Saude no ambito do municipio de\nIguape/SP, para celebracao de Contrato de Gestao, visando o gerenciamento, operacionalizacao e execucao das acoes e servicos de saude no\nPronto Atendimento, na Unidade Mista, na Unidade Basica de Saude, nas Unidades de Estrategia Saude da Familia, no ",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
                                     "Sem objeto identificado"
                                 ]

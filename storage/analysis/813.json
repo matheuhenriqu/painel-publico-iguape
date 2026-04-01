@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "813",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:09",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:28",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_751_09072355.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_751_09072355.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -25,11 +30,11 @@
                       "contractNumber":  "062/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU CONTRATANTE: MUNICIPIO DE IGUAPE C",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU CONTRATANTE: MUNICIPIO DE IGUAPE C CONTRATO N°: 062/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para obra de revitalizacao da orla do Mar Pequeno Fase-III – Convenio nº 000184/2022, que entre si celebram o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens, e o Municipio de Iguape, objetivando a transferencia de recursos financeiros do Fundo de Melhorias dos Municipios Turisticos",
                       "value":  "",
-                      "term":  "ao Contrato 062/2023",
+                      "term":  "",
                       "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",

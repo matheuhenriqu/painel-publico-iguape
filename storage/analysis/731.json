@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "731",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:27",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:02",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/523401148144ad0b6d57625b250e19c4.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/523401148144ad0b6d57625b250e19c4.pdf",
     "keywords":  [
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  1,
                     "totalValue":  "R$ 823.948,52"
                 },
@@ -19,13 +24,13 @@
                       "actTitle":  "Contrato 003/2024",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  15,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "003/2024",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "processNumber":  "013/2023",
+                      "modality":  "Tomada de Preco n°. 013/2023",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI CONTRATO N°: 003/2024",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa especializada para obra de reforma na Escola Municipal Profª Amancia Alves Muniz, localizada na avenida Julio Franco , nº 307, Bairro do Rocio – Iguape/SP. Tomada de Preco n°. 013/2023",
                       "value":  "R$ 823.948,52",

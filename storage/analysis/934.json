@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "934",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:55",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:56",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_853_16072921.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_853_16072921.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -19,13 +24,13 @@
                       "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  1,
                       "contractNumber":  "",
                       "processNumber":  "454/2024",
                       "modality":  "CP-E - CONCORRENCIA PUBLICA ELETRONICA - 7/2024 - EDITAL Nº: 19/2024",
-                      "contractor":  "KNAY ADMINISTRACAO E CONSTRUCOES EIRELI-ME",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "SOLICITA ABERTURA DE PROCEDIMENTO PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA SERVICOS DE FINALIZACAO E REPAROS NA OBRA DE REQUALIFICACAO DA ORLA DO VALO GRANDE - FASE III - LOTE 1",
                       "value":  "",

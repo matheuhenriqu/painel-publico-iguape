@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "503",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:11",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:05",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/4135e2b63e180d4b0e444b519f225ac2.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/4135e2b63e180d4b0e444b519f225ac2.pdf",
     "keywords":  [
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -27,10 +32,10 @@
                       "modality":  "PREGAO PRESENCIAL nº. 014/2023",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "REGISTRO DE PRECO PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICOES DE UTENSILIOS DE COZINHA DESTINADOS AS UNIDADES ESCOLARES DESTE MUNICIPIO DE IGUAPE/SP. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013, Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "object":  "REGISTRO DE PRECO PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICOES DE UTENSILIOS DE COZINHA DESTINADOS AS UNIDADES ESCOLARES DESTE MUNICIPIO DE IGUAPE/SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -53,7 +58,7 @@
                       "actTitle":  "AVISO DE LICITACAO - PREGAO PRESENCIAL Nº 003/2023",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
+                      "confidenceScore":  8,
                       "confidenceLabel":  "media",
                       "pageNumber":  2,
                       "contractNumber":  "",
@@ -61,7 +66,7 @@
                       "modality":  "PREGAO PRESENCIAL Nº 003/2023",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "",
+                      "object":  "Contratacao de empresa especializada, pelo periodo de12 (doze) meses na prestacao, de forma continua, dos servicos de limpeza, asseio e conservacao predial, com disponibilizacao de mao de obra de dois funcionarios para limpeza e um zelador para conservacao predial, nas dependencias do edificio da sede da Camara, com area total de 337,25m², subdividida em dois pavimentos, terreo e superior. Abertura das Propostas: 15 de Marco de 2023 as 09:00 hs. Local: Rua das Neves nº 01 – Centro, Iguape/SP – CEP: 11920-000 O edital podera ser adquirido junto a comissao de licitacao no endereco acima citado, ou atraves do site da Camara Municipal de Iguape https://www.iguape.sp.leg.br/",
                       "value":  "",
                       "term":  "",
                       "signatureDate":  "",
@@ -77,9 +82,9 @@
                                                          "Camara Municipal de Iguape"
                                                      ],
                       "excerpt":  "AVISO DE LICITACAO\n\nPREGAO PRESENCIAL Nº 003/2023\nOBJETO: Contratacao de empresa especializada, pelo periodo de12 (doze) meses na prestacao, de forma continua, dos servicos de\nlimpeza, asseio e conservacao predial, com disponibilizacao de mao de obra de dois funcionarios para limpeza e um zelador para\nconservacao predial, nas dependencias do edificio da sede da Camara, com area total de 337,25m², subdividida em dois pavimentos,\nterreo e superior.\nAbertura das Propostas: 15 de Marco de 2023 as 09:00 hs.\nLocal: Rua d",
-                      "completeness":  "baixa",
+                      "completeness":  "media",
                       "flags":  [
-                                    "Sem objeto identificado"
+
                                 ]
                   }
               ]

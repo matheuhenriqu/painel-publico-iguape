@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "485",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:14",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:09",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/08a5e2899b94af7e46552fb4764fa378.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/08a5e2899b94af7e46552fb4764fa378.pdf",
     "keywords":  [
@@ -9,188 +9,18 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  5,
-                    "itemCount":  5,
-                    "totalValue":  "R$ 855.689,26"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  7,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  3,
-                      "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "RONIE PETERSON RAMPONI -ME",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: RONIE PETERSON RAMPONI -ME",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem numero do contrato",
-                                    "Sem objeto identificado",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N.º 048/2022",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "048/2022",
-                      "processNumber":  "008/2022",
-                      "modality":  "Pregao Presencial n.º 008/2022",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicao de materiais de utilidades domesticas e materiais de higiene e limpeza para diversos Departamentos eSecoes da Prefeitura Municipal de Iguape, pelo periodo de 12 (doze) meses, referente ao termo de reequilibrio economico financeiro com fundamento no art. 65 inciso II, alinea “d” da Lei 8.666/93, passando o item 198, a ter o seguinte valor: Item – 198 – Papel Higienico – folha dupla; de 1ª qualidade classe 01; na cor branca-FD-Qualite – Valor Licitado R$ 57,70 (cinquenta e sete reais e setenta centavos) e Valor com Reequilibrio R$ 72,12 (setenta e dois reais e doze centavos) Pregao Presencial n.º 008/2022",
-                      "value":  "R$ 57,70",
-                      "term":  "",
-                      "signatureDate":  "03/02/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N.º 048/2022\nOBJETO: Registro de Precos para aquisicao de materiais de utilidades domesticas e materiais de higiene e limpeza para diversos\nDepartamentos eSecoes da Prefeitura Municipal de Iguape, pelo periodo de 12 (doze) meses, referente ao termo de reequilibrio\neconomico financeiro com fundamento no art. 65 inciso II, alinea “d” da Lei 8.666/93, passando o item 198, a ter o seguinte valor:\nItem – 198 – Papel Higienico – folha dupla; de 1ª qualidade classe 01; na cor branca-FD-Qualite – ",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "11º TERMO ADITIVO AO CONTRATO Nº 102/2021",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  14,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "102/2021",
-                      "processNumber":  "041/2021",
-                      "modality":  "PREGAO PRESENCIAL N,º 041/2021",
-                      "contractor":  "SEGUROS SURA S/A",
-                      "cnpj":  "43234891486513",
-                      "object":  "",
-                      "value":  "R$ 16.895,50",
-                      "term":  "",
-                      "signatureDate":  "26/01/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "federal-mec"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Ministerio da Educacao"
-                                                     ],
-                      "excerpt":  "11º TERMO ADITIVO AO CONTRATO Nº 102/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SEGUROS SURA S/A\nCONTRATO N°: 102/2021\nOBJETO: Constitui objeto do presente termo o ACRESCIMO de 16,43234891486513%, ao valor do contrato inicial, firmado entre as\npartes, referente a inclusao de 07 (sete) veiculos 1- RENAULT – Modelo – MASTER L2 Ambulancia – Ano 2021/2022 – Placa/Chassi\nDCUOF63/93YMAFEXCNJ056323, 2- RENAULT – Modelo – SANDEIRO – Ano - 2022/2023 – Placa/Chassi –\nGJN2B26/93Y5SRT5GPJ427171, 3- RENAULT – Modelo – SA",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem objeto identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Contrato",
-                      "actTitle":  "Contrato 029/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  16,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "029/2023",
-                      "processNumber":  "004/2023",
-                      "modality":  "PREGAO PRESENCIAL Nº 004/2023",
-                      "contractor":  "REALITY SERVICOS E TRANSPORTES EIRELI",
-                      "cnpj":  "",
-                      "object":  "Contratacao de Empresa Especializada para Prestacao de Servicos de Transporte por onibus com monitor escolar, nos Bairros Rurais e Urbanos, destinados aos alunos da Rede Publica de Ensino (Municipal e Estadual) do Municipio de Iguape, pelo periodo de ate 102 dias letivos do calendario escolar. PREGAO PRESENCIAL Nº 004/2023",
-                      "value":  "R$ 820.736,06",
-                      "term":  "03/02/2023 a 30/06/2023.",
-                      "signatureDate":  "02/02/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-assistencia-social",
-                      "primaryOrganizationName":  "Secretaria de Assistencia e Desenvolvimento Social",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "assistencia-social",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-assistencia-social"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Assistencia e Desenvolvimento Social"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: REALITY SERVICOS E TRANSPORTES EIRELI\nCONTRATO N°: 029/2023\nOBJETO: Contratacao de Empresa Especializada para Prestacao de Servicos de Transporte por onibus com monitor escolar, nos\nBairros Rurais e Urbanos, destinados aos alunos da Rede Publica de Ensino (Municipal e Estadual) do Municipio de Iguape, pelo periodo\nde ate 102 dias letivos do calendario escolar.\nPREGAO PRESENCIAL Nº 004/2023\nDATA: 02/02/2023\nVALOR: Pagara a contratada o valor de R$ 820.736,06 oito",
-                      "completeness":  "alta",
-                      "flags":  [
 
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "2º Termo Aditivo ao Termo de Colaboracao 01/2021",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Realizacao de parceria para execucao do Servico de Convivencia e Fortalecimento de Vinculos Amparo Legal: Lei Federal nº 13.019/2014 e suas alteracoes",
-                      "value":  "R$ 18.000,00",
-                      "term":  "12 meses – 01/01/2023 a 31/12/2023",
-                      "signatureDate":  "31 de janeiro de 2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
-
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "2º Termo Aditivo ao Termo de Colaboracao 01/2021\nOrgao/Entidade Publica: Prefeitura de Iguape\nOrganizacao da Sociedade Civil Parceira: Acao e Promocao Social de Iguape – Casa da Sopa\nObjeto: Realizacao de parceria para execucao do Servico de Convivencia e Fortalecimento de Vinculos\nAmparo Legal: Lei Federal nº 13.019/2014 e suas alteracoes\nValor: R$ 18.000,00 (Dezoito mil reais)\nVigencia: 12 meses – 01/01/2023 a 31/12/2023\nAssinatura: 31 de janeiro de 2023.",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem numero do contrato",
-                                    "Sem contratada identificada"
-                                ]
-                  }
               ]
 }

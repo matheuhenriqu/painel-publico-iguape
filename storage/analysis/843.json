@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "843",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:06",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:23",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_776-_19052357.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_776-_19052357.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -19,18 +24,18 @@
                       "actTitle":  "CONCORRENCIA PUBLICA ELETRONICA",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  7,
+                      "confidenceScore":  8,
                       "confidenceLabel":  "media",
                       "pageNumber":  1,
                       "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "CONCORRENCIA PUBLICA ELETRONICA",
+                      "processNumber":  "02/2024",
+                      "modality":  "CONCORRENCIA PUBLICA ELETRONICA – n.º 02/2024",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA PAVIMENTACAO ASFALTICA NA RUA JOAO BONIFACIO DA SILVA, TRECHO ENTRE A RUA DOM IDILIO JOSE SOARES E RUA CAPITAO OLIVEIRA, GUARICANA – IGUAPE/SP, CONFORME CONTRATO REPASSE Nº943144/2023/MCIDADES/CAIXA, QUE ENTRE SI CELEBRAM A UNIAO FEDERAL, POR INTERMEDIO DO MINISTERIO DAS CIDADES, REPRESENTADO(A) PELA CAIXA ECONOMICA FEDERAL E O MUNICIPIO DE IGUAPE. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA PAVIMENTACAO ASFALTICA NA RUA JOAO BONIFACIO DA SILVA, TRECHO ENTRE A RUA DOM IDILIO JOSE SOARES E RUA CAPITAO OLIVEIRA, GUARICANA – IGUAPE/SP, CONFORME CONTRATO REPASSE Nº943144/2023/MCIDADES/CAIXA, QUE ENTRE SI CELEBRAM A UNIAO FEDERAL, POR INTERMEDIO DO MINISTERIO DAS CIDADES, REPRESENTADO(A) PELA CAIXA ECONOMICA FEDERAL E O MUNICIPIO DE IGUAPE",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "signatureDate":  "",
                       "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -49,7 +54,7 @@
                       "excerpt":  "CONCORRENCIA PUBLICA ELETRONICA\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11920-\n000, a CONCORRENCIA PUBLICA ELETRONICA – n.º 02/2024, do tipo MENOR PRECO GLOBAL, nas especificacoes detalhadas no Edital.\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA PAVIMENTACAO ASFALTICA NA RUA JOAO BONIFACIO DA SILVA, TRECHO\nENTRE A RUA DOM IDILIO JOSE SOARES E RUA CAPITAO OLIVEIRA, GUARICANA – IGUAPE/SP, CONFORME CONTRATO RE",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem numero principal identificado"
+
                                 ]
                   }
               ]

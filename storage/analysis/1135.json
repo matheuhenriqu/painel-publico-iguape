@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "1135",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:26",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:06",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1013_05073532.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1013_05073532.pdf",
     "keywords":  [
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 415.158,67"
                 },
@@ -25,7 +30,7 @@
                       "contractNumber":  "015/2021",
                       "processNumber":  "008/2021",
                       "modality":  "Pregao Presencial n°. 008/2021",
-                      "contractor":  "AZZA TELECOM SERVICOS EM TELECOMUNICACOES S.A",
+                      "contractor":  "AZZA TELECOM SERVICOS EM TELECOMUNICACOES S.A. CONTRATO N°: 015/2021",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa prestador de servicos especializados de telecomunicacoes necessarias a implantacao, operacao, manutencao e gerenciamento de uma rede IP Multisservicos (OSPF/MPLS/VPN/EoIP) com 58 links de rede de dados de 100MBPS Full Duplex, de acesso a gestao do municipio e com a entrega total de 58 links de acesso a internet, pelo periodo de 12(doze) meses. Pregao Presencial n°. 008/2021",
                       "value":  "R$ 415.158,67",
@@ -53,13 +58,13 @@
                       "actTitle":  "TERMO DE REVOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  8,
+                      "confidenceScore":  6,
                       "confidenceLabel":  "media",
                       "pageNumber":  4,
                       "contractNumber":  "",
                       "processNumber":  "004/2025",
                       "modality":  "Chamada Publica nº 004/2025",
-                      "contractor":  "s",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "",
                       "value":  "",
@@ -77,7 +82,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "EXTRATO\n\n TERMO DE REVOGACAO\n\nA Prefeitura Municipal de Iguape torna publica a REVOGACAO da Chamada Publica nº 004/2025, tendo por objeto o Credenciamento para a\ncontratacao empresa de medicos plantonistas, medicos para Saude da Familia, medicos especialistas (G.O, ORTOPEDISTA, PSIQUIATRA,\nMEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTA OCUPACIONAL, FONOALDIOLOGO E NEUROPEDIATRA), para atender a\ndemanda de toda Secretaria Municipal de Saude de Iguape, bem como todos os locais de atendimento que a compoe, nos ter",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
                                     "Sem objeto identificado"
                                 ]

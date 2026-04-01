@@ -1,17 +1,22 @@
 ﻿{
     "diaryId":  "1298",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:58",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:55",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1128_31014832.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1128_31014832.pdf",
     "keywords":  [
                      "contrato",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
-                    "itemCount":  5,
-                    "totalValue":  "R$ 1.806,95"
+                    "relevantPageCount":  1,
+                    "blockCount":  5,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 130,50"
                 },
     "items":  [
                   {
@@ -25,7 +30,7 @@
                       "contractNumber":  "218/2025",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "SOCIEDADE PARANAENSE DE MEDICINA LTDA",
+                      "contractor":  "SOCIEDADE PARANAENSE DE MEDICINA LTDA CONTRATO Nº 218/2025",
                       "cnpj":  "",
                       "object":  "Credenciamento de pessoas fisicas e juridicas para a prestacao de servicos Medicos plantonistas, Medicos para Saude da Familia, Medicos especialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTA OCUPACIONAL, FONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de Saude de Iguape, bem como todos os locais de atendimento que a compoe, pelo periodo de 12 meses",
                       "value":  "",
@@ -59,8 +64,8 @@
                       "confidenceLabel":  "media",
                       "pageNumber":  2,
                       "contractNumber":  "",
-                      "processNumber":  "118/2025",
-                      "modality":  "",
+                      "processNumber":  "11/2025",
+                      "modality":  "Chamada Publica/Credenciamento nº 11/2025",
                       "contractor":  "",
                       "cnpj":  "",
                       "object":  "",
@@ -81,8 +86,7 @@
                       "excerpt":  "INEXIGIBILIDADE n°. 118/2025 – Chamada Publica/Credenciamento nº 11/2025\n\nData: 23/12/2025\n\nVIGENCIA: 12 (doze) meses, periodo de 23/12/2025 a 22/12/2026\n\nEXECUCAO: Ordem de Servico - 03 (tres) meses, periodo de 07/01/2026 a 06/04/2026.\n\nITEM: 1- Medico Generalista – 40 h/semanais – Classificacao - (6ª colocada) -3º Profissional.\n\nVALOR: Valor/ Hora - R$ 130,50 (cento e trinta reais e cinquenta centavos), sendo 40 h semanais, com quantidade trimestral – rodizio.",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem objeto identificado",
-                                    "Sem modalidade identificada"
+                                    "Sem objeto identificado"
                                 ]
                   },
                   {
@@ -96,7 +100,7 @@
                       "contractNumber":  "219/2025",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "ADM MEDICA GESTAO E SAUDE LTDA",
+                      "contractor":  "ADM MEDICA GESTAO E SAUDE LTDA CONTRATO Nº 219/2025",
                       "cnpj":  "",
                       "object":  "Credenciamento de pessoas fisicas e juridicas para a prestacao de servicos Medicos plantonistas, Medicos para Saude da Familia, Medicos especialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTA OCUPACIONAL, FONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de Saude de Iguape, bem como todos os locais de atendimento que a compoe, pelo periodo de 12 meses",
                       "value":  "",
@@ -122,57 +126,22 @@
                                 ]
                   },
                   {
-                      "type":  "Inexigibilidade",
-                      "actTitle":  "INEXIGIBILIDADE n°. 132/2025 – Chamada Publica/Credenciamento nº 11/2025",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  2,
-                      "contractNumber":  "",
-                      "processNumber":  "132/2025",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "R$ 1.676,45",
-                      "term":  "12 (doze) meses, periodo de 23/12/2025 a 22/12/2026",
-                      "signatureDate":  "-23/12/2025",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "INEXIGIBILIDADE n°. 132/2025 – Chamada Publica/Credenciamento nº 11/2025\n\nData:-23/12/2025\n\nVIGENCIA: 12 (doze) meses, periodo de 23/12/2025 a 22/12/2026\n\nEXECUCAO: Ordem de Servico - 03 (tres) meses, periodo de 24/12/2025 a 23/03/2026.\n\nITEM: 11 - Medico Plantonista (12x36) – Classificacao - (3ª colocada)\n\nVALOR: Valor fixo a hora/plantao- R$ 1.676,45 (hum mil, seiscentos e setenta e seis reais e quarenta e cinco centavos), efetivamente trabalhada – 180 (cento e oitenta)\n\nplantoes, com quantidade trimestral – rodi",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem objeto identificado",
-                                    "Sem modalidade identificada"
-                                ]
-                  },
-                  {
                       "type":  "Aviso de Licitacao",
                       "actTitle":  "CONCORRENCIA ELETRONICA",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  7,
+                      "confidenceScore":  8,
                       "confidenceLabel":  "media",
                       "pageNumber":  2,
                       "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "CONCORRENCIA ELETRONICA",
+                      "processNumber":  "010/2025",
+                      "modality":  "CONCORRENCIA ELETRONICA – n.º 010/2025",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA IMPLANTACAO DE DOIS ABRIGOS DE ONIBUS PADRONIZADOS EM CONCRETO ARMADO APARENTE, LOCALIZADO NO BAIRRO DO ROCIO – NO MUNICIPIO DE IGUAPE/SP, custeado pela Emenda Parlamentar nº 202138960001 -Convenio Estadual. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3. 125/2023",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA IMPLANTACAO DE DOIS ABRIGOS DE ONIBUS PADRONIZADOS EM CONCRETO ARMADO APARENTE, LOCALIZADO NO BAIRRO DO ROCIO – NO MUNICIPIO DE IGUAPE/SP, custeado pela Emenda Parlamentar nº 202138960001 -Convenio Estadual",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "signatureDate":  "",
                       "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -189,7 +158,7 @@
                       "excerpt":  "CONCORRENCIA ELETRONICA\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, a CONCORRENCIA ELETRONICA – n.º 010/2025, do tipo MENOR PRECO GLOBAL, situada\nna Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA IMPLANTACAO DE DOIS ABRIGOS DE ONIBUS PADRONIZADOS EM\nCONCRETO ARMADO APARENTE, LOCALIZADO NO BAIRRO DO ROCIO – NO MUNICIPIO DE IGUAPE/SP, custeado pela Emenda Parlamentar\nnº 202",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem numero principal identificado"
+
                                 ]
                   }
               ]

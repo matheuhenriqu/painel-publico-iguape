@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1358",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:46",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:35",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1170_11073828.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1170_11073828.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  4,
                     "itemCount":  3,
                     "totalValue":  "R$ 0,00"
                 },
@@ -30,7 +35,7 @@
                       "cnpj":  "",
                       "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA REFORMA E REVITALIZACAO DA COBERTURA E FORRO DA IGREJA SAO BENEDITO COM FORNECIMENTO DE MATERIAIS E MAO DE OBRA, NESTE MUNICIPIO DE IGUAPE/SP",
                       "value":  "",
-                      "term":  "DO CONTRATO 162/2025 EXTRATO",
+                      "term":  "",
                       "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",

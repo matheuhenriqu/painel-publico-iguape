@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1229",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:11",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:35",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1077_09074958.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1077_09074958.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 214.766,66"
                 },
@@ -20,12 +25,12 @@
                       "actTitle":  "2º TERMO ADITIVO DE PRORROAGACAO – CONTRATO 162/2023",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  15,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  3,
-                      "contractNumber":  "162/2023",
-                      "processNumber":  "",
-                      "modality":  "",
+                      "contractNumber":  "2/2023",
+                      "processNumber":  "47/2023",
+                      "modality":  "PREGAO PRESENCIAL - Nº 47/2023",
                       "contractor":  "ASSOCIACAO HOSPITALAR DE PROTECAO A INFANCIA Dr. Paulo Carneiro",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa especializada em Teleatendimento em Pediatria com uso de dispositivo e adaptadores para exames fisicos de captacao remota de dados pelo periodo de 12 meses. PREGAO PRESENCIAL - Nº 47/2023",
@@ -57,7 +62,7 @@
                       "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  3,
-                      "contractNumber":  "147/2023",
+                      "contractNumber":  "7/2023",
                       "processNumber":  "24/2023",
                       "modality":  "PREGAO PRESENCIAL Nº 24/2023",
                       "contractor":  "ANDRE RAMOS ODONTO TECNICA",

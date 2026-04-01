@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "352",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:34",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:37",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/0f4ccba9b62e4846bf12db3d4f337e43.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/0f4ccba9b62e4846bf12db3d4f337e43.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  7,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -21,13 +26,13 @@
                       "actTitle":  "2º TERMO ADITIVO AO CONTRATO N.º 066/2021",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  4,
                       "contractNumber":  "066/2021",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "ENGETEC ENGENHARIA EIRELI - ME",
+                      "processNumber":  "013/2021",
+                      "modality":  "Tomada de Precos - n°. 013/2021",
+                      "contractor":  "ENGETEC ENGENHARIA EIRELI - ME CONTRATO N°: 066/2021 da execucao do servico -25/07/2022 a",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa Especializada para execucao de obra de pavimentacao conforme convenio nº 100903/2021,celebrado entre a Secretaria de Desenvolvimento Regional de Iguape/SP. Tomada de Precos - n°. 013/2021",
                       "value":  "",
@@ -45,7 +50,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "2º TERMO ADITIVO AO CONTRATO N.º 066/2021 Asfaltica no Bairro Jardim Primavera,\nCONTRATANTE: MUNICIPIO DE IGUAPE do Estado de Sao Paulo e o municipio\nCONTRATADA: ENGETEC ENGENHARIA EIRELI - ME\nCONTRATO N°: 066/2021 da execucao do servico -25/07/2022 a\nOBJETO: Contratacao de Empresa Especializada para execucao de obra de pavimentacao\nconforme convenio nº 100903/2021,celebrado entre a Secretaria de Desenvolvimento Regional\nde Iguape/SP.\nTomada de Precos - n°. 013/2021\nDATA: 25/07/2022\nVIGENCIA: Prazo de vigencia -23/",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]

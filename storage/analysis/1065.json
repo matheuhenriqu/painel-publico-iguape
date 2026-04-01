@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1065",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:36",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:26",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_954_01075351.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_954_01075351.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  8,
+                    "relevantPageCount":  3,
+                    "blockCount":  6,
                     "itemCount":  3,
                     "totalValue":  "R$ 0,00"
                 },
@@ -31,7 +36,7 @@
                       "object":  "empresa IB FERREIRA SERVICOS LTDA (GRUPO RL ME)",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-justica-cidadania",
                       "primaryOrganizationName":  "Secretaria de Justica e Cidadania",
@@ -48,7 +53,7 @@
                                                          "Secretaria de Justica e Cidadania"
                                                      ],
                       "excerpt":  "PORTARIA Nº 89, DE 27 DE MARCO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao\nconferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º - Designa Antonio Matheus de Veiga Neto, Secretario Municipal de Justica e Cidadania, inscrito no CPF/MF nº 348.200.038-79, para\n exercer a funcao de gestor do Contrato 050/2025, empres",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -69,7 +74,7 @@
                       "object":  "empresa LOCALIZA VEICULOS ESPECIAIS S.A",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, tornando sem efeito a portaria nº 252 de 28 de julho de 2023, revogadas as",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-educacao",
                       "primaryOrganizationName":  "Secretaria de Educacao",
@@ -86,7 +91,7 @@
                                                          "Secretaria de Educacao"
                                                      ],
                       "excerpt":  "PORTARIA Nº 93, DE 01 ABRIL DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa Ibanes Souza Vieira, Diretor de Frota e Veiculo, inscrito no CPF/MF nº 197.600.178-14, para exercer a funcao de gestor do\n Contrato 154/2023, empresa LOCALIZA VEICULOS ESPECIAIS",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -107,7 +112,7 @@
                       "object":  "empresa LOCALIZA VEICULOS ESPECIAIS S.A",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, tornando sem efeito a portaria nº 192 de 24 de julho de 2024, revogadas as",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -120,7 +125,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "PORTARIA Nº 95, DE 01 ABRIL DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa Ibanes Souza Vieira, Diretor de Frota e Veiculo, inscrito no CPF/MF nº 197.600.178-14, para exercer a funcao de gestor do\n Contrato 093/2024, empresa LOCALIZA VEICULOS ESPECIAIS",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]

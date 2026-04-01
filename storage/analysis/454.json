@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "454",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:18",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:16",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/18bc8a9a736f0f44e8ed3de3ac124ea5.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/18bc8a9a736f0f44e8ed3de3ac124ea5.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  3,
                     "totalValue":  "R$ 155.943,47"
                 },
@@ -21,15 +26,15 @@
                       "actTitle":  "2º TERMO ADITIVO AO CONTRATO 23/2021",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  16,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "023/2021",
                       "processNumber":  "12/2021",
                       "modality":  "Pregao Presencial nº 12/2021",
-                      "contractor":  "CECAM – CONSULTORIA ECONOMICA, CONTABIL E ADMINISTRATIVA MUNICIPAL LTDA",
+                      "contractor":  "CECAM – CONSULTORIA ECONOMICA, CONTABIL E ADMINISTRATIVA MUNICIPAL LTDA CONTRATO N°: 023/2021",
                       "cnpj":  "",
-                      "object":  "refere-se a Contratacao de empresa especializada para cessao de direito de uso de softwares (modulos) de gestao publica, nas areas de ajuizamento eletronico (procuradoria), administracao de pessoal, almoxarifado, contabilidade publica e tesouraria, controle interno, portal da transparencia, compras e licitacoes, protocolo, frotas, patrimonio, IPTU e itbi, iptu e itbi web, obras, iss, iss web, iss eletronico e nota fiscal eletronica, saude e cemiterio, envolvendo conversao, migracao, implantacao dos modulos e capacitacao dos usuarios, pelo periodo de 12 meses. Pregao Presencial nº 12/2021",
+                      "object":  "",
                       "value":  "R$ 7.298,01",
                       "term":  "",
                       "signatureDate":  "22/12/2022",
@@ -49,7 +54,7 @@
                       "excerpt":  "2º TERMO ADITIVO AO CONTRATO 23/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CECAM – CONSULTORIA ECONOMICA, CONTABIL E ADMINISTRATIVA MUNICIPAL LTDA\nCONTRATO N°: 023/2021\nOBJETO: Constitui o presente termo aditivo de substituicao e acrescimo de valor, dos programas de contabilidade e orcamento\npublico dos orgaos Municipais pela Licenca de uso do Sistema Unico Integrado de Execucao Orcamentaria Administracao\nFinanceira e Controle – SIAFIC, visando atender o Decreto nº 10.540 de 2020, cujo objeto refere-se a Con",
                       "completeness":  "alta",
                       "flags":  [
-
+                                    "Sem objeto identificado"
                                 ]
                   },
                   {

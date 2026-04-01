@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "512",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:09",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:03",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/c75079f848aae55da0f85dda20146c20.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/c75079f848aae55da0f85dda20146c20.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  19,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 4,45"
                 },
@@ -20,15 +25,15 @@
                       "actTitle":  "12º TERMO ADITIVO DE VALOR AO CONTRATO Nº 002/2022",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  6,
                       "contractNumber":  "002/2022",
-                      "processNumber":  "",
+                      "processNumber":  "001/2022",
                       "modality":  "",
-                      "contractor":  "COOPERATIVA DE TRABALHADORES DE TRANSPORTE ESCOLAR DE IGUAPE",
+                      "contractor":  "COOPERATIVA DE TRABALHADORES DE TRANSPORTE ESCOLAR DE IGUAPE CONTRATO N°: 002/2022",
                       "cnpj":  "",
-                      "object":  "",
+                      "object":  "Prestacao de Servicos de Transporte por Kombi ou Van com monitor escolar, nos Bairros Rurais e Urbanos, destinados aos alunos da Rede Publica de Ensino (Municipal e Estadual) do Municipio de Iguape, pelo periodo de ate 102 dias letivos do calendario escolar, sendo o Acrescimo de 0,43339325 % ao valor do contrato, nos termos previstos em sua Clausula Decima Segunda, subitem 12.3 letra “ m”, e com fundamento legal no § 1º do artigo 65 da Lei Federal nº 8.666/93, referente ao aditivo na rota 069 – periodo integral, para atender aos alunos que estudam na Escola Estadual Professora Elvira Silva, residentes na ALDEIA ITAPUA, RUA 10,PRAIADOLESTE. PREGAOPRESENCIALNº 001/2022",
                       "value":  "R$ 4,45",
                       "term":  "",
                       "signatureDate":  "07/03/2023",
@@ -46,9 +51,9 @@
                                                          "Advocacia-Geral da Uniao"
                                                      ],
                       "excerpt":  "12º TERMO ADITIVO DE VALOR AO CONTRATO Nº 002/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COOPERATIVA DE TRABALHADORES DE TRANSPORTE ESCOLAR DE IGUAPE\nCONTRATO N°: 002/2022\nOBJETO: Prestacao de Servicos de Transporte por Kombi ou Van com monitor escolar, nos Bairros Rurais e Urbanos, destinados aos\nalunos da Rede Publica de Ensino (Municipal e Estadual) do Municipio de Iguape, pelo periodo de ate 102 dias letivos do calendario\nescolar, sendo o Acrescimo de 0,43339325 % ao valor do contrato, nos termos previst",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
-                                    "Sem objeto identificado"
+
                                 ]
                   }
               ]

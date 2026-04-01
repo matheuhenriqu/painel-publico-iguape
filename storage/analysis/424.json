@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "424",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:24",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:24",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/e4c7b9643b5b8f071dc31d387c596d84.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/e4c7b9643b5b8f071dc31d387c596d84.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  12,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 11.033,20"
                 },
@@ -24,7 +29,7 @@
                       "contractNumber":  "163/2022",
                       "processNumber":  "055/2022",
                       "modality":  "PREGAO PRESENCIAL Nº: 055/2022",
-                      "contractor":  "C E C IMPORTACAO E COMERCIO DE PRODUTOS MEDICOS LTDA - EPP",
+                      "contractor":  "C E C IMPORTACAO E COMERCIO DE PRODUTOS MEDICOS LTDA - EPP CONTRATO N°: 163/2022",
                       "cnpj":  "",
                       "object":  "Aquisicao de materiais de equipamentos de Fisioterapia para atender a Secretaria Municipal de Saude. PREGAO PRESENCIAL Nº: 055/2022",
                       "value":  "R$ 11.033,20",

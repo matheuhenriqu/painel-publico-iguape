@@ -1,188 +1,25 @@
 ﻿{
     "diaryId":  "669",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:38",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:19",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/7aa2cead4fe273ed17ca1f9a363490d4.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/7aa2cead4fe273ed17ca1f9a363490d4.pdf",
     "keywords":  [
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  6,
-                    "itemCount":  5,
-                    "totalValue":  "R$ 587.084,84"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:125/2023.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "5/2023",
-                      "processNumber":  "009/2023",
-                      "modality":  "Pregao Presencial nº 009/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicao de Material de Enfermagem para atender as Unidades do Departamento de Saude da Prefeitura Municipal de Iguape, pelo periodo de 12 meses (itens fracassados/desertos no Pregao Presencial nº 009/2023). Pregao Presencial n°. 055/2023",
-                      "value":  "R$ 82.052,40",
-                      "term":  "12 (doze) meses.",
-                      "signatureDate":  "10/10/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:125/2023.\nOBJETO: Registro de Precos para aquisicao de Material de Enfermagem para atender as Unidades do Departamento de Saude da Prefeitura Municipal\nde Iguape, pelo periodo de 12 meses (itens fracassados/desertos no Pregao Presencial nº 009/2023).\nPregao Presencial n°. 055/2023\nDATA DA ASSINATURA: 10/10/2023\nVIGENCIA: 12 (doze) meses.\nVALOR: R$ 82.052,40 (oitenta e dois mil, cinquenta e dois reais e quarenta centavos)",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:126/2023.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "6/2023",
-                      "processNumber":  "009/2023",
-                      "modality":  "Pregao Presencial nº 009/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicao de Material de Enfermagem para atender as Unidades do Departamento de Saude da Prefeitura Municipal de Iguape, pelo periodo de 12 meses (itens fracassados/desertos no Pregao Presencial nº 009/2023). Pregao Presencial n°. 055/2023",
-                      "value":  "R$ 123.315,50",
-                      "term":  "12 (doze) meses.",
-                      "signatureDate":  "- 17/10/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:126/2023.\nOBJETO: Registro de Precos para aquisicao de Material de Enfermagem para atender as Unidades do Departamento de Saude da Prefeitura Municipal\nde Iguape, pelo periodo de 12 meses (itens fracassados/desertos no Pregao Presencial nº 009/2023).\nPregao Presencial n°. 055/2023\nDATA DA ASSINATURA:- 17/10/2023\nVIGENCIA: 12 (doze) meses.\nVALOR: R$ 123.315,50 (cento e vinte e tres mil, trezentos e quinze reais e cinquenta centavos)",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:127/2023.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "7/2023",
-                      "processNumber":  "009/2023",
-                      "modality":  "Pregao Presencial nº 009/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicao de Material de Enfermagem para atender as Unidades do Departamento de Saude da Prefeitura Municipal de Iguape, pelo periodo de 12 meses (itens fracassados/desertos no Pregao Presencial nº 009/2023). Pregao Presencial n°. 055/2023",
-                      "value":  "R$ 226.534,14",
-                      "term":  "12 (doze) meses.",
-                      "signatureDate":  "- 10/10/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:127/2023.\nOBJETO: Registro de Precos para aquisicao de Material de Enfermagem para atender as Unidades do Departamento de Saude da Prefeitura Municipal\nde Iguape, pelo periodo de 12 meses (itens fracassados/desertos no Pregao Presencial nº 009/2023).\nPregao Presencial n°. 055/2023\nDATA DA ASSINATURA:- 10/10/2023\nVIGENCIA: 12 (doze) meses.\nVALOR: R$ 226.534,14 (duzentos e vinte e seis mil, quinhentos e trinta e quatro reais e catorze centavos)",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:128/2023.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "8/2023",
-                      "processNumber":  "009/2023",
-                      "modality":  "Pregao Presencial nº 009/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicao de Material de Enfermagem para atender as Unidades do Departamento de Saude da Prefeitura Municipal de Iguape, pelo periodo de 12 meses (itens fracassados/desertos no Pregao Presencial nº 009/2023). Pregao Presencial n°. 055/2023",
-                      "value":  "R$ 47.952,00",
-                      "term":  "12 (doze) meses.",
-                      "signatureDate":  "- 10/10/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:128/2023.\nOBJETO: Registro de Precos para aquisicao de Material de Enfermagem para atender as Unidades do Departamento de Saude da Prefeitura Municipal\nde Iguape, pelo periodo de 12 meses (itens fracassados/desertos no Pregao Presencial nº 009/2023).\nPregao Presencial n°. 055/2023\nDATA DA ASSINATURA:- 10/10/2023\nVIGENCIA: 12 (doze) meses.\nVALOR: R$ 47.952,00 (quarenta e sete mil, novecentos e cinquenta e dois reais)",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:129/2023.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "9/2023",
-                      "processNumber":  "009/2023",
-                      "modality":  "Pregao Presencial nº 009/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicao de Material de Enfermagem para atender as Unidades do Departamento de Saude da Prefeitura Municipal de Iguape, pelo periodo de 12 meses (itens fracassados/desertos no Pregao Presencial nº 009/2023). Pregao Presencial n°. 055/2023",
-                      "value":  "R$ 107.230,80",
-                      "term":  "12 (doze) meses.",
-                      "signatureDate":  "- 16/10/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:129/2023.\nOBJETO: Registro de Precos para aquisicao de Material de Enfermagem para atender as Unidades do Departamento de Saude da Prefeitura Municipal\nde Iguape, pelo periodo de 12 meses (itens fracassados/desertos no Pregao Presencial nº 009/2023).\nPregao Presencial n°. 055/2023\nDATA DA ASSINATURA:- 16/10/2023\nVIGENCIA: 12 (doze) meses.\nVALOR: R$ 107.230,80 (cento e sete mil, duzentos e trinta reais e oitenta centavos)",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  }
+
               ]
 }

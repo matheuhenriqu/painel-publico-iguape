@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "316",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:42",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:49",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/996c1a939d3b2b36888f9eb8820cb05a.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/996c1a939d3b2b36888f9eb8820cb05a.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  5,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -28,10 +33,10 @@
                       "modality":  "PREGAO PRESENCIAL nº 040/2022",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE EQUIPAMENTOS DE PROTECAO INDIVIDUAL –(EPI) E UNIFORMES PROFISSIONAIS, PELO PERIODO 12 (DOZE) MESES, PARA ATENDER A DEMANDA DA PREFEITURA MUNICIPAL DE IGUAPE/SP. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013, Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE EQUIPAMENTOS DE PROTECAO INDIVIDUAL –(EPI) E UNIFORMES PROFISSIONAIS, PELO PERIODO 12 (DOZE) MESES, PARA ATENDER A DEMANDA DA PREFEITURA MUNICIPAL DE IGUAPE/SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -54,13 +59,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  10,
-                      "confidenceLabel":  "alta",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
                       "pageNumber":  3,
                       "contractNumber":  "",
                       "processNumber":  "32/2022",
                       "modality":  "PR-G - PREGAO PRESENCIAL - 28/2022 - EDITAL Nº: 39/2022",
-                      "contractor":  "DENTAL PRIME - PRODUTOS ODONTOLOGICOS MEDICOS HOSPITALARES EIRELI",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE MATERIAIS ODONTOLOGICOS PARA ATENDER AS UNDIADES DA SECRETARIA DE SAUDE DO MUNICIPIO DE IGUAPE PELO PERIODO DE 12 (DOZE) MESES (Itens fracassados no",
                       "value":  "",

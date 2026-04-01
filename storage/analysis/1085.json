@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1085",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:33",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:20",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_973_02074507.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_973_02074507.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  2,
+                    "blockCount":  3,
                     "itemCount":  3,
                     "totalValue":  "R$ 419.800,00"
                 },
@@ -31,7 +36,7 @@
                       "object":  "EMPRESA DENNYS NOBRE BEZERRA DA SILVA – MEI",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -48,7 +53,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 114, DE 29 DE ABRIL DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Ricardo de Oliveira Ragni de Castro, Secretario Municipal de Infraestrutura Urbana e Obras, inscrito no CPF/MF nº.\n 293.199.448-06, para exercer a funcao de gestor do Cont",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -69,7 +74,7 @@
                       "object":  "EMPRESA DENNYS NOBRE BEZERRA DA SILVA – MEI",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -86,7 +91,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 115, DE 29 DE ABRIL DE 2025\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Demilson Pereira Fabricio, Assessor I, titular da Cedula de Identidade RG nº 40.706.024-8 SSP/SP, inscrito no CPF/MF nº\n 358.118.788-42, para exercer a funcao de fiscal do",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -102,7 +107,7 @@
                       "contractNumber":  "030/2025",
                       "processNumber":  "078/2023",
                       "modality":  "Pregao Presencial n°. 078/2023",
-                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU CONTRATO Nº 030/2025 – ORIUNDO DA ATA DE REGISTRO DE PRECOS-N°:017/2024",
                       "cnpj":  "",
                       "object":  "Registro de Precos para futuras e eventuais contratacoes de empresa(s) especializada(s) para fornecimento de agregados minerais a serem utilizados neste municipio de Iguape Pregao Presencial n°. 078/2023",
                       "value":  "R$ 419.800,00",

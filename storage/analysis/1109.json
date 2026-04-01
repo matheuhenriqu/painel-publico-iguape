@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1109",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:30",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:14",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_993_04065831.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_993_04065831.pdf",
     "keywords":  [
@@ -9,13 +9,52 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  0,
-                    "itemCount":  0,
-                    "totalValue":  "R$ 0,00",
-                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Items\u0027 porque ele é uma matriz vazia."
+                    "pageCount":  15,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
                 },
     "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  4,
+                      "contractNumber":  "",
+                      "processNumber":  "010/2025",
+                      "modality":  "PREGAO ELETRONICO – n.º 010/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA CESSAO DE DIREITO DE USO DE SOTFWARES (MODULOS) DE GESTAO PUBLICA, PARA PREFEITURA MUNICIPAL DE IGUAPE, NAS AREAS DE AJUIZAMENTO ELETRONICO (PROCURADORIA), ADMINISTRACAO DE PESSOAL, ALMOXARIFADO, CONTABILIDADE PUBLICA E TESOURARIA, CONTROLE INTERNO, PORTAL DA TRANSPARENCIA, COMPRAS E LICITACOES, PROTOCOLO WEB, FROTAS, PATRIMONIO, IPTU E ITBI, IPTU E ITBI WEB, ISS, ISS WEB, ISS ELETRONICO E NOTA FISCAL ELETRONICA, SAUDE E CEMITERIO, ENVOLVENDO CONVERSAO, IMPLANTACAO E TREINAMENTO DOS MODULOS E CAPACITACAO DOS USUARIOS NAS AREAS ABAIXO, PELO PERIODO DE 12 MESES, CONFORME DECRETO 10.540/2020 – SIAFIC",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO – n.º 010/2025, do tipo MENOR PRECO GLOBAL , situada na Avenida Adhemar de Barros, n.º 1.070,\nBairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA CESSAO DE DIREITO DE USO DE SOTFWARES (MODULOS) DE GESTAO PUBLICA, PARA PREFEITURA\nMUNICIPAL DE IGUAPE, NAS AREAS DE AJUIZAMENTO ELETRONICO (PROCURADORIA), ADMINISTRACAO DE PESSOAL, ALMOXAR",
+                      "completeness":  "media",
+                      "flags":  [
 
+                                ]
+                  }
               ]
 }

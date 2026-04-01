@@ -1,55 +1,24 @@
 ﻿{
     "diaryId":  "1124",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:28",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:09",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_25jun2025-_25093212.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_25jun2025-_25093212.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  4,
-                    "itemCount":  1,
-                    "totalValue":  "R$ 0,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Aviso de Licitacao",
-                      "actTitle":  "AVISO DEEXTSRUASTPOENSAO",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  8,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  1,
-                      "contractNumber":  "",
-                      "processNumber":  "4/2025",
-                      "modality":  "Chamada Publica nº004/2025",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "o Credenciamento para a Contratacao empresa de medicos plantonistas, Medicos para Saude da Familia, medicos especialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTA OCUPACIONAL, FONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de saude de Iguape, bem como todos os locais de atendimento que a compoe. Ficam os interessados cientes da presente decisao. Publique-se. Cumpra-se. Iguape, 24 de junho de 2025. SALVADOR JOSE BARBOSA JUNIOR Prefeito ASSISTENCIA E DESENVOLVIMENTO SOCIAL RESOLUCAO",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-assistencia-social",
-                      "primaryOrganizationName":  "Secretaria de Assistencia e Desenvolvimento Social",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "assistencia-social",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento",
-                                                       "municipal-assistencia-social"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento",
-                                                         "Secretaria de Assistencia e Desenvolvimento Social"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\n AVISO DEEXTSRUASTPOENSAO\n A Prefeitura Municipal de Iguape torna publica a suspensao da Chamada Publica nº004/2025, em decorrencia de decisao do Tribunal de Contas\ndo Estado de Sao Paulo no TC-011037.989.25-8, tendo por objeto o Credenciamento para a Contratacao empresa de medicos plantonistas, Medicos para\nSaude da Familia, medicos especialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTA\nOCUPACIONAL, FONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Sec",
-                      "completeness":  "media",
-                      "flags":  [
 
-                                ]
-                  }
               ]
 }

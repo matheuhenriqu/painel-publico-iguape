@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1158",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:22",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:58",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_094_24021852.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_extra_094_24021852.pdf",
     "keywords":  [
@@ -10,9 +10,14 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  23,
-                    "itemCount":  2,
+                    "relevantPageCount":  2,
+                    "blockCount":  2,
+                    "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
     "items":  [
@@ -21,7 +26,7 @@
                       "actTitle":  "AVISO DE ABERTURA DE EDITAL",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  8,
+                      "confidenceScore":  6,
                       "confidenceLabel":  "media",
                       "pageNumber":  1,
                       "contractNumber":  "",
@@ -29,7 +34,7 @@
                       "modality":  "CHAMADA PUBLICA nº 010/2025",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "e o CREDENCIAMENTO, DE EMPRESAS PARA A PRESTACAO DE SERVICOS DE LIMPEZA URBANA DURANTE A FESTA DO SENHOR BOM JESUS DE IGUAPE, ENVOLVENDO VARREDURA MANUAL, COLETA DE RESIDUOS E SERVICOS GERAIS, NO MUNICIPIO DE IGUAPE/SP",
+                      "object":  "",
                       "value":  "",
                       "term":  "",
                       "signatureDate":  "",
@@ -47,43 +52,9 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "AVISO DE ABERTURA DE EDITAL\n\n AVISO DE ABERTURA DE EDITAL\n CHAMADA PUPLICA -\n\n Encontra-se ABERTO na Prefeitura Municipal de Iguape, a CHAMADA PUBLICA nº 010/2025, cujo objeto e o CREDENCIAMENTO, DE\n EMPRESAS PARA A PRESTACAO DE SERVICOS DE LIMPEZA URBANA DURANTE A FESTA DO SENHOR BOM JESUS DE IGUAPE,\n ENVOLVENDO VARREDURA MANUAL, COLETA DE RESIDUOS E SERVICOS GERAIS, NO MUNICIPIO DE IGUAPE/SP.",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
-
-                                ]
-                  },
-                  {
-                      "type":  "Gestao Contratual",
-                      "actTitle":  "9",
-                      "recordClass":  "gestao_contratual",
-                      "recordClassLabel":  "Gestao do contrato",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  9,
-                      "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "CONTRATO Nº",
-                      "cnpj":  "",
-                      "object":  "licitado, devendo ser observado o disposto no art. 117 da Lei nº 14.133/21. 9.1.1- Sendo: a) gestor do contrato: ....................................... b) fiscal (is) :......................................... CLAUSULA DECIMA - DO FORO 10.1-Fica eleito o Foro da Comarca de Iguape para dirimir duvidas ou questoes oriundas do presente contrato",
-                      "value":  "",
-                      "term":  "s processuais, conforme regras do Codigo de Processo Civil;",
-                      "signatureDate":  "",
-                      "legalBasis":  "Lei Federal nº 14.133/2021, com garantia do contraditorio e ampla defesa",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "9\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – EDICAO EXTARNAON0º50–94NºQ1u0i0n2ta-Tferircaa,-f2e4irdae, 1Ju7lhdoe Jduen2h0o2d5e- 2w0w2w5 .iguape.sp.gov.br\n\nIII- Suspensao do credenciamento por ate 12 meses, nos casos de reincidencia;\n\nIV- Descredenciamento imediato, nos casos de:\n\n• Execucao insatisfatoria reiterada;\n\n• Danos ao patrimonio publico ou a terceiros;\n\n• Fraude, falsidade documental ou inidoneidade comprovada.\n\nV- As penalidades serao aplicadas com base na Lei Federal nº 14.133/2021, com garantia do contr",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem numero do contrato"
+                                    "Sem objeto identificado"
                                 ]
                   }
               ]

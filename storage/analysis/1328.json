@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "1328",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:52",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:45",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1148_04080114.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1148_04080114.pdf",
     "keywords":  [
                      "contrato",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -19,15 +24,15 @@
                       "actTitle":  "EXTRATO DE RESULTADO DA CHAMADA PUBLICA PARA CREDENCIAMENTO Nº 003/2026 – PROCESSO N.º 058/2026 – Objeto: Credenciamento",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  10,
-                      "confidenceLabel":  "alta",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
                       "pageNumber":  2,
                       "contractNumber":  "",
                       "processNumber":  "058/2026",
-                      "modality":  "",
-                      "contractor":  "Razao Social: BANCO DO BRASIL SA CREDENCIADA",
+                      "modality":  "CHAMADA PUBLICA PARA CREDENCIAMENTO Nº 003/2026",
+                      "contractor":  "",
                       "cnpj":  "00.000.000/0001-91",
-                      "object":  "Credenciamento de Instituicao Financeira para recebimento de arrecadacao Municipal, no padrao Febraban, conforme descricao e especificacoes relacionados no anexo I, parte integrante deste edital. Resultado do credenciamento pela Comissao de Selecao, apos Avaliacao das Documentacoes apresentadas pela credenciada: Razao Social: BANCO DO BRASIL SA CREDENCIADA",
+                      "object":  "",
                       "value":  "",
                       "term":  "",
                       "signatureDate":  "",
@@ -43,9 +48,9 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "EXTRATO DE RESULTADO DA CHAMADA PUBLICA PARA CREDENCIAMENTO Nº 003/2026 – PROCESSO N.º 058/2026 – Objeto: Credenciamento\nde Instituicao Financeira para recebimento de arrecadacao Municipal, no padrao Febraban, conforme descricao e especificacoes relacionados\nno anexo I, parte integrante deste edital.\n\nResultado do credenciamento pela Comissao de Selecao, apos Avaliacao das Documentacoes apresentadas pela credenciada:\n\nRazao Social: BANCO DO BRASIL SA CREDENCIADA\nCNPJ 00.000.000/0001-91\n\n____________________________",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
-                                    "Sem modalidade identificada"
+                                    "Sem objeto identificado"
                                 ]
                   }
               ]

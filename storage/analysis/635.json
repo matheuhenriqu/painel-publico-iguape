@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "635",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:44",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:27",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/512651c043d17ec6c52aafa4c37639ee.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/512651c043d17ec6c52aafa4c37639ee.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  6,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  2,
                     "totalValue":  "R$ 4.397,66"
                 },
@@ -26,7 +31,7 @@
                       "contractNumber":  "",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "CARLOS ROBERTO DE MORAIS",
+                      "contractor":  "CARLOS ROBERTO DE MORAIS TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 170/2017",
                       "cnpj":  "",
                       "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao de imovel para instalacao e funcionamento da Escola Municipal de Musica",
                       "value":  "R$ 4.369,06",

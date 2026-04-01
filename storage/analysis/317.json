@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "317",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:42",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:49",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/83dd7ff832e32551a9b1026d2dffc2ff.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/83dd7ff832e32551a9b1026d2dffc2ff.pdf",
     "keywords":  [
@@ -11,8 +11,13 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -56,13 +61,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  10,
-                      "confidenceLabel":  "alta",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
                       "pageNumber":  3,
                       "contractNumber":  "",
                       "processNumber":  "55/2022",
                       "modality":  "PR-G - PREGAO PRESENCIAL - 33/2022 - EDITAL Nº: 47/2022",
-                      "contractor":  "METALURGICA SILLOTT LTDA",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "AQUISICAO DE EQUIPAMENTOS \" ACADEMIA AO AR LIVRE\" , CONFORME PLANO DE TRABALHO DO CONVENIO Nº319/2021- CELEBRADO COM A SECRETARIA DE ESPORTES DO GOVERNO DO ESTADO DE SAO PAULO E ESTE MUNICIPIO DE IGUAPE",
                       "value":  "",

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1360",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:46",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:34",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1171_12084049.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1171_12084049.pdf",
     "keywords":  [
@@ -11,8 +11,13 @@
                      "homologacao",
                      "rescisao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  18,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -28,7 +33,7 @@
                       "contractNumber":  "",
                       "processNumber":  "178/2026",
                       "modality":  "PR-E - PREGAO ELETRONICO - 2/2026 - EDITAL Nº: 3/2026",
-                      "contractor":  "TROUPE BRASIL LTDA",
+                      "contractor":  "TROUPE BRASIL LTDA Item 1 - VEICULO TIPO ONIBUS, CAPACIDADE MINIMA DE 40 LUGARES E MAXIMA 60 LUGARES, COM MONITOR - Km Quantidade: 969.390,00",
                       "cnpj":  "",
                       "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADASPARA PRESTACAO DE SERVICOS DE TRANSPORTE ESCOLAR ATRAVES DE VEICULOS TIPO ONIBUS ESCOLAR EXCLUSIVO PARA ATENDIMENTO DE ALUNOS DA REDE PUBLICA DE ENSINO (MUNICIPAL E ESTADUAL) DO MUNICIPIO DE IGUAPE, PELO PERIODO DE 12 MESES, EM 200 DUZENTOS DIAS LETIVOS ANUAIS",
                       "value":  "",

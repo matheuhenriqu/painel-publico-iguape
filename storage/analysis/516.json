@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "516",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:08",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:02",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/58825f6bb71bc581a21a53fc0835ba34.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/58825f6bb71bc581a21a53fc0835ba34.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -18,7 +23,7 @@
                       "actTitle":  "AVISO DE LICITACAO - PREGAO PRESENCIAL",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
+                      "confidenceScore":  8,
                       "confidenceLabel":  "media",
                       "pageNumber":  1,
                       "contractNumber":  "",
@@ -26,10 +31,10 @@
                       "modality":  "PREGAO PRESENCIAL nº. 019/2023",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "",
+                      "object":  "CONTRATACAO DE EMPRESA(S) ESPECIALIZADA(S) PARA OFERTA DE PROFISSIONAIS QUALIFICADOS PARA MINISTRAR OFICINAS PARA IDOSOS, ADOLESCENTES E FAMILIAS USUARIOS DOS SERVICOS DO CRAS-CENTRO DE REFERENCIA DE ASSISTENCIA SOCIAL, BEM COMO PARA CADASTRADORES PARA O CADUNICO E PARA EXECUCAO DO SERVICO DE ABORDAGEM SOCIAL DA PROTECAO SOCIAL ESPECIAL DE MEDIA COMPLEXIDADE EM CUMPRIMENTO AOS SERVICOS DA ASSISTENCIA SOCIAL, NO MUNICIPIO DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES. COFINANCIAMENTO FEDERAL E ESTADUAL",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "PARA A ENTREGA DO (S) DOCUMENTO (S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -46,7 +51,7 @@
                       "excerpt":  "AVISO DE LICITACAO\n PREGAO PRESENCIAL\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira,\nIguape/SP, CEP 11.920-000, o PREGAO PRESENCIAL nº. 019/2023, do tipo MENOR PRECO GLOBAL conforme especificacoes\ndetalhadas no Edital.\nOBJETO: CONTRATACAO DE EMPRESA(S) ESPECIALIZADA(S) PARA OFERTA DE PROFISSIONAIS QUALIFICADOS PARA\nMINISTRAR OFICINAS PARA IDOSOS, ADOLESCENTES E FAMILIAS USUARIOS DOS SERVICOS DO CRAS-CENTRO DE\nREFERENCIA DE ASSISTENCIA",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem objeto identificado"
+
                                 ]
                   },
                   {

@@ -1,229 +1,25 @@
 ﻿{
     "diaryId":  "1278",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:02",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:07",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1114_06022842.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1114_06022842.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  5,
-                    "itemCount":  6,
-                    "totalValue":  "R$ 330.000,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Gestao Contratual",
-                      "actTitle":  "PORTARIA Nº 339,",
-                      "recordClass":  "gestao_contratual",
-                      "recordClassLabel":  "Gestao do contrato",
-                      "confidenceScore":  10,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  1,
-                      "contractNumber":  "189/2025",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "a contratacao de instituicao especializada na prestacao de servicos tecnico-especializados no planejamento, organizacao e realizacao de concurso publico",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-gestao-planejamento",
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Secretaria de Gestao e Planejamento",
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "PORTARIA Nº 339,\n DE 05 DE DEZEMBRO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao\nconferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Milton Sussumu Nomura, Secretario Municipal de Gestao e Planejamento, inscrito no CPF/MF nº. XXX.404.548-XX, para\n exercer a funcao de gestor do Contrato 189/2025, o presente c",
-                      "completeness":  "media",
-                      "flags":  [
 
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "1º TERMO ADITIVO DE PRORROGACAO",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  7,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  3,
-                      "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "PIROTECNICA IMPORTACAO E EXPORTACAO LTDA ME",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "1º TERMO ADITIVO DE PRORROGACAO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA:PIROTECNICA IMPORTACAO E EXPORTACAO LTDA ME.\nCNPJ:04.xxx.xxx.xxxx/56",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem numero do contrato",
-                                    "Sem objeto identificado",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS Nº 078/2024.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "078/2024",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para contratacao de empresa especializada em Show Pirotecnico, com fornecimento de fogos de artificio, mao de obra com instalacao e soltura, para atender aos eventos do municipio de Iguape/SP, pelo periodo de 12 (doze) meses",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS Nº 078/2024.\nOBJETO: Registro de Precos para contratacao de empresa especializada em Show Pirotecnico, com fornecimento de fogos de artificio, mao de obra\ncom instalacao e soltura, para atender aos eventos do municipio de Iguape/SP, pelo periodo de 12 (doze) meses.",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem contratada identificada",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Aviso de Licitacao",
-                      "actTitle":  "Pregao Eletronico n°. 002/2024",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  3,
-                      "contractNumber":  "",
-                      "processNumber":  "002/2024",
-                      "modality":  "Pregao Eletronico n°. 002/2024",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "R$ 330.000,00",
-                      "term":  "Periodo de 12 (doze) meses – 05/12/2025 a 04/12/2026",
-                      "signatureDate":  "04/12/2025",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
-
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "Pregao Eletronico n°. 002/2024\nDATA: 04/12/2025\nVIGENCIA: Periodo de 12 (doze) meses – 05/12/2025 a 04/12/2026\nVALOR: R$ 330.000,00 (trezentos e trinta mil reais).",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem objeto identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Aviso de Licitacao",
-                      "actTitle":  "AVISO DE LIECXITTRAACTAOO DESERTA",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  3,
-                      "contractNumber":  "",
-                      "processNumber":  "871/2025",
-                      "modality":  "PR-E - PREGAO ELETRONICO - 33/2025 - EDITAL Nº: 44/2025",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Cessao onerosa dos direitos creditorios decorrentes de compensacoes financeiras pelo resultado da exploracao de petroleo e gas natural (Leis federais n. 7.990/1989 e n. 9.478/1997), conforme autorizacao legislativa de que trata a Lei municipal nº 2.604 de 23 de outubro de 2025 nos termos e condicoes estabelecidos nos documentos anexos",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\n AVISO DE LIECXITTRAACTAOO DESERTA\n\nPROCESSO Nº: 871/2025\nCessao onerosa dos direitos creditorios decorrentes de compensacoes financeiras pelo resultado da exploracao de petroleo e gas natural (Leis federais\nn. 7.990/1989 e n. 9.478/1997), conforme autorizacao legislativa de que trata a Lei municipal nº 2.604 de 23 de outubro de 2025 nos termos e condicoes\nestabelecidos nos documentos anexos.\nPR-E - PREGAO ELETRONICO - 33/2025 - EDITAL Nº: 44/2025\nINTERESSADOS: Secretaria Municipal de Gestao e Planejamento",
-                      "completeness":  "media",
-                      "flags":  [
-
-                                ]
-                  },
-                  {
-                      "type":  "Aviso de Licitacao",
-                      "actTitle":  "PREGAO ELETRONICO",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  7,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  3,
-                      "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "PREGAO ELETRONICO",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Cessao onerosa dos direitos creditorios decorrentes de compensacoes financeiras pelo resultado da exploracao de petroleo e gas natural (Leis federais n. 7.990/1989 e n. 9.478/1997), conforme autorizacao legislativa de que trata a Lei municipal nº 2.604 de 23 de outubro de 2025 nos termos e condicoes estabelecidos nos documentos anexos. 1.2- O recebimento das propostas dar-se-a a partir das 08h00min do dia 06/12/2025 ate as 08h00min do dia 22/12/2025, exclusivamente por meio do sistema eletronico (www.bll.org.br (Acesso Identificado), observados a data e horario limite acima estabelecidos",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "PREGAO ELETRONICO\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO – n.º 033/2025, do tipo MENOR PRECO /TAXA DE DESAGIO, situada\nna Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\n1.1- OBJETO: Cessao onerosa dos direitos creditorios decorrentes de compensacoes financeiras pelo resultado da exploracao de petroleo e\n gas natural (Leis federais n. 7.990/1989 e n. 9.478/1997), conforme autorizacao legislativa d",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem numero principal identificado"
-                                ]
-                  }
               ]
 }

@@ -1,20 +1,62 @@
 ﻿{
     "diaryId":  "747",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:23",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:55",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/29c3f59db02d9167d42a2f94325dafbe.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/29c3f59db02d9167d42a2f94325dafbe.pdf",
     "keywords":  [
                      "contrato",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  0,
-                    "itemCount":  0,
-                    "totalValue":  "R$ 0,00",
-                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Items\u0027 porque ele é uma matriz vazia."
+                    "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 1.540.336,46"
                 },
     "items":  [
-
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "AVISO DE RETI – RATIFICACAO - PREFEITURA MUNICIPAL DE IGUAPE",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "020/2023",
+                      "modality":  "TOMADA DE PRECOS Nº020/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE PAVIMENTACAO ASFALTICA DA RUA CAPITAO FLORAMANTE “FASE I E FASE II” E TRECHO DA RUA TEN. CEL. ZACARIAS CONFORME CONVENIO Nº 102967/2022 CELEBRADO COM A SECRETARIA DE GOVERNO E RELACOES INSTITUCIONAIS DO GOVERNO DO ESTADO DE SAO PAULO, E RECURSOS DA UNIAO A Prefeitura Municipal de Iguape, atraves do Departamento de Licitacoes e Contratos, TORNA PUBLICO para conhecimento dos interessados, que o edital de licitacao ,sofreu retificacao no Anexo III – Cronograma Fisico- Financeiro, referente ao lote 02-fase II, conforme segue: Onde se le: ANEXO III - Cronograma Fisico-Financeiro; Total acumulado –R$ 1.540.336,46. Leia -se: ANEXO III - Cronograma Fisico-Financeiro; Total acumulado –R$ 1.553.098,12. Permanecem inalteradas as demais condicoes do edital, Este Termo fica fazendo parte integrante do processo",
+                      "value":  "R$ 1.540.336,46.",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "estadual-governo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Governo e Relacoes Institucionais"
+                                                     ],
+                      "excerpt":  "AVISO DE RETI – RATIFICACAO\n PREFEITURA MUNICIPAL DE IGUAPE\n\n TOMADA DE PRECOS Nº020/2023\n\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE PAVIMENTACAO ASFALTICA DA RUA CAPITAO FLORAMANTE\n“FASE I E FASE II” E TRECHO DA RUA TEN. CEL. ZACARIAS CONFORME CONVENIO Nº 102967/2022 CELEBRADO COM A SECRETARIA DE\nGOVERNO E RELACOES INSTITUCIONAIS DO GOVERNO DO ESTADO DE SAO PAULO, E RECURSOS DA UNIAO\n\nA Prefeitura Municipal de Iguape, atraves do Departamento de Licitacoes e Contratos, TORNA PUBLICO para conheciment",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem contratada identificada"
+                                ]
+                  }
               ]
 }

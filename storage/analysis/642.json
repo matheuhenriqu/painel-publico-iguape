@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "642",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:43",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:26",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/b87ba23c95f492717765b5526c1ea5ab.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/b87ba23c95f492717765b5526c1ea5ab.pdf",
     "keywords":  [
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  5,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 2.427.000,00"
                 },
@@ -19,18 +24,18 @@
                       "actTitle":  "AVISO DE REABERTURA DE LICITACAO",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
                       "pageNumber":  3,
                       "contractNumber":  "",
                       "processNumber":  "048/2023",
                       "modality":  "PREGAO PRESENCIAL nº. 048/2023",
-                      "contractor":  "S NO FUTURO, DA ADMINISTRACAO PUBLICA",
+                      "contractor":  "",
                       "cnpj":  "",
-                      "object":  "CONTRATACAO DE INSTITUICAO FINANCEIRA PARA O RECEBIMENTO DOS CREDITOS EM CONTA, DOS ATUAIS SERVIDORES ATIVOS, INATIVOS E PENSIONISTAS, BEM COMO, AQUELES QUE FOREM CONTRATADOS NO FUTURO, DA ADMINISTRACAO PUBLICA . LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013, Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "object":  "CONTRATACAO DE INSTITUICAO FINANCEIRA PARA O RECEBIMENTO DOS CREDITOS EM CONTA, DOS ATUAIS SERVIDORES ATIVOS, INATIVOS E PENSIONISTAS, BEM COMO, AQUELES QUE FOREM CONTRATADOS NO FUTURO, DA ADMINISTRACAO PUBLICA",
                       "value":  "R$ 2.427.000,00",
                       "term":  "",
-                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE CUMPRE OS",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -43,9 +48,10 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "EXTRATO\n\n AVISO DE REABERTURA DE LICITACAO\n\nEncontra-se reaberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP\n11.920-000, o PREGAO PRESENCIAL nº. 048/2023, do tipo MAIOR PRECO GLOBAL, conforme especificacoes detalhadas no Edital.\n\nOBJETO: CONTRATACAO DE INSTITUICAO FINANCEIRA PARA O RECEBIMENTO DOS CREDITOS EM CONTA, DOS ATUAIS SERVIDORES\nATIVOS, INATIVOS E PENSIONISTAS, BEM COMO, AQUELES QUE FOREM CONTRATADOS NO FUTURO, DA ADMINISTRACAO",
-                      "completeness":  "alta",
+                      "completeness":  "media",
                       "flags":  [
-                                    "Sem numero do contrato"
+                                    "Sem numero do contrato",
+                                    "Sem contratada identificada"
                                 ]
                   }
               ]

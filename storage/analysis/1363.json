@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1363",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:45",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:33",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1173_14073316.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1173_14073316.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  10,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -24,14 +29,14 @@
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "318/2025",
-                      "processNumber":  "3/2026",
+                      "processNumber":  "003/2026",
                       "modality":  "CONCORRENCIA PUBLICA ELETRONICA Nº003/2026",
                       "contractor":  "",
                       "cnpj":  "",
                       "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA A EXECUCAO DA PRIMEIRA ETAPA DA GALERIA LESTE DO SISTEMA DE DRENAGEM PLUVIAL DO BAIRRO GUARICANA NESTE MUNICIPIO , ORIUNDO DO CONTRATO Nº 318/2025 FEHIDRO - FUNDO ESTADUAL DE RECURSOS HIDRICOS, CELEBRADO ENTRE O GOVERNO DO ESTADO DE SAO PAULO SECRETARIA DE MEIO AMBIENTE, INFRAESTRUTURA E LOGISTICA E O MUNICIPIO DE IGUAPE. A Prefeitura Municipal de Iguape, atraves da Secretaria Municipal de Infraestrutura Urbana e Obras, TORNA PUBLICO para conhecimento dos",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -69,7 +74,7 @@
                       "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA EM ORGANIZACAO, MONTAGEM E DESMONTAGEM DA FEIRA GASTRONOMICA NESTE MUNICIPIO, ORIUNDO DO TERMO DE CONVENIO TRANSFEREGOV.BR N.º 987687/2025 QUE ENTRE SI CELEBRAM A UNIAO, POR INTERMEDIO DO MINISTERIO DO EMPREENDEDORISMO, DA MICROEMPRESA E DA EMPRESA DE PEQUENO PORTE, E O MUNICIPIO DE IGUAPE/SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-cultura",
                       "primaryOrganizationName":  "Secretaria de Cultura",

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "680",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:36",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:16",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/d5e02a8be3db3fc614ef0859a071cc76.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/d5e02a8be3db3fc614ef0859a071cc76.pdf",
     "keywords":  [
@@ -11,8 +11,13 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  8,
+                    "relevantPageCount":  1,
+                    "blockCount":  7,
                     "itemCount":  4,
                     "totalValue":  "R$ 0,00"
                 },
@@ -28,7 +33,7 @@
                       "contractNumber":  "080/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "MYR COMERCIO DE ARTIGOS PEDAGOGICOS LTDA",
+                      "contractor":  "MYR COMERCIO DE ARTIGOS PEDAGOGICOS LTDA CONTRATO N°: 080/2023",
                       "cnpj":  "",
                       "object":  "Aquisicao de materiais esportivos para atender o convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de Esportes e a Prefeitura Municipal de Iguape/SP",
                       "value":  "",
@@ -62,7 +67,7 @@
                       "contractNumber":  "083/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "MAIS ESPORTE COMERCIO DE ARTIGOS ESPORTIVOS LTDA",
+                      "contractor":  "MAIS ESPORTE COMERCIO DE ARTIGOS ESPORTIVOS LTDA CONTRATO N°: 083/2023",
                       "cnpj":  "",
                       "object":  "Aquisicao de materiais esportivos para atender o convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de Esportes e a Prefeitura Municipal de Iguape/SP",
                       "value":  "",
@@ -96,7 +101,7 @@
                       "contractNumber":  "084/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "RM SPORTS COMERCIO DE PRODUTOS ESPORTIVOS EIRELI",
+                      "contractor":  "RM SPORTS COMERCIO DE PRODUTOS ESPORTIVOS EIRELI CONTRATO N°: 084/2023",
                       "cnpj":  "",
                       "object":  "Aquisicao de materiais esportivos para atender o Convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de Esportes e a Prefeitura Municipal de Iguape/SP",
                       "value":  "",

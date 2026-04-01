@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "971",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:51",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:50",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_880_05071726.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_880_05071726.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  8,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -19,13 +24,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  1,
                       "contractNumber":  "",
                       "processNumber":  "304/2024",
                       "modality":  "PR-E - PREGAO ELETRONICO - 2/2024 - EDITAL Nº: 9/2024",
-                      "contractor":  "PIROTECNICA IMPORTACAO E EXPORTACAO LTDA ME",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "REGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA EM SHOW PIROTECNICO, COM FORNECIMENTO DE FOGOS DE ARTIFICIO, MAO DE OBRA COM INSTALACAO E SOLTURA, PARA ATENDER AOS EVENTOS DO MUNICIPIO DE IGUAPE/SP, PELO PERIODO DE 12 (DOZE) MESES",
                       "value":  "",

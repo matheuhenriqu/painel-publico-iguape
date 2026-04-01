@@ -1,58 +1,25 @@
 ﻿{
     "diaryId":  "1336",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:51",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:42",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1155_13080237.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1155_13080237.pdf",
     "keywords":  [
                      "contrato",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  8,
-                    "itemCount":  1,
-                    "totalValue":  "R$ 0,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Items\u0027 porque ele é uma matriz vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Inexigibilidade",
-                      "actTitle":  "TERMO DE RETI-RATIFICACAO CHAMADA PUBLICA Nº 011/2025",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  3,
-                      "contractNumber":  "",
-                      "processNumber":  "727/2025",
-                      "modality":  "CHAMADA PUBLICA Nº 011/2025",
-                      "contractor":  "144/2025 108/2025 JULIANA SANTOS MORAO",
-                      "cnpj":  "45.550.167/0001-64",
-                      "object":  "",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-gestao-planejamento",
-                                                       "municipal-prefeitura",
-                                                       "federal-agu",
-                                                       "municipal-cultura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Secretaria de Gestao e Planejamento",
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Advocacia-Geral da Uniao",
-                                                         "Secretaria de Cultura"
-                                                     ],
-                      "excerpt":  "EXTRATO\n TERMO DE RETI-RATIFICACAO CHAMADA PUBLICA Nº 011/2025\n\n PROCESSO ADMINISTRATIVO Nº 727/2025\n\nO MUNICIPIO DE IGUAPE/SP, Entidade Publica, inscrita no CNPJ/MF nº 45.550.167/0001-64, sediada na Av. Adhemar de Barros, 1.070 – Porto do\nRibeira – Iguape/SP, por intermedio da SECRETARIA MUNICIPAL DE SAUDE, neste ato representada pela Secretaria Municipal de Saude, KARIMY\nDE RAMOS AGUIAR, brasileira, maior e capaz, portadora da cedula de identidade RG nº 42.908.060-8 SSP/SP, inscrita no CPF/MF nº 418.173.398-\n00, ",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem objeto identificado"
-                                ]
-                  }
+
               ]
 }

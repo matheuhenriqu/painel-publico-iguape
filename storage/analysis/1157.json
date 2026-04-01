@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "1157",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:22",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:58",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1025_24075357.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1025_24075357.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -18,18 +23,18 @@
                       "actTitle":  "PREGAO ELETRONICO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  7,
+                      "confidenceScore":  8,
                       "confidenceLabel":  "media",
                       "pageNumber":  1,
                       "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "PREGAO ELETRONICO",
+                      "processNumber":  "017/2025",
+                      "modality":  "PREGAO ELETRONICO – n.º 017/2025",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "Aquisicao de um Veiculo tipo Caminhonete PICK-UP, zero KM, cabine dupla, em atendimento ao Fundo Social de Solidariedade do Municipio de Iguape/SP, conforme especificacoes tecnicas detalhadas nos termos e condicoes estabelecidos nos documentos anexos. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
+                      "object":  "Aquisicao de um Veiculo tipo Caminhonete PICK-UP, zero KM, cabine dupla, em atendimento ao Fundo Social de Solidariedade do Municipio de Iguape/SP, conforme especificacoes tecnicas detalhadas nos termos e condicoes estabelecidos nos documentos anexos",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "signatureDate":  "",
                       "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -46,7 +51,7 @@
                       "excerpt":  "PREGAO ELETRONICO\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO – n.º 017/2025, do tipo MENOR PRECO, situada na Avenida Adhemar\nde Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: Aquisicao de um Veiculo tipo Caminhonete PICK-UP, zero KM, cabine dupla, em atendimento ao Fundo Social de Solidariedade do\nMunicipio de Iguape/SP, conforme especificacoes tecnicas detalhadas nos termos e condicoes estabelecidos nos docume",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem numero principal identificado"
+
                                 ]
                   }
               ]

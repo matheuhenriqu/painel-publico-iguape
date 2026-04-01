@@ -12,7 +12,7 @@ $script:LegacyTransparencyExpensePath = '/PortaldaTransparencia/Pages/Geral/wfDe
 $script:LegacyTransparencyExpenseDetailPath = '/PortaldaTransparencia/Pages/Geral/wfDespesaExibicao.aspx'
 $script:DadosIguapeUri = [Uri]'https://smfiguape.vercel.app/'
 $script:UserAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Codex-Iguape-Contracts/1.0'
-$script:ParserVersion = '2026.03.18.10'
+$script:ParserVersion = '2026.04.01.11'
 
 $script:StorageRoot = Join-Path $script:AppRoot 'storage'
 $script:DataRoot = Join-Path $script:AppRoot 'data'
@@ -1904,7 +1904,7 @@ function New-ReferenceTokenSet {
     $set = New-Object 'System.Collections.Generic.HashSet[string]'
     $referenceValue = Collapse-Whitespace -Text $Reference
     if ([string]::IsNullOrWhiteSpace($referenceValue)) {
-        return $set
+        return ,$set
     }
 
     foreach ($token in @(Get-ContractReferenceTokens -ContractNumber $referenceValue -ProcessNumber $referenceValue)) {
@@ -1919,7 +1919,7 @@ function New-ReferenceTokenSet {
         $null = $set.Add($normalizedReference)
     }
 
-    return $set
+    return ,$set
 }
 
 function Test-ReferenceMatch {
@@ -7996,7 +7996,12 @@ function Get-OfficialContractVigencyInfo {
     $endDate = $null
     $source = ''
 
-    if ($combinedText -match '(?:VIGENCIA|PRAZO(?:\s+DE\s+VIGENCIA)?|ENCERRAMENTO)[^\d]{0,24}(?<date>\d{2}/\d{2}/\d{4})') {
+    if ($combinedText -match '(?:VIGENCIA(?:\s+E\s+EXECUCAO)?|PRAZO(?:\s+DE\s+VIGENCIA|\s+DE\s+EXECUCAO)?|PERIODO(?:\s+DE)?|ENCERRAMENTO)[^\d]{0,40}(?<start>\d{2}/\d{2}/\d{4})\s*(?:A|ATE|ATÉ|-)\s*(?<end>\d{2}/\d{2}/\d{4})') {
+        $endDate = Convert-BrazilianDateToDateTime -Text ([string]$matches['end'])
+        $source = 'document_date_range'
+    }
+
+    if ($null -eq $endDate -and $combinedText -match '(?:VIGENCIA|PRAZO(?:\s+DE\s+VIGENCIA)?|ENCERRAMENTO)[^\d]{0,24}(?<date>\d{2}/\d{2}/\d{4})') {
         $endDate = Convert-BrazilianDateToDateTime -Text ([string]$matches['date'])
         $source = 'document_explicit_date'
     }

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "864",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:03",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:14",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_792_12065625.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_792_12065625.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  3,
+                    "blockCount":  9,
                     "itemCount":  9,
                     "totalValue":  "R$ 768.683,67"
                 },
@@ -31,7 +36,7 @@
                       "object":  "empresa COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -48,7 +53,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 181\n DE 05 DE JULHO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0\nArt. 2º - SSP/SP, inscrito no CPF/MF nº. 256.609.068/85, para exer",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -69,7 +74,7 @@
                       "object":  "empresa COPA S.A. COMPANHIA DE OBRAS PARIQUERA- ACU",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -86,7 +91,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 182\n DE 05 DE JULHO DE 2024\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Vinicius Serra Santos, Engenheiro Civil, titular da Cedula de Identidade RG nº 36.023.876-2 SSP/SP, inscrito no CPF/MF\nArt. 2º - nº. 386.982.688-62., para exercer a funcao de fiscal do Cont",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -107,7 +112,7 @@
                       "object":  "empresa COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -122,7 +127,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 183\n DE 05 DE JULHO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0\nArt. 2º - SSP/SP, inscrito no CPF/MF nº. 256.609.068/85, para exer",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -143,7 +148,7 @@
                       "object":  "empresa COPA S.A. COMPANHIA DE OBRAS PARIQUERA- ACU",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -158,7 +163,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 184\n DE 05 DE JULHO DE 2024\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Vinicius Serra Santos, Engenheiro Civil, titular da Cedula de Identidade RG nº 36.023.876-2 SSP/SP, inscrito no CPF/MF\nArt. 2º - nº. 386.982.688-62., para exercer a funcao de fiscal do Cont",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -174,7 +179,7 @@
                       "contractNumber":  "070/2024",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU CONTRATO N°: 070/2024",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para pavimentacao asfaltica na Rua Joao Bonifacio da Silva, trecho entre a Rua Dom Idilio Jose Soares e Rua Capitao Oliveira, Guaricana – Iguape/SP, conforme contrato repasse nº943144/2023/MCidades/Caixa, que entre si celebram a Uniao Federal, por intermedio do Ministerio das Cidades, representado (a) pela Caixa Economica Federal e o Municipio de Iguape",
                       "value":  "",
@@ -209,7 +214,7 @@
                       "pageNumber":  3,
                       "contractNumber":  "",
                       "processNumber":  "002/2024",
-                      "modality":  "CONCORRENCIA PUBLICA ELETRONICA – Nº 002/2024.",
+                      "modality":  "CONCORRENCIA PUBLICA ELETRONICA – Nº 002/2024",
                       "contractor":  "",
                       "cnpj":  "",
                       "object":  "",
@@ -244,7 +249,7 @@
                       "contractNumber":  "071/2024",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU CONTRATO N°: 071/2024",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para pavimentacao asfaltica e obras complementares em trecho de via no Bairro do Rocio – Rua Vitoriano Ribeiro, trecho entre a Avenida Antonio Filadelfo Colaco e a Avenida Julio Franco, Bairro do Rocio – Iguape/SP, conforme contrato de repasse nº 928593/2022/mdr/Caixa, que entre si celebram a Uniao Federal, por intermedio do Ministerio do Desenvolvimento Regional, representado(a) pela Caixa Economica Federal e o Municipio de Iguape",
                       "value":  "",
@@ -277,7 +282,7 @@
                       "pageNumber":  3,
                       "contractNumber":  "",
                       "processNumber":  "003/2024",
-                      "modality":  "CONCORRENCIA PUBLICA ELETRONICA – Nº 003/2024.",
+                      "modality":  "CONCORRENCIA PUBLICA ELETRONICA – Nº 003/2024",
                       "contractor":  "",
                       "cnpj":  "",
                       "object":  "",
@@ -306,15 +311,15 @@
                       "actTitle":  "8º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 045/2022",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  10,
                       "confidenceLabel":  "alta",
                       "pageNumber":  3,
                       "contractNumber":  "045/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "CIACAN ENGENHARIA EIRELI OBJETO: Contratacao de empresa especializada para execucao de obra de pavimentacao articulada",
+                      "processNumber":  "004/2022",
+                      "modality":  "TOMADA DE PRECO: 004/2022",
+                      "contractor":  "",
                       "cnpj":  "",
-                      "object":  "Contratacao de empresa especializada para execucao de obra de pavimentacao articulada de via de acesso que interliga o Centro multiuso a Praia da Jureia, conforme convenio nº 000133/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o Municipio de Iguape/SP TOMADA DE PRECO: 004/2022",
+                      "object":  "",
                       "value":  "",
                       "term":  "Execucao e Vigencia – por mais 90 (noventa) dias, periodo de 12/07/2024 a 09/10/2024.",
                       "signatureDate":  "10/07/2024",
@@ -334,6 +339,8 @@
                       "excerpt":  "8º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 045/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CIACAN ENGENHARIA EIRELI OBJETO: Contratacao de empresa especializada para execucao de obra de pavimentacao articulada\nde via de acesso que interliga o Centro multiuso a Praia da Jureia, conforme convenio nº 000133/2021, celebrado entre o Estado de Sao Paulo, pela\nSecretaria de Turismo e Viagens e o Municipio de Iguape/SP\nTOMADA DE PRECO: 004/2022\nDATA: 10/07/2024\nVIGENCIA: Execucao e Vigencia – por mais 90 (noventa) dias",
                       "completeness":  "media",
                       "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem objeto identificado",
                                     "Sem valor identificado"
                                 ]
                   }

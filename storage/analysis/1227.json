@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1227",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:11",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:35",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1076_08083907.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1076_08083907.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -20,13 +25,13 @@
                       "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "",
                       "processNumber":  "600/2025",
                       "modality":  "CP-E - CONCORRENCIA PUBLICA ELETRONICA - 4/2025 - EDITAL Nº: 22/2025",
-                      "contractor":  "OLIVEIRA ENGENHARIA EIRELI -EPP",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para a reforma e revitalizacao da cobertura e do forro da Igreja Sao Benedito, localizada na Rua Ana Candida Sandoval Trigo, s/nº, Centro – Iguape/SP, com fornecimento de materiais e mao de obra, incluindo substituicao de telhas e forros danificados, reposicao de portas comprometidas, execucao de estuques, servicos de pintura e adequacoes complementares, conforme projeto, memorial descritivo e especificacoes tecnicas constantes no Termo de Referencia",
                       "value":  "",
@@ -60,7 +65,7 @@
                       "contractNumber":  "",
                       "processNumber":  "735/2025",
                       "modality":  "PR-E - PREGAO ELETRONICO - 22/2025 - EDITAL Nº: 31/2025",
-                      "contractor":  "FABRIKA COMERCIO E SERVICOS LTDA",
+                      "contractor":  "FABRIKA COMERCIO E SERVICOS LTDA Item 1 - CADEIRA GIRATORIA ESCRITORIO, COR: PRETA, ERGONOMICA, ENCOSTO: TELA DE ALTA RESISTENCIA, ASSENTO ESTOFADO",
                       "cnpj":  "",
                       "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE CADEIRAS GIRATORIAS, PARA ATENDER AS SECRETARIAS DESTA PREFEITURA MUNICIPAL DE IGUAPE/SP, pelo periodo de 12 (doze) meses",
                       "value":  "",

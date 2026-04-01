@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "347",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:35",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:39",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/6bc3dc77abecba2ac89f9cbfc0b3364c.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/6bc3dc77abecba2ac89f9cbfc0b3364c.pdf",
     "keywords":  [
@@ -11,80 +11,18 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  13,
-                    "itemCount":  2,
-                    "totalValue":  "R$ 32.000,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Inexigibilidade",
-                      "actTitle":  "INEXIGIBILIDADE DE LICITACAO da empresa DANIEL PERROUD TEIXEIRA, inscrita no CNPJ: 20.753.443/0001-60 PARA",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  8,
-                      "contractNumber":  "",
-                      "processNumber":  "443/0001",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "20.753.443/0001-60",
-                      "object":  "",
-                      "value":  "R$ 32.000,00",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
 
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "INEXIGIBILIDADE DE LICITACAO da empresa DANIEL PERROUD TEIXEIRA, inscrita no CNPJ: 20.753.443/0001-60 PARA\nAPRESENTACAO MUSICAL do “BICHO DE PE” COM PARTICIPACAO DE “MARCELO JENECI”, NO DIA 29 DE JULHO DE 2022,\nA PARTIR DAS 22H00, POR 100MIN DE SHOW, NO CENTRO DE EVENTOS PREFEITO CASEMIRO TEIXEIRA, COMO PARTE DO EVENTO\n“FESTA DE AGOSTO 2022” COM FUNDAMENTO NO ARTIGO 25, INCISO III, DA LEI FEDERAL 8.666/93, sendo o valor contratado de R$\n32.000,00 (trinta e dois mil reais), pois que, ao analisar ocaso concreto, eis ",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem objeto identificado",
-                                    "Sem modalidade identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Contrato",
-                      "actTitle":  "1º TERMO DE PRORROGACAO AO CONTRATO 23/2021",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  8,
-                      "contractNumber":  "023/2021",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "CECAM – CONSULTORIA ECONOMICA, CONTABIL E ADMINISTRATIVA MUNICIPAL LTDA",
-                      "cnpj":  "",
-                      "object":  "Contratacao de empresa especializada para cessao de direito de uso de softwares (modulos) de gestao publica, nas areas de ajuizamento eletronico (procuradoria), administracao de pessoal, almoxarifado, contabilidade publica e tesouraria, controle interno, portal da transparencia, compras e licitacoes, protocolo, frotas, patrimonio, IPTU e itbi, iptu e itbi web, obras, iss, iss web, iss eletronico e nota fiscal eletronica, saude e cemiterio, envolvendo conversao, migracao, implantacao dos",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\n1º TERMO DE PRORROGACAO AO CONTRATO 23/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CECAM – CONSULTORIA ECONOMICA, CONTABIL E ADMINISTRATIVA MUNICIPAL LTDA\nCONTRATO N°: 023/2021\nOBJETO: Contratacao de empresa especializada para cessao de direito de uso de softwares (modulos) de gestao publica, nas\nareas de ajuizamento eletronico (procuradoria), administracao de pessoal, almoxarifado, contabilidade publica e tesouraria,\ncontrole interno, portal da transparencia, compras e licitacoes, protocolo, frotas,",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem valor identificado"
-                                ]
-                  }
               ]
 }

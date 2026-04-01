@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1097",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:31",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:17",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_983_21092329.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_983_21092329.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  3,
                     "totalValue":  "R$ 24.608,00"
                 },
@@ -26,7 +31,7 @@
                       "contractNumber":  "059/2025",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "ELIAS TEIXEIRA DE AGUIAR",
+                      "contractor":  "ELIAS TEIXEIRA DE AGUIAR CONTRATO Nº: 059/2025",
                       "cnpj":  "",
                       "object":  "Credenciamento de empresas para prestacao dos servicos de poda com equipe manual (ate 3,5 m, sem munck), poda com caminhao munck (com cesto aereo) e rocada manual com rastelamento e ensacamento de residuos vegetais em estradas vicinais e areas publicas nao abrangidas por contrato de limpeza urbana no Municipio de Iguape/SP",
                       "value":  "",
@@ -94,13 +99,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  1,
                       "contractNumber":  "",
                       "processNumber":  "236/2025",
                       "modality":  "PR-E - PREGAO ELETRONICO - 4/2025 - EDITAL Nº: 6/2025",
-                      "contractor":  "ALFA EXCELENCIA DIAGNOSTICA LTDA",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "Registro de precos para a contratacao de empresa especializada para a prestacao de servicos de exames laboratoriais de analises clinicas para atender a demanda dos pacientes atendidos no centro de saude, UBS, Pronto Atendimento, unidades das Estrategias de Saude da Familia e CAPS, do municipio de Iguape, pelo periodo de 12 (doze) meses",
                       "value":  "",

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "859",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:04",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:18",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_788_05080245.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_788_05080245.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  10,
+                    "relevantPageCount":  3,
+                    "blockCount":  5,
                     "itemCount":  3,
                     "totalValue":  "R$ 559.350,00"
                 },
@@ -31,7 +36,7 @@
                       "object":  "empresa ENGETEC ENGENHARIA EIRELI",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -46,7 +51,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 169\n DE 02 DE JULHO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0\nArt. 2º - SSP/SP, inscrito no CPF/MF nº. 256.609.068/85, para exer",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -67,7 +72,7 @@
                       "object":  "empresa L \u0026 M SOLUCOES EM TECNOGIA DA INFORMACAO EIRELI",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -80,7 +85,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "PORTARIA Nº 171\n DE 02 DE JULHO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Larry Luiz Carvalho Domingues, Secretario Adjunto de Tecnologia da Informacao, titular da Cedula de Identidade RG nº\nArt. 2º - 29.611.935-0 SSP/SP, inscrito no CPF/MF nº 296.129.338-39, par",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -93,10 +98,10 @@
                       "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  9,
-                      "contractNumber":  "5/2023",
+                      "contractNumber":  "6/2024",
                       "processNumber":  "036/2023",
                       "modality":  "Pregao Presencial n°. 036/2023",
-                      "contractor":  "L\u0026M SOLUCOES E TECNOLOGIA DA INFORMACAO EIRELI",
+                      "contractor":  "L\u0026M SOLUCOES E TECNOLOGIA DA INFORMACAO EIRELI CONTRATO:-Nº066/2024, ORIUNDO DE SALDO DA ATA DE REGISTRO DE PRECOS N°:-065/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para disponibilizacao de equipamentos de informatica em regime de locacao mediante prestacao de servicos de manutencao e de seguranca, destinados aos departamentos da prefeitura municipal de Iguape, bem como aos convenios firmados com a municipalidade, pelo periodo de 12 (doze) meses. Pregao Presencial n°. 036/2023",
                       "value":  "R$ 559.350,00",

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1308",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:55",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:51",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1134_15081222.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1134_15081222.pdf",
     "keywords":  [
@@ -9,79 +9,18 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  6,
-                    "itemCount":  2,
-                    "totalValue":  "R$ 149.600,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "4º Termo Aditivo de Prorrogacao ao CONTRATO N°:-004/2025",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "4/2025",
-                      "processNumber":  "073/2023",
-                      "modality":  "Pregao Presencial n°. 073/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Prorrogacao contratual cujo objeto refere-se a contratacao de empresa especializada para locacao de banheiros uimicos tio convencional, standard e PNE, a serem utilizados nos eventos do municipio de Iguape. Pregao Presencial n°. 073/2023",
-                      "value":  "R$ 149.600,00",
-                      "term":  "Validade do presente Termo Aditivo –90 (noventa) dias periodo de 13/01/2026 a 12/04/2026",
-                      "signatureDate":  "14/01/2026",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "4º Termo Aditivo de Prorrogacao ao CONTRATO N°:-004/2025.\nOBJETO: Prorrogacao contratual cujo objeto refere-se a contratacao de empresa especializada para locacao de banheiros uimicos tio convencional,\nstandard e PNE, a serem utilizados nos eventos do municipio de Iguape.\nPregao Presencial n°. 073/2023\nData: 14/01/2026\nVIGENCIA: Validade do presente Termo Aditivo –90 (noventa) dias periodo de 13/01/2026 a 12/04/2026\nVALOR: R$ 149.600,00 (cento e quarenta e nove mil e seiscentos reais)",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 067/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "067/2023",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "SUL VALE CONSTRUTORA LTDA-ME",
-                      "cnpj":  "",
-                      "object":  "Contratacao de empresa especializada para reforma do Ginasio Poliesportivo, localizado na Rua dos Estudantes com a Rua Antonio Jose de Moraes, conforme termo de convenio101008/2022, celebrado entre a Prefeitura Municipal de Iguape a Secretaria de Desenvolvimento Regional. Tomada de Precos - n°. 001/2023",
-                      "value":  "",
-                      "term":  "E EXECUCAO: Periodo de 6 (seis) meses de 15/01/2026 a 14/07/2026 inclusive.",
-                      "signatureDate":  "13/01/2026",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 067/2023 EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\n\nCONTRATADA: SUL VALE CONSTRUTORA LTDA-ME\n\nCONTRATO N°: 067/2023\n\nOBJETO: Contratacao de empresa especializada para reforma do Ginasio Poliesportivo, localizado na Rua dos Estudantes com a Rua Antonio Jose de\n\nMoraes, conforme termo de convenio101008/2022, celebrado entre a Prefeitura Municipal de Iguape a Secretaria de Desenvolvimento Regional.\n\nTomada de Precos - n°. 001/2023\n\nDATA: 13/01/2026\n\nVIGENCIA E EXECUCAO: Periodo",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem valor identificado"
-                                ]
-                  }
+
               ]
 }

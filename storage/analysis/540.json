@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "540",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:04",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:56",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/8ed655c0fc8feba820f5da2b00639ce1.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/8ed655c0fc8feba820f5da2b00639ce1.pdf",
     "keywords":  [
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  2,
+                    "blockCount":  3,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -30,7 +35,7 @@
                       "object":  "empresa ETHICA CURSOS LIVRES PROFISSIONAL \u0026 GERENCIAMENTO LTDA",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -43,7 +48,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "Art. 2º - 2\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 03 – Nº 512 Quarta-feira, 26 de Abril de 2023\n Identidade RG nº 8.863.278 SSP/SP, inscrita nodCePJFa/nMeFirnoº 8d8e4.217402.206282-002, para exercer a funcao de Gestor do Contrato 063/2023,\n\n empresa ETHICA CURSOS LIVRES PROFISSIONAL \u0026 GERENCIAMENTO LTDA.\n Esta portaria entra em vigor na data de sua publicacao, revogadas as disposicoes em contrario.\n\n GABINETE DO PREFEITO\n\n WILSON ALMEIDA LIMA\n PREFEITO\n\n PORTARIA",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]

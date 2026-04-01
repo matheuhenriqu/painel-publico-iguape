@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "478",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:15",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:11",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/7bb1c1828c64f7497408d3fd331306de.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/7bb1c1828c64f7497408d3fd331306de.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -25,7 +30,7 @@
                       "contractNumber":  "002/2022",
                       "processNumber":  "001/2022",
                       "modality":  "PREGAO PRESENCIAL N,º 001/2022",
-                      "contractor":  "COOPERATIVA DE TRABALHADORES DE TRANSPORTE ESCOLAR DE IGUAPE",
+                      "contractor":  "COOPERATIVA DE TRABALHADORES DE TRANSPORTE ESCOLAR DE IGUAPE CONTRATO N°: 002/2022",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa especializada para Prestacao de Servicos de Transporte por Kombi ou Van com monitor escolar, nos Bairros Rurais e Urbanos, destinados aos alunos da Rede Publica de Ensino (Municipal e Estadual) do Municipio de Iguape, pelo periodo de ate 102 dias letivos do calendario escolar. PREGAO PRESENCIAL N,º 001/2022",
                       "value":  "",

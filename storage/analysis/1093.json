@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1093",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:32",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:19",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_980_15072453.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_980_15072453.pdf",
     "keywords":  [
@@ -9,156 +9,18 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  2,
-                    "itemCount":  4,
-                    "totalValue":  "R$ 85.451,47"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Contrato",
-                      "actTitle":  "Contrato 060/2025",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "060/2025",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "JANE RIBEIRO PEREIRA KUSNIER",
-                      "cnpj":  "",
-                      "object":  "Credenciamento de empresas para prestacao dos servicos de poda com equipe manual (ate 3,5 m, sem munck), poda com caminhao munck (com cesto aereo) e rocada manual com rastelamento e ensacamento de residuos vegetais em estradas vicinais e areas publicas nao abrangidas por contrato de limpeza urbana no Municipio de Iguape/SP",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: JANE RIBEIRO PEREIRA KUSNIER\nCONTRATO Nº: 060/2025\nOBJETO: Credenciamento de empresas para prestacao dos servicos de poda com equipe manual (ate 3,5 m, sem munck), poda com caminhao munck\n(com cesto aereo) e rocada manual com rastelamento e ensacamento de residuos vegetais em estradas vicinais e areas publicas nao abrangidas por\ncontrato de limpeza urbana no Municipio de Iguape/SP",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Inexigibilidade",
-                      "actTitle":  "CHAMADA PUBLICA n°.: 002/2025 vinculada a INEXIGIBILIDADE Nº 044/2025",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  2,
-                      "contractNumber":  "",
-                      "processNumber":  "002/2025",
-                      "modality":  "CHAMADA PUBLICA n°.: 002/2025",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "R$ 25.650,00",
-                      "term":  "Os contratos celebrados deste credenciamento serao por empreitada por tempo indeterminado em conformidade com a liberacao de cada",
-                      "signatureDate":  "13/05/2025",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "CHAMADA PUBLICA n°.: 002/2025 vinculada a INEXIGIBILIDADE Nº 044/2025\nData: 13/05/2025\nVIGENCIA: Os contratos celebrados deste credenciamento serao por empreitada por tempo indeterminado em conformidade com a liberacao de cada\nOrdem de Inicio dos Servicos.\nPRAZO DE EXECUCAO: Os servicos deverao ser integralmente executados no prazo maximo de 90 (noventa) dias corridos contados a partir da\nemissao da respectiva Ordem de Servico.\nVALOR: R$ 25.650,00 (vinte e cinco mil, seiscentos e cinquenta reais).\n\n CADERNO LEGISLA",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem objeto identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Contrato",
-                      "actTitle":  "Contrato 08/2025",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "08/2025",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "MARIANA APARECIDA AGUIAR COSTA",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-camara",
-                      "primaryOrganizationName":  "Camara Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-camara",
-                                                       "federal-agu",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Camara Municipal de Iguape",
-                                                         "Advocacia-Geral da Uniao",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\nCONTRATANTE: CAMARA MUNICIPAL DE IGUAPE\nCONTRATADA: MARIANA APARECIDA AGUIAR COSTA\nCONTRATO N°.: 08/2025",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem objeto identificado",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Dispensa",
-                      "actTitle":  "DISPENSA DE LICITACAO N°.: 022/2025",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  10,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "",
-                      "processNumber":  "022/2025",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "AQUISICAO DE MATERIAIS DE EXPEDIENTE E PAPELARIA, COM VISTAS A ATENDER AS NECESSIDADES DA CAMARA MUNICIPAL DE IGUAPE",
-                      "value":  "R$ 59.801,47",
-                      "term":  "O contrato tera validade por 12(doze)meses, a partir da assinatura do contrato.",
-                      "signatureDate":  "14/04/2025",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-camara",
-                      "primaryOrganizationName":  "Camara Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-camara",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Camara Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "DISPENSA DE LICITACAO N°.: 022/2025\nOBJETO: AQUISICAO DE MATERIAIS DE EXPEDIENTE E PAPELARIA, COM VISTAS A ATENDER AS NECESSIDADES DA CAMARA MUNICIPAL\nDE IGUAPE.\nDATA: 14/04/2025\nVIGENCIA: O contrato tera validade por 12(doze)meses, a partir da assinatura do contrato.\nVALOR: R$ 59.801,47 (cinquenta e nove mil, oitocentos e um reais e quarenta e sete centavos).",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem modalidade identificada"
-                                ]
-                  }
+
               ]
 }

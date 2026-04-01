@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "597",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:52",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:40",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/8094717391213c52acdb874452cb8134.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/8094717391213c52acdb874452cb8134.pdf",
     "keywords":  [
@@ -11,79 +11,18 @@
                      "inexigibilidade",
                      "rescisao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  7,
-                    "itemCount":  2,
-                    "totalValue":  "R$ 1.422.300,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 065/2023.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "065/2023",
-                      "processNumber":  "036/2023",
-                      "modality":  "Pregao Presencial n°. 036/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos pelo periodo de 12 (doze) meses para, contratacao de empresa especializada para disponibilizacao de equipamentos de informatica em regime de locacao mediante prestacao de servicos de manutencao e de seguranca, destinados aos departamentos da Prefeitura Municipal de Iguape, bem como aos convenios firmados com a municipalidade, pelo periodo de 12 (doze) meses. Pregao Presencial n°. 036/2023",
-                      "value":  "R$ 723.900,00",
-                      "term":  "05/07/2023 a 04/07/2024",
-                      "signatureDate":  "03/07/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 065/2023.\nOBJETO: Registro de Precos pelo periodo de 12 (doze) meses para, contratacao de empresa especializada para disponibilizacao de equipamentos de\ninformatica em regime de locacao mediante prestacao de servicos de manutencao e de seguranca, destinados aos departamentos da Prefeitura Municipal\nde Iguape, bem como aos convenios firmados com a municipalidade, pelo periodo de 12 (doze) meses.\nPregao Presencial n°. 036/2023\nDATA: 03/07/2023\nVIGENCIA: 05/07/2023 a 04/07/2024\nVALOR: R$ ",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 066/2023.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "066/2023",
-                      "processNumber":  "036/2023",
-                      "modality":  "Pregao Presencial n°. 036/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos pelo periodo de 12 (doze) meses para, contratacao de empresa especializada para disponibilizacao de equipamentos de informatica em regime de locacao mediante prestacao de servicos de manutencao e de seguranca, destinados aos departamentos da Prefeitura Municipal de Iguape, bem como aos convenios firmados com a municipalidade, pelo periodo de 12 (doze) meses. Pregao Presencial n°. 036/2023",
-                      "value":  "R$ 698.400,00",
-                      "term":  "04/07/2023 a 03/07/2024",
-                      "signatureDate":  "03/07/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 066/2023.\nOBJETO: Registro de Precos pelo periodo de 12 (doze) meses para, contratacao de empresa especializada para disponibilizacao de equipamentos de\ninformatica em regime de locacao mediante prestacao de servicos de manutencao e de seguranca, destinados aos departamentos da Prefeitura Municipal\nde Iguape, bem como aos convenios firmados com a municipalidade, pelo periodo de 12 (doze) meses.\nPregao Presencial n°. 036/2023\nDATA: 03/07/2023\nVIGENCIA: 04/07/2023 a 03/07/2024\nVALOR: R$ ",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  }
+
               ]
 }

@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "385",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:30",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:32",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/e62c9c19b1eeeb2b2ded82ec6991390f.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/e62c9c19b1eeeb2b2ded82ec6991390f.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  2,
                     "totalValue":  "R$ 21.922,90"
                 },
@@ -19,13 +24,13 @@
                       "actTitle":  "2º TERMO ADITIVO DE SUPRESSAO E ACRESCIMO AO CONTRATO Nº 013/2021",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  15,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "013/2021",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA",
+                      "processNumber":  "002/2021",
+                      "modality":  "Tomada de Precos n°. 002/2021",
+                      "contractor":  "EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA CONTRATO N°: 013/2021",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa Especializada para Ampliacao da Unidade E.S.F.III-Barra do Ribeira neste municipio de Iguape/SP – PROGRAMA REQUALIFICA UBS - Proposta nº 13901.6840001/19-001, com Recurso do Ministerio da Saude, correspondente ao",
                       "value":  "R$ 21.922,90",
@@ -45,7 +50,7 @@
                                                          "Ministerio da Saude"
                                                      ],
                       "excerpt":  "2º TERMO ADITIVO DE SUPRESSAO E ACRESCIMO AO CONTRATO Nº 013/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA\nCONTRATO N°: 013/2021\nOBJETO: Contratacao de Empresa Especializada para Ampliacao da Unidade E.S.F.III-Barra do Ribeira neste municipio de Iguape/SP\n– PROGRAMA REQUALIFICA UBS - Proposta nº 13901.6840001/19-001, com Recurso do Ministerio da Saude, correspondente ao\nvalor de R$ 21.922,90 (vinte e um mil, novecentos e vinte e dois reais e noventa centavos), sen",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
 
                                 ]
@@ -55,13 +60,13 @@
                       "actTitle":  "5º TERMO ADITIVO AO CONTRATO Nº 021/2021",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "021/2021",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "ENGETEC ENGENHARIA EIRELI ME",
+                      "processNumber":  "004/2021",
+                      "modality":  "Tomada de Precos n°. 004/2021",
+                      "contractor":  "ENGETEC ENGENHARIA EIRELI ME CONTRATO N°: 021/2021 (noventa)",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa Especializada para Pavimentacao no bairro do rocio neste municipio de Iguape/SP, conforme contrato Desenvolvimento Regional/CAIXA. Tomada de Precos n°. 004/2021",
                       "value":  "",
@@ -79,7 +84,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "5º TERMO ADITIVO AO CONTRATO Nº 021/2021 Asfaltica e obras complementares de trechos da da ua Itapema\nCONTRATANTE: MUNICIPIO DE IGUAPE de repasse nº 899869/2020, celebrado com o MDR-Ministerio\nCONTRATADA: ENGETEC ENGENHARIA EIRELI ME\nCONTRATO N°: 021/2021 (noventa)\nOBJETO: Contratacao de Empresa Especializada para Pavimentacao\nno bairro do rocio neste municipio de Iguape/SP, conforme contrato\nDesenvolvimento Regional/CAIXA.\nTomada de Precos n°. 004/2021\nDATA: 12/09/2022\nVIGENCIA: Fica prorrogada a vigencia do termi",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "675",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:37",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:17",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/205138724d6ed63323abd891a0239aa4.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/205138724d6ed63323abd891a0239aa4.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  9,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -26,11 +31,11 @@
                       "contractNumber":  "",
                       "processNumber":  "588/2023",
                       "modality":  "PR-G - PREGAO PRESENCIAL - 52/2023 - EDITAL Nº: 83/2023",
-                      "contractor":  "OS PRECOS DAS PROPOSTAS DEVERAO",
+                      "contractor":  "OS PRECOS DAS PROPOSTAS DEVERAO ESTAR INCLUSOS TODOS OS CUSTOS E DESPESAS, TAIS COMO: CUSTOS",
                       "cnpj":  "",
                       "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESESPARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA LOCACAO DE ONIBUS, MICROONIBUS E VANS PARA ATENDER AS SECRETARIAS E DEPARTAMENTOS DESTE MUNICIPIODE IGUAPE /SP",
                       "value":  "",
-                      "term":  "MAXIMO DE 12 HORAS PARA ESTAR COM A QUANTIDADE DE",
+                      "term":  "",
                       "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-cultura",

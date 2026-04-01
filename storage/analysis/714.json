@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "714",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:32",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:10",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/a68ee53af591a35908a846e3dae5c697.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/a68ee53af591a35908a846e3dae5c697.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  14,
+                    "relevantPageCount":  1,
+                    "blockCount":  4,
                     "itemCount":  4,
                     "totalValue":  "R$ 0,00"
                 },
@@ -20,18 +25,18 @@
                       "actTitle":  "2º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 056/2022",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "056/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "processNumber":  "005/2022",
+                      "modality":  "TOMADA DE PRECOS Nº 005/2022",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI CONTRATO N°: 056/2022",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para obra de construcao de centro multiuso no bairro da Barra do Ribeira, conforme convenio nº 000104/2021, celebrado entre o Estado de Sao Paulo, pela secretaria de turismo e viagens e o municipio de Iguape/SP TOMADA DE PRECOS Nº 005/2022",
                       "value":  "",
                       "term":  "75 (setenta e cinco) dias – Periodo de 14/12/2023 a 26/02/2024",
-                      "signatureDate":  "-12/12/2023",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -46,7 +51,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "2º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 056/2022\nCONTRATADA: CIACAN ENGENHARIA EIRELI\nCONTRATO N°: 056/2022\nOBJETO: Contratacao de empresa especializada para obra de construcao de centro multiuso no bairro da Barra do Ribeira, conforme convenio nº\n000104/2021, celebrado entre o Estado de Sao Paulo, pela secretaria de turismo e viagens e o municipio de Iguape/SP\nTOMADA DE PRECOS Nº 005/2022\nDATA:-12/12/2023\nVIGENCIA: 75 (setenta e cinco) dias – Periodo de 14/12/2023 a 26/02/2024",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]
@@ -56,13 +61,13 @@
                       "actTitle":  "4º TERMO ADITIVO AO CONTRATO Nº 053/2022",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "053/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "SUL VALE CONSTRUTORA LTDA-ME",
+                      "processNumber":  "009/2022",
+                      "modality":  "Tomada de Precos - n°. 009/2022",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA-ME CONTRATO N°: 053/2022",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa Especializada para obra de Centro Multiuso, localizada na Avenida Maestro Moacir Serra s/n – Bairro Canto do Morro, confome termo de Convenio nº 100813/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape. Tomada de Precos - n°. 009/2022",
                       "value":  "",
@@ -80,7 +85,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "4º TERMO ADITIVO AO CONTRATO Nº 053/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SUL VALE CONSTRUTORA LTDA-ME\nCONTRATO N°: 053/2022\nOBJETO: Contratacao de Empresa Especializada para obra de Centro Multiuso, localizada na Avenida Maestro Moacir Serra s/n – Bairro Canto do\nMorro, confome termo de Convenio nº 100813/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape.\nTomada de Precos - n°. 009/2022\nDATA: 13/12/2023\nVIGENCIA: Prorrogada a Execucao do Servico e Vigencia do Contr",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]
@@ -90,13 +95,13 @@
                       "actTitle":  "4º TERMO ADITIVO AO CONTRATO Nº 062/2022",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "062/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "SUL VALE CONSTRUTORA LTDA-ME",
+                      "processNumber":  "006/2022",
+                      "modality":  "Tomada de Precos - n°. 006/2022",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA-ME CONTRATO N°: 062/2022",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa Especializada para obra de construcao da Casa da Juventude no bairro do Rocio, confome termo de Convenio nº 102005/2021, celebrado com o Estado de sao paulo, por meio da Secretaria de Desenvolvimento Regional e o Municipio de Iguape. Tomada de Precos - n°. 006/2022",
                       "value":  "",
@@ -114,7 +119,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "4º TERMO ADITIVO AO CONTRATO Nº 062/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SUL VALE CONSTRUTORA LTDA-ME\nCONTRATO N°: 062/2022\nOBJETO: Contratacao de Empresa Especializada para obra de construcao da Casa da Juventude no bairro do Rocio, confome termo de Convenio nº\n102005/2021, celebrado com o Estado de sao paulo, por meio da Secretaria de Desenvolvimento Regional e o Municipio de Iguape.\nTomada de Precos - n°. 006/2022\nDATA: 13/12/2023\nVIGENCIA:Prorrogada a Execucao do Servico e Vigencia do Contrato peri",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]
@@ -124,13 +129,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "",
                       "processNumber":  "419/2023",
                       "modality":  "PR-E - PREGAO ELETRONICO - 6/2023 - EDITAL Nº: 97/2023",
-                      "contractor":  "SANIGRAN LTDA",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "AQUISICAO DE EQUIPAMENTOS AGRICOLAS, EMATENDIMENTO AO CONVENIO PLATAFORMA+BRASIL N o 901852/2020, QUE ENTRESI CELEBRAM A UNIAO, POR INTERMEDIO DO MINISTERIO DA AGRICULTURA,PECUARIA E ABASTECIMENTO/MAPA, E O MUNICIPIO DE IGUAPE/SP",
                       "value":  "",

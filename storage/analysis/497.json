@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "497",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:12",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:07",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/622bcfd1324577a8d44d5df52f1904cf.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/622bcfd1324577a8d44d5df52f1904cf.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  15,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -21,17 +26,17 @@
                       "actTitle":  "5º TERMO ADITIVO DE PRAZO AO CONTRATO N.º 095/2021",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  3,
                       "contractNumber":  "095/2021",
-                      "processNumber":  "",
-                      "modality":  "",
+                      "processNumber":  "15/2021",
+                      "modality":  "TOMADA DE PRECOS Nº 15/2021",
                       "contractor":  "ENGETEC ENGENHARIA EIRELI - ME",
                       "cnpj":  "",
-                      "object":  "Constitui objeto do presente termo a prorrogacao da vigencia do contrato supra mencionado, referente a contratacao de empresa especializada para pavimentacao e obras complementares da Rua Manoel Felix da Rocha no Bairro do Rocio- conforme convenio nº 101112/2021-SDR (Lote-001) TOMADA DE PRECOS Nº 15/2021",
+                      "object":  "do presente termo a prorrogacao da vigencia do contrato supra mencionado, referente a contratacao de empresa especializada para pavimentacao e obras complementares da Rua Manoel Felix da Rocha no Bairro do Rocio- conforme convenio nº 101112/2021-SDR (Lote-001) TOMADA DE PRECOS Nº 15/2021",
                       "value":  "",
-                      "term":  "do contrato supra mencionado, referente a contratacao de",
+                      "term":  "30 (trinta) dias - 19/02/2023 a 20/03/2023 (inclusive).",
                       "signatureDate":  "17/02/2023",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
@@ -47,7 +52,7 @@
                                                          "Advocacia-Geral da Uniao"
                                                      ],
                       "excerpt":  "5º TERMO ADITIVO DE PRAZO AO CONTRATO N.º 095/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ENGETEC ENGENHARIA EIRELI - ME\nOBJETO: Constitui objeto do presente termo a prorrogacao da vigencia do contrato supra mencionado, referente a contratacao de\nempresa especializada para pavimentacao e obras complementares da Rua Manoel Felix da Rocha no Bairro do Rocio- conforme\nconvenio nº 101112/2021-SDR (Lote-001)\nTOMADA DE PRECOS Nº 15/2021\nDATA: 17/02/2023\nVIGENCIA: 30 (trinta) dias - 19/02/2023 a 20/03/2023 (inclusiv",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]

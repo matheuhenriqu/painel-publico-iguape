@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "1122",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:28",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:10",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_081_23070441.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_extra_081_23070441.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 77.198,15"
                 },
@@ -19,13 +24,13 @@
                       "actTitle":  "9º TERMO ADITIVO DE ACRESCIMO E SUPRESSAO AO CONTRATO Nº 053/2022",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  15,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  1,
                       "contractNumber":  "053/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "SUL VALE CONSTRUTORA LTDA-ME",
+                      "processNumber":  "009/2022",
+                      "modality":  "Tomada de Precos - n°. 009/2022",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA-ME CONTRATO N°: 053/2022",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para obra de Centro Multiuso, localizada na Avenida Maestro Moacir Serra s/n – Bairro Canto do Morro, confome termo de Convenio nº 100813/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape. Tomada de Precos - n°. 009/2022",
                       "value":  "R$ 77.198,15",
@@ -45,7 +50,7 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "9º TERMO ADITIVO DE ACRESCIMO E SUPRESSAO AO CONTRATO Nº 053/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SUL VALE CONSTRUTORA LTDA-ME\nCONTRATO N°: 053/2022\nOBJETO: Contratacao de empresa especializada para obra de Centro Multiuso, localizada na Avenida Maestro Moacir Serra s/n – Bairro Canto do Morro,\nconfome termo de Convenio nº 100813/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape.\nTomada de Precos - n°. 009/2022\nDATA: 16/06/2025\nVALOR: Valor do Termo Aditivo e de R$",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
 
                                 ]

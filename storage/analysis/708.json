@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "708",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:33",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:11",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/3cac1b683af2b54658088c26e65802c2.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/3cac1b683af2b54658088c26e65802c2.pdf",
     "keywords":  [
@@ -9,83 +9,18 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  8,
-                    "itemCount":  2,
-                    "totalValue":  "R$ 113.958,96"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:137/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  16,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  1,
-                      "contractNumber":  "7/2023",
-                      "processNumber":  "058/2023",
-                      "modality":  "Pregao Presencial n°. 058/2023",
-                      "contractor":  "o valor global de R$ 39.960,00 (trinta e nove mil, novecentos e sessenta reais)",
-                      "cnpj":  "",
-                      "object":  "Contratacao de Empresa especializada na Prestacao de Servicos de desinsetizacao, desratizacao, descupinizacao, limpeza de caixas de gordura e manejo de morcegos, para atender diversas Secretarias do Municipio de Iguape. Pregao Presencial n°. 058/2023",
-                      "value":  "R$ 39.960,00",
-                      "term":  "07/12/2023 a 06/12/2024.",
-                      "signatureDate":  "07/12/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:137/2023\nOBJETO:- Contratacao de Empresa especializada na Prestacao de Servicos de desinsetizacao, desratizacao, descupinizacao, limpeza de caixas de\ngordura e manejo de morcegos, para atender diversas Secretarias do Municipio de Iguape.\nPregao Presencial n°. 058/2023.\nVIGENCIA: 07/12/2023 a 06/12/2024.\nDATA: 07/12/2023\nVALOR: Pagara a contratada o valor global de R$ 39.960,00 (trinta e nove mil, novecentos e sessenta reais).",
-                      "completeness":  "alta",
-                      "flags":  [
 
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:138/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  14,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  1,
-                      "contractNumber":  "8/2023",
-                      "processNumber":  "058/2023",
-                      "modality":  "Pregao Presencial n°. 058/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Contratacao de Empresa especializada na Prestacao de Servicos de desinsetizacao, desratizacao, descupinizacao, limpeza de caixas de gordura e manejo de morcegos, para atender diversas Secretarias do Municipio de Iguape. Pregao Presencial n°. 058/2023",
-                      "value":  "R$ 73.998,96",
-                      "term":  "07/12/2023 a 06/12/2024.",
-                      "signatureDate":  "07/12/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:138/2023\nOBJETO:- Contratacao de Empresa especializada na Prestacao de Servicos de desinsetizacao, desratizacao, descupinizacao, limpeza de caixas de\ngordura e manejo de morcegos, para atender diversas Secretarias do Municipio de Iguape.\nPregao Presencial n°. 058/2023.\nVIGENCIA: 07/12/2023 a 06/12/2024.\nDATA: 07/12/2023\nVALOR: Pagara a contratada o valor global de R$ 73.998,96 (setenta e tres mil, novecentos e noventa e oito reais e noventa e seis centavos).",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  }
               ]
 }

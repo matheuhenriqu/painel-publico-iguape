@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "1284",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:01",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:00",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1119_13081705.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1119_13081705.pdf",
     "keywords":  [
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  7,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  2,
                     "totalValue":  "R$ 3.123,83"
                 },
@@ -55,7 +60,7 @@
                       "actTitle":  "CHAMADA PUBLICA",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  8,
+                      "confidenceScore":  6,
                       "confidenceLabel":  "media",
                       "pageNumber":  2,
                       "contractNumber":  "",
@@ -63,7 +68,7 @@
                       "modality":  "CHAMADA PUBLICA nº 013/2025",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "e o Chamamento Publico, para selecao de Entidade Privada, sem fins lucrativos, previamente qualificada como Organizacao Social Saude (OSS) no ambito do municipio de Iguape/SP",
+                      "object":  "",
                       "value":  "",
                       "term":  "",
                       "signatureDate":  "",
@@ -83,9 +88,9 @@
                                                          "Advocacia-Geral da Uniao"
                                                      ],
                       "excerpt":  "CHAMADA PUBLICA\n\nEncontra-se ABERTO na Prefeitura Municipal de Iguape, a CHAMADA PUBLICA nº 013/2025, cujo objeto e o Chamamento Publico, para selecao\nde Entidade Privada, sem fins lucrativos, previamente qualificada como Organizacao Social Saude (OSS) no ambito do municipio de Iguape/SP,\ninteressada na celebracao de Contrato de Gestao para o gerenciamento, operacionalizacao e execucao das acoes e servicos de saude no\nPronto Atendimento, na Unidade Mista, na Unidade Basica de Saude, nas Unidades de Estrategia Saude",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
-
+                                    "Sem objeto identificado"
                                 ]
                   }
               ]

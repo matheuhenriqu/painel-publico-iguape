@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "901",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:58",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:05",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_823-_29073729.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_823-_29073729.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -23,7 +28,7 @@
                       "pageNumber":  1,
                       "contractNumber":  "",
                       "processNumber":  "418/2024",
-                      "modality":  "LICITACAO FRACASSADA",
+                      "modality":  "CONCORRENCIA PUBLICA ELETRONICA - 005/2024",
                       "contractor":  "",
                       "cnpj":  "",
                       "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA SERVICOS DE FINALIZACAO E REPAROS NA OBRA DE REQUALIFICACAO DA ORLA DO VALO GRANDE - FASE III, CONFORME TERMO DE CONVENIO Nº167/2018, QUE ENTRE SI CELEBRAM O ESTADO DE SAO PAULO, PELA SECRETARIADE TURISMO, E O MUNICIPIO DE IGUAPE",

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "695",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-04-01T15:28:52",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:13",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/38c3e106e6075d569cc4f8a2a946ca3a.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/38c3e106e6075d569cc4f8a2a946ca3a.pdf",
     "keywords":  [
@@ -34,7 +34,7 @@
                       "object":  "empresa SILVANO FERREIRA SERVICOS E LOCACAO – ME",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -49,7 +49,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 324\n DE 23 DE NOVEMBRO DE 2023\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\nArt. 1º - WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado\nArt. 2º - de Sao Paulo, no uso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa\n a seguinte:\n\n PORTARIA\n\n Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0\n SSP/SP, inscrito no CPF/MF nº 256.609.068-85, para ",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -65,7 +65,7 @@
                       "contractNumber":  "",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "MARIALDO AUGUSTO",
+                      "contractor":  "MARIALDO AUGUSTO CORDEIRO DE SOUZA",
                       "cnpj":  "",
                       "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a Instalacao do “Cartorio Eleitoral da 51ª Zona do “Municipio de Iguape”",
                       "value":  "R$ 4.526,08",

@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "1119",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:28",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:10",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1001_14074428.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1001_14074428.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -18,7 +23,7 @@
                       "actTitle":  "AVISO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  8,
+                      "confidenceScore":  6,
                       "confidenceLabel":  "media",
                       "pageNumber":  2,
                       "contractNumber":  "",
@@ -26,7 +31,7 @@
                       "modality":  "Pregao Eletronico n° 009/2025",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "a Contratacao de empresa especializada na prestacao de servicos de locacao de veiculos, sem motoristas, para atender aos multiplos servicos demandados pelas diversas Secretarias que compoem essa Administracao Municipal, mediante Sistema de Registro de Precos pelo periodo de 12 (doze) meses, conforme informacoes constantes deste edital e seus anexos. Ficam os interessados cientes da presente decisao. Publique-se. Cumpra-se. Iguape, 13 de junho de 2025 SALVADOR JOSE BARBOSA JUNIOR Prefeito",
+                      "object":  "",
                       "value":  "",
                       "term":  "",
                       "signatureDate":  "",
@@ -44,9 +49,9 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "AVISO\n\nAVISO DE SUSPENSAO DE LICITACAO\n\n A Prefeitura Municipal de Iguape torna publica a suspensao do Pregao Eletronico n° 009/2025, marcado para 16/06/2025, as 9:30h, em\ndecorrencia de alteracao ao instrumento convocatorio, tendo por objeto a Contratacao de empresa especializada na prestacao de servicos de locacao\nde veiculos, sem motoristas, para atender aos multiplos servicos demandados pelas diversas Secretarias que compoem essa Administracao\nMunicipal, mediante Sistema de Registro de Precos pelo periodo de 12",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
-
+                                    "Sem objeto identificado"
                                 ]
                   }
               ]

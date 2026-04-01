@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "943",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:53",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:55",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_860_26065350.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_860_26065350.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -18,7 +23,7 @@
                       "actTitle":  "E PLANEJAMENTO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  8,
+                      "confidenceScore":  6,
                       "confidenceLabel":  "media",
                       "pageNumber":  3,
                       "contractNumber":  "",
@@ -26,7 +31,7 @@
                       "modality":  "Pregao Eletronico n° 012/2024",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "o Registro de Precos para futura e eventual contratacao de empresa especializada para “AQUISICAO DE MEDICAMENTOS” contidos na tabela CMED de “A” a “Z” para atender a Secretaria de Saude da Prefeitura Municipal de Iguape pelo perIodo de 12 meses. Ficam os interessados cientes da presente decisao. Publique-se. Cumpra-se. Iguape, 25 de outubro de 2024. WILSON ALMEIDA LIMA Prefeito",
+                      "object":  "",
                       "value":  "",
                       "term":  "",
                       "signatureDate":  "",
@@ -46,9 +51,9 @@
                                                          "Secretaria de Educacao"
                                                      ],
                       "excerpt":  "E PLANEJAMENTO\n AVISO\n\n AVISO DE SUSPENSAO DE LICITACAO\n\n A Prefeitura Municipal de Iguape torna publica a suspensao do Pregao Eletronico n° 012/2024, marcado para 31/10/2024, as 9:30h, em\ndecorrencia de alteracao ao instrumento convocatorio, tendo por objeto o Registro de Precos para futura e eventual contratacao de empresa especializada\npara “AQUISICAO DE MEDICAMENTOS” contidos na tabela CMED de “A” a “Z” para atender a Secretaria de Saude da Prefeitura Municipal de Iguape\npelo perIodo de 12 meses.\n\n Ficam os int",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
-
+                                    "Sem objeto identificado"
                                 ]
                   }
               ]

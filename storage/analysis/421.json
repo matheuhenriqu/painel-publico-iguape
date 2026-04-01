@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "421",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:25",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:25",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/762269db64ae85459d37d0f57951392b.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/762269db64ae85459d37d0f57951392b.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  3,
                     "totalValue":  "R$ 17.786,92"
                 },
@@ -20,12 +25,12 @@
                       "actTitle":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "",
+                      "processNumber":  "030/2021",
+                      "modality":  "PREGAO PRESENCIAL - n°. 030/2021",
                       "contractor":  "MOACIR CARLOS MATERA JUNIOR-ME",
                       "cnpj":  "",
                       "object":  "REGISTRO DE PRECOS PARA AQUISICAO DEMATERIAIS DE EXPEDIENTE PARA OS DIVERSOS DEPARTAMENTOS DA PREFEITURA MUNICIPAL DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES. PREGAO PRESENCIAL - n°. 030/2021",
@@ -44,7 +49,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO\nATA DE REGISTRO DE PRECO Nº 065/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: MOACIR CARLOS MATERA JUNIOR-ME.\nOBJETO: REGISTRO DE PRECOS PARA AQUISICAO DEMATERIAIS DE EXPEDIENTE PARA OS DIVERSOS DEPARTAMENTOS\nDA PREFEITURA MUNICIPAL DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES.\nPREGAO PRESENCIAL - n°. 030/2021.\nDATA: 26/10/2022.\nVALORES: Item 17 – Valor Licitado R$ 14,80 Valor Reequilibrado R$ 18,50. Item 21 – Valor Licitado R$ 59,70 Valor Reequilibrado R$\n74,",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem numero do contrato"
                                 ]
@@ -60,7 +65,7 @@
                       "contractNumber":  "016/2022",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "MARINA DE MORAES PEREIRA 44265471803",
+                      "contractor":  "MARINA DE MORAES PEREIRA 44265471803 CONTRATO N°: 016/2022",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa Especializada para o Fornecimento de 36 (trinta e seis) cestas basicas, a serem entregues 12 unidades por mes ate dezembro de 2022, para atender os funcionarios da Camara Municipal de Iguape",
                       "value":  "",
@@ -90,13 +95,13 @@
                       "actTitle":  "Dispensa de Licitacao - n°. 017/2022",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  10,
-                      "confidenceLabel":  "alta",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
                       "pageNumber":  2,
                       "contractNumber":  "",
                       "processNumber":  "017/2022",
                       "modality":  "",
-                      "contractor":  "o valor global de R$ 17.772,12 (dezessete mil, setecentos e setenta e dois reais e doze centavos)",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "",
                       "value":  "R$ 17.772,12",

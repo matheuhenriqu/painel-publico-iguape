@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "345",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:35",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:39",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/ad81a6361fac4ae8f88e7ae1d81cfea6.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/ad81a6361fac4ae8f88e7ae1d81cfea6.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  4,
                     "itemCount":  2,
                     "totalValue":  "R$ 51.156,40"
                 },

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "868",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:03",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:12",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_795_17070508.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_795_17070508.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  5,
+                    "relevantPageCount":  2,
+                    "blockCount":  3,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -31,7 +36,7 @@
                       "object":  "empresa POINT PARK DIVERSOES EVENTOS TRANSPORTES E FEIRAS LTDA",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-justica-cidadania",
                       "primaryOrganizationName":  "Secretaria de Justica e Cidadania",
@@ -48,7 +53,7 @@
                                                          "Secretaria de Justica e Cidadania"
                                                      ],
                       "excerpt":  "PORTARIA Nº 188\n DE 16 DE JULHO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Antonio Matheus da Veiga Neto, Secretario Municipal de Justica e Cidadania, titular da Cedula de Identidade RG nº 43.743.261\n S WILSON ALMEIDA LIMA SP/SP, inscrito no CPF/MF nº. 34",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -58,13 +63,13 @@
                       "actTitle":  "4º TERMO – PRAZO CONTRATO 51/2023",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  4,
                       "contractNumber":  "051/2023",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "processNumber":  "004/2023",
+                      "modality":  "TOMADA DE PRECO Nº 004/2023",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU CONTRATO N°: 051/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para obra de pavimentacao em lajotas de concreto e obras complementares no Bairro da Barra do Ribeira – Fase III, conforme Termo de Convenio nº 101386/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape. TOMADA DE PRECO Nº 004/2023",
                       "value":  "",
@@ -82,7 +87,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "EXTRATO\n\n4º TERMO – PRAZO CONTRATO 51/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU\nCONTRATO N°: 051/2023\nOBJETO: Contratacao de empresa especializada para obra de pavimentacao em lajotas de concreto e obras complementares no Bairro da Barra do\nRibeira – Fase III, conforme Termo de Convenio nº 101386/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape.\nTOMADA DE PRECO Nº 004/2023\nDATA: 12/07/2024\nVIGENCIA: 90 (noventa) dias – (Vigenc",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]

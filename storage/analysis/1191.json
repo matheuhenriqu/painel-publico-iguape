@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1191",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:18",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:49",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1047-_28071521.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1047-_28071521.pdf",
     "keywords":  [
@@ -11,153 +11,18 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  3,
-                    "itemCount":  4,
-                    "totalValue":  "R$ 279.671,05"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:-017/2025.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "7/2025",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Aquisicao de oleos lubrificantes e correlatos para os veiculos leves e pesados, maquinas e equipamentos, pertencentes a frota municipal, pelo periodo de 12 (doze) meses",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
 
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:-017/2025.\nOBJETO: Aquisicao de oleos lubrificantes e correlatos para os veiculos leves e pesados, maquinas e equipamentos, pertencentes a frota municipal,\npelo periodo de 12 (doze) meses.",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem contratada identificada",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Aviso de Licitacao",
-                      "actTitle":  "Pregao Eletronico n°.015/2025",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  2,
-                      "contractNumber":  "",
-                      "processNumber":  "5/2025",
-                      "modality":  "Pregao Eletronico n°.015/2025",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "R$ 279.671,05",
-                      "term":  "Validade do presente Registro de Precos – 22/082025 a 21/08/2026 – 12 (doze) meses.",
-                      "signatureDate":  "22/08/2025",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
-
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "Pregao Eletronico n°.015/2025\nData: 22/08/2025\nVIGENCIA: Validade do presente Registro de Precos – 22/082025 a 21/08/2026 – 12 (doze) meses.\nVALOR: R$ 279.671,05 (duzentos e setenta e nove mil, seiscentos e setenta e um reais e cinco centavos).",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem objeto identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:-018/2025.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "8/2025",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Aquisicao de oleos lubrificantes e correlatos para os veiculos leves e pesados, maquinas e equipamentos, pertencentes a frota municipal, pelo periodo de 12 (doze) meses",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
-
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:-018/2025.\nOBJETO: Aquisicao de oleos lubrificantes e correlatos para os veiculos leves e pesados, maquinas e equipamentos, pertencentes a frota municipal, pelo\nperiodo de 12 (doze) meses.",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem contratada identificada",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Homologacao",
-                      "actTitle":  "EXTRATO DE DESISTENCIA E CONVOCACAO DE REMANESCENTES",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  2,
-                      "contractNumber":  "",
-                      "processNumber":  "2/2025",
-                      "modality":  "Concorrencia Publica nº002/2025",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "",
-                      "term":  "legal, mesmo apos a devida adjudicacao e homologacao do certame, conforme publicacoes- (Diario Oficial da Uniao",
-                      "signatureDate":  "marcada para o dia 01/09/2025 as 09h00m, para convocacao do licitante classificado em 2º lugar- empresa CHRONOS CONSTRUCAO E",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
-                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "infraestrutura",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "federal-ministerio-saude",
-                                                       "municipal-infraestrutura-obras"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Ministerio da Saude",
-                                                         "Secretaria de Infraestrutura Urbana e Obras"
-                                                     ],
-                      "excerpt":  "EXTRATO DE DESISTENCIA E CONVOCACAO DE REMANESCENTES\n\n Processo Licitatorio nº 476/2025\n Modalidade: Concorrencia Publica nº002/2025\n\nObjeto: : CONTRATACAO DE EMPRESA ESPECIALIZADA PARA CONSTRUCAO DE UNIDADE BASICA DE SAUDE (UBS) PORTE I- localizada\nna regiao da Alameda 18, esquina com a Rua 4 (Loteamento Iguape F), s/nº, Nova Iguape, Bairro do Rocio, no municipio de Iguape/SP, conforme\nproposta nº 139016840001/24-002 do Novo PAC, CELEBRADO ENTRE O MINISTERIO DA SAUDE E O MUNICIPIO DE IGUAPE.\n\n A Prefeitura Municip",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem objeto identificado"
-                                ]
-                  }
               ]
 }

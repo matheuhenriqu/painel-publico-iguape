@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "641",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:43",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:26",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/077068cf4ccf7f678d17d3ca8a785886.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/077068cf4ccf7f678d17d3ca8a785886.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  6,
+                    "relevantPageCount":  2,
+                    "blockCount":  3,
                     "itemCount":  3,
                     "totalValue":  "R$ 24.793,00"
                 },
@@ -32,7 +37,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-educacao",
                       "primaryOrganizationName":  "Secretaria de Educacao",
@@ -70,7 +75,7 @@
                       "object":  "empresa NORMA VIEIRA SOARES CORREA – ME",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -87,7 +92,7 @@
                                                          "Secretaria de Educacao"
                                                      ],
                       "excerpt":  "PORTARIA Nº 272\n DE 19 DE SETEMBRO DE 2023\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Wagner Andrade de Almeida, Diretor de Administracao Escolar, titular da Cedula de Identidade RG nº 28.161.813-6 SSP/SP,\n inscrito no CPF/MF nº 260.505.468-35, para exercer a funcao de fi",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -103,12 +108,12 @@
                       "contractNumber":  "158/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "NORMA VIEIRA SOARES CORREA - ME",
+                      "contractor":  "NORMA VIEIRA SOARES CORREA - ME CONTRATO N°: 158/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para confeccao de fantasias e uniformes para o desfile de 7 de setembro, para o ano de 2023, a ser realizado pelas unidades escolares municipais. CARTA CONVITE - Nº 007/2023",
                       "value":  "R$ 24.793,00",
                       "term":  "60 (sessenta ) dias – Periodo de 01/09/2023 a 30/10/2023",
-                      "signatureDate":  "-01/09/2023",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -121,7 +126,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: NORMA VIEIRA SOARES CORREA - ME\nCONTRATO N°: 158/2023\nOBJETO:. Contratacao de empresa especializada para confeccao de fantasias e uniformes para o desfile de 7 de setembro, para\no ano de 2023, a ser realizado pelas unidades escolares municipais.\nCARTA CONVITE - Nº 007/2023\nDATA:-01/09/2023\nVALOR: Pagara a contratada o valor de R$ 24.793,00 (vinte e quatro mil, setecentos e noventa e tres reais)\nVIGENCIA: 60 (sessenta ) dias – Periodo de 01/09/2023 a 30/10/2023",
-                      "completeness":  "alta",
+                      "completeness":  "media",
                       "flags":  [
 
                                 ]

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1301",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:57",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:54",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1130_09080232.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1130_09080232.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  6,
                     "itemCount":  5,
                     "totalValue":  "R$ 460.300,00"
                 },
@@ -60,7 +65,7 @@
                       "confidenceLabel":  "media",
                       "pageNumber":  1,
                       "contractNumber":  "",
-                      "processNumber":  "0/2025",
+                      "processNumber":  "030/2025",
                       "modality":  "Pregao Eletronico n°.030/2025",
                       "contractor":  "",
                       "cnpj":  "",
@@ -132,7 +137,7 @@
                       "confidenceLabel":  "media",
                       "pageNumber":  1,
                       "contractNumber":  "",
-                      "processNumber":  "3/2025",
+                      "processNumber":  "023/2025",
                       "modality":  "Pregao Eletronico n°.023/2025",
                       "contractor":  "",
                       "cnpj":  "",

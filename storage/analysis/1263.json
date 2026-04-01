@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1263",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:05",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:20",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1106-_21065557.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1106-_21065557.pdf",
     "keywords":  [
@@ -9,220 +9,18 @@
                      "extrato de contrato",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  32,
-                    "itemCount":  6,
-                    "totalValue":  "R$ 159.760,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Gestao Contratual",
-                      "actTitle":  "PORTARIA Nº 323,",
-                      "recordClass":  "gestao_contratual",
-                      "recordClassLabel":  "Gestao do contrato",
-                      "confidenceScore":  8,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  3,
-                      "contractNumber":  "188/2025",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "empresa ADM MEDICA GESTAO E SAUDE LTDA, para a prestacao de servicos medicos plantonistas, Medicos para Saude da Familia, medicos especialistas G.O, Ortopedista, Psiquiatra, Medico do Trabalho, Pediatra, Psicologo, Terapeuta Ocupacional, Fonoaudiologo, Neuropediatra, para atender a demanda de toda Secretaria Municipal de saude de Iguape",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "PORTARIA Nº 323,\n DE 19 DE NOVEMBRO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\n\n Designa, Ana Leticia Cardoso Costa, Assessor I, inscrito no CPF/MF nº. 454.XXX.XXX- 82, para exercer a funcao de gestor do contrato\n 188/2025, empresa ADM MEDICA GESTAO E SAUDE LTDA, pa",
-                      "completeness":  "baixa",
-                      "flags":  [
 
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 040/2025.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  5,
-                      "contractNumber":  "040/2025",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicao de leites e formulas nutricionais, para atender demanda do Programa de Fornecimento de Leites e Formulas Nutricionais da Secretaria Municipal de Saude de Iguape, pelo periodo de 12 (doze) meses",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
-
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 040/2025.\nOBJETO: Registro de Precos para aquisicao de leites e formulas nutricionais, para atender demanda do Programa de Fornecimento\nde Leites e Formulas Nutricionais da Secretaria Municipal de Saude de Iguape, pelo periodo de 12 (doze) meses.",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem contratada identificada",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Aviso de Licitacao",
-                      "actTitle":  "Pregao Eletronico n°.018/2025",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  5,
-                      "contractNumber":  "",
-                      "processNumber":  "8/2025",
-                      "modality":  "Pregao Eletronico n°.018/2025",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "R$ 2.400,00",
-                      "term":  "Validade do presente Registro de Precos –12 (doze) meses periodo de 13/11/2025 a 12/11/2026",
-                      "signatureDate":  "13/11/2025",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
-
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "Pregao Eletronico n°.018/2025\nData: 13/11/2025\nVIGENCIA: Validade do presente Registro de Precos –12 (doze) meses periodo de 13/11/2025 a 12/11/2026\nVALOR: R$ 2.400,00 (dois mil e quatrocentos reais).",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem objeto identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 041/2025.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  5,
-                      "contractNumber":  "041/2025",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicao de leites e formulas nutricionais, para atender demanda do Programa de Fornecimento de Leites e Formulas Nutricionais da Secretaria Municipal de Saude de Iguape, pelo periodo de 12 (doze) meses",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
-
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 041/2025.\nOBJETO: Registro de Precos para aquisicao de leites e formulas nutricionais, para atender demanda do Programa de Fornecimento\nde Leites e Formulas Nutricionais da Secretaria Municipal de Saude de Iguape, pelo periodo de 12 (doze) meses.",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem contratada identificada",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Aviso de Licitacao",
-                      "actTitle":  "Pregao Eletronico n°. 018/2025",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  5,
-                      "contractNumber":  "",
-                      "processNumber":  "018/2025",
-                      "modality":  "Pregao Eletronico n°. 018/2025",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "R$ 157.360,00",
-                      "term":  "Validade do presente Registro de Precos –12 (doze) meses periodo de 13/11/2025 a 12/11/2026",
-                      "signatureDate":  "13/11/2025",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
-
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "Pregao Eletronico n°. 018/2025\nData: 13/11/2025\nVIGENCIA: Validade do presente Registro de Precos –12 (doze) meses periodo de 13/11/2025 a 12/11/2026\nVALOR: R$ 157.360,00 (cento e cinquenta e sete mil, trezentos e sessenta reais).",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem objeto identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 042/2025.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  5,
-                      "contractNumber":  "042/2025",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicao de leites e formulas nutricionais, para atender demanda do Programa de Fornecimento de Leites e Formulas Nutricionais da Secretaria Municipal de Saude de Iguape, pelo periodo de 12 (doze) meses",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
-
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 042/2025.\nOBJETO: Registro de Precos para aquisicao de leites e formulas nutricionais, para atender demanda do Programa de Fornecimento\nde Leites e Formulas Nutricionais da Secretaria Municipal de Saude de Iguape, pelo periodo de 12 (doze) meses.",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem contratada identificada",
-                                    "Sem valor identificado"
-                                ]
-                  }
               ]
 }

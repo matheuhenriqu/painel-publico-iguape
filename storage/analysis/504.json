@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "504",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:11",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:05",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/60d2a1dba10e6cc351bdd127db070929.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/60d2a1dba10e6cc351bdd127db070929.pdf",
     "keywords":  [
@@ -9,113 +9,18 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  10,
-                    "itemCount":  3,
-                    "totalValue":  "R$ 2.023.813,58"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:015/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  9,
-                      "contractNumber":  "5/2023",
-                      "processNumber":  "008/2023",
-                      "modality":  "Pregao Presencial n°. 008/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo de 12 (doze) meses Pregao Presencial n°. 008/2023",
-                      "value":  "R$ 127.495,00",
-                      "term":  "27/02/2023 a 26/02/2024",
-                      "signatureDate":  "27/02/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:015/2023\nOBJETO: Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de\nIguape pelo periodo de 12 (doze) meses\nPregao Presencial n°. 008/2023\nDATA: 27/02/2023\nVIGENCIA: 27/02/2023 a 26/02/2024\nVALOR: R$ 127.495,00 (cento e vinte e sete mil, quatrocentos e noventa e cinco reais).",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:016/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  9,
-                      "contractNumber":  "6/2023",
-                      "processNumber":  "008/2023",
-                      "modality":  "Pregao Presencial n°. 008/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo de 12 (doze) meses Pregao Presencial n°. 008/2023",
-                      "value":  "R$ 336.912,36",
-                      "term":  "27/02/2023 a 26/02/2024",
-                      "signatureDate":  "27/02/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:016/2023\nOBJETO: Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de\nIguape pelo periodo de 12 (doze) meses\nPregao Presencial n°. 008/2023\nDATA: 27/02/2023\nVIGENCIA: 27/02/2023 a 26/02/2024\nVALOR: R$ 336.912,36 (trezentos e trinta e seis mil, novecentos e doze reais e trinta e seis centavos).",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:017/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  9,
-                      "contractNumber":  "7/2023",
-                      "processNumber":  "008/2023",
-                      "modality":  "Pregao Presencial n°. 008/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo de 12 (doze) meses Pregao Presencial n°. 008/2023",
-                      "value":  "R$ 1.559.406,22",
-                      "term":  "27/02/2023 a 26/02/2024",
-                      "signatureDate":  "27/02/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:017/2023\nOBJETO: Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de\nIguape pelo periodo de 12 (doze) meses\nPregao Presencial n°. 008/2023\nDATA: 27/02/2023\nVIGENCIA: 27/02/2023 a 26/02/2024\nVALOR: R$ 1.559.406,22 (um milhao, quinhentos e cinquenta e nove mil, quatrocentos e seis reais e vinte e dois centavos)",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  }
+
               ]
 }

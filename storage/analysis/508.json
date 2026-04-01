@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "508",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:10",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:04",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/5b06975fd6af68a777d5e62c6a6a4bbb.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/5b06975fd6af68a777d5e62c6a6a4bbb.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -31,7 +36,7 @@
                       "object":  "Aquisicao de Generos Alimenticios diretamente da Agricultura Familiar e do Empreendedor Familiar Rural conforme Conforme §1º do art.14 da Lei nº 11.947/2009 e Resolucoes do FNDE relativas ao PNAE e a Lei n.º 8.666/93 e o dispositivo que a regulamente, em todos os seus termos",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "PARA A ENTREGA DO (S) DOCUMENTO (S) DE HABILITACAO E PROJETO DE VENDA ATE: 31 DE MARCO DE 2023, NO",
+                      "signatureDate":  "",
                       "legalBasis":  "Lei n.º 8.666/93 e o dispositivo que a regulamente,",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",

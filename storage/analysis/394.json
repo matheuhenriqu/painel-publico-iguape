@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "394",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:29",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:30",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/ef5aedf70b33ded4eb4a49db53847aed.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/ef5aedf70b33ded4eb4a49db53847aed.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  5,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 6,25"
                 },
@@ -20,12 +25,12 @@
                       "actTitle":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO – Item nº 148",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  4,
                       "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "",
+                      "processNumber":  "008/2022",
+                      "modality":  "PREGAO PRESENCIAL - n°. 008/2022",
                       "contractor":  "COMEDER – COMERCIO DE MERCADORIAS E DERIVADOS DE PRODUTOS ALIMENTICIOS LTDA - EPP",
                       "cnpj":  "",
                       "object":  "Aquisicao de Materiais de utilidades domesticas e materiais de higiene e limpeza para os diversos Departamentos e secoes da Prefeitura Municipal de Iguape pelo periodo de 12 meses, referente ao Item 148 – Hipoclorito de Sodio. ADMINISTRACAO GERAL PREGAO PRESENCIAL - n°. 008/2022",
@@ -48,7 +53,7 @@
                                                          "Secretaria de Cultura"
                                                      ],
                       "excerpt":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO – Item nº 148\n\nATA DE REGISTRO DE PRECO Nº 042/2022\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\n\nCONTRATADA: COMEDER – COMERCIO DE MERCADORIAS E DERIVADOS DE PRODUTOS ALIMENTICIOS LTDA - EPP\n\nOBJETO: Aquisicao de Materiais de utilidades domesticas e materiais de higiene e limpeza para os diversos Departamentos e secoes da\n\nPrefeitura Municipal de Iguape pelo periodo de 12 meses, referente ao Item 148 – Hipoclorito de Sodio.\n ADMINISTRACAO GERAL\nPREGAO PRESENCIAL - n°. 008",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem numero do contrato"
                                 ]
@@ -58,17 +63,17 @@
                       "actTitle":  "3º TERMO ADITIVO AO CONTRATO Nº 064/2021",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  4,
                       "contractNumber":  "064/2021",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "ENGETEC ENGENHARIA EIRELI - ME",
+                      "processNumber":  "012/2021",
+                      "modality":  "Tomada de Precos - n°. 012/2021",
+                      "contractor":  "ENGETEC ENGENHARIA EIRELI - ME CONTRATO N°: 064/2021",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa Especializada para obra de reforma do calcamento e ciclovia, localizado na Avenida Eduardo Ebano Pereira e Rua Euclides Roque Bastos, no Porto do Ribeira, neste municipio de Iguape/SP, prorrogada a execucao e vigencia ao contrato por mais 90 (noventa) dias Tomada de Precos - n°. 012/2021",
                       "value":  "",
-                      "term":  "ao contrato",
+                      "term":  "- periodo de 23/10/2022 a 21/01/2023, inclusive",
                       "signatureDate":  "02/05/2022",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-cultura",
@@ -86,7 +91,7 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "3º TERMO ADITIVO AO CONTRATO Nº 064/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA:ENGETEC ENGENHARIA EIRELI - ME\nCONTRATO N°: 064/2021\nOBJETO: Contratacao de Empresa Especializada para obra de reforma do calcamento e ciclovia, localizado na Avenida Eduardo Ebano\nPereira e Rua Euclides Roque Bastos, no Porto do Ribeira, neste municipio de Iguape/SP, prorrogada a execucao e vigencia ao contrato\npor mais 90 (noventa) dias\nTomada de Precos - n°. 012/2021\nDATA: 02/05/2022\nVIGENCIA: - periodo de 23/10/2022 a 21/01/202",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]

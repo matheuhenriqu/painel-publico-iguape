@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "651",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:41",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:23",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/4af3e2704318dadad161572b1139c84e.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/4af3e2704318dadad161572b1139c84e.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  3,
                     "totalValue":  "R$ 747.268,80"
                 },
@@ -25,7 +30,7 @@
                       "contractNumber":  "035/2022",
                       "processNumber":  "019/2022",
                       "modality":  "PREGAO PRESENCIAL Nº 019/2022",
-                      "contractor":  "FRANKLIN CANGUSSU SAMPAIO EIRELI",
+                      "contractor":  "FRANKLIN CANGUSSU SAMPAIO EIRELI CONTRATO N°: 035/2022",
                       "cnpj":  "46367394600295",
                       "object":  "Contratacao de empresa especializada em fornecimento de profissionais na area da saude, para atendimentos na Estrategia de Saude da Familia, Unidade Mista e CAPS (Centro de Atendimento Psicossocial), no municipio de Iguape. Supressao de 480 horas do profissional Medico Ginecologista do Lote II, com atendimento na Unidade Mista de Iguape PREGAO PRESENCIAL Nº 019/2022",
                       "value":  "R$ 62.788,80",
@@ -65,7 +70,7 @@
                       "contractNumber":  "163/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "ECS COMERCIO DE VEICULOS E EQUIPAMENTOS LTDA",
+                      "contractor":  "ECS COMERCIO DE VEICULOS E EQUIPAMENTOS LTDA CONTRATO N°: 163/2023",
                       "cnpj":  "",
                       "object":  "Aquisicao de Caminhao Basculante, em atendimento ao convenio nº 909588/2020, celebrado como Ministerio da Agricultura, Pecuaria e Abastecimento (Mapa)",
                       "value":  "",
@@ -99,18 +104,18 @@
                       "actTitle":  "PREGAO ELETRONICO - Nº 005/2023",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  10,
-                      "confidenceLabel":  "alta",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
                       "pageNumber":  1,
                       "contractNumber":  "",
                       "processNumber":  "005/2023",
                       "modality":  "PREGAO ELETRONICO - Nº 005/2023",
-                      "contractor":  "o valor de R$ 684.480,00 (seiscentos e oitenta e quatro mil, quatrocentos e oitenta reais)",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "",
                       "value":  "R$ 684.480,00",
                       "term":  "120 (cento e vinte) dias, contados da data da sua assinatura; podendo ser prorrogado na forma do Art. 57, da Lei 8.666/93",
-                      "signatureDate":  "-15/09/2023",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -129,7 +134,7 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "PREGAO ELETRONICO - Nº 005/2023\nDATA:-15/09/2023\nVALOR: Pagara a contratada o valor de R$ 684.480,00 (seiscentos e oitenta e quatro mil, quatrocentos e oitenta reais)\nVIGENCIA: 120 (cento e vinte) dias, contados da data da sua assinatura; podendo ser prorrogado na forma do Art. 57, da Lei 8.666/93\nPeriodo de 18/09/2023 a 17/01/2024",
-                      "completeness":  "alta",
+                      "completeness":  "media",
                       "flags":  [
                                     "Sem objeto identificado"
                                 ]

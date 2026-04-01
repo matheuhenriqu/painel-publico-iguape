@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1091",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:32",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:19",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_979_14082948.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_979_14082948.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "homologacao",
                      "rescisao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  10,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -27,7 +32,7 @@
                       "contractNumber":  "",
                       "processNumber":  "294/2025",
                       "modality":  "PR-E - PREGAO ELETRONICO - 5/2025 - EDITAL Nº: 7/2025",
-                      "contractor":  "FUNERARIA VALE DA PAZ LTDA",
+                      "contractor":  "FUNERARIA VALE DA PAZ LTDA Item 1 - URNA FUNERARIA INFANTIL 0,40 CM SEXTAVADA, BRANCA FOSCO, 4 ALCAS DURAS E BABADO SEM VISOR - UN Quantidade: 3,00",
                       "cnpj":  "",
                       "object":  "Registro de Precos para prestacao de servicos funerarios a fim de atender as familias em situacao de vulnerabilidade do municipio de Iguape, atendidas pelos servicos socioassistenciais, pelo periodo de 12 meses",
                       "value":  "",

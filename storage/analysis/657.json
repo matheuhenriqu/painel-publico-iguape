@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "657",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:41",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:23",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/c05b236bcf6614bc90197bcfd9eb2d4e.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/c05b236bcf6614bc90197bcfd9eb2d4e.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  6,
+                    "relevantPageCount":  1,
+                    "blockCount":  4,
                     "itemCount":  2,
                     "totalValue":  "R$ 1.500.000,00"
                 },
@@ -26,7 +31,7 @@
                       "contractNumber":  "165/2023",
                       "processNumber":  "048/2023",
                       "modality":  "PREGAO PRESENCIAL Nº 048/2023",
-                      "contractor":  "CAIXA ECONOMICA FEDERAL",
+                      "contractor":  "CAIXA ECONOMICA FEDERAL CONTRATO N°: 165/2023",
                       "cnpj":  "",
                       "object":  "contratacao de instituicao financeira para o recebimento dos creditos em conta, dos atuais servidores ativos, inativos e Pensionistas, bem como , aqueles que forem contratados no futuro, da administracao publica. PREGAO PRESENCIAL Nº 048/2023",
                       "value":  "R$ 1.500.000,00",
@@ -62,7 +67,7 @@
                       "contractNumber":  "065/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "SUL VALE CONSTRUTORA LTDA",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA CONTRATO N°: 065/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa especializada para obra drenagem e calcamento no trecho da Rua Antonio Filadelfo Colaco, no Bairro do Rocio – neste municipio de Iguape/SP. CARTA CONVITE Nº 005/2023",
                       "value":  "",

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "407",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:27",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:27",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/472768f01e7032751730597d989fa4a6.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/472768f01e7032751730597d989fa4a6.pdf",
     "keywords":  [
@@ -11,8 +11,13 @@
                      "inexigibilidade",
                      "rescisao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  6,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -22,13 +27,13 @@
                       "actTitle":  "1º TERMO ADITIVO bairro",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  5,
                       "contractNumber":  "054/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "SUL VALE CONSTRUTORA LTDA - ME",
+                      "processNumber":  "010/2022",
+                      "modality":  "TOMADA DE PRECOS Nº 010/2022",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA - ME CONTRATO N°: 054/2022",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para obra de reforma do predio municipal localizado na Rua da Saudade s/n, Canto do Morro, neste municipio de Iguape/SP TOMADA DE PRECOS Nº 010/2022",
                       "value":  "",
@@ -46,7 +51,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "1º TERMO ADITIVO bairro\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SUL VALE CONSTRUTORA LTDA - ME\nCONTRATO N°: 054/2022\nOBJETO: Contratacao de empresa especializada para obra de reforma do predio municipal localizado na Rua da Saudade s/n,\nCanto do Morro, neste municipio de Iguape/SP\nTOMADA DE PRECOS Nº 010/2022\nDATA:14/10/2022\nVIGENCIA: periodo de vigencia e execucao e de 60 (sessenta) dias de 29/10/2022 a 28/12/2022",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]
@@ -56,13 +61,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  5,
                       "contractNumber":  "",
                       "processNumber":  "636/2022",
                       "modality":  "PR-G - PREGAO PRESENCIAL - 53/2022 - EDITAL Nº: 76/2022",
-                      "contractor":  "PROESTE COMERCIO DE VEICULOS E PECAS BAURU LTDA",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "AQUISICOES DE VEICULOS DE PASSEIO TIPO HATCH , UTILITARIO PICK UP (CABINE DUPLA), CAMINHAO TIPO VUC- VEICULO URBANO DE CARGA E TRATOR COLETOR DE LIXO , PARA ATENDER DIVERSOS DEPARTAMENTOS DESTE MUNICIPIO DE IGUAPE/SP",
                       "value":  "",

@@ -1,51 +1,24 @@
 ﻿{
     "diaryId":  "746",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:24",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:56",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/7162d078f803511663747ac4ee75c649.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/7162d078f803511663747ac4ee75c649.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  44,
-                    "itemCount":  1,
-                    "totalValue":  "R$ 99.000,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:012/2024.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  43,
-                      "contractNumber":  "2/2024",
-                      "processNumber":  "076/2023",
-                      "modality":  "Pregao Presencial n°. 076/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos pelo periodo de 12 (doze) meses, para contratacao de Jornal Diario de grande circulacao Regional, para Prestacao de Servicos de publicacao de atos oficiais da Prefeitura Municipal de Iguape. Pregao Presencial n°. 076/2023",
-                      "value":  "R$ 99.000,00",
-                      "term":  "Validade do presente Registro de Precos (25/01/2024 a 24/01/2025)",
-                      "signatureDate":  "25/01/2024",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:012/2024.\nOBJETO: Registro de Precos pelo periodo de 12 (doze) meses, para contratacao de Jornal Diario de grande circulacao Regional, para Prestacao de\nServicos de publicacao de atos oficiais da Prefeitura Municipal de Iguape.\nPregao Presencial n°. 076/2023\nData: 25/01/2024\nVIGENCIA: Validade do presente Registro de Precos (25/01/2024 a 24/01/2025)\nVALOR: Valor Global da Ata de Registro de Precos: R$ 99.000,00 (noventa e nove mil reais).",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  }
+
               ]
 }

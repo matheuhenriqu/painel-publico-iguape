@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "904",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:58",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:05",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_826_03071731.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_826_03071731.pdf",
     "keywords":  [
@@ -9,189 +9,18 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  2,
-                    "itemCount":  5,
-                    "totalValue":  "R$ 2.259,72"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Ato Contratual",
-                      "actTitle":  "TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 075/2016",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  10,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "ANA KEILLA DE OLIVEIRA SILVA",
-                      "cnpj":  "",
-                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao do “Conselho Tutelar”",
-                      "value":  "R$ 2.258,65",
-                      "term":  "",
-                      "signatureDate":  "29/08/2024",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-gestao-planejamento",
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Secretaria de Gestao e Planejamento",
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\nTERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 075/2016\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: ANA KEILLA DE OLIVEIRA SILVA\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao do “Conselho Tutelar”.\nDATA: 29/08/2024\nVALOR: R$ 2.258,65 (dois mil, duzentos e cinquenta e oito reais e sessenta e cinco centavos) mensais.",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem numero do contrato"
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "1º TERMO ADITIVO DE CANCELAMENTO DE ITEM.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  7,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  2,
-                      "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "CIRURGICA ASSIS DISTRIBUIDORA DE PRODUTOS PARA SAUDE LTDA",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "1º TERMO ADITIVO DE CANCELAMENTO DE ITEM.\n CONTRATANTE: MUNICIPIO DE IGUAPE/SP\n CONTRATADA: CIRURGICA ASSIS DISTRIBUIDORA DE PRODUTOS PARA SAUDE LTDA",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem numero do contrato",
-                                    "Sem objeto identificado",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:039/2024.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  11,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "9/2024",
-                      "processNumber":  "084/2023",
-                      "modality":  "Pregao Presencial n°. 084/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo de 12 (doze) meses – Item 82 – Budesonida 32 mcg-Aerosol Nasal –Fr Quantidade: 30,00 – Marca - Biosintetica Pregao Presencial n°. 084/2023 Data: 29/08/2024 VALOR: Valor unitario: 11,44 (onze reais e quarenta e quatro centavos) – Valor Total – 343,20 (trezentos e quarenta e tres reais e vinte centavos)",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "29/08/2024",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:039/2024.\n OBJETO: Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo\n periodo de 12 (doze) meses – Item 82 – Budesonida 32 mcg-Aerosol Nasal –Fr Quantidade: 30,00 – Marca - Biosintetica\n Pregao Presencial n°. 084/2023\n Data: 29/08/2024\n VALOR: Valor unitario: 11,44 (onze reais e quarenta e quatro centavos) – Valor Total – 343,20 (trezentos e quarenta e tres reais e vinte centavos).",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem contratada identificada",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:040/2024.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  11,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "0/2024",
-                      "processNumber":  "084/2023",
-                      "modality":  "Pregao Presencial n°. 084/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo de 12 (doze) meses – Item 4 – Fenobarbital 100mg* - Comp – Quantidade: 32.000,00-Marca: Uniao Quimica. Pregao Presencial n°. 084/2023 Data: 30/08/2024 VALOR: Valor unitario: 0,13 – Total: 4.160,00 (quatro mil, cento e sessenta reais)",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "30/08/2024",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:040/2024.\n OBJETO: Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo\n de 12 (doze) meses – Item 4 – Fenobarbital 100mg* - Comp – Quantidade: 32.000,00-Marca: Uniao Quimica.\n Pregao Presencial n°. 084/2023\n Data: 30/08/2024\n VALOR: Valor unitario: 0,13 – Total: 4.160,00 (quatro mil, cento e sessenta reais).",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem contratada identificada",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:043/2024.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "3/2024",
-                      "processNumber":  "084/2023",
-                      "modality":  "Pregao Presencial n°. 084/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo de 12 (doze) meses - Item 143 - DIPIRONA 500MG/ML-10ML* - FR - Marca: FARMACE. Pregao Presencial n°. 084/2023 Data: 22/08/2024 VALOR: Valor unitario licitado R$ 1,07 e valor unitario com reequilibrio R$ 1,43",
-                      "value":  "R$ 1,07",
-                      "term":  "",
-                      "signatureDate":  "22/08/2024",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:043/2024.\n OBJETO: Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo\n de 12 (doze) meses - Item 143 - DIPIRONA 500MG/ML-10ML* - FR - Marca: FARMACE.\n Pregao Presencial n°. 084/2023\n Data: 22/08/2024\n VALOR: Valor unitario licitado R$ 1,07 e valor unitario com reequilibrio R$ 1,43.",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  }
+
               ]
 }

@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "523",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:07",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:00",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/c5be02e95d482a69ee4422646a3b3188.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/c5be02e95d482a69ee4422646a3b3188.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -27,10 +32,10 @@
                       "modality":  "PREGAO PRESENCIAL nº. 020/2023",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "REGISTRO DE PRECO PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICOES DE MOBILIARIOS, PARA ATENDER AS SECRETARIAS E DEPARTAMENTOS DESTA PREFEITURA DE IGUAPE/SP. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013, Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "object":  "REGISTRO DE PRECO PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICOES DE MOBILIARIOS, PARA ATENDER AS SECRETARIAS E DEPARTAMENTOS DESTA PREFEITURA DE IGUAPE/SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -55,13 +60,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  1,
                       "contractNumber":  "",
                       "processNumber":  "207/2023",
                       "modality":  "PR-G - PREGAO PRESENCIAL - 18/2023 - EDITAL Nº: 27/2023",
-                      "contractor":  "TONY COM DE CHOCOLATES LTDA",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE OVOS DE CHOCOLATE AO LEITE, PESO MINIMO DE 200 G, PARA DISTRIBUICAO AOS ALUNOS DAS ESCOLAS MUNICIPAIS EM COMEMORACAO APASCOA",
                       "value":  "",

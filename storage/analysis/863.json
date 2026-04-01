@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "863",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:04",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:15",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_791_11062555.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_791_11062555.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  22,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 440.911,58"
                 },
@@ -25,7 +30,7 @@
                       "contractNumber":  "023/2021",
                       "processNumber":  "12/2021",
                       "modality":  "Pregao Presencial nº 12/2021",
-                      "contractor":  "CECAM – CONSULTORIA ECONOMICA, CONTABIL E ADMINISTRATIVA MUNICIPAL LTDA",
+                      "contractor":  "CECAM – CONSULTORIA ECONOMICA, CONTABIL E ADMINISTRATIVA MUNICIPAL LTDA CONTRATO N°: 023/2021",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para cessao de direito de uso de sotfwares (modulos) de gestao publica, nas areas de ajuizamento eletronico (procuradoria), administracao de pessoal, almoxarifado, siafic, controle interno, portal datransparencia, compras e licitacoes, protocolo, frotas, patrimonio, IPTU e ITBI, IPTU E ITBI web, obras, ISS, ISS web, ISS eletronico e nota fiscal eletronica, saude e cemiterio, envolvendo conversao, migracao, implantacao dos modulos e capacitacao dos usuarios. . Pregao Presencial nº 12/2021",
                       "value":  "R$ 420.911,58",

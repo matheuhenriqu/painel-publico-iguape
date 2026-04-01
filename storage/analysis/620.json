@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "620",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:46",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:30",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/e67cfe7dce4c6f9e9311274bc0735670.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/e67cfe7dce4c6f9e9311274bc0735670.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -19,13 +24,13 @@
                       "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  1,
                       "contractNumber":  "",
                       "processNumber":  "401/2023",
-                      "modality":  "",
-                      "contractor":  "SAMUEL RIBEIRO -EPP",
+                      "modality":  "TOMADA DE PRECOS / OBRAS - 9/2023",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE MANUTENCAO E REPAROS NA ESCOLA MUNICIPAL PROFª ABIGAIL FORTES MARTINS, LOCALIZADA NA RUA \"F\" - BAIRRO DA BARRA DO RIBEIRA, NESTE MUNICIPIO DE IGUAPE/SP TP-O - TOMADA DE PRECOS / OBRAS - 9/2023 - EDITAL Nº: 54/2023",
                       "value":  "",
@@ -49,7 +54,7 @@
                       "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 401/2023\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE MANUTENCAO E REPAROS NA ESCOLA MUNICIPAL PROFª ABIGAIL FORTES\nMARTINS, LOCALIZADA NA RUA \"F\" - BAIRRO DA BARRA DO RIBEIRA, NESTE MUNICIPIO DE IGUAPE/SP\nTP-O - TOMADA DE PRECOS / OBRAS - 9/2023 - EDITAL Nº: 54/2023\nINTERESSADOS: SECRETARIA MUNIC. DE INFRAESTRUTURA URBANA E OBRAS .\n\n HOMOLOGO E ADJUDICO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\n\nitens abaixo.\n\nFORNECE",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem modalidade identificada"
+
                                 ]
                   }
               ]

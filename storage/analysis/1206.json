@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "1206",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:15",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:43",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1061_17072509.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1061_17072509.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -19,13 +24,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  3,
                       "contractNumber":  "",
                       "processNumber":  "690/2025",
                       "modality":  "PR-E - PREGAO ELETRONICO - 20/2025 - EDITAL Nº: 28/2025",
-                      "contractor":  "DEVERA SE DESLOCAR ATE A SEDE DA",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "Registro de precos para aquisicao de trajes padronizados para os integrantes da Banda Municipal Maestro Aquilino Jarbas de Carvalho, em atendimento a Secretaria de Cultura, Esportes e Turismo pelo periodo de 12 meses, conforme especificac~coes detalhadas no termo de referencia",
                       "value":  "",

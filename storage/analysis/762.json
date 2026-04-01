@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "762",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:20",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:48",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/6f5f4a07b2bde8097f03dfbbbf696373.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/6f5f4a07b2bde8097f03dfbbbf696373.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  7,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -20,13 +25,13 @@
                       "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  6,
                       "contractNumber":  "",
                       "processNumber":  "280/2023",
-                      "modality":  "",
-                      "contractor":  "OLIVEIRA ENGENHARIA EIRELI -EPP",
+                      "modality":  "TOMADA DE PRECOS / OBRAS - 16/2023",
+                      "contractor":  "",
                       "cnpj":  "13901684000123",
                       "object":  "CONTRATACAO DE EMPRESAESPECIALIZADA PARA OBRA DE REFORMA E AMPLIACAO DO E.S.F. AEROPORTO,LOCALIZADO NA AVENIDA MANOEL GONCALVES PIRES, 175, BAIRRO DO ROCIO –IGUAPE/SP, conforme Proposta nº 13901684000123016 – Emenda nº 41710003,CELEBRADO ENTRE O MINISTERIO DA SAUDE E O MUNICIPIO DE IGUAPE TP-O - TOMADA DE PRECOS / OBRAS - 16/2023 - EDITAL Nº: 113/202C3",
                       "value":  "",
@@ -50,7 +55,7 @@
                       "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 280/2023\nCONTRATACAO DE EMPRESAESPECIALIZADA PARA OBRA DE REFORMA E AMPLIACAO DO E.S.F. AEROPORTO,LOCALIZADO NA AVENIDA\nMANOEL GONCALVES PIRES, 175, BAIRRO DO ROCIO –IGUAPE/SP, conforme Proposta nº 13901684000123016 – Emenda nº\n41710003,CELEBRADO ENTRE O MINISTERIO DA SAUDE E O MUNICIPIO DE IGUAPE\n\nTP-O - TOMADA DE PRECOS / OBRAS - 16/2023 - EDITAL Nº: 113/202C3\n\nINTERESSADOS: SECRETARIA MUNIC. DE INFRAESTRUTURA URBANA E OBRAS .\n\n HOMOLOGO E ADJUDICO, nos termos da ",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem modalidade identificada"
+
                                 ]
                   },
                   {
@@ -58,13 +63,13 @@
                       "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  6,
                       "contractNumber":  "",
                       "processNumber":  "586/2023",
-                      "modality":  "",
-                      "contractor":  "SAMUEL RIBEIRO -EPP",
+                      "modality":  "TOMADA DE PRECOS / OBRAS - 21/2023",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA GERALDO ESF ITIMIRIM I, LOCALIZADO NA RODOVIA PREFEITO CASIMIRO TEIXEIRA,S/N – KM 35, BAIRRO DO RETIRO – IGUAPE/SP TP-O - TOMADA DE PRECOS / OBRAS - 21/2023 - EDITAL Nº: 134/2023",
                       "value":  "",
@@ -84,7 +89,7 @@
                       "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 586/2023\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA GERALDO ESF ITIMIRIM I, LOCALIZADO NA RODOVIA PREFEITO\nCASIMIRO TEIXEIRA,S/N – KM 35, BAIRRO DO RETIRO – IGUAPE/SP\nTP-O - TOMADA DE PRECOS / OBRAS - 21/2023 - EDITAL Nº: 134/2023\nINTERESSADOS: SECRETARIA MUNIC. DE INFRAESTRUTURA URBANA E OBRAS .\n\n HOMOLOGO E ADJUDICO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos itens abaixo.\n\nFORNECEDOR: SAMUEL RIBEIRO -EPP\nIte",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem modalidade identificada"
+
                                 ]
                   }
               ]

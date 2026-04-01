@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "929",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:55",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:58",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_848_08073402.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_848_08073402.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  9,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 37.822,60"
                 },
@@ -27,7 +32,7 @@
                       "contractNumber":  "049/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "COFARP – COOPERATIVA DOS AGRICULTORES FAMILIARES DE PIEDADE",
+                      "contractor":  "COFARP – COOPERATIVA DOS AGRICULTORES FAMILIARES DE PIEDADE CONTRATO N°: 049/2023",
                       "cnpj":  "",
                       "object":  "Aquisicao de Generos Alimenticios da Agricultura Familiar e do Empreendedor Familiar Rural, em atendimento ao Programa Nacional de Alimentacao Escolar – PNAE, para alunos da rede de educacao basica publica, verba FNDE/PNAE",
                       "value":  "",

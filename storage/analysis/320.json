@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "320",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:41",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:48",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/45e3ab088c14c4090fb72575bd4ddf9a.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/45e3ab088c14c4090fb72575bd4ddf9a.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -19,13 +24,13 @@
                       "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
                       "pageNumber":  2,
                       "contractNumber":  "",
                       "processNumber":  "58/2022",
-                      "modality":  "",
-                      "contractor":  "SUL VALE CONSTRUTORA LTDA",
+                      "modality":  "TOMADA DE PRECOS / OBRAS - 6/2022",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "",
                       "value":  "",
@@ -47,8 +52,7 @@
                       "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 58/2022\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE CONSTRUCAO DA CASA DA JUVENTUDE NO BAIRRO DO\nROCIO, CONFORME CONVENIO Nº 102005/2021- CELEBRADO COM O ESTADO DE SAO PAULO , POR MEIO DA SECRETARIA\nDE DESENVOLVIMENTO REGIONAL E O MUNICIPIO DE IGUAPE,\nTP-O - TOMADA DE PRECOS / OBRAS - 6/2022 - EDITAL Nº: 40/2022\n\n HOMOLOGO E ADJUDICO, nos termos da Legislacao em vigor, o procedimento licitatorio e a\nclassificacao dos itens abaixo.\nFORNECEDOR: SUL VALE CONSTRUT",
                       "completeness":  "baixa",
                       "flags":  [
-                                    "Sem objeto identificado",
-                                    "Sem modalidade identificada"
+                                    "Sem objeto identificado"
                                 ]
                   },
                   {
@@ -56,13 +60,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "",
                       "processNumber":  "72/2022",
                       "modality":  "PR-G - PREGAO PRESENCIAL - 36/2022 - EDITAL Nº: 52/2022",
-                      "contractor":  "INTERVALE TRANSPORTE E TURISMO EIRELI-ME",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "REGISTRO DE PRECOS PARA FUTURAS E EVENTUAIS CONTRATACAO DE EMPRESA ESPECIALIZADA NA PRESTACAO DE SERVICOS DE TRANSPORTES DE PACIENTES ATENDIDOS PELO SUS NA REDE BASICA DE SAUDE DO MUNICIPIO DE IGUAPE",
                       "value":  "",

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "376",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:31",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:33",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/97a810fee64f94bff3a8fe384a75e3e0.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/97a810fee64f94bff3a8fe384a75e3e0.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 948,01"
                 },
@@ -27,9 +32,9 @@
                       "contractNumber":  "102/2021",
                       "processNumber":  "041/2021",
                       "modality":  "PREGAO PRESENCIAL Nº 041/2021",
-                      "contractor":  "SEGUROS SURA S/A",
+                      "contractor":  "SEGUROS SURA S/A CONTRATO N°: 102/2021",
                       "cnpj":  "92917187645947",
-                      "object":  "Constitui objeto do presente termo o ACRESCIMO de 0,929171876459473%, ao valor do contrato inicial, firmado entre as partes, referente a inclusao de 01 (um) veiculo MERCEDES BENZ – Modelo – ATEGO 1726 2p – Diesel (E5) – Ano 2021/2022 – Placa/Chassi – GJD8A87/9BM958154NB235213, nos termos previstos no § 1º, do artigo 65 da Lei Federal nº 8.666/93. PREGAO PRESENCIAL Nº 041/2021",
+                      "object":  "do presente termo o ACRESCIMO de 0,929171876459473%, ao valor do contrato inicial, firmado entre as partes, referente a inclusao de 01 (um) veiculo MERCEDES BENZ – Modelo – ATEGO 1726 2p – Diesel (E5) – Ano 2021/2022 – Placa/Chassi – GJD8A87/9BM958154NB235213, nos termos previstos no § 1º, do artigo 65 da Lei Federal nº 8.666/93. PREGAO PRESENCIAL Nº 041/2021",
                       "value":  "R$ 948,01",
                       "term":  "",
                       "signatureDate":  "31/08/2022",

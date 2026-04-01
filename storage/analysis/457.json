@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "457",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:18",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:15",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/00190691cc4b30b4192766ce45dc0ad2.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/00190691cc4b30b4192766ce45dc0ad2.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  3,
                     "totalValue":  "R$ 205.693,03"
                 },
@@ -19,10 +24,10 @@
                       "actTitle":  "1º TERMO ADITIVO DE ADEQUACAO",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
-                      "contractNumber":  "",
+                      "contractNumber":  "046/2022",
                       "processNumber":  "029/2022",
                       "modality":  "Pregao Presencial nº 029/2022",
                       "contractor":  "INTERVALE TRANSPORTE TURISMO EIRELI-EPP",
@@ -43,9 +48,8 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "1º TERMO ADITIVO DE ADEQUACAO\nCONTRATO DE 046/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: INTERVALE TRANSPORTE TURISMO EIRELI-EPP\nOBJETO: Adequacao aos horarios das viagens realizadas ao item 05 – Transporte de Pacientes da Hemodialise em conformidade com\na alteracao de escala informada pela CENEVALE – Centro de Nefrologia, sem alteracao de custos, nos termos do artigo 65, inciso II,\nalinea “b” da Lei 8.666/93\nDATA: 23/12/2022\nPregao Presencial nº 029/2022",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
-                                    "Sem numero do contrato",
                                     "Sem valor identificado"
                                 ]
                   },
@@ -54,10 +58,10 @@
                       "actTitle":  "2º TERMO ADITIVO DE VALOR",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  14,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
-                      "contractNumber":  "",
+                      "contractNumber":  "046/2022",
                       "processNumber":  "029/2022",
                       "modality":  "Pregao Presencial nº 029/2022",
                       "contractor":  "INTERVALE TRANSPORTE TURISMO EIRELI-EPP",
@@ -80,7 +84,7 @@
                       "excerpt":  "2º TERMO ADITIVO DE VALOR\nCONTRATO DE 046/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: INTERVALE TRANSPORTE TURISMO EIRELI-EPP\nOBJETO: Acrescimo de Km/rodado ao item 5-Transporte de Pacientes da Hemodialise, cujo objeto refere-se a Contratacao de Empresa\nespecializada na Prestacao de Servicos de Transporte Diario de Pacientes atendidos pelo SUS na Rede Basica de Saude do Municipio\nde Iguape pelo periodo de 12 (doze) meses.\nDATA: 23/12/2022\nPregao Presencial nº 029/2022\nVALOR: O valor global e de R$ 94.928,22 (",
                       "completeness":  "alta",
                       "flags":  [
-                                    "Sem numero do contrato"
+
                                 ]
                   },
                   {
@@ -94,7 +98,7 @@
                       "contractNumber":  "102/2021",
                       "processNumber":  "041/2021",
                       "modality":  "PREGAO PRESENCIAL Nº 041/2021",
-                      "contractor":  "SEGUROS SURA S/A",
+                      "contractor":  "SEGUROS SURA S/A CONTRATO N°: 102/2021",
                       "cnpj":  "",
                       "object":  "Prorrogacao por mais 12 (doze) meses, bem como a supressao de veiculos, cujo objeto refere-se a Contratacao de Empresa especializada para a prestacao de servicos de seguro dos diversos veiculos que compoem a frota da Prefeitura Municipal de Iguape. PREGAO PRESENCIAL Nº 041/2021",
                       "value":  "R$ 110.764,81",

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "463",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:17",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:14",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/6d1e354713305fdb03f88b2636f5c80d.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/6d1e354713305fdb03f88b2636f5c80d.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  5,
                     "itemCount":  4,
                     "totalValue":  "R$ 37.812,50"
                 },
@@ -61,7 +66,7 @@
                       "contractNumber":  "",
                       "processNumber":  "1298/2022",
                       "modality":  "",
-                      "contractor":  "MITRA DIOCESANA DE REGISTRO PAROQUIA",
+                      "contractor":  "MITRA DIOCESANA DE REGISTRO PAROQUIA Reitor o Sr. PE. POLIKARPUS RANGGA",
                       "cnpj":  "",
                       "object":  "Constitui o presente termo a locacao do imovel utilizado Largo Marcondes Salgado – s/n Centro – Iguape/SP",
                       "value":  "R$ 15.000,00",
@@ -95,7 +100,7 @@
                       "contractNumber":  "165/2022",
                       "processNumber":  "055/2022",
                       "modality":  "PREGAO PRESENCIAL Nº 055/2022",
-                      "contractor":  "FAC LICITA EIRELI-ME",
+                      "contractor":  "FAC LICITA EIRELI-ME CONTRATO N°: 165/2022",
                       "cnpj":  "",
                       "object":  "contratacao de empresa especializada para aquisicao de Materiais de Equipamentos de Fisioterapia para atender a Secretaria Municipal de Saude. Troca de Marca do item 18 – itens fes-aparelho eletroestimulador 04 canais, sem alteracao do valor, conforme manifestacao da Secretaria Municipal de Saude. PREGAO PRESENCIAL Nº 055/2022",
                       "value":  "",
@@ -131,10 +136,10 @@
                       "modality":  "PREGAO PRESENCIAL nº. 002/2023",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "REGISTRO DE PRECOS PARA AQUISICOES DE ASFALTO RECICLADO USINADO A QUENTE COM ADITIVO DE RETARDO (A GRANEL), MASSA ASFALTICA CBUQ (APLICACAO A FRIO) E EMULSAO ASFALTICA RR-2C,PARA OS SERVICOS DE “TAPA BURACO” A SEREM EXECUTADOS EM DIVERSAS VIAS, EM ATENDIMENTO AS DEMANDAS DO DEPARTAMENTO DE OBRAS E SERVICOS DESTE MUNICIPIO DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013,Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICOES DE ASFALTO RECICLADO USINADO A QUENTE COM ADITIVO DE RETARDO (A GRANEL), MASSA ASFALTICA CBUQ (APLICACAO A FRIO) E EMULSAO ASFALTICA RR-2C,PARA OS SERVICOS DE “TAPA BURACO” A SEREM EXECUTADOS EM DIVERSAS VIAS, EM ATENDIMENTO AS DEMANDAS DO DEPARTAMENTO DE OBRAS E SERVICOS DESTE MUNICIPIO DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "502",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:11",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:06",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/0540301d1479e0806781388a1aa46f16.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/0540301d1479e0806781388a1aa46f16.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  3,
                     "totalValue":  "R$ 59.503,10"
                 },
@@ -20,13 +25,13 @@
                       "actTitle":  "7º TERMO ADITIVO DE PRAZO-CONTRATO 001/2021",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  1,
                       "contractNumber":  "001/2021",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "EPCCO-ENGENHARIA DE PROJETOS CONSULTORIA E CONSTRUCOES LTDA",
+                      "processNumber":  "009/2020",
+                      "modality":  "Tomada de Precos - n°. 009/2020",
+                      "contractor":  "EPCCO-ENGENHARIA DE PROJETOS CONSULTORIA E CONSTRUCOES LTDA CONTRATO N°: 001/2021",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa Especializada para pavimentacao e obras complementares na Avenida Julio Franco no Bairro do Rocio, neste Municipio de Iguape/SP, conforme contrato de repasse nº 896691/2019, celebrado com o MDR (Ministerio de Desenvolvimento Regional)/Caixa . Tomada de Precos - n°. 009/2020",
                       "value":  "",
@@ -46,7 +51,7 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "7º TERMO ADITIVO DE PRAZO-CONTRATO 001/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: EPCCO-ENGENHARIA DE PROJETOS CONSULTORIA E CONSTRUCOES LTDA\nCONTRATO N°: 001/2021\nOBJETO: Contratacao de Empresa Especializada para pavimentacao e obras complementares na Avenida Julio Franco no Bairro do\nRocio, neste Municipio de Iguape/SP, conforme contrato de repasse nº 896691/2019, celebrado com o MDR (Ministerio de\nDesenvolvimento Regional)/Caixa .\nTomada de Precos - n°. 009/2020\nDATA: 23/12/2022\nVIGENCIA: 90 (noventa) dia",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]
@@ -56,11 +61,11 @@
                       "actTitle":  "6º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 069/2017",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  1,
                       "contractNumber":  "",
-                      "processNumber":  "",
+                      "processNumber":  "107/2017",
                       "modality":  "",
                       "contractor":  "MORAIS EMP IMOBILIARIOS LTDA",
                       "cnpj":  "",
@@ -82,10 +87,9 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "EXTRATO\n\n6º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 069/2017\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: MORAIS EMP IMOBILIARIOS LTDA\nOBJETO:Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao e funcionamento da\nsede administrativa do Paco Municipal – Iguape/SP.\nVALOR: R$ 14.573,10 (catorze mil, quinhentos e setenta e tres reais e dez centavos) mensais.\nDATA: 27/02/2023\nProcesso de Dispensa de Licitacao nº 107/2017\nVIGENCIA: 04/03/2023 a 03/03/2024",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
-                                    "Sem modalidade identificada",
-                                    "Sem numero principal identificado"
+                                    "Sem modalidade identificada"
                                 ]
                   },
                   {
@@ -101,9 +105,9 @@
                       "modality":  "Pregao Presencial n°. 054/2017",
                       "contractor":  "FENICIA CURSOS TREINAMENTOS E CAPACITACAO LTDA - ME",
                       "cnpj":  "",
-                      "object":  "Constitui objeto do presente termo a prorrogacao da vigencia do contrato 230/2017, referente a contratacao de empresa especializada para oferta de profissionais qualificados para ministrar oficinas para idosos, adolescentes e familias usuarios dos servicos do CRAS, bem como para cadastradores para o CADUNICO, e para execucao do programa “ACESSUAIS” em atendimento aos programas do Governo Federal, no Municipio de Iguape. Pregao Presencial n°. 054/2017",
+                      "object":  "do presente termo a prorrogacao da vigencia do contrato 230/2017, referente a contratacao de empresa especializada para oferta de profissionais qualificados para ministrar oficinas para idosos, adolescentes e familias usuarios dos servicos do CRAS, bem como para cadastradores para o CADUNICO, e para execucao do programa “ACESSUAIS” em atendimento aos programas do Governo Federal, no Municipio de Iguape. Pregao Presencial n°. 054/2017",
                       "value":  "R$ 44.930,00",
-                      "term":  "do contrato 230/2017, referente a contratacao de empresa",
+                      "term":  "25/02/2023 A 25/04/2023",
                       "signatureDate":  "24/02/2023",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",

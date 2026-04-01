@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1071",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:35",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:24",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_960_09074340.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_960_09074340.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 44.439,50"
                 },
@@ -26,7 +31,7 @@
                       "contractNumber":  "139/2024",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "KNAY ADMINISTRACAO E CONSTRUCOES EIRELI - ME",
+                      "contractor":  "KNAY ADMINISTRACAO E CONSTRUCOES EIRELI - ME CONTRATO N°: 139/2024",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para servicos de finalizacao e reparos na obra de requalificacao da orla do Valo Grande - fase III, conforme termo de convenio nº167/2018, que entre si celebram o Estado de Sao Paulo, pela Secretaria de Turismo e o Municipio de Iguape. Lote: 02 - Contratacao de empresa especializada para servicos de reparos / reforma e adequacao na obra de requalificacao da orla do valo grande – fase-III",
                       "value":  "",
@@ -65,7 +70,7 @@
                       "object":  "",
                       "value":  "R$ 44.439,50",
                       "term":  "",
-                      "signatureDate":  "-04/04/2025",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",

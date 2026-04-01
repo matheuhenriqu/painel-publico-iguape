@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "963",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:52",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:52",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_872_21065827.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_872_21065827.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  8,
+                    "relevantPageCount":  2,
+                    "blockCount":  5,
                     "itemCount":  2,
                     "totalValue":  "R$ 4.734,31"
                 },
@@ -54,13 +59,13 @@
                       "actTitle":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO 008/2024",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "008/2024",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA",
+                      "processNumber":  "018/2023",
+                      "modality":  "TOMADA DE PRECO – Nº 018/2023",
+                      "contractor":  "EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA CONTRATO N°: 008/2024",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para obra de reforma e ampliacao da Casa da Crianca, localizada na rua k, nº 180, bairro jardim primavera, neste Municipio de Iguape/SP. TOMADA DE PRECO – Nº 018/2023",
                       "value":  "",
@@ -80,7 +85,7 @@
                                                          "Camara Municipal de Iguape"
                                                      ],
                       "excerpt":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO 008/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA\nCONTRATO N°: 008/2024\nOBJETO: Contratacao de empresa especializada para obra de reforma e ampliacao da Casa da Crianca, localizada na rua k, nº 180, bairro jardim\nprimavera, neste Municipio de Iguape/SP.\nTOMADA DE PRECO – Nº 018/2023\nData:13/11/2024\nVIGENCIA:Vigencia e Execucao:-90 (noventa) dias – Periodo de 16/11/2024 a 13/02/2025 inclusive.\n\n CADERNO LEGISLATIVO\n\n GABINETE D",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]

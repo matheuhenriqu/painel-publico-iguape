@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "343",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:36",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:40",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/853d3148d37a9fb34e931e7c5d080ee9.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/853d3148d37a9fb34e931e7c5d080ee9.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  20,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  2,
                     "totalValue":  "R$ 100.000,00"
                 },

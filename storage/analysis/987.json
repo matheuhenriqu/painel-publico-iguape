@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "987",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:49",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:48",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_893_27071049.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_893_27071049.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  37,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 20.076,89"
                 },
@@ -26,7 +31,7 @@
                       "contractNumber":  "096/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "SW SPORTS COMERCIO E SERVICOS LTDA de Iguape",
+                      "contractor":  "SW SPORTS COMERCIO E SERVICOS LTDA de Iguape. CONTRATO N°: 096/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa especializada para fornecimento de servicos de profissionais da area esportiva em atendimento mensal de 923931//2021-celebrado entre o Ministerio da Cidadania – Secretaria Especial de Esportes e a Prefeitura Municipal",
                       "value":  "",

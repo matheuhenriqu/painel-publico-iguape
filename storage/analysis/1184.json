@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1184",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:19",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:51",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1041_20075538.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1041_20075538.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -65,13 +70,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  3,
                       "contractNumber":  "",
                       "processNumber":  "353/2025",
                       "modality":  "PR-E - PREGAO ELETRONICO - 15/2025 - EDITAL Nº: 20/2025",
-                      "contractor":  "AUTOLUK COMERCIO DE PNEUMATICOS E PECAS LTDA EPP",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "Aquisicao de lubrificantes e correlatos para a manutencao do veiculo da Secretaria Municipal de Cultura, Esporte e Turismo do Municipio, para atender a necessidade do setor, para um periodo de 12 meses",
                       "value":  "",

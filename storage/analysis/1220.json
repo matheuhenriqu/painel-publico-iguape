@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1220",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:13",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:39",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1070-_30071623.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1070-_30071623.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  3,
+                    "blockCount":  8,
                     "itemCount":  7,
                     "totalValue":  "R$ 41.909,00"
                 },
@@ -31,7 +36,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -67,7 +72,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -101,7 +106,7 @@
                       "object":  "Contratacao de empresa especializada em tratamento de dependecia quimica de alcool e outras drogas, compulsoria involuntaria com remocao, para o paciente M. de C. l., pelo periodo de 06 (seis) meses, conforme decisao no Processo nº 1001642 64.2025.8.26.0244 e documentos anexos",
                       "value":  "R$ 17.100,00",
                       "term":  "22/09/2025 A 22/03/2026",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "22/09/2025",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -124,18 +129,18 @@
                       "actTitle":  "CONCORRENCIA PUBLICA Nº 004/2025- MENOR VALOR GLOBAL",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
                       "pageNumber":  3,
                       "contractNumber":  "",
                       "processNumber":  "004/2025",
                       "modality":  "CONCORRENCIA PUBLICA Nº 004/2025",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "e a Contratacao de empresa especializada para Reforma e Revitalizacao da Cobertura e Forro da Igreja Sao Benedito com fornecimento de materiais e mao de obra, neste Municipio de Iguape/SP. Com o seguinte: RESULTADO: DEFERINDO o recurso administrativo da empresa OLIVEIRA ENGENHARIA LTDA – EPP e a INABILITACAO da empresa SAMUEL RIBEIRO -EPP. Ficam CONVOCADAS as empresas para a REABERTURA do certame, com data marcada para o dia 01/10/2025 as 09h00m na plataforma BLL. Fica os autos do Processo com vista franqueada aos interessados",
+                      "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "marcada para o dia 01/10/2025 as 09h00m na plataforma BLL",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -148,9 +153,9 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "CONCORRENCIA PUBLICA Nº 004/2025- MENOR VALOR GLOBAL\n\nA PREFEITURA MUNICIPAL DE IGUAPE, atraves do Agente de Contratacao, no uso legais de suas atribuicoes; torna publico para conhecimento dos\ninteressados o RESULTADO do julgamento do recurso administrativo, cujo objeto e a Contratacao de empresa especializada para Reforma e\nRevitalizacao da Cobertura e Forro da Igreja Sao Benedito com fornecimento de materiais e mao de obra, neste Municipio de Iguape/SP. Com\no seguinte: RESULTADO: DEFERINDO o recurso administrativ",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
-
+                                    "Sem objeto identificado"
                                 ]
                   },
                   {
@@ -158,13 +163,13 @@
                       "actTitle":  "CONTRATANTE: MUNICIPIO DE IGUAPE/SP equipe manual (ate 3,5 m, sem munck), poda com caminhao munck",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  8,
-                      "confidenceLabel":  "media",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
                       "pageNumber":  3,
                       "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "IB FERREIRA SERVICOS LTDA. (GRUPO RL ME) vegetais em estradas vicinais e areas publicas nao abrangidas por",
+                      "processNumber":  "152/2025",
+                      "modality":  "CREDENCIAMENTO Nº: 152/2025",
+                      "contractor":  "IB FERREIRA SERVICOS LTDA. (GRUPO RL ME) vegetais em estradas vicinais e areas publicas nao abrangidas por CONTRATO TERMO DE CREDENCIAMENTO Nº: 152/2025",
                       "cnpj":  "",
                       "object":  "Credenciamento de empresas para prestacao dos servicos de poda com de 60 (sessenta) dias corridos contados a partir da emissao da (com cesto aereo) e rocada manual com rastelamento e ensacamento de residuos contrato de limpeza urbana no Municipio de Iguape/SP",
                       "value":  "",
@@ -182,7 +187,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP equipe manual (ate 3,5 m, sem munck), poda com caminhao munck\nCONTRATADA: IB FERREIRA SERVICOS LTDA. (GRUPO RL ME) vegetais em estradas vicinais e areas publicas nao abrangidas por\nCONTRATO TERMO DE CREDENCIAMENTO Nº: 152/2025\nOBJETO: Credenciamento de empresas para prestacao dos servicos de poda com de 60 (sessenta) dias corridos contados a partir da emissao da\n(com cesto aereo) e rocada manual com rastelamento e ensacamento de residuos\ncontrato de limpeza urbana no Mun",
-                      "completeness":  "baixa",
+                      "completeness":  "media",
                       "flags":  [
                                     "Sem numero do contrato",
                                     "Sem valor identificado"
@@ -227,13 +232,13 @@
                       "actTitle":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO Nº: 029/2024",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  3,
                       "contractNumber":  "029/2024",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "processNumber":  "023/2023",
+                      "modality":  "TOMADA DE PRECO N°. 023/2023",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU CONTRATO N°: 029/2024 LOTE-01: Requalificacao da Orla do Valo Grande Fase IV",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para obra de Requalificacao da Orla do Valo Grande - fase IV, convenio que entre si celebram o Estado de Sao Paulo, por meio da Secretaria de Turismo e Viagens e o Municipio de Iguape/SP – termo de convenio nº 178/2023. TOMADA DE PRECO N°. 023/2023",
                       "value":  "",
@@ -253,7 +258,7 @@
                                                          "Secretaria de Turismo e Viagens"
                                                      ],
                       "excerpt":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO Nº: 029/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU\nCONTRATO N°: 029/2024\nLOTE-01: Requalificacao da Orla do Valo Grande Fase IV\nOBJETO: Contratacao de empresa especializada para obra de Requalificacao da Orla do Valo Grande - fase IV, convenio que entre si celebram o\nEstado de Sao Paulo, por meio da Secretaria de Turismo e Viagens e o Municipio de Iguape/SP – termo de convenio nº 178/2023.\nTOMADA DE PRECO N°. 023/2023.\nData: 23/",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]

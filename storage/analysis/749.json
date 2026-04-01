@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "749",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:23",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:55",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/4855c7923b3c6e24d16495a0f53cf44f.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/4855c7923b3c6e24d16495a0f53cf44f.pdf",
     "keywords":  [
@@ -9,53 +9,18 @@
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  14,
-                    "itemCount":  1,
-                    "totalValue":  "R$ 578.250,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:014/2024.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "4/2024",
-                      "processNumber":  "077/2023",
-                      "modality":  "Pregao Presencial n°. 077/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos pelo periodo de 12 (doze) meses, para aquisicao de tubos de concreto armado, para execucao de servicos de manejo de valas, transposicoes de corpos hidricos e drenagem pluvial no Municipio de Iguape/SP. Pregao Presencial n°. 077/2023",
-                      "value":  "R$ 578.250,00",
-                      "term":  "- Validade do presente Registro de Precos (26/01/2024 a 25/01/2025)",
-                      "signatureDate":  "-26/01/2024",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-justica-cidadania",
-                      "primaryOrganizationName":  "Secretaria de Justica e Cidadania",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "justica-cidadania",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-justica-cidadania",
-                                                       "municipal-gestao-planejamento",
-                                                       "municipal-turismo-esporte",
-                                                       "municipal-cultura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Justica e Cidadania",
-                                                         "Secretaria de Gestao e Planejamento",
-                                                         "Secretaria de Turismo e Esporte",
-                                                         "Secretaria de Cultura"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:014/2024.\nOBJETO: Registro de Precos pelo periodo de 12 (doze) meses, para aquisicao de tubos de concreto armado, para execucao de servicos de manejo\nde valas, transposicoes de corpos hidricos e drenagem pluvial no Municipio de Iguape/SP.\nPregao Presencial n°. 077/2023\nData:-26/01/2024\nVIGENCIA:- Validade do presente Registro de Precos (26/01/2024 a 25/01/2025)\nVALOR:- Valor Total da Ata de Registro de Precos - R$ 578.250,00 (quinhentos e setenta e oito mil, duzentos e cinquenta reais).",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  }
+
               ]
 }

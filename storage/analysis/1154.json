@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1154",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:23",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:59",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1023_22034108.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1023_22034108.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "homologacao",
                      "rescisao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  10,
+                    "relevantPageCount":  3,
+                    "blockCount":  5,
                     "itemCount":  4,
                     "totalValue":  "R$ 596.030,60"
                 },
@@ -32,7 +37,7 @@
                       "object":  "EMPRESA JOMMAR COMERCIO E SERVICOS LTDA",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -47,7 +52,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "3\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – Nº 1023 Terca-feira, 22 de Julho de 2025 - www.iguape.sp.gov.br\n\n PORTARIA\n\n- Designa, Ricardo de Oliveira Ragni de Castro Leite, Secretario Municipal de Infraestrutura Urbana e Obras, inscrito no CPF/MF nº. 293.199.448-06, para\n\n exercer a funcao de gestor do Contrato 097/2025, EMPRESA JOMMAR COMERCIO E SERVICOS LTDA.\n\n- Esta portaria entra em vigor na data de sua publicacao, revogadas as disposicoes em contrario.\n\n GABINETE DO PREFEITO, 18 DE JULHO DE 2025\n\n SALVADOR JO",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -68,7 +73,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -99,7 +104,7 @@
                       "contractNumber":  "098/2025",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "FREDERICO MOTA PEDRO DE OLIVEIRA EIRELI",
+                      "contractor":  "FREDERICO MOTA PEDRO DE OLIVEIRA EIRELI CONTRATO Nº 098/2025",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para fornecimento e execucao de infraestrutura eletrica e hidraulica, destinada a realizacao da Festa em Louvor ao Senhor Bom Jesus de Iguape – 2025",
                       "value":  "",

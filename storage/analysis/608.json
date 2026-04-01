@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "608",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:48",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:34",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/ee029a1bfbc1c91d5038f628738b0e59.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/ee029a1bfbc1c91d5038f628738b0e59.pdf",
     "keywords":  [
@@ -9,83 +9,18 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  35,
-                    "itemCount":  2,
-                    "totalValue":  "R$ 1.460.821,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 075/2023.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  1,
-                      "contractNumber":  "075/2023",
-                      "processNumber":  "022/2023",
-                      "modality":  "Pregao Presencial n°. 022/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para eventual execucao de servicos de sinalizacao viaria horizontal e dispositivos auxiliares, com fornecimento e implantacao de materiais de sinalizacao nas vias, com utilizacao de equipamentos e mao-de-obra especializada. Pregao Presencial n°. 022/2023",
-                      "value":  "R$ 1.399.821,00",
-                      "term":  "20/07/2023 a 19/07/2024 - 12 (doze) meses.",
-                      "signatureDate":  "20/07/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 075/2023.\nOBJETO: Registro de Precos para eventual execucao de servicos de sinalizacao viaria horizontal e dispositivos auxiliares, com fornecimento e\nimplantacao de materiais de sinalizacao nas vias, com utilizacao de equipamentos e mao-de-obra especializada.\nPregao Presencial n°. 022/2023\nDATA: 20/07/2023\nVIGENCIA: 20/07/2023 a 19/07/2024 - 12 (doze) meses.\nVALOR: R$ 1.399.821,00 (um milhao, trezentos e noventa e nove mil, oitocentos e vinte e um reais).",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Contrato",
-                      "actTitle":  "Contrato publicado",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  1,
-                      "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "RONIE CARLOS GODOI",
-                      "cnpj":  "",
-                      "object":  "Prestacao de Servicos de empresa especializada para manutencao preventiva e corretiva com calibracao e teste de seguranca eletrica em equipamentos odontologicos das unidade de saude do municipio, atendendo a solicitacao da Secretaria Municipal de Saude, pelo periodo de 12 (doze) meses. PREGAO PRESENCIAL Nº 232023",
-                      "value":  "R$ 61.000,00",
-                      "term":  "Permanecera valido por um periodo de 12 (doze) meses, contados da data indicada na Autorizacao de Inicio dos Servicos",
-                      "signatureDate":  "19/07/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: RONIE CARLOS GODOI\nCONTRATO:N°:146/2023\nOBJETO Prestacao de Servicos de empresa especializada para manutencao preventiva e corretiva com calibracao e teste de seguranca eletrica em\nequipamentos odontologicos das unidade de saude do municipio, atendendo a solicitacao da Secretaria Municipal de Saude, pelo periodo de 12 (doze)\nmeses.\nPREGAO PRESENCIAL Nº 232023\nDATA:19/07/2023\nVALOR: Pagara a contratada o valor de R$ 61.000,00 (sessenta e um mil reais)\nVIGENCIA: P",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem numero do contrato"
-                                ]
-                  }
+
               ]
 }

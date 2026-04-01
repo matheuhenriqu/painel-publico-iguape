@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "1014",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:45",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:40",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_062_31115821.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_extra_062_31115821.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -19,17 +24,17 @@
                       "actTitle":  "EXTRATO DE RESULTADO DA CHAMADA PUBLICA PARA CREDENCIAMENTO Nº 001/2025 – PROCESSO N.º 031/20235– Objeto:",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  8,
+                      "confidenceScore":  6,
                       "confidenceLabel":  "media",
                       "pageNumber":  1,
                       "contractNumber":  "",
                       "processNumber":  "031/2023",
-                      "modality":  "",
-                      "contractor":  "s",
+                      "modality":  "CHAMADA PUBLICA PARA CREDENCIAMENTO Nº 001/2025",
+                      "contractor":  "",
                       "cnpj":  "81.466.286/0001-05",
                       "object":  "",
                       "value":  "",
-                      "term":  "recursal de 03 (tres) dias uteis, que sera recebido e processado nos termos",
+                      "term":  "",
                       "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
@@ -45,10 +50,9 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "EXTRATO DE RESULTADO DA CHAMADA PUBLICA PARA CREDENCIAMENTO Nº 001/2025 – PROCESSO N.º 031/20235– Objeto:\nCREDENCIAMENTO DE INSTITUICAO FINANCEIRA PARA RECEBIMENTO DE ARRECADACAO MUNICIPAL, NO PADRAO FEBRABAN.\nResultado do credenciamento pela Comissao de Selecao, apos Avaliacao das Documentacoes apresentadas pelas credenciadas:\n1- Razao Social: COOPERATIVA DE CREDITO, POUPANCA E INVESTIMENTO CAMPOS GERAIS E GRANDE CURITIBA SICREDI CAMPOS\nGERAIS E GRANDE CURITIBA PR SP–SICREDI, CNPJ 81.466.286/0001-05 – CREDENCIADA\n",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
-                                    "Sem objeto identificado",
-                                    "Sem modalidade identificada"
+                                    "Sem objeto identificado"
                                 ]
                   }
               ]

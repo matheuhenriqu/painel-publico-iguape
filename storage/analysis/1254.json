@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1254",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:07",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:27",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1099-_11080237.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1099-_11080237.pdf",
     "keywords":  [
@@ -9,182 +9,18 @@
                      "contrato",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  3,
-                    "itemCount":  5,
-                    "totalValue":  "R$ 2.651.723,99"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "7º TERMO ADITIVO DE PRAZO AO CONTRATO 008/2024",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "008/2024",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA",
-                      "cnpj":  "",
-                      "object":  "Contratacao de empresa especializada para obra de reforma e ampliacao da Casa da Crianca, localizada na rua k, nº 180, bairro jardim primavera, neste Municipio de Iguape/SP. TOMADA DE PRECO Nº 018/2023",
-                      "value":  "",
-                      "term":  "Vigencia e Execucao: 180 (cento e oitenta) dias – Periodo de 11/11/2025 a 09/05/2026, inclusive.",
-                      "signatureDate":  "10/11/2025",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "7º TERMO ADITIVO DE PRAZO AO CONTRATO 008/2024 EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\n\nCONTRATADA: EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA\n\nCONTRATO N°: 008/2024\n\nOBJETO: Contratacao de empresa especializada para obra de reforma e ampliacao da Casa da Crianca, localizada na rua k, nº 180, bairro jardim\n\nprimavera, neste Municipio de Iguape/SP.\n\nTOMADA DE PRECO Nº 018/2023\n\nData: 10/11/2025\n\nVIGENCIA: Vigencia e Execucao: 180 (cento e oitenta) dias – Periodo de 11/11/2025 a 09/05/2026, inclusive.",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Ato Contratual",
-                      "actTitle":  "8º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMEXOTVREALTONº 225/2017",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  11,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "",
-                      "processNumber":  "276/2017",
-                      "modality":  "",
-                      "contractor":  "ALZIRA APARECIDA DANTAS DEMARTIS",
-                      "cnpj":  "",
-                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao da “Residencia Terapeutica”",
-                      "value":  "R$ 3.033,19",
-                      "term":  "13/11/2025 a 12/11/2026.",
-                      "signatureDate":  "07/11/2025",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\n8º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMEXOTVREALTONº 225/2017\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: ALZIRA APARECIDA DANTAS DEMARTIS\nCPF: 082.398.09871\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao da “Residencia Terapeutica”\nDATA: 07/11/2025\nVALOR: R$ 3.033,19 (tres mil, trinta e tres reais e dezenove centavos) mensais.\nProcesso Administrativo nº 276/2017\nVIGENCIA: 13/11/2025 a 12/11/2026.",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem numero do contrato"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 037/2025.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "037/2025",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Contratacao de empresa especializada na Prestacao de Servicos Veterinarios diversos destinados a caninos e felinos de rua e de familias de baixa renda, incluindo castracoes, microchipagem atraves de mutiroes com castramovel, exames laboratoriais e de diagnostico por imagens (ultrassonografia, radiografia e ecografia), no municipio de iguape, pelo periodo de 12 (doze) meses",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 037/2025.\n\nOBJETO: Contratacao de empresa especializada na Prestacao de Servicos Veterinarios diversos destinados a caninos e felinos de rua e de familias de\n\nbaixa renda, incluindo castracoes, microchipagem atraves de mutiroes com castramovel, exames laboratoriais e de diagnostico por imagens\n\n(ultrassonografia, radiografia e ecografia), no municipio de iguape, pelo periodo de 12 (doze) meses.",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem contratada identificada",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Aviso de Licitacao",
-                      "actTitle":  "Pregao Eletronico n°. 027/2025",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  2,
-                      "contractNumber":  "",
-                      "processNumber":  "027/2025",
-                      "modality":  "Pregao Eletronico n°. 027/2025",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "R$ 2.648.690,80",
-                      "term":  "Validade do presente Registro de Precos –12 (doze) meses periodo de 10/11/2025 a 09/11/2026",
-                      "signatureDate":  "10/11/2025",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
 
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "Pregao Eletronico n°. 027/2025\n\nData: 10/11/2025\n\nVIGENCIA: Validade do presente Registro de Precos –12 (doze) meses periodo de 10/11/2025 a 09/11/2026\n\nVALOR: R$ 2.648.690,80 (dois milhoes, seiscentos e quarenta e oito mil, seiscentos e noventa reais e oitenta centavos)",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem objeto identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Aviso de Licitacao",
-                      "actTitle":  "PREGAO ELETRONICO Nº 018/2025- MENOR PRECO POR ITEM",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  2,
-                      "contractNumber":  "",
-                      "processNumber":  "018/2025",
-                      "modality":  "PREGAO ELETRONICO Nº 018/2025",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "PREGAO ELETRONICO Nº 018/2025- MENOR PRECO POR ITEM\n\nA PREFEITURA MUNICIPAL DE IGUAPE, atraves do Pregoeiro, no uso legais de suas atribuicoes; torna publico para conhecimento dos interessados o\nRESULTADO do julgamento do recurso administrativo, cujo objeto e o Registro de precos para aquisicao de leites e formulas nutricionais, para\natender demanda do Programa de Fornecimento de Leites e Formulas Nutricionais da Secretaria Municipal de Saude de Iguape, pelo periodo de\n12 (doze) meses. Com o seguinte: RESULTADO: In",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem objeto identificado"
-                                ]
-                  }
               ]
 }

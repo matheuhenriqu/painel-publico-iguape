@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "771",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:17",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:43",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/bd638ad6f94c08542dc640f84e64d484.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/bd638ad6f94c08542dc640f84e64d484.pdf",
     "keywords":  [
@@ -11,8 +11,13 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  12,
+                    "relevantPageCount":  6,
+                    "blockCount":  10,
                     "itemCount":  7,
                     "totalValue":  "R$ 291.695,40"
                 },
@@ -33,7 +38,7 @@
                       "object":  "empresa SAMUEL RIBEIRO EPP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -50,7 +55,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 80\n DE 04 DE MARCO DE 2024\n\n C\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0\n SSP/SP, inscrito no CPF/MF nº. 256.609.068/85, para e",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -71,7 +76,7 @@
                       "object":  "empresa FELIPE GIMENEZ – LTDA",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -86,7 +91,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 82\n DE 04 DE MARCO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0\nArt. 2º - SSP/SP, inscrito no CPF/MF nº. 256.609.068/85, para exerc",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -107,7 +112,7 @@
                       "object":  "empresa COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -122,7 +127,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 85\n DE 05 DE MARCO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0\nArt. 2º - SSP/SP, inscrito no CPF/MF nº. 256.609.068/85, para exerc",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -143,7 +148,7 @@
                       "object":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -156,7 +161,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "PORTARIA Nº 86\n DE 05 DE MARCO DE 2024\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Cassio Henrique de Camargo Simoes Faria, Diretor Tecnico de Engenharia e Projetos, titular da Cedula de Identidade RG nº\nArt. 2º - 36.910.860-7 SSP/SP, inscrito no CPF/MF nº. 333.315.118/97,",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -177,7 +182,7 @@
                       "object":  "empresa PIERBRASIL ENGENHARIA E SOLUCOES TECNOLOGICAS LTDA",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -192,7 +197,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 87\n DE 05 DE MARCO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0\nArt. 2º - SSP/SP, inscrito no CPF/MF nº. 256.609.068/85, para exerc",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -202,13 +207,13 @@
                       "actTitle":  "Contrato 027/2024",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  15,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  6,
                       "contractNumber":  "027/2024",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "SAMUEL RIBEIRO EPP C",
+                      "processNumber":  "017/2023",
+                      "modality":  "Tomada de Preco n°. 017/2023",
+                      "contractor":  "SAMUEL RIBEIRO EPP C CONTRATO N°: 027/2024",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para obra de construcao de banheiro publico na praca da basilica, localizada no Centro Historico de Iguape. Tomada de Preco n°. 017/2023",
                       "value":  "R$ 291.695,40",
@@ -240,13 +245,13 @@
                       "actTitle":  "1º TERMO ADITIVO DE PRAZO municipio de Iguape/SP.",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  6,
                       "contractNumber":  "070/2023",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "SUL VALE CONSTRUTORA LTDA",
+                      "processNumber":  "007/2023",
+                      "modality":  "TOMADA DE PRECO Nº 007/2023",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA CONTRATO N°: 070/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa especializada para obra de revitalizacao do Terminal Rodoviario do TOMADA DE PRECO Nº 007/2023",
                       "value":  "",
@@ -268,7 +273,7 @@
                                                          "Secretaria de Educacao"
                                                      ],
                       "excerpt":  "1º TERMO ADITIVO DE PRAZO municipio de Iguape/SP.\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SUL VALE CONSTRUTORA LTDA\nCONTRATO N°: 070/2023\nOBJETO: Contratacao de Empresa especializada para obra de revitalizacao do Terminal Rodoviario do\nTOMADA DE PRECO Nº 007/2023\nDATA: 01/03/2024\nVIGENCIA: 90 (noventa) dias – (Vigencia e Execucao), 06/03/2024 a 03/06/2024",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]

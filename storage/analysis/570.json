@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "570",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:57",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:48",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/0f7c9f367f9f95d93b3c4246cef13ae5.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/0f7c9f367f9f95d93b3c4246cef13ae5.pdf",
     "keywords":  [
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  6,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -27,10 +32,10 @@
                       "modality":  "PREGAO PRESENCIAL nº. 034/2023",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "AQUISICAO DE EQUIPAMENTOS 3 KITS “ACADEMIA AO AR LIVRE”, CONFORME CONVENIOS Nº 319/2021 (LOTE 1) E CONVENIO 199/2022 (LOTE 2), CELEBRADOS ENTRE O ESTADO DE SAO PAULO, POR INTERMEDIO DA SECRETARIA DE ESPORTES E O MUNICIPIO DE IGUAPE/SP, RECURSOS PROPRIOS (LOTE 3). LEGISLACAO: Lei Federal nº 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014 e suas atualizacoes",
+                      "object":  "AQUISICAO DE EQUIPAMENTOS 3 KITS “ACADEMIA AO AR LIVRE”, CONFORME CONVENIOS Nº 319/2021 (LOTE 1) E CONVENIO 199/2022 (LOTE 2), CELEBRADOS ENTRE O ESTADO DE SAO PAULO, POR INTERMEDIO DA SECRETARIA DE ESPORTES E O MUNICIPIO DE IGUAPE/SP, RECURSOS PROPRIOS (LOTE 3)",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE CUMPRE OS",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -63,10 +68,10 @@
                       "modality":  "PREGAO PRESENCIAL nº. 035/2023",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICAO DE TUBOS DE CONCRETO ARMADO, PARA EXECUCAO DE SERVICOS DE MANEJO DE VALAS, TRANSPOSICOES DE CORPOS HIDRICOS E DRENAGEM PLUVIAL NO MUNICIPIO DE IGUAPE/SP. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013, Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICAO DE TUBOS DE CONCRETO ARMADO, PARA EXECUCAO DE SERVICOS DE MANEJO DE VALAS, TRANSPOSICOES DE CORPOS HIDRICOS E DRENAGEM PLUVIAL NO MUNICIPIO DE IGUAPE/SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE CUMPRE OS",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",

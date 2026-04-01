@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "1062",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:37",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:27",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_951-_27072905.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_951-_27072905.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -19,13 +24,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  3,
                       "contractNumber":  "",
                       "processNumber":  "111/2025",
                       "modality":  "PR-E - PREGAO ELETRONICO - 1/2025 - EDITAL Nº: 2/2025",
-                      "contractor":  "I B FERREIRA SERVICOS LTDA",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa para prestacao de servico de controle de acesso, apoio e fiscalizacao, com coordenador e acompanhamento por monitoramento de cameras 24 (vinte e quatro) horas nas dependencias Prefeitura Municipal de Iguape, Passarela \"Vereador Gasparino Costa\", Hospital de Iguape (Pronto Socorro), Casa da Crianca, e CAPS (Porto do Ribeira) no municipio de Iguape/SP",
                       "value":  "",

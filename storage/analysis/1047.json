@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1047",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:39",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:32",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_940_12082757.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_940_12082757.pdf",
     "keywords":  [
@@ -9,84 +9,18 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  3,
-                    "itemCount":  2,
-                    "totalValue":  "R$ 6,26"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO-FINANCEIRO – ATA DE REGISTRO DE PRECOS Nº 074/2024",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  1,
-                      "contractNumber":  "074/2024",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "AUTO POSTO PORTO IGUAPE",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO-FINANCEIRO – ATA DE REGISTRO DE PRECOS Nº 074/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: AUTO POSTO PORTO IGUAPE",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem objeto identificado",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 074/2024.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  11,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  1,
-                      "contractNumber":  "074/2024",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos, objetivando futuras aquisicoes parceladas de combustiveis (gasolina comum, etanol, oleo diesel s-500 e s-10) para atender a frota do municipio de Iguape/SP, pelo periodo de 12 (doze) meses. Itens: 01- Gasolina Comum – Litros-Bandeira Branca - valor licitado-R$ 6,2600 – valor c reequilibrio -R$ 6.49, 02- Diesel S-10-Litros-Bandeira Branca",
-                      "value":  "R$ 6,2600",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 074/2024.\nOBJETO: Registro de Precos, objetivando futuras aquisicoes parceladas de combustiveis (gasolina comum, etanol, oleo diesel s-500 e s-10) para\natender a frota do municipio de Iguape/SP, pelo periodo de 12 (doze) meses.\nItens: 01- Gasolina Comum – Litros-Bandeira Branca - valor licitado-R$ 6,2600 – valor c reequilibrio -R$ 6.49, 02- Diesel S-10-Litros-Bandeira Branca-\nvalor licitado-R$ 6,5300 - valor c reequilibrio-R$ 6.88, 03- Diesel S-500-Litros-Bandeira Branca- valor licitad",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  }
+
               ]
 }

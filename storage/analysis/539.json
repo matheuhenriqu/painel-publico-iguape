@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "539",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:04",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:57",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/d9691754bd26b21edd33f010b8be7220.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/d9691754bd26b21edd33f010b8be7220.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  8,
+                    "relevantPageCount":  5,
+                    "blockCount":  16,
                     "itemCount":  14,
                     "totalValue":  "R$ 6.606.842,12"
                 },
@@ -31,7 +36,7 @@
                       "object":  "Empresa CIACAN ENGENHARIA LTDA",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -46,7 +51,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 99\n DE 20 DE ABRIL DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0 SSP/SP,\nArt. 2º - inscrito no CPF/MF nº 256.609.068-85, para exerce",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -67,7 +72,7 @@
                       "object":  "empresa SAMUEL RIBEIRO- EPP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -82,7 +87,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 101\n DE 20 DE ABRIL DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0\nArt. 2º - SSP/SP, inscrito no CPF/MF nº 256.609.068-85, para exerc",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -103,7 +108,7 @@
                       "object":  "empresa SAMUEL . RIBEIRO-EPP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -118,7 +123,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 102\n DE 20 DE ABRIL DE 2023\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Cassio Henrique de Camargo Simoes Faria, Diretor Tecnico de Engenharia e Projetos, titular da Cedula de Identidade RG nº\n 36.910.860-7 SSP/SP, inscrito no CPF/MF nº 333.315.118-97, para exe",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -139,7 +144,7 @@
                       "object":  "empresa COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -154,7 +159,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "4\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 03 – Nº 511 Terca-feira, 25 de Abril de 2023\n de Janeiro de 242022 2\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0\nArt. 2º - SSP/SP, inscrito no CPF/MF nº 256.609.068-8",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -175,7 +180,7 @@
                       "object":  "empresa COPA . S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -190,7 +195,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 104\n DE 20 DE ABRIL DE 2023\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Cassio Henrique de Camargo Simoes Faria, Diretor Tecnico de Engenharia e Projetos, titular da Cedula de Identidade RG nº\n 36.910.860-7 SSP/SP, inscrito no CPF/MF nº 333.315.118-97, para exe",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -247,7 +252,7 @@
                       "object":  "empresa COPA S.A. . COMPANHIA DE OBRAS PARIQUERA-ACU",
                       "value":  "R$ 23.758,00",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -276,7 +281,7 @@
                       "contractNumber":  "059/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "SAMUEL RIBEIRO-EPP EIRELI",
+                      "contractor":  "SAMUEL RIBEIRO-EPP EIRELI CONTRATO N°: 059/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para manutencao do Estadio Rubens de Oliveira, neste Municipio de Iguape/SP CARTA CONVITE Nº 003/2023",
                       "value":  "R$ 52.214,59",
@@ -310,7 +315,7 @@
                       "contractNumber":  "060/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "CIACAN ENGENHARIA LTDA",
+                      "contractor":  "CIACAN ENGENHARIA LTDA CONTRATO N°: 060/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para obra e manutencao da Escola Municipal Profª Zely Alves Fortes, localizada na Avenida Vereador Manoel Goncalvs Pires, nº 205 – Rocio – Iguape/SP",
                       "value":  "R$ 1.357.146,31",
@@ -344,7 +349,7 @@
                       "contractNumber":  "061/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU CONTRATO N°: 061/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para obra de recapeamento e calcadas acessiveis na avenida Adhemar de Barros, neste municipio de Iguape/SP",
                       "value":  "",
@@ -412,7 +417,7 @@
                       "contractNumber":  "062/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU CONTRATO N°: 062/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para obra de revitalizacao da orla do Mar Pequeno Fase-III – Convenio nº 000184/2022, que entre si celebram o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens, e o Municipio de Iguape, objetivando a transferencia de recursos financeiros do fundo de melhorias dos Municipios Turisticos",
                       "value":  "",

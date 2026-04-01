@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "422",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:25",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:24",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/c5f0f9077f50d4ab7c2a5a19582be30c.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/c5f0f9077f50d4ab7c2a5a19582be30c.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -20,13 +25,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "",
                       "processNumber":  "573/2022",
                       "modality":  "PR-G - PREGAO PRESENCIAL - 56/2022 - EDITAL Nº: 81/2022",
-                      "contractor":  "DIMASTER COM. PROD. HOSPITALARES LTDA",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE MEDICAMENTOS, PARA ATENDER A SECRETARIA MUNICIPAL DE SAUDE DA PREFEITURA DE IGUAPE PELO PERIODO DE 12 (DOZE) MESES",
                       "value":  "",

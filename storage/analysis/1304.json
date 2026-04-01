@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "1304",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:57",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:53",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1131_10083612.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1131_10083612.pdf",
     "keywords":  [
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  11,
+                    "relevantPageCount":  5,
+                    "blockCount":  8,
                     "itemCount":  6,
                     "totalValue":  "R$ 0,00"
                 },
@@ -30,7 +35,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, retroagindo seus efeitos a 1º de janeiro de 2026, revogadas as disposicoes em",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-educacao",
                       "primaryOrganizationName":  "Secretaria de Educacao",
@@ -68,7 +73,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, retroagindo seus efeitos a 1º de janeiro de 2026, revogadas as disposicoes em",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -106,7 +111,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, retroagindo seus efeitos a 1º de janeiro de 2026, revogadas as disposicoes em",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
                       "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
@@ -178,7 +183,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, retroagindo seus efeitos a 1º de janeiro de 2026, revogadas as disposicoes em",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -205,14 +210,14 @@
                       "confidenceLabel":  "media",
                       "pageNumber":  11,
                       "contractNumber":  "",
-                      "processNumber":  "013/2025",
+                      "processNumber":  "929/2025",
                       "modality":  "CHAMADA PUBLICA Nº 013/2025",
                       "contractor":  "",
                       "cnpj":  "24.006.302/0004-88",
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "s do Agente de Contratacao e membros da Equipe de Apoio:",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -227,7 +232,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "EXTRATO\n\n ATA DE SEEXTSRSAATOO PUBLICA\nLicitacao: CHAMADA PUBLICA Nº 013/2025\nForma de Julgamento: tecnica e preco\nProcesso: 929/2025\nObjeto: Selecao de Entidade Privada, sem fins lucrativos, previamente qualificadas como Organizacao Social de Saude no ambito do\nmunicipio de Iguape/SP, para celebracao de Contrato de Gestao, visando o gerenciamento, operacionalizacao e execucao das acoes e\nservicos de saude no Pronto Atendimento, na Unidade Mista, na Unidade Basica de Saude, nas Unidades de Estrategia Saude da Fa mi",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
                                     "Sem objeto identificado"
                                 ]

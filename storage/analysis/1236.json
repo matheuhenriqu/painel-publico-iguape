@@ -1,128 +1,25 @@
 ﻿{
     "diaryId":  "1236",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:09",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:32",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1084_18072858.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1084_18072858.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  2,
-                    "itemCount":  3,
-                    "totalValue":  "R$ 834.604,84"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO - FINANCEIRO",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  7,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  1,
-                      "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "STANGHERLIN \u0026 BATIROLA LTDA",
-                      "cnpj":  "05231879000104",
-                      "object":  "",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO - FINANCEIRO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: STANGHERLIN \u0026 BATIROLA LTDA\nCNPJ: 05231879000104",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem numero do contrato",
-                                    "Sem objeto identificado",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:004/2025",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  11,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  1,
-                      "contractNumber":  "4/2025",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicoes futuras de gas de cozinha glp, p13 e p45, para atender diversas Secretarias da Prefeitura Municipal de",
-                      "value":  "R$ 116,00",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-gestao-planejamento",
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Secretaria de Gestao e Planejamento",
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:004/2025\nOBJETO: Registro de Precos para aquisicoes futuras de gas de cozinha glp, p13 e p45, para atender diversas Secretarias da Prefeitura Municipal de\nIguape, pelo periodo de 12 meses.\nItem 1-Cargas de Gas de Cozinha (GLP) –Botijoes 13 Kg- valor unitario, licitado R$ 116,00-valor unitario com reequilibrio R$ 130,00 e Item 2- Cargas de\nGas de Cozinha (GLP) – Botijoes 45 Kg- valor unitario, licitado R$ 436,00 -valor unitario com reequilibrio R$ 455,00",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "CONTRATANTE: MUNICIPIO DE IGUAPE/SP",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  16,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  1,
-                      "contractNumber":  "166/2025",
-                      "processNumber":  "011/2024",
-                      "modality":  "Pregao Eletronico nº 011/2024",
-                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
-                      "cnpj":  "",
-                      "object":  "A adesao a Ata de Registro de Precos nº 011/2024, originaria do Pregao Eletronico nº 011/2024 da Prefeitura Municipal de Pedro de Toledo, para contratacao de empresa especializada em servicos de pavimentacao tipo “tapa-buracos” e reparos emergenciais em vias e logradouros do Municipio de Iguape, com fornecimento de materiais, equipamentos, maquinas, combustivel e mao de obra necessaria a execucao dos servico",
-                      "value":  "R$ 834.488,84",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU\nCNPJ: 33.XXX.XXX/0001-56\nPROCESSO ADMINISTRATIVO: nº 1065/2024\nADESAO A ATA DE REGISTRO DE PRECOS Nº 011/2024-PM DE PEDRO DE TOLEDO\nCONTRATO Nº 166/2025-PM DE IGUAPE\nOBJETO: A adesao a Ata de Registro de Precos nº 011/2024, originaria do Pregao Eletronico nº 011/2024 da Prefeitura Municipal de Pedro de Toledo,\npara contratacao de empresa especializada em servicos de pavimentacao tipo “tapa-buracos” e reparos emergenc",
-                      "completeness":  "alta",
-                      "flags":  [
 
-                                ]
-                  }
               ]
 }

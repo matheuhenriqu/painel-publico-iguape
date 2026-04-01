@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "728",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:28",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:03",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/61297d1129e4203925133dd10ff28fbc.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/61297d1129e4203925133dd10ff28fbc.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  12,
+                    "relevantPageCount":  4,
+                    "blockCount":  13,
                     "itemCount":  7,
                     "totalValue":  "R$ 0,00"
                 },
@@ -31,7 +36,7 @@
                       "object":  "Empresa SOM DA ILHA COMERCIO E PRODUCOES LTDA - ME",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-turismo-esporte",
                       "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
@@ -48,7 +53,7 @@
                                                          "Secretaria de Cultura"
                                                      ],
                       "excerpt":  "PORTARIA Nº 09\n DE 03 DE JANEIRO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Marconi Antonio Coutinho Junior, Secretario Adjunto de Cultura, Esporte e Turismo, titular da Cedula de Identidade RG nº\n 18.503.648-X SSP/SP, inscrito no CPF/MF nº. 123.008.238-70, para e",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -69,7 +74,7 @@
                       "object":  "Empresa CAMMINARE MAQUINAS E EMPREENDIMENTOS LTDA",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -84,7 +89,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "PORTARIA Nº 11\n DE 03 DE JANEIRO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\n\n Designa, Samuel Roberto Dias Martins, Diretor Tecnico de Cadastro Unico, titular da Cedula de Identidade RG nº 42.393.209-3 SSP/SP,\n inscrito no CPF/MF nº. 370.366.328-60, para exercer a funcao de ",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -105,7 +110,7 @@
                       "object":  "empresa RONIE CARLO GODOI",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario, tornando sem efeito a Portaria Nº",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -118,7 +123,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "PORTARIA Nº 15\n DE 04 JANEIRO DE 2024\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Lidiane Aparecida Vieira Pedro, Coordenadora do ESF, titular da Cedula de Identidade RG nº 13.105.720-x SSP/SP, inscrita\n no CPF/MF nº 070.337.496/60, para exercer a funcao de Fiscal do Contr",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -134,7 +139,7 @@
                       "contractNumber":  "080/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "MYR COMERCIO DE ARTIGOS PEDAGOGICOS LTDA",
+                      "contractor":  "MYR COMERCIO DE ARTIGOS PEDAGOGICOS LTDA CONTRATO N°: 080/2023",
                       "cnpj":  "",
                       "object":  "Aquisicao de Materiais Esportivos para atender o Convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de Esportes e a Prefeitura Municipal de Iguape/SP",
                       "value":  "",
@@ -168,7 +173,7 @@
                       "contractNumber":  "083/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "MAIS ESPORTE COMERCIO DE ARTIGOS ESPORTIVOS LTDA",
+                      "contractor":  "MAIS ESPORTE COMERCIO DE ARTIGOS ESPORTIVOS LTDA CONTRATO N°: 083/2023",
                       "cnpj":  "",
                       "object":  "Aquisicao de Materiais Esportivos para atender o Convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de Esportes e a Prefeitura Municipal de Iguape/SP",
                       "value":  "",
@@ -202,7 +207,7 @@
                       "contractNumber":  "084/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "RMM SPORTS COMERCIO DE PRODUTOS ESPORTIVOS EIRELI",
+                      "contractor":  "RMM SPORTS COMERCIO DE PRODUTOS ESPORTIVOS EIRELI CONTRATO N°: 084/2023",
                       "cnpj":  "",
                       "object":  "Aquisicao de Materiais Esportivos para atender o Convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de Esportes e a Prefeitura Municipal de Iguape/SP",
                       "value":  "",

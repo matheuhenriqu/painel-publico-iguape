@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "826",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:08",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:26",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_762-assinado_28073133.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_762-assinado_28073133.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  13,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 80.494,52"
                 },
@@ -27,7 +32,7 @@
                       "contractNumber":  "009/2024",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "ANDRE AUGUSTO DALLAMARIA MEDEIROS - ME",
+                      "contractor":  "ANDRE AUGUSTO DALLAMARIA MEDEIROS - ME CONTRATO N°: 009/2024",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para Manutencao e Reparos da Quadra Poliesportiva ‘’Francisco de Andrade’, neste Municipio de Iguape/SP CARTA CONVITE – Nº 013/2023",
                       "value":  "R$ 80.494,52",

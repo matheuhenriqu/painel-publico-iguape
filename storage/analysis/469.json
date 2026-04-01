@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "469",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:16",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:13",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/d8e041070df652571b61f62ecfd01e3b.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/d8e041070df652571b61f62ecfd01e3b.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  17,
+                    "relevantPageCount":  2,
+                    "blockCount":  2,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -19,18 +24,18 @@
                       "actTitle":  "PORTARIA Nº 18",
                       "recordClass":  "gestao_contratual",
                       "recordClassLabel":  "Gestao do contrato",
-                      "confidenceScore":  8,
-                      "confidenceLabel":  "media",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
                       "pageNumber":  8,
                       "contractNumber":  "199/2022",
-                      "processNumber":  "",
+                      "processNumber":  "01/2022",
                       "modality":  "",
                       "contractor":  "",
                       "cnpj":  "",
                       "object":  "Empresa COFIPE VEICULOS LTDA",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, tornando sem efeito legal a Portaria nº 247 de 19 de Novembro de",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",

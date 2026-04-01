@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1287",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:00",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:59",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1122_18071858.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1122_18071858.pdf",
     "keywords":  [
@@ -9,10 +9,15 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  10,
-                    "itemCount":  5,
-                    "totalValue":  "R$ 80.522,00"
+                    "relevantPageCount":  1,
+                    "blockCount":  6,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 65.000,00"
                 },
     "items":  [
                   {
@@ -60,7 +65,7 @@
                       "confidenceLabel":  "media",
                       "pageNumber":  9,
                       "contractNumber":  "",
-                      "processNumber":  "9/2025",
+                      "processNumber":  "029/2025",
                       "modality":  "Pregao Eletronico n°.029/2025",
                       "contractor":  "",
                       "cnpj":  "",
@@ -119,40 +124,6 @@
                       "completeness":  "media",
                       "flags":  [
                                     "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Aviso de Licitacao",
-                      "actTitle":  "Pregao Eletronico-n°.-029/2025",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  9,
-                      "contractNumber":  "",
-                      "processNumber":  "029/2025",
-                      "modality":  "Pregao Eletronico-n°.-029/2025",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "R$ 15.522,00",
-                      "term":  "Validade do presente Contrato –60 (sessenta) dias periodo de 10/12/2025 a 07/12/2026",
-                      "signatureDate":  "10/12/2025",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
-
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "Pregao Eletronico-n°.-029/2025\n\nData:10/12/2025\n\nVIGENCIA: Validade do presente Contrato –60 (sessenta) dias periodo de 10/12/2025 a 07/12/2026\n\nVALOR: R$ 15.522,00 (quinze mil, quinhentos e vinte e dois reais)",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem objeto identificado"
                                 ]
                   },
                   {

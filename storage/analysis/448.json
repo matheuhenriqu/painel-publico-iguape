@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "448",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:20",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:18",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/409a9d30be88c30d7ce72911e84c8141.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/409a9d30be88c30d7ce72911e84c8141.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  3,
                     "totalValue":  "R$ 30.492,19"
                 },
@@ -19,18 +24,18 @@
                       "actTitle":  "1º TERMO ADITIVO AO CONTRATO N.º 044/2022",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  1,
                       "contractNumber":  "044/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "processNumber":  "003/2022",
+                      "modality":  "TOMADA DE PRECOS Nº 003/2022",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI CONTRATO N°: 044/2022",
                       "cnpj":  "",
                       "object":  "contratacao de empresa especializada para execucao de obra de construcao Campo de Futebol na Barra do Ribeira, conforme convenio nº 00089/2021,celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o municipio de Iguape/SP TOMADA DE PRECOS Nº 003/2022 DATA:08/12/2022",
                       "value":  "",
                       "term":  "Prazo de vigencia e o prazo da execucao do servico – 06 (seis) meses – periodo de 16/12/2022 a 16/06/2023",
-                      "signatureDate":  "08/12/2022",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -47,7 +52,7 @@
                                                          "Secretaria de Turismo e Viagens"
                                                      ],
                       "excerpt":  "1º TERMO ADITIVO AO CONTRATO N.º 044/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CIACAN ENGENHARIA EIRELI\nCONTRATO N°: 044/2022\nOBJETO: contratacao de empresa especializada para execucao de obra de construcao Campo de Futebol na Barra do Ribeira, conforme\nconvenio nº 00089/2021,celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o municipio de Iguape/SP\nTOMADA DE PRECOS Nº 003/2022 DATA:08/12/2022\nVIGENCIA: Prazo de vigencia e o prazo da execucao do servico – 06 (seis) meses – period",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]
@@ -57,13 +62,13 @@
                       "actTitle":  "1º TERMO ADITIVO AO CONTRATO N.º 045/2022",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  1,
                       "contractNumber":  "045/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "processNumber":  "004/2022",
+                      "modality":  "TOMADA DE PRECOS Nº004/2022",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI CONTRATO N°: 045/2022",
                       "cnpj":  "",
                       "object":  "contratacao de empresa especializada para execucao de obra de pavimentacao articulada de via de acesso que interliga o Centro Multiuso a Praia da Jureia, conforme convenio nº 000133/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o municipio de Iguape/SP TOMADA DE PRECOS Nº004/2022",
                       "value":  "",
@@ -85,7 +90,7 @@
                                                          "Secretaria de Turismo e Viagens"
                                                      ],
                       "excerpt":  "1º TERMO ADITIVO AO CONTRATO N.º 045/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CIACAN ENGENHARIA EIRELI\nCONTRATO N°: 045/2022\nOBJETO: contratacao de empresa especializada para execucao de obra de pavimentacao articulada de via de acesso que interliga o\nCentro Multiuso a Praia da Jureia, conforme convenio nº 000133/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de\nTurismo e Viagens e o municipio de Iguape/SP\nTOMADA DE PRECOS Nº004/2022\nDATA:08/12/2022\nVIGENCIA: Prazo de vigencia e o prazo da ex",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]
@@ -95,13 +100,13 @@
                       "actTitle":  "5º TERMO ADITIVO DE ACRESCIMO AO CONTRATO Nº 013/2021",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  15,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  1,
                       "contractNumber":  "013/2021",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA",
+                      "processNumber":  "002/2021",
+                      "modality":  "Tomada de Precos n°. 002/2021",
+                      "contractor":  "EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA CONTRATO N°: 013/2021",
                       "cnpj":  "52752653797445",
                       "object":  "Contratacao de empresa especializada para ampliacao da Unidade E.S.F.III-Barra do Ribeira neste municipio de Iguape/SP – PROGRAMA REQUALIFICA UBS - Proposta nº 13901.6840001/19-001, com Recurso do Ministerio da Saude. Tomada de Precos n°. 002/2021",
                       "value":  "R$ 30.492,19",
@@ -123,7 +128,7 @@
                                                          "Ministerio da Saude"
                                                      ],
                       "excerpt":  "5º TERMO ADITIVO DE ACRESCIMO AO CONTRATO Nº 013/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA\nCONTRATO N°: 013/2021\nOBJETO: Contratacao de empresa especializada para ampliacao da Unidade E.S.F.III-Barra do Ribeira neste municipio de Iguape/SP\n– PROGRAMA REQUALIFICA UBS - Proposta nº 13901.6840001/19-001, com Recurso do Ministerio da Saude.\nTomada de Precos n°. 002/2021\nData: 08/12/2022\nVALOR: R$ 30.492,19 (trinta mil, quatrocentos e noventa e dois reais e dezenov",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
 
                                 ]

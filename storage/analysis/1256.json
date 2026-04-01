@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1256",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:07",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:27",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1100_12091759.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1100_12091759.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  22,
+                    "relevantPageCount":  3,
+                    "blockCount":  6,
                     "itemCount":  4,
                     "totalValue":  "R$ 0,00"
                 },
@@ -31,7 +36,7 @@
                       "object":  "empresa EPCCO – Engenharia de Projetos, Consultoria e Construcoes LTDA, inscrita no CNPJ nº 61.106.159/0001-80, estabelecida em Rua Presidente Getulio Vargas, 115, Centro - Registro/SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -48,7 +53,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 288,\n DE 11 DE NOVEMBRO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Ricardo Oliveira Ragni de Castro Leite, Secretario Municipal de Infraestrutura Urbana e Obras, inscrito no CPF/MF nº.\n 293.XXX.XXX- 06, para exercer a funcao de gestor do contr",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -69,7 +74,7 @@
                       "object":  "contratacao do time master do Corinthians para inauguracao do campo de futebol na Barra do Ribeira, dia 20 de novembro",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -82,7 +87,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "PORTARIA Nº 290,\n DE 11 DE NOVEMBRO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Julio Cesar Alves Martins, Secretario Municipal Adjunto de Esportes, inscrito no CPF/MF nº. XXX.608.498-XX, para exercer a\nArt. 2º - funcao de gestor do contrato 173/2025, cont",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -126,18 +131,18 @@
                       "actTitle":  "Chamada Publica/ Credenciamento nº11/2025.Objeto: OBJETO Contratacao de pessoas fisicas e juridicas para prestacao de servicos medicos",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  8,
+                      "confidenceScore":  6,
                       "confidenceLabel":  "media",
                       "pageNumber":  5,
                       "contractNumber":  "",
                       "processNumber":  "11/2025",
-                      "modality":  "Chamada Publica/ Credenciamento nº11/2025.Objeto: OBJETO Contratacao de pessoas fisicas e juridicas para prestacao de servicos medicos",
-                      "contractor":  "S/HABILITADAS e INABILITADAS as seguintes PARTICIPANTES",
+                      "modality":  "Chamada Publica/ Credenciamento nº11/2025",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "/ horario Nome PJ/ PF CREDENCIADA",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  null,
                       "primaryOrganizationName":  null,
@@ -150,7 +155,7 @@
 
                                                      ],
                       "excerpt":  "Chamada Publica/ Credenciamento nº11/2025.Objeto: OBJETO Contratacao de pessoas fisicas e juridicas para prestacao de servicos medicos\nplantonistas, Medicos para Saude da Familia, medicos especialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA,\nPSICOLOGO, TERAPEUTA OCUPACIONAL, ,FONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de\nsaude de Iguape, bem como todos os locais de atendimento que a compoe. Pelo periodo de 12 meses. Apos a analise dos documento s apresen",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
                                     "Sem objeto identificado"
                                 ]

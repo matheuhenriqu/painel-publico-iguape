@@ -1,87 +1,25 @@
 ﻿{
     "diaryId":  "370",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:31",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:34",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/4dfed41535aa9bbc76e2852a8ea15546.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/4dfed41535aa9bbc76e2852a8ea15546.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  2,
-                    "itemCount":  2,
-                    "totalValue":  "R$ 67.912,82"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "7º TERMO ADITIVO AO CONTRATO Nº 102/2021",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  16,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "102/2021",
-                      "processNumber":  "041/2021",
-                      "modality":  "PREGAO PRESENCIAL N,º 041/2021",
-                      "contractor":  "SEGUROS SURA S/A",
-                      "cnpj":  "",
-                      "object":  "Constitui objeto do presente termo o ACRESCIMO de 0,6986553907425 % ao valor do contrato inicial, firmado entre as partes, referente a inclusao de 01 (um) veiculo MERCEDES BENS – Modelo – ACCELO 815 2.p - Diesel – (E5) - Ano 2021 Placa/Chassi – FYP3C85/9BM979028MB215784, nos termos previstos no § 1º, do artigo 65 da Lei Federal nº 8.666/93. PREGAO PRESENCIAL N,º 041/2021",
-                      "value":  "R$ 712,82",
-                      "term":  "",
-                      "signatureDate":  "10/08/2022",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "7º TERMO ADITIVO AO CONTRATO Nº 102/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SEGUROS SURA S/A\nCONTRATO N°: 102/2021\nOBJETO: Constitui objeto do presente termo o ACRESCIMO de 0,6986553907425 % ao valor do contrato inicial, firmado entre as\npartes, referente a inclusao de 01 (um) veiculo MERCEDES BENS – Modelo – ACCELO 815 2.p - Diesel – (E5) - Ano 2021\nPlaca/Chassi – FYP3C85/9BM979028MB215784, nos termos previstos no § 1º, do artigo 65 da Lei Federal nº 8.666/93.\nPREGAO PRESENCIAL N,º 041/2021\nDATA: 10/08/2",
-                      "completeness":  "alta",
-                      "flags":  [
 
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "1º TERMO ADITIVO AO CONTRATO Nº 013/2021",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  11,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "013/2021",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "R$ 67.200,00",
-                      "term":  "23/07/2022 a 22/07/2023",
-                      "signatureDate":  "23/07/2022",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-camara",
-                      "primaryOrganizationName":  "Camara Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-camara"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Camara Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "1º TERMO ADITIVO AO CONTRATO Nº 013/2021\nCARTA CONVITE Nº 005/2021\nOBJETO: O presente instrumento tem por objeto a prorrogacao e modificacao do objeto para Prestacao de servicos para manutencao do\nWebsite e sistema do site da Camara Municipal de Iguape, com a atualizacao das materias apresentadas pelos vereadores, projetos\naprovados, e demais informacoes para o conhecimento publico, fornecidas pela camara; servicos de assistencia tecnica nos\ncomputadores, equipamentos, redes de informatica (impressoras, notebook, c",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem contratada identificada",
-                                    "Sem objeto identificado"
-                                ]
-                  }
               ]
 }

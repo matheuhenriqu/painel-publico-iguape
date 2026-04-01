@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1086",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:32",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:20",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_974_06071104.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_974_06071104.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -27,7 +32,7 @@
                       "contractNumber":  "063/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "ETHICA CURSOS LIVRES PROFISSIONAL \u0026 GERENCIAMENTO LTDA",
+                      "contractor":  "ETHICA CURSOS LIVRES PROFISSIONAL \u0026 GERENCIAMENTO LTDA CONTRATO N°: 063/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa(s) especializada(s) para oferta de profissionais qualificados para ministrar oficinas para idosos, adolescentes e familias usuarios dos servicos do Cras-centro de referencia de assistencia social, bem como para cadastradores para o cadunico e para execucao do servico de abordagem social da protecao social especial de media complexidade em cumprimento aos servicos da assistencia social, no municipio de",
                       "value":  "",

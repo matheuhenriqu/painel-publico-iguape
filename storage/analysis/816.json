@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "816",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:09",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:28",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_754_15074206.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_754_15074206.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 246.470,93"
                 },
@@ -19,13 +24,13 @@
                       "actTitle":  "1º TERMO ADITIVO DE ACRESCIMO E SUPRESSAO AO CONTRATO Nº 156/2023",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  15,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  1,
                       "contractNumber":  "156/2023",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "CIACAN ENGENHARIA EIRELI C",
+                      "processNumber":  "010/2023",
+                      "modality":  "TOMADA DE PRECO Nº 010/2023",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E MANUTENCAO DA ESCOLA MUNICIPAL BENEDITO ROSA CARNEIRO FASE II, NESTE MUNICIPIO DE IGUAPE/SP TOMADA DE PRECO Nº 010/2023",
                       "value":  "R$ 246.470,93",
@@ -45,9 +50,9 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "1º TERMO ADITIVO DE ACRESCIMO E SUPRESSAO AO CONTRATO Nº 156/2023\n\nCONTRATANTE: MUNICIPIO DE IGUAPE CONTRATADA: CIACAN ENGENHARIA EIRELI C\n\nCONTRATO N°: 156/2023\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E MANUTENCAO DA ESCOLA MUNICIPAL BENEDITO\nROSA CARNEIRO FASE II, NESTE MUNICIPIO DE IGUAPE/SP\nTOMADA DE PRECO Nº 010/2023\nDATA:13/05/2024\nVALOR: Pagara a contratada o valor de R$ 246.470,93 (duzentos e quarenta e seis mil, quatrocentos e setenta reais e noventa e tres centavos), sendo\no valo",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
-
+                                    "Sem contratada identificada"
                                 ]
                   },
                   {
@@ -61,7 +66,7 @@
                       "contractNumber":  "035/2022",
                       "processNumber":  "019/2022",
                       "modality":  "PREGAO PRESENCIAL Nº 019/2022",
-                      "contractor":  "FRANKLIN CANGUSSU SAMPAIO EIRELI",
+                      "contractor":  "FRANKLIN CANGUSSU SAMPAIO EIRELI CONTRATO N°: 035/2022",
                       "cnpj":  "",
                       "object":  "",
                       "value":  "",

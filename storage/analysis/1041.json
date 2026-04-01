@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1041",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:40",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:33",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_935_01073141.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_935_01073141.pdf",
     "keywords":  [
@@ -9,122 +9,18 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  12,
-                    "itemCount":  3,
-                    "totalValue":  "R$ 187.321,23"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Gestao Contratual",
-                      "actTitle":  "PORTARIA Nº 73,",
-                      "recordClass":  "gestao_contratual",
-                      "recordClassLabel":  "Gestao do contrato",
-                      "confidenceScore":  8,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  7,
-                      "contractNumber":  "044/2025",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "empresa Gloria Marques de Aguiar Nobrega – ME",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-assistencia-social",
-                      "primaryOrganizationName":  "Secretaria de Assistencia e Desenvolvimento Social",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "assistencia-social",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-assistencia-social",
-                                                       "municipal-infraestrutura-obras",
-                                                       "federal-agu",
-                                                       "estadual-governo"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Assistencia e Desenvolvimento Social",
-                                                         "Secretaria de Infraestrutura Urbana e Obras",
-                                                         "Advocacia-Geral da Uniao",
-                                                         "Secretaria de Governo e Relacoes Institucionais"
-                                                     ],
-                      "excerpt":  "PORTARIA Nº 73,\n DE 27 DE FEVEREIRO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Virginia Lucia Oliva Cardoso Morais, Secretaria Municipal de Assistencia e Desenvolvimento Social, inscrita no CPF/MF nº\nArt. 2º - 884.170.268-00, para exercer a funcao de gesto",
-                      "completeness":  "media",
-                      "flags":  [
 
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "3º TERMO ADITIVO DE PRORROGACAO AO CONTRATO-002/2024",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  16,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  11,
-                      "contractNumber":  "002/2024",
-                      "processNumber":  "065/2023",
-                      "modality":  "Pregao Presencial n°. 065/2023",
-                      "contractor":  "GENTE SEGURADORA S.A",
-                      "cnpj":  "",
-                      "object":  "Contratacao de Empresa especializada para a Pestacao de servicos de Seguro dos diversos veiculos que compoem a frota da Prefeitura Municipal de Iguape. Pregao Presencial n°. 065/2023",
-                      "value":  "R$ 187.321,23",
-                      "term":  "12 meses – Periodo de 22/02/2025 a 22/02/2026",
-                      "signatureDate":  "19/02/2025",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "3º TERMO ADITIVO DE PRORROGACAO AO CONTRATO-002/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: GENTE SEGURADORA S.A.\nCONTRATO N°: 002/2024\nOBJETO: Contratacao de Empresa especializada para a Pestacao de servicos de Seguro dos diversos veiculos que compoem a frota da Prefeitura\nMunicipal de Iguape.\nPregao Presencial n°. 065/2023.\nData: 19/02/2025\nVALOR: Pagara a contratada o valor de R$ 187.321,23 (cento e oitenta sete mil, trezentos e vinte e um reais e vinte e tres centavos).\nVIGENCIA: 12 meses – Periodo de 22/",
-                      "completeness":  "alta",
-                      "flags":  [
-
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 079/2024",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  11,
-                      "contractNumber":  "079/2024",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Contratacao de Empresa especializada para o Registro de Precos para futura e eventual contratacao de empresa especializada para “AQUISICAO DE MEDICAMENTOS”contidos na tabela CMED de “A a Z” para atender a Secretaria de Saude da Prefeitura Municipal de Iguape pelo periodo de 12 (doze) meses. Onde se le",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 079/2024\nOBJETO:-Contratacao de Empresa especializada para o Registro de Precos para futura e eventual contratacao de empresa especializada para\n“AQUISICAO DE MEDICAMENTOS”contidos na tabela CMED de “A a Z” para atender a Secretaria de Saude da Prefeitura Municipal de Iguape pelo\nperiodo de 12 (doze) meses.\nOnde se le:",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem contratada identificada",
-                                    "Sem valor identificado"
-                                ]
-                  }
               ]
 }

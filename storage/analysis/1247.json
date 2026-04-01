@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "1247",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:08",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:29",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1093-_01075229.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1093-_01075229.pdf",
     "keywords":  [
                      "contrato",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  3,
+                    "blockCount":  7,
                     "itemCount":  4,
                     "totalValue":  "R$ 315,80"
                 },
@@ -30,7 +35,7 @@
                       "object":  "empresa SOCIEDADE PARANAENSE DE MEDICINA LTDA. Credenciamento de pessoas fisicas e juridicas para a prestacao de servicos Medicos Plantonistas, Medicos para Saude da Familia, Medicos Especialistas G.O, Ortopedista, Psiquiatra, Medico do Trabalho, Pediatra, Psicologo, Terapeuta Ocupacional, Fonoaudiologo, Neuropediatra, para atender a demanda de toda Secretaria Municipal de saude de Iguape",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -45,7 +50,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "PORTARIA Nº 280, DE 30 DE OUTUBRO DE 2025\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Victor Pereira de Matos, Assessor I, inscrito no CPF/MF nº. 405.XXX.XXX- 66, para exercer a funcao de fiscal do contrato\n 169/2025, empresa SOCIEDADE PARANAENSE DE MEDICI",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -66,7 +71,7 @@
                       "object":  "locacao de imovel comercial utilizado para a instalacao do Arquivo Municipal e o Almoxarifado Central, situado na Avenida Adhemar de Barros – nº 1150 – Bairro – Porto do Ribeira - Iguape/SP – CEP: 11.920-000",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -81,20 +86,20 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "PORTARIA Nº 282, DE 30 DE OUTUBRO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\n\n Designa, Celio Paulo de Lima Junior, Secretario Adjunto da Administracao Geral, inscrito no CPF/MF nº. 192.XXX.XXX- 96, para exercer\n a funcao de gestor do contrato 160/2022, locacao de im",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
                   },
                   {
                       "type":  "Contrato",
-                      "actTitle":  "Contrato publicado",
+                      "actTitle":  "Contrato 9/2025",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  11,
+                      "confidenceScore":  13,
                       "confidenceLabel":  "alta",
                       "pageNumber":  3,
-                      "contractNumber":  "",
+                      "contractNumber":  "9/2025",
                       "processNumber":  "",
                       "modality":  "",
                       "contractor":  "SOCIEDADE PARANAENSE DE MADICINA LTDA",
@@ -115,9 +120,8 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: SOCIEDADE PARANAENSE DE MADICINA LTDA\nCNPJ: 37.xxx.xxx-04\nCONTRATO: Nº:-169/2025\nOBJETO: Credenciamento de pessoas fisicas e juridicas para a prestacao de servicos medicos plantonistas, Medicos para Saude da Familia, medicos\nespecialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTAOCUPACIONAL,\nFONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de saude de Iguape, bem como todos os locais d",
-                      "completeness":  "baixa",
+                      "completeness":  "media",
                       "flags":  [
-                                    "Sem numero do contrato",
                                     "Sem valor identificado"
                                 ]
                   },

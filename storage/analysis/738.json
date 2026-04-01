@@ -1,157 +1,24 @@
 ﻿{
     "diaryId":  "738",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:25",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:59",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/b54ad38e17c2d0356e10571b28c93a06.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/b54ad38e17c2d0356e10571b28c93a06.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  5,
-                    "itemCount":  4,
-                    "totalValue":  "R$ 155.716,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Gestao Contratual",
-                      "actTitle":  "PORTARIA Nº 35",
-                      "recordClass":  "gestao_contratual",
-                      "recordClassLabel":  "Gestao do contrato",
-                      "confidenceScore":  8,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  2,
-                      "contractNumber":  "006/2024",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "ALL BRAZ COMERCIO E LOCACOES LTDA - EPP",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-turismo-esporte",
-                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "turismo-esporte",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-turismo-esporte",
-                                                       "municipal-cultura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Turismo e Esporte",
-                                                         "Secretaria de Cultura"
-                                                     ],
-                      "excerpt":  "PORTARIA Nº 35\n DE 18 DE JANEIRO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Samuel Roberto Dias Martins, Agente Admisnistrativo, titular da Cedula de Identidade RG nº 42.393.209-3 SSP/SP, inscrito no\n CPF/MF nº. 370.366.328/60, para exercer a funcao de GESTOR do C",
-                      "completeness":  "baixa",
-                      "flags":  [
 
-                                ]
-                  },
-                  {
-                      "type":  "Gestao Contratual",
-                      "actTitle":  "PORTARIA Nº 37",
-                      "recordClass":  "gestao_contratual",
-                      "recordClassLabel":  "Gestao do contrato",
-                      "confidenceScore":  8,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  3,
-                      "contractNumber":  "007/2024",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "ALLMA MOTOR COMERCIO DE VEICULOS LTDA",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "PORTARIA Nº 37\n DE 18 DE JANEIRO DE 2024\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Victor Pereira de Matos, Diretor II, titular da Cedula de Identidade RG nº. 46.814.632-5 SSP/SP, inscrito no CPF/MF nº.\nArt. 2º - 405.316.238/66, para exercer a funcao de FISCAL do Contrat",
-                      "completeness":  "media",
-                      "flags":  [
-
-                                ]
-                  },
-                  {
-                      "type":  "Contrato",
-                      "actTitle":  "1º TERMO DE PRORROGACAO AO CONTRATO 163/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  4,
-                      "contractNumber":  "163/2023",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "ECS COMERCIO DE VEICULOS E EQUIPAMENTOS LTDA",
-                      "cnpj":  "",
-                      "object":  "Aquisicao de Caminhao Basculante, em atendimento ao convenio nº 909588/2020, celebrado como Ministerio da Agricultura, Pecuaria e Abastecimento (Mapa)",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\n1º TERMO DE PRORROGACAO AO CONTRATO 163/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ECS COMERCIO DE VEICULOS E EQUIPAMENTOS LTDA\nCONTRATO N°: 163/2023\nOBJETO:. Aquisicao de Caminhao Basculante, em atendimento ao convenio nº 909588/2020, celebrado como Ministerio da\nAgricultura, Pecuaria e Abastecimento (Mapa).",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:003/2024.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  4,
-                      "contractNumber":  "3/2024",
-                      "processNumber":  "068/2023",
-                      "modality":  "Pregao Presencial n°. 068/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para contratacao de empresa especializada em fornecimento de tecidos, para atender as Secretarias do municipio de Iguape no periodo de 12 (doze) meses. Pregao Presencial n°. 068/2023",
-                      "value":  "R$ 155.716,00",
-                      "term":  "- Periodo de 16/01/2024 a 15/01//2025 - 12 (doze) meses.",
-                      "signatureDate":  "-16/01/2024",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:003/2024.\nOBJETO: Registro de Precos para contratacao de empresa especializada em fornecimento de tecidos, para atender as Secretarias do municipio de Iguape no periodo de 12\n(doze) meses.\nPregao Presencial n°. 068/2023\nDATA:-16/01/2024\nVIGENCIA:- Periodo de 16/01/2024 a 15/01//2025 - 12 (doze) meses.\nVALOR:- R$ 155.716,00 (cento e cinquenta e cinco mil, setecentos e dezesseis reais).",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  }
               ]
 }

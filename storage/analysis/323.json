@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "323",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:41",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:48",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/ea7810c0585035250bd7873d9ecfa539.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/ea7810c0585035250bd7873d9ecfa539.pdf",
     "keywords":  [
@@ -10,119 +10,18 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  4,
-                    "itemCount":  3,
-                    "totalValue":  "R$ 129.356,33"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "2º TERMO ADITIVO DE SUPRESSAO E ACRESCIMO AO CONTRATO Nº 047/2021",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  15,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  1,
-                      "contractNumber":  "047/2021",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "OLIVEIRA ENGENHARIA EIRELI-EPP",
-                      "cnpj":  "",
-                      "object":  "Contratacao de Empresa Especializada para obra de reforma/Ampliacao do Predio que abriga o Projeto “Fazendo Acontecer”, conforme convenio n° 100328/2021, celebrado entre o Estado de Sao Paulo, por meio da Secretaria de Desenvolvimento Regional e o municipio de Iguape/SP Tomada de Precos - n°. 007/2021",
-                      "value":  "R$ 101.291,78",
-                      "term":  "",
-                      "signatureDate":  "03/06/2022",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "2º TERMO ADITIVO DE SUPRESSAO E ACRESCIMO AO CONTRATO Nº 047/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: OLIVEIRA ENGENHARIA EIRELI-EPP\nCONTRATO N°: 047/2021\nOBJETO: Contratacao de Empresa Especializada para obra de reforma/Ampliacao do Predio que abriga o Projeto “Fazendo Acontecer”,\nconforme convenio n° 100328/2021, celebrado entre o Estado de Sao Paulo, por meio da Secretaria de Desenvolvimento Regional e o\nmunicipio de Iguape/SP\nTomada de Precos - n°. 007/2021\nVALOR: Pagara a contratada o valor do aditivo",
-                      "completeness":  "media",
-                      "flags":  [
 
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "4º TERMO ADITIVO AO CONTRATO Nº 021/2021",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  1,
-                      "contractNumber":  "021/2021",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "ENGETEC ENGENHARIA EIRELI ME",
-                      "cnpj":  "",
-                      "object":  "Contratacao de Empresa Especializada para Pavimentacao Asfaltica e obras complementares de trechos da da ua Itapema no bairro do rocio neste municipio de Iguape/SP, conforme contrato de repasse nº 899869/2020, celebrado com o MDR-Ministerio Desenvolvimento Regional CAIXA. Tomada de Precos n°. 004/2021",
-                      "value":  "",
-                      "term":  "Fica prorrogada a vigencia do termino da execucao por 90 (noventa) dias a contar de 13/06/2022 a 12/09/2022",
-                      "signatureDate":  "10/06/2022",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "4º TERMO ADITIVO AO CONTRATO Nº 021/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ENGETEC ENGENHARIA EIRELI ME\nCONTRATO N°: 021/2021\nOBJETO: Contratacao de Empresa Especializada para Pavimentacao Asfaltica e obras complementares de trechos da da ua Itapema\nno bairro do rocio neste municipio de Iguape/SP, conforme contrato de repasse nº 899869/2020, celebrado com o MDR-Ministerio\nDesenvolvimento Regional CAIXA.\nTomada de Precos n°. 004/2021\nDATA: 10/06/2022\nVIGENCIA: Fica prorrogada a vigencia do termino da exec",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:069/2022",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  14,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  1,
-                      "contractNumber":  "9/2022",
-                      "processNumber":  "028/2022",
-                      "modality":  "Pregao Presencial n°. 028/2022",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE MATERIAIS ODONTOLOGICOS PARA ATENDER AS UNIDADES DA SECRETARIA DE SAUDE DO MUNICIPIO DE IGUAPE PELO PERIODO DE 12 (DOZE) MESES Pregao Presencial n°. 028/2022",
-                      "value":  "R$ 28.064,55",
-                      "term":  "06/06/2022 a 05/06/2023",
-                      "signatureDate":  "06/06/2022",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:069/2022\nOBJETO: REGISTRO DE PRECOS PARA AQUISICAO DE MATERIAIS ODONTOLOGICOS PARA ATENDER AS UNIDADES DA\nSECRETARIA DE SAUDE DO MUNICIPIO DE IGUAPE PELO PERIODO DE 12 (DOZE) MESES\nPregao Presencial n°. 028/2022.\nDATA: 06/06/2022\nVIGENCIA: 06/06/2022 a 05/06/2023\nVALOR: Pagara a contratada o valor global de R$ 28.064,55 (vinte e oito mil, sessenta e quatro reais e cinquenta e cinco centavos)",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  }
               ]
 }

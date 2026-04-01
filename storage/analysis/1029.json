@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "1029",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:42",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:36",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_926_18082644.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_926_18082644.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  5,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 460.000,00"
                 },
@@ -18,18 +23,18 @@
                       "actTitle":  "PREGAO ELETRONICO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  9,
+                      "confidenceScore":  10,
                       "confidenceLabel":  "alta",
                       "pageNumber":  4,
                       "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "PREGAO ELETRONICO",
+                      "processNumber":  "002/2025",
+                      "modality":  "PREGAO ELETRONICO – n.º 002/2025",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "Contratacao de empresa para prestacao de servico de controle de acesso, apoio e fiscalizacao, com coordenador e acompanhamento por monitoramento de cameras 24 (vinte e quatro) horas nas dependencias Prefeitura Municipal de Iguape, Passarela “Vereador Gasparino Costa”, Hospital de Iguape (Pronto Socorro), Casa da Crianca, e CAPS (Porto do Ribeira) no municipio de Iguape/SP. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
+                      "object":  "Contratacao de empresa para prestacao de servico de controle de acesso, apoio e fiscalizacao, com coordenador e acompanhamento por monitoramento de cameras 24 (vinte e quatro) horas nas dependencias Prefeitura Municipal de Iguape, Passarela “Vereador Gasparino Costa”, Hospital de Iguape (Pronto Socorro), Casa da Crianca, e CAPS (Porto do Ribeira) no municipio de Iguape/SP",
                       "value":  "R$ 460.000,00",
                       "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "signatureDate":  "",
                       "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
                       "primaryOrganizationId":  "municipal-camara",
                       "primaryOrganizationName":  "Camara Municipal de Iguape",
@@ -46,7 +51,7 @@
                       "excerpt":  "PREGAO ELETRONICO\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO – n.º 002/2025, do tipo MENOR PRECO GLOBAL , situada na Avenida\nAdhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: Contratacao de empresa para prestacao de servico de controle de acesso, apoio e fiscalizacao, com coordenador e acompanhamento\npor monitoramento de cameras 24 (vinte e quatro) horas nas dependencias Prefeitura Municipal de Iguape, ",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem numero principal identificado"
+
                                 ]
                   }
               ]

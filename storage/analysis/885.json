@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "885",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:00",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:08",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_808_03020716.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_808_03020716.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  2,
+                    "blockCount":  3,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -20,11 +25,11 @@
                       "actTitle":  "PORTARIA Nº. 202 DE 29 DE JULHO DE 2024",
                       "recordClass":  "gestao_contratual",
                       "recordClassLabel":  "Gestao do contrato",
-                      "confidenceScore":  6,
+                      "confidenceScore":  7,
                       "confidenceLabel":  "media",
                       "pageNumber":  1,
                       "contractNumber":  "113/2024",
-                      "processNumber":  "",
+                      "processNumber":  "01/2024",
                       "modality":  "",
                       "contractor":  "",
                       "cnpj":  "",
@@ -62,11 +67,11 @@
                       "contractNumber":  "105/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "COPA S. A COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "contractor":  "COPA S. A COMPANHIA DE OBRAS PARIQUERA-ACU CONTRATO N°: 105/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para obra de pavimentacao e obras complementares de vias do bairro do Rocio e Jardim Primavera, conforme termo de convenio nº 102968/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape",
                       "value":  "",
-                      "term":  "AO CONTRATO 105/2023",
+                      "term":  "",
                       "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",

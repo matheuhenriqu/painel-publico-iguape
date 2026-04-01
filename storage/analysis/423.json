@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "423",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:24",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:24",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/088239b119c024a703827a5292c4f21e.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/088239b119c024a703827a5292c4f21e.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  13,
+                    "relevantPageCount":  6,
+                    "blockCount":  13,
                     "itemCount":  5,
                     "totalValue":  "R$ 1.740,00"
                 },
@@ -32,7 +37,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -66,7 +71,7 @@
                       "object":  "Empresa CIRURGICA IZAMED LTDA – EPP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -79,7 +84,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "4\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 02 – Nº 404 Quinta-feira, 10 de Novembro de 2022\n de JPaOneRiTroARdIeA2022 2\n\nArt. 1º - Designa, Fernando Rorato, Coordenador Administrativo da Saude, titular da Cedula de Identidade RG nº 8.184.053-9\n SSP/SP, inscrito no CPF/MF nº 041.448.279-41, para exercer a funcao de Gestor do Contrato 164/2022, Empresa\n CIRURGICA IZAMED LTDA – EPP.\n\nArt. 2º - Esta portaria entra em vigor na data de sua publicacao, revogadas as disposicoes em contrario.\n\n GABINETE DO PREFEITO\n\n WILSON ALM",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -100,7 +105,7 @@
                       "object":  "Empresa FAC LICITA EIRELI -ME",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -113,7 +118,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "5\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 02 – Nº 404 Quinta-feira, 10 de Novembro de 2022\n de Janeiro de 2022 2\n\n PORTARIA\n\nArt. 1º - Designa, Fernando Rorato, Coordenador Administrativo da Saude, titular da Cedula de Identidade RG nº 8.184.053-9\n SSP/SP, inscrito no CPF/MF nº 041.448.279-41, para exercer a funcao de Gestor do Contrato 165/2022, Empresa FAC\n LICITA EIRELI -ME.\n\nArt. 2º - Esta portaria entra em vigor na data de sua publicacao, revogadas as disposicoes em contrario.\n\n GABINETE DO PREFEITO\n\n WILSON ALME",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -134,7 +139,7 @@
                       "object":  "Empresa VALLEMED COMERCIAL EIRELI - EPP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -147,7 +152,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "6\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 02 – Nº 404 Quinta-feira, 10 de Novembro de 2022\n de Janeiro de 2022 2\n\n PORTARIA\n\nArt. 1º - Designa, Fernando Rorato, Coordenador Administrativo da Saude, titular da Cedula de Identidade RG nº 8.184.053-9\n SSP/SP, inscrito no CPF/MF nº 041.448.279-41, para exercer a funcao de Gestor do Contrato 166/2022, Empresa\n VALLEMED COMERCIAL EIRELI - EPP.\n\nArt. 2º - Esta portaria entra em vigor na data de sua publicacao, revogadas as disposicoes em contrario.\n\n GABINETE DO PREFEITO\n\n W",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -163,7 +168,7 @@
                       "contractNumber":  "164/2022",
                       "processNumber":  "055/2022",
                       "modality":  "PREGAO PRESENCIAL Nº: 055/2022",
-                      "contractor":  "CIRURGICA IZAMED LTDA",
+                      "contractor":  "CIRURGICA IZAMED LTDA CONTRATO N°: 164/2022",
                       "cnpj":  "",
                       "object":  "Aquisicao de materiais de equipamentos de Fisioterapia para atender a Secretaria Municipal de Saude PREGAO PRESENCIAL Nº: 055/2022",
                       "value":  "R$ 1.740,00",

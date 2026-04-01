@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "311",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:44",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:51",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/aa15c85179f7d277877202029410b5f7.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/aa15c85179f7d277877202029410b5f7.pdf",
     "keywords":  [
@@ -9,190 +9,18 @@
                      "dispensa",
                      "rescisao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  8,
-                    "itemCount":  5,
-                    "totalValue":  "R$ 3.908.027,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Gestao Contratual",
-                      "actTitle":  "PORTARIA Nº 123",
-                      "recordClass":  "gestao_contratual",
-                      "recordClassLabel":  "Gestao do contrato",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  3,
-                      "contractNumber":  "043/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-gestao-planejamento",
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Secretaria de Gestao e Planejamento",
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "PORTARIA Nº 123\n DE 23 DE MAIO DE 2022\n\n DESIGNA GESTOR DE CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado\nde Sao Paulo, no uso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de\nIguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Fernando Rorato, Coordenador Administrativo de Saude, titular da Cedula de Identidade RG nº\n 8.184.053-9SSP/PR, inscrito no CPF/MF nº 041.448.279-41, para exercer a funcao de Gestor do Cont",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem objeto identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Gestao Contratual",
-                      "actTitle":  "PORTARIA Nº 125",
-                      "recordClass":  "gestao_contratual",
-                      "recordClassLabel":  "Gestao do contrato",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  4,
-                      "contractNumber":  "039/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "PORTARIA Nº 125\n DE 24 DE MAIO DE 2022\n\n DESIGNA GESTOR DE CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado\nde Sao Paulo, no uso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de\nIguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Giulia Barreto Bezerra, sub Secretaria Municipal Adjunto, titular da Cedula de Identidade RG nº\n 42.960.429-4 SSP/SP, inscrito no CPF/MF nº 440.698.418-65, para exercer a funcao de Gestor d",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem objeto identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:062/2022",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  16,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  5,
-                      "contractNumber":  "2/2022",
-                      "processNumber":  "023/2022",
-                      "modality":  "Pregao Presencial n°. 023/2022",
-                      "contractor":  "o valor global de R$ 19.027,00 (dezenove mil e vinte e sete reais)",
-                      "cnpj":  "",
-                      "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE MEDICAMENTOS, PARA ATENDER A SECRETARIA MUNICIPAL DE SAUDE DA PREFEITURA DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES. Pregao Presencial n°. 023/2022",
-                      "value":  "R$ 19.027,00",
-                      "term":  "12/05/2022 a 11/05/2023",
-                      "signatureDate":  "12/05/2022",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
-                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "infraestrutura",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-infraestrutura-obras"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Infraestrutura Urbana e Obras"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:062/2022\nOBJETO: REGISTRO DE PRECOS PARA AQUISICAO DE MEDICAMENTOS, PARA ATENDER A SECRETARIA\nMUNICIPAL DE SAUDE DA PREFEITURA DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES.\nPregao Presencial n°. 023/2022.\nDATA: 12/05/2022\nVIGENCIA: 12/05/2022 a 11/05/2023\nVALOR: Pagara a contratada o valor global de R$ 19.027,00 (dezenove mil e vinte e sete reais)",
-                      "completeness":  "alta",
-                      "flags":  [
 
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:065/2022",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  16,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  5,
-                      "contractNumber":  "5/2022",
-                      "processNumber":  "027/2022",
-                      "modality":  "Pregao Presencial n°. 027/2022",
-                      "contractor":  "o valor global de R$ 3.889.000,00 (tres milhoes, oitocentos e oitenta e nove mil reais)",
-                      "cnpj":  "",
-                      "object":  "REGISTRO DE PRECOS PARA FUTURAS E EVENTUAIS CONTRATACOES DE EMPRESA (S) ESPECIALIZADA (S) PARA FORNECIMENTO DE AGREGADOS MINERAIS A SEREM UTILIZADOS NESTE MUNICIPIO DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES. Pregao Presencial n°. 027/2022",
-                      "value":  "R$ 3.889.000,00",
-                      "term":  "19/05/2022 a 18/05/2023",
-                      "signatureDate":  "19/05/2022",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
-                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "infraestrutura",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-infraestrutura-obras"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Infraestrutura Urbana e Obras"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:065/2022\nOBJETO: REGISTRO DE PRECOS PARA FUTURAS E EVENTUAIS CONTRATACOES DE EMPRESA (S)\nESPECIALIZADA (S) PARA FORNECIMENTO DE AGREGADOS MINERAIS A SEREM UTILIZADOS NESTE\nMUNICIPIO DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES.\nPregao Presencial n°. 027/2022.\nDATA: 19/05/2022\nVIGENCIA: 19/05/2022 a 18/05/2023\nVALOR: Pagara a contratada o valor global de R$ 3.889.000,00 (tres milhoes, oitocentos e oitenta e nove mil reais)",
-                      "completeness":  "alta",
-                      "flags":  [
-
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:067/2022",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  10,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  5,
-                      "contractNumber":  "7/2022",
-                      "processNumber":  "024/2022",
-                      "modality":  "Pregao Presencial n°. 024/2022",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICOES DE SCANNER PROFISSIONAL Pregao Presencial n°. 024/2022",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
-                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "infraestrutura",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-infraestrutura-obras"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Infraestrutura Urbana e Obras"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:067/2022\nOBJETO: REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICOES DE SCANNER\nPROFISSIONAL\nPregao Presencial n°. 024/2022",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem contratada identificada",
-                                    "Sem valor identificado"
-                                ]
-                  }
               ]
 }

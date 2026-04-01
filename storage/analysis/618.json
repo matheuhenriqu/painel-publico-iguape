@@ -1,31 +1,36 @@
 ﻿{
     "diaryId":  "618",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:46",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:31",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/a80e40c8feb37e820a06bd51ddfb6376.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/a80e40c8feb37e820a06bd51ddfb6376.pdf",
     "keywords":  [
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 100.000,00"
                 },
     "items":  [
                   {
                       "type":  "Contrato",
-                      "actTitle":  "Contrato publicado",
+                      "actTitle":  "Contrato 7/2023",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  14,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
-                      "contractNumber":  "",
+                      "contractNumber":  "7/2023",
                       "processNumber":  "24/2023",
                       "modality":  "PREGAO PRESENCIAL Nº 24/2023",
-                      "contractor":  "ANDRE RAMOS ODONTO TECNICA",
+                      "contractor":  "ANDRE RAMOS ODONTO TECNICA CONTRATO:N°:147/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de Servico de empresa especializada na manutencao preventiva e corretiva de equipamentos de fisioterapia atendendo demanda da Secretaria de Saude pelo periodo de 12 meses. PREGAO PRESENCIAL Nº 24/2023",
                       "value":  "R$ 100.000,00",
@@ -45,7 +50,7 @@
                       "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ANDRE RAMOS ODONTO TECNICA\nCONTRATO:N°:147/2023\nOBJETO: Contratacao de Servico de empresa especializada na manutencao preventiva e corretiva de equipamentos de fisioterapia atendendo demanda\nda Secretaria de Saude pelo periodo de 12 meses.\nPREGAO PRESENCIAL Nº 24/2023\nDATA:19/07/2023\nVALOR: Pagara a contratada o valor de R$ 78.000,00 (setenta e oito mil reais)\nVIGENCIA: Permanecera valido por um periodo de 12 (doze) meses, contados da data indicada na Autorizaca",
                       "completeness":  "alta",
                       "flags":  [
-                                    "Sem numero do contrato"
+
                                 ]
                   }
               ]

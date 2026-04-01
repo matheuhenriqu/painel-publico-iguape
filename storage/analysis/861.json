@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "861",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:04",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:18",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_789_06083621.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_789_06083621.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  21,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -21,13 +26,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  12,
                       "contractNumber":  "",
                       "processNumber":  "828/2023",
                       "modality":  "PR-G - PREGAO PRESENCIAL - 2/2024 - EDITAL Nº: 3/2024",
-                      "contractor":  "EQAT SOLUCOES HOSPITALARES LTDA",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "AQUISICAO DE EQUIPAMENTOS DESTINADOS AO PRONTO ATENDIMENTO, ESF ITIMIRIM E ESF JAIRE, oriundo da Emenda Parlamentar nº 2022.026.37518 - ESTADUAL",
                       "value":  "",

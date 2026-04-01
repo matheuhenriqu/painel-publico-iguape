@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "443",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:21",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:19",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/befe4ab822a422746b9f399132c30399.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/befe4ab822a422746b9f399132c30399.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  24,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 8,90"
                 },
@@ -26,9 +31,9 @@
                       "contractNumber":  "002/2022",
                       "processNumber":  "001/2022",
                       "modality":  "PREGAO PRESENCIAL Nº 001/2022",
-                      "contractor":  "COOPERATIVA DE TRABALHADORES DE TRANSPORTE ESCOLAR DE IGUAPE",
+                      "contractor":  "COOPERATIVA DE TRABALHADORES DE TRANSPORTE ESCOLAR DE IGUAPE CONTRATO N°: 002/2022",
                       "cnpj":  "05949234472413",
-                      "object":  "Constitui objeto do presente termo o ACRESCIMO de 0,0594923447241314%, ao valor do contrato firmado entre as partes, nos termos previstos em sua clausula decima segunda, subitem 12.3 letra “m”, e com fundamento legal no § 1º do art. 65 da Lei Federal nº 8.666/93, referente a inclusao de uma nova linha (Rota 026), para atender os alunos da Escola Municipal do Bairro do Morro Seco, periodo vespertino, itinerario – Sitio Sao Miguel, seguindo pela Estrada do Bairro Morro Seco, encerrando o percurso na Fazenda Selva, s/nº. PREGAO PRESENCIAL Nº 001/2022",
+                      "object":  "do presente termo o ACRESCIMO de 0,0594923447241314%, ao valor do contrato firmado entre as partes, nos termos previstos em sua clausula decima segunda, subitem 12.3 letra “m”, e com fundamento legal no § 1º do art. 65 da Lei Federal nº 8.666/93, referente a inclusao de uma nova linha (Rota 026), para atender os alunos da Escola Municipal do Bairro do Morro Seco, periodo vespertino, itinerario – Sitio Sao Miguel, seguindo pela Estrada do Bairro Morro Seco, encerrando o percurso na Fazenda Selva, s/nº. PREGAO PRESENCIAL Nº 001/2022",
                       "value":  "R$ 4,45",
                       "term":  "01/12/2022 a 23/12/2022",
                       "signatureDate":  "01/12/2022",
@@ -54,15 +59,15 @@
                       "actTitle":  "9º TERMO ADITIVO DE VALOR AO CONTRATO Nº 002/2022",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  14,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  8,
                       "contractNumber":  "002/2022",
                       "processNumber":  "001/2022",
                       "modality":  "PREGAO PRESENCIAL Nº 001/2022",
-                      "contractor":  "COOPERATIVA DE TRABALHADORES DE TRANSPORTE ESCOLAR DE IGUAPE",
+                      "contractor":  "COOPERATIVA DE TRABALHADORES DE TRANSPORTE ESCOLAR DE IGUAPE CONTRATO N°: 002/2022",
                       "cnpj":  "50993438334969",
-                      "object":  "",
+                      "object":  "do presente termo o ACRESCIMO de 0,5099343833496981%, ao valor do contrato firmado entre as partes, nos termos previstos em sua clausula decima segunda, subitem 12.3 letra “m”, e com fundamento legal no § 1º do art 65 da Lei Federal nº 8.666/93, referente a inclusao de uma nova linha (Rota 143), periodo matutino, itinerario – Rodovia Casemiro Teixeira no Km 55, seguindo pela Rodovia ate o Km 12, entrando na Estrada Bairro Bananal/Nacional, ate a residencia dos estudantes, retornando pela Rodovia Casemiro Teixeira, percorrendo a Rua Professor Bento Pereira da Rocha, Rua D. Idilio Jose Soares, Rua Major Rebello, finalizando na Rua 24 de Agosto. PREGAO PRESENCIAL Nº 001/2022",
                       "value":  "R$ 4,45",
                       "term":  "01/12/2022 a 23/12/2022",
                       "signatureDate":  "01/12/2022",
@@ -80,7 +85,7 @@
                       "excerpt":  "9º TERMO ADITIVO DE VALOR AO CONTRATO Nº 002/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COOPERATIVA DE TRABALHADORES DE TRANSPORTE ESCOLAR DE IGUAPE\nCONTRATO N°: 002/2022\nOBJETO: Constitui objeto do presente termo o ACRESCIMO de 0,5099343833496981%, ao valor do contrato firmado entre as partes,\nnos termos previstos em sua clausula decima segunda, subitem 12.3 letra “m”, e com fundamento legal no § 1º do art 65 da Lei Federal\nnº 8.666/93, referente a inclusao de uma nova linha (Rota 143), periodo matutino, it",
                       "completeness":  "alta",
                       "flags":  [
-                                    "Sem objeto identificado"
+
                                 ]
                   }
               ]

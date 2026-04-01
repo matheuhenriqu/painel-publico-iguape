@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "401",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:28",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:29",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/65c636569a1e6c8e49853c81834d2326.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/65c636569a1e6c8e49853c81834d2326.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  50,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 146.600,00"
                 },
@@ -20,13 +25,13 @@
                       "actTitle":  "Contrato 144/2022",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  15,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  49,
                       "contractNumber":  "144/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "DI PISA ENGENHARIA E CONSULTORIA",
+                      "processNumber":  "052/2022",
+                      "modality":  "PREGAO PRESENCIALNº 052/2022",
+                      "contractor":  "DI PISA ENGENHARIA E CONSULTORIA CONTRATO N°: 144/2022",
                       "cnpj":  "",
                       "object":  "contratacao de empresa especializada para elaboracao de projetos tecnicos para instalacao de sistema completo de combate contra incendio e elaboracao de projetos tecnicos para a instalacao de SPDA – Sistema de Protecao contra Descargas Atmosfericas nos predios pertencentes a Secretaria da Educacao, em atendimento a Prefeitura Municipal de Iguape/SP. PREGAO PRESENCIALNº 052/2022",
                       "value":  "R$ 14.500,00",
@@ -62,7 +67,7 @@
                       "contractNumber":  "145/2022",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "B NUTRI SERVICOS E ALIMENTACAO LTDA",
+                      "contractor":  "B NUTRI SERVICOS E ALIMENTACAO LTDA CONTRATO N°: 145/2022",
                       "cnpj":  "",
                       "object":  "contratacao de empresa especializada para fornecimento de Buffet em comemoracao ao evento do Dia das Criancas, a ser realizada neste municipio de Iguape/SP. CARTA CONVITE Nº 013/2022",
                       "value":  "R$ 132.100,00",

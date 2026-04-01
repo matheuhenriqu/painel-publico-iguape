@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "942",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:54",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:55",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_859_25071520.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_859_25071520.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  2,
+                    "blockCount":  3,
                     "itemCount":  2,
                     "totalValue":  "R$ 160.700,55"
                 },
@@ -31,7 +36,7 @@
                       "object":  "Empresa ROGERIO F DE FREITAS",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-cultura",
                       "primaryOrganizationName":  "Secretaria de Cultura",
@@ -50,7 +55,7 @@
                                                          "Secretaria de Cultura"
                                                      ],
                       "excerpt":  "PORTARIA Nº 255\n DE 24 DE OUTUBRO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Fernando Eiji Yanaguizawa, Secretario Adjunto de Cultura, titular da Cedula de Identidade RG nº 40.705.823-0 SSP/SP, inscrito\n no CPF/MF nº. 368.453.608-39, para exercer a funcao",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -66,7 +71,7 @@
                       "contractNumber":  "141/2024",
                       "processNumber":  "050/2023",
                       "modality":  "Pregao Presencial nº 050/2023",
-                      "contractor":  "ROGERIO F DE FREITAS",
+                      "contractor":  "ROGERIO F DE FREITAS CONTRATO N°: 141/2024",
                       "cnpj":  "",
                       "object":  "Contratacoes futuras para confeccao de materiais graficos, divulgacao e impressao para atender diversas Secretarias e Departamentos da Prefeitura Municipal de Iguape/SP Pregao Presencial nº 050/2023",
                       "value":  "R$ 160.700,55",

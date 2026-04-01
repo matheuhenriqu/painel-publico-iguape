@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "1257",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:06",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:26",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1101-_13073404.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1101-_13073404.pdf",
     "keywords":  [
                      "contrato",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -30,7 +35,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "marcada para o dia 14/11/2025 as 09h00m na plataforma BLL",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -45,7 +50,7 @@
                                                          "Secretaria de Governo e Relacoes Institucionais"
                                                      ],
                       "excerpt":  "PREGAO ELETRONICO Nº 023/2025- MENOR PRECO POR ITEM\n\nA PREFEITURA MUNICIPAL DE IGUAPE, atraves do Pregoeiro, nos usos legais de suas atribuicoes, torna publico para conhecimento dos interessados\no RESULTADO do julgamento do recurso administrativo da licitacao Pregao Eletronico nº 023/2025, cujo objeto e a Aquisicao de 01 (um) veiculo 0km,\ntipo VAN MINIBUS, via emenda parlamentar estadual nº 2024.016.59140, por meio da SECRETARIA DE GOVERNO E RELACOES\nINSTITUCIONAIS DO ESTADO DE SAO PAULO, em atendimento ao Departam",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
                                     "Sem objeto identificado"
                                 ]

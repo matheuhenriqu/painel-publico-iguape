@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "439",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:22",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:21",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/c50446820f8e51153ddeb89a3ce2b6f2.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/c50446820f8e51153ddeb89a3ce2b6f2.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  13,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  3,
                     "totalValue":  "R$ 333.681,99"
                 },
@@ -26,9 +31,9 @@
                       "contractNumber":  "102/2021",
                       "processNumber":  "041/2021",
                       "modality":  "PREGAO PRESENCIAL N,º 041/2021",
-                      "contractor":  "SEGUROS SURA S/A",
+                      "contractor":  "SEGUROS SURA S/A CONTRATO N°: 102/2021",
                       "cnpj":  "41854438919894",
-                      "object":  "Constitui objeto do presente termo o ACRESCIMO de 0,4185443891989417%, ao valor do contrato inicial, firmado entre as partes, referente a inclusao de 01 (um) veiculo MERCEDES BENZ – Modelo – LO 916 Escolar –Ano 2022/2023 – Placa/Chassi – ESP1F96/9BM979282PB275468, nos termos previstos no § 1º, do artigo 65 da Lei Federal nº 8.666/93. PREGAO PRESENCIAL N,º 041/2021",
+                      "object":  "do presente termo o ACRESCIMO de 0,4185443891989417%, ao valor do contrato inicial, firmado entre as partes, referente a inclusao de 01 (um) veiculo MERCEDES BENZ – Modelo – LO 916 Escolar –Ano 2022/2023 – Placa/Chassi – ESP1F96/9BM979282PB275468, nos termos previstos no § 1º, do artigo 65 da Lei Federal nº 8.666/93. PREGAO PRESENCIAL N,º 041/2021",
                       "value":  "R$ 427,03",
                       "term":  "",
                       "signatureDate":  "17/11/2022",
@@ -62,9 +67,9 @@
                       "modality":  "",
                       "contractor":  "FENICIA CURSOS TREINAMENTOS E CAPACITACAO LTDA - ME",
                       "cnpj":  "",
-                      "object":  "Constitui objeto do presente termo a prorrogacao da vigencia do contrato 230/2017, referente a contratacao de empresa especializada para oferta de profissionais qualificados para ministrar oficinas para idosos, adolescentes e familias usuarios dos servicos do CRAS, bem como para cadastradores para o CADUNICO, e para execucao do programa “ACESSUAIS” em atendimento aos programas do Governo Federal, no Municipio de Iguape, pelo periodo de 60 (sessenta) dias. Processo Administrativo n°. 262/2017",
+                      "object":  "do presente termo a prorrogacao da vigencia do contrato 230/2017, referente a contratacao de empresa especializada para oferta de profissionais qualificados para ministrar oficinas para idosos, adolescentes e familias usuarios dos servicos do CRAS, bem como para cadastradores para o CADUNICO, e para execucao do programa “ACESSUAIS” em atendimento aos programas do Governo Federal, no Municipio de Iguape, pelo periodo de 60 (sessenta) dias. Processo Administrativo n°. 262/2017",
                       "value":  "R$ 44.930,00",
-                      "term":  "do contrato 230/2017, referente a contratacao de empresa",
+                      "term":  "25/11/2022 a 24/01/2023.",
                       "signatureDate":  "25/11/2022",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
@@ -94,7 +99,7 @@
                       "contractNumber":  "195/2022",
                       "processNumber":  "037/2021",
                       "modality":  "PREGAO PRESENCIAL Nº: 037/2021",
-                      "contractor":  "SOM DA ILHA COMERCIO E PRODUCOES LTDA-ME",
+                      "contractor":  "SOM DA ILHA COMERCIO E PRODUCOES LTDA-ME CONTRATO N°: 195/2022 – Oriundo da Ata de Registro de Precos nº 095/2021",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para locacao de projecao de imagem, painel de led e telao, iluminacao, sonorizacao, geradores, grades, palcos, pisos, tendas, galpoes, containers camarins/escritorio e sanitarios, rquibancadas, e estruturas complementares e apoio, a serem utilizados nos eventos neste municipio de Iguape, pelo periodo de 60 (sessenta) dias. PREGAO PRESENCIAL Nº: 037/2021",
                       "value":  "R$ 288.324,96",

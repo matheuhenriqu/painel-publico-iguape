@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1310",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:55",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:51",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1136_17102944.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1136_17102944.pdf",
     "keywords":  [
@@ -12,8 +12,13 @@
                      "inexigibilidade",
                      "rescisao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  48,
+                    "relevantPageCount":  4,
+                    "blockCount":  5,
                     "itemCount":  3,
                     "totalValue":  "R$ 130,50"
                 },
@@ -34,7 +39,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogando-se as disposicoes em sentido contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-cultura",
                       "primaryOrganizationName":  "Secretaria de Cultura",
@@ -58,13 +63,13 @@
                   },
                   {
                       "type":  "Contrato",
-                      "actTitle":  "Contrato publicado",
+                      "actTitle":  "Contrato 7/2026",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  11,
+                      "confidenceScore":  13,
                       "confidenceLabel":  "alta",
                       "pageNumber":  7,
-                      "contractNumber":  "",
+                      "contractNumber":  "7/2026",
                       "processNumber":  "",
                       "modality":  "",
                       "contractor":  "MEDBLANC GESTAO EM SAUDE E IMAGEM LTDA",
@@ -87,9 +92,8 @@
                                                          "Advocacia-Geral da Uniao"
                                                      ],
                       "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP EXTRATO\n\nCONTRATADA: MEDBLANC GESTAO EM SAUDE E IMAGEM LTDA.\n\nCNPJ:-42.xxx.xxx-05\n\nCONTRATO: Nº:-17/2026\n\nOBJETO: Credenciamento de pessoas fisicas e juridicas para a prestacao de servicos medicos plantonistas, Medicos para Saude da Familia, medicos\n\nespecialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTAOCUPACIONAL,\n\nFONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de saude de Iguape, bem como to",
-                      "completeness":  "baixa",
+                      "completeness":  "media",
                       "flags":  [
-                                    "Sem numero do contrato",
                                     "Sem valor identificado"
                                 ]
                   },
@@ -103,7 +107,7 @@
                       "pageNumber":  7,
                       "contractNumber":  "",
                       "processNumber":  "17/2026",
-                      "modality":  "",
+                      "modality":  "CREDENCIAMENTO INEXIGIBILIDADE n°.17/2026",
                       "contractor":  "",
                       "cnpj":  "",
                       "object":  "",
@@ -124,8 +128,7 @@
                       "excerpt":  "CHAMADA PUBLICA/CREDENCIAMENTO INEXIGIBILIDADE n°.17/2026\n\nVIGENCIA: O presente contrato tera vigencia de 12 (doze) meses, periodo de 14/01/2026 a 13/04/2026.\n\nVALOR: R$ 130,50/h (cento e trinta reais e cinquenta centavos): Medico Generalista, R$ 368,33 (Trezentos e sessenta e oito reais e trinta e tres\n\ncentavos).Medico Pediatra, 315,80 (trezentos e quinze reais e oitenta centavos) Medico Psiquiatra, valor fixo a hora/ plantao efetivamente\n\ntrabalhada, sendo em rodizio trimestral conforme Ordem de inicio de Servic",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem objeto identificado",
-                                    "Sem modalidade identificada"
+                                    "Sem objeto identificado"
                                 ]
                   }
               ]

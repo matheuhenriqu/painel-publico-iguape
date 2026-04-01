@@ -1,19 +1,92 @@
 ﻿{
     "diaryId":  "1369",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-20T10:12:57",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:31",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1177_20071928.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1177_20071928.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  0,
-                    "itemCount":  0,
-                    "totalValue":  "R$ 0,00",
-                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Items\u0027 porque ele é uma matriz vazia."
+                    "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 11.632.680,00"
                 },
     "items":  [
-
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 055/2026",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "055/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "TROUPE BRASIL LTDA do municipio de Iguape, pelo",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para prestacao de servicos de transporte escolar escolar exclusivo para atendimento de alunos da rede publica de ensino (municipal e estadual) periodo de 12 meses, em 200 (duzentos) dias letivos-anuais",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE atraves de veiculos tipo onibus\nCONTRATADA: TROUPE BRASIL LTDA do municipio de Iguape, pelo\nCNPJ: 66.xxx.xxx/xxxx-47\nCONTRATO N°: 055/2026\nOBJETO: Contratacao de empresa especializada para prestacao de servicos de transporte escolar\nescolar exclusivo para atendimento de alunos da rede publica de ensino (municipal e estadual)\nperiodo de 12 meses, em 200 (duzentos) dias letivos-anuais.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO Nº 002/2026",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "002/2026",
+                      "modality":  "PREGAO ELETRONICO Nº 002/2026",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 11.632.680,00",
+                      "term":  "12 (doze) meses-Periodo 16/03/2026 a 15/03/2027.",
+                      "signatureDate":  "12/03/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO Nº 002/2026\nData: 12/03/2026\nVALOR: R$ 11.632.680,00 (onze milhoes, seiscentos e trinta e dois mil, seiscentos e oitenta reais)\nVIGENCIA:12 (doze) meses-Periodo 16/03/2026 a 15/03/2027.\n\n FAZENDA\n\n FINANCEIRO",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
               ]
 }

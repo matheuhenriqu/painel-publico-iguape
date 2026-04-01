@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "1262",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:05",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:21",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1105_19071746.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1105_19071746.pdf",
     "keywords":  [
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  8,
+                    "relevantPageCount":  6,
+                    "blockCount":  15,
                     "itemCount":  7,
                     "totalValue":  "R$ 0,00"
                 },
@@ -30,7 +35,7 @@
                       "object":  "CONTRATACAO, da apresentacao musical “VAKA”, atraves de JULIANA SANTOS MORAO LTDA, para apresentacao na Festa do Robalo 2025, no Bairro Barra do Ribeira, Iguape-SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-turismo-esporte",
                       "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
@@ -49,7 +54,7 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "PORTARIA Nº 310,\n DE 14 DE NOVEMBRO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Anisia Ricardo Lourenco, Secretaria Municipal Adjunto de Cultura, Esporte e Turismo, inscrita no CPF/MF nº. XXX. 043.188.XX,\n para exercer a funcao de gestor do Contra",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -70,7 +75,7 @@
                       "object":  "CONTRATACAO, de apresentacao musical de “DALMO CUNHA E DENILSON”, atraves de JULIANA SANTOS MORAO LTDA para Festa do Robalo 2025, no Bairro Barra do Ribeira, Iguape-SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-turismo-esporte",
                       "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
@@ -89,7 +94,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "PORTARIA Nº 312,\n DE 14 DE NOVEMBRO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Anisia Ricardo Lourenco, Secretaria Municipal Adjunto de Cultura, Esporte e Turismo, inscrita no CPF/MF nº. XXX. 043.188.XX,\n para exercer a funcao de gestor do Contrato 185/20",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -110,7 +115,7 @@
                       "object":  "empresa EXTRA MAQUINAS S/A, inscrita no CNPJ nº 19.293.041/0001-41",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -125,7 +130,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 314,\n DE 14 DE NOVEMBRO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Ricardo Oliveira Ragni de Castro Leite, Secretario Municipal de Infraestrutura Urbana e Obras, inscrito no CPF/MF nº.\n 293.XXX.XXX- 06, para exercer a funcao de gestor",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -146,7 +151,7 @@
                       "object":  "CONTRATACAO APRESENTACAO MUSICAL de “Trio Forro de Praia” atraves de LEONARDO PAULINO FAVERAO 35080194898 na Festa do Robalo 2025, no Bairro Barra do Ribeira, Iguape-SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-turismo-esporte",
                       "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
@@ -165,7 +170,7 @@
                                                          "Advocacia-Geral da Uniao"
                                                      ],
                       "excerpt":  "Art. 1º - 6\nArt. 2º -\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – Nº 1105 Quarta-feira, 19 de Novembro de 2025 - www.iguape.sp.gov.br\n\n Designa, Anisia Ricardo Lourenco, Secretaria Municipal Adjunto de Cultura, Esporte e Turismo, inscrita no CPF/MF nº. XXX. 043.188.XX,\n para exercer a funcao de gestor do Contrato 184/2025, CONTRATACAO APRESENTACAO MUSICAL de “Trio Forro de Praia” atraves\n de LEONARDO PAULINO FAVERAO 35080194898 na Festa do Robalo 2025, no Bairro Barra do Ribeira, Iguape-SP.\n\n Esta portaria entra em vi",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -186,7 +191,7 @@
                       "object":  "CONTRATACAO APRESENTACAO MUSICAL de “Trio Forro” atraves de LEONARDO PAULINO FAVERAO 35080194898 na Festa do Robalo 2025, no Bairro Barra do Ribeira, Iguape-SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-turismo-esporte",
                       "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
@@ -205,7 +210,7 @@
                                                          "Advocacia-Geral da Uniao"
                                                      ],
                       "excerpt":  "PORTARIA Nº 317,\n DE 14 DE NOVEMBRO DE 2025\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Fernando Eiji Yanaguizawa, Secretaria Municipal Adjunto de Cultura, Esporte e Turismo, inscrito no CPF/MF nº. XX.453.608-\n XX, para exercer a funcao de fiscal do de Pr",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -215,18 +220,18 @@
                       "actTitle":  "PORTARIA Nº 318,",
                       "recordClass":  "gestao_contratual",
                       "recordClassLabel":  "Gestao do contrato",
-                      "confidenceScore":  10,
-                      "confidenceLabel":  "alta",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
                       "pageNumber":  6,
                       "contractNumber":  "183/2025",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "(A), para apresentacao musical “MARCOS MACHADO E",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "CONTRATADO(A), para apresentacao musical “MARCOS MACHADO E BANDA”, atraves de MARCOS APARECIDO FERREIRA 26079776812, no evento da Festa do Robalo 2025, no Bairro Barra do Ribeira, Iguape/SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-turismo-esporte",
                       "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
@@ -245,7 +250,7 @@
                                                          "Advocacia-Geral da Uniao"
                                                      ],
                       "excerpt":  "PORTARIA Nº 318,\n DE 14 DE NOVEMBRO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\n\n Designa, Anisia Ricardo Lourenco, Secretaria Municipal Adjunto de Cultura, Esporte e Turismo, inscrita no CPF/MF nº. XXX. 043.188.XX,\n para exercer a funcao de gestor do Contrato 183/20",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -266,7 +271,7 @@
                       "object":  "aquisicao de livros, colecoes de livros e caixas plasticas organizadoras, destinados a composicao e organizacao do acervo da biblioteca itinerante do projeto \"imaginar, contar e encantar\", com objetivo de atender as unidades escolares da Educacao Infantil e Ensino Fundamental",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-educacao",
                       "primaryOrganizationName":  "Secretaria de Educacao",
@@ -287,7 +292,7 @@
                                                          "Secretaria de Cultura"
                                                      ],
                       "excerpt":  "PORTARIA Nº 320,\n DE 18 DE NOVEMBRO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Luciano Pereira Viana, Secretario Municipal de Educacao, inscrito no CPF/MF nº 131.XXX.XXX-54, para exercer a funcao de\nArt. 2º - gestor do Contrato 187/2025, aquisicao de livro",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1370",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-25T11:01:51",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:30",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1178_21084045.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1178_21084045.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  5,
+                    "relevantPageCount":  1,
+                    "blockCount":  6,
                     "itemCount":  6,
                     "totalValue":  "R$ 20.088.919,37"
                 },
@@ -90,13 +95,13 @@
                       "actTitle":  "Contrato 057/2026",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "057/2026",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "",
+                      "contractor":  "Cooperativa de Credito, Poupanca e Investimento Campos Gerais, Grande Curitiba, Vale do Ribeira e Forc a dos Ventos - Sicredi Campos Gerais e Grande Curitiba PR/SP",
                       "cnpj":  "",
                       "object":  "Credenciamento de instituicoes financeiras, autorizadas a funcionar pelo Banco Central do Brasil, para a prestacao de servicos bancarios de arrecadacao e recolhimento das receitas publicas municipais, tributarias e nao tributarias, da Prefeitura Municipal de Iguape/SP, incluindo, entre outras, as receitas provenientes de IPTU, ITBI, ISSQN, Taxas, Servicos e demais receitas municipais, por meio de DAM – Documento de Arrecadacao Municipal, com prestacao de contas por meio eletronico dos valores arrecadados, sendo vedado o recebimento em cheque, em conformidade com o padrao estabelecido pela Federacao Brasileira de Bancos – FEBRABAN",
                       "value":  "",
@@ -116,9 +121,8 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: Instituicao Financeira Cooperativa de Credito, Poupanca e Investimento Campos Gerais, Grande Curitiba, Vale do Ribeira e Forc a dos\nVentos - Sicredi Campos Gerais e Grande Curitiba PR/SP\nCNPJ: 81.xxx.xxx/xxx05\nCONTRATO N°: 057/2026\nOBJETO: Credenciamento de instituicoes financeiras, autorizadas a funcionar pelo Banco Central do Brasil, para a prestacao de servicos bancarios de\narrecadacao e recolhimento das receitas publicas municipais, tributarias e nao tributa",
-                      "completeness":  "baixa",
+                      "completeness":  "media",
                       "flags":  [
-                                    "Sem contratada identificada",
                                     "Sem valor identificado"
                                 ]
                   },

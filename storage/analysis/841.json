@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "841",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:07",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:23",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_774_15065413.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_774_15065413.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 280.000,00"
                 },
@@ -19,13 +24,13 @@
                       "actTitle":  "4º TERMO ADITIVO AO CONTRATO N.º 044/2022",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  15,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "044/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "processNumber":  "003/2022",
+                      "modality":  "TOMADA DE PRECOS Nº 003/2022",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI CONTRATO N°: 044/2022",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para execucao de obra de construcao Campo de Futebol na Barra do Ribeira, conforme convenio nº 00089/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o municipio de IguapeSP TOMADA DE PRECOS Nº 003/2022",
                       "value":  "R$ 280.000,00",

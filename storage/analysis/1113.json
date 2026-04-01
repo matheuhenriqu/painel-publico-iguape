@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1113",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:29",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:13",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_995_06071215.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_995_06071215.pdf",
     "keywords":  [
@@ -11,8 +11,13 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 994.800,00"
                 },
@@ -22,13 +27,13 @@
                       "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  12,
+                      "confidenceScore":  10,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "",
                       "processNumber":  "428/2025",
                       "modality":  "EDITAL CHAMADA PUBLICA Nº: 004/2025",
-                      "contractor":  "BEM ESTAR E SAUDE MEDICINA E DIAGNOSTICO LTDA",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "EDITAL CHAMADA PUBLICA Nº: 004/2025 Credenciamento para a contratacao de empresa de medicos plantonistas, medicos para Saude da Familia, medicos especialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTA OCUPACIONAL, FONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de Saude de Iguape, bem como todos os locais de atendimento que a compoe pelo periodo de 12 meses",
                       "value":  "R$ 994.800,00",

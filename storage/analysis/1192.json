@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "1192",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:18",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:48",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1048_29070558.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1048_29070558.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -19,13 +24,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "",
                       "processNumber":  "553/2025",
                       "modality":  "PR-E - PREGAO ELETRONICO - 14/2025 - EDITAL Nº: 19/2025",
-                      "contractor":  "OMEGA SOLUCOES INTEGRADAS LTDA",
+                      "contractor":  "",
                       "cnpj":  "12.043.445/0001-38",
                       "object":  "Registro de precos para futura e eventual contratacao de empresa especializada no fornecimento de gelo em cubos, a fim de atender as demandas de acoes e eventos da Secretaria Municipal de Cultura, Esporte e Turismo pelo periodo de 12 (doze) meses",
                       "value":  "",

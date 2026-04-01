@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1073",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:35",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:24",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_962_11083117.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_962_11083117.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  6,
                     "itemCount":  5,
                     "totalValue":  "R$ 245.244,60"
                 },
@@ -26,7 +31,7 @@
                       "contractNumber":  "047/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "ASSOCIACAO AMIGOS E MORADORES DOS BAIRROS ARATACA E CAPOAVA DO MOMUNA",
+                      "contractor":  "ASSOCIACAO AMIGOS E MORADORES DOS BAIRROS ARATACA E CAPOAVA DO MOMUNA CONTRATO N°: 047/2023",
                       "cnpj":  "",
                       "object":  "Aquisicao de Generos Alimenticios da Agricultura Familiar e do Empreendedor Familiar Rural, em atendimento ao Programa Nacional de Alimentacao Escolar – PNAE, para alunos da rede de educacao basica publica, verba FNDE/PNAE, durante 12 (doze) meses",
                       "value":  "",
@@ -98,7 +103,7 @@
                       "contractNumber":  "048/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "COOPERASOL – COOPERATIVA AGROINDUSTRIAL SOLIDARIA",
+                      "contractor":  "COOPERASOL – COOPERATIVA AGROINDUSTRIAL SOLIDARIA CONTRATO N°: 048/2023",
                       "cnpj":  "",
                       "object":  "Aquisicao de Generos Alimenticios da Agricultura Familiar e do Empreendedor Familiar Rural, em atendimento ao Programa Nacional de Alimentacao Escolar – PNAE, para alunos da rede de educacao basica publica, verba FNDE/PNAE, durante 12 (doze) meses",
                       "value":  "",
@@ -130,15 +135,15 @@
                       "actTitle":  "8º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 053/2022",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "053/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "SUL VALE CONSTRUTORA LTDA-ME",
+                      "processNumber":  "009/2022",
+                      "modality":  "Tomada de Precos - n°. 009/2022",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA-ME CONTRATO N°: 053/2022",
                       "cnpj":  "",
-                      "object":  "Contratacao de Empresa Especializada para obra de Centro Multiuso, localizada na Avenida Maestro Moacir Serra s/n – Bairro Canto do Morro, confome termo de Convenio nº 100813/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape. Tomada de Precos - n°. 009/2022 DATA: 08/04/2025 VIGENCIA: Prorrogada a Execucao do Servico e Vigencia do Contrato pelo periodo de 10/04/2025 a 07/08/2025 inclusive –120 (cento e vinte) dias",
+                      "object":  "Contratacao de Empresa Especializada para obra de Centro Multiuso, localizada na Avenida Maestro Moacir Serra s/n – Bairro Canto do Morro, confome termo de Convenio nº 100813/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape. Tomada de Precos - n°. 009/2022",
                       "value":  "",
                       "term":  "Prorrogada a Execucao do Servico e Vigencia do Contrato pelo periodo de 10/04/2025 a 07/08/2025 inclusive –120 (cento e vinte) dias.",
                       "signatureDate":  "08/04/2025",
@@ -156,7 +161,7 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "8º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 053/2022\n CONTRATANTE: MUNICIPIO DE IGUAPE\n CONTRATADA:- SUL VALE CONSTRUTORA LTDA-ME\n CONTRATO N°: 053/2022\n OBJETO: Contratacao de Empresa Especializada para obra de Centro Multiuso, localizada na Avenida Maestro Moacir Serra s/n – Bairro Canto do\n Morro, confome termo de Convenio nº 100813/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape.\n Tomada de Precos - n°. 009/2022\n DATA: 08/04/2025\n VIGENCIA: Prorrogada a Execucao do Servico e",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
                                     "Sem valor identificado"
                                 ]

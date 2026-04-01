@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "433",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:24",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:23",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/41e0378faea0d72160c25b970c389a54.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/41e0378faea0d72160c25b970c389a54.pdf",
     "keywords":  [
@@ -9,9 +9,14 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
-                    "itemCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
+                    "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
     "items":  [
@@ -20,13 +25,13 @@
                       "actTitle":  "5º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 048/2021",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "048/2021",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "OLIVEIRA ENGENHARIA EIRELI-EPP",
+                      "processNumber":  "627/2020",
+                      "modality":  "Tomada de Precos - n°. 006/2021",
+                      "contractor":  "OLIVEIRA ENGENHARIA EIRELI-EPP CONTRATO N°: 048/2021",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa Especializada para obra de construcao do Centro de Convivencia do Idoso, conforme convenio Processo SEDS/ n° 627/2020, celebrado entre o Estado de Sao Paulo, por meio da Secretaria de Desenvolvimento Social e o municipio de Iguape/SP Tomada de Precos - n°. 006/2021",
                       "value":  "",
@@ -46,44 +51,8 @@
                                                          "Secretaria de Desenvolvimento Social"
                                                      ],
                       "excerpt":  "5º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 048/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: OLIVEIRA ENGENHARIA EIRELI-EPP\nCONTRATO N°: 048/2021\nOBJETO: Contratacao de Empresa Especializada para obra de construcao do Centro de Convivencia do Idoso, conforme convenio\nProcesso SEDS/ n° 627/2020, celebrado entre o Estado de Sao Paulo, por meio da Secretaria de Desenvolvimento Social e o municipio\nde Iguape/SP\nTomada de Precos - n°. 006/2021\nDATA: 18/11/2022\nVIGENCIA: Periodo de 90 (noventa) dias de 19/12/2022 a 19/",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Ato Contratual",
-                      "actTitle":  "EXTRATO DE REABERTURA DO CERTAME",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  2,
-                      "contractNumber":  "",
-                      "processNumber":  "058/2022",
-                      "modality":  "PREGAO PRESENCIAL Nº 058/2022",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "e o REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES, PARA EXECUCAO DOS SERVICOS DE MANUTENCAO E MODERNIZACAO DO PARQUE DE ILUMINACAO PUBLICA NO MUNICIPIO DE IGUAPE/SP, sera REABERTO na data de 25/11/2022 as 09h30m, no Auditorio da Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, para julgamento da nova proposta de precos apresentada pela empresa APLAUSO ENGENHARIA LTDA, em atendimento ao artigo 48§3º da lei 8.666/93. Ficam os autos do Processo com vista franqueada aos interessados. Iguape, 23 de novembro de 2022. MARIA CLAUDIA DA SILVA Pregoeira",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "de 25/11/2022 as 09h30m, no Auditorio da",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "EXTRATO DE REABERTURA DO CERTAME\n PREGAO PRESENCIAL Nº 058/2022- MENOR VALOR GLOBAL\n\n A PREFEITURA MUNICIPAL DE IGUAPE, atraves da Pregoeira de Licitacao no uso legais de suas atribuicoes torna publico\npara conhecimento dos interessados, que o certame do Pregao Presencial acima especificado, cujo objeto e o REGISTRO DE PRECOS\nPELO PERIODO DE 12 (DOZE) MESES, PARA EXECUCAO DOS SERVICOS DE MANUTENCAO E MODERNIZACAO DO PARQUE\nDE ILUMINACAO PUBLICA NO MUNICIPIO DE IGUAPE/SP, sera REABERTO na data de 25/11/2022 as 09h30",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem numero do contrato",
-                                    "Sem contratada identificada",
                                     "Sem valor identificado"
                                 ]
                   }

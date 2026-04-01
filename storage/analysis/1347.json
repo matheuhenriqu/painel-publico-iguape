@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1347",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:48",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:38",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1162_26052429.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1162_26052429.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  18,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  3,
                     "totalValue":  "R$ 209.634,06"
                 },
@@ -56,7 +61,7 @@
                       "actTitle":  "PREGAO ELETRONICO Nº 001/2026 - MENOR PRECO POR ITEM",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  8,
+                      "confidenceScore":  6,
                       "confidenceLabel":  "media",
                       "pageNumber":  1,
                       "contractNumber":  "",
@@ -64,7 +69,7 @@
                       "modality":  "PREGAO ELETRONICO Nº 001/2026",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "e o REGISTRO DE PRECOS PARA FUTURAS E EVENTUAIS CONTRATACOES DE EMPRESA(S) ESPECIALIZADA(S) PARA FORNECIMENTO DE AGREGADOS MINERAIS DESTINADOS A EXECUCAO E MANUTENCAO DE OBRAS E SERVICOS DE INFRAESTRUTURA URBANA E RURAL NO MUNICIPIO DE IGUAPE/SP, PELO PERIODO DE 12 MESES, com o seguinte RESULTADO: Dando PROVIMENTO ao recurso interposto pela empresa COMERCIO DE PEDRAS ELDORADO LTDA, com a consequente HABILITACAO da empresa no certame nos itens 9 e 17. Fica os autos do Processo com vista franqueada aos interessados. Iguape, 24 de fevereiro de 2026. Daniel Factore Moroni Sella Pregoeiro",
+                      "object":  "",
                       "value":  "",
                       "term":  "",
                       "signatureDate":  "",
@@ -82,9 +87,9 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "PREGAO ELETRONICO Nº 001/2026 - MENOR PRECO POR ITEM\n\nA PREFEITURA MUNICIPAL DE IGUAPE, atraves do Pregoeiro, nos usos legais de suas atribuicoes, torna publico para conhecimento dos interessados\no RESULTADO do julgamento do recurso administrativo da licitacao Pregao Eletronico nº 001/2026, cujo objeto e o REGISTRO DE PRECOS PARA\nFUTURAS E EVENTUAIS CONTRATACOES DE EMPRESA(S) ESPECIALIZADA(S) PARA FORNECIMENTO DE AGREGADOS MINERAIS\nDESTINADOS A EXECUCAO E MANUTENCAO DE OBRAS E SERVICOS DE INFRAESTRUTURA URBANA E RU",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
-
+                                    "Sem objeto identificado"
                                 ]
                   },
                   {

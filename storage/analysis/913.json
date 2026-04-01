@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "913",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:57",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:03",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_833_13070319.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_833_13070319.pdf",
     "keywords":  [
@@ -9,149 +9,18 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  2,
-                    "itemCount":  4,
-                    "totalValue":  "R$ 545.715,43"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "1º TERMO ADITIVO AO CONTRATO 195/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  16,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "195/2023",
-                      "processNumber":  "049/2023",
-                      "modality":  "Pregao Presencial n°. 049/2023",
-                      "contractor":  "ENGETEC ENGENHARIA LTDA - EPP",
-                      "cnpj":  "",
-                      "object":  "Contratacao de empresa especializada para prestacao de servicos de conservacao urbana, compreendendo: varricao, capina, rocada, poda, raspagem, limpeza de bueiros e boca de lobo, coleta e transporte de residuos e pintura de guias de ruas e avenidas, Pregao Presencial n°. 049/2023",
-                      "value":  "R$ 542.312,82",
-                      "term":  "",
-                      "signatureDate":  "11/09/2024",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "1º TERMO ADITIVO AO CONTRATO 195/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ENGETEC ENGENHARIA LTDA - EPP\nCONTRATO N°: 195/2023\nOBJETO: Contratacao de empresa especializada para prestacao de servicos de conservacao urbana, compreendendo: varricao, capina, rocada, poda,\nraspagem, limpeza de bueiros e boca de lobo, coleta e transporte de residuos e pintura de guias de ruas e avenidas,\nPregao Presencial n°. 049/2023.\nVALOR DA SUPRESSAO: R$ 542.312,82 (quinhentos e quarenta e dois mil, trezentos e doze reais e o",
-                      "completeness":  "alta",
-                      "flags":  [
 
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  7,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  2,
-                      "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "COMERCIAL CIRURGICA RIOCLARENSE LTDA",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: COMERCIAL CIRURGICA RIOCLARENSE LTDA",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem numero do contrato",
-                                    "Sem objeto identificado",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:047/2024",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "7/2024",
-                      "processNumber":  "084/2023",
-                      "modality":  "Pregao Presencial n°. 084/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicao de medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo de 12 (doze) meses – Item 132 – Clorpromazina – 100 mg*-comp – Marca- Cristalia Pregao Presencial n°. 084/2023",
-                      "value":  "R$ 0,25",
-                      "term":  "",
-                      "signatureDate":  "10/09/2024",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
-
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:047/2024\nOBJETO: Registro de Precos para aquisicao de medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo\nperiodo de 12 (doze) meses – Item 132 – Clorpromazina – 100 mg*-comp – Marca- Cristalia\nPregao Presencial n°. 084/2023\nData: 10/09/2024\nVALOR: Valor Unitario Licitado R$ 0,25 e Preco Unitario com Reequilibrio R$ 0,46",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Ato Contratual",
-                      "actTitle":  "4º TERMO DE REAJUSTE CONTRATO DE LOCACAO DE IMOVEL Nº 056/2020 Centro Judiciario – CEJUSC, Fazenda",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  10,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "MARIDALVA MARTINS",
-                      "cnpj":  "",
-                      "object":  "Constitui o presente termo ao contrato de locacao do imovel utilizado para as instalacoes do Publica e Protocolo de Distribuicao de Processos Civeis e Criminais – Iguape/SP”",
-                      "value":  "R$ 3.402,36",
-                      "term":  "",
-                      "signatureDate":  "11/06/2024",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\n4º TERMO DE REAJUSTE CONTRATO DE LOCACAO DE IMOVEL Nº 056/2020 Centro Judiciario – CEJUSC, Fazenda\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: MARIDALVA MARTINS\nOBJETO: Constitui o presente termo ao contrato de locacao do imovel utilizado para as instalacoes do\nPublica e Protocolo de Distribuicao de Processos Civeis e Criminais – Iguape/SP”.\nDATA: 11/06/2024\nVALOR: R$ 3.402,36 (tres mil, quatrocentos e dois reais e trinta e seis centavos) anual.",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem numero do contrato"
-                                ]
-                  }
               ]
 }

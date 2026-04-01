@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "573",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:56",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:47",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/6c6e29bcdedd85bfe596665809a2f792.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/6c6e29bcdedd85bfe596665809a2f792.pdf",
     "keywords":  [
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  5,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -30,7 +35,7 @@
                       "object":  "AMBSERV – TRATAMENTO DE RESIDUOS",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, tornando sem efeito legal a Portaria nº 67 de 28 de marco de 2023",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -45,7 +50,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "PORTARIA Nº 156\n DE 02 DE JUNHO DE 2023\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Debora Silva Camargo, Coordenador da Rede de Urgencia e Emergencia, titular da Cedula de Identidade RG nº 47.081.569-3\n SSP/SP, inscrita no CPF/MFnº.039.503.429-90, para exercer a funcao de ",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]

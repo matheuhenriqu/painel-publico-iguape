@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1143",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:25",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:03",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1018_15073158.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1018_15073158.pdf",
     "keywords":  [
@@ -9,47 +9,18 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  3,
-                    "itemCount":  1,
-                    "totalValue":  "R$ 0,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Aviso de Licitacao",
-                      "actTitle":  "PREGAO ELETRONICO Nº 015/2025",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  8,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  3,
-                      "contractNumber":  "",
-                      "processNumber":  "015/2025",
-                      "modality":  "PREGAO ELETRONICO Nº 015/2025",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "REGISTRO DE PRECO PARA AQUISICAO DE OLEOS LUBRIFICANTES E CORRELATOS PARA OS VEICULOS LEVES E PESADOS, MAQUINAS E EQUIPAMENTOS, PERTENCENTES A FROTA MUNICIPAL, PELO PERIODO DE 12 (DOZE) MESES conforme especificacoes nos anexos I e II do edital. A Prefeitura Municipal de Iguape, TORNA PUBLICO para conhecimento dos interessados, que o extrato de aviso de licitacao , publicado no Diario Oficial do Municipio-ANO 05 – Nº 1017 Sabado, 12 de Julho de 2025, sofreu retificacao conforme segue: Onde se le",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-gestao-planejamento",
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Secretaria de Gestao e Planejamento",
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "PREGAO ELETRONICO Nº 015/2025\n\nOBJETO: REGISTRO DE PRECO PARA AQUISICAO DE OLEOS LUBRIFICANTES E CORRELATOS PARA OS VEICULOS LEVES E PESADOS,\nMAQUINAS E EQUIPAMENTOS, PERTENCENTES A FROTA MUNICIPAL, PELO PERIODO DE 12 (DOZE) MESES conforme especificacoes nos\nanexos I e II do edital.\nA Prefeitura Municipal de Iguape, TORNA PUBLICO para conhecimento dos interessados, que o extrato de aviso de licitacao , publicado no Diario Oficial\ndo Municipio-ANO 05 – Nº 1017 Sabado, 12 de Julho de 2025, sofreu retificacao conforme",
-                      "completeness":  "media",
-                      "flags":  [
 
-                                ]
-                  }
               ]
 }

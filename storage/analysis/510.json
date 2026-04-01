@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "510",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:09",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:04",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/6fdb97ad751d36e7f90c3a047a21c96b.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/6fdb97ad751d36e7f90c3a047a21c96b.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -20,13 +25,13 @@
                       "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  1,
                       "contractNumber":  "",
                       "processNumber":  "63/2023",
                       "modality":  "",
-                      "contractor":  "L AUGUSTA F PEREIRA",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA EM SERVICOS DE ARBITRAGEM PARA EVENTOS ESPORTIVOS DE FUTEBOL E FUTSAL NESTE MUNICIPIO DE IGUAPE/SP. CO-C - CONVITE / COMPRAS/SERVICOS - 1/2023 - EDITAL Nº: 13/2023",
                       "value":  "",
@@ -48,7 +53,7 @@
                                                          "Secretaria de Cultura"
                                                      ],
                       "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 63/2023\nCONTRATACAO DE EMPRESA ESPECIALIZADA EM SERVICOS DE ARBITRAGEM PARA EVENTOS ESPORTIVOS DE FUTEBOL\nE FUTSAL NESTE MUNICIPIO DE IGUAPE/SP.\nCO-C - CONVITE / COMPRAS/SERVICOS - 1/2023 - EDITAL Nº: 13/2023\nINTERESSADOS: SECRETARIA MUNIC. DE CULTURA, ESPORTES E TURISMO .\n\n HOMOLOGO E ADJUDICO, nos termos da Legislacao em vigor, o procedimento licitatorio e a\n\nclassificacao dos itens abaixo.\n\nFORNECEDOR: L AUGUSTA F PEREIRA\nItem 1 - Arbitragem em jogos de futebol d",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
                                     "Sem modalidade identificada"
                                 ]

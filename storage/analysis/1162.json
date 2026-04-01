@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "1162",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:21",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:56",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_096_28110234.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_extra_096_28110234.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 170,52"
                 },
@@ -61,7 +66,7 @@
                       "contractNumber":  "",
                       "processNumber":  "010/2025",
                       "modality":  "CHAMADA PUBLICA Nº: 010/2025",
-                      "contractor":  "E CLASSIFICADA",
+                      "contractor":  "E CLASSIFICADA : Razao Social: SAMUEL RIBEIRO PROTOCOLO 8.347/2025 1 DOC 8º classificada",
                       "cnpj":  "08.428.613/0001-36",
                       "object":  "",
                       "value":  "R$170,52",

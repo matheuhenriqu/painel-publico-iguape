@@ -1,4 +1,4 @@
-Set-StrictMode -Version Latest
+﻿Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
 . (Join-Path $PSScriptRoot 'common.ps1')
@@ -929,7 +929,11 @@ function Clean-ObjectText {
     $clean = ($Text -replace '\s+', ' ').Trim()
     $clean = $clean -replace '^(OBJETO\s*:?\s*)', ''
     $clean = $clean -replace '^(O OBJETO(?: DESTE CONTRATO)? E\s+)', ''
+    $clean = $clean -replace '^(?:CONSTITUI(?:R|)\s+OBJETO(?:\s+DESTE\s+(?:TERMO|CONTRATO|INSTRUMENTO))?\s*:?\s*)', ''
+    $clean = $clean -replace '^(?:O\s+PRESENTE\s+TERMO\s+ADITIVO\s+TEM\s+POR\s+OBJETO\s*)', ''
+    $clean = $clean -replace '^(?:TEM\s+POR\s+OBJETO\s*)', ''
     $clean = $clean -replace '^(DESTE CONTRATO E\s+)', ''
+    $clean = $clean -replace '^(DESTE INSTRUMENTO\s+(?:E\s+O|E|O)?\s*)', ''
     $clean = $clean -replace '^(DO CONTRATO\s+\d{1,5}/\d{4},\s*)', ''
     $clean = $clean -replace '^(CONTRATO\s+\d{1,5}/\d{4},\s*)', ''
     $clean = $clean -replace '\bArt\.?\s*2.*$', ''
@@ -1237,14 +1241,17 @@ function Clean-EntityName {
     $clean = $clean -replace '\s*-\s*CNPJ.*$', ''
     $clean = $clean -replace '\s+CNPJ.*$', ''
     $clean = $clean -replace '\s*,?\s*inscrit[ao].*$', ''
+    $clean = $clean -replace '\s*,?\s*CPF.*$', ''
+    $clean = $clean -replace '\s*,?\s*RG\s+N?.*$', ''
+    $clean = $clean -replace '^\s*(?:EMPRESA|PESSOA\s+JURIDICA|INSTITUICAO\s+FINANCEIRA)\s+', ''
     $clean = $clean.Trim(" -,:;.")
     $wordCount = @($clean -split '\s+' | Where-Object { $_ }).Count
 
-    if ($wordCount -gt 18) {
+    if ($wordCount -gt 32) {
         return ''
     }
 
-    if ((Normalize-SearchText -Text $clean) -match '^(COM BASE NA LEI|ART|INSCRITA NO|INSCRITO NO|O MUNICIPIO|A PREFEITURA|DE R|POIS QUE|AO ANALISAR O CASO|EIS QUE)') {
+    if ((Normalize-SearchText -Text $clean) -match '^(COM BASE NA LEI|ART|INSCRITA NO|INSCRITO NO|O MUNICIPIO|A PREFEITURA|DE R|POIS QUE|AO ANALISAR O CASO|EIS QUE|VALOR|VIGENCIA|PRAZO|DATA|ASSINATURA|OBJETO)') {
         return ''
     }
 
@@ -1353,24 +1360,26 @@ function New-ContractItem {
     $actTitle = Get-FirstMeaningfulLine -Block $Block
 
     $contractNumber = Get-FirstPatternValue -Text $Block -Patterns @(
-        'CONTRATO(?:\s+ADMINISTRATIVO)?\s+N\S*\s*:?\s*(?<value>\d{1,5}\/\d{4})',
+        'CONTRATO(?:\s+ADMINISTRATIVO)?[^\n\d]{0,18}N\S*\s*:?\s*(?<value>\d{1,5}\/\d{4})',
         'DO\s+CONTRATO\s*(?<value>\d{1,5}\/\d{4})',
         'AO\s+CONTRATO\s*(?<value>\d{1,5}\/\d{4})',
-        'CONTRATO\s*(?<value>\d{1,5}\/\d{4})',
-        'ATA\s+DE\s+REGISTRO\s+DE\s+PRECOS(?:\s+N\S*\s*:?)?\s*(?<value>\d{1,5}\/\d{4})'
+        'CONTRATO[^\n\d]{0,12}(?<value>\d{1,5}\/\d{4})',
+        'ATA\s+DE\s+REGISTRO\s+DE\s+PRECOS[^\n\d]{0,18}(?<value>\d{1,5}\/\d{4})'
     )
 
     $processNumber = Get-FirstPatternValue -Text $Block -Patterns @(
         'PROCESSO(?:\s+ADMINISTRATIVO)?\s+N\S*\s*:?\s*(?<value>\d{1,5}\/\d{4})',
-        'PROCESSO\s+N\S*\s*(?<value>\d{1,5}\/\d{4})',
-        'EDITAL\s+CHAMADA\s+PUBLICA\s+N\S*\s*:?\s*(?<value>\d{1,5}\/\d{4})',
-        'CHAMADA\s+PUBLICA\s+N\S*\s*:?\s*(?<value>\d{1,5}\/\d{4})',
+        'PROCESSO[^\n\d]{0,18}(?<value>\d{1,5}\/\d{4})',
+        'EDITAL\s+CHAMADA\s+PUBLICA[^\n\d]{0,18}(?<value>\d{1,5}\/\d{4})',
+        'CHAMADA\s+PUBLICA[^\n\d]{0,18}(?<value>\d{1,5}\/\d{4})',
+        'CREDENCIAMENTO[^\n\d]{0,18}(?<value>\d{1,5}\/\d{4})',
         'PR-[A-Z]\s*-\s*PREGAO(?:\s+ELETRONICO|\s+PRESENCIAL)?\s*-\s*(?<value>\d{1,5}\/\d{4})',
-        'PREGAO(?:\s+ELETRONICO|\s+PRESENCIAL)?\s+N\S*\s*:?\s*(?<value>\d{1,5}\/\d{4})',
+        'PREGAO(?:\s+ELETRONICO|\s+PRESENCIAL)?[^\n\d]{0,18}(?<value>\d{1,5}\/\d{4})',
         'CP-[A-Z]\s*-\s*CONCORRENCIA(?:\s+PUBLICA)?(?:\s+ELETRONICA)?\s*-\s*(?<value>\d{1,5}\/\d{4})',
-        'CONCORRENCIA(?:\s+PUBLICA)?(?:\s+ELETRONICA)?\s+N\S*\s*:?\s*(?<value>\d{1,5}\/\d{4})',
-        'INEXIGIBILIDADE(?:\s+DE\s+LICITACAO)?\s*-\s*N\S*\s*(?<value>\d{1,5}\/\d{4})',
-        'DISPENSA(?:\s+DE\s+LICITACAO)?\s*-\s*N\S*\s*(?<value>\d{1,5}\/\d{4})'
+        'CONCORRENCIA(?:\s+PUBLICA)?(?:\s+ELETRONICA)?[^\n\d]{0,18}(?<value>\d{1,5}\/\d{4})',
+        'TOMADA\s+DE\s+PRECOS?[^\n\d]{0,18}(?<value>\d{1,5}\/\d{4})',
+        'INEXIGIBILIDADE(?:\s+DE\s+LICITACAO)?[^\n\d]{0,18}(?<value>\d{1,5}\/\d{4})',
+        'DISPENSA(?:\s+DE\s+LICITACAO)?[^\n\d]{0,18}(?<value>\d{1,5}\/\d{4})'
     )
 
     $modality = Get-FirstPatternValue -Text $Block -Patterns @(
@@ -1378,17 +1387,20 @@ function New-ContractItem {
         '(?<value>PR-[A-Z]\s*-\s*PREGAO(?:\s+ELETRONICO|\s+PRESENCIAL)?\s*-\s*\d{1,5}\/\d{4}(?:\s*-\s*EDITAL\s+N\S*\s*:?\s*\d{1,5}\/\d{4})?)',
         '(?<value>CP-[A-Z]\s*-\s*CONCORRENCIA(?:\s+PUBLICA)?(?:\s+ELETRONICA)?\s*-\s*\d{1,5}\/\d{4}(?:\s*-\s*EDITAL\s+N\S*\s*:?\s*\d{1,5}\/\d{4})?)',
         '(?<value>EDITAL\s+CHAMADA\s+PUBLICA\s+N\S*\s*:?\s*\d{1,5}\/\d{4})',
-        '(?<value>PREGAO\s+ELETRONICO\s+N\S*\s*:?\s*\d{1,5}\/\d{4})',
-        '(?<value>PREGAO\s+PRESENCIAL\s+N\S*\s*:?\s*\d{1,5}\/\d{4})',
-        '(?<value>CONCORRENCIA(?:\s+PUBLICA)?(?:\s+ELETRONICA)?\s+N\S*\s*:?\s*\d{1,5}\/\d{4})',
-        '(?<value>CHAMADA\s+PUBLICA\s+N\S*\s*:?\s*\d{1,5}\/\d{4})'
+        '(?<value>PREGAO\s+ELETRONICO[^\n]{0,24}?\d{1,5}\/\d{4})',
+        '(?<value>PREGAO\s+PRESENCIAL[^\n]{0,24}?\d{1,5}\/\d{4})',
+        '(?<value>CONCORRENCIA(?:\s+PUBLICA)?(?:\s+ELETRONICA)?[^\n]{0,24}?\d{1,5}\/\d{4})',
+        '(?<value>TOMADA\s+DE\s+PRECOS?[^\n]{0,24}?\d{1,5}\/\d{4})',
+        '(?<value>CHAMADA\s+PUBLICA[^\n]{0,24}?\d{1,5}\/\d{4})',
+        '(?<value>CREDENCIAMENTO[^\n]{0,24}?\d{1,5}\/\d{4})'
     )
 
     $contractor = Get-FirstPatternValue -Text $Block -Patterns @(
-        'CONTRATAD[AO]\s*:?\s*(?<value>[^\n]+)',
-        'FORNECEDOR\s*:?\s*(?<value>[^\n]+)',
-        'CREDENCIAD[AO]\s*:?\s*(?<value>[^\n]+)',
-        'DETENTOR[AO]\s*:?\s*(?<value>[^\n]+)'
+        '(?:^|\n)\s*CONTRATAD[AO]\s*:?\s*(?<value>[\s\S]{3,260}?)(?=\n\s*(?:CNPJ|CPF|OBJETO|VALOR|VIGENCIA|PRAZO|DATA|ASSINATURA|PROCESSO|MODALIDADE|FUNDAMENTO|LEGISLACAO|IGUAPE[,;])\b|$)',
+        '(?:^|\n)\s*FORNECEDOR\s*:?\s*(?<value>[\s\S]{3,260}?)(?=\n\s*(?:CNPJ|CPF|OBJETO|VALOR|VIGENCIA|PRAZO|DATA|ASSINATURA|PROCESSO|MODALIDADE|FUNDAMENTO|LEGISLACAO|REGISTRO\s+DA\s+ADESAO|IGUAPE[,;])\b|$)',
+        '(?:^|\n)\s*CREDENCIAD[AO]\s*:?\s*(?<value>[\s\S]{3,260}?)(?=\n\s*(?:CNPJ|CPF|OBJETO|VALOR|VIGENCIA|PRAZO|DATA|ASSINATURA|PROCESSO|MODALIDADE|FUNDAMENTO|LEGISLACAO|IGUAPE[,;])\b|$)',
+        '(?:^|\n)\s*DETENTOR[AO]\s*:?\s*(?<value>[\s\S]{3,260}?)(?=\n\s*(?:CNPJ|CPF|OBJETO|VALOR|VIGENCIA|PRAZO|DATA|ASSINATURA|PROCESSO|MODALIDADE|FUNDAMENTO|LEGISLACAO|IGUAPE[,;])\b|$)',
+        'PARTES\s*:?\s*[\s\S]{0,100}?\be\s+a?\s*(?:EMPRESA\s+)?(?<value>[^\n]{6,220}?)(?=(?:\\.|\\n)\s*(?:OBJETO|ATO|MOTIVO|CNPJ|CPF)\b|$)'
     )
 
     $cnpj = Get-FirstPatternValue -Text $Block -Patterns @(
@@ -1396,22 +1408,27 @@ function New-ContractItem {
     )
 
     $objectValue = Get-FirstPatternValue -Text $Block -Patterns @(
-        'OBJETO\s*:?\s*(?<value>[\s\S]{20,650}?)(?=\n(?:VALOR|VIGENCIA|PRAZO|DATA|ASSINATURA|INTERESSAD[OA]S?|CONTRATANTE|CONTRATAD[AO]|FORNECEDOR|CNPJ|CPF|FUNDAMENTO|O RECEBIMENTO|A ABERTURA|INICIO DA SESSAO|ADJUDICO|HOMOLOGO|IGUAPE,)|$)',
+        '(?:^|\n)\s*(?:\d+(?:\.\d+)?[\-\.]?\s*)?OBJETO\s*:?-?\s*(?<value>[\s\S]{20,900}?)(?=\n\s*(?:VALOR|VIGENCIA|VIGENCIA E EXECUCAO|PRAZO|DATA(?:\s+DA\s+ASSINATURA)?|ASSINATURA|INTERESSAD[OA]S?|CONTRATANTE|CONTRATAD[AO]|FORNECEDOR|CNPJ|CPF|FUNDAMENTO|LEGISLACAO|REGISTRO\s+DA\s+ADESAO|O RECEBIMENTO|A ABERTURA|INICIO DA SESSAO|ADJUDICO|HOMOLOGO|IGUAPE,)|$)',
         'PROCESSO(?:\s+ADMINISTRATIVO)?\s+N\S*\s*:?\s*\d{1,5}\/\d{4}\s*(?<value>[\s\S]{20,650}?)(?=\n(?:PR-[A-Z]|CP-[A-Z]|PREGAO|CONCORRENCIA|EDITAL\s+CHAMADA\s+PUBLICA|INTERESSAD[OA]S?|ADJUDICO|HOMOLOGO|A PREFEITURA MUNICIPAL|IGUAPE,)|$)',
         'EDITAL\s+CHAMADA\s+PUBLICA\s+N\S*\s*:?\s*\d{1,5}\/\d{4}\s*(?<value>[\s\S]{20,650}?)(?=\n(?:INTERESSAD[OA]S?|ADJUDICO|HOMOLOGO|IGUAPE,)|$)',
         '(?:DO\s+)?CONTRATO\s+\d{1,5}\/\d{4},\s*(?<value>[\s\S]{20,420}?)(?=\.\s*Art\.?\s*2|\n\s*Art\.?\s*2|\n\s*Esta\s+Portaria|$)',
-        'O OBJETO DESTE CONTRATO E\s*(?<value>[\s\S]{20,320}?)(?=\n(?:ART\.|ART |ESTA PORTARIA|GABINETE|$))'
+        'O OBJETO DESTE CONTRATO E\s*(?<value>[\s\S]{20,420}?)(?=\n(?:ART\.|ART |ESTA PORTARIA|GABINETE|$))',
+        '(?:CONSTITUI|CONSTITUIR|CONSTITUEM?)\s+OBJETO(?:\s+DESTE\s+(?:TERMO|CONTRATO|INSTRUMENTO))?\s*:?\s*(?<value>[\s\S]{20,420}?)(?=\n\s*(?:VALOR|VIGENCIA|PRAZO|DATA|ASSINATURA|CONTRATANTE|CONTRATAD[AO]|CNPJ|CPF|FUNDAMENTO|LEGISLACAO|IGUAPE,)|$)',
+        'TEM\s+POR\s+OBJETO\s*(?<value>[\s\S]{20,420}?)(?=\n\s*(?:VALOR|VIGENCIA|PRAZO|DATA|ASSINATURA|CONTRATANTE|CONTRATAD[AO]|CNPJ|CPF|FUNDAMENTO|LEGISLACAO|IGUAPE,)|$)'
     )
 
     $term = Get-FirstPatternValue -Text $Block -Patterns @(
-        'VIGENCIA\s*:?\s*(?<value>[^\n]+)',
-        'PRAZO(?: DE VIGENCIA)?\s*:?\s*(?<value>[^\n]+)',
-        'VALIDADE POR\s*(?<value>[^\n]+)'
+        '(?im)^\s*VIGENCIA(?:\s+E\s+EXECUCAO|\s+DO\s+CONTRATO)?\s*:?\s*(?<value>[^\n]+)',
+        '(?im)^\s*PRAZO(?:\s+DE\s+VIGENCIA|\s+DE\s+EXECUCAO)?\s*:?\s*(?<value>[^\n]+)',
+        '(?im)^\s*VALIDADE\s+POR\s*(?<value>[^\n]+)',
+        '(?<value>\d{1,4}\s*(?:\((?:[^)]*)\))?\s*(?:ANOS?|MESES?|DIAS?)[^.\n]{0,120}\bPERIODO(?:\s+DE)?\b[^.\n]{0,80}\d{2}/\d{2}/\d{4}\s*a\s*\d{2}/\d{2}/\d{4})',
+        '(?<value>PERIODO(?:\s+DE)?\s*\d{2}/\d{2}/\d{4}\s*a\s*\d{2}/\d{2}/\d{4}[^.\n]{0,80})'
     )
 
     $signatureDate = Get-FirstPatternValue -Text $Block -Patterns @(
-        'DATA(?: DA ASSINATURA)?\s*:?\s*(?<value>[^\n\.;]+)',
-        'ASSINATURA\s*:?\s*(?<value>[^\n\.;]+)'
+        '(?im)^\s*DATA\s+DA\s+ASSINATURA\s*:?\s*(?<value>\d{2}/\d{2}/\d{4})',
+        '(?im)^\s*ASSINATURA\s*:?\s*(?<value>\d{2}/\d{2}/\d{4})',
+        '(?im)^\s*DATA\s*:?\s*(?<value>\d{2}/\d{2}/\d{4})'
     )
 
     $legalBasis = Get-FirstPatternValue -Text $Block -Patterns @(
@@ -1440,7 +1457,13 @@ function New-ContractItem {
     if ([string]::IsNullOrWhiteSpace($processNumber) -and $recordClass -ne 'gestao_contratual') {
         $processNumber = Get-FirstPatternValue -Text $actTitle -Patterns @(
             'PROCESSO\s+N\S*\s*:?\s*(?<value>\d{1,5}\/\d{4})',
-            '(?:PREGAO|CONCORRENCIA|CHAMADA\s+PUBLICA|INEXIGIBILIDADE|DISPENSA)[^\n]*?(?<value>\d{1,5}\/\d{4})'
+            '(?:PREGAO|CONCORRENCIA|TOMADA\s+DE\s+PRECOS?|CHAMADA\s+PUBLICA|CREDENCIAMENTO|INEXIGIBILIDADE|DISPENSA)[^\n]*?(?<value>\d{1,5}\/\d{4})'
+        )
+    }
+
+    if ([string]::IsNullOrWhiteSpace($processNumber) -and $recordClass -ne 'gestao_contratual') {
+        $processNumber = Get-FirstPatternValue -Text $objectValue -Patterns @(
+            '(?:PREGAO|CONCORRENCIA|TOMADA\s+DE\s+PRECOS?|CHAMADA\s+PUBLICA|CREDENCIAMENTO|INEXIGIBILIDADE|DISPENSA)[^\n]*?(?<value>\d{1,5}\/\d{4})'
         )
     }
 

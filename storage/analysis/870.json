@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "870",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:02",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:12",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_797_19073858.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_797_19073858.pdf",
     "keywords":  [
@@ -10,24 +10,29 @@
                      "inexigibilidade",
                      "rescisao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  18,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
     "items":  [
                   {
                       "type":  "Contrato",
-                      "actTitle":  "Contrato publicado",
+                      "actTitle":  "Contrato 8/2024",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  11,
+                      "confidenceScore":  13,
                       "confidenceLabel":  "alta",
                       "pageNumber":  3,
-                      "contractNumber":  "",
+                      "contractNumber":  "8/2024",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "POINT PARK DIVERSOES EVENTOS TRANSPORTES E FEIRAS LTDA",
+                      "contractor":  "POINT PARK DIVERSOES EVENTOS TRANSPORTES E FEIRAS LTDA CONTRATO:N°:078/2024",
                       "cnpj":  "",
                       "object":  "Autorizacao remunerada temporaria de espaco publico para utilizacao na Festa Popular em louvor ao Senhor Bom Jesus de Iguape, no periodo de 28 de julho a 06 de agosto de 2024, no perimetro delimitado para instalacao de parque diversao. CHAMAMENTO PUBLICO Nº 005/2024",
                       "value":  "",
@@ -47,7 +52,6 @@
                       "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: POINT PARK DIVERSOES EVENTOS TRANSPORTES E FEIRAS LTDA\nCONTRATO:N°:078/2024\nOBJETO: Autorizacao remunerada temporaria de espaco publico para utilizacao na Festa Popular em louvor ao Senhor Bom\nJesus de Iguape, no periodo de 28 de julho a 06 de agosto de 2024, no perimetro delimitado para instalacao de parque diversao.\nCHAMAMENTO PUBLICO Nº 005/2024\nDATA:16/07/2024",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem numero do contrato",
                                     "Sem valor identificado"
                                 ]
                   }

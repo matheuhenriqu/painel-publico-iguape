@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "1292",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:59",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:57",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_127_22082443.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_extra_127_22082443.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -18,7 +23,7 @@
                       "actTitle":  "AVISO DE SUSPENSAO DE LICITACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  8,
+                      "confidenceScore":  6,
                       "confidenceLabel":  "media",
                       "pageNumber":  1,
                       "contractNumber":  "",
@@ -26,7 +31,7 @@
                       "modality":  "Concorrencia Eletronica n° 008/2025",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "a CONTRATACAO DE EMPRESA ESPECIALIZADA PARA SERVICOS DE LIMPEZA URBANA E DESTINACAO DE RESIDUOS SOLIDOS URBANOS DO MUNICIPIO DE IGUAPE/SP, conforme especificacoes detalhadas nos anexos do edital. Ficam os interessados cientes da presente decisao. Publique-se. Cumpra-se. Iguape, 22 de dezembro de 2025. SELMA XAVIER PONTES Secretaria Municipal de Desenvolvimento Sustentavel /",
+                      "object":  "",
                       "value":  "",
                       "term":  "",
                       "signatureDate":  "",
@@ -46,9 +51,9 @@
                                                          "Secretaria de Desenvolvimento Economico Sustentavel"
                                                      ],
                       "excerpt":  "EXTRATO\nAVISO DE SUSPENSAO DE LICITACAO\n\n A Prefeitura Municipal de Iguape torna publica a suspensao da Concorrencia Eletronica n° 008/2025, marcado para 22/12/2025, as 10h00, em\ndecorrencia de r. decisao do Tribunal de Contas do Estado de Sao Paulo no TC-023340.989.25-0, tendo por objeto a CONTRATACAO DE EMPRESA\nESPECIALIZADA PARA SERVICOS DE LIMPEZA URBANA E DESTINACAO DE RESIDUOS SOLIDOS URBANOS DO MUNICIPIO DE IGUAPE/SP,\nconforme especificacoes detalhadas nos anexos do edital.\n\nFicam os interessados cientes da ",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
-
+                                    "Sem objeto identificado"
                                 ]
                   }
               ]

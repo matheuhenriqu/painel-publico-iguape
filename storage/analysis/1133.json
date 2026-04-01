@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1133",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:27",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:07",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1011_03062337.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1011_03062337.pdf",
     "keywords":  [
@@ -9,115 +9,18 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  5,
-                    "itemCount":  3,
-                    "totalValue":  "R$ 11.166.900,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 008/2025.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  4,
-                      "contractNumber":  "008/2025",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para locacao de projecao de imagem, painel de led e telao, iluminacao, sonorizacao, geradores, grades, palcos, pisos, tendas, galpoes, containers camarim, containers escritorio, containers sanitarios, arquibancadas, estruturas complementares e apoio, a serem utilizados pela Secretaria de Cultura, Esportes e Turismo nos eventos neste municipio pelo periodo de 12 (doze) meses",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-cultura",
-                      "primaryOrganizationName":  "Secretaria de Cultura",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "cultura",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-cultura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Secretaria de Cultura"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 008/2025.\nOBJETO: Registro de Precos para locacao de projecao de imagem, painel de led e telao, iluminacao, sonorizacao, geradores, grades, palcos, pisos,\ntendas, galpoes, containers camarim, containers escritorio, containers sanitarios, arquibancadas, estruturas complementares e apoio, a serem\nutilizados pela Secretaria de Cultura, Esportes e Turismo nos eventos neste municipio pelo periodo de 12 (doze) meses.",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem contratada identificada",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Aviso de Licitacao",
-                      "actTitle":  "Pregao Eletronico n°. 008/2025",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  4,
-                      "contractNumber":  "",
-                      "processNumber":  "008/2025",
-                      "modality":  "Pregao Eletronico n°. 008/2025",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "R$ 11.166.900,00",
-                      "term":  "Validade do presente Registro de Precos – 30/06/2025 a 29/06/2026 – 12 (doze) meses.",
-                      "signatureDate":  "30/06/2025",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
 
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "Pregao Eletronico n°. 008/2025\nData: 30/06/2025\nVIGENCIA: Validade do presente Registro de Precos – 30/06/2025 a 29/06/2026 – 12 (doze) meses.\nVALOR: Lotes – 01, 02, 03, 04, 05 e 07 - R$ 11.166.900,00 (onze milhoes, cento e sessenta e seis mil e novecentos reais).",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem objeto identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 009/2025.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  4,
-                      "contractNumber":  "009/2025",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para locacao de projecao de imagem, painel de led e telao, iluminacao, sonorizacao, geradores, grades, palcos, pisos, tendas, galpoes, containers camarim, containers escritorio, containers sanitarios, arquibancadas, estruturas complementares e apoio, a serem utilizados pela Secretaria de Cultura, Esportes e Turismo nos eventos neste municipio pelo periodo de 12 (doze) meses",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-cultura",
-                      "primaryOrganizationName":  "Secretaria de Cultura",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "cultura",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-cultura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Secretaria de Cultura"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 009/2025.\nOBJETO: Registro de Precos para locacao de projecao de imagem, painel de led e telao, iluminacao, sonorizacao, geradores, grades, palcos, pisos,\ntendas, galpoes, containers camarim, containers escritorio, containers sanitarios, arquibancadas, estruturas complementares e apoio, a serem utilizados\npela Secretaria de Cultura, Esportes e Turismo nos eventos neste municipio pelo periodo de 12 (doze) meses.",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem contratada identificada",
-                                    "Sem valor identificado"
-                                ]
-                  }
               ]
 }

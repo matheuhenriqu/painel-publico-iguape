@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "541",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:04",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:56",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/293dac6106648d5ea339c1f0baa962b5.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/293dac6106648d5ea339c1f0baa962b5.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  6,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 191.023,09"
                 },
@@ -19,13 +24,13 @@
                       "actTitle":  "1º TERMO ADITIVO AO CONTRATO 169/2022",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  15,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "169/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "CIACAN ENGENHARIA EIRELI-ME",
+                      "processNumber":  "011/2022",
+                      "modality":  "TOMADA DE PRECO Nº 011/2022",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI-ME CONTRATO N°: 169/2022",
                       "cnpj":  "67405618238249",
                       "object":  "contratacao de empresa especializada para obra de reforma e manutencao da Escola ‘Benedito Rosa Carneiro’, localizada na Rua David Koda, nº 1- Centro-Iguape/SP, corresponde o Aditivo de Acrescimo e Supressao de servicos",
                       "value":  "R$ 191.023,09",
@@ -43,7 +48,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "1º TERMO ADITIVO AO CONTRATO 169/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CIACAN ENGENHARIA EIRELI-ME\nCONTRATO N°: 169/2022\nOBJETO: contratacao de empresa especializada para obra de reforma e manutencao da Escola ‘Benedito Rosa Carneiro’, localizada na Rua David Koda,\nnº 1- Centro-Iguape/SP, corresponde o Aditivo de Acrescimo e Supressao de servicos.\nVALOR: R$ 191.023,09 (cento e noventa e um mil, vinte e tres reais e nove centavos), sendo: Acrescimo no valor de R$ 222.773,03 (duzentos e vinte e\ndois mil, ",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
 
                                 ]
@@ -61,10 +66,10 @@
                       "modality":  "PREGAO PRESENCIAL nº. 021/2023",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "Aquisicao de Materiais Permanentes (mobiliarios e eletrodomesticos) em atendimento a Secretaria Municipal de Assistencia e Desenvolvimento Social . LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "object":  "Aquisicao de Materiais Permanentes (mobiliarios e eletrodomesticos) em atendimento a Secretaria Municipal de Assistencia e Desenvolvimento Social",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE CUMPRE OS",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-assistencia-social",
                       "primaryOrganizationName":  "Secretaria de Assistencia e Desenvolvimento Social",

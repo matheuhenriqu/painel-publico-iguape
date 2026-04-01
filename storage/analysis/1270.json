@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1270",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:04",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:18",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1110_28070721.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1110_28070721.pdf",
     "keywords":  [
@@ -9,153 +9,18 @@
                      "contrato",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  6,
-                    "itemCount":  4,
-                    "totalValue":  "R$ 10.348.647,30"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Contrato",
-                      "actTitle":  "Contrato 188/2025",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  5,
-                      "contractNumber":  "188/2025",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "ADM MEDICA GESTAO E SAUDE LTDA",
-                      "cnpj":  "",
-                      "object":  "Credenciamento de pessoas fisicas e juridicas para a prestacao de servicos medicos plantonistas, medicos para Saude da Familia, medicos especialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTA OCUPACIONAL, FONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de Saude de Iguape, bem como todos os locais de atendimento que a compoe, pelo periodo de 12 meses",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: ADM MEDICA GESTAO E SAUDE LTDA\nCONTRATO Nº 188/2025\nCNPJ: 49.XXX.XXX/XXXX-70\nOBJETO: Credenciamento de pessoas fisicas e juridicas para a prestacao de servicos medicos plantonistas, medicos para Saude da Familia, medicos\nespecialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTA OCUPACIONAL,\nFONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de Saude de Iguape, bem como todos os locais de\na",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Inexigibilidade",
-                      "actTitle":  "INEXIGIBILIDADE n°. 132/2025",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  5,
-                      "contractNumber":  "",
-                      "processNumber":  "132/2025",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "R$ 130,50",
-                      "term":  "12 (doze) meses, periodo de 18/11/2025 a 17/11/2026",
-                      "signatureDate":  "18/11/2025",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "INEXIGIBILIDADE n°. 132/2025\nData: 18/11/2025\nVIGENCIA: 12 (doze) meses, periodo de 18/11/2025 a 17/11/2026\nEXECUCAO: Ordem de Servico - 03 (tres) meses, periodo de 18/11/2025 a 17/02/2026.\nITEM: 1 - Medico Generalista – Classificacao - (3ª colocada)\nVALOR: Valor/ Hora - R$ 130,50 (cento e trinta reais e cinquenta centavos), sendo 40 h semanais, com quantidade trimestral – rodizio.",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem objeto identificado",
-                                    "Sem modalidade identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 048/2025.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  5,
-                      "contractNumber":  "048/2025",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Contratacao de empresa visando eventual contratacao de empresa para prestacao de servicos de enfermagem (enfermeiro, tecnico de enfermagem e auxiliar de enfermagem), em regime de plantao 12x36 e 40 horas semanais, para atender a Secretaria Municipal de Saude neste Municipio de Iguape /SP, pelo periodo de 12 (doze) meses",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-gestao-planejamento",
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Secretaria de Gestao e Planejamento",
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 048/2025.\nOBJETO: Contratacao de empresa visando eventual contratacao de empresa para prestacao de servicos de enfermagem (enfermeiro, tecnico de\nenfermagem e auxiliar de enfermagem), em regime de plantao 12x36 e 40 horas semanais, para atender a Secretaria Municipal de Saude neste\nMunicipio de Iguape /SP, pelo periodo de 12 (doze) meses.",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem contratada identificada",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Aviso de Licitacao",
-                      "actTitle":  "Pregao Eletronico n°. 024/2025",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  5,
-                      "contractNumber":  "",
-                      "processNumber":  "024/2025",
-                      "modality":  "Pregao Eletronico n°. 024/2025",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "R$ 10.348.516,80",
-                      "term":  "Validade do presente Registro de Precos – 12/11/2025 a 11/11/2026",
-                      "signatureDate":  "12/11/2025",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "Pregao Eletronico n°. 024/2025\nData: 12/11/2025\nVIGENCIA: Validade do presente Registro de Precos – 12/11/2025 a 11/11/2026\nVALOR: R$ 10.348.516,80 (dez milhoes, trezentos e quarenta e oito mil, quinhentos e dezesseis reais e oitenta centavos).",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem objeto identificado"
-                                ]
-                  }
+
               ]
 }

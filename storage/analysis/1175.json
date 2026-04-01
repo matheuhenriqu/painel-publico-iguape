@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "1175",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:20",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:53",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1034_09084920.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1034_09084920.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  5,
+                    "relevantPageCount":  3,
+                    "blockCount":  5,
                     "itemCount":  3,
                     "totalValue":  "R$ 0,00"
                 },
@@ -29,7 +34,7 @@
                       "object":  "empresa G.L. COMERCIO E SERVICOS LTDA",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-educacao",
                       "primaryOrganizationName":  "Secretaria de Educacao",
@@ -46,7 +51,7 @@
                                                          "Secretaria de Educacao"
                                                      ],
                       "excerpt":  "PORTARIA Nº 187, DE 08 DE AGOSTO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Luciano Pereira Viana, Secretario Municipal de Educacao, inscrito no CPF/MF nº 131.818.418-54, para exercer a funcao de\n gestor do Contrato 129/2025, empresa G.L. COMERCIO E SERVICO",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -67,7 +72,7 @@
                       "object":  "empresa G.L. COMERCIO E SERVICOS LTDA",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-educacao",
                       "primaryOrganizationName":  "Secretaria de Educacao",
@@ -82,7 +87,7 @@
                                                          "Secretaria de Educacao"
                                                      ],
                       "excerpt":  "PORTARIA Nº 189, DE 08 DE AGOSTO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Luciano Pereira Viana, Secretario Municipal de Educacao, inscrito no CPF/MF nº 131.818.418-54, para exercer a funcao de\n gestor do Contrato 131/2025, empresa G.L. COMERCIO E SERVICO",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -92,18 +97,18 @@
                       "actTitle":  "CONCORRENCIA ELETRONICA",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  7,
+                      "confidenceScore":  8,
                       "confidenceLabel":  "media",
                       "pageNumber":  4,
                       "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "CONCORRENCIA ELETRONICA",
+                      "processNumber":  "005/2025",
+                      "modality":  "CONCORRENCIA ELETRONICA – n.º 005/2025",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA CONSTRUCAO DA CRECHE TIPO 2- PADRAO FNDE, localizada na rua Vereador Francisco Costa (antiga rua A)-Jardim Primavera, no Municipio de Iguape , conforme Termo de Compromisso nº 961878/2024/FNDE/CAIXA, CELEBRADO ENTRE O FUNDO NACIONAL DE DESENVOLVIMENTO DA EDUCACAO E O MUNICIPIO DE IGUAPE. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA CONSTRUCAO DA CRECHE TIPO 2- PADRAO FNDE, localizada na rua Vereador Francisco Costa (antiga rua A)-Jardim Primavera, no Municipio de Iguape , conforme Termo de Compromisso nº 961878/2024/FNDE/CAIXA, CELEBRADO ENTRE O FUNDO NACIONAL DE DESENVOLVIMENTO DA EDUCACAO E O MUNICIPIO DE IGUAPE",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "signatureDate":  "",
                       "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -120,7 +125,7 @@
                       "excerpt":  "CONCORRENCIA ELETRONICA\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, a CONCORRENCIA ELETRONICA – n.º 005/2025, do tipo MENOR PRECO GLOBAL, situada\nna Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA CONSTRUCAO DA CRECHE TIPO 2- PADRAO FNDE, localizada na rua\nVereador Francisco Costa (antiga rua A)-Jardim Primavera, no Municipio de Iguape , conforme Termo de Compromisso nº\n96",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem numero principal identificado"
+
                                 ]
                   }
               ]

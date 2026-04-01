@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "922",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:56",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:59",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_841-_26074411.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_841-_26074411.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  4,
                     "itemCount":  2,
                     "totalValue":  "R$ 793.843,08"
                 },
@@ -26,7 +31,7 @@
                       "contractNumber":  "115/2024",
                       "processNumber":  "046/2023",
                       "modality":  "Pregao Presencial n°. 046/2023",
-                      "contractor":  "ENGETEC ENGENHARIA EIRELI - EPP",
+                      "contractor":  "ENGETEC ENGENHARIA EIRELI - EPP CONTRATO Nº 115/2024",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para eventual locacao de mao de obra com a finalidade de execucao e manutencao da infraestrutura de eventos, neste municipio de Iguape/SP. Pregao Presencial n°. 046/2023",
                       "value":  "R$ 791.875,00",
@@ -60,7 +65,7 @@
                       "contractNumber":  "002/2024",
                       "processNumber":  "065/2023",
                       "modality":  "Pregao Presencial n°. 065/2023",
-                      "contractor":  "GENTE SEGURADORA S.A",
+                      "contractor":  "GENTE SEGURADORA S.A. CONTRATO N°: 002/2024",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa especializada para a prestacao de servicos de Seguro dos diversos veiculos que compoem a frota da Prefeitura Municipal de Iguape. Pregao Presencial n°. 065/2023",
                       "value":  "R$ 1.968,08",

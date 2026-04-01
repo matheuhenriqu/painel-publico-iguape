@@ -1,20 +1,97 @@
 ﻿{
     "diaryId":  "1368",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-19T16:45:52",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:31",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_150_19043649.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_extra_150_19043649.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  0,
-                    "itemCount":  0,
-                    "totalValue":  "R$ 0,00",
-                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Items\u0027 porque ele é uma matriz vazia."
+                    "pageCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
                 },
     "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO Nº 003/2026 - MENOR PRECO DO KM/RODADO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "003/2026",
+                      "modality":  "PREGAO ELETRONICO Nº 003/2026",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO Nº 003/2026 - MENOR PRECO DO KM/RODADO\n\nA PREFEITURA MUNICIPAL DE IGUAPE, atraves do Pregoeiro, nos usos legais de suas atribuicoes, torna publico para conhecimento dos\ninteressados o RESULTADO do julgamento do recurso administrativo da licitacao Pregao Eletronico nº 003/2026, cujo objeto e a CONTRATACAO\nDE EMPRESA ESPECIALIZADA PARA PRESTACAO DE SERVICOS DE TRANSPORTE ESCOLAR ATRAVES DE VEICULOS TIPO KOMBI/VAN\nESCOLAR EXCLUSIVO PARA ATENDIMENTO DE ALUNOS DA REDE PUBLICA DE ENSINO (MUNICIPAL E EST",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "179/2026",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 3/2026 - EDITAL Nº: 4/2026",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA PRESTACAO DE SERVICOS DE TRANSPORTE ESCOLAR ATRAVES DE VEICULOS TIPO KOMBI/VAN ESCOLAR EXCLUSIVO PARA ATENDIMENTO DE ALUNOS DA REDE PUBLICA DE ENSINO (MUNICIPAL E ESTADUAL) DO MUNICIPIO DE IGUAPE, PELO PERIODO DE 12 MESES, EM 200 (DUZENTOS) DIAS LETIVOS ANUAIS",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 179/2026\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA PRESTACAO DE SERVICOS DE TRANSPORTE ESCOLAR ATRAVES DE VEICULOS\nTIPO KOMBI/VAN ESCOLAR EXCLUSIVO PARA ATENDIMENTO DE ALUNOS DA REDE PUBLICA DE ENSINO (MUNICIPAL E ESTADUAL) DO\nMUNICIPIO DE IGUAPE, PELO PERIODO DE 12 MESES, EM 200 (DUZENTOS) DIAS LETIVOS ANUAIS\nPR-E - PREGAO ELETRONICO - 3/2026 - EDITAL Nº: 4/2026\nINTERESSADOS: SECRETARIA MUNICIPAL DE EDUCACAO .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigo",
+                      "completeness":  "media",
+                      "flags":  [
 
+                                ]
+                  }
               ]
 }

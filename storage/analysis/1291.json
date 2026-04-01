@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1291",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:00",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:58",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1124_20122101.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1124_20122101.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  14,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  3,
                     "totalValue":  "R$ 173,57"
                 },
@@ -93,15 +98,15 @@
                       "actTitle":  "Chamada Publica / Credenciamento nº 014/2025, que tem por OBJETO: CONTRATACAO, POR MEIO DE CREDENCIAMENTO, DE EMPRESAS",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  10,
-                      "confidenceLabel":  "alta",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
                       "pageNumber":  9,
                       "contractNumber":  "",
                       "processNumber":  "014/2025",
-                      "modality":  "Chamada Publica / Credenciamento nº 014/2025, que tem por OBJETO: CONTRATACAO, POR MEIO DE CREDENCIAMENTO, DE EMPRESAS",
-                      "contractor":  "S/HABILITADAS e INABILITADAS as seguintes PARTICIPANTES",
+                      "modality":  "Chamada Publica / Credenciamento nº 014/2025",
+                      "contractor":  "",
                       "cnpj":  "",
-                      "object":  "CONTRATACAO, POR MEIO DE CREDENCIAMENTO, DE EMPRESAS PARA A PRESTACAO DE SERVICOS DE LIMPEZA URBANA DURANTE OPERACAO VERAO IGUAPE LIMPA 2025/2026, ENVOLVENDO VARREDURA MANUAL, COLETA DE RESIDUOS E SERVICOS GERAIS, NO MUNICIPIO DE IGUAPE/SP, para atender a demanda da Secretaria Municipal de Desenvolvimento Sustentavel de Iguape, bem como todos os locais de atendimento que a compoe. Apos a analise dos documentos apresentados, ficam CREDENCIADAS/HABILITADAS e INABILITADAS as seguintes PARTICIPANTES",
+                      "object":  "",
                       "value":  "",
                       "term":  "",
                       "signatureDate":  "",
@@ -119,9 +124,9 @@
                                                          "Secretaria de Desenvolvimento Economico Sustentavel"
                                                      ],
                       "excerpt":  "Chamada Publica / Credenciamento nº 014/2025, que tem por OBJETO: CONTRATACAO, POR MEIO DE CREDENCIAMENTO, DE EMPRESAS\nPARA A PRESTACAO DE SERVICOS DE LIMPEZA URBANA DURANTE OPERACAO VERAO IGUAPE LIMPA 2025/2026, ENVOLVENDO\nVARREDURA MANUAL, COLETA DE RESIDUOS E SERVICOS GERAIS, NO MUNICIPIO DE IGUAPE/SP, para atender a demanda da Secretaria\nMunicipal de Desenvolvimento Sustentavel de Iguape, bem como todos os locais de atendimento que a compoe. Apos a analise dos documentos\napresentados, ficam CREDENCIADAS/HABILIT",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
-
+                                    "Sem objeto identificado"
                                 ]
                   }
               ]

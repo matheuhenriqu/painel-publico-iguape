@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "527",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:06",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:00",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/c5476b3530b53e237f7ddd9a89c73e27.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/c5476b3530b53e237f7ddd9a89c73e27.pdf",
     "keywords":  [
@@ -9,45 +9,18 @@
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  4,
-                    "itemCount":  1,
-                    "totalValue":  "R$ 20.454,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:039/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "9/2023",
-                      "processNumber":  "016/2023",
-                      "modality":  "Pregao Presencial n°. 016/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicao de materiais de utilidades domesticas e materiais de higiene e limpeza para as diversas Secretarias e Departamentos da Prefeitura Municipal de Iguape. Pregao Presencial n°. 016/2023",
-                      "value":  "R$ 20.454,00",
-                      "term":  "27/03/2023 a 26/03/2024",
-                      "signatureDate":  "27/03/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:039/2023\nOBJETO: Registro de Precos para aquisicao de materiais de utilidades domesticas e materiais de higiene e limpeza para as diversas\nSecretarias e Departamentos da Prefeitura Municipal de Iguape.\nPregao Presencial n°. 016/2023\nDATA: 27/03/2023\nVIGENCIA: 27/03/2023 a 26/03/2024\nVALOR: R$ 20.454,00 (vinte mil, quatrocentos e cinquenta e quatro reais).",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  }
+
               ]
 }

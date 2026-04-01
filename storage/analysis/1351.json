@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "1351",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:47",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:37",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1166_04074836.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1166_04074836.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -29,7 +34,7 @@
                       "object":  "REGISTRO DE PRECOS PARA FUTURAS E EVENTUAIS CONTRATACOES DE EMPRESA(S) ESPECIALIZADA(S) PARA FORNECIMENTO DE TONERS E UNIDADES DE IMAGEM DE DIFERENTES MARCAS E MODELOS, DESTINADOS A ATENDER A DEMANDA DAS SECRETARIAS MUNICIPAIS, PELO PERIODO DE 12 (DOZE) MESES",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -71,7 +76,7 @@
                       "object":  "Aquisicao de 02 (dois) aparelhos de ar condicionado 60.000 BTUs Split com instalacao, conforme especificacoes tecnicas detalhadas nos termos e condicoes estabelecidos nos documentos anexos",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "542",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:03",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:56",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/1a21321451a7fb65ff864b0edaa22062.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/1a21321451a7fb65ff864b0edaa22062.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 150.000,00"
                 },
@@ -27,7 +32,7 @@
                       "contractNumber":  "039/2020",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "EMPRESA BRASILEIRA",
+                      "contractor":  "BRASILEIRA DE CORREIOS E TELEGRAFOS",
                       "cnpj":  "",
                       "object":  "Contrato Multiplo de Prestacao de Servicos e Vendas de Produtos – Correios e Telegrafos",
                       "value":  "",

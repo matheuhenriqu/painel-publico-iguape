@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "420",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:25",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:25",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/4d086dfa6be5fe19ed743b30cefa73cf.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/4d086dfa6be5fe19ed743b30cefa73cf.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  9,
+                    "relevantPageCount":  6,
+                    "blockCount":  10,
                     "itemCount":  7,
                     "totalValue":  "R$ 978.000,00"
                 },
@@ -31,7 +36,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-assistencia-social",
                       "primaryOrganizationName":  "Secretaria de Assistencia e Desenvolvimento Social",
@@ -69,7 +74,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-assistencia-social",
                       "primaryOrganizationName":  "Secretaria de Assistencia e Desenvolvimento Social",
@@ -105,7 +110,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-assistencia-social",
                       "primaryOrganizationName":  "Secretaria de Assistencia e Desenvolvimento Social",

@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "307",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:44",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:52",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/f47ddac359b9c720278107d744f79426.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/f47ddac359b9c720278107d744f79426.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  6,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  3,
                     "totalValue":  "R$ 66.601,39"
                 },
@@ -25,7 +30,7 @@
                       "contractNumber":  "002/2022",
                       "processNumber":  "001/2022",
                       "modality":  "PREGAO PRESENCIAL Nº 001/2022",
-                      "contractor":  "COOPERATIVA DE TRABALHADORES DE TRANSPORTE ESCOLAR DE IGUAPE",
+                      "contractor":  "COOPERATIVA DE TRABALHADORES DE TRANSPORTE ESCOLAR DE IGUAPE CONTRATO N°: 002/2022",
                       "cnpj":  "",
                       "object":  "Constitui o objeto do presente termo, o Anexo I – Termo de Ref erencia do Edital – Item 1.2 – Lote 01, por veiculo Kombi/Van Escolar, nos bairros rurais e urbanos em f ornecimento de 53 (cinquenta e tres) veiculos, f ica suprimido 17 (dezessete) veiculos, permanecendo apenas 36. (trinta e seis) veiculos para a execucao de todas as rotas, com f undamento no artigo 65 inciso II alinea b da lei8.666/93 PREGAO PRESENCIAL Nº 001/2022",
                       "value":  "",
@@ -53,13 +58,13 @@
                       "actTitle":  "Contrato 040/2022",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  15,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "040/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "processNumber":  "002/2022",
+                      "modality":  "TOMADA DE PRECOS Nº 002/2022",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI CONTRATO N°: 040/2022",
                       "cnpj":  "",
                       "object":  "lote (01) Reforma da Creche Antonia de Lima Vitorio no Bairro do Rocio. TOMADA DE PRECOS Nº 002/2022",
                       "value":  "R$ 66.601,39",
@@ -93,7 +98,7 @@
                       "contractNumber":  "041/2022",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI CONTRATO N°: 041/2022",
                       "cnpj":  "",
                       "object":  "lote (02) - Reforma da Creche Maria Lourenco da Silva no Bairro do Rocio",
                       "value":  "",

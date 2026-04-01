@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "964",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:52",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:51",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_873_22071744.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_873_22071744.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  18,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 11.642,00"
                 },
@@ -24,7 +29,7 @@
                       "contractNumber":  "146/2024",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "LUCAS ALEXANDRE SESSO COMERCIO LTDA",
+                      "contractor":  "LUCAS ALEXANDRE SESSO COMERCIO LTDA CONTRATO N°: 146/2024",
                       "cnpj":  "35203012022000",
                       "object":  "Aquisicao de equipamentos mobiliarios, com destinacao dos bens para o Centro de referencia de Assistencia Social (CRAS), oriundo do recurso: Emenda Parlamentar Processo nº 202281000306 - Programacao SIGTV n° 352030120220002",
                       "value":  "",

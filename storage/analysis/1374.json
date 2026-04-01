@@ -1,20 +1,129 @@
 ﻿{
     "diaryId":  "1374",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-26T09:16:24",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:26",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1181_26074637.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1181_26074637.pdf",
     "keywords":  [
                      "contrato",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  0,
-                    "itemCount":  0,
-                    "totalValue":  "R$ 0,00",
-                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Items\u0027 porque ele é uma matriz vazia."
+                    "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 2.790.000,00"
                 },
     "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 060/2026",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "060/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "TROUPE BRASIL LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para a operacao da Estacao de Transbordo Municipal de Iguape, compreendendo a recepcao, manuseio, acondicionamento, pesagem e transbordo dos Residuos Solidos Urbanos (RSU), bem como a prestacao dos servicos de transporte rodoviario e destinacao final ambientalmente adequada dos residuos classificados como Classe II – fracao rejeito, conforme a ABNT NBR-10.004/2004",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: TROUPE BRASIL LTDA\nCNPJ: 66.xxx.xxx/xxxx-47\nCONTRATO N°: 060/2026\nOBJETO: Contratacao de empresa especializada para a operacao da Estacao de Transbordo Municipal de Iguape, compreendendo a recepcao,\nmanuseio, acondicionamento, pesagem e transbordo dos Residuos Solidos Urbanos (RSU), bem como a prestacao dos servicos de transporte rodoviario\ne destinacao final ambientalmente adequada dos residuos classificados como Classe II – fracao rejeito, conforme a ABNT NBR-",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO Nº 007/2026",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "007/2026",
+                      "modality":  "PREGAO ELETRONICO Nº 007/2026",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 2.790.000,00",
+                      "term":  "12 (doze) meses-Periodo: 24/03/2026 a 23/03/2027.",
+                      "signatureDate":  "24/03/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO Nº 007/2026\nData: 24/03/2026\nVALOR: R$ 2.790.000,00 (dois milhoes, setecentos e noventa mil, seiscentos e oitenta reais)\nVIGENCIA: 12 (doze) meses-Periodo: 24/03/2026 a 23/03/2027.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CONCORRENCIA ELETRONICA",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "005/2026",
+                      "modality":  "CONCORRENCIA ELETRONICA – n.º 005/2026",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA EXECUCAO DE OBRAS DE ESTABILIZACAO DE TALUDE E CONTENCAO DE EROSAO NA ESTRADA DO JAIRE, MUNICIPIO DE IGUAPE/SP, conforme termo de Convenio nº MIL – 008/630/2026, celebrado entre o GOVERNO DO ESTADO DE SAO PAULO CASA MILITAR/ COORDENADORIA ESTADUAL DE PROTECAO E DEFESA CIVIL e o Municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "CONCORRENCIA ELETRONICA\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, a CONCORRENCIA ELETRONICA – n.º 005/2026, do tipo MENOR PRECO GLOBAL, situada\nna Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA EXECUCAO DE OBRAS DE ESTABILIZACAO DE TALUDE E CONTENCAO DE\nEROSAO NA ESTRADA DO JAIRE, MUNICIPIO DE IGUAPE/SP, conforme termo de Convenio nº MIL – 008/630/2026, celebrado entre ",
+                      "completeness":  "media",
+                      "flags":  [
 
+                                ]
+                  }
               ]
 }

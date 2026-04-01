@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "877",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:01",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:10",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_043_25030835.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_extra_043_25030835.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -19,13 +24,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  1,
                       "contractNumber":  "",
                       "processNumber":  "360/2024",
                       "modality":  "PR-E - PREGAO ELETRONICO - 7/2024 - EDITAL Nº: 14/2024",
-                      "contractor":  "MARCELO FELIX DOS ANJOS 30349697833",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada em locacao de Trenzinhos Turisticos, para realizar o transporte de pessoas entre o Centro Historico e o Centro de Eventos durante as festividades da Festa de Agosto, neste Municipio de Iguape/SP",
                       "value":  "",

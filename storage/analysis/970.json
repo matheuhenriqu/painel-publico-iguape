@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "970",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:51",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:50",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_879_30065630.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_879_30065630.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  5,
+                    "relevantPageCount":  5,
+                    "blockCount":  9,
                     "itemCount":  5,
                     "totalValue":  "R$ 1.069.757,16"
                 },
@@ -31,7 +36,7 @@
                       "object":  "empresa ELITH INFORMATICA LTDA",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-gestao-planejamento",
                       "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
@@ -46,7 +51,7 @@
                                                          "Secretaria de Gestao e Planejamento"
                                                      ],
                       "excerpt":  "PORTARIA Nº264\n DE 29 DE NOVEMBRO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Samuel Roberto Dias Martins, Diretor III, titular da Cedula de Identidade RG nº 42.393.209-3 SSP/SP, inscrito no CPF/MF nº.\n 370.366.328-60, para exercer a funcao de Gestor do Co",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -67,7 +72,7 @@
                       "object":  "empresa HOBBY INDUSTRIA E COMERCIO LTDA",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -80,7 +85,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "PORTARIA Nº266\n DE 29 DE NOVEMBRO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Samuel Roberto Dias Martins, Diretor III, titular da Cedula de Identidade RG nº 42.393.209-3 SSP/SP, inscrito no CPF/MF nº.\nArt. 2º - 370.366.328-60, para exercer a funcao de Gestor do Co",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -101,7 +106,7 @@
                       "object":  "empresa RSM SOLUCOES LTDA",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -114,7 +119,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "PORTARIA Nº268\n DE 29 DE NOVEMBRO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Samuel Roberto Dias Martins, Diretor III, titular da Cedula de Identidade RG nº 42.393.209-3 SSP/SP, inscrito no CPF/MF nº.\nArt. 2º - 370.366.328-60, para exercer a funcao de Gestor do Co",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -135,7 +140,7 @@
                       "object":  "empresa WHITE EAGLE LTDA",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -148,7 +153,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "PORTARIA Nº270\n DE 29 DE NOVEMBRO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Samuel Roberto Dias Martins, Diretor III, titular da Cedula de Identidade RG nº 42.393.209-3 SSP/SP, inscrito no CPF/MF nº.\nArt. 2º - 370.366.328-60, para exercer a funcao de Gestor do Co",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -164,7 +169,7 @@
                       "contractNumber":  "200/2023",
                       "processNumber":  "0058/2022",
                       "modality":  "Pregao Presencial n°. 0058/2022",
-                      "contractor":  "APLAUSO ENGENHARIA LTDA -EPP",
+                      "contractor":  "APLAUSO ENGENHARIA LTDA -EPP CONTRATO N°: 200/2023 ORIUNDO DA ATA DE REGISTRO DE REGISTRO DE PRECOS Nº 103/2022",
                       "cnpj":  "",
                       "object":  "Execucao dos servicos de manutencao e modernizacao do Parque de Iluminacao Publica no Municipio de Iguape/SP. Pregao Presencial n°. 0058/2022",
                       "value":  "R$ 1.069.757,16",

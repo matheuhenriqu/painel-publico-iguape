@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "588",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:54",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:44",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/60def6940158e4e4f95a75050f82691d.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/60def6940158e4e4f95a75050f82691d.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
                     "itemCount":  3,
                     "totalValue":  "R$ 0,00"
                 },
@@ -28,10 +33,10 @@
                       "modality":  "PREGAO PRESENCIAL nº. 040/2023",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES, PARA EXECUCAO DOS SERVICOS DE MANUTENCAO DA MALHA VIARIA EXISTENTE EM PAVIMENTO INTERTRAVADO DE CONCRETO E PAVIMENTO ASFALTICO NO MUNICIPIO DE IGUAPE/SP. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013, Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES, PARA EXECUCAO DOS SERVICOS DE MANUTENCAO DA MALHA VIARIA EXISTENTE EM PAVIMENTO INTERTRAVADO DE CONCRETO E PAVIMENTO ASFALTICO NO MUNICIPIO DE IGUAPE/SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE CUMPRE OS",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -62,10 +67,10 @@
                       "modality":  "PREGAO PRESENCIAL nº. 041/2023",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES, PARA EXECUCAO DOS SERVICOS DE MANUTENCAO E MODERNIZACAO DO PARQUE DE ILUMINACAO PUBLICA NO MUNICIPIO DE IGUAPE/SP. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013, Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES, PARA EXECUCAO DOS SERVICOS DE MANUTENCAO E MODERNIZACAO DO PARQUE DE ILUMINACAO PUBLICA NO MUNICIPIO DE IGUAPE/SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE CUMPRE OS",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -96,10 +101,10 @@
                       "modality":  "PREGAO PRESENCIAL nº. 042/2023",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "REGISTRO DE PRECOS PARA FUTURAS LOCACOES DE CONJUNTOS DE MESAS COM BANCOS E CADEIRAS, PARA ATENDER AS NECESSIDADES DOS EVENTOS REALIZADOS NESTE MUNICIPIO DE IGUAPE/SP, conforme especificacoes detalhadas no Edital. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013, Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "object":  "REGISTRO DE PRECOS PARA FUTURAS LOCACOES DE CONJUNTOS DE MESAS COM BANCOS E CADEIRAS, PARA ATENDER AS NECESSIDADES DOS EVENTOS REALIZADOS NESTE MUNICIPIO DE IGUAPE/SP, conforme especificacoes detalhadas no Edital",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE CUMPRE OS",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",

@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1378",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-30T09:05:56",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:25",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1183_28075124.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1183_28075124.pdf",
     "keywords":  [
@@ -9,13 +9,156 @@
                      "contrato",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  0,
-                    "itemCount":  0,
-                    "totalValue":  "R$ 0,00",
-                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Items\u0027 porque ele é uma matriz vazia."
+                    "pageCount":  8,
+                    "relevantPageCount":  1,
+                    "blockCount":  4,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 4.645.482,45"
                 },
     "items":  [
-
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 050//2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "050/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "IB FERREIRA SERVICOS LTDA.(GRUPO RL ME)",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa para Prestacao de Servico de Controle de Acesso, Apoio e Fiscalizacao, com Coordenador e acompanhament o por monitoramento de cameras 24 (vinte e quatro) horas nas dependencias Prefeitura Municipal de Iguape, passarela “Vereador Gasparino Costa”, Hospital de Iguape (Pronto Socorro), Casa da Crianca, e Caps (Porto do Ribeira) no municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 050//2025\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: IB FERREIRA SERVICOS LTDA.(GRUPO RL ME) CNPJ:-42.xxx.xxx/xxxx-36\nCONTRATO Nº 050/2025\nOBJETO: Contratacao de empresa para Prestacao de Servico de Controle de Acesso, Apoio e Fiscalizacao, com Coordenador e acompanhament o por\nmonitoramento de cameras 24 (vinte e quatro) horas nas dependencias Prefeitura Municipal de Iguape, passarela “Vereador Gasparino Costa”, Hospital\nde Iguape (Pronto Socorro), Casa da Crianca, ",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Pregao Eletronico n°. 001/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "001/2025",
+                      "modality":  "Pregao Eletronico n°. 001/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 1.855.482,45",
+                      "term":  "Periodo de 12 (doze) meses de 27/03/2026 a 26/03/2027 inclusive.",
+                      "signatureDate":  "26/03/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "Pregao Eletronico n°. 001/2025\nData: 26/03/2026\nVIGENCIA: Periodo de 12 (doze) meses de 27/03/2026 a 26/03/2027 inclusive.\nVALOR: O presente contrato de prorrogacao e de R$ 1.855.482,45 (um milhao, oitocentos e cinquenta e cinco mil, quatrocentos e oitenta e dois reais\ne quarenta e cinco centavos).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Extrato de Retificacao",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "060/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "TROUPE BRASIL LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para a operacao da Estacao de Transbordo Municipal de Iguape, compreendendo a recepcao, manuseio, acondicionamento, pesagem e transbordo dos Residuos Solidos Urbanos (RSU), bem como a prestacao dos servicos de transporte rodoviario e destinacao final ambientalmente adequada dos residuos classificados como Classe II – fracao rejeito, conforme a ABNT NBR-10.004/2004",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "Extrato de Retificacao\n\nPublicacao Diario Oficial do Municipio - quinta-feira – 26.03.2026 - Ano 06 - nº 1181\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: TROUPE BRASIL LTDA\nCNPJ: 66.xxx.xxx/xxxx-47\nCONTRATO N°: 060/2026\nOBJETO: Contratacao de empresa especializada para a operacao da Estacao de Transbordo Municipal de Iguape, compreendendo a recepcao,\nmanuseio, acondicionamento, pesagem e transbordo dos Residuos Solidos Urbanos (RSU), bem como a prestacao dos servicos de transporte rodoviario\ne destinacao final amb",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO Nº 007/2026",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "007/2026",
+                      "modality":  "PREGAO ELETRONICO Nº 007/2026",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 2.790.000,00",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO Nº 007/2026\nOnde se le:\nVALOR: R$ 2.790.000,00 (dois milhoes, setecentos e noventa mil, seiscentos e oitenta reais)\nLeia-se:\nVALOR: R$ 2.790.000,00 (dois milhoes, setecentos e noventa mil reais)\nPermanecendo inalteradas as demais informacoes.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
               ]
 }

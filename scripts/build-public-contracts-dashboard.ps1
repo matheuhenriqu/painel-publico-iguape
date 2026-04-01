@@ -906,6 +906,56 @@ function Get-SelectedFieldCandidate {
     return $null
 }
 
+function Get-MovementFieldCandidates {
+    param(
+        [AllowNull()]
+        [object[]]$Movements = @(),
+
+        [Parameter(Mandatory = $true)]
+        [string]$FieldName,
+
+        [string]$Kind = 'text'
+    )
+
+    return @(
+        @($Movements) |
+        Sort-Object -Property `
+            @{ Expression = {
+                    switch ((Get-CleanText -Value (Get-ObjectValue -Item $_ -Name 'confidenceLabel')).ToLowerInvariant()) {
+                        'alta' { 0 }
+                        'media' { 1 }
+                        default { 2 }
+                    }
+                }; Descending = $false }, `
+            @{ Expression = {
+                    switch ((Get-CleanText -Value (Get-ObjectValue -Item $_ -Name 'completeness')).ToLowerInvariant()) {
+                        'alta' { 0 }
+                        'media' { 1 }
+                        default { 2 }
+                    }
+                }; Descending = $false }, `
+            @{ Expression = {
+                    $value = Get-ObjectValue -Item $_ -Name $FieldName
+                    if ($Kind -eq 'text') {
+                        return (Get-CleanText -Value $value).Length
+                    }
+
+                    if (Test-FieldValuePresent -Value $value -Kind $Kind) {
+                        return 1
+                    }
+
+                    return 0
+                }; Descending = $true }, `
+            @{ Expression = { Convert-ToDateTimeSafe -Value (Get-ObjectValue -Item $_ -Name 'publishedAt') }; Descending = $true } |
+        ForEach-Object {
+            @{
+                source = 'diario'
+                value = (Get-ObjectValue -Item $_ -Name $FieldName)
+            }
+        }
+    )
+}
+
 function Get-FieldSourceList {
     param(
         [AllowNull()]
@@ -1263,9 +1313,10 @@ function New-MasterContractModel {
     )
 
     $processNumberField = New-FieldProfile -Candidates @(
-        @{ source = 'perfil'; value = (Get-ObjectValue -Item $Profile -Name 'processNumber') },
-        @{ source = 'diario'; value = (Get-ObjectValue -Item $PreferredMovement -Name 'processNumber') },
-        @{ source = 'diario'; value = (Get-ObjectValue -Item $LatestMovement -Name 'processNumber') },
+        @{ source = 'perfil'; value = (Get-ObjectValue -Item $Profile -Name 'processNumber') }
+        @(
+            Get-MovementFieldCandidates -Movements $Movements -FieldName 'processNumber'
+        )
         @{ source = 'portal'; value = (Get-ObjectValue -Item $OfficialContract -Name 'processNumber') }
     )
 
@@ -1276,40 +1327,46 @@ function New-MasterContractModel {
     )
 
     $supplierField = New-FieldProfile -Candidates @(
-        @{ source = 'diario'; value = (Get-ObjectValue -Item $PreferredMovement -Name 'contractor') },
-        @{ source = 'diario'; value = (Get-ObjectValue -Item $LatestMovement -Name 'contractor') },
+        @(
+            Get-MovementFieldCandidates -Movements $Movements -FieldName 'contractor'
+        )
         @{ source = 'portal'; value = (Get-ObjectValue -Item $OfficialContract -Name 'contractor') }
     )
 
     $supplierDocumentField = New-FieldProfile -Candidates @(
-        @{ source = 'diario'; value = (Get-ObjectValue -Item $PreferredMovement -Name 'cnpj') },
-        @{ source = 'diario'; value = (Get-ObjectValue -Item $LatestMovement -Name 'cnpj') },
+        @(
+            Get-MovementFieldCandidates -Movements $Movements -FieldName 'cnpj'
+        )
         @{ source = 'portal'; value = (Get-ObjectValue -Item $OfficialContract -Name 'cnpj') }
     )
 
     $objectField = New-FieldProfile -Candidates @(
-        @{ source = 'diario'; value = (Get-ObjectValue -Item $PreferredMovement -Name 'object') },
-        @{ source = 'diario'; value = (Get-ObjectValue -Item $LatestMovement -Name 'object') },
+        @(
+            Get-MovementFieldCandidates -Movements $Movements -FieldName 'object'
+        )
         @{ source = 'portal'; value = (Get-ObjectValue -Item $OfficialContract -Name 'object') }
     )
 
     $valueLabelField = New-FieldProfile -Candidates @(
-        @{ source = 'diario'; value = (Get-ObjectValue -Item $PreferredMovement -Name 'value') },
-        @{ source = 'diario'; value = (Get-ObjectValue -Item $LatestMovement -Name 'value') },
+        @(
+            Get-MovementFieldCandidates -Movements $Movements -FieldName 'value'
+        )
         @{ source = 'portal'; value = (Get-ObjectValue -Item $OfficialContract -Name 'value') }
     )
 
     $valueAmountField = New-FieldProfile -Candidates @(
-        @{ source = 'diario'; value = (Get-ObjectValue -Item $PreferredMovement -Name 'valueNumber') },
-        @{ source = 'diario'; value = (Get-ObjectValue -Item $LatestMovement -Name 'valueNumber') },
+        @(
+            Get-MovementFieldCandidates -Movements $Movements -FieldName 'valueNumber' -Kind 'number'
+        )
         @{ source = 'portal'; value = (Get-ObjectValue -Item $OfficialContract -Name 'valueNumber') }
     ) -Kind 'number'
 
     $startDateField = New-FieldProfile -Candidates @(
         @{ source = 'portal'; value = (Get-ObjectValue -Item $OfficialContract -Name 'signatureDate') },
         @{ source = 'portal'; value = (Get-ObjectValue -Item (Get-ObjectValue -Item $OfficialContract -Name 'vigency') -Name 'signatureDate') },
-        @{ source = 'diario'; value = (Get-ObjectValue -Item $PreferredMovement -Name 'signatureDate') },
-        @{ source = 'diario'; value = (Get-ObjectValue -Item $LatestMovement -Name 'signatureDate') }
+        @(
+            Get-MovementFieldCandidates -Movements $Movements -FieldName 'signatureDate' -Kind 'date'
+        )
     ) -Kind 'date'
 
     $endDateField = New-FieldProfile -Candidates @(

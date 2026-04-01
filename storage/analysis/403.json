@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "403",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:27",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:28",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/e25143a9333100586b38f1e75060c890.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/e25143a9333100586b38f1e75060c890.pdf",
     "keywords":  [
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 2.653,13"
                 },

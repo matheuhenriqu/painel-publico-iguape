@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "663",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:40",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:21",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/4574b217decbc0696a122380859d98df.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/4574b217decbc0696a122380859d98df.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  13,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -20,13 +25,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "",
                       "processNumber":  "275/2023",
                       "modality":  "PR-G - PREGAO PRESENCIAL - 55/2023 - EDITAL Nº: 86/2023",
-                      "contractor":  "CIRURGICA UNIAO LTDA",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE MATERIAL DE ENFERMAGEM PARA ATENDER ASUNIDADES DO DEPARTAMENTO DE SAUDE DA PREFEITURA MUNICIPAL DE IGUAPE, PELO PERIODO DE 12 MESES (itens fracassados/desertos no Pregao Presencial nº 009/2023)",
                       "value":  "",

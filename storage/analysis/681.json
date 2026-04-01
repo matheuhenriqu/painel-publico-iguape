@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "681",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:36",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:16",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/424d56390b4c864ade9217762a6fd57e.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/424d56390b4c864ade9217762a6fd57e.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
                     "itemCount":  0,
                     "totalValue":  "R$ 0,00",
                     "error":  "Não é possível associar o argumento ao parâmetro \u0027Items\u0027 porque ele é uma matriz vazia."

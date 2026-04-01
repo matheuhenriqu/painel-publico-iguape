@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "520",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:07",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:01",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/308f75a4be25c3ecd57121e127952ac6.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/308f75a4be25c3ecd57121e127952ac6.pdf",
     "keywords":  [
@@ -9,181 +9,18 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  3,
-                    "itemCount":  5,
-                    "totalValue":  "R$ 595.101,84"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:033/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "3/2023",
-                      "processNumber":  "014/2023",
-                      "modality":  "Pregao Presencial n°. 014/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Preco pelo periodo de 12 (doze) meses, para aquisicoes de utensilios de cozinha destinados as Unidades Escolares deste municipio de Iguape/SP. Pregao Presencial n°. 014/2023",
-                      "value":  "R$ 38.253,94",
-                      "term":  "21/03/2023 a 20/03/2024",
-                      "signatureDate":  "21/03/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:033/2023\nOBJETO: Registro de Preco pelo periodo de 12 (doze) meses, para aquisicoes de utensilios de cozinha destinados as\nUnidades Escolares deste municipio de Iguape/SP.\nPregao Presencial n°. 014/2023\nDATA: 21/03/2023\nVIGENCIA: 21/03/2023 a 20/03/2024\nVALOR: R$ 38.253,94 (trinta e oito mil, duzentos e cinquenta e tres reais e noventa e quatro centavos)",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:034/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "4/2023",
-                      "processNumber":  "014/2023",
-                      "modality":  "Pregao Presencial n°. 014/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Preco pelo periodo de 12 (doze) meses, para aquisicoes de utensilios de cozinha destinados as Unidades Escolares deste municipio de Iguape/SP. Pregao Presencial n°. 014/2023",
-                      "value":  "R$ 14.185,30",
-                      "term":  "21/03/2023 a 20/03/2024",
-                      "signatureDate":  "21/03/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:034/2023\nOBJETO: Registro de Preco pelo periodo de 12 (doze) meses, para aquisicoes de utensilios de cozinha destinados as\nUnidades Escolares deste municipio de Iguape/SP.\nPregao Presencial n°. 014/2023\nDATA: 21/03/2023\nVIGENCIA: 21/03/2023 a 20/03/2024\nVALOR: R$ 14.185,30 (quatorze mil, cento e oitenta e cinco reais e trinta centavos)",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:035/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "5/2023",
-                      "processNumber":  "014/2023",
-                      "modality":  "Pregao Presencial n°. 014/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Preco pelo periodo de 12 (doze) meses, para aquis icoes de utensilios de cozinha destinados as Unidades Escolares deste municipio de Iguape/SP. Pregao Presencial n°. 014/2023",
-                      "value":  "R$ 3.983,10",
-                      "term":  "21/03/2023 a 20/03/2024",
-                      "signatureDate":  "21/03/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:035/2023\nOBJETO: Registro de Preco pelo periodo de 12 (doze) meses, para aquis icoes de utensilios de cozinha destinados as\nUnidades Escolares deste municipio de Iguape/SP.\nPregao Presencial n°. 014/2023\nDATA: 21/03/2023\nVIGENCIA: 21/03/2023 a 20/03/2024\nVALOR: R$ 3.983,10 (tres mil, novecentos e oitenta e tres reais e dez centavos)",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:036/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "6/2023",
-                      "processNumber":  "015/2023",
-                      "modality":  "Pregao Presencial n°. 015/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Preco pelo periodo de 12 (doze) meses, para aquisicao de materiais pedagogicos para as unidades escolares deste municipio de Iguape/SP Pregao Presencial n°. 015/2023",
-                      "value":  "R$ 210.699,50",
-                      "term":  "21/03/2023 a 20/03/2024",
-                      "signatureDate":  "21/03/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:036/2023\nOBJETO: Registro de Preco pelo periodo de 12 (doze) meses, para aquisicao de materiais pedagogicos para as unidades escolares\ndeste municipio de Iguape/SP\nPregao Presencial n°. 015/2023\nDATA: 21/03/2023\nVIGENCIA: 21/03/2023 a 20/03/2024\nVALOR: R$ 210.699,50 (duzentos e dez mil, seiscentos e noventa e nove reais e cinquenta centavos)",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:037/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "7/2023",
-                      "processNumber":  "015/2023",
-                      "modality":  "Pregao Presencial n°. 015/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Preco pelo periodo de 12 (doze) meses, para aquisicao de materiais pedagogicos para as unidades escolares deste municipio de Iguape/SP Pregao Presencial n°. 015/2023",
-                      "value":  "R$ 327.980,00",
-                      "term":  "21/03/2023 a 20/03/2024",
-                      "signatureDate":  "21/03/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:037/2023\nOBJETO: Registro de Preco pelo periodo de 12 (doze) meses, para aquisicao de materiais pedagogicos para as unidades escolares\ndeste municipio de Iguape/SP\nPregao Presencial n°. 015/2023\nDATA: 21/03/2023\nVIGENCIA: 21/03/2023 a 20/03/2024\nVALOR: R$ 327.980,00 (trezentos e vinte e sete mil, novecentos e oitenta reais)",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  }
+
               ]
 }

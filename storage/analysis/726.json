@@ -1,188 +1,25 @@
 ﻿{
     "diaryId":  "726",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:28",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:04",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/e801b2c43829c2e61b16f4858acbb112.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/e801b2c43829c2e61b16f4858acbb112.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  5,
-                    "itemCount":  5,
-                    "totalValue":  "R$ 625.020,89"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Contrato",
-                      "actTitle":  "Contrato 230/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "230/2023",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "CAMINARE MAQUINAS E EMPREENDIMENTOS LTDA",
-                      "cnpj":  "",
-                      "object":  "Aquisicao de automovel utilitario – carroceria tipo pickup (zero), em atendimento a emenda nº 202281000306 – Ministerio da Cidadania",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CAMINARE MAQUINAS E EMPREENDIMENTOS LTDA\nCONTRATO N°: 230/2023\nOBJETO: Aquisicao de automovel utilitario – carroceria tipo pickup (zero), em atendimento a emenda nº 202281000306 – Ministerio da Cidadania.",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Aviso de Licitacao",
-                      "actTitle":  "Pregao Eletronico n°. 007/2023.",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  10,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "",
-                      "processNumber":  "007/2023",
-                      "modality":  "Pregao Eletronico n°. 007/2023",
-                      "contractor":  "o valor global de R$ 114.850,00 (cento e catorze mil, oitocentos e cinquenta reais)",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "R$ 114.850,00",
-                      "term":  "90 (noventa) dias, contados da data da assinatura.",
-                      "signatureDate":  "29/12/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
 
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "Pregao Eletronico n°. 007/2023.\nVALOR: Pagara a contratada o valor global de R$ 114.850,00 (cento e catorze mil, oitocentos e cinquenta reais).\nData da Assinatura: 29/12/2023\nVIGENCIA: 90 (noventa) dias, contados da data da assinatura.",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem objeto identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Contrato",
-                      "actTitle":  "Contrato 231/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  16,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "231/2023",
-                      "processNumber":  "070/2022",
-                      "modality":  "Pregao Presencial n°. 070/2022",
-                      "contractor":  "SOM DA ILHA COMERCIO E PRODUCOES LTDA-ME-Oriundo da Ata de Registro nº 105/2022)",
-                      "cnpj":  "",
-                      "object":  "Contratacao de Empresa especializada em locacao de projecao de imagem, painel de led e telao, iluminacao, sonorizacao, geradores, grades, palcos, pisos, tendas, galpoes, containers camarins/escritorio e sanitarios, arquibancadas e estruturas complementares e apoio, a serem utilizados nos eventos neste municipio de Iguape/SP Pregao Presencial n°. 070/2022",
-                      "value":  "R$ 416.520,89",
-                      "term":  "90 (noventa) dias, contados da data da assinatura.",
-                      "signatureDate":  "30/12/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SOM DA ILHA COMERCIO E PRODUCOES LTDA-ME-Oriundo da Ata de Registro nº 105/2022)\nCONTRATO N°: 231/2023\nOBJETO: Contratacao de Empresa especializada em locacao de projecao de imagem, painel de led e telao, iluminacao, sonorizacao,\ngeradores, grades, palcos, pisos, tendas, galpoes, containers camarins/escritorio e sanitarios, arquibancadas e estruturas complementares\ne apoio, a serem utilizados nos eventos neste municipio de Iguape/SP\nPregao Presencial n°. 070/202",
-                      "completeness":  "alta",
-                      "flags":  [
-
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:139/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  16,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "9/2023",
-                      "processNumber":  "064/2023",
-                      "modality":  "Pregao Presencial n°. 064/2023",
-                      "contractor":  "o valor global de R$ 93.650,00 (noventa e tres mil, seiscentos e cinquenta reais)",
-                      "cnpj":  "",
-                      "object":  "Contratacao de Empresa especializada em servicos graficos para confeccao de Carnes de IPTU, ISSQN, Taxas, Servicos e Outros. Pregao Presencial n°. 064/2023",
-                      "value":  "R$ 93.650,00",
-                      "term":  "26/12/2023 a 25/12/2024.",
-                      "signatureDate":  "26/12/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
-
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:139/2023\nOBJETO:- Contratacao de Empresa especializada em servicos graficos para confeccao de Carnes de IPTU, ISSQN, Taxas, Servicos e Outros.\nPregao Presencial n°. 064/2023.\nVIGENCIA: 26/12/2023 a 25/12/2024.\nDATA: 26/12/2023\nVALOR: Pagara a contratada o valor global de R$ 93.650,00 (noventa e tres mil, seiscentos e cinquenta reais).",
-                      "completeness":  "alta",
-                      "flags":  [
-
-                                ]
-                  },
-                  {
-                      "type":  "Homologacao",
-                      "actTitle":  "HOMOLOGACAO",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "",
-                      "processNumber":  "1196/2022",
-                      "modality":  "PR-E - PREGAO ELETRONICO - 8/2023 - EDITAL Nº: 103/2023",
-                      "contractor":  "ALL BRAZ COMERCIO E LOCACOES LTDA",
-                      "cnpj":  "",
-                      "object":  "AQUISICAO DE 02 (DOIS) VEICULOS ZERO, EM ATENDIMENTOAS EMENDAS Nº 202241710014 – MINISTERIO DA CIDADANIA E 40120010 – MINISTERIO DA SAUDE",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "da contratacao",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "federal-ministerio-saude",
-                      "primaryOrganizationName":  "Ministerio da Saude",
-                      "primaryOrganizationSphere":  "federal",
-                      "primaryOrganizationAreaId":  "saude",
-                      "mentionedOrganizationIds":  [
-                                                       "federal-ministerio-saude"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Ministerio da Saude"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO\n\nPROCESSO Nº: 1196/2022\nAQUISICAO DE 02 (DOIS) VEICULOS ZERO, EM ATENDIMENTOAS EMENDAS Nº 202241710014 – MINISTERIO DA CIDADANIA E 40120010 –\nMINISTERIO DA SAUDE .\nPR-E - PREGAO ELETRONICO - 8/2023 - EDITAL Nº: 103/2023\nINTERESSADOS: SECRETARIA MUNIC. DE ASSISTENCIA E DESENV. SOCIAL .\n\n HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos itens abaixo.\n\nFORNECEDOR: ALL BRAZ COMERCIO E LOCACOES LTDA\nItem 2 - Automovel Basico sem Acessibilidade: Veiculo z",
-                      "completeness":  "media",
-                      "flags":  [
-
-                                ]
-                  }
               ]
 }

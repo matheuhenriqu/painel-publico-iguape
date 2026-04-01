@@ -1,53 +1,24 @@
 ﻿{
     "diaryId":  "611",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:47",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:32",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/d369f8c3652086dd3ae751cd85ed253b.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/d369f8c3652086dd3ae751cd85ed253b.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  4,
-                    "itemCount":  1,
-                    "totalValue":  "R$ 390.000,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 080/2023",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  1,
-                      "contractNumber":  "080/2023",
-                      "processNumber":  "038/2023",
-                      "modality":  "Pregao Presencial n°. 038/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para contratacao de empresa especializada em show pirotecnico, com fornecimento de fogos de artificio, mao de obra com instalacao e soltura, para atender aos eventos do Municipio de Iguape/SP, pelo periodo de 12 (doze) meses. Pregao Presencial n°. 038/2023",
-                      "value":  "R$ 390.000,00",
-                      "term":  "27/07/2023 a 26/07/2024 - 12 (doze) meses.",
-                      "signatureDate":  "27/07/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 080/2023\nOBJETO: Registro de Precos para contratacao de empresa especializada em show pirotecnico, com fornecimento de fogos de artificio,\nmao de obra com instalacao e soltura, para atender aos eventos do Municipio de Iguape/SP, pelo periodo de 12 (doze) meses.\nPregao Presencial n°. 038/2023\nDATA: 27/07/2023\nVIGENCIA: 27/07/2023 a 26/07/2024 - 12 (doze) meses.\nVALOR: R$ 390.000,00 (trezentos e noventa mil reais).\n\n FINANCAS\n\n RELATORIOS CONTABEIS",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  }
+
               ]
 }

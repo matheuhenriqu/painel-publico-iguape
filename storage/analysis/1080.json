@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1080",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:33",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:21",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_968_23075311.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_968_23075311.pdf",
     "keywords":  [
@@ -9,116 +9,18 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  5,
-                    "itemCount":  3,
-                    "totalValue":  "R$ 934.980,50"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 005/2025.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "005/2025",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para contratacao de empresa especializada para prestacao de servicos Medicos Auxiliares de consistente em Exames de Ultrassonografia a serem realizados nos pacientes da rede publica municipal atendendo a Secretaria Iguape pelo periodo de 12 meses",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
 
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 005/2025.\nOBJETO: Registro de Precos para contratacao de empresa especializada para prestacao de servicos Medicos Auxiliares de\nconsistente em Exames de Ultrassonografia a serem realizados nos pacientes da rede publica municipal atendendo a Secretaria\nIguape pelo periodo de 12 meses.",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem contratada identificada",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Aviso de Licitacao",
-                      "actTitle":  "Pregao Eletronico n°. 003/2025",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  3,
-                      "contractNumber":  "",
-                      "processNumber":  "003/2025",
-                      "modality":  "Pregao Eletronico n°. 003/2025",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "R$ 934.980,50",
-                      "term":  "- Validade do presente Registro de Precos -16/04/2025 a 15/04/2026 – 12 (doze) meses.",
-                      "signatureDate":  "16/04/2025",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
-
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "Pregao Eletronico n°. 003/2025\nData: 16/04/2025\nVIGENCIA:- Validade do presente Registro de Precos -16/04/2025 a 15/04/2026 – 12 (doze) meses.\nVALOR: R$ 934.980,50 (novecentos e trinta e quatro mil, novecentos e oitenta reais e cinquenta centavos)",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem objeto identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "1º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 005/2025",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  14,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "005/2025",
-                      "processNumber":  "076/2023",
-                      "modality":  "Pregao Presencial n°. 076/2023",
-                      "contractor":  "JORNAL GAZETA SP – LTDA-EPP",
-                      "cnpj":  "",
-                      "object":  "Registro de precos pelo periodo de 12 (doze) meses, para contratacao de Jornal Diario de Grande Circulacao Regional, para prestacao de servicos de publicacao de atos oficiais da Prefeitura Municipal de Iguape. Pregao Presencial n°. 076/2023",
-                      "value":  "",
-                      "term":  "O contrato tera validade por um periodo de 90 (noventa) dias de 16/04/2025 a 14/07/2025.",
-                      "signatureDate":  "16/04/2025",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
-                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "desenvolvimento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-desenvolvimento-sustentavel"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Desenvolvimento Economico Sustentavel"
-                                                     ],
-                      "excerpt":  "1º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 005/2025\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: JORNAL GAZETA SP – LTDA-EPP\nCONTRATO Nº 005/2025\nOBJETO: Registro de precos pelo periodo de 12 (doze) meses, para contratacao de Jornal Diario de Grande Circulacao Regional, para prestacao de\nservicos de publicacao de atos oficiais da Prefeitura Municipal de Iguape.\nPregao Presencial n°. 076/2023\nDATA: 16/04/2025\nVIGENCIA: O contrato tera validade por um periodo de 90 (noventa) dias de 16/04/2025 a 14/07/2025.\n\n DESENV",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem valor identificado"
-                                ]
-                  }
               ]
 }

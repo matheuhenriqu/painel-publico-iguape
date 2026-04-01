@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "626",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:46",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:29",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/fb1c7b9a7058b2d57e30c161f42f1f62.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/fb1c7b9a7058b2d57e30c161f42f1f62.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -19,13 +24,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  1,
                       "contractNumber":  "",
                       "processNumber":  "591/2023",
                       "modality":  "PR-G - PREGAO PRESENCIAL - 46/2023 - EDITAL Nº: 73/2023",
-                      "contractor":  "ENGETEC ENGENHARIA EIRELI - ME",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA EVENTUAL LOCACAO DE MAO DE OBRA COM A FINALIDADE DE EXECUCAO E MANUTENCAO DA INFRAESTRUTURA DE EVENTOS, NESTE MUNICIPIO DE IGUAPE/SP PR-G - PREGAO PRESENCIAL - 46/2023 - EDITAL Nº: 73/2023",
                       "value":  "",

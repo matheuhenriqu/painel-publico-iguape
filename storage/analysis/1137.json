@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "1137",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:26",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:05",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_084_09082228.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_extra_084_09082228.pdf",
     "keywords":  [
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -19,18 +24,18 @@
                       "actTitle":  "PREGAO ELETRONICO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  7,
+                      "confidenceScore":  8,
                       "confidenceLabel":  "media",
                       "pageNumber":  3,
                       "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "PREGAO ELETRONICO",
+                      "processNumber":  "013/2025",
+                      "modality":  "PREGAO ELETRONICO – n.º 013/2025",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "Registro de precos para futura e eventual contratacao de empresa especializada no fornecimento de materiais graficos impressos, a fim de atender as demandas de acoes e eventos da Secretaria Municipal de Cultura, Esporte e Turismo pelo periodo de 12 (doze) meses. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
+                      "object":  "Registro de precos para futura e eventual contratacao de empresa especializada no fornecimento de materiais graficos impressos, a fim de atender as demandas de acoes e eventos da Secretaria Municipal de Cultura, Esporte e Turismo pelo periodo de 12 (doze) meses",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "signatureDate":  "",
                       "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
                       "primaryOrganizationId":  "municipal-turismo-esporte",
                       "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
@@ -49,7 +54,7 @@
                       "excerpt":  "PREGAO ELETRONICO\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO – n.º 013/2025, do tipo MENOR PRECO GLOBAL , situada na Avenida\nAdhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: Registro de precos para futura e eventual contratacao de empresa especializada no fornecimento de materiais graficos impressos,\na fim de atender as demandas de acoes e eventos da Secretaria Municipal de Cultura, Esporte e Turismo p",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem numero principal identificado"
+
                                 ]
                   },
                   {
@@ -57,18 +62,18 @@
                       "actTitle":  "PREGAO ELETRONICO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  7,
+                      "confidenceScore":  8,
                       "confidenceLabel":  "media",
                       "pageNumber":  3,
                       "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "PREGAO ELETRONICO",
+                      "processNumber":  "014/2025",
+                      "modality":  "PREGAO ELETRONICO – n.º 014/2025",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "Registro de precos para futura e eventual contratacao de empresa especializada no fornecimento de gelo em cubos, a fim de atender as demandas de acoes e eventos da Secretaria Municipal de Cultura, Esporte e Turismo pelo periodo de 12 (doze) meses. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
+                      "object":  "Registro de precos para futura e eventual contratacao de empresa especializada no fornecimento de gelo em cubos, a fim de atender as demandas de acoes e eventos da Secretaria Municipal de Cultura, Esporte e Turismo pelo periodo de 12 (doze) meses",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "signatureDate":  "",
                       "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
                       "primaryOrganizationId":  "municipal-turismo-esporte",
                       "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
@@ -87,7 +92,7 @@
                       "excerpt":  "PREGAO ELETRONICO\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO – n.º 014/2025, do tipo MENOR PRECO UNITARIO , situada na\nAvenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: Registro de precos para futura e eventual contratacao de empresa especializada no fornecimento de gelo em cubos, a fim de\natender as demandas de acoes e eventos da Secretaria Municipal de Cultura, Esporte e Turismo pelo periodo d",
                       "completeness":  "media",
                       "flags":  [
-                                    "Sem numero principal identificado"
+
                                 ]
                   }
               ]

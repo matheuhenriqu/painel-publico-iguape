@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "758",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:20",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:49",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/0505ec376c1d1d6bb9a44a756fdfc824.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/0505ec376c1d1d6bb9a44a756fdfc824.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  3,
+                    "blockCount":  5,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -29,7 +34,7 @@
                       "object":  "empresa COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -44,7 +49,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "Art. 1º - 2\nArt. 2º -\n Diario Oficial\n\n Iguape - SP\n\n ANO 03 – Nº 699 Sexta-Feira, 16 de Fevereiro de 2024\n\n , 18 de Novembro de 2023\n\n Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0\n SSP/SP, inscrito no CPF/MF nº. 256.609.068/85, para exercer a funcao de fiscal do Contrato 011/2024, empresa COPA S.A.\n COMPANHIA DE OBRAS PARIQUERA ACU.\n Esta portaria entra em vigor na data de sua publicacao, revogadas as disposicoes em contrario.\n\n",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -65,7 +70,7 @@
                       "object":  "empresa COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -80,7 +85,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "PORTARIA Nº 66\n DE 15 DE FEVEREIRO DE 2024\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0\n SSP/SP, inscrito no CPF/MF nº. 256.609.068/85, para e",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]

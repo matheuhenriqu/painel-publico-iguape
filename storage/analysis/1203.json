@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1203",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:16",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:45",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1059_13082155.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1059_13082155.pdf",
     "keywords":  [
@@ -11,8 +11,13 @@
                      "inexigibilidade",
                      "rescisao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  35,
+                    "relevantPageCount":  3,
+                    "blockCount":  6,
                     "itemCount":  4,
                     "totalValue":  "R$ 1.796.175,43"
                 },
@@ -64,7 +69,7 @@
                       "confidenceLabel":  "media",
                       "pageNumber":  3,
                       "contractNumber":  "",
-                      "processNumber":  "2/2025",
+                      "processNumber":  "002/2025",
                       "modality":  "CONCORRENCIA ELETRONICA n°.002/2025",
                       "contractor":  "",
                       "cnpj":  "",
@@ -126,38 +131,39 @@
                                 ]
                   },
                   {
-                      "type":  "Gestao Contratual",
-                      "actTitle":  "13",
-                      "recordClass":  "gestao_contratual",
-                      "recordClassLabel":  "Gestao do contrato",
-                      "confidenceScore":  13,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  13,
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CHAMADA PUBLICA/ CERXETRDAETNOCIAMENTO N° 011/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
                       "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "a ser informada pela credenciada : Agencia : .................,Banco",
-                      "cnpj":  "",
-                      "object":  "licitado, devendo ser observado o disposto no art . 117 da Lei nº 14.133/21. 9.1.1- Sendo: a) gestor do contrato: ....................................... b) fiscal (is) :......................................... CLAUSULA DECIMA QUARTA: DA VINCULACAO DO EDITAL 14.1- Vinculam esta contratacao , independente detranscricao: a) Estudo Tecnico Preliminar; b) Termo de Referencia",
+                      "processNumber":  "727/2025",
+                      "modality":  "CHAMADA PUBLICA/ CERXETRDAETNOCIAMENTO N° 011/2025",
+                      "contractor":  "",
+                      "cnpj":  "45.550.167/0001-64",
+                      "object":  "",
                       "value":  "",
-                      "term":  "maximo de 30 dias, desde que a referida fatura seja protocolada via Protocolo On-line,",
-                      "signatureDate":  "s dos atendimentos e horario deatendimento paracomprovacao da quantidade realizada",
-                      "legalBasis":  "Lei Federal n.º 14.133/2021",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
                       "mentionedOrganizationIds":  [
-
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura"
                                                    ],
                       "mentionedOrganizationNames":  [
-
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape"
                                                      ],
-                      "excerpt":  "13\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – Nº 1059 Sabado, 13 de Setembro de 2025 - www.iguape.sp.gov.br\n\natendidos, datas dos atendimentos e horario deatendimento paracomprovacao da quantidade realizada.\n7.5-O pagamento sera efetuado atraves de credito em conta corrente da CONTRATADA a ser informada pela credenciada : Agencia : .................,Banco :\n................, Conta Corrente nº..................\n7.6-As Notas fiscais deverao ser protocoladas pelo fornecedor no Protocolo onLine da Prefeitura de Iguape;\n",
-                      "completeness":  "media",
+                      "excerpt":  "CHAMADA PUBLICA/ CERXETRDAETNOCIAMENTO N° 011/2025\n EDITAL Nº 030/2025\n\n PROCESSO ADMINISTRATIVO 727/2025\n\nO MUNICIPIO DE IGUAPE, entidade publica, inscrita no C.N.P.J./M.F. sob o nº 45.550.167/0001-64, com sede na Avenida Adhemar de Barros,nº 1.070 –\nPorto do Ribeira – Iguape/SP, neste ato representada pela Secretaria Municipal de Saude - DEBORA SILVA CAMARGO , no uso de suas atribuicoes legais,\ne, considerando o disposto na Lei 14.133/2021, vem realizar CHAMADA PUBLICA- CREDENCIAMENTO DE PRESTACAO DE SERVICOS MED",
+                      "completeness":  "baixa",
                       "flags":  [
-                                    "Sem numero do contrato",
-                                    "Sem orgao responsavel identificado"
+                                    "Sem objeto identificado"
                                 ]
                   }
               ]

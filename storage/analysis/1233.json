@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "1233",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:10",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:33",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1081_15074104.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1081_15074104.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  8,
                     "itemCount":  5,
                     "totalValue":  "R$ 822.367,87"
                 },
@@ -88,11 +93,11 @@
                       "actTitle":  "CONTRATANTE: MUNICIPIO DE IGUAPE/SP",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  7,
+                      "confidenceScore":  8,
                       "confidenceLabel":  "media",
                       "pageNumber":  1,
                       "contractNumber":  "",
-                      "processNumber":  "",
+                      "processNumber":  "87/2025",
                       "modality":  "",
                       "contractor":  "LARA \u0026 FRANCO LTDA",
                       "cnpj":  "",

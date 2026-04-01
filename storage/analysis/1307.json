@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1307",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:56",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:52",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1133_14113026.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1133_14113026.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  13,
+                    "relevantPageCount":  5,
+                    "blockCount":  9,
                     "itemCount":  8,
                     "totalValue":  "R$ 0,00"
                 },
@@ -21,18 +26,18 @@
                       "actTitle":  "PORTARIA Nº 10, DE 12 DE JANEIRO DE 2026",
                       "recordClass":  "gestao_contratual",
                       "recordClassLabel":  "Gestao do contrato",
-                      "confidenceScore":  10,
-                      "confidenceLabel":  "alta",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
                       "pageNumber":  3,
                       "contractNumber":  "224/2025",
                       "processNumber":  "",
                       "modality":  "",
                       "contractor":  "",
                       "cnpj":  "",
-                      "object":  "e a aquisicao de 01 (um) veiculo 0km, tipo Van Minibus, destinada ao atendimento do Departamento de Esportes",
+                      "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, retroagindo seus efeitos a 1º de janeiro de 2026, revogadas as disposicoes em",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-turismo-esporte",
                       "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
@@ -47,9 +52,9 @@
                                                          "Secretaria de Turismo e Esporte"
                                                      ],
                       "excerpt":  "PORTARIA Nº 10, DE 12 DE JANEIRO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Julio Cesar Alves Martins, Secretario adjunto da Secretaria Municipal de Turismo e Esporte, inscrito no CPF/MF\n nº. XXX. 608.498-XX, para exercer a funcao de Ges",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
-
+                                    "Sem objeto identificado"
                                 ]
                   },
                   {
@@ -68,7 +73,7 @@
                       "object":  "a Aquisicao de mobiliarios, equipamentos de tecnologia, materiais recreativos e eletrodomesticos destinados a estruturacao e funcionamento da Casa da Juventude, localizada no Bairro do Rocio neste Municipio de Iguape/SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, retroagindo seus efeitos a 1º de janeiro de 2026, revogadas as disposicoes em",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-justica-cidadania",
                       "primaryOrganizationName":  "Secretaria de Justica e Cidadania",
@@ -85,7 +90,7 @@
                                                          "Secretaria de Turismo e Esporte"
                                                      ],
                       "excerpt":  "PORTARIA Nº 11, DE 12 DE JANEIRO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados ANTONIO MATHEUS DA VEIGA NETO, SECRETARIO MUNICIPAL DE JUSTICA E CIDADANIA, inscrito no CPF/MF\n nº. XXX. 200.038-XX, para exercer a funcao de Gestor do Contrato ",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -106,7 +111,7 @@
                       "object":  "a Aquisicao de mobiliarios, equipamentos de tecnologia, materiais recreativos e eletrodomesticos destinados a estruturacao e funcionamento da Casa da Juventude, localizada no Bairro do Rocio neste Municipio de Iguape/SP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, retroagindo seus efeitos a 1º de janeiro de 2026, revogadas as disposicoes em",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-justica-cidadania",
                       "primaryOrganizationName":  "Secretaria de Justica e Cidadania",
@@ -121,7 +126,7 @@
                                                          "Secretaria de Justica e Cidadania"
                                                      ],
                       "excerpt":  "PORTARIA Nº 12, DE 12 DE JANEIRO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados ANTONIO MATHEUS DA VEIGA NETO, SECRETARIO MUNICIPAL DE JUSTICA E CIDADANIA, inscrito no CPF/MF\n nº. XXX. 200.038-XX, para exercer a funcao de Gestor do Contrato ",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -142,7 +147,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-turismo-esporte",
                       "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
@@ -184,7 +189,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-turismo-esporte",
                       "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
@@ -224,7 +229,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-turismo-esporte",
                       "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
@@ -264,7 +269,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -298,7 +303,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",

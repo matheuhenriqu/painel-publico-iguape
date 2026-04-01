@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "852",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:05",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:21",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_784_29065524.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_784_29065524.pdf",
     "keywords":  [
@@ -9,116 +9,18 @@
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  5,
-                    "itemCount":  3,
-                    "totalValue":  "R$ 853.488,16"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "3º TERMO ADITIVO DE PRORROGACAO",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  14,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "",
-                      "processNumber":  "004/2023",
-                      "modality":  "Pregao Presencial nº 004/2023",
-                      "contractor":  "REALITY SERVICOS E TRANSPORTES EIRELI-EPP",
-                      "cnpj":  "",
-                      "object":  "contratacao de empresa especializada na prestacao de servicos de transporte por onibus com Monitor Escolar, nos Bairros Rurais e Urbanos, destinados aos alunos da Rede Publica de Ensino (Municipal e Estadual) do Municipio de Iguape, pelo periodo de ate 102 dias letivos do Calendario Escolar",
-                      "value":  "R$ 820.736,06",
-                      "term":  "Periodo de 29/06/2024 a 20/12/2024",
-                      "signatureDate":  "27/06/2024",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "3º TERMO ADITIVO DE PRORROGACAO\nCONTRATO DE 029/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: REALITY SERVICOS E TRANSPORTES EIRELI-EPP\nOBJETO: contratacao de empresa especializada na prestacao de servicos de transporte por onibus com Monitor Escolar, nos Bairros Rurais e\nUrbanos, destinados aos alunos da Rede Publica de Ensino (Municipal e Estadual) do Municipio de Iguape, pelo periodo de ate 102 dias letivos do\nCalendario Escolar.\nDATA: 27/06/2024\nPregao Presencial nº 004/2023\nVigencia: Periodo de 29/06/2024 ",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem numero do contrato"
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "6º TERMO ADITIVO DE ACRESCIMO E SUPRESSAO AO CONTRATO Nº 056/2022",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  15,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "056/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "CIACAN-ENGENHARIA EIRELI",
-                      "cnpj":  "24358738553694",
-                      "object":  "Contratacao de empresa especializada para obra de construcao de centro multiuso no bairro da Barra do Ribeira, conforme convenio nº 000104/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o Municipio de Iguape/SP TOMADA DE PRECOS Nº 005/2022",
-                      "value":  "R$ 32.752,10",
-                      "term":  "",
-                      "signatureDate":  "-27/06/2024",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "estadual-turismo"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Turismo e Viagens"
-                                                     ],
-                      "excerpt":  "6º TERMO ADITIVO DE ACRESCIMO E SUPRESSAO AO CONTRATO Nº 056/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: CIACAN-ENGENHARIA EIRELI\nCONTRATO N°: 056/2022\nOBJETO: Contratacao de empresa especializada para obra de construcao de centro multiuso no bairro da Barra do Ribeira, conforme convenio nº\n000104/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o Municipio de Iguape/SP\nTOMADA DE PRECOS Nº 005/2022\nDATA:-27/06/2024\nVALOR: Aditivo correspondente a R$ 32.752,10 (trinta e do",
-                      "completeness":  "media",
-                      "flags":  [
 
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "10º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 003/2022",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  3,
-                      "contractNumber":  "003/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "REALITY SERVICOS E TRANSPORTES EIRELI",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "",
-                      "term":  "AO CONTRATO Nº 003/2022",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "10º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 003/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: REALITY SERVICOS E TRANSPORTES EIRELI\nCONTRATO N°: 003/2022",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem objeto identificado",
-                                    "Sem valor identificado"
-                                ]
-                  }
               ]
 }

@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "1327",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:52",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:45",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1147_03080507.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1147_03080507.pdf",
     "keywords":  [
                      "contrato",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  10,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 0,00"
                 },
@@ -55,18 +60,18 @@
                       "actTitle":  "Chamada Publica/ Credenciamento nº11/2025.OBJETO: Contratacao de pessoas fisicas e juridicas para prestacao de servicos medicos plantonistas,",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  8,
+                      "confidenceScore":  6,
                       "confidenceLabel":  "media",
                       "pageNumber":  5,
                       "contractNumber":  "",
                       "processNumber":  "11/2025",
-                      "modality":  "Chamada Publica/ Credenciamento nº11/2025.OBJETO: Contratacao de pessoas fisicas e juridicas para prestacao de servicos medicos plantonistas,",
-                      "contractor":  "S/HABILITADAS e INABILITADAS as seguintes PARTICIPANTES",
+                      "modality":  "Chamada Publica/ Credenciamento nº11/2025",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "/ horario Nome PJ/ PF CREDENCIADA",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-turismo-esporte",
                       "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
@@ -79,7 +84,7 @@
                                                          "Secretaria de Turismo e Esporte"
                                                      ],
                       "excerpt":  "Chamada Publica/ Credenciamento nº11/2025.OBJETO: Contratacao de pessoas fisicas e juridicas para prestacao de servicos medicos plantonistas,\nMedicos para Saude da Familia, medicos especialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO,\nTERAPEUTA OCUPACIONAL, ,FONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de saude de Iguap e,\nbem como todos os locais de atendimento que a compoe. Pelo periodo de 12 meses. Apos a ana lise dos documentos apresentados,",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
                                     "Sem objeto identificado"
                                 ]

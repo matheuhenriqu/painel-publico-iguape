@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "435",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:24",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:23",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/3c827ebeb58d30534eaef7c8d1c2bd6b.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/3c827ebeb58d30534eaef7c8d1c2bd6b.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 100.301,05"
                 },
@@ -19,18 +24,18 @@
                       "actTitle":  "3º TERMO ADITIVO AO CONTRATO N.º 010/2022",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  15,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "010/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "processNumber":  "001/2022",
+                      "modality":  "Tomada de Precos - n°. 001/2022",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI CONTRATO N°: 010/2022",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para obra de construcao de praca multiuso no bairro do Rocio, localizada na Alameda 3 esquina com a Alameda 19, neste municipio de Iguape/SP. Tomada de Precos - n°. 001/2022",
                       "value":  "R$ 100.301,05",
                       "term":  "",
-                      "signatureDate":  "24/11/20222",
+                      "signatureDate":  "24/11/2022",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -43,7 +48,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "3º TERMO ADITIVO AO CONTRATO N.º 010/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CIACAN ENGENHARIA EIRELI\nCONTRATO N°: 010/2022\nOBJETO: Contratacao de empresa especializada para obra de construcao de praca multiuso no bairro do Rocio, localizada na Alameda 3\nesquina com a Alameda 19, neste municipio de Iguape/SP.\nTomada de Precos - n°. 001/2022\nDATA:24/11/20222\nVALOR: Acrescimo de servicos no valor de R$ 100.301,05 (cem mil, trezentos e um reais e cinco centavos, percentual de 21,50261994%",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
 
                                 ]
@@ -53,15 +58,15 @@
                       "actTitle":  "Portaria de gestao do contrato 059/2021",
                       "recordClass":  "gestao_contratual",
                       "recordClassLabel":  "Gestao do contrato",
-                      "confidenceScore":  12,
+                      "confidenceScore":  15,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "059/2021",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "OMEGA 3 LABORATORIOS DE ANALISES CLINICAS- LTDA",
+                      "processNumber":  "028/2021",
+                      "modality":  "PREGAO PRESENCIAL 028/2021",
+                      "contractor":  "OMEGA 3 LABORATORIOS DE ANALISES CLINICAS- LTDA CONTRATO N°: 059/2021",
                       "cnpj":  "",
-                      "object":  "",
+                      "object":  "Alteracao do acompanhamento e fiscalizacao Onde se Le: clausula decima terceira -13.1 – DO ACOMPANHAMENTO E FISCALIZACAO 13.1- A fiscalizacao da execucao do contrato sera realizada pela Coordenadora da Atencao Especializada do Departamento da Saude– Srª Lidiane Aparecida Vieira Pedro- CPF 070.337.496-60. Leia – se: clausula decima terceira -13.1 – DO ACOMPANHAMENTO E FISCALIZACAO 13.1-A fiscalizacao da execucao do contrato sera realizada pela Coordenadora da Atencao Especializada do Departamento da Saude– Srª Maira Bitencourt Pereira- CPF 312.432.348-30 – Portaria nº 181/2022 e o Gestor do Contrato sera realizado pelo Diretor de Administracao da Saude o Sr. Fernado Rorato – CPF – 041.448.279-41 – Portaria nº 180/2022. PREGAO PRESENCIAL 028/2021",
                       "value":  "",
                       "term":  "",
                       "signatureDate":  "11/11/2022",
@@ -77,9 +82,9 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "EXTRATO\n\nTERMO DE RETI - RATIFICACAO AO CONTRATO 091/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: OMEGA 3 LABORATORIOS DE ANALISES CLINICAS- LTDA\nCONTRATO N°: 059/2021\nOBJETO: Alteracao do acompanhamento e fiscalizacao\nOnde se Le: clausula decima terceira -13.1 – DO ACOMPANHAMENTO E FISCALIZACAO\n13.1- A fiscalizacao da execucao do contrato sera realizada pela Coordenadora da Atencao Especializada do Departamento da Saude–\nSrª Lidiane Aparecida Vieira Pedro- CPF 070.337.496-60.\nLeia – se: clausula decima tercei",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
-                                    "Sem objeto identificado"
+
                                 ]
                   }
               ]

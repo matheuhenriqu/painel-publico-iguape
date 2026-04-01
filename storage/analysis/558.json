@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "558",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:59",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:51",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/1867c8093368ea3a0cebfa6694fe20ff.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/1867c8093368ea3a0cebfa6694fe20ff.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  7,
+                    "relevantPageCount":  3,
+                    "blockCount":  5,
                     "itemCount":  4,
                     "totalValue":  "R$ 2.659.840,01"
                 },
@@ -31,7 +36,7 @@
                       "object":  "empresa SUL VALE CONSTRUTORA LTDA",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -46,7 +51,7 @@
                                                          "Secretaria de Infraestrutura Urbana e Obras"
                                                      ],
                       "excerpt":  "PORTARIA Nº 132\n DE 18 DE MAIO DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0 SSP/SP,\nArt. 2º - inscrito no CPF/MF nº 256.609.068-85, para exerce",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -67,7 +72,7 @@
                       "object":  "empresa 1DOC TECNOLOGIA S.A",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -80,7 +85,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "PORTARIA Nº 134\n DE 18 DE MAIO DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Larry Luiz Carvalho Domingues, Secretario Adjunto de Tecnologia da Informacao, titular da Cedula de Identidade RG nº\nArt. 2º - 29.611.935-0 SSP/SP, inscrito no CPF/MF nº 296.129.338-39, para",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -90,13 +95,13 @@
                       "actTitle":  "1º TERMO ADITIVO DE PRORROAGACAO AO CONTRATO 038/2022",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  15,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  5,
                       "contractNumber":  "038/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "1 DOC TECNOLOGIA S.A",
+                      "processNumber":  "020/2022",
+                      "modality":  "PREGAO PRESENCIAL - n°. 020/2022",
+                      "contractor":  "1 DOC TECNOLOGIA S.A. CONTRATO N°: 038/2022",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa Especializada na prestacao de servicos em sistema informatizado integrado e oficial de comunicacao interna e externa, gestao documental, central de atendimento com modulos, memorando, circular, protocolo eletronico, oficio eletronico, chamado tecnico, processo administrativo, aprovacao de projetos de construcao e parcelamento de solo e funcionalidades, pelo periodo de 12 (doze) meses. PREGAO PRESENCIAL - n°. 020/2022",
                       "value":  "R$ 126.624,68",
@@ -124,13 +129,13 @@
                       "actTitle":  "Contrato 067/2023",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  15,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  5,
                       "contractNumber":  "067/2023",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "SUL VALE CONSTRUTORA LTDA",
+                      "processNumber":  "001/2023",
+                      "modality":  "TOMADA DE PRECO Nº 001/2023",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA CONTRATO N°: 067/2023",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para obra de reforma de Ginasio Poliesportivo, localizado na rua dos estudantes com Rua Antonio Jose de Morais e Rua Tiradentes no Municipio de Iguape, conforme termo de convenio 101008/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape. TOMADA DE PRECO Nº 001/2023",
                       "value":  "R$ 2.533.215,33",

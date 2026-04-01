@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1340",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:13:50",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:40",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1157_19080100.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1157_19080100.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  2,
+                    "blockCount":  5,
                     "itemCount":  4,
                     "totalValue":  "R$ 1.550.507,97"
                 },
@@ -31,7 +36,7 @@
                       "object":  "o Credenciamento de instituicoes financeiras, autorizadas a funcionar pelo Banco Central do Brasil, para a prestacao de servicos bancarios de arr ecadacao e recolhimento das receitas publicas municipais, tributarias e nao tributarias, da Prefeitura Municipal de Iguape/SP",
                       "value":  "R$ 1.550.334,40",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-fazenda",
                       "primaryOrganizationName":  "Secretaria Municipal da Fazenda",
@@ -62,9 +67,9 @@
                       "contractNumber":  "215/2025",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "RJ SERVICOS (JONATHAN LOPES PEREIRA ME)",
+                      "contractor":  "RJ SERVICOS (JONATHAN LOPES PEREIRA ME) CONTRATON°: 215/2025",
                       "cnpj":  "",
-                      "object":  "Constitui objeto deste edital o credenciamento de empresas para prestacao dos seguintes servicos durante o periodo da “Operacao Verao Iguape Limpa”, em conformidade com o estudo tecnico preliminar e termo de referencia, o Termo e o acrescimo de servicos no percentual de 25% do valor do contrato",
+                      "object":  "deste edital o credenciamento de empresas para prestacao dos seguintes servicos durante o periodo da “Operacao Verao Iguape Limpa”, em conformidade com o estudo tecnico preliminar e termo de referencia, o Termo e o acrescimo de servicos no percentual de 25% do valor do contrato",
                       "value":  "",
                       "term":  "",
                       "signatureDate":  "",
@@ -95,7 +100,7 @@
                       "pageNumber":  4,
                       "contractNumber":  "",
                       "processNumber":  "014/2025",
-                      "modality":  "CHAMADA PUBLICA – Nº 014/2025.",
+                      "modality":  "CHAMADA PUBLICA – Nº 014/2025",
                       "contractor":  "",
                       "cnpj":  "",
                       "object":  "",
@@ -121,16 +126,16 @@
                   },
                   {
                       "type":  "Contrato",
-                      "actTitle":  "Contrato publicado",
+                      "actTitle":  "Contrato 2/2026",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  4,
-                      "contractNumber":  "",
+                      "contractNumber":  "2/2026",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "Instituicao Financeira - Banco do Brasil – S.A",
+                      "contractor":  "Banco do Brasil – S.A",
                       "cnpj":  "",
                       "object":  "Credenciamento de instituicoes financeiras, autorizadas a funcionar pelo Banco Central do Brasil, para a prestacao de servicos bancarios de arrecadacao e recolhimento das receitas publicas municipais, tributarias e nao tributarias, da Prefeitura Municipal de Iguape/SP, incluindo, entre outras, as receitas provenientes de IPTU, ITBI, ISSQN, Taxas, Servicos e demais receitas municipais, por meio de DAM – Documento de Arrecadacao Municipal, com prestacao de contas por meio eletronico dos valores arrecadados, sendo vedado o recebimento em cheque, em conformidade com o padrao estabelecido pela Federacao Brasileira de Bancos – FEBRABAN",
                       "value":  "",
@@ -148,9 +153,8 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: Instituicao Financeira - Banco do Brasil – S.A.\nCNPJ: 00.xxx.xxx/xxxx-91\nCONTRATO-N°:-032/2026\nOBJETO: Credenciamento de instituicoes financeiras, autorizadas a funcionar pelo Banco Central do Brasil, para a prestacao de servicos bancarios de\narrecadacao e recolhimento das receitas publicas municipais, tributarias e nao tributarias, da Prefeitura Municipal de Iguape/SP, incluindo, entre outras,\nas receitas provenientes de IPTU, ITBI, ISSQN, Taxas, Servicos e dem",
-                      "completeness":  "baixa",
+                      "completeness":  "media",
                       "flags":  [
-                                    "Sem numero do contrato",
                                     "Sem valor identificado"
                                 ]
                   }

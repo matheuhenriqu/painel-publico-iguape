@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1235",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:10",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:55:33",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1083_17081218.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1083_17081218.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  10,
+                    "relevantPageCount":  3,
+                    "blockCount":  6,
                     "itemCount":  4,
                     "totalValue":  "R$ 0,00"
                 },
@@ -31,7 +36,7 @@
                       "object":  "prestacao de servicos de ultrassonografia",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-educacao",
                       "primaryOrganizationName":  "Secretaria de Educacao",
@@ -46,7 +51,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "PORTARIA Nº 269, DE 16 DE OUTUBRO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n EGINA AYAKO YAMAMOTO SPINULA, Prefeita Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas pelo\nartigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º - Designa, Ana Leticia Cardoso Costa, Assessor I, lotado na Secretaria Municipal de Saude, titular da Cedula de Identidade RG nº\n 49.XXX.XXX -4, para exercer a funcao de gestor do C",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]
@@ -67,7 +72,7 @@
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-infraestrutura-obras",
                       "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
@@ -126,18 +131,18 @@
                       "actTitle":  "Chamada Publica/ Credenciamento nº11/2025.Objeto: OBJETO Contratacao de pessoas fisicas e juridicas para prestacao de servicos medicos",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  8,
+                      "confidenceScore":  6,
                       "confidenceLabel":  "media",
                       "pageNumber":  4,
                       "contractNumber":  "",
                       "processNumber":  "11/2025",
-                      "modality":  "Chamada Publica/ Credenciamento nº11/2025.Objeto: OBJETO Contratacao de pessoas fisicas e juridicas para prestacao de servicos medicos",
-                      "contractor":  "S/HABILITADAS e INABILITADAS as seguintes PARTICIPANTES",
+                      "modality":  "Chamada Publica/ Credenciamento nº11/2025",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "/ horario Nome PJ/ PF CREDENCIADA",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  null,
                       "primaryOrganizationName":  null,
@@ -150,7 +155,7 @@
 
                                                      ],
                       "excerpt":  "Chamada Publica/ Credenciamento nº11/2025.Objeto: OBJETO Contratacao de pessoas fisicas e juridicas para prestacao de servicos medicos\nplantonistas, Medicos para Saude da Familia, medicos especialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA,\nPSICOLOGO, TERAPEUTA OCUPACIONAL, ,FONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de\nsaude de Iguape, bem como todos os locais de atendimento que a compoe. Pelo periodo de 12 meses. Apos a analise dos documentos apresent",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
                                     "Sem objeto identificado"
                                 ]

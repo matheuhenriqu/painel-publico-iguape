@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "828",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:08",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:25",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_764_31071936.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_764_31071936.pdf",
     "keywords":  [
@@ -10,8 +10,13 @@
                      "dispensa",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 2.605,64"
                 },
@@ -21,11 +26,11 @@
                       "actTitle":  "TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVCEL Nº 204/2015",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  13,
+                      "confidenceScore":  14,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "",
-                      "processNumber":  "",
+                      "processNumber":  "068/2015",
                       "modality":  "",
                       "contractor":  "AMAURI JOSE DE CARVALHO",
                       "cnpj":  "",
@@ -47,10 +52,9 @@
                                                          "Secretaria de Educacao"
                                                      ],
                       "excerpt":  "EXTRATO\n\nTERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVCEL Nº 204/2015\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO:- AMAURI JOSE DE CARVALHO\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para as instalacoes e funcionamento do Setor de\n“Fisioterapia”\nVALOR: R$ 2.605,64 (dois mil, seiscentos e cinco reais e sessenta quatro centavos) mensais.\nDATA: 29/05/2024\nProcesso de Dispensa de Licitacao nº 068/2015\nVIGENCIA: Periodo de 12 (doze) meses- 04/06/2024 a 03/06/2025 (",
-                      "completeness":  "media",
+                      "completeness":  "alta",
                       "flags":  [
-                                    "Sem modalidade identificada",
-                                    "Sem numero principal identificado"
+                                    "Sem modalidade identificada"
                                 ]
                   }
               ]

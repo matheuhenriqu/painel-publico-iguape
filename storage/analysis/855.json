@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "855",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:05",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:20",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_786_03073746.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_786_03073746.pdf",
     "keywords":  [
                      "contrato",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 7.995.000,00"
                 },
@@ -25,7 +30,7 @@
                       "contractNumber":  "067/2024",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "ENGETEC ENGENHARIA EIRELI",
+                      "contractor":  "ENGETEC ENGENHARIA EIRELI CONTRATO N°: 067/2024",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para pavimentacao asfaltica de trechos da estrada do Jaire, conforme contrato repasse nº955401/2023/midr/caixa, que entre si celebram a Uniao Federal, por intermedio do Ministerio da Integracao e do Desenvolvimento Regional, representado (a) pela Caixa Economica Federal e o Municipio de Iguape, conforme informacoes e descritivos do edital vinculados e seus anexos",
                       "value":  "",

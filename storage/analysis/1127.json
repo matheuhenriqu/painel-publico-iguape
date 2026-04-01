@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "1127",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:27",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:09",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_27jun2025_27091732.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_27jun2025_27091732.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  9,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -19,13 +24,13 @@
                       "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  11,
+                      "confidenceScore":  9,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "",
                       "processNumber":  "405/2025",
                       "modality":  "PR-E - PREGAO ELETRONICO - 8/2025 - EDITAL Nº: 10/2025",
-                      "contractor":  "CONTEBOX - CONTAINER E MODULOS LTDA",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "Registro de Precos para locacao de projecao de imagem, painel de led e telao, iluminacao, sonorizacao, geradores, grades, pal cos, pisos, tendas, galpoes, containers camarim, containers escritorio, containers sanitarios, arquibancadas, estruturas complementares e apoio, a serem utilizados pela Secretaria de Cultura, Esportes e Turismo nos eventos neste municipio pelo periodo de 12 (doze) meses",
                       "value":  "",

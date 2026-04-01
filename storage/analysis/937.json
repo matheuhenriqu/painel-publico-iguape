@@ -1,200 +1,25 @@
 ﻿{
     "diaryId":  "937",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:54",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:56",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_856_22073040.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_856_22073040.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  2,
-                    "itemCount":  5,
-                    "totalValue":  "R$ 314.536,00"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "2º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO DA ATA DE REGISTRO DE PRECOS - 43/2024",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  7,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  1,
-                      "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "DROGAFONTE LTDA",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "2º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO DA ATA DE REGISTRO DE PRECOS - 43/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: DROGAFONTE LTDA",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem numero do contrato",
-                                    "Sem objeto identificado",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:043/2024.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  12,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  1,
-                      "contractNumber":  "3/2024",
-                      "processNumber":  "084/2023",
-                      "modality":  "Pregao Presencial n°. 084/2023",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo de 12 (doze) meses - Item 144 - LIDOCAINA CLORIDRATO – 100 MG/ML-10ML - FR - SPRAY, Marca: CRISTALIA. Pregao Presencial n°. 084/2023",
-                      "value":  "R$ 36,00",
-                      "term":  "",
-                      "signatureDate":  "11/10/2024",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:043/2024.\nOBJETO: Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo de\n12 (doze) meses - Item 144 - LIDOCAINA CLORIDRATO – 100 MG/ML-10ML - FR - SPRAY, Marca: CRISTALIA.\nPregao Presencial n°. 084/2023\nData:11/10/2024\nVALOR: Valor unitario licitado R$ 36,00 e valor unitario com reequilibrio R$ 70,19 (94,98%),",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Aviso de Licitacao",
-                      "actTitle":  "CONTRATANTE: MUNICIPIO DE IGUAPE",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  16,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  1,
-                      "contractNumber":  "138/2024",
-                      "processNumber":  "007/2024",
-                      "modality":  "Concorrencia Eletronica nº 007/2024",
-                      "contractor":  "KNAY ADMINISTRACAO E CONSTRUCOES EIRELI - ME",
-                      "cnpj":  "",
-                      "object":  "Contratacao de empresa especializada para servicos de finalizacao e reparos na obra de requalificacao da orla do Valo Grande - fase III, conforme termo de convenio nº167/2018, que entre si celebram o Estado de Sao Paulo, pela Secretaria de Turismo e o Municipio de Iguape. Lote: 01 - Contratacao de empresa especializada para servicos de finalizacao /saldo remanescente da execucao da obra de requalificacao da orla do valo grande - fase III. Concorrencia Eletronica nº 007/2024",
-                      "value":  "R$ 210.659,41",
-                      "term":  "Periodo de 18 (dezoito) meses – 18/10/2024 a 17/04/2026 Execucao – Periodo de 18 (dezoito) meses) da A.I.S. Autorizacao de Inicio dos",
-                      "signatureDate":  "16/10/2024",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: KNAY ADMINISTRACAO E CONSTRUCOES EIRELI - ME\nCONTRATO N°: 138/2024\nOBJETO: Contratacao de empresa especializada para servicos de finalizacao e reparos na obra de requalificacao da orla do Valo Grande - fase III,\nconforme termo de convenio nº167/2018, que entre si celebram o Estado de Sao Paulo, pela Secretaria de Turismo e o Municipio de Iguape. Lote: 01\n- Contratacao de empresa especializada para servicos de finalizacao /saldo remanescente da execucao da obra d",
-                      "completeness":  "alta",
-                      "flags":  [
 
-                                ]
-                  },
-                  {
-                      "type":  "Contrato",
-                      "actTitle":  "Contrato 139/2024",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  1,
-                      "contractNumber":  "139/2024",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "KNAY ADMINISTRACAO E CONSTRUCOES EIRELI - ME",
-                      "cnpj":  "",
-                      "object":  "Contratacao de empresa especializada para servicos de finalizacao e reparos na obra de requalificacao da orla do Valo Grande - fase III, conforme termo de convenio nº167/2018, que entre si celebram o Estado de Sao Paulo, pela Secretaria de Turismo e o Municipio de Iguape. Lote: 02 - Contratacao de empresa especializada para servicos de reparos / reforma e adequacao na obra de requalificacao da orla do valo grande – fase-III",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: KNAY ADMINISTRACAO E CONSTRUCOES EIRELI - ME\nCONTRATO N°: 139/2024\nOBJETO: Contratacao de empresa especializada para servicos de finalizacao e reparos na obra de requalificacao da orla do Valo Grande - fase III,\nconforme termo de convenio nº167/2018, que entre si celebram o Estado de Sao Paulo, pela Secretaria de Turismo e o Municipio de Iguape. Lote: 02 -\nContratacao de empresa especializada para servicos de reparos / reforma e adequacao na obra de requalificac",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Aviso de Licitacao",
-                      "actTitle":  "Concorrencia Eletronica nº 007/2024",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  1,
-                      "contractNumber":  "",
-                      "processNumber":  "007/2024",
-                      "modality":  "Concorrencia Eletronica nº 007/2024",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "R$ 103.840,59",
-                      "term":  "Periodo de 18 (dezoito) meses – 18/10/2024 a 17/04/2026. Execucao – Periodo de 18 (dezoito) meses) da A.I.S. Autorizacao de Inicio dos",
-                      "signatureDate":  "16/10/2024",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-gestao-planejamento",
-                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "gestao-planejamento",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "municipal-gestao-planejamento"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Gestao e Planejamento"
-                                                     ],
-                      "excerpt":  "Concorrencia Eletronica nº 007/2024\nDATA:16/10/2024\nVALOR: Valor Global R$ 103.840,59 (cento e tres mil, oitocentos e quarenta reais e cinquenta e nove centavos\nVIGENCIA: Periodo de 18 (dezoito) meses – 18/10/2024 a 17/04/2026. Execucao – Periodo de 18 (dezoito) meses) da A.I.S. Autorizacao de Inicio dos\nServicos.",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem objeto identificado"
-                                ]
-                  }
               ]
 }

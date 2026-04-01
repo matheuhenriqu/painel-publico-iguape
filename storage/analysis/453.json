@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "453",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:19",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:17",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/ea16a28346bf0ff76f007ab365fcc941.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2022/ea16a28346bf0ff76f007ab365fcc941.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  25,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 40.000,00"
                 },
@@ -25,7 +30,7 @@
                       "contractNumber":  "177/2018",
                       "processNumber":  "058/2018",
                       "modality":  "Pregao Presencial n°. 058/2018",
-                      "contractor":  "CAIXA ECONOMICA FEDERAL S/A",
+                      "contractor":  "CAIXA ECONOMICA FEDERAL S/A CONTRATO N°: 177/2018",
                       "cnpj":  "",
                       "object":  "Prorrogacao da Contratacao de Instituicao Financeira para Prestacao de Servicos de Centralizacao e Arrecadacao de Tributos de Carnes de IPTU – Imposto Predial e Territorial Urbano e ISS/Taxas, do Municipio de Iguape/SP para o exercicio de 2023. Pregao Presencial n°. 058/2018",
                       "value":  "R$ 40.000,00",

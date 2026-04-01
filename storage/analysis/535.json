@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "535",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:05",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:58",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/8aa79c098a354991dcaac7ea31226cf4.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/8aa79c098a354991dcaac7ea31226cf4.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  5,
+                    "relevantPageCount":  1,
+                    "blockCount":  4,
                     "itemCount":  3,
                     "totalValue":  "R$ 245.244,60"
                 },
@@ -26,7 +31,7 @@
                       "contractNumber":  "047/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "ASSOCIACAO AMIGOS E MORADORES DOS BAIRROS ARATACA E CAPOAVA DO MOMUNA",
+                      "contractor":  "ASSOCIACAO AMIGOS E MORADORES DOS BAIRROS ARATACA E CAPOAVA DO MOMUNA CONTRATO N°: 047/2023",
                       "cnpj":  "",
                       "object":  "Aquisicao de Generos Alimenticios da Agricultura Familiar e do Empreendedor Familiar Rural, em atendimento ao Programa Nacional de Alimentacao Escolar – PNAE, para alunos da rede de educacao basica publica, verba FNDE/PNAE, durante 12 (doze) meses",
                       "value":  "",
@@ -96,7 +101,7 @@
                       "contractNumber":  "048/2023",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "COOPERASOL – COOPERATIVA AGROINDUSTRIAL SOLIDARIA",
+                      "contractor":  "COOPERASOL – COOPERATIVA AGROINDUSTRIAL SOLIDARIA CONTRATO N°: 048/2023",
                       "cnpj":  "",
                       "object":  "Aquisicao de Generos Alimenticios da Agricultura Familiar e do Empreendedor Familiar Rural, em atendimento ao Programa Nacional de Alimentacao Escolar – PNAE, para alunos da rede de educacao basica publica, verba FNDE/PNAE, durante 12 (doze) meses",
                       "value":  "",

@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "579",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:56",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:46",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/314f586ae97314c9f3066a2f884022d8.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/314f586ae97314c9f3066a2f884022d8.pdf",
     "keywords":  [
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  4,
+                    "relevantPageCount":  3,
+                    "blockCount":  4,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },
@@ -30,7 +35,7 @@
                       "object":  "empresa INTERVALE TRANSPORTE E TURISMO EIRELI - EPP",
                       "value":  "",
                       "term":  "",
-                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "signatureDate":  "",
                       "legalBasis":  "",
                       "primaryOrganizationId":  "municipal-prefeitura",
                       "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
@@ -43,7 +48,7 @@
                                                          "Prefeitura Municipal de Iguape"
                                                      ],
                       "excerpt":  "Art. 1º - 3\nArt. 2º -\n Diario Oficial\n\n Iguape - SP\n\n ANO 03 – Nº 545 Quinta-feira, 15 de Junho de 2023\n de Janeiro de 242022 2\n\n PORTARIA\n\n Designa, Fernando Rorato, Diretor Administrativo da Saude, titular da Cedula de Identidade RG nº 8.184.053-9 SSP/SP, inscrito no\n CPF/MF nº 041.448.279-41 para exercer a funcao de gestor do Contrato 076/2023, empresa INTERVALE TRANSPORTE E TURISMO\n EIRELI - EPP.\n\n Esta portaria entra em vigor na data de sua publicacao, revogadas as disposicoes em contrario\n\n GABINETE DO PREFEI",
-                      "completeness":  "media",
+                      "completeness":  "baixa",
                       "flags":  [
 
                                 ]

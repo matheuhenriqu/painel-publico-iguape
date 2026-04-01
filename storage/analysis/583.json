@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "583",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:55",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:45",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/cc81a8d24a0738272edd49c67fe80ea7.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/cc81a8d24a0738272edd49c67fe80ea7.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "homologacao",
                      "inexigibilidade"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  7,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 24.411,48"
                 },
@@ -26,7 +31,7 @@
                       "contractNumber":  "016/2021",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "JULIANA MARTINS DE CAMARGO - MEI",
+                      "contractor":  "JULIANA MARTINS DE CAMARGO - MEI CONTRATO N°: 016/2021",
                       "cnpj":  "",
                       "object":  "Contratacao de Empresa especializada para Prestacao de Servicos de Manutencao, Conservacao e Instalacoes nas Trilhas e Atrativos Turisticos do Parque Municipal do Morro do Espia no Municipio de Iguape/SP. Carta Convite n°. 003/2021",
                       "value":  "R$ 24.411,48",

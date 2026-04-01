@@ -1,20 +1,100 @@
 ﻿{
     "diaryId":  "1367",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-19T08:57:10",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:54:32",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1176_19072626.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1176_19072626.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  0,
-                    "itemCount":  0,
-                    "totalValue":  "R$ 0,00",
-                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Items\u0027 porque ele é uma matriz vazia."
+                    "pageCount":  2,
+                    "relevantPageCount":  1,
+                    "blockCount":  3,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
                 },
     "items":  [
-
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 213/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "213/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SAMUEL RIBEIRO EPP",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA MANUTENCAO CORRETIVA DA ESCOLA MUNICIPAL TADASHI NAMBA, LOCALIZADA NA RODOVIA CASEMIRO TEIXEIRA – BAIRRO ITATINS – IGUAPE/SP (-24.510224, -47.559070), NESTE MUNICIPIO DE IGUAPE/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-camara",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Camara Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 213/2025\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SAMUEL RIBEIRO EPP\nCNPJ: 08.xxx.xxx/xxxx-36\nCONTRATO N°: 213/2025\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA MANUTENCAO CORRETIVA DA ESCOLA MUNICIPAL TADASHI NAMBA,\nLOCALIZADA NA RODOVIA CASEMIRO TEIXEIRA – BAIRRO ITATINS – IGUAPE/SP (-24.510224, -47.559070), NESTE MUNICIPIO DE IGUAPE/SP",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "5º TERMO ADITIVO DE INCORPORACAO DE EMPRESA AO CONTRATO 15/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "015/2021",
+                      "processNumber":  "008/2021",
+                      "modality":  "Pregao Presencial n°. 008/2021",
+                      "contractor":  "ALARES INTERNET S.A. CONTRATO N°: 015/2021",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "18/03/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-camara",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Camara Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "5º TERMO ADITIVO DE INCORPORACAO DE EMPRESA AO CONTRATO 15/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ALARES INTERNET S.A.\nCONTRATO N°: 015/2021\nOBJETO: CONTRATACAO DE EMPRESA PRESTADORA DE SERVICOS ESPECIALIZADOS DE TELECOMUNICACOES NECESSARIAS A\nIMPLANTACAO, OPERACAO, MANUTENCAO E GERENCIAMENTO DE UMA REDE IP MULTISSERVICOS (OSPF/MPLS/VPN/EOIP) COM 58\nLINKS DE REDE DE DADOS DE 100MBPS FULL DUPLEX, DE ACESSO A GESTAO DO MUNICIPIO E COM A ENTREGA TOTAL DE 58 LINKS\nDE ACESSO A INTERNET, PELO PERIODO DE 12(DOZ",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  }
               ]
 }

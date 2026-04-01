@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "584",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:15:55",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:58:45",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/34a82ffc014154366f9c5277c905905a.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/34a82ffc014154366f9c5277c905905a.pdf",
     "keywords":  [
@@ -10,219 +10,18 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  3,
-                    "itemCount":  6,
-                    "totalValue":  "R$ 1.485.361,80"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  7,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  2,
-                      "contractNumber":  "",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "STANGHERLIN \u0026 BATIROLA LTDA",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: STANGHERLIN \u0026 BATIROLA LTDA",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem numero do contrato",
-                                    "Sem objeto identificado",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:097/2022",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "7/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para aquisicoes de gas de cozinha glp, p13 e p45, para atender diversos departamentos da Prefeitura de Iguape. Pregao Presencial n°. 050 /2022",
-                      "value":  "R$ 131,90",
-                      "term":  "",
-                      "signatureDate":  "16/06/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  null,
-                      "primaryOrganizationName":  null,
-                      "primaryOrganizationSphere":  null,
-                      "primaryOrganizationAreaId":  null,
-                      "mentionedOrganizationIds":  [
 
-                                                   ],
-                      "mentionedOrganizationNames":  [
-
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:097/2022\nOBJETO: Registro de Precos para aquisicoes de gas de cozinha glp, p13 e p45, para atender diversos departamentos da Prefeitura de Iguape.\nPregao Presencial n°. 050 /2022\nDATA: 16/06/2023\nVALOR: Pagara a contratada os seguintes valores: - Item 01- botijoes de 13 kg –Valor Licitado R$ 131,90 (cento e trinta e um reais e noventa centavos)\ne Valor com Reequilibrio de R$ 127,53 (cento e vinte e sete reais e cinquenta e tres centavos). - Item 02- botijoes de 45 kg –Valor Licitado R$ ",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem contratada identificada"
-                                ]
-                  },
-                  {
-                      "type":  "Contrato",
-                      "actTitle":  "2º TERMO DE PRORROGACAO AO CONTRATO 15/2021",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  16,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "015/2021",
-                      "processNumber":  "008/2021",
-                      "modality":  "Pregao Presencial n°. 008/2021",
-                      "contractor":  "INFOVALE – TELECOM LTDA - EPP",
-                      "cnpj":  "",
-                      "object":  "Contratacao de Empresa prestador de Servicos Especializados de Telecomunicacoes necessarias a implantacao, operacao, manutencao e gerenciamento de uma rede IP Multisservicos (OSPF/MPLS/VPN/EoIP) com 58 links de rede de dados de 100MBPS Full Duplex, de acesso a gestao do municipio e com a entrega total de 58 links de acesso a internet, pelo periodo de 12(doze) meses. Pregao Presencial n°. 008/2021",
-                      "value":  "R$ 380.284,36",
-                      "term":  "12 (doze) meses – periodo de 10/06/2023 a 09/06/2024.",
-                      "signatureDate":  "07/06/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "EXTRATO\n\n2º TERMO DE PRORROGACAO AO CONTRATO 15/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: INFOVALE – TELECOM LTDA - EPP\nCONTRATO N°: 015/2021\nOBJETO: Contratacao de Empresa prestador de Servicos Especializados de Telecomunicacoes necessarias a implantacao, operacao, manutencao e\ngerenciamento de uma rede IP Multisservicos (OSPF/MPLS/VPN/EoIP) com 58 links de rede de dados de 100MBPS Full Duplex, de acesso a gestao do\nmunicipio e com a entrega total de 58 links de acesso a internet, pelo periodo de 12(doze) ",
-                      "completeness":  "alta",
-                      "flags":  [
-
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "2º TERMO ADITIVO AO CONTRATO N.º 044/2022",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "044/2022",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "CIACAN ENGENHARIA EIRELI",
-                      "cnpj":  "",
-                      "object":  "Contratacao de empresa especializada para execucao de obra de construcao Campo de Futebol na Barra do Ribeira, conforme Convenio nº 00089/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o municipio de Iguape/SP. TOMADA DE PRECOS Nº 003/2022",
-                      "value":  "",
-                      "term":  "Prazo de vigencia e o prazo da execucao do servico – 06 (seis) meses – periodo de 17/06/2022 a 16/12/2023.",
-                      "signatureDate":  "15/06/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura",
-                                                       "estadual-turismo"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape",
-                                                         "Secretaria de Turismo e Viagens"
-                                                     ],
-                      "excerpt":  "2º TERMO ADITIVO AO CONTRATO N.º 044/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CIACAN ENGENHARIA EIRELI\nCONTRATO N°: 044/2022\nOBJETO: Contratacao de empresa especializada para execucao de obra de construcao Campo de Futebol na Barra do Ribeira, conforme Convenio nº\n00089/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o municipio de Iguape/SP.\nTOMADA DE PRECOS Nº 003/2022\nDATA: 15/06/2023\nVIGENCIA: Prazo de vigencia e o prazo da execucao do servico – 06 (seis) meses – per",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "4º TERMO ADITIVO DE PRORROGACAO AO CONTRATO N.º 029/2020",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  16,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "029/2020",
-                      "processNumber":  "044/2019",
-                      "modality":  "Pregao Presencial nº 044/2019",
-                      "contractor":  "J.M.L. SINALIZACAO E SERVICOS LTDA",
-                      "cnpj":  "",
-                      "object":  "Contratacao de empresa especializada para prestacao de servicos de conservacao urbana, compreendendo: varricao, capina, afastamento dos residuos, pintura de guias brancas de ruas e avenidas (Licitacao Fracassada Pregao Presencial nº 044/2019) Pregao Presencial n° 003/2020",
-                      "value":  "R$1.104.945,54",
-                      "term":  "03 (tres) meses - 17/06/2023 a 16/09/2023 (inclusive).",
-                      "signatureDate":  "16/06/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "4º TERMO ADITIVO DE PRORROGACAO AO CONTRATO N.º 029/2020 coleta e\nCONTRATANTE: MUNICIPIO DE IGUAPE e quatro\nCONTRATADA: J.M.L. SINALIZACAO E SERVICOS LTDA\nOBJETO: Contratacao de empresa especializada para prestacao de servicos de conservacao urbana, compreendendo: varricao, capina,\nafastamento dos residuos, pintura de guias brancas de ruas e avenidas (Licitacao Fracassada Pregao Presencial nº 044/2019)\nPregao Presencial n° 003/2020\nDATA: 16/06/2023\nVALOR: O presente Termo Aditivo e de R$1.104.945,54 (um milhao, cen",
-                      "completeness":  "alta",
-                      "flags":  [
-
-                                ]
-                  },
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "7º TERMO ADITIVO AO CONTRATO Nº 047/2021",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  13,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  2,
-                      "contractNumber":  "047/2021",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "OLIVEIRA ENGENHARIA EIRELI – EPP",
-                      "cnpj":  "",
-                      "object":  "Contratacao de empresa especializada para obra de reforma/ampliacao do predio que abriga o projeto “Fazendo Acontecer”, conforme convenio n° 100328/2021 – celebrado entre o Estado de Sao Paulo, por meio da Secretaria de Desenvolvimento Regional e o Municipio de Iguape. TOMADA DE PRECO: 07/2021",
-                      "value":  "",
-                      "term":  "Execucao– 90 (noventa) dias – 19/06/2023 a16/09/2023 e Vigencia-90 (noventa) dias: 19/07/2023 a 16/10/2023.",
-                      "signatureDate":  "16/06/2023",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "7º TERMO ADITIVO AO CONTRATO Nº 047/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: OLIVEIRA ENGENHARIA EIRELI – EPP\nOBJETO: Contratacao de empresa especializada para obra de reforma/ampliacao do predio que abriga o projeto “Fazendo Acontecer”, conforme\nconvenio n° 100328/2021 – celebrado entre o Estado de Sao Paulo, por meio da Secretaria de Desenvolvimento Regional e o Municipio de Iguape.\nTOMADA DE PRECO: 07/2021\nDATA: 16/06/2023\nVIGENCIA: Execucao– 90 (noventa) dias – 19/06/2023 a16/09/2023 e Vigencia-90 (nov",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem valor identificado"
-                                ]
-                  }
               ]
 }

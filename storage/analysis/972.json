@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "972",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:51",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:50",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_881_06070634.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_881_06070634.pdf",
     "keywords":  [
                      "aditivo",
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  4,
                     "itemCount":  4,
                     "totalValue":  "R$ 5.934,00"
                 },
@@ -25,7 +30,7 @@
                       "contractNumber":  "148/2024",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "ELITH INFORMATICA LTDA",
+                      "contractor":  "ELITH INFORMATICA LTDA CONTRATO N°: 148/2024",
                       "cnpj":  "35203012022000",
                       "object":  "Contratacao de Empresa para aquisicao de Equipamentos de Informatica, com destinacao dos bens para o Centro de referencia de Assistencia Social (CRAS), oriundo do recurso: emenda parlamentar Processo nº202281000306. Programacao SIGTV n° 352030120220002",
                       "value":  "",
@@ -53,13 +58,13 @@
                       "actTitle":  "Pregao Eletronico n°. 013/2024.",
                       "recordClass":  "licitacao_ou_contratacao",
                       "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  10,
-                      "confidenceLabel":  "alta",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
                       "pageNumber":  2,
                       "contractNumber":  "",
                       "processNumber":  "013/2024",
                       "modality":  "Pregao Eletronico n°. 013/2024",
-                      "contractor":  "o valor global de R$ 4.934,00 (quatro mil, novecentos e trinta e quatro reais)",
+                      "contractor":  "",
                       "cnpj":  "",
                       "object":  "",
                       "value":  "R$ 4.934,00",
@@ -77,7 +82,7 @@
 
                                                      ],
                       "excerpt":  "Pregao Eletronico n°. 013/2024.\nVALOR: Pagara a contratada o valor global de R$ 4.934,00 (quatro mil, novecentos e trinta e quatro reais).\nData: 28/11/2024\nVIGENCIA: 90 (noventa) dias – Periodo de 28/11/2024 a 25/02/2025.",
-                      "completeness":  "alta",
+                      "completeness":  "media",
                       "flags":  [
                                     "Sem objeto identificado"
                                 ]
@@ -87,13 +92,13 @@
                       "actTitle":  "Contrato 149/2024",
                       "recordClass":  "execucao_contratual",
                       "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  15,
+                      "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
                       "contractNumber":  "149/2024",
-                      "processNumber":  "",
+                      "processNumber":  "013/2024",
                       "modality":  "",
-                      "contractor":  "HOBBY INDUSTRIA E COMERCIO LTDA",
+                      "contractor":  "HOBBY INDUSTRIA E COMERCIO LTDA CONTRATO N°: 149/2024",
                       "cnpj":  "35203012022000",
                       "object":  "Contratacao de empresa para aquisicao de equipamentos de Informatica, com destinacao dos bens para o Centro de Referencia de Assistencia Social (CRAS), oriundo do recurso: emenda parlamentar Processo nº202281000306. Programacao SIGTV n° 352030120220002 Pregao Eletronica n°. 013/2024",
                       "value":  "R$ 1.000,00",
@@ -127,7 +132,7 @@
                       "contractNumber":  "150/2024",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "RSM SOLUCOES LTDA",
+                      "contractor":  "RSM SOLUCOES LTDA CONTRATO N°: 150/2024",
                       "cnpj":  "35203012022000",
                       "object":  "Contratacao de empresa para aquisicao de equipamentos de Informatica, com destinacao dos bens para o Centro de Referencia de Assistencia Social (CRAS), oriundo do recurso: emenda parlamentar Processo nº202281000306. Programacao SIGTV n° 352030120220002",
                       "value":  "",

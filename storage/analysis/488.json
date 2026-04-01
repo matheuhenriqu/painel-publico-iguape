@@ -1,15 +1,20 @@
 ﻿{
     "diaryId":  "488",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:16:13",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:59:09",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/8681b1bb8143ad9a0fd3fd5e7ba5c08c.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2023/8681b1bb8143ad9a0fd3fd5e7ba5c08c.pdf",
     "keywords":  [
                      "contrato",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  9,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 0,00"
                 },

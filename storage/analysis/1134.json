@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1134",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:26",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:06",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1012_04071709.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1012_04071709.pdf",
     "keywords":  [
@@ -9,8 +9,13 @@
                      "contrato",
                      "dispensa"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  3,
+                    "relevantPageCount":  1,
+                    "blockCount":  1,
                     "itemCount":  1,
                     "totalValue":  "R$ 559.350,00"
                 },
@@ -23,10 +28,10 @@
                       "confidenceScore":  16,
                       "confidenceLabel":  "alta",
                       "pageNumber":  2,
-                      "contractNumber":  "66/2024",
+                      "contractNumber":  "6/2024",
                       "processNumber":  "036/2023",
                       "modality":  "Pregao Presencial n°. 036/2023",
-                      "contractor":  "L\u0026M SOLUCOES E TECNOLOGIA DA INFORMACAO EIRELI",
+                      "contractor":  "L\u0026M SOLUCOES E TECNOLOGIA DA INFORMACAO EIRELI CONTRATO: Nº066/2024",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para disponibilizacao de equipamentos de informatica em regime de locacao mediante prestacao de servicos de manutencao e de seguranca, destinados aos departamentos da Prefeitura Municipal de Iguape, bem como aos convenios firmados com a municipalidade, pelo periodo de 12 (doze) meses. Pregao Presencial n°. 036/2023",
                       "value":  "R$ 559.350,00",

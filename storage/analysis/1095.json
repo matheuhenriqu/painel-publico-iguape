@@ -1,7 +1,7 @@
 ﻿{
     "diaryId":  "1095",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:31",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:56:18",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_982_20072320.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_982_20072320.pdf",
     "keywords":  [
@@ -10,114 +10,18 @@
                      "dispensa",
                      "homologacao"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
-                    "pageCount":  6,
-                    "itemCount":  3,
-                    "totalValue":  "R$ 465.004,42"
+                    "pageCount":  0,
+                    "relevantPageCount":  0,
+                    "blockCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Text\u0027 porque ele é uma cadeia de caracteres vazia."
                 },
     "items":  [
-                  {
-                      "type":  "Termo Aditivo",
-                      "actTitle":  "9º TERMO ADITIVO DE REEQUILIBRIO AO CONTRATO DE 046/2022",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  14,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  4,
-                      "contractNumber":  "",
-                      "processNumber":  "029/2022",
-                      "modality":  "Pregao Presencial nº 029/2022",
-                      "contractor":  "INTERVALE TRANSPORTE TURISMO EIRELI-EPP",
-                      "cnpj":  "",
-                      "object":  "Contratacao de empresa especializada na prestacao de servicos de transporte diario de pacientes atendidos pelo sus na rede basica de saude do municipio de Iguape pelo periodo de 12 (doze) meses, com adimplemento retroativo do periodo citado de 06/02/2025",
-                      "value":  "R$ 4,42",
-                      "term":  "",
-                      "signatureDate":  "07/05/2025",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "9º TERMO ADITIVO DE REEQUILIBRIO AO CONTRATO DE 046/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: INTERVALE TRANSPORTE TURISMO EIRELI-EPP\nOBJETO: Contratacao de empresa especializada na prestacao de servicos de transporte diario de pacientes atendidos pelo sus na rede basica de saude\ndo municipio de Iguape pelo periodo de 12 (doze) meses, com adimplemento retroativo do periodo citado de 06/02/2025.\nDATA: 07/05/2025\nPregao Presencial nº 029/2022\nVALOR: Aditivo de Reequilibrio ao KM/rodado de cada item e de: Item",
-                      "completeness":  "alta",
-                      "flags":  [
-                                    "Sem numero do contrato"
-                                ]
-                  },
-                  {
-                      "type":  "Registro de Precos",
-                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 006/2025.",
-                      "recordClass":  "execucao_contratual",
-                      "recordClassLabel":  "Execucao contratual",
-                      "confidenceScore":  9,
-                      "confidenceLabel":  "alta",
-                      "pageNumber":  4,
-                      "contractNumber":  "006/2025",
-                      "processNumber":  "",
-                      "modality":  "",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "Registro de Precos para prestacao de servicos funerarios a fim de atender as familias em situacao de vulnerabilidade do municipio de Iguape, atendidas pelos servicos socio assistenciais, pelo periodo de 12 meses",
-                      "value":  "",
-                      "term":  "",
-                      "signatureDate":  "",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 006/2025.\nOBJETO: Registro de Precos para prestacao de servicos funerarios a fim de atender as familias em situacao de vulnerabilidade do municipio de Iguape,\natendidas pelos servicos socio assistenciais, pelo periodo de 12 meses.",
-                      "completeness":  "baixa",
-                      "flags":  [
-                                    "Sem contratada identificada",
-                                    "Sem valor identificado"
-                                ]
-                  },
-                  {
-                      "type":  "Aviso de Licitacao",
-                      "actTitle":  "Pregao Eletronico n°. 005/2025",
-                      "recordClass":  "licitacao_ou_contratacao",
-                      "recordClassLabel":  "Licitacao e contratacao",
-                      "confidenceScore":  6,
-                      "confidenceLabel":  "media",
-                      "pageNumber":  4,
-                      "contractNumber":  "",
-                      "processNumber":  "005/2025",
-                      "modality":  "Pregao Eletronico n°. 005/2025",
-                      "contractor":  "",
-                      "cnpj":  "",
-                      "object":  "",
-                      "value":  "R$ 465.000,00",
-                      "term":  "Validade do presente Registro de Precos – 14/05/2025 a 13/05/2026 – 12 (doze) meses.",
-                      "signatureDate":  "14/05/2025",
-                      "legalBasis":  "",
-                      "primaryOrganizationId":  "municipal-prefeitura",
-                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
-                      "primaryOrganizationSphere":  "municipal",
-                      "primaryOrganizationAreaId":  "governo",
-                      "mentionedOrganizationIds":  [
-                                                       "municipal-prefeitura"
-                                                   ],
-                      "mentionedOrganizationNames":  [
-                                                         "Prefeitura Municipal de Iguape"
-                                                     ],
-                      "excerpt":  "Pregao Eletronico n°. 005/2025\nData: 14/05/2025\nVIGENCIA: Validade do presente Registro de Precos – 14/05/2025 a 13/05/2026 – 12 (doze) meses.\nVALOR: R$ 465.000,00 (quatrocentos e sessenta e cinco mil reais).",
-                      "completeness":  "media",
-                      "flags":  [
-                                    "Sem objeto identificado"
-                                ]
-                  }
+
               ]
 }

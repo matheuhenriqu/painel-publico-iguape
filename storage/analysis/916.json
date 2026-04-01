@@ -1,14 +1,19 @@
 ﻿{
     "diaryId":  "916",
-    "parserVersion":  "2026.03.18.10",
-    "analyzedAt":  "2026-03-18T17:14:57",
+    "parserVersion":  "2026.04.01.11",
+    "analyzedAt":  "2026-04-01T15:57:00",
     "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_836_18072558.pdf",
     "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_836_18072558.pdf",
     "keywords":  [
                      "contrato"
                  ],
+    "analysisReason":  [
+                           "keyword_map"
+                       ],
     "summary":  {
                     "pageCount":  1,
+                    "relevantPageCount":  1,
+                    "blockCount":  2,
                     "itemCount":  2,
                     "totalValue":  "R$ 144.473,07"
                 },
@@ -24,7 +29,7 @@
                       "contractNumber":  "129/2024",
                       "processNumber":  "",
                       "modality":  "",
-                      "contractor":  "OLIVEIRA ENGENHARIA LTDA",
+                      "contractor":  "OLIVEIRA ENGENHARIA LTDA CONTRATO N°: 129/2024",
                       "cnpj":  "",
                       "object":  "Contratacao de empresa especializada para execucao de dimensionamento e distribuicao eletrica para o setor de Pronto Atendimento da Unidade Mista, na Rua Latif Correa, 92-196, Centro, neste Municipio de Iguape/SP",
                       "value":  "",

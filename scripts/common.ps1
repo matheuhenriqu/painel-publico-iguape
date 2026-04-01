@@ -37,6 +37,7 @@ $script:UsersSchemaVersion = '2026.03.26.02'
 $script:SupportSchemaVersion = '2026.03.26.02'
 $script:ContractCrossReviewSchemaVersion = '2026.03.26.02'
 $script:WorkspaceSchemaVersion = '2026.03.30.02'
+$script:PortalContractsSchemaVersion = '2026.04.01.01'
 $script:ObservabilitySchemaVersion = '2026.03.26.03'
 $script:SearchIndexSchemaVersion = '2026.03.30.01'
 $script:DashboardPayloadContractVersion = '2026.03.30.02'
@@ -390,10 +391,17 @@ function Get-EmptyContractsPayload {
 
 function Get-EmptyPortalContractsPayload {
     [ordered]@{
+        version = $script:PortalContractsSchemaVersion
         generatedAt = $null
         source = ([Uri]::new($script:BasePortalUri, '/portal/contratos')).AbsoluteUri
         totalItems = 0
         downloadedDocumentCount = 0
+        reusedDetailCount = 0
+        refreshedDetailCount = 0
+        sourceStats = [ordered]@{
+            listPageCount = 0
+            totalResults = 0
+        }
         items = @()
     }
 }
@@ -6263,7 +6271,12 @@ function Get-LocalPortalPdfInfo {
         [string]$PortalYear,
 
         [Parameter(Mandatory = $true)]
-        [string]$FileName
+        [string]$FileName,
+
+        [Parameter(Mandatory = $false)]
+        [AllowNull()]
+        [AllowEmptyString()]
+        [string]$CategoryPath = ''
     )
 
     $safeYear = if ([string]::IsNullOrWhiteSpace($PortalYear)) { 'sem-ano' } else { ($PortalYear -replace '[^\d]', '') }
@@ -6271,13 +6284,19 @@ function Get-LocalPortalPdfInfo {
         $safeYear = 'sem-ano'
     }
 
-    $relativePath = Join-Path (Join-Path 'storage\pdfs\portal-contratos' $safeYear) $FileName
+    $relativeRoot = Join-Path (Join-Path 'storage\pdfs\portal-contratos' $safeYear) $CategoryPath
+    $relativePath = Join-Path $relativeRoot $FileName
     $absolutePath = Join-Path $script:AppRoot $relativePath
+    $webSegments = @('portal-contratos', $safeYear)
+    if (-not [string]::IsNullOrWhiteSpace($CategoryPath)) {
+        $webSegments += @($CategoryPath -split '[\\/]+')
+    }
+    $webSegments += $FileName
 
     return [pscustomobject]@{
         relativePath = $relativePath.Replace('\', '/')
         absolutePath = $absolutePath
-        webPath = ('/pdfs/' + ('portal-contratos/' + $safeYear + '/' + $FileName).Replace('\', '/'))
+        webPath = ('/pdfs/' + (($webSegments -join '/').Replace('\', '/')))
     }
 }
 

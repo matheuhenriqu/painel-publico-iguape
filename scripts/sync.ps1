@@ -1953,7 +1953,7 @@ function Get-PortalContractSummaryFromCard {
     $objectText = Get-FirstRegexValue -Text $cardText -Pattern "^(?<value>.+?)(?=\s+(?:Contratada\(s\):|N(?:u|ú)mero:|N(?:º|°|o)\s*processo:|Vig(?:e|ê)ncia:|Assinado em:|Origem:|Tipo:)|$)"
     $contractor = Get-FirstRegexValue -Text $cardText -Pattern "Contratada\(s\):\s*(?<value>.+?)(?=\s+(?:N(?:u|ú)mero:|N(?:º|°|o)\s*processo:|Vig(?:e|ê)ncia:|Assinado em:|Origem:|Tipo:)|$)"
 
-    return [pscustomobject]@{
+    $summary = [pscustomobject]@{
         portalContractId = [string]$ContractId
         viewPath = "/portal/contrato/$ContractId"
         viewUrl = (Get-AbsolutePortalUrl -PathOrUrl "/portal/contrato/$ContractId")
@@ -1965,8 +1965,29 @@ function Get-PortalContractSummaryFromCard {
         signatureDate = (Get-FirstRegexValue -Text $cardText -Pattern 'Assinado em:\s*(?<value>[^\s]+)')
         portalOrigin = (Get-FirstRegexValue -Text $cardText -Pattern 'Origem:\s*(?<value>.+?)(?=\s+Tipo:|$)')
         type = (Get-FirstRegexValue -Text $cardText -Pattern 'Tipo:\s*(?<value>.+?)(?=\s+\d+\s+aditivos?|\s+\d+\s+anexos?|$)')
+        listAditiveCount = (Parse-IntegerLike -Text (Get-FirstRegexValue -Text $cardText -Pattern '(?<value>\d+)\s+aditivos?'))
+        listAttachmentCount = (Parse-IntegerLike -Text (Get-FirstRegexValue -Text $cardText -Pattern '(?<value>\d+)\s+anexos?'))
         listExcerpt = $cardText
     }
+
+    $summary | Add-Member -NotePropertyName summaryFingerprint -NotePropertyValue (Get-TextFingerprint -Text ([string]::Join(
+                '||',
+                @(
+                    [string]$summary.portalContractId,
+                    [string]$summary.contractNumber,
+                    [string]$summary.processNumber,
+                    [string]$summary.listObject,
+                    [string]$summary.listContractor,
+                    [string]$summary.listTerm,
+                    [string]$summary.signatureDate,
+                    [string]$summary.portalOrigin,
+                    [string]$summary.type,
+                    [string]$summary.listAditiveCount,
+                    [string]$summary.listAttachmentCount
+                )
+            )))
+
+    return $summary
 }
 
 function Get-PortalContractSummaries {
@@ -2001,7 +2022,8 @@ function Get-PortalContractSummaries {
 
     $summaryItems = @($summaries.ToArray())
     return [ordered]@{
-        totalResults = [int]$pageInfo.totalResults
+        totalResults = [int][Math]::Max([int]$pageInfo.totalResults, @($summaryItems).Count)
+        pageCount = [int]@($pageInfo.pagePaths).Count
         items = $summaryItems
     }
 }
@@ -2017,6 +2039,125 @@ function Get-PortalContractDetailField {
 
     $pattern = '(?s)<div class="sw_titulo_detalhe[^"]*">\s*' + [regex]::Escape($Label) + '\s*</div>\s*<div class="sw_descricao_detalhe[^"]*">(?<value>.*?)</div>'
     return Convert-HtmlFragmentToText -Html (Get-FirstRegexValue -Text $Html -Pattern $pattern)
+}
+
+function Get-SafePortalDocumentFileName {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$BaseName,
+
+        [Parameter(Mandatory = $false)]
+        [string]$Extension = '.pdf'
+    )
+
+    $safe = HtmlDecode-Safe -Text $BaseName
+    $safe = ($safe -replace '[^\p{L}\p{Nd}\-_\. ]+', ' ').Trim()
+    $safe = ($safe -replace '\s+', '_').Trim('_')
+    if ([string]::IsNullOrWhiteSpace($safe)) {
+        $safe = 'documento_portal'
+    }
+
+    if (-not $safe.EndsWith($Extension, [System.StringComparison]::OrdinalIgnoreCase)) {
+        $safe += $Extension
+    }
+
+    return $safe
+}
+
+function Save-PortalDownloadArtifact {
+    param(
+        [Parameter(Mandatory = $false)]
+        [AllowNull()]
+        [AllowEmptyString()]
+        [string]$DownloadTokenPath,
+
+        [Parameter(Mandatory = $true)]
+        [string]$PortalYear,
+
+        [Parameter(Mandatory = $true)]
+        [string]$PortalContractId,
+
+        [Parameter(Mandatory = $false)]
+        [AllowNull()]
+        [object]$ExistingArtifact,
+
+        [Parameter(Mandatory = $false)]
+        [AllowNull()]
+        [AllowEmptyString()]
+        [string]$CategoryPath = '',
+
+        [Parameter(Mandatory = $false)]
+        [AllowNull()]
+        [AllowEmptyString()]
+        [string]$FallbackFileName = ''
+    )
+
+    if ([string]::IsNullOrWhiteSpace($DownloadTokenPath)) {
+        return [pscustomobject]@{
+            localPdfRelative = $null
+            webPdfPath = $null
+            pdfUrl = $null
+            downloaded = $false
+        }
+    }
+
+    $pdfUrl = ''
+    if (
+        $ExistingArtifact -and
+        [string]$ExistingArtifact.downloadTokenPath -eq $DownloadTokenPath -and
+        -not [string]::IsNullOrWhiteSpace([string]$ExistingArtifact.pdfUrl)
+    ) {
+        $pdfUrl = [string]$ExistingArtifact.pdfUrl
+    }
+    else {
+        $pdfUrl = Get-PdfRedirectUrl -DownloadTokenPath $DownloadTokenPath
+    }
+
+    $fileName = ''
+    if (-not [string]::IsNullOrWhiteSpace($pdfUrl)) {
+        $fileName = [System.IO.Path]::GetFileName(([Uri]$pdfUrl).LocalPath)
+    }
+
+    if ([string]::IsNullOrWhiteSpace($fileName) -and $ExistingArtifact) {
+        $fileName = [System.IO.Path]::GetFileName([string]$ExistingArtifact.localPdfRelative)
+    }
+
+    if ([string]::IsNullOrWhiteSpace($fileName)) {
+        $fallbackBaseName = if (-not [string]::IsNullOrWhiteSpace($FallbackFileName)) {
+            $FallbackFileName
+        }
+        else {
+            "contrato_portal_$PortalContractId"
+        }
+        $fileName = Get-SafePortalDocumentFileName -BaseName $fallbackBaseName
+    }
+
+    $localInfo = Get-LocalPortalPdfInfo -PortalYear $PortalYear -FileName $fileName -CategoryPath $CategoryPath
+    Ensure-Directory -Path (Split-Path -Parent $localInfo.absolutePath)
+    $shouldDownload = -not (Test-Path -LiteralPath $localInfo.absolutePath)
+
+    if (-not $shouldDownload -and $ExistingArtifact) {
+        $existingDownloadPath = [string]$ExistingArtifact.downloadTokenPath
+        if ($existingDownloadPath -ne $DownloadTokenPath) {
+            $shouldDownload = $true
+        }
+    }
+
+    if (Test-PublicWorkflowMode) {
+        $shouldDownload = $false
+    }
+
+    if ($shouldDownload) {
+        Invoke-WebRequest -UseBasicParsing -Uri $pdfUrl -Headers @{ 'User-Agent' = $script:UserAgent } -TimeoutSec 180 -OutFile $localInfo.absolutePath | Out-Null
+    }
+
+    return [pscustomobject]@{
+        localPdfRelative = $localInfo.relativePath
+        webPdfPath = $localInfo.webPath
+        pdfUrl = $pdfUrl
+        downloadTokenPath = $DownloadTokenPath
+        downloaded = $shouldDownload
+    }
 }
 
 function Save-PortalContractDocument {
@@ -2037,49 +2178,184 @@ function Save-PortalContractDocument {
         [object]$ExistingItem
     )
 
-    if ([string]::IsNullOrWhiteSpace($DownloadTokenPath)) {
-        return [pscustomobject]@{
-            localPdfRelative = $null
-            webPdfPath = $null
-            pdfUrl = $null
-            downloaded = $false
-        }
-    }
+    return Save-PortalDownloadArtifact `
+        -DownloadTokenPath $DownloadTokenPath `
+        -PortalYear $PortalYear `
+        -PortalContractId $PortalContractId `
+        -ExistingArtifact $ExistingItem `
+        -FallbackFileName ("contrato_portal_$PortalContractId")
+}
 
-    $pdfUrl = Get-PdfRedirectUrl -DownloadTokenPath $DownloadTokenPath
-    $fileName = [System.IO.Path]::GetFileName(([Uri]$pdfUrl).LocalPath)
-    if ([string]::IsNullOrWhiteSpace($fileName)) {
-        $fileName = "contrato-portal-$PortalContractId.pdf"
-    }
+function New-PortalDocumentRecord {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Category,
 
-    $localInfo = Get-LocalPortalPdfInfo -PortalYear $PortalYear -FileName $fileName
-    Ensure-Directory -Path (Split-Path -Parent $localInfo.absolutePath)
-    $shouldDownload = -not (Test-Path -LiteralPath $localInfo.absolutePath)
+        [Parameter(Mandatory = $true)]
+        [string]$Title,
 
-    if (-not $shouldDownload -and $ExistingItem) {
-        $existingDownloadPath = [string]$ExistingItem.downloadTokenPath
-        if ($existingDownloadPath -ne $DownloadTokenPath) {
-            $shouldDownload = $true
-        }
-    }
+        [Parameter(Mandatory = $false)]
+        [AllowNull()]
+        [AllowEmptyString()]
+        [string]$DocumentType = '',
 
-    if (Test-PublicWorkflowMode) {
-        $shouldDownload = $false
-    }
+        [Parameter(Mandatory = $false)]
+        [AllowNull()]
+        [string]$PublishedAt = $null,
 
-    if ($shouldDownload) {
-        Invoke-WebRequest -UseBasicParsing -Uri $pdfUrl -Headers @{ 'User-Agent' = $script:UserAgent } -TimeoutSec 180 -OutFile $localInfo.absolutePath | Out-Null
-    }
+        [Parameter(Mandatory = $true)]
+        [string]$DownloadTokenPath,
+
+        [Parameter(Mandatory = $true)]
+        [object]$Artifact,
+
+        [Parameter(Mandatory = $false)]
+        [AllowNull()]
+        [AllowEmptyString()]
+        [string]$Section = ''
+    )
 
     return [pscustomobject]@{
-        localPdfRelative = $localInfo.relativePath
-        webPdfPath = $localInfo.webPath
-        pdfUrl = $pdfUrl
-        downloaded = $shouldDownload
+        category = $Category
+        title = $Title
+        documentType = $DocumentType
+        publishedAt = $PublishedAt
+        section = $Section
+        downloadTokenPath = [string]$DownloadTokenPath
+        pdfUrl = [string]$Artifact.pdfUrl
+        localPdfRelative = [string]$Artifact.localPdfRelative
+        webPdfPath = [string]$Artifact.webPdfPath
     }
 }
 
-function Get-PortalContractItem {
+function Get-PortalContractAttachments {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Html,
+
+        [Parameter(Mandatory = $true)]
+        [string]$PortalYear,
+
+        [Parameter(Mandatory = $true)]
+        [string]$PortalContractId,
+
+        [Parameter(Mandatory = $false)]
+        [AllowNull()]
+        [hashtable]$ExistingDocumentsByToken = @{}
+    )
+
+    $items = New-Object System.Collections.Generic.List[object]
+    $matches = [regex]::Matches(
+        $Html,
+        '(?s)<a href="(?<download>/portal/download/contratos-anexos/[^"]+)"[^>]*>(?<body>.*?)</a>',
+        [System.Text.RegularExpressions.RegexOptions]::IgnoreCase
+    )
+
+    foreach ($match in $matches) {
+        $downloadTokenPath = [string]$match.Groups['download'].Value
+        $bodyHtml = [string]$match.Groups['body'].Value
+        $title = Collapse-Whitespace -Text (Convert-HtmlFragmentToText -Html (Get-FirstRegexValue -Text $bodyHtml -Pattern '(?s)<div class="sw_nome_arquivo_download[^"]*">(?<value>.*?)</div>'))
+        $documentType = Collapse-Whitespace -Text (Convert-HtmlFragmentToText -Html (Get-FirstRegexValue -Text $bodyHtml -Pattern '(?s)<span class="cnt_descricao_arquivo[^"]*">(?<value>.*?)</span>'))
+        $publishedAt = Convert-PortalDateTime -Text (Convert-HtmlFragmentToText -Html (Get-FirstRegexValue -Text $bodyHtml -Pattern '(?s)<div class="sw_data_arquivo_download[^"]*">(?<value>.*?)</div>'))
+        $artifact = Save-PortalDownloadArtifact `
+            -DownloadTokenPath $downloadTokenPath `
+            -PortalYear $PortalYear `
+            -PortalContractId $PortalContractId `
+            -ExistingArtifact $(if ($ExistingDocumentsByToken.ContainsKey($downloadTokenPath)) { $ExistingDocumentsByToken[$downloadTokenPath] } else { $null }) `
+            -CategoryPath 'anexos' `
+            -FallbackFileName ("anexo_{0}_{1}" -f $PortalContractId, $(if ([string]::IsNullOrWhiteSpace($title)) { $downloadTokenPath.Trim('/').Split('/')[-1] } else { $title }))
+
+        $items.Add([pscustomobject]@{
+                title = if (-not [string]::IsNullOrWhiteSpace($title)) { $title } else { 'Anexo' }
+                documentType = $documentType
+                publishedAt = $publishedAt
+                downloadTokenPath = $downloadTokenPath
+                pdfUrl = [string]$artifact.pdfUrl
+                localPdfRelative = [string]$artifact.localPdfRelative
+                webPdfPath = [string]$artifact.webPdfPath
+                downloaded = [bool]$artifact.downloaded
+            })
+    }
+
+    return @($items.ToArray())
+}
+
+function Get-PortalContractAdditives {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Html,
+
+        [Parameter(Mandatory = $true)]
+        [string]$PortalYear,
+
+        [Parameter(Mandatory = $true)]
+        [string]$PortalContractId,
+
+        [Parameter(Mandatory = $false)]
+        [AllowNull()]
+        [hashtable]$ExistingDocumentsByToken = @{}
+    )
+
+    $items = New-Object System.Collections.Generic.List[object]
+    $matches = [regex]::Matches(
+        $Html,
+        '(?s)<div class="cnt_aditivo">(?<body>.*?)<a href="(?<download>/portal/download/contratos-aditivos/[^"]+)"[^>]*>.*?</a>.*?</div>\s*</div>',
+        [System.Text.RegularExpressions.RegexOptions]::IgnoreCase
+    )
+
+    foreach ($match in $matches) {
+        $bodyHtml = [string]$match.Groups['body'].Value
+        $downloadTokenPath = [string]$match.Groups['download'].Value
+        $bodyText = Collapse-Whitespace -Text (Convert-HtmlFragmentToText -Html $bodyHtml)
+        $title = Collapse-Whitespace -Text (Convert-HtmlFragmentToText -Html (Get-FirstRegexValue -Text $bodyHtml -Pattern '(?s)<strong class="cnt_titulo[^"]*">(?<value>.*?)</strong>'))
+        $termType = Get-FirstRegexValue -Text $bodyText -Pattern 'Tipo do termo:\s*(?<value>.+?)(?=\s+Ano do aditamento:|\s+Assinado em:|\s+Vig[êe]ncia:|\s+Observa(?:ç|c)[õo]es:|$)'
+        $aditiveYear = Get-FirstRegexValue -Text $bodyText -Pattern 'Ano do aditamento:\s*(?<value>\d{4})'
+        $signatureDate = Get-FirstRegexValue -Text $bodyText -Pattern 'Assinado em:\s*(?<value>\d{2}/\d{2}/\d{4})'
+        $term = Get-FirstRegexValue -Text $bodyText -Pattern 'Vig[êe]ncia:\s*(?<value>\d{2}/\d{2}/\d{4})'
+        $observations = Get-FirstRegexValue -Text $bodyText -Pattern 'Observa(?:ç|c)[õo]es:\s*(?<value>.+)$'
+        $artifact = Save-PortalDownloadArtifact `
+            -DownloadTokenPath $downloadTokenPath `
+            -PortalYear $PortalYear `
+            -PortalContractId $PortalContractId `
+            -ExistingArtifact $(if ($ExistingDocumentsByToken.ContainsKey($downloadTokenPath)) { $ExistingDocumentsByToken[$downloadTokenPath] } else { $null }) `
+            -CategoryPath 'aditivos' `
+            -FallbackFileName ("aditivo_{0}_{1}" -f $PortalContractId, $(if ([string]::IsNullOrWhiteSpace($title)) { $downloadTokenPath.Trim('/').Split('/')[-1] } else { $title }))
+
+        $items.Add([pscustomobject]@{
+                title = if (-not [string]::IsNullOrWhiteSpace($title)) { $title } else { 'Termo aditivo' }
+                termType = $termType
+                aditiveYear = $aditiveYear
+                signatureDate = $signatureDate
+                signatureDateIso = (Convert-PortalDateTime -Text $signatureDate)
+                term = $term
+                termEndDate = (Convert-PortalDateTime -Text $term)
+                observations = $observations
+                downloadTokenPath = $downloadTokenPath
+                pdfUrl = [string]$artifact.pdfUrl
+                localPdfRelative = [string]$artifact.localPdfRelative
+                webPdfPath = [string]$artifact.webPdfPath
+                downloaded = [bool]$artifact.downloaded
+            })
+    }
+
+    return @($items.ToArray())
+}
+
+function Copy-PortalContractCacheItem {
+    param(
+        [Parameter(Mandatory = $true)]
+        [object]$Item
+    )
+
+    $copy = [pscustomobject]@{}
+    foreach ($property in $Item.PSObject.Properties) {
+        $copy | Add-Member -NotePropertyName $property.Name -NotePropertyValue $property.Value
+    }
+
+    return $copy
+}
+
+function Get-PortalContractRefreshWindowHours {
     param(
         [Parameter(Mandatory = $true)]
         [object]$Summary,
@@ -2089,126 +2365,380 @@ function Get-PortalContractItem {
         [object]$ExistingItem
     )
 
-    $detailHtml = Invoke-PortalRequest -PathOrUrl ([string]$Summary.viewPath)
-    $updatedAt = Convert-PortalDateTime -Text (Get-FirstRegexValue -Text $detailHtml -Pattern 'Atualizado em:\s*(?<value>[^<]+)')
-    $detailNumber = Convert-HtmlFragmentToText -Html (Get-FirstRegexValue -Text $detailHtml -Pattern '(?s)<div class="cnt_titulo_contrato[^"]*">(?<value>.*?)</div>')
-    $detailNumber = ($detailNumber -replace "^\s*N(?:º|°|o|\.)*\s*", "").Trim()
-    $status = Convert-HtmlFragmentToText -Html (Get-FirstRegexValue -Text $detailHtml -Pattern '(?s)<!--\s*Situa.*?<span>(?<value>[^<]+)</span>')
-    $contractor = Convert-HtmlFragmentToText -Html (Get-FirstRegexValue -Text $detailHtml -Pattern '(?s)Contratada\(s\):</strong>\s*(?<value>.*?)</div>')
-    $objectText = Clean-ObjectText -Text (Convert-HtmlFragmentToText -Html (Get-FirstRegexValue -Text $detailHtml -Pattern '(?s)<div class="cnt_titulo">Objeto</div>\s*<div class="cnt_descricao">(?<value>.*?)</div>'))
-    $vigencia = Get-PortalContractDetailField -Html $detailHtml -Label "Vigência"
-    $signatureDate = Get-PortalContractDetailField -Html $detailHtml -Label 'Data da Assinatura'
-    $origin = Get-PortalContractDetailField -Html $detailHtml -Label 'Origem'
-    $type = Get-PortalContractDetailField -Html $detailHtml -Label 'Tipo'
-    $revenueExpense = Get-PortalContractDetailField -Html $detailHtml -Label 'Receita ou Despesa'
-    $value = Get-PortalContractDetailField -Html $detailHtml -Label 'Valor'
-    $downloadTokenPath = Get-FirstRegexValue -Text $detailHtml -Pattern '(?<value>/portal/download/contratos/[^"]+)'
-    $aditiveCount = Parse-IntegerLike -Text (Get-FirstRegexValue -Text $detailHtml -Pattern 'cnt_info_total[^>]*>\s*Total:\s*(?<value>\d+)')
-    $contractNumber = if (-not [string]::IsNullOrWhiteSpace($detailNumber)) { $detailNumber } else { [string]$Summary.contractNumber }
-    $contractor = if (-not [string]::IsNullOrWhiteSpace($contractor)) { Clean-EntityName -Text $contractor } else { [string]$Summary.listContractor }
-    $objectText = if (-not [string]::IsNullOrWhiteSpace($objectText)) { $objectText } else { [string]$Summary.listObject }
-    $type = if (-not [string]::IsNullOrWhiteSpace($type)) { $type } else { [string]$Summary.type }
-    $origin = if (-not [string]::IsNullOrWhiteSpace($origin)) { $origin } else { [string]$Summary.portalOrigin }
-    $vigencia = if (-not [string]::IsNullOrWhiteSpace($vigencia)) { $vigencia } else { [string]$Summary.listTerm }
-    $signatureDate = if (-not [string]::IsNullOrWhiteSpace($signatureDate)) { $signatureDate } else { [string]$Summary.signatureDate }
-    $publishedAt = Convert-PortalDateTime -Text $signatureDate
-    if ([string]::IsNullOrWhiteSpace($publishedAt)) {
-        $publishedAt = $updatedAt
+    $status = if ($ExistingItem) { [string]$ExistingItem.portalStatus } else { '' }
+    if ($status.ToUpperInvariant() -eq 'VIGENTE') {
+        return 6
     }
 
-    $contextText = @(
-        $contractNumber,
-        $contractor,
-        $objectText,
-        $type,
-        $origin,
-        $revenueExpense,
-        [string]$Summary.processNumber
-    ) -join "`n"
+    if ([int]$Summary.listAditiveCount -gt 0 -or [int]$Summary.listAttachmentCount -gt 0) {
+        return 12
+    }
 
-    $organizationMatches = Find-OrganizationsInText -Text $contextText
-    $preferredOrganization = Get-PreferredPrimaryOrganization -BlockMatches $organizationMatches -PageMatches @()
-    if ($null -eq $preferredOrganization) {
-        $preferredOrganization = [pscustomobject]@{
-            id = ''
-            name = ''
-            sphere = ''
-            areaId = ''
+    return 24
+}
+
+function Get-PortalContractRefreshReason {
+    param(
+        [Parameter(Mandatory = $true)]
+        [object]$Summary,
+
+        [Parameter(Mandatory = $false)]
+        [AllowNull()]
+        [object]$ExistingItem
+    )
+
+    if ($null -eq $ExistingItem) {
+        return 'novo_contrato_portal'
+    }
+
+    if (-not (Test-ObjectProperty -Item $ExistingItem -Name 'schemaVersion') -or [string]$ExistingItem.schemaVersion -ne $script:PortalContractsSchemaVersion) {
+        return 'versao_de_cache_desatualizada'
+    }
+
+    if ([string]$ExistingItem.summaryFingerprint -ne [string]$Summary.summaryFingerprint) {
+        return 'mudanca_detectada_na_listagem'
+    }
+
+    if (-not (Test-ObjectProperty -Item $ExistingItem -Name 'detailCapturedAt') -or [string]::IsNullOrWhiteSpace([string]$ExistingItem.detailCapturedAt)) {
+        return 'detalhe_nao_coletado'
+    }
+
+    if (
+        [int]$Summary.listAditiveCount -gt 0 -and
+        @($(if (Test-ObjectProperty -Item $ExistingItem -Name 'additives') { $ExistingItem.additives } else { @() })).Count -lt [int]$Summary.listAditiveCount
+    ) {
+        return 'aditivos_incompletos'
+    }
+
+    if (
+        [int]$Summary.listAttachmentCount -gt 0 -and
+        @($(if (Test-ObjectProperty -Item $ExistingItem -Name 'attachments') { $ExistingItem.attachments } else { @() })).Count -lt [int]$Summary.listAttachmentCount
+    ) {
+        return 'anexos_incompletos'
+    }
+
+    $capturedAt = [DateTime]::MinValue
+    if (-not [DateTime]::TryParse([string]$ExistingItem.detailCapturedAt, [ref]$capturedAt)) {
+        return 'timestamp_de_detalhe_invalido'
+    }
+
+    $refreshWindowHours = Get-PortalContractRefreshWindowHours -Summary $Summary -ExistingItem $ExistingItem
+    $hasMissingEssentialFields = (
+        [string]::IsNullOrWhiteSpace([string]$ExistingItem.contractor) -or
+        [string]::IsNullOrWhiteSpace([string]$ExistingItem.object) -or
+        [string]::IsNullOrWhiteSpace([string]$ExistingItem.signatureDate) -or
+        [string]::IsNullOrWhiteSpace([string]$ExistingItem.portalOrigin)
+    )
+
+    if ($hasMissingEssentialFields -and ((Get-Date) - $capturedAt).TotalHours -ge $refreshWindowHours) {
+        return 'campos_essenciais_incompletos'
+    }
+
+    if (((Get-Date) - $capturedAt).TotalHours -ge $refreshWindowHours) {
+        return 'janela_de_revalidacao'
+    }
+
+    return ''
+}
+
+function Get-PortalContractRecordFingerprint {
+    param(
+        [Parameter(Mandatory = $true)]
+        [object]$Item
+    )
+
+    $documentParts = @(
+        @($(if (Test-ObjectProperty -Item $Item -Name 'documents') { $Item.documents } else { @() })) |
+        ForEach-Object {
+            [string]::Join('~', @(
+                    [string]$_.category,
+                    [string]$_.title,
+                    [string]$_.documentType,
+                    [string]$_.publishedAt,
+                    [string]$_.downloadTokenPath
+                ))
         }
-    }
-    $mentionedIds = @($organizationMatches | ForEach-Object { [string]$_.id } | Select-Object -Unique)
-    $mentionedNames = @($organizationMatches | ForEach-Object { [string]$_.name } | Select-Object -Unique)
-    $flags = New-Object System.Collections.Generic.List[string]
-    if ([string]::IsNullOrWhiteSpace($contractNumber)) { $flags.Add('Sem numero do contrato') }
-    if ([string]::IsNullOrWhiteSpace($contractor)) { $flags.Add('Sem contratada identificada') }
-    if ([string]::IsNullOrWhiteSpace($objectText)) { $flags.Add('Sem objeto identificado') }
-    if ([string]::IsNullOrWhiteSpace($value)) { $flags.Add('Sem valor identificado') }
-    if ([string]::IsNullOrWhiteSpace($preferredOrganization.name)) { $flags.Add('Sem orgao principal identificado') }
+    )
 
-    $completenessScore = 0
-    foreach ($field in @($contractNumber, $contractor, $objectText, $vigencia, $signatureDate, $type, $origin)) {
-        if (-not [string]::IsNullOrWhiteSpace([string]$field)) {
-            $completenessScore++
+    $additiveParts = @(
+        @($(if (Test-ObjectProperty -Item $Item -Name 'additives') { $Item.additives } else { @() })) |
+        ForEach-Object {
+            [string]::Join('~', @(
+                    [string]$_.title,
+                    [string]$_.termType,
+                    [string]$_.aditiveYear,
+                    [string]$_.signatureDate,
+                    [string]$_.term,
+                    [string]$_.downloadTokenPath
+                ))
         }
-    }
+    )
 
-    $completeness = if ($completenessScore -ge 6) {
-        'alta'
-    }
-    elseif ($completenessScore -ge 4) {
-        'media'
-    }
-    else {
-        'baixa'
-    }
+    return Get-TextFingerprint -Text ([string]::Join(
+            '||',
+            @(
+                [string]$Item.portalContractId,
+                [string]$Item.contractNumber,
+                [string]$Item.processNumber,
+                [string]$Item.contractor,
+                [string]$Item.object,
+                [string]$Item.term,
+                [string]$Item.signatureDate,
+                [string]$Item.portalStatus,
+                [string]$Item.updatedAt,
+                [string]$Item.value,
+                [string]$Item.aditiveCount,
+                [string]$Item.attachmentCount,
+                [string]$Item.summaryFingerprint
+            ) + @($documentParts) + @($additiveParts)
+        ))
+}
 
-    $portalYear = if ($publishedAt -and $publishedAt.Length -ge 4) { $publishedAt.Substring(0, 4) } elseif ($updatedAt -and $updatedAt.Length -ge 4) { $updatedAt.Substring(0, 4) } else { 'sem-ano' }
-    $documentInfo = Save-PortalContractDocument -DownloadTokenPath $downloadTokenPath -PortalYear $portalYear -PortalContractId ([string]$Summary.portalContractId) -ExistingItem $ExistingItem
+function Get-PortalContractItem {
+    param(
+        [Parameter(Mandatory = $true)]
+        [object]$Summary,
 
-    return [pscustomobject]@{
-        sourceType = 'portal_contratos'
-        sourceLabel = 'Portal de Contratos da Prefeitura'
-        portalContractId = [string]$Summary.portalContractId
-        edition = 'Portal'
-        publishedAt = $publishedAt
-        updatedAt = $updatedAt
-        localPdfRelative = [string]$documentInfo.localPdfRelative
-        webPdfPath = [string]$documentInfo.webPdfPath
-        pdfUrl = [string]$documentInfo.pdfUrl
-        viewUrl = [string]$Summary.viewUrl
-        downloadTokenPath = [string]$downloadTokenPath
-        candidateKeywords = @('portal-contratos', 'site-oficial')
-        type = if (-not [string]::IsNullOrWhiteSpace($type)) { $type } else { 'Contrato' }
-        contractNumber = $contractNumber
-        processNumber = [string]$Summary.processNumber
-        modality = $origin
-        contractor = $contractor
-        cnpj = (Get-FirstRegexValue -Text ($contextText + "`n" + [string]$Summary.listExcerpt) -Pattern '(?<value>\d{2}\.?\d{3}\.?\d{3}\/?\d{4}\-?\d{2})')
-        object = $objectText
-        value = $value
-        valueNumber = (Convert-BrazilianCurrencyToNumber -Text $value)
-        actTitle = if (-not [string]::IsNullOrWhiteSpace($contractNumber)) { "Contrato $contractNumber" } else { 'Contrato oficial' }
-        recordClass = 'execucao_contratual'
-        recordClassLabel = 'Contrato oficial'
-        confidenceLabel = 'alta'
-        confidenceScore = 18
-        term = $vigencia
-        signatureDate = $signatureDate
-        legalBasis = ''
-        primaryOrganizationId = [string]$preferredOrganization.id
-        primaryOrganizationName = [string]$preferredOrganization.name
-        primaryOrganizationSphere = [string]$preferredOrganization.sphere
-        primaryOrganizationAreaId = [string]$preferredOrganization.areaId
-        mentionedOrganizationIds = @($mentionedIds)
-        mentionedOrganizationNames = @($mentionedNames)
-        excerpt = if (-not [string]::IsNullOrWhiteSpace($objectText)) { $objectText.Substring(0, [Math]::Min(460, $objectText.Length)) } else { [string]$Summary.listExcerpt }
-        completeness = $completeness
-        flags = @($flags)
-        portalStatus = $status
-        portalOrigin = $origin
-        revenueExpense = $revenueExpense
-        aditiveCount = $aditiveCount
-        downloadedDocument = [bool]$documentInfo.downloaded
+        [Parameter(Mandatory = $false)]
+        [AllowNull()]
+        [object]$ExistingItem,
+
+        [Parameter(Mandatory = $false)]
+        [AllowNull()]
+        [AllowEmptyString()]
+        [string]$RefreshReason = ''
+    )
+
+    $debugStep = 'inicio'
+    try {
+        $capturedAt = Get-IsoNow
+        $debugStep = 'detalhe'
+        $detailHtml = Invoke-PortalRequest -PathOrUrl ([string]$Summary.viewPath)
+        $updatedAt = Convert-PortalDateTime -Text (Get-FirstRegexValue -Text $detailHtml -Pattern 'Atualizado em:\s*(?<value>[^<]+)')
+        $detailNumber = Convert-HtmlFragmentToText -Html (Get-FirstRegexValue -Text $detailHtml -Pattern '(?s)<div class="cnt_titulo_contrato[^"]*">(?<value>.*?)</div>')
+        $detailNumber = ($detailNumber -replace "^\s*N(?:º|°|o|\.)*\s*", "").Trim()
+        $status = Convert-HtmlFragmentToText -Html (Get-FirstRegexValue -Text $detailHtml -Pattern '(?s)<!--\s*Situa.*?<span>(?<value>[^<]+)</span>')
+        $contractor = Convert-HtmlFragmentToText -Html (Get-FirstRegexValue -Text $detailHtml -Pattern '(?s)Contratada\(s\):</strong>\s*(?<value>.*?)</div>')
+        $objectText = Clean-ObjectText -Text (Convert-HtmlFragmentToText -Html (Get-FirstRegexValue -Text $detailHtml -Pattern '(?s)<div class="cnt_titulo">Objeto</div>\s*<div class="cnt_descricao">(?<value>.*?)</div>'))
+        $vigencia = Get-PortalContractDetailField -Html $detailHtml -Label "Vigência"
+        $signatureDate = Get-PortalContractDetailField -Html $detailHtml -Label 'Data da Assinatura'
+        $origin = Get-PortalContractDetailField -Html $detailHtml -Label 'Origem'
+        $type = Get-PortalContractDetailField -Html $detailHtml -Label 'Tipo'
+        $revenueExpense = Get-PortalContractDetailField -Html $detailHtml -Label 'Receita ou Despesa'
+        $value = Get-PortalContractDetailField -Html $detailHtml -Label 'Valor'
+        $downloadTokenPath = Get-FirstRegexValue -Text $detailHtml -Pattern '(?<value>/portal/download/contratos/[^"]+)'
+        $aditiveCount = Parse-IntegerLike -Text (Get-FirstRegexValue -Text $detailHtml -Pattern 'cnt_info_total[^>]*>\s*Total:\s*(?<value>\d+)')
+        $contractNumber = if (-not [string]::IsNullOrWhiteSpace($detailNumber)) { $detailNumber } else { [string]$Summary.contractNumber }
+        $contractor = if (-not [string]::IsNullOrWhiteSpace($contractor)) { Clean-EntityName -Text $contractor } else { [string]$Summary.listContractor }
+        $objectText = if (-not [string]::IsNullOrWhiteSpace($objectText)) { $objectText } else { [string]$Summary.listObject }
+        $type = if (-not [string]::IsNullOrWhiteSpace($type)) { $type } else { [string]$Summary.type }
+        $origin = if (-not [string]::IsNullOrWhiteSpace($origin)) { $origin } else { [string]$Summary.portalOrigin }
+        $vigencia = if (-not [string]::IsNullOrWhiteSpace($vigencia)) { $vigencia } else { [string]$Summary.listTerm }
+        $signatureDate = if (-not [string]::IsNullOrWhiteSpace($signatureDate)) { $signatureDate } else { [string]$Summary.signatureDate }
+        $publishedAt = Convert-PortalDateTime -Text $signatureDate
+        if ([string]::IsNullOrWhiteSpace($publishedAt)) {
+            $publishedAt = $updatedAt
+        }
+
+        $debugStep = 'organizacao'
+        $contextText = @(
+            $contractNumber,
+            $contractor,
+            $objectText,
+            $type,
+            $origin,
+            $revenueExpense,
+            [string]$Summary.processNumber
+        ) -join "`n"
+
+        $organizationMatches = Find-OrganizationsInText -Text $contextText
+        $preferredOrganization = Get-PreferredPrimaryOrganization -BlockMatches $organizationMatches -PageMatches @()
+        if ($null -eq $preferredOrganization) {
+            $preferredOrganization = [pscustomobject]@{
+                id = ''
+                name = ''
+                sphere = ''
+                areaId = ''
+            }
+        }
+        $mentionedIds = @($organizationMatches | ForEach-Object { [string]$_.id } | Select-Object -Unique)
+        $mentionedNames = @($organizationMatches | ForEach-Object { [string]$_.name } | Select-Object -Unique)
+        $flags = New-Object System.Collections.Generic.List[string]
+        if ([string]::IsNullOrWhiteSpace($contractNumber)) { $flags.Add('Sem numero do contrato') }
+        if ([string]::IsNullOrWhiteSpace($contractor)) { $flags.Add('Sem contratada identificada') }
+        if ([string]::IsNullOrWhiteSpace($objectText)) { $flags.Add('Sem objeto identificado') }
+        if ([string]::IsNullOrWhiteSpace($value)) { $flags.Add('Sem valor identificado') }
+        if ([string]::IsNullOrWhiteSpace($preferredOrganization.name)) { $flags.Add('Sem orgao principal identificado') }
+
+        $completenessScore = 0
+        foreach ($field in @($contractNumber, $contractor, $objectText, $vigencia, $signatureDate, $type, $origin)) {
+            if (-not [string]::IsNullOrWhiteSpace([string]$field)) {
+                $completenessScore++
+            }
+        }
+
+        $completeness = if ($completenessScore -ge 6) {
+            'alta'
+        }
+        elseif ($completenessScore -ge 4) {
+            'media'
+        }
+        else {
+            'baixa'
+        }
+
+        $debugStep = 'cache_documentos'
+        $portalYear = if ($publishedAt -and $publishedAt.Length -ge 4) { $publishedAt.Substring(0, 4) } elseif ($updatedAt -and $updatedAt.Length -ge 4) { $updatedAt.Substring(0, 4) } else { 'sem-ano' }
+        $existingDocumentsByToken = @{}
+        if ($ExistingItem -and (Test-ObjectProperty -Item $ExistingItem -Name 'documents')) {
+            foreach ($document in @($ExistingItem.documents)) {
+                if (-not [string]::IsNullOrWhiteSpace([string]$document.downloadTokenPath)) {
+                    $existingDocumentsByToken[[string]$document.downloadTokenPath] = $document
+                }
+            }
+        }
+        if (
+            $ExistingItem -and
+            -not [string]::IsNullOrWhiteSpace([string]$ExistingItem.downloadTokenPath) -and
+            -not $existingDocumentsByToken.ContainsKey([string]$ExistingItem.downloadTokenPath)
+        ) {
+            $existingDocumentsByToken[[string]$ExistingItem.downloadTokenPath] = [pscustomobject]@{
+                downloadTokenPath = [string]$ExistingItem.downloadTokenPath
+                pdfUrl = [string]$ExistingItem.pdfUrl
+                localPdfRelative = [string]$ExistingItem.localPdfRelative
+                webPdfPath = [string]$ExistingItem.webPdfPath
+            }
+        }
+
+        $debugStep = 'documento_principal'
+        $documentInfo = Save-PortalContractDocument `
+            -DownloadTokenPath $downloadTokenPath `
+            -PortalYear $portalYear `
+            -PortalContractId ([string]$Summary.portalContractId) `
+            -ExistingItem $(if ($existingDocumentsByToken.ContainsKey([string]$downloadTokenPath)) { $existingDocumentsByToken[[string]$downloadTokenPath] } else { $null })
+
+        $debugStep = 'anexos'
+        $attachmentItems = @(Get-PortalContractAttachments -Html $detailHtml -PortalYear $portalYear -PortalContractId ([string]$Summary.portalContractId) -ExistingDocumentsByToken $existingDocumentsByToken)
+        $debugStep = 'aditivos'
+        $additiveItems = @(Get-PortalContractAdditives -Html $detailHtml -PortalYear $portalYear -PortalContractId ([string]$Summary.portalContractId) -ExistingDocumentsByToken $existingDocumentsByToken)
+        $debugStep = 'consolidacao_documentos'
+        $documents = New-Object System.Collections.Generic.List[object]
+        if (-not [string]::IsNullOrWhiteSpace($downloadTokenPath)) {
+            $documents.Add((New-PortalDocumentRecord `
+                    -Category 'contrato_principal' `
+                    -Title $(if (-not [string]::IsNullOrWhiteSpace($contractNumber)) { "Contrato $contractNumber" } else { 'Contrato principal' }) `
+                    -DocumentType 'Contrato' `
+                    -PublishedAt $publishedAt `
+                    -DownloadTokenPath $downloadTokenPath `
+                    -Artifact $documentInfo `
+                    -Section 'principal'
+                ))
+        }
+        foreach ($attachment in $attachmentItems) {
+            $documents.Add((New-PortalDocumentRecord `
+                    -Category 'anexo' `
+                    -Title ([string]$attachment.title) `
+                    -DocumentType ([string]$attachment.documentType) `
+                    -PublishedAt ([string]$attachment.publishedAt) `
+                    -DownloadTokenPath ([string]$attachment.downloadTokenPath) `
+                    -Artifact $attachment `
+                    -Section 'arquivos'
+                ))
+        }
+        foreach ($additive in $additiveItems) {
+            $documents.Add((New-PortalDocumentRecord `
+                    -Category 'aditivo' `
+                    -Title ([string]$additive.title) `
+                    -DocumentType ([string]$additive.termType) `
+                    -PublishedAt ([string]$additive.signatureDateIso) `
+                    -DownloadTokenPath ([string]$additive.downloadTokenPath) `
+                    -Artifact $additive `
+                    -Section 'aditivos'
+                ))
+        }
+        $downloadedDocumentCount = 0
+        if ([bool]$documentInfo.downloaded) {
+            $downloadedDocumentCount++
+        }
+        $downloadedDocumentCount += @($attachmentItems | Where-Object { [bool]$_.downloaded }).Count
+        $downloadedDocumentCount += @($additiveItems | Where-Object { [bool]$_.downloaded }).Count
+        $attachmentCount = @($attachmentItems).Count
+        $portalAditiveCount = [Math]::Max([int]$Summary.listAditiveCount, [Math]::Max(@($additiveItems).Count, [int]$aditiveCount))
+
+        $debugStep = 'montagem_final'
+        $excerpt = if (-not [string]::IsNullOrWhiteSpace($objectText)) {
+            $objectText.Substring(0, [Math]::Min(460, $objectText.Length))
+        }
+        else {
+            [string]$Summary.listExcerpt
+        }
+        $itemData = [ordered]@{}
+        $itemData.schemaVersion = $script:PortalContractsSchemaVersion
+        $itemData.sourceType = 'portal_contratos'
+        $itemData.sourceLabel = 'Portal de Contratos da Prefeitura'
+        $itemData.portalContractId = [string]$Summary.portalContractId
+        $itemData.viewPath = [string]$Summary.viewPath
+        $itemData.edition = 'Portal'
+        $itemData.publishedAt = $publishedAt
+        $itemData.updatedAt = $updatedAt
+        $itemData.detailCapturedAt = $capturedAt
+        $itemData.lastSeenAt = $capturedAt
+        $itemData.summaryFingerprint = [string]$Summary.summaryFingerprint
+        $itemData.refreshReason = $RefreshReason
+        $itemData.reusedDetail = $false
+        $itemData.localPdfRelative = [string]$documentInfo.localPdfRelative
+        $itemData.webPdfPath = [string]$documentInfo.webPdfPath
+        $itemData.pdfUrl = [string]$documentInfo.pdfUrl
+        $itemData.viewUrl = [string]$Summary.viewUrl
+        $itemData.downloadTokenPath = [string]$downloadTokenPath
+        $itemData.candidateKeywords = @('portal-contratos', 'site-oficial')
+        $itemData.type = if (-not [string]::IsNullOrWhiteSpace($type)) { $type } else { 'Contrato' }
+        $itemData.contractNumber = $contractNumber
+        $itemData.processNumber = [string]$Summary.processNumber
+        $itemData.modality = $origin
+        $itemData.contractor = $contractor
+        $itemData.cnpj = (Get-FirstRegexValue -Text ($contextText + "`n" + [string]$Summary.listExcerpt) -Pattern '(?<value>\d{2}\.?\d{3}\.?\d{3}\/?\d{4}\-?\d{2})')
+        $itemData.object = $objectText
+        $itemData.value = $value
+        $itemData.valueNumber = (Convert-BrazilianCurrencyToNumber -Text $value)
+        $itemData.actTitle = if (-not [string]::IsNullOrWhiteSpace($contractNumber)) { "Contrato $contractNumber" } else { 'Contrato oficial' }
+        $itemData.recordClass = 'execucao_contratual'
+        $itemData.recordClassLabel = 'Contrato oficial'
+        $itemData.confidenceLabel = 'alta'
+        $itemData.confidenceScore = 18
+        $itemData.term = $vigencia
+        $itemData.signatureDate = $signatureDate
+        $itemData.legalBasis = ''
+        $itemData.primaryOrganizationId = [string]$preferredOrganization.id
+        $itemData.primaryOrganizationName = [string]$preferredOrganization.name
+        $itemData.primaryOrganizationSphere = [string]$preferredOrganization.sphere
+        $itemData.primaryOrganizationAreaId = [string]$preferredOrganization.areaId
+        $itemData.mentionedOrganizationIds = @($mentionedIds)
+        $itemData.mentionedOrganizationNames = @($mentionedNames)
+        $itemData.excerpt = $excerpt
+        $itemData.completeness = $completeness
+        $itemData.flags = @($flags)
+        $itemData.portalStatus = $status
+        $itemData.portalOrigin = $origin
+        $itemData.revenueExpense = $revenueExpense
+        $itemData.listAditiveCount = [int]$Summary.listAditiveCount
+        $itemData.listAttachmentCount = [int]$Summary.listAttachmentCount
+        $itemData.aditiveCount = $portalAditiveCount
+        $itemData.attachmentCount = $attachmentCount
+        $itemData.documentCount = @($documents.ToArray()).Count
+        $itemData.documents = @($documents.ToArray())
+        $itemData.attachments = @($attachmentItems)
+        $itemData.additives = @($additiveItems)
+        $itemData.downloadedDocumentCount = $downloadedDocumentCount
+        $itemData.downloadedDocument = [bool]($downloadedDocumentCount -gt 0)
+        $item = [pscustomobject]$itemData
+
+        $debugStep = 'fingerprint'
+        $item | Add-Member -NotePropertyName recordFingerprint -NotePropertyValue (Get-PortalContractRecordFingerprint -Item $item)
+        return $item
+    }
+    catch {
+        throw ("Falha ao montar contrato do portal {0} na etapa {1}: {2}" -f [string]$Summary.portalContractId, $debugStep, $_.Exception.Message)
     }
 }
 
@@ -2224,29 +2754,46 @@ function Sync-PortalContracts {
     $downloadedCount = 0
     $newCount = 0
     $updatedCount = 0
+    $reusedDetailCount = 0
+    $refreshedDetailCount = 0
     $total = @($summaries.items).Count
 
     for ($index = 0; $index -lt $total; $index++) {
         $summary = $summaries.items[$index]
         $existingItem = if ($existingById.ContainsKey([string]$summary.portalContractId)) { $existingById[[string]$summary.portalContractId] } else { $null }
+        $refreshReason = Get-PortalContractRefreshReason -Summary $summary -ExistingItem $existingItem
 
         Update-Status -Updates @{
             syncStage = 'sincronizando-contratos'
             message = "Atualizando contratos oficiais ($($index + 1) de $total)."
         }
 
-        $item = Get-PortalContractItem -Summary $summary -ExistingItem $existingItem
-        if ([bool]$item.downloadedDocument) {
-            $downloadedCount++
+        if ([string]::IsNullOrWhiteSpace($refreshReason)) {
+            $item = Copy-PortalContractCacheItem -Item $existingItem
+            $item.reusedDetail = $true
+            $item.refreshReason = 'cache_incremental'
+            $item.lastSeenAt = Get-IsoNow
+            $item.summaryFingerprint = [string]$summary.summaryFingerprint
+            $item.listAditiveCount = [int]$summary.listAditiveCount
+            $item.listAttachmentCount = [int]$summary.listAttachmentCount
+            $item.viewPath = [string]$summary.viewPath
+            $item.viewUrl = [string]$summary.viewUrl
+            $item.downloadedDocument = $false
+            $item.downloadedDocumentCount = 0
+            $reusedDetailCount++
+        }
+        else {
+            $item = Get-PortalContractItem -Summary $summary -ExistingItem $existingItem -RefreshReason $refreshReason
+            $downloadedCount += [int]$item.downloadedDocumentCount
+            $refreshedDetailCount++
         }
 
         if ($null -eq $existingItem) {
             $newCount++
         }
         elseif (
-            [string]$existingItem.updatedAt -ne [string]$item.updatedAt -or
-            [string]$existingItem.pdfUrl -ne [string]$item.pdfUrl -or
-            [string]$existingItem.localPdfRelative -ne [string]$item.localPdfRelative
+            [string]$(if (Test-ObjectProperty -Item $existingItem -Name 'recordFingerprint') { $existingItem.recordFingerprint } else { '' }) -ne
+            [string]$(if (Test-ObjectProperty -Item $item -Name 'recordFingerprint') { $item.recordFingerprint } else { '' })
         ) {
             $updatedCount++
         }
@@ -2258,6 +2805,12 @@ function Sync-PortalContracts {
     $payload.generatedAt = Get-IsoNow
     $payload.totalItems = $items.Count
     $payload.downloadedDocumentCount = $downloadedCount
+    $payload.reusedDetailCount = $reusedDetailCount
+    $payload.refreshedDetailCount = $refreshedDetailCount
+    $payload.sourceStats = [ordered]@{
+        listPageCount = [int]$summaries.pageCount
+        totalResults = [int]$summaries.totalResults
+    }
     $payload.items = @(
         $items |
         Sort-Object -Property `
@@ -2271,6 +2824,8 @@ function Sync-PortalContracts {
         downloadedCount = $downloadedCount
         newCount = $newCount
         updatedCount = $updatedCount
+        reusedDetailCount = $reusedDetailCount
+        refreshedDetailCount = $refreshedDetailCount
     }
 }
 

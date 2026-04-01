@@ -1,7 +1,10 @@
 (() => {
   const PAGE_SIZE = 18;
+  const SEARCH_DEBOUNCE_MS = 140;
   const DEFAULT_VIEW = "overview";
   const VALID_VIEWS = new Set(["overview", "alerts", "contracts"]);
+  const collator = new Intl.Collator("pt-BR", { numeric: true, sensitivity: "base" });
+
   const DEFAULT_FILTERS = {
     query: "",
     organization: "",
@@ -9,6 +12,8 @@
     vigency: "todos",
     management: "todos",
     source: "todos",
+    criticality: "todos",
+    sort: "prioridade",
     scope: "atuais",
   };
 
@@ -36,6 +41,20 @@
       somente_diario: "Apenas Diário Oficial",
       somente_portal: "Apenas Portal",
     },
+    criticality: {
+      todos: "Todas as criticidades",
+      alta: "Alta criticidade",
+      media: "Média criticidade",
+      baixa: "Baixa criticidade",
+    },
+    sort: {
+      prioridade: "Prioridade operacional",
+      movimentacao_recente: "Movimentação mais recente",
+      prazo_mais_proximo: "Prazo mais próximo",
+      maior_valor: "Maior valor",
+      orgao: "Órgão",
+      contrato: "Número do contrato",
+    },
     scope: {
       atuais: "Apenas vigentes",
       todos: "Todos os registros",
@@ -44,29 +63,29 @@
 
   const PRESETS = {
     semGestorEFiscal: {
-      label: "Sem responsáveis designados",
-      description: "Registros sem responsáveis designados.",
-      filters: { management: "sem_gestor_e_fiscal", scope: "atuais" },
-    },
-    semGestor: {
-      label: "Sem gestor designado",
-      description: "Registros sem designação de gestor.",
-      filters: { management: "sem_gestor", scope: "atuais" },
+      label: "Sem responsáveis",
+      description: "Registros sem gestor e fiscal.",
+      filters: { management: "sem_gestor_e_fiscal", scope: "atuais", sort: "prioridade" },
     },
     semFiscal: {
-      label: "Sem fiscal designado",
-      description: "Registros sem designação de fiscal.",
-      filters: { management: "sem_fiscal", scope: "atuais" },
+      label: "Sem fiscal",
+      description: "Registros sem fiscal atual.",
+      filters: { management: "sem_fiscal", scope: "atuais", sort: "prioridade" },
+    },
+    altaCriticidade: {
+      label: "Alta criticidade",
+      description: "Pendências com maior peso operacional.",
+      filters: { criticality: "alta", scope: "atuais", sort: "prioridade" },
     },
     somenteDiario: {
-      label: "Apenas Diário Oficial",
+      label: "Apenas Diário",
       description: "Registros sem confirmação cruzada.",
-      filters: { source: "somente_diario", scope: "atuais" },
+      filters: { source: "somente_diario", scope: "atuais", sort: "prioridade" },
     },
     completos: {
       label: "Designações completas",
-      description: "Registros com gestor e fiscal.",
-      filters: { management: "completos", scope: "atuais" },
+      description: "Gestor e fiscal identificados.",
+      filters: { management: "completos", scope: "atuais", sort: "movimentacao_recente" },
     },
   };
 
@@ -75,6 +94,8 @@
     view: DEFAULT_VIEW,
     filters: { ...DEFAULT_FILTERS },
     visibleCount: PAGE_SIZE,
+    filteredCache: new Map(),
+    searchTimer: null,
   };
 
   const elements = {
@@ -87,6 +108,13 @@
     statusGrid: document.getElementById("status-grid"),
     priorityGroups: document.getElementById("priority-groups"),
     organizationSummary: document.getElementById("organization-summary"),
+    coverageGrid: document.getElementById("coverage-grid"),
+    sourceGrid: document.getElementById("source-grid"),
+    deadlineGrid: document.getElementById("deadline-grid"),
+    recentMovements: document.getElementById("recent-movements"),
+    insightList: document.getElementById("insight-list"),
+    alertsSummary: document.getElementById("alerts-summary"),
+    alertSummaryGrid: document.getElementById("alert-summary-grid"),
     alertRecords: document.getElementById("alert-records"),
     searchInput: document.getElementById("search-input"),
     scopeSelect: document.getElementById("scope-select"),
@@ -95,22 +123,274 @@
     vigencySelect: document.getElementById("vigency-select"),
     managementSelect: document.getElementById("management-select"),
     sourceSelect: document.getElementById("source-select"),
+    criticalitySelect: document.getElementById("criticality-select"),
+    sortSelect: document.getElementById("sort-select"),
     quickPresets: document.getElementById("quick-presets"),
     resultsMeta: document.getElementById("results-meta"),
     activeFilterSummary: document.getElementById("active-filter-summary"),
+    resultInsightGrid: document.getElementById("result-insight-grid"),
     recordList: document.getElementById("record-list"),
     loadMore: document.getElementById("load-more"),
     clearFilters: document.getElementById("clear-filters"),
+    shareView: document.getElementById("share-view"),
+    exportCsv: document.getElementById("export-csv"),
     footerCopy: document.getElementById("footer-copy"),
     viewButtons: [...document.querySelectorAll("[data-view-button]")],
     viewPanels: [...document.querySelectorAll("[data-view-panel]")],
   };
 
+  function escapeHtml(value) {
+    return String(value ?? "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function qualityScore(text) {
+    const printable = (text.match(/[0-9A-Za-zÀ-ÿ\s.,;:!?()/%ºª°"'/\-]/g) || []).length;
+    const noise = (text.match(/[ÃÂ�┬]/g) || []).length;
+    return printable - noise * 3;
+  }
+
+  function repairText(value) {
+    const original = String(value ?? "").replace(/\s+/g, " ").trim();
+    if (!original || !/[ÃÂ�┬]/.test(original)) return original;
+    if (typeof TextDecoder === "undefined") return original;
+
+    try {
+      const bytes = Uint8Array.from([...original].map((character) => character.charCodeAt(0) & 0xff));
+      const decoded = new TextDecoder("utf-8", { fatal: false }).decode(bytes).replace(/\u0000/g, "").trim();
+      if (decoded && qualityScore(decoded) > qualityScore(original)) {
+        return decoded;
+      }
+    } catch {
+      return original;
+    }
+
+    return original;
+  }
+
+  function normalizeText(value) {
+    return repairText(value)
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase();
+  }
+
+  function parseDate(value) {
+    if (!value) return null;
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return null;
+    return date;
+  }
+
+  function formatDate(value) {
+    const date = value instanceof Date ? value : parseDate(value);
+    if (!date) return "Não informado";
+    return new Intl.DateTimeFormat("pt-BR", { dateStyle: "medium" }).format(date);
+  }
+
+  function formatDateTime(value) {
+    const date = value instanceof Date ? value : parseDate(value);
+    if (!date) return "Não informado";
+    return new Intl.DateTimeFormat("pt-BR", { dateStyle: "medium", timeStyle: "short" }).format(date);
+  }
+
+  function formatNumber(value) {
+    return new Intl.NumberFormat("pt-BR").format(Number(value || 0));
+  }
+
+  function formatPercent(value, total) {
+    if (!total) return "0%";
+    const percentage = (Number(value || 0) / Number(total || 1)) * 100;
+    return `${new Intl.NumberFormat("pt-BR", { maximumFractionDigits: percentage >= 10 ? 0 : 1 }).format(percentage)}%`;
+  }
+
+  function formatCurrency(value) {
+    const numeric = Number(value || 0);
+    if (!numeric || numeric <= 0) return "Sem valor";
+    return new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" }).format(numeric);
+  }
+
+  function truncateText(value, limit = 260) {
+    const text = repairText(value).replace(/\s+/g, " ").trim();
+    if (text.length <= limit) return text;
+    return `${text.slice(0, limit - 3).trim()}...`;
+  }
+
+  function formatDayDelta(days) {
+    if (days == null || Number.isNaN(Number(days))) return "Sem prazo definido";
+    const numeric = Number(days);
+    if (numeric < 0) return `Expirado há ${formatNumber(Math.abs(numeric))} dia(s)`;
+    if (numeric === 0) return "Vence hoje";
+    return `${formatNumber(numeric)} dia(s) restantes`;
+  }
+
+  function getLabel(group, value) {
+    return LABELS[group]?.[value] || repairText(value) || "Não informado";
+  }
+
+  function getCriticalityWeight(level) {
+    if (level === "alta") return 3;
+    if (level === "media") return 2;
+    return 1;
+  }
+
+  function getManagementPriority(value) {
+    if (value === "sem_gestor_e_fiscal") return 4;
+    if (value === "sem_gestor") return 3;
+    if (value === "sem_fiscal") return 2;
+    if (value === "revisao" || value === "exoneracao") return 1;
+    return 0;
+  }
+
+  function getSourcePriority(value) {
+    if (value === "somente_diario") return 3;
+    if (value === "somente_portal") return 2;
+    if (value === "cruzado") return 1;
+    return 0;
+  }
+
+  function getUniqueAlerts(alerts) {
+    const seen = new Set();
+    return (alerts || []).filter((alert) => {
+      const key = `${alert.title}|${alert.severity}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }
+
+  function deriveCriticality(record) {
+    if ((record.alertWeight || 0) >= 3 || record.managementState === "sem_gestor_e_fiscal") return "alta";
+    if (
+      (record.alertWeight || 0) >= 2 ||
+      record.managementState === "sem_gestor" ||
+      record.managementState === "sem_fiscal" ||
+      record.managementState === "revisao" ||
+      record.managementState === "exoneracao"
+    ) {
+      return "media";
+    }
+    return "baixa";
+  }
+
+  function preprocessPayload(payload) {
+    const generatedAt = parseDate(payload.generatedAt);
+    const records = (payload.records || []).map((record, index) => preprocessRecord(record, index));
+
+    return {
+      ...payload,
+      methodology: {
+        title: repairText(payload.methodology?.title),
+        summary: repairText(payload.methodology?.summary),
+        notes: (payload.methodology?.notes || []).map((note) => repairText(note)),
+      },
+      filters: {
+        ...payload.filters,
+        organizations: (payload.filters?.organizations || []).map((value) => repairText(value)),
+        administrations: (payload.filters?.administrations || []).map((value) => repairText(value)),
+      },
+      organizationSummary: (payload.organizationSummary || []).map((item) => ({
+        organization: repairText(item.organization),
+        count: Number(item.count || 0),
+      })),
+      generatedAt,
+      records,
+    };
+  }
+
+  function preprocessRecord(record, index) {
+    const manager = {
+      ...record.manager,
+      name: repairText(record.manager?.name),
+      role: repairText(record.manager?.role),
+    };
+
+    const inspector = {
+      ...record.inspector,
+      name: repairText(record.inspector?.name),
+      role: repairText(record.inspector?.role),
+    };
+
+    const alerts = (record.alerts || []).map((alert) => ({
+      ...alert,
+      title: repairText(alert.title),
+      description: repairText(alert.description),
+    }));
+
+    const vigency = {
+      ...record.vigency,
+      label: repairText(record.vigency?.label),
+      sourceLabel: repairText(record.vigency?.sourceLabel),
+      daysUntilEnd:
+        record.vigency?.daysUntilEnd == null || Number.isNaN(Number(record.vigency?.daysUntilEnd))
+          ? null
+          : Number(record.vigency.daysUntilEnd),
+    };
+
+    const movementDate = parseDate(record.managementActAt || record.publishedAt);
+    const endDate = parseDate(vigency.endDate);
+    const criticality = deriveCriticality({ ...record, alerts });
+
+    return {
+      ...record,
+      id: record.id || `record-${index}`,
+      contractNumber: repairText(record.contractNumber),
+      administration: repairText(record.administration),
+      organization: repairText(record.organization),
+      supplier: repairText(record.supplier),
+      object: repairText(record.object),
+      valueLabel: repairText(record.valueLabel),
+      managementSummary: repairText(record.managementSummary),
+      lastMovementTitle: repairText(record.lastMovementTitle),
+      normalizedKey: repairText(record.normalizedKey),
+      manager,
+      inspector,
+      alerts,
+      vigency,
+      links: {
+        diary: record.links?.diary || "",
+        portal: record.links?.portal || "",
+      },
+      _movementDate: movementDate,
+      _movementTimestamp: movementDate ? movementDate.getTime() : 0,
+      _endDate: endDate,
+      _endTimestamp: endDate ? endDate.getTime() : Number.MAX_SAFE_INTEGER,
+      _criticality: criticality,
+      _criticalityWeight: getCriticalityWeight(criticality),
+      _hasManager: Boolean(manager.name),
+      _hasInspector: Boolean(inspector.name),
+      _hasCompleteAssignments: Boolean(manager.name && inspector.name),
+      _isCurrent: Boolean(vigency.isCurrent),
+      _valueNumber: Number(record.valueNumber || 0),
+      _searchText: normalizeText(
+        [
+          record.contractNumber,
+          record.normalizedKey,
+          record.organization,
+          record.supplier,
+          record.object,
+          record.managementSummary,
+          manager.name,
+          manager.role,
+          inspector.name,
+          inspector.role,
+          record.administration,
+          record.year,
+          record.lastMovementTitle,
+          ...alerts.map((alert) => alert.title),
+        ].join(" ")
+      ),
+    };
+  }
+
   function readUrlState() {
     const params = new URLSearchParams(window.location.search);
-    const view = VALID_VIEWS.has(params.get("view")) ? params.get("view") : DEFAULT_VIEW;
     return {
-      view,
+      view: VALID_VIEWS.has(params.get("view")) ? params.get("view") : DEFAULT_VIEW,
       filters: {
         query: params.get("q") || "",
         organization: params.get("org") || "",
@@ -118,6 +398,8 @@
         vigency: params.get("vig") || DEFAULT_FILTERS.vigency,
         management: params.get("mgmt") || DEFAULT_FILTERS.management,
         source: params.get("src") || DEFAULT_FILTERS.source,
+        criticality: params.get("crit") || DEFAULT_FILTERS.criticality,
+        sort: params.get("sort") || DEFAULT_FILTERS.sort,
         scope: params.get("scope") || DEFAULT_FILTERS.scope,
       },
     };
@@ -132,54 +414,13 @@
     if (state.filters.vigency !== DEFAULT_FILTERS.vigency) params.set("vig", state.filters.vigency);
     if (state.filters.management !== DEFAULT_FILTERS.management) params.set("mgmt", state.filters.management);
     if (state.filters.source !== DEFAULT_FILTERS.source) params.set("src", state.filters.source);
+    if (state.filters.criticality !== DEFAULT_FILTERS.criticality) params.set("crit", state.filters.criticality);
+    if (state.filters.sort !== DEFAULT_FILTERS.sort) params.set("sort", state.filters.sort);
     if (state.filters.scope !== DEFAULT_FILTERS.scope) params.set("scope", state.filters.scope);
+
     const query = params.toString();
-    window.history.replaceState({}, "", query ? `${window.location.pathname}?${query}` : window.location.pathname);
-  }
-
-  function escapeHtml(value) {
-    return String(value ?? "")
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&#39;");
-  }
-
-  function normalizeText(value) {
-    return String(value ?? "")
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .toLowerCase();
-  }
-
-  function formatDate(value) {
-    if (!value) return "Não informado";
-    const date = new Date(value);
-    if (Number.isNaN(date.getTime())) return value;
-    return new Intl.DateTimeFormat("pt-BR", { dateStyle: "medium" }).format(date);
-  }
-
-  function formatDateTime(value) {
-    if (!value) return "Não informado";
-    const date = new Date(value);
-    if (Number.isNaN(date.getTime())) return value;
-    return new Intl.DateTimeFormat("pt-BR", { dateStyle: "medium", timeStyle: "short" }).format(date);
-  }
-
-  function formatNumber(value) {
-    return new Intl.NumberFormat("pt-BR").format(Number(value || 0));
-  }
-
-  function formatCurrency(value) {
-    if (!value || Number(value) <= 0) return "Sem valor";
-    return new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" }).format(Number(value));
-  }
-
-  function truncateText(value, limit = 260) {
-    const text = String(value || "").replace(/\s+/g, " ").trim();
-    if (text.length <= limit) return text;
-    return `${text.slice(0, limit - 3).trim()}...`;
+    const nextUrl = query ? `${window.location.pathname}?${query}` : window.location.pathname;
+    window.history.replaceState({}, "", nextUrl);
   }
 
   function getRecords() {
@@ -187,77 +428,130 @@
   }
 
   function getCurrentRecords() {
-    return getRecords().filter((record) => record.vigency?.isCurrent);
+    return getRecords().filter((record) => record._isCurrent);
   }
 
-  function getLabel(group, value) {
-    return LABELS[group]?.[value] || value || "Não informado";
+  function summarizeRecordSet(records) {
+    const total = records.length;
+    const withCompleteAssignments = records.filter((record) => record.managementState === "completos").length;
+    const withoutManager = records.filter((record) => record.managementState === "sem_gestor").length;
+    const withoutInspector = records.filter((record) => record.managementState === "sem_fiscal").length;
+    const withoutBoth = records.filter((record) => record.managementState === "sem_gestor_e_fiscal").length;
+    const critical = records.filter((record) => record._criticality === "alta").length;
+    const crossed = records.filter((record) => record.sourceStatus === "cruzado").length;
+    const diaryOnly = records.filter((record) => record.sourceStatus === "somente_diario").length;
+    const portalOnly = records.filter((record) => record.sourceStatus === "somente_portal").length;
+    const withDeadline = records.filter((record) => record._endDate).length;
+    const expiringSoon = records.filter((record) => record.vigency?.daysUntilEnd != null && record.vigency.daysUntilEnd >= 0 && record.vigency.daysUntilEnd <= 30).length;
+    const recentThreshold = (state.payload?.generatedAt?.getTime() || Date.now()) - 30 * 24 * 60 * 60 * 1000;
+    const recentMovements = records.filter((record) => record._movementTimestamp >= recentThreshold).length;
+
+    return {
+      total,
+      withCompleteAssignments,
+      withoutManager,
+      withoutInspector,
+      withoutBoth,
+      critical,
+      crossed,
+      diaryOnly,
+      portalOnly,
+      withDeadline,
+      expiringSoon,
+      recentMovements,
+    };
   }
 
-  function getToneClass(record) {
-    if ((record.alertWeight || 0) >= 3) return "record-card--critical";
-    if ((record.alertWeight || 0) >= 2) return "record-card--warning";
-    return "";
-  }
-
-  function getBadgeToneByManagement(value) {
-    if (value === "completos") return "success";
-    if (value === "sem_gestor_e_fiscal" || value === "exoneracao") return "danger";
-    if (value === "sem_gestor" || value === "sem_fiscal" || value === "revisao") return "warning";
-    return "primary";
-  }
-
-  function getBadgeToneByVigency(value) {
-    if (value === "vigente_confirmado") return "success";
-    if (value === "vigente_inferido" || value === "em_acompanhamento") return "warning";
-    if (value === "encerrado") return "danger";
-    return "primary";
-  }
-
-  function getBadgeToneBySource(value) {
-    if (value === "cruzado") return "success";
-    if (value === "somente_diario" || value === "somente_portal") return "warning";
-    return "primary";
-  }
-
-  function getUniqueAlerts(alerts) {
-    const seen = new Set();
-    return (alerts || []).filter((alert) => {
-      const key = `${alert.title}|${alert.severity}`;
-      if (seen.has(key)) return false;
-      seen.add(key);
-      return true;
+  function getTopOrganization(records) {
+    const counts = new Map();
+    records.forEach((record) => {
+      const key = record.organization || "Não informado";
+      counts.set(key, (counts.get(key) || 0) + 1);
     });
+
+    let top = null;
+    counts.forEach((count, organization) => {
+      if (!top || count > top.count) top = { organization, count };
+    });
+
+    return top;
+  }
+
+  function compareByPriority(a, b) {
+    if (b._criticalityWeight !== a._criticalityWeight) return b._criticalityWeight - a._criticalityWeight;
+    if (getManagementPriority(b.managementState) !== getManagementPriority(a.managementState)) {
+      return getManagementPriority(b.managementState) - getManagementPriority(a.managementState);
+    }
+    if (getSourcePriority(b.sourceStatus) !== getSourcePriority(a.sourceStatus)) {
+      return getSourcePriority(b.sourceStatus) - getSourcePriority(a.sourceStatus);
+    }
+    if (b._movementTimestamp !== a._movementTimestamp) return b._movementTimestamp - a._movementTimestamp;
+    if ((a.vigency?.daysUntilEnd ?? Number.MAX_SAFE_INTEGER) !== (b.vigency?.daysUntilEnd ?? Number.MAX_SAFE_INTEGER)) {
+      return (a.vigency?.daysUntilEnd ?? Number.MAX_SAFE_INTEGER) - (b.vigency?.daysUntilEnd ?? Number.MAX_SAFE_INTEGER);
+    }
+    return collator.compare(a.contractNumber || "", b.contractNumber || "");
+  }
+
+  function compareRecords(a, b) {
+    switch (state.filters.sort) {
+      case "movimentacao_recente":
+        if (b._movementTimestamp !== a._movementTimestamp) return b._movementTimestamp - a._movementTimestamp;
+        return compareByPriority(a, b);
+      case "prazo_mais_proximo": {
+        const aDays = a.vigency?.daysUntilEnd ?? Number.MAX_SAFE_INTEGER;
+        const bDays = b.vigency?.daysUntilEnd ?? Number.MAX_SAFE_INTEGER;
+        if (aDays !== bDays) return aDays - bDays;
+        return compareByPriority(a, b);
+      }
+      case "maior_valor":
+        if (b._valueNumber !== a._valueNumber) return b._valueNumber - a._valueNumber;
+        return compareByPriority(a, b);
+      case "orgao": {
+        const orgCompare = collator.compare(a.organization || "", b.organization || "");
+        if (orgCompare !== 0) return orgCompare;
+        return collator.compare(a.contractNumber || "", b.contractNumber || "");
+      }
+      case "contrato": {
+        const yearDiff = Number(b.year || 0) - Number(a.year || 0);
+        if (yearDiff !== 0) return yearDiff;
+        return collator.compare(a.contractNumber || "", b.contractNumber || "");
+      }
+      default:
+        return compareByPriority(a, b);
+    }
   }
 
   function matchesQuery(record, query) {
     if (!query) return true;
-    const haystack = [
-      record.contractNumber,
-      record.organization,
-      record.supplier,
-      record.object,
-      record.managementSummary,
-      record.manager?.name,
-      record.manager?.role,
-      record.inspector?.name,
-      record.inspector?.role,
-      ...(record.alerts || []).map((alert) => alert.title),
-    ].join(" ");
-    return normalizeText(haystack).includes(normalizeText(query));
+    return record._searchText.includes(normalizeText(query));
+  }
+
+  function getCacheKey() {
+    return JSON.stringify(state.filters);
   }
 
   function getFilteredRecords() {
-    return getRecords().filter((record) => {
-      if (state.filters.scope === "atuais" && !record.vigency?.isCurrent) return false;
-      if (state.filters.organization && record.organization !== state.filters.organization) return false;
-      if (state.filters.administration && record.administration !== state.filters.administration) return false;
-      if (state.filters.vigency !== "todos" && record.vigency?.state !== state.filters.vigency) return false;
-      if (state.filters.management !== "todos" && record.managementState !== state.filters.management) return false;
-      if (state.filters.source !== "todos" && record.sourceStatus !== state.filters.source) return false;
-      if (!matchesQuery(record, state.filters.query)) return false;
-      return true;
-    });
+    const cacheKey = getCacheKey();
+    if (state.filteredCache.has(cacheKey)) {
+      return state.filteredCache.get(cacheKey);
+    }
+
+    const filtered = getRecords()
+      .filter((record) => {
+        if (state.filters.scope === "atuais" && !record._isCurrent) return false;
+        if (state.filters.organization && record.organization !== state.filters.organization) return false;
+        if (state.filters.administration && record.administration !== state.filters.administration) return false;
+        if (state.filters.vigency !== "todos" && record.vigency?.state !== state.filters.vigency) return false;
+        if (state.filters.management !== "todos" && record.managementState !== state.filters.management) return false;
+        if (state.filters.source !== "todos" && record.sourceStatus !== state.filters.source) return false;
+        if (state.filters.criticality !== "todos" && record._criticality !== state.filters.criticality) return false;
+        if (!matchesQuery(record, state.filters.query)) return false;
+        return true;
+      })
+      .sort(compareRecords);
+
+    state.filteredCache.set(cacheKey, filtered);
+    return filtered;
   }
 
   function setView(view) {
@@ -279,38 +573,90 @@
     elements.vigencySelect.value = state.filters.vigency;
     elements.managementSelect.value = state.filters.management;
     elements.sourceSelect.value = state.filters.source;
+    elements.criticalitySelect.value = state.filters.criticality;
+    elements.sortSelect.value = state.filters.sort;
   }
 
-  function populateSelect(select, values, groupName, emptyValue = "todos") {
+  function setLabeledOptions(select, values, groupName) {
     const previous = select.value;
     select.innerHTML = "";
 
-    const allOption = document.createElement("option");
-    allOption.value = emptyValue;
-    allOption.textContent = getLabel(groupName, emptyValue);
-    select.appendChild(allOption);
-
-    values
-      .filter((value) => value !== emptyValue)
-      .forEach((value) => {
-        const option = document.createElement("option");
-        option.value = value;
-        option.textContent = getLabel(groupName, value);
-        select.appendChild(option);
-      });
+    values.forEach((value) => {
+      const option = document.createElement("option");
+      option.value = value;
+      option.textContent = getLabel(groupName, value);
+      select.appendChild(option);
+    });
 
     if ([...select.options].some((option) => option.value === previous)) {
       select.value = previous;
     }
   }
 
+  function setPlainOptions(select, values, emptyLabel) {
+    const previous = select.value;
+    select.innerHTML = "";
+
+    const emptyOption = document.createElement("option");
+    emptyOption.value = "";
+    emptyOption.textContent = emptyLabel;
+    select.appendChild(emptyOption);
+
+    values.forEach((value) => {
+      const option = document.createElement("option");
+      option.value = value;
+      option.textContent = value;
+      select.appendChild(option);
+    });
+
+    if ([...select.options].some((option) => option.value === previous)) {
+      select.value = previous;
+    }
+  }
+
+  function ensureValidFilterValue(key, select) {
+    if ([...select.options].some((option) => option.value === state.filters[key])) return;
+    state.filters[key] = DEFAULT_FILTERS[key];
+  }
+
+  function renderCardCollection(container, cards) {
+    container.innerHTML = cards
+      .map(
+        (card) => `
+          <article class="analysis-card ${card.className || ""}">
+            <span class="eyebrow">${escapeHtml(card.label)}</span>
+            <strong class="analysis-value">${escapeHtml(card.value)}</strong>
+            <span class="analysis-detail">${escapeHtml(card.detail)}</span>
+          </article>
+        `
+      )
+      .join("");
+  }
+
   function renderSummaryCards() {
     const summary = state.payload.summary;
+    const currentTotal = summary.contratosAtuais || 0;
     const cards = [
-      { label: "Contratos vigentes", value: summary.contratosAtuais, detail: "Registros atuais" },
-      { label: "Sem responsáveis designados", value: summary.semGestorEFiscal, detail: "Demandam providência" },
-      { label: "Designações completas", value: summary.comResponsaveisCompletos, detail: "Gestor e fiscal identificados" },
-      { label: "Ocorrências críticas", value: summary.alertasCriticos, detail: "Exigem atenção" },
+      {
+        label: "Contratos vigentes",
+        value: formatNumber(currentTotal),
+        detail: "Registros atuais monitorados",
+      },
+      {
+        label: "Designações completas",
+        value: formatNumber(summary.comResponsaveisCompletos),
+        detail: formatPercent(summary.comResponsaveisCompletos, currentTotal),
+      },
+      {
+        label: "Apenas Diário Oficial",
+        value: formatNumber(summary.somenteDiario),
+        detail: "Sem confirmação cruzada",
+      },
+      {
+        label: "Ocorrências críticas",
+        value: formatNumber(summary.alertasCriticos),
+        detail: "Demandam providência",
+      },
     ];
 
     elements.summaryCards.innerHTML = cards
@@ -318,7 +664,7 @@
         (card) => `
           <article class="metric-card">
             <span class="eyebrow">${escapeHtml(card.label)}</span>
-            <strong class="metric-value">${formatNumber(card.value)}</strong>
+            <strong class="metric-value">${escapeHtml(card.value)}</strong>
             <span class="metric-detail">${escapeHtml(card.detail)}</span>
           </article>
         `
@@ -328,26 +674,60 @@
 
   function renderMethodology() {
     elements.updatedAt.textContent = `Atualizado em ${formatDateTime(state.payload.generatedAt)}`;
-    elements.methodSummary.textContent = "Acesse o módulo conforme a necessidade de consulta.";
-    elements.methodNotes.innerHTML = ["Painel gerencial", "Ocorrências prioritárias", "Consulta detalhada"]
+    elements.methodSummary.textContent = "Visão geral, ocorrências prioritárias e consulta detalhada.";
+    elements.methodNotes.innerHTML = ["Painel estratégico", "Priorização operacional", "Consulta avançada"]
       .map((note) => `<article class="note-card">${escapeHtml(note)}</article>`)
       .join("");
   }
 
   function renderHero() {
     const summary = state.payload.summary;
-    elements.heroSummary.textContent = `${formatNumber(summary.contratosAtuais)} contratos vigentes monitorados.`;
-    elements.heroCallout.textContent = "";
-    elements.heroCallout.classList.add("hidden");
+    const currentTotal = summary.contratosAtuais || 0;
+    const withoutFiscal = summary.semFiscal || 0;
+    const topOrganization = getTopOrganization(getCurrentRecords());
+
+    elements.heroSummary.textContent = `${formatNumber(currentTotal)} contratos vigentes monitorados.`;
+
+    const calloutParts = [
+      `${formatNumber(summary.comResponsaveisCompletos)} com gestor e fiscal identificados`,
+      `${formatNumber(withoutFiscal)} sem fiscal designado`,
+    ];
+
+    if (topOrganization?.organization) {
+      calloutParts.push(`${topOrganization.organization} concentra ${formatNumber(topOrganization.count)} registros`);
+    }
+
+    elements.heroCallout.textContent = calloutParts.join(" · ");
+    elements.heroCallout.classList.toggle("hidden", calloutParts.length === 0);
   }
 
   function renderStatusGrid() {
     const summary = state.payload.summary;
     const cards = [
-      { label: "Vigência estimada", value: summary.vigentesInferidos, detail: "Prazo identificado", className: "status-card--warning" },
-      { label: "Em validação", value: summary.emAcompanhamento, detail: "Requer conferência", className: "status-card--warning" },
-      { label: "Sem gestor designado", value: summary.semGestor, detail: "Providência necessária", className: "status-card--danger" },
-      { label: "Sem fiscal designado", value: summary.semFiscal, detail: "Providência necessária", className: "status-card--danger" },
+      {
+        label: "Em validação",
+        value: formatNumber(summary.emAcompanhamento),
+        detail: "Vigência sem confirmação final",
+        className: "status-card--warning",
+      },
+      {
+        label: "Sem gestor designado",
+        value: formatNumber(summary.semGestor),
+        detail: "Providência necessária",
+        className: "status-card--danger",
+      },
+      {
+        label: "Sem fiscal designado",
+        value: formatNumber(summary.semFiscal),
+        detail: "Providência necessária",
+        className: "status-card--danger",
+      },
+      {
+        label: "Designações completas",
+        value: formatNumber(summary.comResponsaveisCompletos),
+        detail: "Gestor e fiscal identificados",
+        className: "status-card--success",
+      },
     ];
 
     elements.statusGrid.innerHTML = cards
@@ -355,9 +735,124 @@
         (card) => `
           <article class="status-card ${card.className}">
             <span class="eyebrow">${escapeHtml(card.label)}</span>
-            <strong class="status-value">${formatNumber(card.value)}</strong>
+            <strong class="status-value">${escapeHtml(card.value)}</strong>
             <span class="status-detail">${escapeHtml(card.detail)}</span>
           </article>
+        `
+      )
+      .join("");
+  }
+
+  function renderCoverageGrid() {
+    const summary = state.payload.summary;
+    const currentTotal = summary.contratosAtuais || 0;
+    renderCardCollection(elements.coverageGrid, [
+      {
+        label: "Cobertura completa",
+        value: formatPercent(summary.comResponsaveisCompletos, currentTotal),
+        detail: `${formatNumber(summary.comResponsaveisCompletos)} com gestor e fiscal`,
+      },
+      {
+        label: "Sem gestor",
+        value: formatPercent(summary.semGestor, currentTotal),
+        detail: `${formatNumber(summary.semGestor)} registros`,
+      },
+      {
+        label: "Sem fiscal",
+        value: formatPercent(summary.semFiscal, currentTotal),
+        detail: `${formatNumber(summary.semFiscal)} registros`,
+      },
+      {
+        label: "Sem responsáveis",
+        value: formatPercent(summary.semGestorEFiscal, currentTotal),
+        detail: `${formatNumber(summary.semGestorEFiscal)} registros`,
+      },
+    ]);
+  }
+
+  function renderSourceGrid() {
+    const summary = state.payload.summary;
+    const currentTotal = summary.contratosAtuais || 0;
+    renderCardCollection(elements.sourceGrid, [
+      {
+        label: "Cruzamento confirmado",
+        value: formatPercent(summary.cruzados, currentTotal),
+        detail: `${formatNumber(summary.cruzados)} registros`,
+      },
+      {
+        label: "Apenas Diário Oficial",
+        value: formatPercent(summary.somenteDiario, currentTotal),
+        detail: `${formatNumber(summary.somenteDiario)} registros`,
+      },
+      {
+        label: "Apenas Portal",
+        value: formatPercent(summary.somentePortal, currentTotal),
+        detail: `${formatNumber(summary.somentePortal)} registros`,
+      },
+      {
+        label: "Registros analisados",
+        value: formatNumber(summary.analisados),
+        detail: "Eventos considerados na leitura",
+      },
+    ]);
+  }
+
+  function renderDeadlineGrid() {
+    const currentRecords = getCurrentRecords();
+    const withDeadline = currentRecords.filter((record) => record._endDate);
+    const expiring30 = withDeadline.filter((record) => record.vigency?.daysUntilEnd != null && record.vigency.daysUntilEnd >= 0 && record.vigency.daysUntilEnd <= 30);
+    const expiring90 = withDeadline.filter((record) => record.vigency?.daysUntilEnd != null && record.vigency.daysUntilEnd > 30 && record.vigency.daysUntilEnd <= 90);
+    const overdue = withDeadline.filter((record) => record.vigency?.daysUntilEnd != null && record.vigency.daysUntilEnd < 0);
+
+    renderCardCollection(elements.deadlineGrid, [
+      {
+        label: "Prazo identificado",
+        value: formatNumber(withDeadline.length),
+        detail: formatPercent(withDeadline.length, currentRecords.length),
+      },
+      {
+        label: "Até 30 dias",
+        value: formatNumber(expiring30.length),
+        detail: "Encerramento mais próximo",
+      },
+      {
+        label: "31 a 90 dias",
+        value: formatNumber(expiring90.length),
+        detail: "Monitoramento intermediário",
+      },
+      {
+        label: "Prazo expirado",
+        value: formatNumber(overdue.length),
+        detail: "Exige conferência documental",
+      },
+    ]);
+  }
+
+  function renderOrganizationSummary() {
+    const list = state.payload.organizationSummary || [];
+    if (!list.length) {
+      elements.organizationSummary.innerHTML = `<div class="empty-state">Nenhum registro disponível.</div>`;
+      return;
+    }
+
+    const maxCount = Math.max(...list.map((item) => item.count), 1);
+    const currentTotal = state.payload.summary?.contratosAtuais || 1;
+
+    elements.organizationSummary.innerHTML = list
+      .map(
+        (item) => `
+          <div class="organization-row">
+            <div class="organization-head">
+              <div>
+                <strong>${escapeHtml(item.organization)}</strong>
+                <small>${escapeHtml(formatPercent(item.count, currentTotal))} do total vigente</small>
+              </div>
+              <span>${escapeHtml(formatNumber(item.count))}</span>
+            </div>
+            <div class="organization-bar">
+              <span style="width: ${Math.max(10, (item.count / maxCount) * 100)}%"></span>
+            </div>
+          </div>
         `
       )
       .join("");
@@ -366,7 +861,7 @@
   function sampleContracts(records) {
     return records
       .slice(0, 3)
-      .map((record) => record.contractNumber)
+      .map((record) => record.contractNumber || record.normalizedKey || "Sem número")
       .join(" · ");
   }
 
@@ -375,25 +870,25 @@
     const groups = [
       {
         preset: "semGestorEFiscal",
-        title: PRESETS.semGestorEFiscal.label,
+        title: "Sem responsáveis",
         count: currentRecords.filter((record) => record.managementState === "sem_gestor_e_fiscal").length,
         sample: sampleContracts(currentRecords.filter((record) => record.managementState === "sem_gestor_e_fiscal")),
       },
       {
-        preset: "semGestor",
-        title: PRESETS.semGestor.label,
-        count: currentRecords.filter((record) => record.managementState === "sem_gestor").length,
-        sample: sampleContracts(currentRecords.filter((record) => record.managementState === "sem_gestor")),
-      },
-      {
         preset: "semFiscal",
-        title: PRESETS.semFiscal.label,
+        title: "Sem fiscal",
         count: currentRecords.filter((record) => record.managementState === "sem_fiscal").length,
         sample: sampleContracts(currentRecords.filter((record) => record.managementState === "sem_fiscal")),
       },
       {
+        preset: "altaCriticidade",
+        title: "Alta criticidade",
+        count: currentRecords.filter((record) => record._criticality === "alta").length,
+        sample: sampleContracts(currentRecords.filter((record) => record._criticality === "alta")),
+      },
+      {
         preset: "somenteDiario",
-        title: PRESETS.somenteDiario.label,
+        title: "Apenas Diário Oficial",
         count: currentRecords.filter((record) => record.sourceStatus === "somente_diario").length,
         sample: sampleContracts(currentRecords.filter((record) => record.sourceStatus === "somente_diario")),
       },
@@ -405,7 +900,7 @@
           <article class="priority-card">
             <span class="eyebrow">Consulta prioritária</span>
             <strong>${escapeHtml(group.title)}</strong>
-            <span class="priority-count">${formatNumber(group.count)}</span>
+            <span class="priority-count">${escapeHtml(formatNumber(group.count))}</span>
             <div class="priority-sample">${escapeHtml(group.sample || "Nenhum registro disponível.")}</div>
             <button type="button" data-preset="${escapeHtml(group.preset)}">Abrir</button>
           </article>
@@ -414,26 +909,80 @@
       .join("");
   }
 
-  function renderOrganizationSummary() {
-    const list = state.payload.organizationSummary || [];
-    if (!list.length) {
-      elements.organizationSummary.innerHTML = `<div class="empty-state">Nenhum registro disponível.</div>`;
+  function renderInsights() {
+    const currentRecords = getCurrentRecords();
+    const summary = summarizeRecordSet(currentRecords);
+    const topOrganization = getTopOrganization(currentRecords);
+    const latestRecord = [...currentRecords].sort((a, b) => b._movementTimestamp - a._movementTimestamp)[0];
+
+    const insights = [
+      {
+        title: "Cobertura de responsáveis",
+        text: `${formatPercent(summary.withCompleteAssignments, summary.total)} dos contratos vigentes têm gestor e fiscal identificados.`,
+      },
+      {
+        title: "Fiscalização",
+        text: `${formatNumber(summary.withoutInspector)} contratos seguem sem fiscal identificado.`,
+      },
+      {
+        title: "Base documental",
+        text: `${formatPercent(summary.diaryOnly, summary.total)} dos registros vigentes dependem apenas do Diário Oficial.`,
+      },
+      {
+        title: "Concentração institucional",
+        text: topOrganization
+          ? `${topOrganization.organization} concentra ${formatNumber(topOrganization.count)} contratos vigentes.`
+          : "Sem concentração identificada.",
+      },
+      {
+        title: "Prazos próximos",
+        text:
+          summary.expiringSoon > 0
+            ? `${formatNumber(summary.expiringSoon)} contratos têm prazo final em até 30 dias.`
+            : "Nenhum contrato com prazo conhecido vence em até 30 dias.",
+      },
+      {
+        title: "Última movimentação",
+        text: latestRecord
+          ? `${latestRecord.contractNumber || "Registro sem número"} teve atualização em ${formatDate(latestRecord._movementDate)}.`
+          : "Sem movimentações recentes identificadas.",
+      },
+    ];
+
+    elements.insightList.innerHTML = insights
+      .map(
+        (insight) => `
+          <article class="insight-item">
+            <strong>${escapeHtml(insight.title)}</strong>
+            <p>${escapeHtml(insight.text)}</p>
+          </article>
+        `
+      )
+      .join("");
+  }
+
+  function renderRecentMovements() {
+    const records = [...getCurrentRecords()]
+      .filter((record) => record._movementTimestamp > 0)
+      .sort((a, b) => b._movementTimestamp - a._movementTimestamp)
+      .slice(0, 6);
+
+    if (!records.length) {
+      elements.recentMovements.innerHTML = `<div class="empty-state">Nenhuma movimentação disponível.</div>`;
       return;
     }
 
-    const maxCount = Math.max(...list.map((item) => item.count), 1);
-    elements.organizationSummary.innerHTML = list
+    elements.recentMovements.innerHTML = records
       .map(
-        (item) => `
-          <div class="organization-row">
-            <div class="organization-head">
-              <strong>${escapeHtml(item.organization)}</strong>
-              <span>${formatNumber(item.count)}</span>
+        (record) => `
+          <article class="movement-item">
+            <div class="movement-copy">
+              <strong>${escapeHtml(record.contractNumber || "Contrato sem número")}</strong>
+              <span>${escapeHtml(record.organization || "Órgão não informado")}</span>
+              <small>${escapeHtml(record.lastMovementTitle || "Movimentação registrada")}</small>
             </div>
-            <div class="organization-bar">
-              <span style="width: ${Math.max(10, (item.count / maxCount) * 100)}%"></span>
-            </div>
-          </div>
+            <time datetime="${escapeHtml(record.managementActAt || record.publishedAt || "")}">${escapeHtml(formatDate(record._movementDate))}</time>
+          </article>
         `
       )
       .join("");
@@ -445,6 +994,7 @@
         const active =
           Object.entries(preset.filters).every(([filterKey, filterValue]) => state.filters[filterKey] === filterValue) &&
           state.view === "contracts";
+
         return `
           <button class="filter-chip ${active ? "active" : ""}" type="button" data-preset="${escapeHtml(key)}">
             ${escapeHtml(preset.label)}
@@ -475,6 +1025,38 @@
     };
   }
 
+  function getBadgeToneByManagement(value) {
+    if (value === "completos") return "success";
+    if (value === "sem_gestor_e_fiscal" || value === "exoneracao") return "danger";
+    if (value === "sem_gestor" || value === "sem_fiscal" || value === "revisao") return "warning";
+    return "primary";
+  }
+
+  function getBadgeToneByVigency(value) {
+    if (value === "vigente_confirmado") return "success";
+    if (value === "vigente_inferido" || value === "em_acompanhamento") return "warning";
+    if (value === "encerrado") return "danger";
+    return "primary";
+  }
+
+  function getBadgeToneBySource(value) {
+    if (value === "cruzado") return "success";
+    if (value === "somente_diario" || value === "somente_portal") return "warning";
+    return "primary";
+  }
+
+  function getBadgeToneByCriticality(value) {
+    if (value === "alta") return "danger";
+    if (value === "media") return "warning";
+    return "primary";
+  }
+
+  function getToneClass(record) {
+    if (record._criticality === "alta") return "record-card--critical";
+    if (record._criticality === "media") return "record-card--warning";
+    return "";
+  }
+
   function renderBadges(record) {
     return [
       {
@@ -489,18 +1071,19 @@
         tone: getBadgeToneBySource(record.sourceStatus),
         label: getLabel("source", record.sourceStatus),
       },
+      {
+        tone: getBadgeToneByCriticality(record._criticality),
+        label: getLabel("criticality", record._criticality),
+      },
     ]
-      .map(
-        (badge) => `
-          <span class="badge badge--${escapeHtml(badge.tone)}">${escapeHtml(badge.label)}</span>
-        `
-      )
+      .map((badge) => `<span class="badge badge--${escapeHtml(badge.tone)}">${escapeHtml(badge.label)}</span>`)
       .join("");
   }
 
   function renderAlertPills(record) {
-    const alerts = getUniqueAlerts(record.alerts).slice(0, 4);
+    const alerts = getUniqueAlerts(record.alerts).slice(0, 5);
     if (!alerts.length) return "";
+
     return `
       <ul class="alert-list">
         ${alerts
@@ -551,14 +1134,14 @@
             <small>${escapeHtml(inspector.subtitle)}</small>
           </div>
           <div class="meta-block">
-            <span>Vigência</span>
+            <span>Situação contratual</span>
             <strong>${escapeHtml(record.vigency?.label || "Vigência não informada")}</strong>
             <small>${escapeHtml(record.vigency?.sourceLabel || "Sem detalhamento")}</small>
           </div>
           <div class="meta-block">
-            <span>Última movimentação</span>
-            <strong>${escapeHtml(formatDate(record.managementActAt || record.publishedAt))}</strong>
-            <small>${escapeHtml(record.lastMovementTitle || record.administration || "Sem detalhamento")}</small>
+            <span>Prazo final</span>
+            <strong>${escapeHtml(record._endDate ? formatDate(record._endDate) : "Data não informada")}</strong>
+            <small>${escapeHtml(formatDayDelta(record.vigency?.daysUntilEnd))}</small>
           </div>
         </div>
 
@@ -566,7 +1149,7 @@
           <div class="meta-block">
             <span>Fornecedor</span>
             <strong>${escapeHtml(record.supplier || "Não informado")}</strong>
-            <small>${escapeHtml(record.valueLabel || formatCurrency(record.valueNumber))}</small>
+            <small>${escapeHtml(record.valueLabel || formatCurrency(record._valueNumber))}</small>
           </div>
           <div class="meta-block">
             <span>Gestão</span>
@@ -574,14 +1157,14 @@
             <small>${escapeHtml(record.year ? `Ano ${record.year}` : "Ano não informado")}</small>
           </div>
           <div class="meta-block">
-            <span>Fonte</span>
+            <span>Base documental</span>
             <strong>${escapeHtml(getLabel("source", record.sourceStatus))}</strong>
-            <small>${escapeHtml(`${record.movementCount || 0} registro(s)`)}</small>
+            <small>${escapeHtml(`${formatNumber(record.movementCount || 0)} movimentação(ões)`)}</small>
           </div>
           <div class="meta-block">
-            <span>Prazo final</span>
-            <strong>${record.vigency?.endDate ? escapeHtml(formatDate(record.vigency.endDate)) : "Data não informada"}</strong>
-            <small>${record.vigency?.daysUntilEnd != null ? `${escapeHtml(String(record.vigency.daysUntilEnd))} dia(s)` : "Sem prazo definido"}</small>
+            <span>Última movimentação</span>
+            <strong>${escapeHtml(formatDate(record._movementDate))}</strong>
+            <small>${escapeHtml(record.lastMovementTitle || "Sem detalhamento")}</small>
           </div>
         </div>
 
@@ -595,10 +1178,42 @@
     `;
   }
 
+  function renderAlertSummary() {
+    const currentRecords = getCurrentRecords();
+    const alertRecords = currentRecords.filter((record) => getUniqueAlerts(record.alerts).length > 0);
+    const summary = summarizeRecordSet(alertRecords);
+
+    elements.alertsSummary.textContent = `${formatNumber(alertRecords.length)} registros com ocorrência e ordenação por prioridade operacional.`;
+
+    renderCardCollection(elements.alertSummaryGrid, [
+      {
+        label: "Alta criticidade",
+        value: formatNumber(summary.critical),
+        detail: "Maior peso operacional",
+      },
+      {
+        label: "Sem responsáveis",
+        value: formatNumber(summary.withoutBoth),
+        detail: "Gestor e fiscal ausentes",
+      },
+      {
+        label: "Sem fiscal",
+        value: formatNumber(summary.withoutInspector),
+        detail: "Pendência de fiscalização",
+      },
+      {
+        label: "Apenas Diário Oficial",
+        value: formatNumber(summary.diaryOnly),
+        detail: "Sem confirmação cruzada",
+      },
+    ]);
+  }
+
   function renderAlertRecords() {
-    const records = getCurrentRecords()
+    const records = [...getCurrentRecords()]
       .filter((record) => getUniqueAlerts(record.alerts).length > 0)
-      .slice(0, 10);
+      .sort(compareByPriority)
+      .slice(0, 12);
 
     if (!records.length) {
       elements.alertRecords.innerHTML = `<div class="empty-state">Nenhuma ocorrência prioritária.</div>`;
@@ -608,12 +1223,7 @@
     elements.alertRecords.innerHTML = records.map(renderRecordCard).join("");
   }
 
-  function renderResults() {
-    const filtered = getFilteredRecords();
-    const visible = filtered.slice(0, state.visibleCount);
-
-    elements.resultsMeta.textContent = `${formatNumber(filtered.length)} registros encontrados`;
-
+  function getActiveFiltersText() {
     const activeFilters = [];
     if (state.filters.query) activeFilters.push(`Busca: ${state.filters.query}`);
     if (state.filters.organization) activeFilters.push(`Órgão: ${state.filters.organization}`);
@@ -621,10 +1231,51 @@
     if (state.filters.vigency !== "todos") activeFilters.push(`Vigência: ${getLabel("vigency", state.filters.vigency)}`);
     if (state.filters.management !== "todos") activeFilters.push(`Responsáveis: ${getLabel("management", state.filters.management)}`);
     if (state.filters.source !== "todos") activeFilters.push(`Fonte: ${getLabel("source", state.filters.source)}`);
+    if (state.filters.criticality !== "todos") activeFilters.push(`Criticidade: ${getLabel("criticality", state.filters.criticality)}`);
     if (state.filters.scope !== DEFAULT_FILTERS.scope) activeFilters.push(`Escopo: ${getLabel("scope", state.filters.scope)}`);
+    if (state.filters.sort !== DEFAULT_FILTERS.sort) activeFilters.push(`Ordenação: ${getLabel("sort", state.filters.sort)}`);
+    return activeFilters;
+  }
 
+  function renderResultInsights(records) {
+    const summary = summarizeRecordSet(records);
+    const topOrganization = getTopOrganization(records);
+
+    renderCardCollection(elements.resultInsightGrid, [
+      {
+        label: "Registros no recorte",
+        value: formatNumber(summary.total),
+        detail: "Resultado atual da consulta",
+      },
+      {
+        label: "Designações completas",
+        value: formatNumber(summary.withCompleteAssignments),
+        detail: formatPercent(summary.withCompleteAssignments, summary.total),
+      },
+      {
+        label: "Alta criticidade",
+        value: formatNumber(summary.critical),
+        detail: formatPercent(summary.critical, summary.total),
+      },
+      {
+        label: "Maior concentração",
+        value: formatNumber(topOrganization?.count || 0),
+        detail: topOrganization?.organization || "Sem concentração",
+      },
+    ]);
+  }
+
+  function renderResults() {
+    const filtered = getFilteredRecords();
+    const visible = filtered.slice(0, state.visibleCount);
+
+    elements.resultsMeta.textContent = `${formatNumber(filtered.length)} registros encontrados · ${getLabel("sort", state.filters.sort)}`;
+
+    const activeFilters = getActiveFiltersText();
     elements.activeFilterSummary.textContent = activeFilters.join(" · ");
     elements.activeFilterSummary.classList.toggle("hidden", activeFilters.length === 0);
+
+    renderResultInsights(filtered);
 
     if (!visible.length) {
       elements.recordList.innerHTML = `<div class="empty-state">Nenhum registro encontrado.</div>`;
@@ -637,7 +1288,8 @@
   }
 
   function renderFooter() {
-    elements.footerCopy.textContent = "Dados atualizados.";
+    const summary = state.payload.summary || {};
+    elements.footerCopy.textContent = `${formatNumber(summary.contratosAtuais || 0)} contratos vigentes monitorados · atualização ${formatDateTime(state.payload.generatedAt)}`;
   }
 
   function renderAll() {
@@ -646,9 +1298,15 @@
     renderSummaryCards();
     renderMethodology();
     renderStatusGrid();
-    renderPriorityGroups();
+    renderCoverageGrid();
+    renderSourceGrid();
+    renderDeadlineGrid();
     renderOrganizationSummary();
+    renderRecentMovements();
+    renderInsights();
+    renderPriorityGroups();
     renderQuickPresets();
+    renderAlertSummary();
     renderAlertRecords();
     renderResults();
     renderFooter();
@@ -659,7 +1317,6 @@
     state.filters = { ...DEFAULT_FILTERS };
     state.visibleCount = PAGE_SIZE;
     syncControls();
-    syncUrlState();
     renderAll();
   }
 
@@ -673,6 +1330,143 @@
     renderAll();
   }
 
+  function updateFilter(key, value) {
+    state.filters[key] = value;
+    state.visibleCount = PAGE_SIZE;
+    renderAll();
+  }
+
+  function scheduleQueryUpdate(value) {
+    window.clearTimeout(state.searchTimer);
+    state.searchTimer = window.setTimeout(() => {
+      updateFilter("query", value.trim());
+    }, SEARCH_DEBOUNCE_MS);
+  }
+
+  function csvEscape(value) {
+    return `"${String(value ?? "").replace(/"/g, '""')}"`;
+  }
+
+  function buildCsv(records) {
+    const headers = [
+      "Contrato",
+      "Órgão",
+      "Gestão",
+      "Ano",
+      "Fornecedor",
+      "Objeto",
+      "Gestor",
+      "Cargo do gestor",
+      "Fiscal",
+      "Cargo do fiscal",
+      "Situação contratual",
+      "Situação dos responsáveis",
+      "Fonte",
+      "Criticidade",
+      "Prazo final",
+      "Dias para o término",
+      "Última movimentação",
+      "Título da movimentação",
+      "Valor",
+      "Movimentações",
+      "Link do Diário Oficial",
+      "Link do Portal da Transparência",
+      "Alertas",
+    ];
+
+    const lines = records.map((record) => [
+      record.contractNumber || "",
+      record.organization || "",
+      record.administration || "",
+      record.year || "",
+      record.supplier || "",
+      truncateText(record.object || "", 400),
+      record.manager?.name || "",
+      record.manager?.role || "",
+      record.inspector?.name || "",
+      record.inspector?.role || "",
+      getLabel("vigency", record.vigency?.state),
+      getLabel("management", record.managementState),
+      getLabel("source", record.sourceStatus),
+      getLabel("criticality", record._criticality),
+      record._endDate ? formatDate(record._endDate) : "",
+      record.vigency?.daysUntilEnd ?? "",
+      formatDate(record._movementDate),
+      record.lastMovementTitle || "",
+      record.valueLabel || formatCurrency(record._valueNumber),
+      record.movementCount || 0,
+      record.links?.diary || "",
+      record.links?.portal || "",
+      getUniqueAlerts(record.alerts)
+        .map((alert) => alert.title)
+        .join(" | "),
+    ]);
+
+    return [headers, ...lines].map((columns) => columns.map(csvEscape).join(";")).join("\r\n");
+  }
+
+  function downloadFile(filename, content, type) {
+    const blob = new Blob([content], { type });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
+  }
+
+  function flashButton(button, label) {
+    const original = button.dataset.originalLabel || button.textContent;
+    button.dataset.originalLabel = original;
+    button.textContent = label;
+    window.setTimeout(() => {
+      button.textContent = original;
+    }, 1600);
+  }
+
+  async function copyToClipboard(text) {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(text);
+      return true;
+    }
+
+    const input = document.createElement("textarea");
+    input.value = text;
+    input.setAttribute("readonly", "readonly");
+    input.style.position = "fixed";
+    input.style.opacity = "0";
+    document.body.appendChild(input);
+    input.select();
+    const success = document.execCommand("copy");
+    input.remove();
+    return success;
+  }
+
+  async function handleShareView() {
+    syncUrlState();
+    try {
+      await copyToClipboard(window.location.href);
+      flashButton(elements.shareView, "Link copiado");
+    } catch {
+      flashButton(elements.shareView, "Não foi possível copiar");
+    }
+  }
+
+  function handleExportCsv() {
+    const records = getFilteredRecords();
+    if (!records.length) {
+      flashButton(elements.exportCsv, "Sem dados");
+      return;
+    }
+
+    const generatedAt = state.payload.generatedAt ? new Date(state.payload.generatedAt) : new Date();
+    const stamp = `${generatedAt.getFullYear()}-${String(generatedAt.getMonth() + 1).padStart(2, "0")}-${String(generatedAt.getDate()).padStart(2, "0")}`;
+    downloadFile(`contratos-vigentes-${stamp}.csv`, buildCsv(records), "text/csv;charset=utf-8");
+    flashButton(elements.exportCsv, "CSV gerado");
+  }
+
   function bindEvents() {
     elements.viewButtons.forEach((button) => {
       button.addEventListener("click", () => {
@@ -681,9 +1475,7 @@
     });
 
     elements.searchInput.addEventListener("input", () => {
-      state.filters.query = elements.searchInput.value.trim();
-      state.visibleCount = PAGE_SIZE;
-      renderAll();
+      scheduleQueryUpdate(elements.searchInput.value);
     });
 
     [
@@ -693,17 +1485,17 @@
       [elements.vigencySelect, "vigency"],
       [elements.managementSelect, "management"],
       [elements.sourceSelect, "source"],
+      [elements.criticalitySelect, "criticality"],
+      [elements.sortSelect, "sort"],
     ].forEach(([element, key]) => {
       element.addEventListener("change", () => {
-        state.filters[key] = element.value;
-        state.visibleCount = PAGE_SIZE;
-        renderAll();
+        updateFilter(key, element.value);
       });
     });
 
-    elements.clearFilters.addEventListener("click", () => {
-      resetFilters();
-    });
+    elements.clearFilters.addEventListener("click", resetFilters);
+    elements.shareView.addEventListener("click", handleShareView);
+    elements.exportCsv.addEventListener("click", handleExportCsv);
 
     elements.loadMore.addEventListener("click", () => {
       state.visibleCount += PAGE_SIZE;
@@ -714,6 +1506,16 @@
       const presetButton = event.target.closest("[data-preset]");
       if (!presetButton) return;
       applyPreset(presetButton.dataset.preset);
+    });
+
+    window.addEventListener("popstate", () => {
+      const nextState = readUrlState();
+      state.view = nextState.view;
+      state.filters = { ...DEFAULT_FILTERS, ...nextState.filters };
+      state.visibleCount = PAGE_SIZE;
+      syncControls();
+      setView(state.view);
+      renderAll();
     });
   }
 
@@ -727,54 +1529,55 @@
       throw new Error("Informações indisponíveis.");
     }
 
-    state.payload = await response.json();
+    const payload = await response.json();
+    state.payload = preprocessPayload(payload);
+    state.filteredCache.clear();
 
-    populateSelect(elements.scopeSelect, ["atuais", "todos"], "scope", "atuais");
-    populateSelect(elements.vigencySelect, (state.payload.filters.vigencyStates || []).filter((value) => value !== "todos"), "vigency");
-    populateSelect(elements.managementSelect, (state.payload.filters.managementStates || []).filter((value) => value !== "todos"), "management");
-    populateSelect(elements.sourceSelect, (state.payload.filters.sourceStates || []).filter((value) => value !== "todos"), "source");
-
-    const setPlainOptions = (select, values, emptyLabel) => {
-      const previous = select.value;
-      select.innerHTML = "";
-
-      const empty = document.createElement("option");
-      empty.value = "";
-      empty.textContent = emptyLabel;
-      select.appendChild(empty);
-
-      values.forEach((value) => {
-        const option = document.createElement("option");
-        option.value = value;
-        option.textContent = value;
-        select.appendChild(option);
-      });
-
-      if ([...select.options].some((option) => option.value === previous)) {
-        select.value = previous;
-      }
-    };
-
+    setLabeledOptions(elements.scopeSelect, ["atuais", "todos"], "scope");
     setPlainOptions(elements.organizationSelect, state.payload.filters.organizations || [], "Todos os órgãos");
     setPlainOptions(elements.administrationSelect, state.payload.filters.administrations || [], "Todas as gestões");
+    setLabeledOptions(elements.vigencySelect, state.payload.filters.vigencyStates || Object.keys(LABELS.vigency), "vigency");
+    setLabeledOptions(elements.managementSelect, state.payload.filters.managementStates || Object.keys(LABELS.management), "management");
+    setLabeledOptions(elements.sourceSelect, state.payload.filters.sourceStates || Object.keys(LABELS.source), "source");
+    setLabeledOptions(elements.criticalitySelect, Object.keys(LABELS.criticality), "criticality");
+    setLabeledOptions(elements.sortSelect, Object.keys(LABELS.sort), "sort");
+
+    ensureValidFilterValue("scope", elements.scopeSelect);
+    ensureValidFilterValue("organization", elements.organizationSelect);
+    ensureValidFilterValue("administration", elements.administrationSelect);
+    ensureValidFilterValue("vigency", elements.vigencySelect);
+    ensureValidFilterValue("management", elements.managementSelect);
+    ensureValidFilterValue("source", elements.sourceSelect);
+    ensureValidFilterValue("criticality", elements.criticalitySelect);
+    ensureValidFilterValue("sort", elements.sortSelect);
+
     syncControls();
     setView(state.view);
     bindEvents();
     renderAll();
   }
 
-  bootstrap().catch(() => {
-    const message = "Informações indisponíveis.";
+  function renderError(message) {
     elements.heroSummary.textContent = message;
     elements.heroCallout.textContent = "";
-    elements.heroCallout.classList.add("hidden");
-    elements.summaryCards.innerHTML = `<div class="empty-state">${message}</div>`;
-    elements.methodNotes.innerHTML = `<div class="empty-state">${message}</div>`;
-    elements.statusGrid.innerHTML = `<div class="empty-state">${message}</div>`;
-    elements.priorityGroups.innerHTML = `<div class="empty-state">${message}</div>`;
-    elements.organizationSummary.innerHTML = `<div class="empty-state">${message}</div>`;
-    elements.alertRecords.innerHTML = `<div class="empty-state">${message}</div>`;
-    elements.recordList.innerHTML = `<div class="empty-state">${message}</div>`;
+    elements.summaryCards.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
+    elements.methodNotes.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
+    elements.statusGrid.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
+    elements.coverageGrid.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
+    elements.sourceGrid.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
+    elements.deadlineGrid.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
+    elements.organizationSummary.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
+    elements.recentMovements.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
+    elements.insightList.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
+    elements.priorityGroups.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
+    elements.alertSummaryGrid.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
+    elements.alertRecords.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
+    elements.resultInsightGrid.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
+    elements.recordList.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
     elements.loadMore.classList.add("hidden");
+  }
+
+  bootstrap().catch(() => {
+    renderError("Informações indisponíveis.");
   });
 })();

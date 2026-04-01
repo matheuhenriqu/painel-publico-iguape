@@ -122,8 +122,13 @@ a {
 .section-copy,
 .method-summary,
 .priority-card p,
+.analysis-detail,
+.insight-item p,
 .record-object,
 .record-meta small,
+.movement-copy span,
+.movement-copy small,
+.organization-head small,
 .hero-callout,
 .footer p {
   color: var(--text-soft);
@@ -236,7 +241,10 @@ a {
 .summary-grid,
 .status-grid,
 .priority-grid,
-.method-notes {
+.method-notes,
+.analysis-grid,
+.insight-grid,
+.result-insight-grid {
   display: grid;
   gap: 14px;
 }
@@ -248,21 +256,25 @@ a {
 .metric-card,
 .status-card,
 .priority-card,
-.note-card {
+.note-card,
+.analysis-card,
+.insight-item {
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
   background: linear-gradient(180deg, var(--surface), var(--surface-soft));
 }
 
 .metric-card,
-.status-card {
+.status-card,
+.analysis-card {
   padding: 18px 18px 20px;
   display: grid;
   gap: 8px;
 }
 
 .metric-value,
-.status-value {
+.status-value,
+.analysis-value {
   font-size: clamp(1.8rem, 3vw, 2.5rem);
   font-weight: 800;
   line-height: 0.95;
@@ -290,6 +302,8 @@ a {
   color: var(--text-soft);
 }
 
+.view-section > .card,
+.split-grid > .card,
 .methodology,
 .filters-card,
 .footer {
@@ -386,6 +400,19 @@ a {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.analysis-grid,
+.result-insight-grid {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.analysis-card {
+  min-height: 120px;
+}
+
+.analysis-detail {
+  font-size: 0.92rem;
+}
+
 .status-card strong {
   color: var(--text);
 }
@@ -432,6 +459,25 @@ a {
   color: var(--text-soft);
 }
 
+.insight-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.insight-item {
+  padding: 18px;
+  display: grid;
+  gap: 10px;
+}
+
+.insight-item strong {
+  font-size: 1rem;
+  color: var(--text);
+}
+
+.insight-item p {
+  margin: 0;
+}
+
 .organization-summary {
   display: grid;
   gap: 12px;
@@ -446,7 +492,12 @@ a {
   display: flex;
   justify-content: space-between;
   gap: 12px;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.organization-head > div {
+  display: grid;
+  gap: 2px;
 }
 
 .organization-head span:last-child {
@@ -476,6 +527,10 @@ a {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 14px;
+}
+
+.field--search {
+  grid-column: span 2;
 }
 
 .field {
@@ -532,16 +587,63 @@ a {
   gap: 12px;
 }
 
+.results-toolbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .results-bar {
   display: flex;
   justify-content: space-between;
   gap: 12px;
   align-items: center;
+  flex: 1 1 420px;
+}
+
+.toolbar-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .active-filter-summary {
   min-height: 22px;
   font-size: 0.92rem;
+}
+
+.movement-list {
+  display: grid;
+  gap: 12px;
+}
+
+.movement-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-soft);
+  padding: 14px 16px;
+}
+
+.movement-copy {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.movement-copy strong {
+  color: var(--text);
+}
+
+.movement-item time {
+  color: var(--text-soft);
+  font-size: 0.92rem;
+  white-space: nowrap;
 }
 
 .record-list {
@@ -645,7 +747,7 @@ a {
 
 .record-meta {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
   gap: 12px;
 }
 
@@ -758,6 +860,10 @@ a {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .insight-grid {
+    grid-template-columns: 1fr;
+  }
+
   .method-notes {
     grid-template-columns: 1fr;
   }
@@ -783,6 +889,9 @@ a {
 
   .summary-grid,
   .status-grid,
+  .analysis-grid,
+  .result-insight-grid,
+  .insight-grid,
   .filters-grid,
   .record-meta {
     grid-template-columns: 1fr;
@@ -793,11 +902,18 @@ a {
   }
 
   .section-head,
+  .results-toolbar,
   .results-bar,
+  .toolbar-actions,
+  .movement-item,
   .record-head,
   .footer {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .field--search {
+    grid-column: span 1;
   }
 
   .badge-row {
@@ -835,7 +951,8 @@ a {
   }
 
   .topbar-actions,
-  .record-actions {
+  .record-actions,
+  .toolbar-actions {
     display: grid;
     width: 100%;
   }

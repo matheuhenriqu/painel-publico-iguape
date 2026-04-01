@@ -1,0 +1,86 @@
+﻿{
+    "diaryId":  "397",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:28",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/a3ccf0f33ee282474c1a7c4ba3f518a2.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/a3ccf0f33ee282474c1a7c4ba3f518a2.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 345.676,13"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:066/2022–REDUCAO DE VALOR DOS ITENS 01-02-03",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "6/2022",
+                      "processNumber":  "030/2022",
+                      "modality":  "Pregao Presencial n°. 030/2022",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECO PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICOES DE COMBUSTIVEIS PARA ATENDER DIVERSAS SERETARIAS DESTA PREFEITURA NO MUNICIPIO. DE IGUAPE /SP. Pregao Presencial n°. 030/2022",
+                      "value":  "R$ 7,23",
+                      "term":  "30/09/2022 a 22/05/2023",
+                      "signatureDate":  "30/09/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:066/2022–REDUCAO DE VALOR DOS ITENS 01-02-03\nOBJETO: REGISTRO DE PRECO PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICOES DE COMBUSTIVEIS PARA\nATENDER DIVERSAS SERETARIAS DESTA PREFEITURA NO MUNICIPIO.\nDE IGUAPE /SP.\nPregao Presencial n°. 030/2022.\nDATA: 30/09/2022\nVIGENCIA: 30/09/2022 a 22/05/2023\nVALOR: Item 01 – Gasolina Comum – Valor Licitado R$ 7,23 – Valor com Reducao R$ 5,29; Item 02 – Diesel S10 – Valor Licitado R$\n7,80 – Valor com Reducao R$ 6,99 e Item 03 – Etanol – Valor Licita",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:097/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "7/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICOES DE GAS DE COZINHA GLP, P13 E P45, PARA ATENDER DIVERSOS DEPARTAMENTOS DA PREFEITURA DE IGUAPE, PELO PERIODO DE 12 MESES. Pregao Presencial n°. 050 /2022",
+                      "value":  "R$ 345.668,90",
+                      "term":  "28/09/2022 a 27/09/2023.",
+                      "signatureDate":  "28/09/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:097/2022\nOBJETO: REGISTRO DE PRECOS PARA AQUISICOES DE GAS DE COZINHA GLP, P13 E P45, PARA ATENDER DIVERSOS\nDEPARTAMENTOS DA PREFEITURA DE IGUAPE, PELO PERIODO DE 12 MESES.\nPregao Presencial n°. 050 /2022.\nVIGENCIA: 28/09/2022 a 27/09/2023.\nDATA: 28/09/2022\nVALOR: Pagara a contratada o valor global de R$ 345.668,90 trezentos e quarenta e cinco mil, seiscentos e sessenta e oito reais e\nnoventa centavos).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  }
+              ]
+}

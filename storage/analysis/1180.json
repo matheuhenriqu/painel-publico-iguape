@@ -1,0 +1,90 @@
+﻿{
+    "diaryId":  "1180",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:20",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1037_14070647.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1037_14070647.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 12.000,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "CONTRATO DE LOCACAO DE IMOVEL Nº 125/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MIRIAM VIEIRA NOBREGA",
+                      "cnpj":  "",
+                      "object":  "Contratacao para a locacao de Imovel para atendimento da Estrategia Saude da Familia (ESF) Aeroporto atendendo a demanda da Secretaria de Saude pelo periodo de 12 meses",
+                      "value":  "R$ 12.000,00",
+                      "term":  "",
+                      "signatureDate":  "12/08/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATO DE LOCACAO DE IMOVEL Nº 125/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: MIRIAM VIEIRA NOBREGA\nOBJETO: Contratacao para a locacao de Imovel para atendimento da Estrategia Saude da Familia (ESF) Aeroporto atendendo a demanda da Secretaria\nde Saude pelo periodo de 12 meses.\nDATA: 12/08/2025\nVALOR: Valor Global – R$ 12.000,00 (doze mil reais), sendo R$ 3.000,00 (tres mil reais) mensais.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CONCORRENCIA ELETRONICA Nº 002/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "002/2025",
+                      "modality":  "CONCORRENCIA ELETRONICA Nº 002/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-ministerio-saude"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Ministerio da Saude"
+                                                     ],
+                      "excerpt":  "CONCORRENCIA ELETRONICA Nº 002/2025\n\n A PREFEITURA MUNICIPAL DE IGUAPE, atraves da Agente de Contratacao, no uso legais de suas atribuicoes; torna publico para conhecimento\n dos interessados o RESULTADO do julgamento dos Recursos referente a Concorrencia Eletronica acima especificada, cujo objeto e a CONTRATACAO\n DE EMPRESA ESPECIALIZADA PARA CONSTRUCAO DE UNIDADE BASICA DE SAUDE (UBS) PORTE I- localizada na regiao da Alameda 18,\n esquina com a Rua 4 (Loteamento Iguape F), s/nº, Nova Iguape, Bairro do Rocio, no mun",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

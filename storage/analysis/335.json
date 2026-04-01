@@ -1,0 +1,91 @@
+﻿{
+    "diaryId":  "335",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:38",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/c5f006bf75976cb650aa40c388e66da4.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/c5f006bf75976cb650aa40c388e66da4.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "apostilamento",
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade",
+                     "rescisao"
+                 ],
+    "summary":  {
+                    "pageCount":  32,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "1º TERMO AO CONTRATO 076/2020",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  31,
+                      "contractNumber":  "076/2020",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para Obra de Reforma do Sistema Viario da Avenida Janio Quadros, conforme Convenio nº 73/2020, Celebrado entre a Prefeitura de Iguape e o DETRAN-SP, no ambito do Programa Respeito a Vida",
+                      "value":  "",
+                      "term":  "90 (noventa) dias periodo de 21/08/2022 a 20/11/2022 e periodo de execucao de 06/06/2022 a 05/09/2022 .",
+                      "signatureDate":  "06/06/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n1º TERMO AO CONTRATO 076/2020\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A COMPANHIA DE OBRAS PARIQUERA-ACU\nCONTRATO N°: 076/2020\nOBJETO: Contratacao de Empresa Especializada para Obra de Reforma do Sistema Viario da Avenida Janio Quadros, conforme\nConvenio nº 73/2020, Celebrado entre a Prefeitura de Iguape e o DETRAN-SP, no ambito do Programa Respeito a Vida.\nDATA: 06/06/2022\nTOMADA DE PRECO Nº 007/2020\nVIGENCIA:90 (noventa) dias periodo de 21/08/2022 a 20/11/2022 e periodo de execucao de 06/06/2",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "5º TERMO ADITIVO DE PRAZO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  31,
+                      "contractNumber":  "080/2020",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para Pavimentacao e Obras Complementares de Vias do Municipio de Iguape/SP, conforme contratos de repasses nº 890545/2019 - Rua “Dom Idilio Jose Soares”. Tomada de Precos: 008/2020",
+                      "value":  "",
+                      "term":  "90 (noventa) dias, periodo – 06/06/2022 a 05/09/2022.",
+                      "signatureDate":  "06/06/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "5º TERMO ADITIVO DE PRAZO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU\nCONTRATO N°: 080/2020 – LOTE – Nº 01\nOBJETO: Contratacao de Empresa Especializada para Pavimentacao e Obras Complementares de Vias do Municipio de Iguape/SP,\nconforme contratos de repasses nº 890545/2019 - Rua “Dom Idilio Jose Soares”.\nTomada de Precos: 008/2020\nDATA:06/06/2022\nVIGENCIA: 90 (noventa) dias, periodo – 06/06/2022 a 05/09/2022.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

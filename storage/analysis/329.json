@@ -1,0 +1,241 @@
+﻿{
+    "diaryId":  "329",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:39",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/cdfc9aff19a7a4a19162a0399d96e80f.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/cdfc9aff19a7a4a19162a0399d96e80f.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "rescisao"
+                 ],
+    "summary":  {
+                    "pageCount":  8,
+                    "itemCount":  6,
+                    "totalValue":  "R$ 443.365,76"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO-FINANCEIRO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  4,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "RONIE PETERSON RAMPONI – ME",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO-FINANCEIRO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: RONIE PETERSON RAMPONI – ME",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N.º 073/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "073/2021",
+                      "processNumber":  "033/2021",
+                      "modality":  "Pregao Presencial n.º 033/2021",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de generos alimenticios pereciveis e nao pereciveis para atender a demanda do Departamento de Educacao (Merenda Escolar), e demais Departamentos e Divisoes da Prefeitura Municipal de Iguape, pelo periodo de 12 (doze) meses, referente ao termo de reequilibrio economico-financeiro com fundamento no art. 65 inciso II, alinea “d” da Lei 8.666/93, itens 51,72,112,120 e 121. Pregao Presencial n.º 033/2021",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "14/06/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N.º 073/2021\nOBJETO: Registro de Precos para aquisicao de generos alimenticios pereciveis e nao pereciveis para atender a demanda do\nDepartamento de Educacao (Merenda Escolar), e demais Departamentos e Divisoes da Prefeitura Municipal de Iguape, pelo periodo\nde 12 (doze) meses, referente ao termo de reequilibrio economico-financeiro com fundamento no art. 65 inciso II, alinea “d” da Lei\n8.666/93, itens 51,72,112,120 e 121.\nPregao Presencial n.º 033/2021\nDATA: 14/06/2022",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "1º TERMO AO CONTRATO 076/2020",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "076/2020",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para Obra de Reforma do Sistema Viario da Avenida Janio Quadros, conforme Convenio nº 73/2020, celebrado entre a Prefeitura de Iguape e o DETRAN-SP, no ambito do Programa Respeito a Vida",
+                      "value":  "",
+                      "term":  "90 (noventa) dias periodo de 06/06/2022 a 05/09/2022 e periodo de execucao de 21/08/2021 a 20/11/2022",
+                      "signatureDate":  "06/06/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n1º TERMO AO CONTRATO 076/2020\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A COMPANHIA DE OBRAS PARIQUERA-ACU\nCONTRATO N°: 076/2020\nOBJETO: Contratacao de Empresa Especializada para Obra de Reforma do Sistema Viario da Avenida Janio Quadros, conforme\nConvenio nº 73/2020, celebrado entre a Prefeitura de Iguape e o DETRAN-SP, no ambito do Programa Respeito a Vida.\nDATA: 06/06/2022\nTOMADA DE PRECO Nº 007/2020\nVIGENCIA:90 (noventa) dias periodo de 06/06/2022 a 05/09/2022 e periodo de execucao de 21/08/2",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "1º TERMO DE PRORROGACAO AO CONTRATO 15/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "015/2021",
+                      "processNumber":  "008/2021",
+                      "modality":  "Pregao Presencial n°. 008/2021",
+                      "contractor":  "INFOVALE – TELECOM LTDA - EPP",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa prestador de servicos especializados de telecomunicacoes necessarias a implantacao, operacao, manutencao e gerenciamento de uma rede IP Multisservicos (OSPF/MPLS/VPN/EoIP) com 58 links de rede de dados de 100MBPS Full Duplex, de acesso a gestao do municipio e com a entrega total de 58 links de acesso a internet, pelo periodo de 12(doze) meses. Pregao Presencial n°. 008/2021",
+                      "value":  "R$ 365.009,76",
+                      "term":  "12 (doze) meses – periodo de 10/06/2022 a 09/06/2023.",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n1º TERMO DE PRORROGACAO AO CONTRATO 15/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: INFOVALE – TELECOM LTDA - EPP\nCONTRATO N°: 015/2021\nOBJETO: Contratacao de Empresa prestador de servicos especializados de telecomunicacoes necessarias a implantacao, operacao,\nmanutencao e gerenciamento de uma rede IP Multisservicos (OSPF/MPLS/VPN/EoIP) com 58 links de rede de dados de 100MBPS Full\nDuplex, de acesso a gestao do municipio e com a entrega total de 58 links de acesso a internet, pelo periodo de 12(doze) ",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "1º TERMO DE ´PRORROGACAO AO CONTRATO Nº 016/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "016/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "JULIANA MARTINS DE CAMARGO - MEI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para Prestacao de Servicos de Manutencao, Conservacao e Instalacoes nas Trilhas e Atrativos Turisticos do Parque Municipal do Morro do Espia no Municipio de Iguape/SP. Carta Convite n°. 003/2021",
+                      "value":  "R$ 78.356,00",
+                      "term":  "Periodo de 12(doze) meses de 17/06/2022 a 16/06/2023..",
+                      "signatureDate":  "15/06/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n1º TERMO DE ´PRORROGACAO AO CONTRATO Nº 016/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: JULIANA MARTINS DE CAMARGO - MEI\nCONTRATO N°: 016/2021\nOBJETO: Contratacao de Empresa Especializada para Prestacao de Servicos de Manutencao, Conservacao e Instalacoes nas Trilhas\ne Atrativos Turisticos do Parque Municipal do Morro do Espia no Municipio de Iguape/SP.\nCarta Convite n°. 003/2021\nVALOR: Pagara a contratada o valor global de R$ 78.356,00 (setenta e oito mil, trezentos e cinquenta e seis reais, perfaze",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE PRAZO AO CONTRATO N.º 095/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "095/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ENGETEC ENGENHARIA EIRELI - ME",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "AO CONTRATO N.º 095/2021",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE PRAZO AO CONTRATO N.º 095/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ENGETEC ENGENHARIA EIRELI - ME",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

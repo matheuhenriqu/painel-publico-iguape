@@ -1,0 +1,159 @@
+﻿{
+    "diaryId":  "1232",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:10",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1080_14072535.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1080_14072535.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 70.730,28"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "CONTRATO Nº161/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "1/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "EVERTON HENRIQUE RIBEIRO PINTO",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATO Nº161/2025\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: EVERTON HENRIQUE RIBEIRO PINTO\nCNPJ: XX.728.517/0001-XX",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Dispensa",
+                      "actTitle":  "DISPENSA DE LICITACAO N°: 922/2025 – Artigo 74, II, da Lei Federal 14.133/21.",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "741/2025",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para a organizacao e execucao da 5ª etapa do Circuito Ubuntu de Mountain Bike, a ser realizada nos dias 11 e 12 de outubro de 2025, na cidade de Iguape/SP",
+                      "value":  "R$ 41.680,00",
+                      "term":  "07/10/2025 A 07/11/2025.",
+                      "signatureDate":  "07/10/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "DISPENSA DE LICITACAO N°: 922/2025 – Artigo 74, II, da Lei Federal 14.133/21.\nPROCESSO ADMINISTRATIVO Nº: 741/2025\nOBJETO: Contratacao de empresa especializada para a organizacao e execucao da 5ª etapa do Circuito Ubuntu de Mountain Bike, a ser realizada nos\ndias 11 e 12 de outubro de 2025, na cidade de Iguape/SP.\nDATA: 07/10/2025\nVIGENCIA: 07/10/2025 A 07/11/2025.\nVALOR: R$ 41.680,00 (quarenta e um mil, seiscentos e oitenta reais).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "CONTRATO Nº 162/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "162/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "OLIVEIRA ENGENHARIA LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para reforma e revitalizacao da cobertura e forro da Igreja Sao Benedito com fornecimento de materiais e mao de obra, neste municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATO Nº 162/2025\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: OLIVEIRA ENGENHARIA LTDA\nOBJETO: Contratacao de empresa especializada para reforma e revitalizacao da cobertura e forro da Igreja Sao Benedito com fornecimento de materiais\ne mao de obra, neste municipio de Iguape/SP.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Concorrencia Eletronica n°. 004/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "004/2025",
+                      "modality":  "Concorrencia Eletronica n°. 004/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 290.50,28",
+                      "term":  "05 (cinco) meses, periodo de 10/10/2025 a 09/03/2026",
+                      "signatureDate":  "10/10/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "Concorrencia Eletronica n°. 004/2025\nData: 10/10/2025\nVIGENCIA: 05 (cinco) meses, periodo de 10/10/2025 a 09/03/2026\nEXECUCAO: 05 (cinco) meses, periodo de 10/10/2025 a 09/03/2026, a contar da data da ultima assinatura do representante legal da empresa na\nordem de servico.\nVALOR: Valor global - R$ 290.50,28 (duzentos e noventa mil, quinhentos e sete reais e vinte o oito centavos).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

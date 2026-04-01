@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "1068",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:36",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_957-_04072253.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_957-_04072253.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "PREGAO ELETRONICO",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de precos para a Contratacao de empresa especializada para a prestacao de servicos de exames laboratoriais de analises clinicas para atender a demanda dos pacientes atendidos no centro de saude, UBS, Pronto Atendimento, unidades das Estrategias de Saude",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO – n.º 004/2025, do tipo MENOR PRECO GLOBAL, situada na Avenida\nAdhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: Registro de precos para a Contratacao de empresa especializada para a prestacao de servicos de exames laboratoriais de analises\nclinicas para atender a demanda dos pacientes atendidos no centro de saude, UBS, Pronto Atendimento, uni",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero principal identificado"
+                                ]
+                  }
+              ]
+}

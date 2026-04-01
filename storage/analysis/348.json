@@ -1,0 +1,124 @@
+﻿{
+    "diaryId":  "348",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:34",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/f0a29b63ad5e7d8a4b6d8a18d57cb002.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/f0a29b63ad5e7d8a4b6d8a18d57cb002.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 5.000,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "INEXIGIBILIDADE DE LICITACAO da empresa CHEYLA HENRIQUE DA SILVA 04882887460, inscrita no CNPJ: 28.586.913/0001-50",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "913/0001",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "28.586.913/0001-50",
+                      "object":  "",
+                      "value":  "R$ 5.000,00",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "INEXIGIBILIDADE DE LICITACAO da empresa CHEYLA HENRIQUE DA SILVA 04882887460, inscrita no CNPJ: 28.586.913/0001-50\nPARA APRESENTACAO MUSICAL de “BANDA MARIJUARA”, NO DIA 02 DE AGOSTO DE 2022, A PARTIR DAS 21H00, POR\n01h30min DE SHOW, NO CENTRO DE EVENTOS PREFEITO CASEMIRO TEIXEIRA, COMO PARTE DO EVENTO “FESTA DE\nAGOSTO” COM FUNDAMENTO NO ARTIGO 25, INCISO III, DA LEI FEDERAL 8.666/93, sendo o valor contratado de R$ 5.000,00\n(cinco mil reais), pois que, ao analisar o caso concreto, eisque estao preenchidos todos os ",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 086/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "086/2022",
+                      "processNumber":  "045/2022",
+                      "modality":  "Pregao Presencial n°. 045/2022",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicoes de lixeiras e containers, para atender ao municipio de Iguape/SP Pregao Presencial n°. 045/2022",
+                      "value":  "",
+                      "term":  "12/07/2022 a 11/07/2023",
+                      "signatureDate":  "12/07/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 086/2022\nOBJETO: Registro de Precos para aquisicoes de lixeiras e containers, para atender ao municipio de Iguape/SP\nPregao Presencial n°. 045/2022.\nDATA: 12/07/2022\nVIGENCIA: 12/07/2022 a 11/07/2023\nVALOR: 148.600,00 (cento e quarenta e oito mil e seiscentos reais).",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 087/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "087/2022",
+                      "processNumber":  "046/2022",
+                      "modality":  "Pregao Presencial n°. 046/2022",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para contratacao de empresa especializada em locacao de banheiros e escritorio container, a serem utilizados nos eventos do municpio de Iguape/SP Pregao Presencial n°. 046/2022",
+                      "value":  "",
+                      "term":  "13/07/2022 a 11/09/2023",
+                      "signatureDate":  "13/07/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 087/2022\nOBJETO: Registro de Precos para contratacao de empresa especializada em locacao de banheiros e escritorio container, a\nserem utilizados nos eventos do municpio de Iguape/SP\nPregao Presencial n°. 046/2022.\nDATA: 13/07/2022\nVIGENCIA: 13/07/2022 a 11/09/2023\nVALOR: 129.600,00 (cento e vinte e nove mil e seiscentos e reais).",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

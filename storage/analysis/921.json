@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "921",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:56",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_840_25125812.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_840_25125812.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 156/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "156/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E MANUTENCAO DA ESCOLA MUNICIPAL BENEDITO ROSA CARNEIRO FASE II, NESTE MUNICIPIO DE IGUAPE/SP TOMADA DE PRECO Nº 010/2023",
+                      "value":  "",
+                      "term":  "Periodo de 04(quatro) meses – 28/09/2024 a 28/01/2025.",
+                      "signatureDate":  "20/09/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 156/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CIACAN ENGENHARIA EIRELI\nCONTRATO N°: 156/2023\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E MANUTENCAO DA ESCOLA MUNICIPAL BENEDITO ROSA\nCARNEIRO FASE II, NESTE MUNICIPIO DE IGUAPE/SP\nTOMADA DE PRECO Nº 010/2023\nDATA: 20/09/2024\nVIGENCIA: Periodo de 04(quatro) meses – 28/09/2024 a 28/01/2025.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

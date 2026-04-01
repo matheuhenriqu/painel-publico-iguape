@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "386",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:30",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/a5cb9dd6527669abb30f34941fc598f1.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/a5cb9dd6527669abb30f34941fc598f1.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 4.848,30"
+                },
+    "items":  [
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 095/2016",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "055/2016",
+                      "modality":  "",
+                      "contractor":  "PATRICIA VICHI MUNHOZ",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao da “Divisao de Logistica da Merenda Escolar Municipal”",
+                      "value":  "R$ 4.848,30",
+                      "term":  "",
+                      "signatureDate":  "12/08/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nTERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 095/2016\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: PATRICIA VICHI MUNHOZ\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao da “Divisao de Logistica\nda Merenda Escolar Municipal”.\nDATA: 12/08/2022\nVALOR: R$ 4.848,30 (quatro mil, oitocentos e quarenta e oito reais e trinta centavos) mensais.\nProcesso Administrativo nº 055/2016",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

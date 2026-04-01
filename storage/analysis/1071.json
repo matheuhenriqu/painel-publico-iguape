@@ -1,0 +1,87 @@
+﻿{
+    "diaryId":  "1071",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:35",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_960_09074340.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_960_09074340.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 44.439,50"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE ACRESCIMO – CONTRATO 139/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "139/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "KNAY ADMINISTRACAO E CONSTRUCOES EIRELI - ME",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para servicos de finalizacao e reparos na obra de requalificacao da orla do Valo Grande - fase III, conforme termo de convenio nº167/2018, que entre si celebram o Estado de Sao Paulo, pela Secretaria de Turismo e o Municipio de Iguape. Lote: 02 - Contratacao de empresa especializada para servicos de reparos / reforma e adequacao na obra de requalificacao da orla do valo grande – fase-III",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE ACRESCIMO – CONTRATO 139/2024 – LOTE 02\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: KNAY ADMINISTRACAO E CONSTRUCOES EIRELI - ME\nCONTRATO N°: 139/2024\nOBJETO: Contratacao de empresa especializada para servicos de finalizacao e reparos na obra de requalificacao da orla do Valo Grande - fase III,\nconforme termo de convenio nº167/2018, que entre si celebram o Estado de Sao Paulo, pela Secretaria de Turismo e o Municipio de Iguape. Lote: 02 -\nContratacao de empresa especializada para servicos de re",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Concorrencia Eletronica nº 007/2024 DATA:-04/04/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "007/2024",
+                      "modality":  "Concorrencia Eletronica nº 007/2024",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 44.439,50",
+                      "term":  "",
+                      "signatureDate":  "-04/04/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "Concorrencia Eletronica nº 007/2024 DATA:-04/04/2025\nVALOR: R$ 44.439,50 (quarenta e quatro mil, quatrocentos e trinta e nove reais e cinquenta centavos).\n\n FINANCEIRO\n\n DECRETO\n\n DECRETO Nº 3.271,\n DE 19 DE MARCO DE 2025\n\n DISPOE SOBRE A ALTERACAO ORCAMENTARIA CONFORME A LEI Nº 2.581/2025, E DA OUTRAS\n PROVIDENCIAS.\n\nSALVADOR JOSE BARBOSA JUNIOR, Prefeito do Municipio de Iguape – SP, no uso de atribuicoes que lhe sao conferidas por lei,",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,89 @@
+﻿{
+    "diaryId":  "1227",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:11",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1076_08083907.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1076_08083907.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "600/2025",
+                      "modality":  "CP-E - CONCORRENCIA PUBLICA ELETRONICA - 4/2025 - EDITAL Nº: 22/2025",
+                      "contractor":  "OLIVEIRA ENGENHARIA EIRELI -EPP",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para a reforma e revitalizacao da cobertura e do forro da Igreja Sao Benedito, localizada na Rua Ana Candida Sandoval Trigo, s/nº, Centro – Iguape/SP, com fornecimento de materiais e mao de obra, incluindo substituicao de telhas e forros danificados, reposicao de portas comprometidas, execucao de estuques, servicos de pintura e adequacoes complementares, conforme projeto, memorial descritivo e especificacoes tecnicas constantes no Termo de Referencia",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 600/2025\nContratacao de empresa especializada para a reforma e revitalizacao da cobertura e do forro da Igreja Sao Benedito, localizada na Rua Ana Candida\nSandoval Trigo, s/nº, Centro – Iguape/SP, com fornecimento de materiais e mao de obra, incluindo substituicao de telhas e forros danificados, reposicao\nde portas comprometidas, execucao de estuques, servicos de pintura e adequacoes complementares, conforme projeto, memorial descritivo e\nespecificacoes tecnicas con",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "735/2025",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 22/2025 - EDITAL Nº: 31/2025",
+                      "contractor":  "FABRIKA COMERCIO E SERVICOS LTDA",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE CADEIRAS GIRATORIAS, PARA ATENDER AS SECRETARIAS DESTA PREFEITURA MUNICIPAL DE IGUAPE/SP, pelo periodo de 12 (doze) meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 735/2025\nREGISTRO DE PRECOS PARA AQUISICAO DE CADEIRAS GIRATORIAS, PARA ATENDER AS SECRETARIAS DESTA PREFEITURA MUNICIPAL\nDE IGUAPE/SP, pelo periodo de 12 (doze) meses.\nPR-E - PREGAO ELETRONICO - 22/2025 - EDITAL Nº: 31/2025\nINTERESSADOS: SECRETARIA MUNICIPAL DE GESTAO E PLANEJAMENTO .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\n\nitens abaixo.\n\nCOTA PRINCIPAL\nFORNECEDOR: FABRIKA COMERCIO E SERVICOS LTDA\n",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

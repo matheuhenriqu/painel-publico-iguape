@@ -1,0 +1,92 @@
+﻿{
+    "diaryId":  "559",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:59",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/d0b817064b20dda386b7ae1c7b1d87c0.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/d0b817064b20dda386b7ae1c7b1d87c0.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "279/2023",
+                      "modality":  "",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REVITALIZACAO DO TERMINAL RODOVIARIO DO MUNICIPIO DE IGUAPE TP-O - TOMADA DE PRECOS / OBRAS - 7/2023 - EDITAL Nº: 31/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\nPROCESSO Nº: 279/2023\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REVITALIZACAO DO TERMINAL RODOVIARIO DO MUNICIPIO DE IGUAPE\nTP-O - TOMADA DE PRECOS / OBRAS - 7/2023 - EDITAL Nº: 31/2023\nINTERESSADOS: SECRETARIA MUNIC. DE INFRAESTRUTURA URBANA E OBRAS .\n\n HOMOLOGO E ADJUDICO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\n\nitens abaixo.\n\nFORNECEDOR: SUL VALE CONSTRUTORA LTDA\nItem 1 - MANUTENCAO E REFORMA EM IMOVEIS, CONFORME PLANILHA AN",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "304/2023",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 27/2023 - EDITAL Nº: 45/2023",
+                      "contractor":  "COMEDER-COM.MERC.DERIV.PROD.ALIMENTICIOS LTDA-EPP",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA FUTURAS AQUISICOES DE CESTAS BASICAS PARA ATENDIMENTO AO FUNDO SOCIAL DE SOLIDARIEDADE PARA AS FAMILIAS EM SITUACAO DE VULNERABILIDADE ATENDIDAS NOS SERVICOS SOCIOASSISTENCIAIS, PELO PERIODO DE DOZE (12) MESES",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 304/2023\nREGISTRO DE PRECOS PARA FUTURAS AQUISICOES DE CESTAS BASICAS PARA ATENDIMENTO AO FUNDO SOCIAL DE SOLIDARIEDADE\nPARA AS FAMILIAS EM SITUACAO DE VULNERABILIDADE ATENDIDAS NOS SERVICOS SOCIOASSISTENCIAIS, PELO PERIODO DE DOZE (12)\nMESES.\nPR-G - PREGAO PRESENCIAL - 27/2023 - EDITAL Nº: 45/2023\nINTERESSADOS: GABINETE DO PREFEITO.\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\n\nitens abaixo.\n\nFORNECEDOR:",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

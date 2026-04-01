@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "638",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:44",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/2409cde5c32edce92256af82b803198c.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/2409cde5c32edce92256af82b803198c.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "rescisao"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 2.170,51"
+                },
+    "items":  [
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 075/2016",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ANA KEILLA DE OLIVEIRA SILVA",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao do “Conselho Tutelar”",
+                      "value":  "R$ 2.170,51",
+                      "term":  "",
+                      "signatureDate":  "28/08/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nTERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 075/2016\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: ANA KEILLA DE OLIVEIRA SILVA\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao do “Conselho Tutelar”\nDATA: 28/08/2023\nVALOR: R$ 2.170,51 (dois mil, cento e setenta reais e cinquenta e um centavos) mensais.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

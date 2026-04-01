@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "1079",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:33",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_967_22071051.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_967_22071051.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 123,04"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "266/2025",
+                      "modality":  "EDITAL CHAMADA PUBLICA Nº: 02/2025",
+                      "contractor":  "FELIPE SILVA RIBEIRO - MEI",
+                      "cnpj":  "",
+                      "object":  "Credenciamento de empresas para prestacao dos servicos de poda com equipe manual (ate 3,5 m, sem munck), poda com caminhao munck (com cesto aereo) e rocada manual com rastelamento e ensacamento de residuos vegetais em estradas vicinais e areas publicas nao abrangidas por contrato de limpeza urbana no Municipio de Iguape/SP",
+                      "value":  "R$ 123,04",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 266/2025\nCredenciamento de empresas para prestacao dos servicos de poda com equipe manual (ate 3,5 m, sem munck), poda com caminhao munck\n(com cesto aereo) e rocada manual com rastelamento e ensacamento de residuos vegetais em estradas vicinais e areas publicas nao\nabrangidas por contrato de limpeza urbana no Municipio de Iguape/SP.\n\nEDITAL CHAMADA PUBLICA Nº: 02/2025.\nINTERESSADO: SECRETARIA MUNICIPAL DE INFRAESTRUTURA URBANA E OBRAS.\n\n HOMOLOGO E ADJUDICO, nos ter",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

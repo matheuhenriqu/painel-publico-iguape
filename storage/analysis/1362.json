@@ -1,0 +1,91 @@
+﻿{
+    "diaryId":  "1362",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:45",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1172_13074551.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1172_13074551.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 117.920,43"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "Portaria de gestao do contrato 054/2026",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "054/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-transito",
+                      "primaryOrganizationName":  "Secretaria de Transito e Mobilidade Urbana",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "mobilidade",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-transito",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Transito e Mobilidade Urbana",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "Art. 1º - 2\nArt. 2º -\n Diario Oficial\n\n Iguape - SP\n\n ANO 06 – Nº 1172 Sexta-feira, 13 de Marco de 2026 - www.iguape.sp.gov.br\n\n PORTARIA\n\n Ficam designados Adriani Jose de Souza, Secretario Adjunto de Transito e Mobilidade Urbana, inscrito no CPF/MF nº. XXX.856.788-\n XX, para exercer a funcao de Gestor do Contrato nº 054/2026, e Nelson Rodrigues Pereira, Diretor de Fiscalizacao de Transito,\n inscrito(a) no CPF/MF nº XXX.884.588-XX, para atuar como Fiscal do mesmo instrumento contratual, da empresa especializada na",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE ACRESCIMO DE VALOR AO CONTRATO 029/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "029/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "58007471694468",
+                      "object":  "Contratacao de empresa especializada para obra de Requalificacao da Orla do Valo Grande - fase IV, convenio que entre Estado de Sao Paulo, por meio da Secretaria de Turismo e Viagens e o Municipio de Iguape/SP – Termo de Convenio nº 178/2023. TOMADA DE PRECO N°. 023/2023",
+                      "value":  "R$ 117.920,43",
+                      "term":  "",
+                      "signatureDate":  "11/03/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "estadual-turismo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Turismo e Viagens"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE ACRESCIMO DE VALOR AO CONTRATO 029/2024 si celebram o\nCONTRATANTE: MUNICIPIO DE IGUAPE quarenta e tres\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU\nCNPJ:-33.xxx.xxx/xxxx-56\nCONTRATO N°: 029/2024\nLOTE 01: Requalificacao da Orla do Valo Grande Fase IV\nOBJETO: Contratacao de empresa especializada para obra de Requalificacao da Orla do Valo Grande - fase IV, convenio que entre\nEstado de Sao Paulo, por meio da Secretaria de Turismo e Viagens e o Municipio de Iguape/SP – Termo de Convenio nº",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

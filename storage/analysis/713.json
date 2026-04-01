@@ -1,0 +1,88 @@
+﻿{
+    "diaryId":  "713",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:33",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/f36a287ff15bb21a33c41f791950edce.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/f36a287ff15bb21a33c41f791950edce.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 177.881,49"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE VALOR AO CONTRATO: 050/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "050/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de Recapeamento e Drenagem na av. Janio Quadros e Princesa Isabel, Bairro Canto do Morro, conforme termo de convenio nº 102969/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape TOMADA DE PRECO Nº 003/2023",
+                      "value":  "R$ 177.881,49",
+                      "term":  "",
+                      "signatureDate":  "12/12/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE VALOR AO CONTRATO: 050/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU\nCONTRATO N°: 050/2023\nOBJETO: Contratacao de empresa especializada para obra de Recapeamento e Drenagem na av. Janio Quadros e Princesa Isabel, Bairro Canto do\nMorro, conforme termo de convenio nº 102969/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape, celebrado\nentre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape\nTOMADA DE",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO Nº 007/2023",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "007/2023",
+                      "modality":  "PREGAO ELETRONICO Nº 007/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Automovel Utilitario – Carroceria Tipo Pickup (zero), em atendimento a emenda Nº 202281000306, – Ministerio da Cidadania. A Prefeitura Municipal de Iguape, atraves do Departamento de Licitacoes e Contratos, TORNA PUBLICO para conhecimento dos interessados, que o",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO Nº 007/2023\n\nOBJETO: Aquisicao de Automovel Utilitario – Carroceria Tipo Pickup (zero), em atendimento a emenda Nº 202281000306, – Ministerio da Cidadania.\n\nA Prefeitura Municipal de Iguape, atraves do Departamento de Licitacoes e Contratos, TORNA PUBLICO para conhecimento dos interessados, que o",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

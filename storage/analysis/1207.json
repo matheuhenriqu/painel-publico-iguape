@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "1207",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:15",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1062_18070806.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1062_18070806.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "rescisao"
+                 ],
+    "summary":  {
+                    "pageCount":  10,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO Nº 019/2025- MENOR PRECO POR ITEM",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  9,
+                      "contractNumber":  "",
+                      "processNumber":  "019/2025",
+                      "modality":  "PREGAO ELETRONICO Nº 019/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "e o REGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA FORNECIMENTO DE OXIGENIO MEDICINAL, COM CESSAO EM COMODATO DE CILINDROS PELO PERIODO DE 12 (DOZE) MESES. Com o seguinte: RESULTADO: Negar PROVIMENTO ao recurso administrativo apresentando pela empresa WHITE MARTINS, mantendo habilitada a empresa W S PINO. Fica os autos do Processo com vista franqueada aos interessados",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO Nº 019/2025- MENOR PRECO POR ITEM\n\nA PREFEITURA MUNICIPAL DE IGUAPE, atraves do Pregoeiro, no uso legais de suas atribuicoes; torna publico para conhecimento dos interessados\no RESULTADO do julgamento do recurso administrativo, cujo objeto e o REGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA\nESPECIALIZADA PARA FORNECIMENTO DE OXIGENIO MEDICINAL, COM CESSAO EM COMODATO DE CILINDROS PELO PERIODO DE 12\n(DOZE) MESES. Com o seguinte: RESULTADO: Negar PROVIMENTO ao recurso administrativo apresentando pela",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

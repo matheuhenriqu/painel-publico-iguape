@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "794",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:12",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/20240406_2024-04-06_diariooficialedicao731_16023355.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/20240406_2024-04-06_diariooficialedicao731_16023355.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "",
+                      "processNumber":  "879/2023",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 75/2023 - EDITAL Nº: 120/2023",
+                      "contractor":  "RODRIGO MARTINEZ TARELHO EPP",
+                      "cnpj":  "",
+                      "object":  "C AQUISICOES FUTURAS E PARCELADAS DE OLEOS LUBRIFICANTES, GRAXAS E OUTROSDERIVADOS A SEREM USADOS NA MANUTENCAO DE TODOS OS VEICULOS DA FROTAMUNICIPAL, DESTE MUNICIPIO DE IGUAPE/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 879/2023 C\n\nAQUISICOES FUTURAS E PARCELADAS DE OLEOS LUBRIFICANTES, GRAXAS E OUTROSDERIVADOS A SEREM USADOS NA MANUTENCAO\n\nDE TODOS OS VEICULOS DA FROTAMUNICIPAL, DESTE MUNICIPIO DE IGUAPE/SP.\n\nPR-G - PREGAO PRESENCIAL - 75/2023 - EDITAL Nº: 120/2023\n\nINTERESSADOS: GABINETE DO PREFEITO .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\n\nitens abaixo.\n\nFORNECEDOR: RODRIGO MARTINEZ TARELHO EPP\n\nItem 2 - OLEO HI",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

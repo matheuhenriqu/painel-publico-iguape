@@ -1,0 +1,92 @@
+﻿{
+    "diaryId":  "1335",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:51",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1154_12110738.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1154_12110738.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  9,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 7.957,98"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE READEQUACAO AO CONTRATO 035/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  6,
+                      "contractNumber":  "035/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "DARLENE MARIETTO ABRAO",
+                      "cnpj":  "",
+                      "object":  "Instalacao do Centro de Formacao Educacional do Municipio, com utilizacao multipla: ETEC, UNIVESP, cursos e aperfeicoamento para servidores publicos",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE READEQUACAO AO CONTRATO 035/2025 C\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\n\nCONTRATADA: DARLENE MARIETTO ABRAO\n\nCPF-061.xxx.xxx-57\n\nCONTRATO-Nº-0352025\n\nOBJETO: Instalacao do Centro de Formacao Educacional do Municipio, com utilizacao multipla: ETEC, UNIVESP, cursos e aperfeicoamento para\n\nservidores publicos.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "INEXIGIBILIDADE DE LICITACAO - n°. 24/2025- Processo nº 51/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "",
+                      "processNumber":  "51/2025",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "DATA: 09/02/2026. VALOR: R$ 7.957,98 (sete mil, novecentos e cinquenta e sete reais e noventa e oito centavos) VIGENCIA: 05/02/2026 a 04/02/2027 inclusive",
+                      "value":  "R$ 7.957,98",
+                      "term":  "05/02/2026 a 04/02/2027 inclusive.",
+                      "signatureDate":  "09/02/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-cultura",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Cultura",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "INEXIGIBILIDADE DE LICITACAO - n°. 24/2025- Processo nº 51/2025\n\nDATA: 09/02/2026.\n\nVALOR: R$ 7.957,98 (sete mil, novecentos e cinquenta e sete reais e noventa e oito centavos)\n\nVIGENCIA: 05/02/2026 a 04/02/2027 inclusive.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

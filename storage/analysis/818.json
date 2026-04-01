@@ -1,0 +1,92 @@
+﻿{
+    "diaryId":  "818",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:09",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_756_17075107.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_756_17075107.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 317.731,25"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO DE VALOR AO CONTRATO 077/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "077/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SIGMA ENGENHARIA INDUSTRIA E COMERCIO LTDA C",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa espcializada para obra de eficientizacao de Sistema de Iluminacao Publica em diversos Bairros do Municipio de Iguape/SP, conforme termo de conveno nº 101385/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape. TOMADA DE PRECO Nº 002/2023",
+                      "value":  "R$ 207.919,25",
+                      "term":  "",
+                      "signatureDate":  "14/05/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO DE VALOR AO CONTRATO 077/2023\n\nCONTRATANTE: MUNICIPIO DE IGUAPE CONTRATADA: SIGMA ENGENHARIA INDUSTRIA E COMERCIO LTDA C\n\nCONTRATO N°: 077/2023\nOBJETO: Contratacao de Empresa espcializada para obra de eficientizacao de Sistema de Iluminacao Publica em diversos Bairros do Municipio de\nIguape/SP, conforme termo de conveno nº 101385/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape.\nTOMADA DE PRECO Nº 002/2023\nDATA: 14/05/2024\nVALOR: R$ 207.919,25 (duzentos e sete",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "7º TERMO ADITIVO DE VALOR AO CONTRATO Nº: 045/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "045/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para execucao de obra de pavimentacao articulada de via de acesso que interliga o Centro Multiuso a Praia da Jureia, conforme convenio nº 000133/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o municipio de Iguape/SP TOMADA DE PRECO: 004/2022",
+                      "value":  "R$ 109.812,00",
+                      "term":  "",
+                      "signatureDate":  "09/05/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "estadual-turismo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Turismo e Viagens"
+                                                     ],
+                      "excerpt":  "7º TERMO ADITIVO DE VALOR AO CONTRATO Nº: 045/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CIACAN ENGENHARIA EIRELI\nOBJETO: Contratacao de Empresa especializada para execucao de obra de pavimentacao articulada de via de acesso que interliga o Centro\nMultiuso a Praia da Jureia, conforme convenio nº 000133/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens\ne o municipio de Iguape/SP\nTOMADA DE PRECO: 004/2022\nDATA: 09/05/2024\nVALOR: R$ 109.812,00 (cento e nove mil, oitocentos e doze",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "813",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:09",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_751_09072355.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_751_09072355.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º Termo Aditivo de Prazo ao Contrato 062/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "062/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU CONTRATANTE: MUNICIPIO DE IGUAPE C",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de revitalizacao da orla do Mar Pequeno Fase-III – Convenio nº 000184/2022, que entre si celebram o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens, e o Municipio de Iguape, objetivando a transferencia de recursos financeiros do Fundo de Melhorias dos Municipios Turisticos",
+                      "value":  "",
+                      "term":  "ao Contrato 062/2023",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "estadual-turismo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Turismo e Viagens"
+                                                     ],
+                      "excerpt":  "1º Termo Aditivo de Prazo ao Contrato 062/2023\n\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU CONTRATANTE: MUNICIPIO DE IGUAPE C\n\nCONTRATO N°: 062/2023\nOBJETO: Contratacao de empresa especializada para obra de revitalizacao da orla do Mar Pequeno Fase-III – Convenio nº 000184/2022, que entre si\ncelebram o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens, e o Municipio de Iguape, objetivando a transferencia de recursos financeiros\ndo Fundo de Melhorias dos Municipios Turisticos.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

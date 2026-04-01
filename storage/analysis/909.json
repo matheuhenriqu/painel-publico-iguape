@@ -1,0 +1,86 @@
+﻿{
+    "diaryId":  "909",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:57",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_830_10072503.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_830_10072503.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CONCORRENCIA PUBLICA ELETRONICA",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "CONCORRENCIA PUBLICA ELETRONICA",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA SERVICOS DE FINALIZACAO E REPAROS NA OBRA DE REQUALIFICACAO DA ORLA DO VALO GRANDE - FASE III, CONFORME TERMO DE CONVENIO Nº167/2018, QUE ENTRE SI CELEBRAM O ESTADO DE SAO PAULO, PELA SECRETARIA DE TURISMO E O MUNICIPIO DE IGUAPE. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "CONCORRENCIA PUBLICA ELETRONICA\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP\n11920-000, a CONCORRENCIA PUBLICA ELETRONICA – n.º 007/2024, do tipo MENOR PRECO GLOBAL, nas especificacoes detalhadas no\nEdital.\n\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA SERVICOS DE FINALIZACAO E REPAROS NA OBRA DE\nREQUALIFICACAO DA ORLA DO VALO GRANDE - FASE III, CONFORME TERMO DE CONVENIO Nº167/2018, QUE ENTRE SI CELEBRAM O\nESTAD",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero principal identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CONCORRENCIA PUBLICA ELETRONICA -SRP",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "CONCORRENCIA PUBLICA ELETRONICA -SRP",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "EVENTUAL CONTRATACAO DE EMPRESA ESPECIALIZADA PARA CONSTRUCAO DE ABRIGO DE PONTO DE ONIBUS, NESTE MUNICIPIO DE IGUAPE/SP, por meio do Sistema de Registro de Precos – SRP. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "CONCORRENCIA PUBLICA ELETRONICA -SRP\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP\n11920-000, a CONCORRENCIA PUBLICA ELETRONICA – n.º 008/2024, do tipo MENOR PRECO GLOBAL, nas especificacoes detalhadas no Edital.\n\nOBJETO: EVENTUAL CONTRATACAO DE EMPRESA ESPECIALIZADA PARA CONSTRUCAO DE ABRIGO DE PONTO DE ONIBUS, NESTE\nMUNICIPIO DE IGUAPE/SP, por meio do Sistema de Registro de Precos – SRP.\nLEGISLACAO: Lei Federal nº 14",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero principal identificado"
+                                ]
+                  }
+              ]
+}

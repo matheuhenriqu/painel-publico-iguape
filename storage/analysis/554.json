@@ -1,0 +1,121 @@
+﻿{
+    "diaryId":  "554",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:00",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/c828b761a17db0f95dfb643fa0ca9191.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/c828b761a17db0f95dfb643fa0ca9191.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  12,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 112.315,34"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 064/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  10,
+                      "contractNumber":  "064/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para obra de execucao de calcada armada, localizada na Avenida Julio Franco (Coordenadas Geograficas:-24.708713, -47.566436. CARTA CONVITE Nº 004/2023",
+                      "value":  "R$ 36.505,78",
+                      "term":  "03 (tres) Meses – (Vigencia e Execucao), contados da data indicada na Autorizacao de Inicio dos Servicos.",
+                      "signatureDate":  "10/05/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SUL VALE CONSTRUTORA LTDA\nCONTRATO N°: 064/2023\nOBJETO: Contratacao de Empresa especializada para obra de execucao de calcada armada, localizada na Avenida Julio Franco (Coordenadas\nGeograficas:-24.708713, -47.566436.\nCARTA CONVITE Nº 004/2023\nDATA: 10/05/2023\nVALOR: Pagara a contratada o valor de R$ 36.505,78 (trinta e seis mil, quinhentos e cinco reais e setenta e oito centavos)\nVIGENCIA: 03 (tres) Meses – (Vigencia e Execucao), contados da data indicada na Au",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 065/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  10,
+                      "contractNumber":  "065/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para obra drenagem e calcamento no trecho da Rua Antonio Filadelfo Colaco, no Bairro do Rocio – neste municipio de Iguape/SP. CARTA CONVITE Nº 005/2023",
+                      "value":  "R$ 75.805,58",
+                      "term":  "02 (dois) Meses – (Vigencia e Execucao), contados da data indicada na Autorizacao de Inicio dos Servicos.",
+                      "signatureDate":  "10/05/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SUL VALE CONSTRUTORA LTDA\nCONTRATO N°: 065/2023\nOBJETO: Contratacao de Empresa especializada para obra drenagem e calcamento no trecho da Rua Antonio Filadelfo Colaco, no Bairro do Rocio –\nneste municipio de Iguape/SP.\nCARTA CONVITE Nº 005/2023\nDATA: 10/05/2023\nVALOR: Pagara a contratada o valor de R$ 75.805,58 (setenta e cinco mil, oitocentos e cinco reais e cinquenta e oito centavos)\nVIGENCIA: 02 (dois) Meses – (Vigencia e Execucao), contados da data indicada ",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS COMPLEMENTAR AO N°:039/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  10,
+                      "contractNumber":  "",
+                      "processNumber":  "016/2023",
+                      "modality":  "Pregao Presencial n°. 016/2023",
+                      "contractor":  "R$ 19.034,00 (dezenove mil e trinta e quatro reais) Leia-se: Total do Fornecedor: R$ 19.129,52 (dezenove mil",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de materiais de utilidades domesticas e materiais de higiene e limpeza para as diversas Secretarias e Departamentos da Prefeitura Municipal de Iguape. Item 20 – Luvas descartaveis – cx-quantidade: 24,00 – valor unitario: R$ 3,98 – total: R$ 95,52 – Marca: MBLIFE. Pregao Presencial n°. 016/2023",
+                      "value":  "R$ 3,98",
+                      "term":  "",
+                      "signatureDate":  "08/05/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS COMPLEMENTAR AO N°:039/2023\nOBJETO: Registro de Precos para aquisicao de materiais de utilidades domesticas e materiais de higiene e limpeza para as diversas Secretarias e\nDepartamentos da Prefeitura Municipal de Iguape.\nItem 20 – Luvas descartaveis – cx-quantidade: 24,00 – valor unitario: R$ 3,98 – total: R$ 95,52 – Marca: MBLIFE.\nPregao Presencial n°. 016/2023\nDATA: 08/05/2023\nVALOR: Onde se Le: Total do Fornecedor: R$ 19.034,00 (dezenove mil e trinta e quatro reais) Leia-se: Total do Fo",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

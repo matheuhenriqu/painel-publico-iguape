@@ -1,0 +1,320 @@
+﻿{
+    "diaryId":  "1307",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:56",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1133_14113026.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1133_14113026.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  13,
+                    "itemCount":  8,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 10, DE 12 DE JANEIRO DE 2026",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "224/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "e a aquisicao de 01 (um) veiculo 0km, tipo Van Minibus, destinada ao atendimento do Departamento de Esportes",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, retroagindo seus efeitos a 1º de janeiro de 2026, revogadas as disposicoes em",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-turismo-esporte"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Turismo e Esporte"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 10, DE 12 DE JANEIRO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Julio Cesar Alves Martins, Secretario adjunto da Secretaria Municipal de Turismo e Esporte, inscrito no CPF/MF\n nº. XXX. 608.498-XX, para exercer a funcao de Ges",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 11, DE 12 DE JANEIRO DE 2026",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "222/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "a Aquisicao de mobiliarios, equipamentos de tecnologia, materiais recreativos e eletrodomesticos destinados a estruturacao e funcionamento da Casa da Juventude, localizada no Bairro do Rocio neste Municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, retroagindo seus efeitos a 1º de janeiro de 2026, revogadas as disposicoes em",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-justica-cidadania",
+                      "primaryOrganizationName":  "Secretaria de Justica e Cidadania",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "justica-cidadania",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-justica-cidadania",
+                                                       "municipal-turismo-esporte"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Justica e Cidadania",
+                                                         "Secretaria de Turismo e Esporte"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 11, DE 12 DE JANEIRO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados ANTONIO MATHEUS DA VEIGA NETO, SECRETARIO MUNICIPAL DE JUSTICA E CIDADANIA, inscrito no CPF/MF\n nº. XXX. 200.038-XX, para exercer a funcao de Gestor do Contrato ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 12, DE 12 DE JANEIRO DE 2026",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "223/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "a Aquisicao de mobiliarios, equipamentos de tecnologia, materiais recreativos e eletrodomesticos destinados a estruturacao e funcionamento da Casa da Juventude, localizada no Bairro do Rocio neste Municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, retroagindo seus efeitos a 1º de janeiro de 2026, revogadas as disposicoes em",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-justica-cidadania",
+                      "primaryOrganizationName":  "Secretaria de Justica e Cidadania",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "justica-cidadania",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-justica-cidadania"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Justica e Cidadania"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 12, DE 12 DE JANEIRO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados ANTONIO MATHEUS DA VEIGA NETO, SECRETARIO MUNICIPAL DE JUSTICA E CIDADANIA, inscrito no CPF/MF\n nº. XXX. 200.038-XX, para exercer a funcao de Gestor do Contrato ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 13, DE 12 DE JANEIRO DE 2026",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  4,
+                      "contractNumber":  "001/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-justica-cidadania",
+                                                       "federal-agu",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Secretaria de Justica e Cidadania",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 13, DE 12 DE JANEIRO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Anisia Ricardo Lourenco, Secretaria Municipal de Turismo e Esporte, inscrita no CPF/MF nº. XXX.043.188-XX,\n para exercer a funcao de Gestor do Contrato nº 001/20",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 14, DE 12 DE JANEIRO DE 2026",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  5,
+                      "contractNumber":  "002/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-turismo-esporte",
+                                                       "federal-agu",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 14, DE 12 DE JANEIRO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Anisia Ricardo Lourenco, Secretaria Municipal de Turismo e Esporte, inscrita no CPF/MF nº. XXX.043.188-XX, para\n exercer a funcao de Gestor do Contrato nº 002/20",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 15, DE 13 DE JANEIRO DE 2026",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  5,
+                      "contractNumber":  "218/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-turismo-esporte",
+                                                       "federal-agu",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 15, DE 13 DE JANEIRO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Milena Fernandes Ferruccio, Assessor I, inscrito no CPF/MF nº. XXX.318.738-XX, para exercer a funcao de Gestor\n do Contrato nº 218/2025, e Victor Pereira de Mato",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 16, DE 13 DE JANEIRO DE 2026",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "219/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 16, DE 13 DE JANEIRO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Milena Fernandes Ferruccio, Assessor I, inscrito no CPF/MF nº. XXX. 318.738-XX, para exercer a funcao de Gestor\n do Contrato nº 219/2025, e Victor Pereira de Mat",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 17, DE 13 DE JANEIRO DE 2026",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "221/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 17, DE 13 DE JANEIRO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Milena Fernandes Ferruccio, Assessor I, inscrito no CPF/MF nº. XXX. 318.738-XX, para exercer a funcao de Gestor\n do Contrato nº 221/2025, e Victor Pereira de Mat",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,53 @@
+﻿{
+    "diaryId":  "966",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:51",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_875_26071639.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_875_26071639.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "4º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 115/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "115/2024",
+                      "processNumber":  "046/2023",
+                      "modality":  "Pregao Presencial n°. 046/2023",
+                      "contractor":  "ENGETEC ENGENHARIA EIRELI - EPP",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para eventual locacao de mao de obra com a finalidade de execucao e manutencao da infraestrutura de eventos, neste municipio de Iguape/SP, pelo periodo de 60 (sessenta) dias. Pregao Presencial n°. 046/2023",
+                      "value":  "",
+                      "term":  "Periodo de 23/11/2024 a 21/01/2025 - 60 (sessenta) dias",
+                      "signatureDate":  "22/11/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "4º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 115/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ENGETEC ENGENHARIA EIRELI - EPP\nCONTRATO Nº 115/2024\nOBJETO: Contratacao de empresa especializada para eventual locacao de mao de obra com a finalidade de execucao e manutencao\nda infraestrutura de eventos, neste municipio de Iguape/SP, pelo periodo de 60 (sessenta) dias.\nPregao Presencial n°. 046/2023\nDATA: 22/11/2024\nVIGENCIA: Periodo de 23/11/2024 a 21/01/2025 - 60 (sessenta) dias",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

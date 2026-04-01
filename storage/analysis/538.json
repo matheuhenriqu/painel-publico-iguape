@@ -1,0 +1,334 @@
+﻿{
+    "diaryId":  "538",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:05",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/516e7537ca91ab23680137bbedff2fe8.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/516e7537ca91ab23680137bbedff2fe8.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  11,
+                    "itemCount":  9,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 78",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "029/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa REALITY SERVICOS DE TRANSPORTES EIRELI",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 78\n DE 19 DE ABRIL 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Zenildo Silva dos Santos, Coordenador Tecnico II, titular da Cedula de Identidade RG nº 25.186.926-x SSP/SP, inscrito no\n CPF/MF nº 167.621.948-00, para exercer a funcao de Gestor do Contrato 0",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 80",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "031/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa L\u0026M SOLUCOES EM TECNOLOGIA DA INFORMACAO – EIRELI",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 80\n DE 19 DE ABRIL DE 2023\n\n DESIGNA FISCAL E GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Larry Luiz Carvalho Domingues, Secretario Adjunto de Tecnologia da Informacao, titular da Cedula de Identidade RG nº\nArt. 2º - 29.611.935-0 SSP/SP, inscrito no CPF/MF nº 296.129.338",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 83",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  4,
+                      "contractNumber":  "046/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Empresa FELIPE GIMENES ME",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-desenvolvimento-sustentavel"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 83\n DE 19 DE ABRIL DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Selma Xavier Pontes, Secretaria Desenvolvimento Sustentavel, titular da Cedula de Identidade RG nº 19.295.306-0 SSP/SP,\n inscrita no CPF/MF nº 087.362.768-71, para exercer a funcao de Gestor",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 87",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "050/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Empresa COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 87\n DE 19 DE ABRIL DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0 SSP/SP,\n inscrito no CPF/MF nº 256.609.068-85, para exercer a funca",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 88",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  7,
+                      "contractNumber":  "050/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Empresa COPA S.A. COMPANHIA DE OBRAS PARIQUERA- ACU",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 88\n DE 19 DE ABRIL DE 2023\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Thayna Brena Alves Fausto, Engenheira, titular da Cedula de Identidade RG nº 54.671.574-6 SSP/SP, inscrita no CPF/MF nº\n 445.837.448-62, para exercer a funcao de Fiscal do Contrato 050/2023,",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 89",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  7,
+                      "contractNumber":  "051/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Empresa COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 89\n DE 19 DE ABRIL DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0 SSP/SP,\n inscrito no CPF/MF nº 256.609.068-85, para exercer a funca",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 90",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  8,
+                      "contractNumber":  "051/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Empresa COPA S.A. COMPANHIA DE OBRAS PARIQUERA- ACU",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 90\n DE 19 DE ABRIL DE 2023\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Thayna Brena Alves Fausto, Engenheira, titular da Cedula de Identidade RG nº 54.671.574-6 SSP/SP, inscrita no CPF/MF nº\n 445.837.448-62, para exercer a funcao de Fiscal do Contrato 051/2023,",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 91",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  8,
+                      "contractNumber":  "052/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Empresa CIACAN ENGENHARIA EIRELI",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 91\n DE 19 DE ABRIL DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0 SSP/SP,\nArt. 2º - inscrito no CPF/MF nº 256.609.068-85, para exerce",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  11,
+                      "contractNumber":  "",
+                      "processNumber":  "877/2022",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 19/2023 - EDITAL Nº: 29/2023",
+                      "contractor":  "ETHICA CURSOS LIVRES PROFISSIONAL E GERENCIQAMENTO LTDA",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA(S) ESPECIALIZADA(S) PARA OFERTA DE PROFISSIONAIS QUALIFICADOS PARA MINISTRAR OFICINAS PARA IDOSOS, ADOLESCENTES E FAMILIAS USUARIOS DOS SERVICOS DO CRAS-CENTRODE REFERENCIA DE ASSISTENCIA SOCIAL, BEM COMO PARA CADASTRADORES PARA O CADUNICO E PARA EXECUCAO DO SERVICO DE ABORDAGEM SOCIAL DA PROTECAO SOCIAL ESPECIAL DE MEDIA COMPLEXIDADE EM CUMPRIMENTO AOS SERVICOS DA ASSISTENCIA SOCIAL, NO MUNICIPIO DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES. COFINANCIAMENTO FEDERAL E ESTADUAL",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 877/2022\nCONTRATACAO DE EMPRESA(S) ESPECIALIZADA(S) PARA OFERTA DE PROFISSIONAIS QUALIFICADOS PARA MINISTRAR OFICINAS PARA\nIDOSOS, ADOLESCENTES E FAMILIAS USUARIOS DOS SERVICOS DO CRAS-CENTRODE REFERENCIA DE ASSISTENCIA SOCIAL, BEM COMO\nPARA CADASTRADORES PARA O CADUNICO E PARA EXECUCAO DO SERVICO DE ABORDAGEM SOCIAL DA PROTECAO SOCIAL ESPECIAL DE\nMEDIA COMPLEXIDADE EM CUMPRIMENTO AOS SERVICOS DA ASSISTENCIA SOCIAL, NO MUNICIPIO DE IGUAPE, PELO PERIODO DE 12\n(DOZE) ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

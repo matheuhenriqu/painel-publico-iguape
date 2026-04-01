@@ -1,0 +1,58 @@
+﻿{
+    "diaryId":  "725",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:29",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/94c96e3cadf0ba8ec194125feb7236f2.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/94c96e3cadf0ba8ec194125feb7236f2.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "apostilamento",
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade",
+                     "rescisao"
+                 ],
+    "summary":  {
+                    "pageCount":  45,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "6",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "quando nao houver recurso; X - conduzir os trabalhos da equipe de apoio; e XI - encaminhar o processo devidamente instruido a autoridade competente e propor a sua homologacao",
+                      "value":  "",
+                      "term":  "e execucao;",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "6\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 03 – Nº 670 Sabado, 30 de Dezembro de 2023\n\nReferencia (TR) para as compras ou servicos;\n\n , 18 de Novembro de 2023\n\nf) cooperar com a elaboracao de projeto basico no caso de compras e servicos de engenharia;\n\ng) auxiliar na promocao da analise de riscos e no competente Mapa de Riscos (MR);\n\nh) fazer observar o controle dos prazos dos contratos quanto a sua vigencia e execucao;\n\ni) orientar sobre a necessidade de instauracao de processo administrativo para acompanhamento, pelo",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem orgao responsavel identificado"
+                                ]
+                  }
+              ]
+}

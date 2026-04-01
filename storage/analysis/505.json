@@ -1,0 +1,87 @@
+﻿{
+    "diaryId":  "505",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:10",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/56a69809a88f80ca29e480ecb98da49f.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/56a69809a88f80ca29e480ecb98da49f.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "rescisao"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 25.685,98"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:019/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  5,
+                      "contractNumber":  "9/2023",
+                      "processNumber":  "008/2023",
+                      "modality":  "Pregao Presencial n°. 008/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo de 12 (doze) meses Pregao Presencial n°. 008/2023",
+                      "value":  "R$ 20.740,00",
+                      "term":  "27/02/2023 a 26/02/2024",
+                      "signatureDate":  "27/02/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:019/2023\nOBJETO: Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de\nIguape pelo periodo de 12 (doze) meses\nPregao Presencial n°. 008/2023\nDATA: 27/02/2023\nVIGENCIA: 27/02/2023 a 26/02/2024\nVALOR: R$ 20.740,00 (vinte mil, setecentos e quarenta reais)",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 095/2016",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  5,
+                      "contractNumber":  "",
+                      "processNumber":  "055/2016",
+                      "modality":  "",
+                      "contractor":  "PATRICIA VICHI MUNHOZ",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao da “Logistica da Merenda Escolar Municipal”",
+                      "value":  "R$ 4.945,98",
+                      "term":  "",
+                      "signatureDate":  "27/02/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nTERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 095/2016\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: PATRICIA VICHI MUNHOZ\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao da “Logistica da\nMerenda Escolar Municipal”.\nDATA: 27/02/2023\nVALOR: R$ 4.945,98 (quatro mil, novecentos e quarenta e cinco reais e noventa e oito centavos) mensais.\nProcesso Administrativo nº 055/2016",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

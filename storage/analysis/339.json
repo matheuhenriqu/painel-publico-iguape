@@ -1,0 +1,90 @@
+﻿{
+    "diaryId":  "339",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:37",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/6ec10274bcf69b13df11731c96a68af7.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/6ec10274bcf69b13df11731c96a68af7.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 227.500,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "INEXIGIBILIDADE da empresa Marcos Aparecido Ferreira 26079776812, inscrito no CNPJ: 20.876.191/0001-67,",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "191/0001",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "20.876.191/0001-67",
+                      "object":  "",
+                      "value":  "R$ 2.500,00",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "INEXIGIBILIDADE da empresa Marcos Aparecido Ferreira 26079776812, inscrito no CNPJ: 20.876.191/0001-67,\nrepresentante para a apresentacao de show musical de “Marcos Machado”, a ser realizado no dia 23/07/2022, a partir das\n20h45min, no Bairro do Icapara, como parte do evento “Festa da Tainha‟, sendo o valor contratado de R$ 2.500,00 (dois mil\ne quinhentos reais), COM FUNDAMENTO NO ARTIGO 25, INCISO III, DA LEI FEDERAL 8.666/93, pois que, ao analisar\no caso concreto, vislumbro preenchidos todos os requisitos legais.",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO E HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "91/2022",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 43/2022",
+                      "contractor":  "RECON PRODUTORA E EVENTOS LT",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA LOCACAO DE ESTRUTURAS: TENDAS E COBERTURA E GALPAO, FECHAMENTO EM PLACAS E GRADES DE CONTENCAO, A SEREM UTILIZADOS NOS EVENTOSDO MUNICIPIO DE IGUAPE/SP",
+                      "value":  "R$ 225.000,00",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO E HOMOLOGACAO\n\nPROCESSO Nº: 91/2022\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA LOCACAO DE ESTRUTURAS: TENDAS E COBERTURA E GALPAO,\nFECHAMENTO EM PLACAS E GRADES DE CONTENCAO, A SEREM UTILIZADOS NOS EVENTOSDO MUNICIPIO DE IGUAPE/SP.\nPR-G - PREGAO PRESENCIAL - 43/2022\nEDITAL Nº: 65/2022INTERESSADOS: DEPARTAMENTO DE CULTURA E ESPORTES\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\nitens abaixo.\n\n1 - GALPAO PAVILHAO\n\nFORNECEDOR: RECON PROD",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

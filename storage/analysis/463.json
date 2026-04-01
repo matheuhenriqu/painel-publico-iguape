@@ -1,0 +1,156 @@
+﻿{
+    "diaryId":  "463",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:17",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/6d1e354713305fdb03f88b2636f5c80d.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/6d1e354713305fdb03f88b2636f5c80d.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 37.812,50"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "6º TERMO DE PRORROGACAO AO CONTRATO Nº 200/2017",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "200/2017",
+                      "processNumber":  "049/2017",
+                      "modality":  "Pregao Presencial n.º 049/2017",
+                      "contractor":  "AMBSERV TRATAMENTO DE RESIDUO LTDA",
+                      "cnpj":  "",
+                      "object":  "Fica prorrogado o contrato nº 200/2017, para coleta, transporte, armazenamento, tratamento e destinacao final de lixo hospitalardo municipio de Iguape/SP, por mais 03 (tres) meses. Pregao Presencial n.º 049/2017",
+                      "value":  "R$ 22.812,4998...",
+                      "term":  "iniciando-se em 30/12/2022 e 30/03/2023.",
+                      "signatureDate":  "29/12/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n6º TERMO DE PRORROGACAO AO CONTRATO Nº 200/2017\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA:AMBSERV TRATAMENTO DE RESIDUO LTDA\nOBJETO: Fica prorrogado o contrato nº 200/2017, para coleta, transporte, armazenamento, tratamento e destinacao final de lixo\nhospitalardo municipio de Iguape/SP, por mais 03 (tres) meses.\nPregao Presencial n.º 049/2017.\nDATA: 29/12/2022\nVALOR: R$ 22.812,4998... (vinte e dois mil, oitocentos e doze reias e quarenta e nove centavos..).\nVIGENCIA: iniciando-se em 30/12/2022 e 30/03/20",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "CONTRATO DE LOCACAO DE IMOVEL Nº 213/2022 NOSSA SENHORA DAS NEVES, representada pelo Paroco e",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "1298/2022",
+                      "modality":  "",
+                      "contractor":  "MITRA DIOCESANA DE REGISTRO PAROQUIA",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a locacao do imovel utilizado Largo Marcondes Salgado – s/n Centro – Iguape/SP",
+                      "value":  "R$ 15.000,00",
+                      "term":  "",
+                      "signatureDate":  "05/01/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATO DE LOCACAO DE IMOVEL Nº 213/2022 NOSSA SENHORA DAS NEVES, representada pelo Paroco e\nCONTRATANTE: MUNICIPIO DE IGUAPE para a acomodacao e Instalacoes do Paco Municipal, situado no\nCONTRATADO: MITRA DIOCESANA DE REGISTRO PAROQUIA\nReitor o Sr. PE. POLIKARPUS RANGGA\nOBJETO: Constitui o presente termo a locacao do imovel utilizado\nLargo Marcondes Salgado – s/n Centro – Iguape/SP\nVALOR: R$ 15.000,00 (quinze mil reais) mensais.\nDATA: 05/01/2023\nProcesso Administrativo nº 1298/2022",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO CONTRATO 165/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "165/2022",
+                      "processNumber":  "055/2022",
+                      "modality":  "PREGAO PRESENCIAL Nº 055/2022",
+                      "contractor":  "FAC LICITA EIRELI-ME",
+                      "cnpj":  "",
+                      "object":  "contratacao de empresa especializada para aquisicao de Materiais de Equipamentos de Fisioterapia para atender a Secretaria Municipal de Saude. Troca de Marca do item 18 – itens fes-aparelho eletroestimulador 04 canais, sem alteracao do valor, conforme manifestacao da Secretaria Municipal de Saude. PREGAO PRESENCIAL Nº 055/2022",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "29/12/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO CONTRATO 165/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: FAC LICITA EIRELI-ME\nCONTRATO N°: 165/2022\nOBJETO: contratacao de empresa especializada para aquisicao de Materiais de Equipamentos de Fisioterapia para atender a Secretaria\nMunicipal de Saude. Troca de Marca do item 18 – itens fes-aparelho eletroestimulador 04 canais, sem alteracao do valor, conforme\nmanifestacao da Secretaria Municipal de Saude.\nPREGAO PRESENCIAL Nº 055/2022\nDATA: 29/12/2022",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE LICITACAO - PREGAO PRESENCIAL",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "002/2023",
+                      "modality":  "PREGAO PRESENCIAL nº. 002/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICOES DE ASFALTO RECICLADO USINADO A QUENTE COM ADITIVO DE RETARDO (A GRANEL), MASSA ASFALTICA CBUQ (APLICACAO A FRIO) E EMULSAO ASFALTICA RR-2C,PARA OS SERVICOS DE “TAPA BURACO” A SEREM EXECUTADOS EM DIVERSAS VIAS, EM ATENDIMENTO AS DEMANDAS DO DEPARTAMENTO DE OBRAS E SERVICOS DESTE MUNICIPIO DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013,Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "AVISO DE LICITACAO\n PREGAO PRESENCIAL\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira,\nIguape/SP, CEP 11.920-000 ,o PREGAO PRESENCIAL nº. 002/2023 do tipo MENOR PRECO POR ITEM\nconforme especificacoes detalhadas no Edital.\nOBJETO: REGISTRO DE PRECOS PARA AQUISICOES DE ASFALTO RECICLADO USINADO A QUENTE COM ADITIVO DE\nRETARDO (A GRANEL), MASSA ASFALTICA CBUQ (APLICACAO A FRIO) E EMULSAO ASFALTICA RR-2C,PARA OS\nSERVICOS DE “TAPA BURACO” A ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

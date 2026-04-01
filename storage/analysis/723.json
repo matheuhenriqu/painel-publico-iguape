@@ -1,0 +1,89 @@
+﻿{
+    "diaryId":  "723",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:30",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/74534a24ebb9ea4a0cb0ba37c0a445fa.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/74534a24ebb9ea4a0cb0ba37c0a445fa.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  19,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CONCORRENCIA PUBLICA",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "CONCORRENCIA PUBLICA",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIAZADA PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA REALIZACAO DE OBRAS DE INFRAESTRUTURA URBANA NO MUNICIPIO DE IGUAPE/SP CONFORME PROGRAMA EFICIENCIA MUNICIPAL – BANCO DO BRASIL. LEGISLACAO: Lei Federal nº 8.666/93 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Lei Complementar 139, de 10 de novembro de 2011, Lei Complementar 147 de 07 de agosto de 2014",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE CUMPRE OS",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "CONCORRENCIA PUBLICA\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, a CONCORRENCIA PUBLICA – n.º 005/2023, do tipo MENOR PRECO GLOBAL, situada na\nAvenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIAZADA PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA REALIZACAO DE\nOBRAS DE INFRAESTRUTURA URBANA NO MUNICIPIO DE IGUAPE/SP CONFORME PROGRAMA EFICIENCIA MUNICIPAL – BANCO DO\nBRASIL.\nLEGISLACAO: L",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero principal identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE LICITACAO - TOMADA DE PRECOS",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "AVISO DE LICITACAO - TOMADA DE PRECOS",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE P PAVIMENTACAO E OBRAS COMPLEMENTARES DA RUA TENENTE ASCELINO CUNHA “FASE I E FASE II, CONFORME CONVENIO Nº 103190/2023 , CELEBRADO COM A SECRETARIA DE GOVERNO E RELACOES INSTITUCIONAIS DO GOVERNO DO ESTADO DE SAO PAULO, E RECURSOS DA UNIAO. LEGISLACAO: Lei Federal nº 8.666/93 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Lei Complementar 139, de 10 de novembro de 2011 ,Lei Complementar 147 de 07 de agosto de 2014",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE CUMPRE OS",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "estadual-governo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Governo e Relacoes Institucionais"
+                                                     ],
+                      "excerpt":  "AVISO DE LICITACAO\n TOMADA DE PRECOS\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, a TOMADA DE PRECOS – n.º 019/2023, do tipo MENOR PRECO GLOBAL POR LOTE , situada\nna Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE P PAVIMENTACAO E OBRAS COMPLEMENTARES DA RUA TENENTE\nASCELINO CUNHA “FASE I E FASE II, CONFORME CONVENIO Nº 103190/2023 , CELEBRADO COM A SECRETARIA DE GOV",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero principal identificado"
+                                ]
+                  }
+              ]
+}

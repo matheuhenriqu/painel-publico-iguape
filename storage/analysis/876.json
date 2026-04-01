@@ -1,0 +1,91 @@
+﻿{
+    "diaryId":  "876",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:01",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_801_25074340.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_801_25074340.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  10,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 263.888,16"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "CONTRATANTE:- MUNICIPIO DE IGUAPE",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  9,
+                      "contractNumber":  "093/2024",
+                      "processNumber":  "043/2023",
+                      "modality":  "Pregao Presencial n°. 043/2023",
+                      "contractor":  "LOCALIZA VEICULOS ESPECIAIS S.A",
+                      "cnpj":  "",
+                      "object":  "Contratacao de servicos de locacao de veiculos nas categorias de passageiro, leve, utilitario e pesado, para atender a demanda das Secretarias da Prefeitura Municipal de Iguape. Pregao Presencial n°. 043/2023",
+                      "value":  "R$ 263.888,16",
+                      "term":  "O contrato tera validade no periodo de 20/07/2024 a 19/07/2025",
+                      "signatureDate":  "19/07/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE:- MUNICIPIO DE IGUAPE\nCONTRATADA: LOCALIZA VEICULOS ESPECIAIS S.A.\nCONTRATO Nº 093/2024 – ORIUNDO DA ATA DE REGISTRO DE PRECOS N°: 078/2023.\nOBJETO:Contratacao de servicos de locacao de veiculos nas categorias de passageiro, leve, utilitario e pesado, para atender a demanda das Secretarias\nda Prefeitura Municipal de Iguape.\nPregao Presencial n°. 043/2023\nDATA: 19/07/2024\nVIGENCIA: O contrato tera validade no periodo de 20/07/2024 a 19/07/2025\nVALOR: R$ 263.888,16 (duzentos e sessenta e tres mil",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  9,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ERICA EVANGELISTA DA SILVA",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\n CHAMAMENTO PUBLICO - 006/2024 - MAIOR LANCE\nAUTORIZACAO REMUNERADA DE USO DE ESPACO PUBLICO PARA EXPLORACAO COMERCIAL DA RUA SALDANHA MARINHO NA FESTA\nPOPULAR EM LOUVOR AO SENHOR BOM JESUS DE IGUAPE.\n\nADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento e a classificacao dos itens abaixo.\n\nFORNECEDOR: ERICA EVANGELISTA DA SILVA\nItem 1 -EXPLORACAO DE ESPACO PUBLICO REMUNERADA PARA EXPLORACAO COMERCIAL DA RUA SALDANHA MARINHO NA FESTA\nPOPULAR EM LOUVOR AO SENHOR",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada",
+                                    "Sem numero principal identificado"
+                                ]
+                  }
+              ]
+}

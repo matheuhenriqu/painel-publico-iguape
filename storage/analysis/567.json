@@ -1,0 +1,94 @@
+﻿{
+    "diaryId":  "567",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:57",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/09c6d29555d99e7e3b8df104463207c6.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/09c6d29555d99e7e3b8df104463207c6.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 32.560,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 148",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "073/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa FERRFEIXE COMERCIAL LTDA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 148\n DE 30 DE MAIO DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Mirian de Souza Fischer, Secretaria Adjunto de Educacao titular da Cedula de Identidade RG nº 15.597.555 SSP/SP, inscrita\nArt. 2º - no CPF/MF nº 056.577.268-63, para exercer a funcao de Gest",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 073/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "073/2023",
+                      "processNumber":  "028/2023",
+                      "modality":  "PREGAO PRESENCIAL Nº 028/2023",
+                      "contractor":  "FERRFEIXE COMERCIAL LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Smart TV para atender as unidades Escolares deste Municipio de Iguape/SP PREGAO PRESENCIAL Nº 028/2023",
+                      "value":  "R$ 32.560,00",
+                      "term":  "permanecera vigente pelo periodo de 60 (sessenta) dias, periodo de 29/05/2023 a 27/07/2023",
+                      "signatureDate":  "29/05/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: FERRFEIXE COMERCIAL LTDA\nCONTRATO N°: 073/2023\nOBJETO: Aquisicao de Smart TV para atender as unidades Escolares deste Municipio de Iguape/SP\nPREGAO PRESENCIAL Nº 028/2023\nDATA: 29/05/2023\nVALOR: Pagara a contratada o valor de R$ 32.560,00 (trinta e dois mil, quinhentos e sessenta reais)\nVIGENCIA: permanecera vigente pelo periodo de 60 (sessenta) dias, periodo de 29/05/2023 a 27/07/2023",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

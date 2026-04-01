@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "871",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:02",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_042_19023558.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_extra_042_19023558.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "316/2024",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 5/2024 - EDITAL Nº: 12/2024",
+                      "contractor":  "SOM DA ILHA COMERCIO E PRODUCOES LTDA",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA LOCACAO DE ESTRUTURAS: TENDAS E COBERTURA E GALPAO, FECHAMENTO EM PLACAS E GRADES DE CONTENCAO, A SEREM UTILIZADOS NAS FESTAS E EVENTOS DO MUNICIPIO DE IGUAPE/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 316/2024\nREGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA LOCACAO DE ESTRUTURAS: TENDAS E COBERTURA\nE GALPAO, FECHAMENTO EM PLACAS E GRADES DE CONTENCAO, A SEREM UTILIZADOS NAS FESTAS E EVENTOS DO MUNICIPIO DE\nIGUAPE/SP\nPR-E - PREGAO ELETRONICO - 5/2024 - EDITAL Nº: 12/2024\nINTERESSADOS: SECRETARIA MUNIC. DE CULTURA, ESPORTES E TURISMO .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\nlotes ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

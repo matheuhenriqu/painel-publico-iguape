@@ -1,0 +1,95 @@
+﻿{
+    "diaryId":  "925",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:56",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_844_01075618.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_844_01075618.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 123.068,75"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRORROGACAO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "2/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ASSOCIACAO HOSPITALAR DE PROTECAO A INFANCIA Dr. Raul Carneiro",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada em Teleatendimento em Pediatria com uso de dispositivo e adaptadores para exames fisicos de captacao remota de dados pelo periodo de 12 meses. PREGAO PRESENCIAL - Nº 047/2023",
+                      "value":  "R$ 123.068,75",
+                      "term":  "12 (doze) meses- 04/10/2024 a 04/10/2025.",
+                      "signatureDate":  "19/09/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRORROGACAO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ASSOCIACAO HOSPITALAR DE PROTECAO A INFANCIA Dr. Raul Carneiro\nCONTRATO N°:162/2023\nOBJETO:. Contratacao de empresa especializada em Teleatendimento em Pediatria com uso de dispositivo e adaptadores para exames fisicos de\ncaptacao remota de dados pelo periodo de 12 meses.\nPREGAO PRESENCIAL - Nº 047/2023\nData:19/09/2024\nVALOR: Pagara a contratada o valor de R$ 123.068,75 (cento e vinte e tres mil, sessenta e oito reais e setenta e cinco cen",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "481/2024",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 11/2024 - EDITAL Nº: 22/2024",
+                      "contractor":  "29.581.628 VALDECI ALVES DE ALMEIDA",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS OBJETIVANDO FUTURAS AQUISICOES DE AGUA MINERAL SEM GAS, PARA ATENDER AS DIVERSAS SECRETARIAS DA PREFEITURA MUNICIPAL DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES, demais informacoes constantes no Anexo I e II deste edital",
+                      "value":  "",
+                      "term":  "DE VALIDADE COM REGISTRO NO MINISTERIO DA SAUDE, COM FORNECIMENTO DE GALAO - UN",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu",
+                                                       "municipal-gestao-planejamento",
+                                                       "federal-ministerio-saude"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Ministerio da Saude"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 481/2024\nREGISTRO DE PRECOS OBJETIVANDO FUTURAS AQUISICOES DE AGUA MINERAL SEM GAS, PARA ATENDER AS DIVERSAS SECRETARIAS\nDA PREFEITURA MUNICIPAL DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES, demais informacoes constantes no Anexo I e II deste edital.\nPR-E - PREGAO ELETRONICO - 11/2024 - EDITAL Nº: 22/2024\nINTERESSADOS: GABINETE DO PREFEITO e SECRETARIA MUNICIPAL DE SAUDE.\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classifi",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

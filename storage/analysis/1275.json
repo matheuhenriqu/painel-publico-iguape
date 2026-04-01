@@ -1,0 +1,58 @@
+﻿{
+    "diaryId":  "1275",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:02",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_122_03064831.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_extra_122_03064831.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "ADJUDICACAEOXT/ RHAOTMO OLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "807/2025",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 28/2025 - EDITAL Nº: 39/2025",
+                      "contractor":  "JORNAL GAZETA SP LTDA",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS, PELO PERIODO DE 12 (DOZE) MESES, PARA CONTRATACAO DE EMPRESA PARA PRESTACAO DE SERVICOS DE PUBLICACAO DE ATOS OFICIAIS DA PREFEITURA DE IGUAPE EM JORNAL DE GRANDE CIRCULACAO NO ESTADO DE SAO PAULO",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAEOXT/ RHAOTMO OLOGACAO\n\nPROCESSO Nº: 807/2025\nREGISTRO DE PRECOS, PELO PERIODO DE 12 (DOZE) MESES, PARA CONTRATACAO DE EMPRESA PARA PRESTACAO DE SERVICOS DE\nPUBLICACAO DE ATOS OFICIAIS DA PREFEITURA DE IGUAPE EM JORNAL DE GRANDE CIRCULACAO NO ESTADO DE SAO PAULO.\nPR-E - PREGAO ELETRONICO - 28/2025 - EDITAL Nº: 39/2025\nINTERESSADOS: GABINETE DO PREFEITO .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\n\nitens abaixo.\n\nFORNECEDOR: JORNAL G",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

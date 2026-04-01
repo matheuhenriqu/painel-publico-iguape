@@ -1,0 +1,90 @@
+﻿{
+    "diaryId":  "515",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:08",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/7e380958bc83940bcc33e4d10c1cff26.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/7e380958bc83940bcc33e4d10c1cff26.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 116.950,11"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 62",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "43/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 62\n DE 20 DE MARCO DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao\nPaulo, no uso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Cristiani Aparecida Lisboa Lopes, titular da Cedula de Identidade RG.nº 25.111.472-7 SSPS, inscrita no CPF/MF\nArt. 2º - nº 251.286.778-18, para exercer a funcao de Gestor, Contrato nº 43/202",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO AO CONTRATO 063/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "063/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SAMUEL RIBEIRO - ME",
+                      "cnpj":  "77540246806803",
+                      "object":  "contratacao de empresa especializada para obra de reforma do sanitario publico municipal, localizado na Rua Porto General Camara – Centro, nesse municipio de Iguape/SP, o valor do termo aditivo corresponde a R$ 103.482,01 (cento e tres mil, quatrocentos e oitenta e dois reais e um centavo), sendo acrescimo de servicos no valor de R$ 116.950,11 (cento e dezesseis mil, novecentos e cinquenta reais e onze centavos), correspondente ao percentual de 47,77540246806803% e supressao de servicos no valor de R$ 13.468,10 (treze mil, quatrocentos e sessenta e oito reais e dez centavos). CARTA CONVITE Nº O06/2022",
+                      "value":  "R$ 116.950,11",
+                      "term":  "",
+                      "signatureDate":  "16/03/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO AO CONTRATO 063/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SAMUEL RIBEIRO - ME\nCONTRATO N°: 063/2022\nOBJETO: contratacao de empresa especializada para obra de reforma do sanitario publico municipal, localizado na Rua Porto General\nCamara – Centro, nesse municipio de Iguape/SP, o valor do termo aditivo corresponde a R$ 103.482,01 (cento e tres mil, quatrocentos\ne oitenta e dois reais e um centavo), sendo acrescimo de servicos no valor de R$ 116.950,11 (cento e dezesseis mil, novecentos e\ncinq",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

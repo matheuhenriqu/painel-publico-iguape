@@ -1,0 +1,167 @@
+﻿{
+    "diaryId":  "1371",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-25T11:01:51",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1179_24092056.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1179_24092056.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  26,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 73,",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "057/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "deste instrumento e o credenciamento de instituicoes financeiras, autorizadas a funcionar pelo Banco Central do Brasil, para a prestacao de servicos bancarios de arrecadacao e recolhimento das receitas publicas municipais, tributarias e nao tributarias, da Prefeitura Municipal de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-fazenda",
+                      "primaryOrganizationName":  "Secretaria Municipal da Fazenda",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "fazenda",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura",
+                                                       "municipal-fazenda"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria Municipal da Fazenda"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 73,\n DE 23 DE MARCO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Angelo Rosa Vieira, Secretario Municipal da Fazenda, inscrito no CPF/MF nº. XXX. 849.238-XX, para exercer a\n funcao de Gestor do Contrato nº 057/2026, e Marconi An",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 75,",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "059/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "a contratacao de empresa especializada para prestacao de",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 75,\n DE 23 DE MARCO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Thales Kodi Namba, Secretario Municipal de Educacao, inscrita no CPF/MF nº. XXX.826.718-XX, para exercer a\n funcao de Gestor do Contrato nº 059/2026, e Zenildo Si",
+                      "completeness":  "baixa",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  11,
+                      "contractNumber":  "",
+                      "processNumber":  "225/2026",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 7/2026 - EDITAL Nº: 9/2026",
+                      "contractor":  "TROUPE BRASIL LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para a operacaoda Estacao de Transbordo Municipal de Iguape, compreendendo a recepcao, manuseio,acondicionamento, pesagem e transbordo dos Residuos Solidos Urbanos (RSU), bem comoa prestacao dos servicos de transporte rodoviario e destinacao final ambientalmenteadequada dos residuos classificados como Classe II fracao rejeito, conforme a ABNT NBR10.004/2004",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-desenvolvimento-sustentavel"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 225/2026\nContratacao de empresa especializada para a operacaoda Estacao de Transbordo Municipal de Iguape, compreendendo a recepcao,\nmanuseio,acondicionamento, pesagem e transbordo dos Residuos Solidos Urbanos (RSU), bem comoa prestacao dos servicos de transporte rodoviario\ne destinacao final ambientalmenteadequada dos residuos classificados como Classe II fracao rejeito, conforme a ABNT NBR10.004/2004,\nPR-E - PREGAO ELETRONICO - 7/2026 - EDITAL Nº: 9/2026\nINTERESSA",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CONCORRENCIA ELETRONICA",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  11,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "CONCORRENCIA ELETRONICA",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para execucao de obra de pavimentacao intertravada em blocos de concreto, com a execucao dos servicos complementares e necessarios ao perfeito funcionamento do sistema viario e ao adequado escoamento superficial de aguas pluviais, a serem realizados na Alameda 15, localizada no Bairro Nova Iguape, Municipio de Iguape/SP, conforme Convenio Estadual n.º 100566/2025 – SGRI/SP, celebrado entre o Governo do Estado de Sao Paulo e o Municipio de Iguape/SP. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "CONCORRENCIA ELETRONICA\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, a CONCORRENCIA ELETRONICA – n.º 004/2026, do tipo MENOR PRECO GLOBAL, situada\nna Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: Contratacao de empresa especializada para execucao de obra de pavimentacao intertravada em blocos de concreto, com a execucao\ndos servicos complementares e necessarios ao perfeito funcionamento do sistema viario e ao ade",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero principal identificado"
+                                ]
+                  }
+              ]
+}

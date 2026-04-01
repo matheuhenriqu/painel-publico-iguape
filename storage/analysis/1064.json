@@ -1,0 +1,162 @@
+﻿{
+    "diaryId":  "1064",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:37",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_953_29014117.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_953_29014117.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  7,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 1.475.703,64"
+                },
+    "items":  [
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "4º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 005/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MARIA CORREA DE AQUINO",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao e funcionamento da sede administrativa do Posto de Atendimento ESF- Itimirim I",
+                      "value":  "R$ 888,91",
+                      "term":  "",
+                      "signatureDate":  "25/03/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n4º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 005/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: MARIA CORREA DE AQUINO\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao e funcionamento da sede administrativa\ndo Posto de Atendimento ESF- Itimirim I.\nVALOR: R$ 888,91 (oitocentos e oitenta e oito reais e noventa e um centavos) mensais.\nDATA: 25/03/2025\nProcesso Administrativo-nº-115/2020",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  },
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "4º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 007/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "024/2021",
+                      "modality":  "",
+                      "contractor":  "MIRIAM VIEIRA NOBREGA",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao e funcionamento da sede do CRAS – Centro de Referencia de Assistencia Social",
+                      "value":  "R$ 4.454,73",
+                      "term":  "",
+                      "signatureDate":  "25/03/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n4º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 007/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: MIRIAM VIEIRA NOBREGA\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao e funcionamento da sede do CRAS –\nCentro de Referencia de Assistencia Social\nVALOR: R$ 4.454,73 (quatro mil, quatrocentos e cinquenta e quatro reais e setenta e tres centavos) mensais.\nDATA: 25/03/2025\nProcesso Administrativo nº 024/2021",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 050/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "050/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "IB FERREIRA SERVICOS LTDA. (GRUPO RL ME)",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa para Prestacao de Servico de Controle de Acesso, Apoio e Fiscalizacao, com Coordenador e acompanhamento por monitoramento de cameras 24 (vinte e quatro) horas nas dependencias Prefeitura Municipal de Iguape, passarela “Vereador Gasparino Costa”, Hospital de Iguape (Pronto Socorro), Casa da Crianca, e CAPS (Porto do Ribeira) no municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: IB FERREIRA SERVICOS LTDA. (GRUPO RL ME)\nCONTRATO Nº 050/2025\nOBJETO: Contratacao de empresa para Prestacao de Servico de Controle de Acesso, Apoio e Fiscalizacao, com Coordenador e acompanhamento por\nmonitoramento de cameras 24 (vinte e quatro) horas nas dependencias Prefeitura Municipal de Iguape, passarela “Vereador Gasparino Costa”, Hospital\nde Iguape (Pronto Socorro), Casa da Crianca, e CAPS (Porto do Ribeira) no municipio de Iguape/SP.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Pregao Eletronico n°. 001/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "001/2025",
+                      "modality":  "Pregao Eletronico n°. 001/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 1.470.360,00",
+                      "term":  "12 (doze) meses – Periodo de 27/03/2025 a 26/03/2026",
+                      "signatureDate":  "27/03/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "Pregao Eletronico n°. 001/2025\nData: 27/03/2025\nVIGENCIA: 12 (doze) meses – Periodo de 27/03/2025 a 26/03/2026\nVALOR: R$ 1.470.360,00 (um milhao, quatrocentos e setenta mil, trezentos e sessenta reais).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

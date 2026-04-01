@@ -1,0 +1,161 @@
+﻿{
+    "diaryId":  "1170",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:20",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_099_05075207.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_extra_099_05075207.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 2.382.428,88"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "CONTRATANTE: MUNICIPIO DE IGUAPE/SP de Iha sessenta",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "LARA \u0026 FRANCO LTDA reais e",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP de Iha sessenta\nCONTRATADA: LARA \u0026 FRANCO LTDA reais e\nPROCESSO ADMINISTRATIVO – 87/2025\nADESAO A ATA DE REGISTRO DE PRECOS DA PREFEITURA MUNICIPAL DE ILHA COMPRIDA",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS- Nº 010/2025 -PMI",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de Generos Alimenticios para diversas Secretarias e Divisoes da Prefeitura Municipal Comprida/SP",
+                      "value":  "R$ 796.190,68",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS- Nº 010/2025 -PMI\nOBJETO: Registro de Precos para aquisicao de Generos Alimenticios para diversas Secretarias e Divisoes da Prefeitura Municipal\nComprida/SP\nVALOR: Valor Total do presente instrumento fica ajustado em R$ 796.190,68 (setecentos e noventa e seis mil, cento e noventa\noito centavos)",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS- Nº 011/2025 -PMI",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de Generos Alimenticios para diversas Secretarias e Divisoes da Prefeitura Municipal de Iha Comprida/SP",
+                      "value":  "R$ 399.652,40",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS- Nº 011/2025 -PMI\nOBJETO: Registro de Precos para aquisicao de Generos Alimenticios para diversas Secretarias e Divisoes da Prefeitura Municipal de Iha\nComprida/SP\nVALOR: Valor Total do presente instrumento fica ajustado em R$ 399.652,40 (trezentos e noventa e nove mil, seiscentos e cinquenta e dois reais\ne quarenta centavos)",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "CONTRATANTE: MUNICIPIO DE IGUAPE/SP",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "129/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "G.L. COMERCIO E SERVICOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para eventual aquisicao de chapeu, bone, cinto, botas e vestuarios para diversas Secretarias da Administracao Municipal, conforme condicoes, quantidades e exigencias estabelecidas no Processo do Pregao Eletronico 125/2024 da Prefeitura de Caieiras",
+                      "value":  "R$ 1.186.585,80",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\n\nCONTRATADA: G.L. COMERCIO E SERVICOS LTDA\n\nPROCESSO ADMINISTRATIVO: nº 20930/2024\n\nADESAO A ATA DE REGISTRO DE PRECOS Nº 006/2025 /\n\nCONTRATO Nº 129/2025-PMI\n\nOBJETO: Registro de Precos para eventual aquisicao de chapeu, bone, cinto, botas e vestuarios para diversas Secretarias da\n\nAdministracao Municipal, conforme condicoes, quantidades e exigencias estabelecidas no Processo do Pregao\n\nEletronico 125/2024 da Prefeitura de Caieiras.\n\nVALOR: R$ 1.186.585,80 (um milhao, c",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

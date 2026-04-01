@@ -1,0 +1,165 @@
+﻿{
+    "diaryId":  "752",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:22",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/76a62a7ee65c9122e84ce239f77c7c04.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/76a62a7ee65c9122e84ce239f77c7c04.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  7,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "TERMO DE RETI - RATIFICACAO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  6,
+                      "contractNumber":  "047/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ASSOCIACAO AMIGOS E MORADORES DOS BAIRROS ARATACA E CAPOAVA DO MOMUNA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Generos Alimenticios da Agricultura Familiar e do Empreendedor Familiar Rural, em atendimento ao Programa Nacional de Alimentacao Escolar –PNAE, para alunos da rede de educacao basica publica, verba FNDE/PNAE, durante 12 (doze) meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-fnde"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Fundo Nacional de Desenvolvimento da Educacao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nTERMO DE RETI - RATIFICACAO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ASSOCIACAO AMIGOS E MORADORES DOS BAIRROS ARATACA E CAPOAVA DO MOMUNA\nCONTRATO N°: 047/2024\nOBJETO: Aquisicao de Generos Alimenticios da Agricultura Familiar e do Empreendedor Familiar Rural, em atendimento ao Programa\nNacional de Alimentacao Escolar –PNAE, para alunos da rede de educacao basica publica, verba FNDE/PNAE, durante 12 (doze)\nmeses",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "Chamada Publica:- nº 001/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "",
+                      "processNumber":  "001/2023",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "31/01/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "Chamada Publica:- nº 001/2023\nOnde se le:\nCLAUSULA VIGESIMA 20.1-O presente contrato vigorara da sua assinatura ate a entrega total dos produtos adquiridos ou ate 12 (doze) meses.\nLeia-se:\nCLAUSULA VIGESIMA 20.1-O presente contrato vigorara da sua assinatura ate a entrega total dos produtos adquiridos ou ate 12 (doze) meses,\npodendo ser prorrogado na forma do Art. 57, inciso II, da Lei 8.666/93, se houver necessidade e interesse da CONTRATANTE, observando-se os\nprocedimentos legais; sendo necessario para tanto, a e",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem contratada identificada",
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "TERMO DE RETI - RATIFICACAO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  6,
+                      "contractNumber":  "048/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "C0OPERASOL – COOPERATIVA AGROINDUSTRIAL SOLIDARIA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Generos Alimenticios da Agricultura Familiar e do Empreendedor Familiar Rural, em atendimento ao Programa Nacional de Alimentacao Escolar –PNAE, para alunos da rede de educacao basica publica, verba FNDE/PNAE, durante 12 (doze) meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-fnde"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Fundo Nacional de Desenvolvimento da Educacao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nTERMO DE RETI - RATIFICACAO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: C0OPERASOL – COOPERATIVA AGROINDUSTRIAL SOLIDARIA\nCONTRATO N°: 048/2024\nOBJETO: Aquisicao de Generos Alimenticios da Agricultura Familiar e do Empreendedor Familiar Rural, em atendimento ao Programa\nNacional de Alimentacao Escolar –PNAE, para alunos da rede de educacao basica publica, verba FNDE/PNAE, durante 12 (doze)\nmeses",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "TERMO DE RETI - RATIFICACAO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  6,
+                      "contractNumber":  "049/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COFARP – COOPERATIVA DOS AGRICULTORES FAMILIARES DE PIEDADE",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Generos Alimenticios da Agricultura Familiar e do Empreendedor Familiar Rural, em atendimento ao Programa Nacional de Alimentacao Escolar –PNAE, para alunos da rede de educacao basica publica, verba FNDE/PNAE, durante 12 (doze) meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-fnde"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Fundo Nacional de Desenvolvimento da Educacao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nTERMO DE RETI - RATIFICACAO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COFARP – COOPERATIVA DOS AGRICULTORES FAMILIARES DE PIEDADE\nCONTRATO N°: 049/2024\nOBJETO: Aquisicao de Generos Alimenticios da Agricultura Familiar e do Empreendedor Familiar Rural, em atendimento ao Programa\nNacional de Alimentacao Escolar –PNAE, para alunos da rede de educacao basica publica, verba FNDE/PNAE, durante 12 (doze)\nmeses",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

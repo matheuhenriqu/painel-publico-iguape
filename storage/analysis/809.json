@@ -1,0 +1,125 @@
+﻿{
+    "diaryId":  "809",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:10",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_747_03074533.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_747_03074533.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  14,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 155.452,50"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 136",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  5,
+                      "contractNumber":  "048/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "WS PINO EIRELI",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 136\n DE 02 MAIO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Victor Pereira de Matos, Diretor II, titular da Cedula de Identidade RG nº. 46.814.632-5 SSP/SP, inscrito no CPF/MF nº.\nArt. 2º - 405.316.238/66, para exercer a funcao de Gestor do Contrato 048",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 137",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "048/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 137\n DE 02 MAIO DE 2024\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Maira Bitencourt Pereira, Coordenadora de Atencao Especializada, titular da Cedula de Identidade RG nº 30.393.319-7 SSP/SP,\nArt. 2º - inscrita no CPF/MF nº 312.432.348-30, para exercer a funcao",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE VALOR AO CONTRATO 067/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  8,
+                      "contractNumber":  "067/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de reforma de Ginasio Poliesportivo, localizado na Rua dos Estudantes com Rua Antonio Jose de Morais e Rua Tiradentes no Municipio de Iguape, conforme termo de convenio 101008/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape. TOMADA DE PRECO Nº 001/2023",
+                      "value":  "R$ 155.452,50",
+                      "term":  "",
+                      "signatureDate":  "30/04/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE VALOR AO CONTRATO 067/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SUL VALE CONSTRUTORA LTDA\nCONTRATO-N°: 067/2023\nOBJETO: Contratacao de empresa especializada para obra de reforma de Ginasio Poliesportivo, localizado na Rua dos Estudantes com Rua\nAntonio Jose de Morais e Rua Tiradentes no Municipio de Iguape, conforme termo de convenio 101008/2022, celebrado entre a Secretaria de\nDesenvolvimento Regional e a Prefeitura de Iguape.\nTOMADA DE PRECO Nº 001/2023\nDATA: 30/04/2024\nVALOR: Pagara a",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

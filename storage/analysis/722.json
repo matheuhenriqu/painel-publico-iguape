@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "722",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:31",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/f591e43ebc1757ddd5c6c18ab72065a1.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/f591e43ebc1757ddd5c6c18ab72065a1.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "832/2023",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 61/2023 - EDITAL Nº: 98/2023",
+                      "contractor":  "CLINICA MEDICA IGUAMED LTDA",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA A PRESTACAO DE SERVICOS MEDICOS AUXILIARES DE DIAGNOSTICO E TERAPIA - ULTRASSONOGRAFIA, PARA ATENDIMENTO DOS PACIENTES PROVENIENTES DAS UNIDADES DE SAUDE DESTE MUNICIPIO DE IGUAPE/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 832/2023\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA A PRESTACAO DE SERVICOS MEDICOS AUXILIARES DE DIAGNOSTICO E TERAPIA -\nULTRASSONOGRAFIA, PARA ATENDIMENTO DOS PACIENTES PROVENIENTES DAS UNIDADES DE SAUDE DESTE MUNICIPIO DE\nIGUAPE/SP\nPR-G - PREGAO PRESENCIAL - 61/2023 - EDITAL Nº: 98/2023\nINTERESSADOS: SECRETARIA MUNICIPAL DE SAUDE .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao\n\ndos itens abaixo.\n\nFORNECEDOR:",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

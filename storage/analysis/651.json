@@ -1,0 +1,138 @@
+﻿{
+    "diaryId":  "651",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:41",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/4af3e2704318dadad161572b1139c84e.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/4af3e2704318dadad161572b1139c84e.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 747.268,80"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "5º TERMO ADITIVO DE SUPRESSAO AO LOTE II CONTRATO Nº 035/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "035/2022",
+                      "processNumber":  "019/2022",
+                      "modality":  "PREGAO PRESENCIAL Nº 019/2022",
+                      "contractor":  "FRANKLIN CANGUSSU SAMPAIO EIRELI",
+                      "cnpj":  "46367394600295",
+                      "object":  "Contratacao de empresa especializada em fornecimento de profissionais na area da saude, para atendimentos na Estrategia de Saude da Familia, Unidade Mista e CAPS (Centro de Atendimento Psicossocial), no municipio de Iguape. Supressao de 480 horas do profissional Medico Ginecologista do Lote II, com atendimento na Unidade Mista de Iguape PREGAO PRESENCIAL Nº 019/2022",
+                      "value":  "R$ 62.788,80",
+                      "term":  "",
+                      "signatureDate":  "15/09/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu",
+                                                       "municipal-pgm",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Procuradoria-Geral do Municipio",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "5º TERMO ADITIVO DE SUPRESSAO AO LOTE II CONTRATO Nº 035/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: FRANKLIN CANGUSSU SAMPAIO EIRELI\nCONTRATO N°: 035/2022\nOBJETO: Contratacao de empresa especializada em fornecimento de profissionais na area da saude, para atendimentos na Estrategia de Saude da\nFamilia, Unidade Mista e CAPS (Centro de Atendimento Psicossocial), no municipio de Iguape. Supressao de 480 horas do profissional Medico\nGinecologista do Lote II, com atendimento na Unidade Mista de Iguape\nPREGAO PRES",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 163/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "163/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ECS COMERCIO DE VEICULOS E EQUIPAMENTOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Caminhao Basculante, em atendimento ao convenio nº 909588/2020, celebrado como Ministerio da Agricultura, Pecuaria e Abastecimento (Mapa)",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu",
+                                                       "municipal-pgm",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Procuradoria-Geral do Municipio",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ECS COMERCIO DE VEICULOS E EQUIPAMENTOS LTDA\nCONTRATO N°: 163/2023\nOBJETO:. Aquisicao de Caminhao Basculante, em atendimento ao convenio nº 909588/2020, celebrado como Ministerio da\nAgricultura, Pecuaria e Abastecimento (Mapa).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO - Nº 005/2023",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "005/2023",
+                      "modality":  "PREGAO ELETRONICO - Nº 005/2023",
+                      "contractor":  "o valor de R$ 684.480,00 (seiscentos e oitenta e quatro mil, quatrocentos e oitenta reais)",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 684.480,00",
+                      "term":  "120 (cento e vinte) dias, contados da data da sua assinatura; podendo ser prorrogado na forma do Art. 57, da Lei 8.666/93",
+                      "signatureDate":  "-15/09/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu",
+                                                       "municipal-pgm",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Procuradoria-Geral do Municipio",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO - Nº 005/2023\nDATA:-15/09/2023\nVALOR: Pagara a contratada o valor de R$ 684.480,00 (seiscentos e oitenta e quatro mil, quatrocentos e oitenta reais)\nVIGENCIA: 120 (cento e vinte) dias, contados da data da sua assinatura; podendo ser prorrogado na forma do Art. 57, da Lei 8.666/93\nPeriodo de 18/09/2023 a 17/01/2024",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

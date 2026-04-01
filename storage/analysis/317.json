@@ -1,0 +1,91 @@
+﻿{
+    "diaryId":  "317",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:42",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/83dd7ff832e32551a9b1026d2dffc2ff.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/83dd7ff832e32551a9b1026d2dffc2ff.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO AO CONTRATO Nº 11/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "11/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SAMUEL RIBEIRO - ME",
+                      "cnpj":  "",
+                      "object":  "contratacao de empresa especializada para fornecimento de mao de obra necessaria para reforma do predio da Policia Militar - 14º BPM/I - 3ª CIA/PM - acordo de cooperacao tecnica nº 01/2021 celebrado entre o 14º Batalhao da Policia Militar do Estado de Sao Paulo e Municipio de Iguape. CARTA CONVITE Nº 001/2022",
+                      "value":  "",
+                      "term":  "periodo de vigencia e execucao e de 60 (sessenta) dias, periodo de 21/05/2022 a 20/07/2022",
+                      "signatureDate":  "20/05/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO AO CONTRATO Nº 11/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SAMUEL RIBEIRO - ME\nOBJETO: contratacao de empresa especializada para fornecimento de mao de obra necessaria para reforma do\npredio da Policia Militar - 14º BPM/I - 3ª CIA/PM - acordo de cooperacao tecnica nº 01/2021 celebrado entre o 14º\nBatalhao da Policia Militar do Estado de Sao Paulo e Municipio de Iguape.\nCARTA CONVITE Nº 001/2022\nDATA:20/05/2022\nVIGENCIA: periodo de vigencia e execucao e de 60 (sessenta) dias, periodo de 21/",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "55/2022",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 33/2022 - EDITAL Nº: 47/2022",
+                      "contractor":  "METALURGICA SILLOTT LTDA",
+                      "cnpj":  "",
+                      "object":  "AQUISICAO DE EQUIPAMENTOS \" ACADEMIA AO AR LIVRE\" , CONFORME PLANO DE TRABALHO DO CONVENIO Nº319/2021- CELEBRADO COM A SECRETARIA DE ESPORTES DO GOVERNO DO ESTADO DE SAO PAULO E ESTE MUNICIPIO DE IGUAPE",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "estadual-esportes",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Esportes",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 55/2022\nAQUISICAO DE EQUIPAMENTOS \" ACADEMIA AO AR LIVRE\" , CONFORME PLANO DE TRABALHO DO CONVENIO\nNº319/2021- CELEBRADO COM A SECRETARIA DE ESPORTES DO GOVERNO DO ESTADO DE SAO PAULO E\nESTE MUNICIPIO DE IGUAPE.\nPR-G - PREGAO PRESENCIAL - 33/2022 - EDITAL Nº: 47/2022\nINTERESSADOS: DEPARTAMENTO DE PLANEJAMENTO .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento\nlicitatorio e a classificacao dos itens abaixo.\nFORNECEDOR: METALURGICA SILLOTT LTDA",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,171 @@
+﻿{
+    "diaryId":  "341",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:37",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/1a35ea5a9ad4720f9fa8ca91fdbe7877.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/1a35ea5a9ad4720f9fa8ca91fdbe7877.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  21,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 3.800,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "CONTRAETXOTSREATLIOCITACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "099/2022",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "18.259.063/0001-22",
+                      "object":  "",
+                      "value":  "R$1.200,00",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "CONTRAETXOTSREATLIOCITACAO\n\nProcesso nº 099/2022\nDESPACHO DE RATIFICACAO\n\n Tomando ciencia da justificativa oriunda da origem e do conteudo do procedimento, RATIFICO a contratacao por INEXIGIBILIDADE\nDE LICITACAO da empresa PRODUTORA QUALITY- CONSULTORIA, MARKETING, SHOWS E EVENTOS-EIRELI, Inscrita no CNPJ:\n18.259.063/0001-22 PARA APRESENTACAO MUSICAL de “MARCELO VOX”, NO DIA 23 DE JULHO DE 2022, A PARTIR DAS 13H30, NO BAIRRO\nDE ICAPARA, COMO PARTE DO EVENTO “28º FESTA DA TAINHA DO BAIRRO DE ICAPARA” COM FUNDAMENTO",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "Processo nº 101/2022",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "101/2022",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "41.951.314/0001-57",
+                      "object":  "",
+                      "value":  "R$600,00",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nProcesso nº 101/2022\nDESPACHO DE RATIFICACAO\n\nTomando ciencia da justificativa oriunda da origem e do conteudo do procedimento, RATIFICO a contratacao por INEXIGIBILIDADE DE\nLICITACAO da empresa TELMA DE LARA TRUDES 30462014860, Inscrita no CNPJ: 41.951.314/0001-57 PARA APRESENTACAO MUSICAL\nde “CLEITON E TELMA”, NO DIA 24 DE JULHO DE 2022, A PARTIR DAS 12H00, NO BAIRRO DE ICAPARA, COMO PARTE DO EVENTO “28º\nFESTA DA TAINHA DO BAIRRO DE ICAPARA” COM FUNDAMENTO NO ARTIGO 25, INCISO III, DA LEI FEDERAL 8.666/9",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "INEXIGIBILIDADE DE LICITACAO da empresa LUIS ADILSON DE LIMA 10368846865, Inscrita no CNPJ: 31.939.946/0001-41 PARA",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "946/0001",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "31.939.946/0001-41",
+                      "object":  "",
+                      "value":  "R$2.000,00",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "INEXIGIBILIDADE DE LICITACAO da empresa LUIS ADILSON DE LIMA 10368846865, Inscrita no CNPJ: 31.939.946/0001-41 PARA\nAPRESENTACAO MUSICAL de “FANDANGO DO PRELADO”, NO DIA 24 DE JULHO DE 2022, A PARTIR DAS 18H00, NO BAIRRO DE\nICAPARA, COMO PARTE DO EVENTO “28º FESTA DA TAINHA DO BAIRRO DE ICAPARA” COM FUNDAMENTO NO ARTIGO 25,\nINCISO III, DA LEI FEDERAL 8.666/93, sendo o valor contratado de R$2.000,00 (dois mil reais), pois que, aoanalisar o caso concreto, eis que\nestao preenchidos todos os requisitos legais.",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO E HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "89/2022",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 46/2022",
+                      "contractor":  "HELDER FRANCISCO NALIATO EPP",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA EM LOCACAO DE BANHEIROSE ESCRITORIO CONTAINER, A SEREM UTILIZADOS NOS EVENTOS DO MUNICIPIO DE IGUAPE/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu",
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO E HOMOLOGACAO\n\nPROCESSO Nº: 89/2022\nREGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA EM LOCACAO DE BANHEIROSE ESCRITORIO\nCONTAINER, A SEREM UTILIZADOS NOS EVENTOS DO MUNICIPIO DE IGUAPE/SP.\nPR-G - PREGAO PRESENCIAL - 46/2022\nEDITAL Nº: 68/2022INTERESSADOS: DEPARTAMENTO DE CULTURA E ESPORTES .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a\nclassificacao dos itens abaixo.\n\nFORNECEDOR: HELDER FRANCISCO NALIATO EPP\n\nItem Descricao Qtde U.M. Vl.",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

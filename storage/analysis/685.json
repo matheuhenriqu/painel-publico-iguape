@@ -1,0 +1,53 @@
+﻿{
+    "diaryId":  "685",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:35",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/dfaa5d93b87030b0aaa1238b7ff91e8d.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/dfaa5d93b87030b0aaa1238b7ff91e8d.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 331.630,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO – EXTRATO DE REVOGACAO DE LICITACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "507/2023",
+                      "modality":  "Concorrencia Publica nº 004/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 331.630,00",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n AVISO – EXTRATO DE REVOGACAO DE LICITACAO\n\n O Prefeito do Municipio de Iguape, no uso de suas atribuicoes legais, com fundamento no disposto do artigo 49 da lei 8.666/93, determinou a\nREVOGACAO do Processo Administrativo nº 507/2023, Concorrencia Publica nº 004/2023, cujo objeto e o REGISTRO DE PRECOS PARA\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA FORNECIMENTO E INSTALACAO DE UNIDADE SANITARIA INDIVIDUAL-(USI), PARA\nATENDER AS RESIDENCIAS QUE NAO SAO ATENDIDAS PELA REDE COLETORA DE ESGOTO NO MUNICIPIO DE ",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

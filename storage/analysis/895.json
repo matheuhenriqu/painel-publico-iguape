@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "895",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:59",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_817_21074011.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_817_21074011.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CONCORRENCIA PUBLICA ELETRONICA",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "CONCORRENCIA PUBLICA ELETRONICA",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para execucao de dimensionamento e distribuicao eletrica para o setor de Pronto Atendimento da Unidade Mista, na Rua Latif Correa, 92-196, Centro – neste Municipio de Iguape/SP. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "CONCORRENCIA PUBLICA ELETRONICA\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-\n000, a CONCORRENCIA PUBLICA ELETRONICA – n.º 006/2024, do tipo MENOR PRECO GLOBAL, nas especificacoes detalhadas no Edital.\nOBJETO: Contratacao de empresa especializada para execucao de dimensionamento e distribuicao eletrica para o setor de Pronto\nAtendimento da Unidade Mista, na Rua Latif Correa, 92-196, Centro – neste Municipio de ",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero principal identificado"
+                                ]
+                  }
+              ]
+}

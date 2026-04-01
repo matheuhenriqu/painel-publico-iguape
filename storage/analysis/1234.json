@@ -1,0 +1,125 @@
+﻿{
+    "diaryId":  "1234",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:10",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1082_16072318.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1082_16072318.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 186.900,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 266, DE 15 DE OUTUBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "162/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa OLIVEIRA ENGENHARIA LTDA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 266, DE 15 DE OUTUBRO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS\n\n EGINA AYAKO YAMAMOTO SPINULA, Prefeita Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas pelo\nartigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Ricardo de Oliveira Ragni de Castro Leite, Secretario Municipal de Infraestrutura Urbana e Obras, inscrito no CPF/MF nº.\n 293.XXX.XXX-06, para exercer a funcao de gestor do Contrat",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "2º TERMO DE PRORROGACAO AO CONTRATO Nº 004/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "004/2025",
+                      "processNumber":  "073/2023",
+                      "modality":  "Pregao Presencial n°. 073/2023",
+                      "contractor":  "RENATO DE OLIVEIRA LIMPEZA LTDA (DD REGIS)",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para locacao de banheiros quimicos tipo convencional, standard e pne, a serem utilizados nos eventos do municipio de Iguape. Pregao Presencial n°. 073/2023",
+                      "value":  "R$ 149.600,00",
+                      "term":  "O contrato tera validade por um periodo de 90 (noventa) dias de 13/10/2025 a 12/01/2026.",
+                      "signatureDate":  "10/10/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n2º TERMO DE PRORROGACAO AO CONTRATO Nº 004/2025\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: RENATO DE OLIVEIRA LIMPEZA LTDA (DD REGIS)\nCNPJ: 07.XXX.XXX/001-19\nOBJETO: Contratacao de empresa especializada para locacao de banheiros quimicos tipo convencional, standard e pne, a serem utilizados nos eventos\ndo municipio de Iguape.\nPregao Presencial n°. 073/2023\nDATA: 10/10/2025\nVALOR: R$ 149.600,00 (cento quarenta e nove mil e seiscentos reais)\nVIGENCIA: O contrato tera validade por um periodo de 90 (noventa)",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO DE ACRESCIMO AO CONTRATO Nº 004/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "004/2025",
+                      "processNumber":  "073/2023",
+                      "modality":  "Pregao Presencial n°. 073/2023",
+                      "contractor":  "RENATO DE OLIVEIRA LIMPEZA LTDA (DD REGIS)",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para locacao de banheiros quimicos tipo convencional, standard e PNE, a serem utilizados nos eventos do municipio de Iguape. Pregao Presencial n°. 073/2023",
+                      "value":  "R$ 37.300,00",
+                      "term":  "",
+                      "signatureDate":  "10/10/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO DE ACRESCIMO AO CONTRATO Nº 004/2025\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: RENATO DE OLIVEIRA LIMPEZA LTDA (DD REGIS)\nCNPJ:07.XXX.XXX/0001-19\nOBJETO: Contratacao de empresa especializada para locacao de banheiros quimicos tipo convencional, standard e PNE, a serem utilizados nos\neventos do municipio de Iguape.\nPregao Presencial n°. 073/2023\nDATA: 10/10/2025\nVALOR: R$ 37.300,00 (trinta e sete mil e trezentos reais), no percentual de 24,93315508...% ao valor do contrato inicial.",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "496",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:12",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/f2d60d30105aa14eb20cbc5aa2b2eaf6.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/f2d60d30105aa14eb20cbc5aa2b2eaf6.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "AVISO DE RETI – RATIFICACAO - PREGAO PRESENCIAL Nº007/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "7/2023",
+                      "modality":  "PREGAO PRESENCIAL Nº007/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "AVISO DE RETI – RATIFICACAO\n PREGAO PRESENCIAL Nº007/2023\nOBJETO: REGISTRO DE PRECOS PARA PRESTACAO DE SERVICOS FUNERARIOS A FIM DE ATENDER AS FAMILIAS EM\nSITUACAO DE VULNERABILIDADE DO MUNICIPIO DE IGUAPE/SP.\n\nA Prefeitura Municipal de Iguape, atraves do Setor de Licitacoes, TORNA PUBLICO para conhecimento dos interessados que o edital\nde licitacao,sofreu retificacao conforme segue:\nOnde se le:\n17.4.1 - As mesmas sancoes serao aplicadas a adjudicataria que, devidamente convocada a assinar a Ata de Registro de Prec",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem contratada identificada",
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

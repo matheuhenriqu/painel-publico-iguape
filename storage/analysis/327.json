@@ -1,0 +1,90 @@
+﻿{
+    "diaryId":  "327",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:40",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/724e76d2dafa8fc2290762e35dd0599d.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/724e76d2dafa8fc2290762e35dd0599d.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  11,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "AVISO DE REABERTURA DE LICITACAO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  8,
+                      "contractNumber":  "",
+                      "processNumber":  "040/2022",
+                      "modality":  "PREGAO PRESENCIAL nº 040/2022",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE EQUIPAMENTOS DE PROTECAO INDIVIDUAL –(EPI) E UNIFORMES PROFISSIONAIS, PELO PERIODO 12 (DOZE) MESES, PARA ATENDER A DEMANDA DA PREFEITURA MUNICIPAL DE IGUAPE/SP. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013, Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n AVISO DE REABERTURA DE LICITACAO\n PREGAO PRESENCIAL\n\nEncontra-se REABERTO na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira,\nIguape/SP, CEP 11.920-000, o PREGAO PRESENCIAL nº 040/2022, do tipo MENOR VALOR GLOBAL POR LOTE, conforme\nespecificacoes detalhadas no Edital.\nOBJETO REGISTRO DE PRECOS PARA AQUISICAO DE EQUIPAMENTOS DE PROTECAO INDIVIDUAL –(EPI) E UNIFORMES\nPROFISSIONAIS, PELO PERIODO 12 (DOZE) MESES, PARA ATENDER A DEMANDA DA PREFEITURA MUN",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "11",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  11,
+                      "contractNumber":  "",
+                      "processNumber":  "88/2022",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA PARA EXECUCAO REFORMA E MANUTENCAO DO CENTRO DE EVENTOS PREFEITO CASEMIRO TEIXEIRA CO-O - CONVITE / OBRAS - 10/2022 - EDITAL Nº: 62/2022",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "11\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 02 – Nº 314 Quinta-feira, 23 de Junho de 2022\n de Janeiro de 2022\n\n EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 88/2022\nCONTRATACAO DE EMPRESA PARA EXECUCAO REFORMA E MANUTENCAO DO CENTRO DE EVENTOS PREFEITO\nCASEMIRO TEIXEIRA\nCO-O - CONVITE / OBRAS - 10/2022 - EDITAL Nº: 62/2022\nINTERESSADOS: DEPARTAMENTO DE OBRAS .\n\n HOMOLOGO E ADJUDICO, nos termos da Legislacao em vigor, o procedimento licitatorio e a\nclassificacao dos itens abaixo.\nFORNECEDOR: CIACAN ENGENHARIA EIREL",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem orgao responsavel identificado"
+                                ]
+                  }
+              ]
+}

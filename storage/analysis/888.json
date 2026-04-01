@@ -1,0 +1,92 @@
+﻿{
+    "diaryId":  "888",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:00",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_811_13075225.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_811_13075225.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 3.000,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "Iguape, 09 de Agosto de 2024",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "415/2024",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 3.000,00",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n Iguape, 09 de Agosto de 2024\n\nProcesso nº 415/2024 DESPACHO DE RATIFICACAO\n\n Tomando ciencia da justificativa oriunda da origem e do conteudo do procedimento, RATIFICO a contratacao por INEXIGIBILIDADE\nDE LICITACAO, neste ato representado pela Sra. MIRIAM VIEIRA NOBREGA, R.G.: 42.093.576-9-SSP-SP e CPF: 301.140.998-63, residente e\ndomiciliada na Rua: Jalde Antonio Fragoso, nº 88 – Bairro - Rocio, cidade de Iguape/SP, CEP: nº 11.920-000, para a locacao do imovel destinado\nexclusivamente parainstalacao da C",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "6º TERMO ADITIVO AO CONTRATO Nº 053/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "053/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA-ME",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de Centro Multiuso, localizada na Avenida Maestro Moacir Serra s/n – Bairro Canto do Morro, conforme termo de Convenio nº 100813/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape. Tomada de Precos - n°. 009/2022",
+                      "value":  "",
+                      "term":  "Prorrogada a Execucao do Servico e Vigencia do Contrato pelo periodo de 13/08/2024 a 10/12/2024 inclusive –120 (cento e vinte) dias.",
+                      "signatureDate":  "09/08/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "6º TERMO ADITIVO AO CONTRATO Nº 053/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SUL VALE CONSTRUTORA LTDA-ME\nCONTRATO N°: 053/2022\nOBJETO: Contratacao de empresa especializada para obra de Centro Multiuso, localizada na Avenida Maestro Moacir Serra s/n – Bairro Canto do Morro,\nconforme termo de Convenio nº 100813/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape.\nTomada de Precos - n°. 009/2022\nDATA: 09/08/2024\nVIGENCIA: Prorrogada a Execucao do Servico e Vigencia do Cont",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

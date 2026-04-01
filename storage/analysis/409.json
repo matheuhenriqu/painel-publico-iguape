@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "409",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:26",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/4352ca58d4443c3bb2c323a7817e60a5.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/4352ca58d4443c3bb2c323a7817e60a5.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "581/2022",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 54/2022 - EDITAL Nº: 78/2022",
+                      "contractor":  "REGIS PAPER COMERCIAL LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Materiais Permanentes (mobiliarios e equipamentos) em atendimento a Secretaria Municipal de Assistencia e Desenvolvimento Social , proveniente da Emenda Parlamentar nº202037170008",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-assistencia-social",
+                      "primaryOrganizationName":  "Secretaria de Assistencia e Desenvolvimento Social",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "assistencia-social",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-assistencia-social",
+                                                       "federal-mec"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Assistencia e Desenvolvimento Social",
+                                                         "Ministerio da Educacao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 581/2022\nAquisicao de Materiais Permanentes (mobiliarios e equipamentos) em atendimento a Secretaria Municipal de Assistencia e\nDesenvolvimento Social , proveniente da Emenda Parlamentar nº202037170008\nPR-G - PREGAO PRESENCIAL - 54/2022 - EDITAL Nº: 78/2022\nINTERESSADOS: FUNDO MUNICIPAL DE ASSISTENCIA SOCIAL .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a\n\nclassificacao dos itens abaixo.\n\nFORNECEDOR: REGIS PAPER COMERCIAL L",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

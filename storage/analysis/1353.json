@@ -1,0 +1,58 @@
+﻿{
+    "diaryId":  "1353",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:47",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1168_06081631.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1168_06081631.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  29,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 16.439,63"
+                },
+    "items":  [
+                  {
+                      "type":  "Dispensa",
+                      "actTitle":  "9º TERMO DE PRORROGACAO E ALTERACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 069/2017",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  27,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MORAIS EMP IMOBILIARIOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao e funcionamento da sede administrativa do Paco Municipal – Iguape/SP",
+                      "value":  "R$ 16.439,63",
+                      "term":  "04/03/2026 a 03/03/2027",
+                      "signatureDate":  "03/03/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n9º TERMO DE PRORROGACAO E ALTERACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 069/2017\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: MORAIS EMP IMOBILIARIOS LTDA\nCNPJ: 49.xxx.xxx/xxxx-39\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao e funcionamento da sede administrativa\ndo Paco Municipal – Iguape/SP.\nVALOR: R$ 16.439,63 (dezesseis mil, quatrocentos e trinta e nove reais e sessenta e tres centavos) mensais.\nDATA: 03/03/2026\nProcesso de Dispensa de Li",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada",
+                                    "Sem numero principal identificado"
+                                ]
+                  }
+              ]
+}

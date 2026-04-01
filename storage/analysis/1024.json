@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "1024",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:43",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_921-_11030632.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_921-_11030632.pdf",
+    "keywords":  [
+                     "contrato",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 4.343.577,60"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "CONTRATANTE: MUNICIPIO DE IGUAPE/SP",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "0040/2025",
+                      "processNumber":  "3/2023",
+                      "modality":  "Pregao Presencial n°.083/2023",
+                      "contractor":  "HUNTER COMERCIAL LOCACOES LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada em locacao de maquinas pesadas, caminhoes e equipamentos para execucao e manutencao em atendimento a demanda do departamento de obras e servicos do municipio de Iguape com fornecimento de mao-de-obra e combustivel. Pregao Presencial n°.083/2023",
+                      "value":  "R$ 4.343.577,60",
+                      "term":  "Periodo -07/02/2025 a 06/02/2026 - 12 (doze) meses VALOR:- R$ 4.343.577,60 (quatro milhoes, trezentos e quarenta e tres mil, quinhentos",
+                      "signatureDate":  "07/02/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA:-HUNTER COMERCIAL LOCACOES LTDA\nCONTRATO Nº 0040/2025\nORIUNDO DA ATA DE REGISTRO DE PRECOS N°:028/2024.\nOBJETO: Contratacao de empresa especializada em locacao de maquinas pesadas, caminhoes e equipamentos para execucao e manutencao\nem atendimento a demanda do departamento de obras e servicos do municipio de Iguape com fornecimento de mao-de-obra e combustivel.\nPregao Presencial n°.083/2023\nData: 07/02/2025\nVIGENCIA: Periodo -07/02/2025 a 06/02/2026 - 12 (doze",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

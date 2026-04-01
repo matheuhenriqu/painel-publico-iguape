@@ -1,0 +1,89 @@
+﻿{
+    "diaryId":  "885",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:00",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_808_03020716.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_808_03020716.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº. 202 DE 29 DE JULHO DE 2024",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "113/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº. 202 DE 29 DE JULHO DE 2024\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n A Portaria nº. 202 de 29 DE JULHO DE 2024, a seguinte correcao:\n\nOnde se le:\nArt. 1º. Designa, Fernando Joao Carlos da Silva Noidoif, Diretor de Gestao e Planejamento, titular da Cedula de Identidade RG nº 45.760.408-6 SSP/SP,\ninscrito no CPF/MF nº. 387.363.538-09, para ex",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO 105/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "105/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S. A COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de pavimentacao e obras complementares de vias do bairro do Rocio e Jardim Primavera, conforme termo de convenio nº 102968/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape",
+                      "value":  "",
+                      "term":  "AO CONTRATO 105/2023",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO 105/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S. A COMPANHIA DE OBRAS PARIQUERA-ACU\nCONTRATO N°: 105/2023\nOBJETO: Contratacao de empresa especializada para obra de pavimentacao e obras complementares de vias do bairro do Rocio e Jardim Primavera,\nconforme termo de convenio nº 102968/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de\nIguape.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

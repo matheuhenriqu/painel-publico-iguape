@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "1342",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:50",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1158_20080529.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1158_20080529.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  14,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 41,",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "026/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-desenvolvimento-sustentavel"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 41,\n DE 18 DE FEVEREIRO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Selma Xavier Pontes, Secretaria Desenvolvimento Sustentavel, inscrita no CPF/MF nº. XXX.362.768-XX, para exercer\n a funcao de Gestor do Contrato nº 026/2026, ",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

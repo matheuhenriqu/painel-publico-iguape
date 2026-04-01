@@ -1,0 +1,12 @@
+﻿{
+    "diaryId":  "266",
+    "parserVersion":  "2026.03.23.01",
+    "analyzedAt":  "2026-03-25T11:04:57",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/c13ba637a39757ed08d6d0b8eb6ac52b.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/c13ba637a39757ed08d6d0b8eb6ac52b.pdf",
+    "eventCount":  0,
+    "error":  "Os tipos de argumento não correspondem",
+    "events":  [
+
+               ]
+}

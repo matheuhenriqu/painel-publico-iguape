@@ -1,0 +1,128 @@
+﻿{
+    "diaryId":  "312",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:43",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/9e134643fd824206d120ee3e4b860620.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/9e134643fd824206d120ee3e4b860620.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 129",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "044/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 129\n DE 27 DE MAIO DE 2022\n\n DESIGNA GESTOR E FISCAL DE CONTRATO E DA\n OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado\nde Sao Paulo, no uso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de\nIguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de\n Identidade RG nº 26.166.016-0 SSP/SP, inscrito no CPF/MF nº 256.609.068-85, para exerc",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 130",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "045/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 130\n DE 27 DE MAIO DE 2022\n\n DESIGNA GESTOR E FISCAL DE CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de\nSao Paulo, no uso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape,\nbaixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de\n Identidade RG nº 26.166.016-0 SSP/SP, inscrito no CPF/MF nº 256.609.068-85, para exerc",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  4,
+                      "contractNumber":  "",
+                      "processNumber":  "56/2022",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE RECAPEAMENTO E OBRAS COMPLEMENTARES DA RUA CELSO RAMOS NO BAIRRO DO ROCIO, CONFORME TERMO DE CONVENIO Nº 100622/2022,CELEBRADO ENTRE A SECRETARIA DE DESENVOLVIMENTO REGIONAL E A PREFEITURA DE IGUAPE",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 56/2022\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE RECAPEAMENTO E OBRAS\nCOMPLEMENTARES DA RUA CELSO RAMOS NO BAIRRO DO ROCIO, CONFORME TERMO DE CONVENIO Nº\n100622/2022,CELEBRADO ENTRE A SECRETARIA DE DESENVOLVIMENTO REGIONAL E A PREFEITURA DE\nIGUAPE.",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

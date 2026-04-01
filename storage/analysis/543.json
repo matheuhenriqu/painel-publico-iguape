@@ -1,0 +1,126 @@
+﻿{
+    "diaryId":  "543",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:03",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/eb0d20c5e02c33edc8967b44df4d8a88.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/eb0d20c5e02c33edc8967b44df4d8a88.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade",
+                     "rescisao"
+                 ],
+    "summary":  {
+                    "pageCount":  27,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 299.758,44"
+                },
+    "items":  [
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 218/2013 instalacao da “Secretaria de Cultura, Esportes e",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  5,
+                      "contractNumber":  "",
+                      "processNumber":  "018/2013",
+                      "modality":  "",
+                      "contractor":  "ALEXANDRE ROCHAEL",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a Turismo”",
+                      "value":  "R$ 2.058,44",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-cultura",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Cultura",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nTERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 218/2013 instalacao da “Secretaria de Cultura, Esportes e\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: ALEXANDRE ROCHAEL\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a\nTurismo”.\nVALOR: R$ 2.058,44 (dois mil, cinquenta e oito reais e quarenta e quatro centavos) mensais.\nProcesso Administrativo nº 018/2013",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 063/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  5,
+                      "contractNumber":  "063/2023",
+                      "processNumber":  "019/2023",
+                      "modality":  "PREGAO PRESENCIAL Nº 019/2023",
+                      "contractor":  "ETHICA CUROS LIVRES PROFISSIONAL \u0026 GERENCIAMENTO LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa(s) especializada(s) para oferta de profissionais qualificados para ministrar oficinas para idosos, adolescentes e familias usuarios dos servicos do cras-centro de referencia de assistencia social, bem como para cadastradores para o cadunico e para execucao do servico de abordagem social da protecao social especial de media complexidade em cumprimento aos servicos da assistencia social, no municipio de Iguape, pelo periodo de 12 (doze) meses. cofinanciamento federal e estadual. PREGAO PRESENCIAL Nº 019/2023",
+                      "value":  "R$ 297.700,00",
+                      "term":  "Periodo - 27/04/2023 a 26/04/2024 12 (doze) Meses – (Vigencia e Execucao) -",
+                      "signatureDate":  "24/04/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ETHICA CUROS LIVRES PROFISSIONAL \u0026 GERENCIAMENTO LTDA\nCONTRATO N°: 063/2023\nOBJETO: Contratacao de empresa(s) especializada(s) para oferta de profissionais qualificados para ministrar oficinas para idosos, adolescentes e familias\nusuarios dos servicos do cras-centro de referencia de assistencia social, bem como para cadastradores para o cadunico e para execucao do servico de\nabordagem social da protecao social especial de media complexidade em cumprimento aos se",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO AO CONTRATO Nº 053/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  5,
+                      "contractNumber":  "053/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA-ME",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para obra de Centro Multiuso, localizada na Avenida Maestro Moacir Serra s/n – Bairro Canto do Morro, confome termo de Convenio nº 100813/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape. Tomada de Precos - n°. 009/2022",
+                      "value":  "",
+                      "term":  "Prorrogada a Execucao do Servico e Vigencia do Contrato pelo periodo de 21/04/2023 a 18/08/2023 inclusive – (120 dias).",
+                      "signatureDate":  "25/04/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO AO CONTRATO Nº 053/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SUL VALE CONSTRUTORA LTDA-ME\nCONTRATO N°: 053/2022\nOBJETO: Contratacao de Empresa Especializada para obra de Centro Multiuso, localizada na Avenida Maestro Moacir\nSerra s/n – Bairro Canto do Morro, confome termo de Convenio nº 100813/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura\nde Iguape.\nTomada de Precos - n°. 009/2022\nDATA: 25/04/2023\nVIGENCIA: Prorrogada a Execucao do Servico e Vigencia do Contr",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,126 @@
+﻿{
+    "diaryId":  "1306",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:56",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1132_13095055.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1132_13095055.pdf",
+    "keywords":  [
+                     "contrato",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 300.000,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 002/2026.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "002/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES PARA AQUISICAO FUTURAS DE MATERIAIS DE ACABAMENTO, PINTURA, ELETRICA, HIDRAULICA E ALVENARIA, PARA MANUTENCAO DOS PREDIOS DA PREFEITURA MUNICIPAL DE IGUAPE/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 002/2026.\nOBJETO: REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES PARA AQUISICAO FUTURAS DE MATERIAIS DE ACABAMENTO,\nPINTURA, ELETRICA, HIDRAULICA E ALVENARIA, PARA MANUTENCAO DOS PREDIOS DA PREFEITURA MUNICIPAL DE IGUAPE/SP.",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Pregao Eletronico n°. 31/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "31/2025",
+                      "modality":  "Pregao Eletronico n°. 31/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 300.000,00",
+                      "term":  "Validade do presente Registro de Precos – 08/01/2026 a 07/01/2027 – 12 (doze) meses.",
+                      "signatureDate":  "08/01/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "Pregao Eletronico n°. 31/2025\nData: 08/01/2026\nVIGENCIA: Validade do presente Registro de Precos – 08/01/2026 a 07/01/2027 – 12 (doze) meses.\nVALOR: Lote – 01 - R$ 300.000,00 (trezentos mil reais).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 003/2026.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "003/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES PARA AQUISICAO FUTURAS DE MATERIAIS DE ACABAMENTO, PINTURA, ELETRICA, HIDRAULICA E ALVENARIA, PARA MANUTENCAO DOS PREDIOS DA PREFEITURA MUNICIPAL DE IGUAPE/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 003/2026.\nOBJETO: REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES PARA AQUISICAO FUTURAS DE MATERIAIS DE ACABAMENTO,\nPINTURA, ELETRICA, HIDRAULICA E ALVENARIA, PARA MANUTENCAO DOS PREDIOS DA PREFEITURA MUNICIPAL DE IGUAPE/SP.",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

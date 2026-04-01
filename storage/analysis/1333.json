@@ -1,0 +1,89 @@
+﻿{
+    "diaryId":  "1333",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:51",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1152_10075550.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1152_10075550.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 2,57"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "058/2026",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Credenciamento de Instituicao Financeira para recebimento de arrecadacao Municipal, no padrao Febraban, conforme descricao e especificacoes relacionados no anexo I, parte integrante deste edital",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 058/2026\nOBJETO: Credenciamento de Instituicao Financeira para recebimento de arrecadacao Municipal, no padrao Febraban, conforme descricao e\nespecificacoes relacionados no anexo I, parte integrante deste edital.",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CHAMADA PUBLICA Nº: 003/2026",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "003/2026",
+                      "modality":  "CHAMADA PUBLICA Nº: 003/2026",
+                      "contractor":  "BANCO DO BRASIL SA",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 2,57",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-fazenda",
+                      "primaryOrganizationName":  "Secretaria Municipal da Fazenda",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "fazenda",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-fazenda",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria Municipal da Fazenda",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "CHAMADA PUBLICA Nº: 003/2026\nINTERESSADOS: SECRETARIA MUNICIPAL DA FAZENDA.\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos itens abaixo.\n\nFORNECEDOR: BANCO DO BRASIL SA\nREGISTRO DA ADESAO Valor fixado no Edital, na importancia de R$ 2,57 (dois reais e cinquenta e sete centavos), a credenciada cumpre plenamente\naos requisitos da adesao exigidos no Edital ANEXO I. 1- BANCO DO BRASIL SA R$ 2,57\n\n VALOR FIXADO POR CADA GUIA RECOLHIDA / RECEBIDA: R$ 2,57\n\n Igua",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

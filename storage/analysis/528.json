@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "528",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:06",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/604838e7e9e1432dda849ab286961715.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/604838e7e9e1432dda849ab286961715.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  7,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "1152/2022",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE \"PAVIMENTACAO EM LAJOTAS DE CONCRETO E OBRAS COMPLEMENTARES NO BAIRRO DA BARRA DO RIBEIRA - FASE III\", CONFORME TERMO DE CONVENIO Nº 101386/2022, CELEBRADO ENTRE A SECRETARIA DE DESENVOLVIMENTO REGIONAL E A PREFEITURA DE IGUAPE, TP-O - TOMADA DE PRECOS / OBRAS - 4/2023 - EDITAL Nº: 24/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-assistencia-social"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Assistencia e Desenvolvimento Social"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 1152/2022\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE \"PAVIMENTACAO EM LAJOTAS DE CONCRETO E OBRAS\nCOMPLEMENTARES NO BAIRRO DA BARRA DO RIBEIRA - FASE III\", CONFORME TERMO DE CONVENIO Nº 101386/2022,\nCELEBRADO ENTRE A SECRETARIA DE DESENVOLVIMENTO REGIONAL E A PREFEITURA DE IGUAPE,\nTP-O - TOMADA DE PRECOS / OBRAS - 4/2023 - EDITAL Nº: 24/2023\nINTERESSADOS: DEPARTAMENTO DE OBRAS .\n\n HOMOLOGO E ADJUDICO, nos termos da Legislacao em vigor, o procedimento licitato",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

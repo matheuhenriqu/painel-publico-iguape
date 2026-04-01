@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "967",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:51",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_876_27075425.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_876_27075425.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "504/2024",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 13/2024 - EDITAL Nº: 24/2024",
+                      "contractor":  "ELITH INFORMATICA LTDA",
+                      "cnpj":  "35203012022000",
+                      "object":  "Aquisicao de equipamentos de informatica, com destinacao dos bens para o Centro de Referencia de Assistencia Social (CRAS), oriundo do RECURSO: EMENDA PARLAMENTARPROCESSONº202281000306.PROGRAMACAO SIGTV N° 352030120220002, emconformidade com os anex",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\nPROCESSO Nº: 504/2024\nAquisicao de equipamentos de informatica, com destinacao dos bens para o Centro de Referencia de Assistencia Social (CRAS), oriundo do RECURSO:\nEMENDA PARLAMENTARPROCESSONº202281000306.PROGRAMACAO SIGTV N° 352030120220002, emconformidade com os anex\nPR-E - PREGAO ELETRONICO - 13/2024 - EDITAL Nº: 24/2024\nINTERESSADOS: SECRETARIA MUNIC. DE ASSISTENCIA E DESENV. SOCIAL .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a c",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

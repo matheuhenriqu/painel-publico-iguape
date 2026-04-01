@@ -1,0 +1,58 @@
+﻿{
+    "diaryId":  "869",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:02",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_796_18073017.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_796_18073017.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "310/2024",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 4/2024 - EDITAL Nº: 11/2024",
+                      "contractor":  "CONTEBOX - CONTAINER E MODULOS LTDA",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA EM LOCACAO DE BANHEIROS (CONTAINER), A SEREM UTILIZADOS NOS EVENTOS DO MUNICIPIO DE IGUAPE/SP, pelo periodo de 02 (dois) meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-cultura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Cultura",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 310/2024\nREGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA EM LOCACAO DE BANHEIROS (CONTAINER), A SEREM\nUTILIZADOS NOS EVENTOS DO MUNICIPIO DE IGUAPE/SP, pelo periodo de 02 (dois) meses.\nPR-E - PREGAO ELETRONICO - 4/2024 - EDITAL Nº: 11/2024\nINTERESSADOS: SECRETARIA MUNIC. DE CULTURA, ESPORTES E TURISMO .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\n\nitens abaixo.\n\nFORNECEDOR: CONTEBOX - CONTAI",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

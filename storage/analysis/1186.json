@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "1186",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:19",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1043_22074600.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1043_22074600.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  8,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 33.450,47"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 146/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  7,
+                      "contractNumber":  "146/2023",
+                      "processNumber":  "23/2023",
+                      "modality":  "PREGAO PRESENCIAL Nº 23/2023",
+                      "contractor":  "RONIE CARLOS GODOI",
+                      "cnpj":  "",
+                      "object":  "Prestacao de Servicos de empresa especializada para manutencao preventiva e corretiva com calibracao e teste de seguranca eletrica em equipamentos odontologicos das unidade de saude do municipio, atendendo a solicitacao da Secretaria Municipal de Saude, pelo periodo de 12 (doze) meses. PREGAO PRESENCIAL Nº 23/2023",
+                      "value":  "R$ 33.450,47",
+                      "term":  "Permanecera valido por um periodo de 06 (seis) meses - 20/08/2025 a 19/02/2026.",
+                      "signatureDate":  "20/08/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 146/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: RONIE CARLOS GODOI CNPJ – XX.801.088/0001-XX\nCONTRATO: N°:146/2023\nOBJETO Prestacao de Servicos de empresa especializada para manutencao preventiva e corretiva com calibracao e teste de seguranca eletrica em\nequipamentos odontologicos das unidade de saude do municipio, atendendo a solicitacao da Secretaria Municipal de Saude, pelo periodo de 12 (doze)\nmeses.\nPREGAO PRESENCIAL Nº 23/2023\nDATA:20/08/2025\nVALOR: Pagara o ",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

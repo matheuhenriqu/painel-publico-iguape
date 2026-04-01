@@ -1,0 +1,129 @@
+﻿{
+    "diaryId":  "498",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:11",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/b04589f547b380f3f13791ba09061215.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/b04589f547b380f3f13791ba09061215.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  7,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 34.200,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO AO CONTRATO 063/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  7,
+                      "contractNumber":  "063/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SAMUEL RIBEIRO - ME",
+                      "cnpj":  "",
+                      "object":  "contratacao de empresa especializada para obra de reforma do sanitario publico municipal, localizado na Rua Porto General Camara – Centro, nesse municipio de Iguape/SP CARTA CONVITE Nº O06/2022",
+                      "value":  "",
+                      "term":  "periodo de vigencia e execucao e de 30 (trinta) dias, periodo de 16/02/2023 a 17/03/2023",
+                      "signatureDate":  "14/02/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO AO CONTRATO 063/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SAMUEL RIBEIRO - ME\nCONTRATO N°: 063/2022\nOBJETO: contratacao de empresa especializada para obra de reforma do sanitario publico municipal, localizado na Rua Porto General\nCamara – Centro, nesse municipio de Iguape/SP\nCARTA CONVITE Nº O06/2022\nDATA:14/02/2023\nVIGENCIA: periodo de vigencia e execucao e de 30 (trinta) dias, periodo de 16/02/2023 a 17/03/2023\n\n CADERNO LEGISLATIVO",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Dispensa",
+                      "actTitle":  "EXTRATO DE RATIFICACAO DE DISPENSA DE LICITACAO Nº001/2023",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  7,
+                      "contractNumber":  "",
+                      "processNumber":  "001/2023",
+                      "modality":  "",
+                      "contractor":  "(o): GONCALVES \u0026 SILVA DA LUZ LTDA (VISIOON PRESTACAO DE SERVICOS)",
+                      "cnpj":  "17.442.768/0001-18",
+                      "object":  "Contratacao de empresa especializada, pelo periodo de 30 (trinta) dias na prestacao, de forma continua, dos servicos de limpeza, asseio e conservacao predial, com disponibilizacao de mao de obra de dois funcionarios para limpeza e um zelador para conservacao predial, nas dependencias do edificio da sede da Camara, com area total de 337,25m², subdividida em dois pavimentos, terreo e superior",
+                      "value":  "R$ 17.000,00",
+                      "term":  "30 dias a partir da assinatura do contrato.",
+                      "signatureDate":  "do contrato",
+                      "legalBasis":  "Artigo 24, II, da Lei 8.666/93 e suas alteracoes",
+                      "primaryOrganizationId":  "municipal-camara",
+                      "primaryOrganizationName":  "Camara Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-camara"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Camara Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO DE RATIFICACAO DE DISPENSA DE LICITACAO Nº001/2023\n\nPROCESSO ADMINISTRATIVO Nº 001/2023 – DISPENSA DE LICITACAO Nº001/2023.\nObjeto: Contratacao de empresa especializada, pelo periodo de 30 (trinta) dias na prestacao, de forma continua, dos servicos de\nlimpeza, asseio e conservacao predial, com disponibilizacao de mao de obra de dois funcionarios para limpeza e um zelador para\nconservacao predial, nas dependencias do edificio da sede da Camara, com area total de 337,25m², subdividida em dois pavimentos,\nterr",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Dispensa",
+                      "actTitle":  "EXTRATO DE RATIFICACAO DE DISPENSA DE LICITACAO Nº002/2023",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  7,
+                      "contractNumber":  "",
+                      "processNumber":  "002/2023",
+                      "modality":  "",
+                      "contractor":  "(o): E. B. J. BIO PRAGRAS –",
+                      "cnpj":  "38.486.770/0001-69",
+                      "object":  "Contratacao de Empresa Especializada para SERVICOS DE DEDETIZACAO, DESRATIZACAO, LIMPEZA DE CAIXAS COMPREENDENDO CAIXAS D’AGUAS, GORDURA E FOSSA, E LIMPEZA POS OBRA",
+                      "value":  "R$ 17.200,00",
+                      "term":  "30 dias a partir da assinatura do contrato",
+                      "signatureDate":  "do contrato",
+                      "legalBasis":  "Artigo 24, II, da Lei 8.666/93 e suas alteracoes",
+                      "primaryOrganizationId":  "municipal-camara",
+                      "primaryOrganizationName":  "Camara Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "federal-agu",
+                                                       "municipal-camara"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Camara Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO DE RATIFICACAO DE DISPENSA DE LICITACAO Nº002/2023\n\nPROCESSO ADMINISTRATIVO Nº 002/2023 – DISPENSA DE LICITACAO Nº002/2023.\nObjeto: Contratacao de Empresa Especializada para SERVICOS DE DEDETIZACAO, DESRATIZACAO, LIMPEZA DE CAIXAS\nCOMPREENDENDO CAIXAS D’AGUAS, GORDURA E FOSSA, E LIMPEZA POS OBRA\nFundamento Legal: Artigo 24, II, da Lei 8.666/93 e suas alteracoes\n\nContratada (o): E. B. J. BIO PRAGRAS – CNPJ: 38.486.770/0001-69\nValor Global: R$ 17.200,00 (Dezessete Mil e Duzentos Reais)\nVigencia: 30 dias a par",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

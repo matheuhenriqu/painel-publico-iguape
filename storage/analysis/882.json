@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "882",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:00",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_805_31075112.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_805_31075112.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 236.596,61"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "2º TERMO DE PRORROGACAO AO CONTRATO 154/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "154/2023",
+                      "processNumber":  "043/2023",
+                      "modality":  "PREGAO PRESENCIAL Nº 043/2023",
+                      "contractor":  "LOCALIZA VEICULOS ESPECIAIS S.A",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Servicos de Locacao de Veiculos nas Categorias Passageiro, Leve, Utilitario e Pesado, para atender a demanda das Secretarias da Prefeitura Municipal de Iguape. PREGAO PRESENCIAL Nº 043/2023",
+                      "value":  "R$ 236.596,61",
+                      "term":  "12 (doze) meses, periodo de 28/07/2024 a 27/07/2025.",
+                      "signatureDate":  "19/07/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n2º TERMO DE PRORROGACAO AO CONTRATO 154/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: LOCALIZA VEICULOS ESPECIAIS S.A.\nCONTRATO N°: 154/2023\nOBJETO: Contratacao de Servicos de Locacao de Veiculos nas Categorias Passageiro, Leve, Utilitario e Pesado, para atender a demanda\ndas Secretarias da Prefeitura Municipal de Iguape.\nPREGAO PRESENCIAL Nº 043/2023\nDATA: 19/07/2024\nVIGENCIA: 12 (doze) meses, periodo de 28/07/2024 a 27/07/2025.\nVALOR: R$ 236.596,61 (duzentos e trinta e seis mil, quinhentos e noventa ",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

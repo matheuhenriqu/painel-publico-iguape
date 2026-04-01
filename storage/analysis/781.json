@@ -1,0 +1,87 @@
+﻿{
+    "diaryId":  "781",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:15",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/20240316_2024-03-16_diariooficialedicao720_16014728.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/20240316_2024-03-16_diariooficialedicao720_16014728.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 1.064.432,06"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:059/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "9/2024",
+                      "processNumber":  "089/2023",
+                      "modality":  "Pregao Presencial n°. 089/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicoes de Materiais de Limpeza, higiene, utilidades domesticas e das Secretarias da Prefeitura Municipal de Iguape, pelo periodo de 12 (doze) meses. Pregao Presencial n°. 089/2023",
+                      "value":  "R$ 449.897,43",
+                      "term":  "Validade do presente Registro de Precos (12/03/2024 a 11/03/2025)",
+                      "signatureDate":  "12/03/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:059/2024\nOBJETO: Registro de Precos para aquisicoes de Materiais de Limpeza, higiene, utilidades domesticas e\ndas Secretarias da Prefeitura Municipal de Iguape, pelo periodo de 12 (doze) meses.\nPregao Presencial n°. 089/2023\nData: 12/03/2024\nVIGENCIA: Validade do presente Registro de Precos (12/03/2024 a 11/03/2025)\nVALOR: Valor Global da Ata de Registro de Precos: R$ 449.897,43 (quatrocentos e quarenta e nove mil, oitocentos\ntres centavos).",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:060/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "0/2024",
+                      "processNumber":  "089/2023",
+                      "modality":  "Pregao Presencial n°. 089/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicoes de Materiais de Limpeza, higiene, utilidades domesticas e descartaveis, para atendimento das Secretarias da Prefeitura Municipal de Iguape, pelo periodo de 12 (doze) meses. Pregao Presencial n°. 089/2023",
+                      "value":  "R$ 614.534,63",
+                      "term":  "Validade do presente Registro de Precos (12/03/2024 a 11/03/2025)",
+                      "signatureDate":  "12/03/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:060/2024\nOBJETO: Registro de Precos para aquisicoes de Materiais de Limpeza, higiene, utilidades domesticas e descartaveis, para atendimento\ndas Secretarias da Prefeitura Municipal de Iguape, pelo periodo de 12 (doze) meses.\nPregao Presencial n°. 089/2023\nData: 12/03/2024\nVIGENCIA: Validade do presente Registro de Precos (12/03/2024 a 11/03/2025)\nVALOR: Valor Global da Ata de Registro de Precos: R$ 614.534,63 (seiscentos e quatorze mil, quinhentos e trinta e quatro reais e sessenta e tr",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  }
+              ]
+}

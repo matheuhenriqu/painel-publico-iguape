@@ -1,0 +1,60 @@
+﻿{
+    "diaryId":  "729",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:27",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/14fb2e81db98b5ac4484916291a9d966.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/14fb2e81db98b5ac4484916291a9d966.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "874/2023",
+                      "modality":  "",
+                      "contractor":  "SAMUEL RIBEIRO -EPP",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E ADEQUACOES DA ESCOLA MUNICIPAL PROFª JOCY RITA CARDOSO ROCHA,LOCALIZADA NA RUA CAPITAO FLORAMANTE, S/N, BAIRRO VILA GARCES –IGUAPE/SP TP-O - TOMADA DE PRECOS / OBRAS - 14/2023 - EDITAL Nº: 105/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-infraestrutura-obras",
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Infraestrutura Urbana e Obras",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 874/2023\n\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E ADEQUACOES DA ESCOLA MUNICIPAL PROFª JOCY RITA\nCARDOSO ROCHA,LOCALIZADA NA RUA CAPITAO FLORAMANTE, S/N, BAIRRO VILA GARCES –IGUAPE/SP\nTP-O - TOMADA DE PRECOS / OBRAS - 14/2023 - EDITAL Nº: 105/2023\nINTERESSADOS: SECRETARIA MUNIC. DE INFRAESTRUTURA URBANA E OBRAS .\n\n HOMOLOGO E ADJUDICO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\n\nitens abaixo.\n\nFORNECEDOR: ",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

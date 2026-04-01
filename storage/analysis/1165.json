@@ -1,0 +1,387 @@
+﻿{
+    "diaryId":  "1165",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:21",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1029_30084409.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1029_30084409.pdf",
+    "keywords":  [
+                     "contrato",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  15,
+                    "itemCount":  10,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 167, DE 28 DE JULHO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "126/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "EMPRESA ELIAS TEIXEIRA DE AGUIAR-ME",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura",
+                                                       "municipal-desenvolvimento-sustentavel",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 167, DE 28 DE JULHO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Selma Xavier Pontes, Secretaria Municipal de Desenvolvimento Sustentavel, inscrita no CPF/MF nº 087.362.768-71, para\n exercer a funcao de gestor do Contrato 126/2025, EMPRESA ELIAS T",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 169, DE 28 DE JULHO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "120/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "EMPRESA I B FERREIRA SERVICOS LTDA-EPP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-desenvolvimento-sustentavel"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 169, DE 28 DE JULHO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Selma Xavier Pontes, Secretaria Municipal de Desenvolvimento Sustentavel, inscrita no CPF/MF nº 087.362.768-71, para\n exercer a funcao de gestor do Contrato 120/2025, EMPRESA I B FER",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 171, DE 28 DE JULHO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "121/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "EMPRESA JOMMAR COMERCIO E SERVICOS LTDA -ME",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-desenvolvimento-sustentavel"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 171, DE 28 DE JULHO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Selma Xavier Pontes, Secretaria Municipal de Desenvolvimento Sustentavel, inscrita no CPF/MF nº 087.362.768-71, para\n exercer a funcao de gestor do Contrato 121/2025, EMPRESA JOMMAR ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 173, DE 28 DE JULHO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "122/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "EMPRESA DKB MULTI LTDA -ME",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-desenvolvimento-sustentavel"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 173, DE 28 DE JULHO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Selma Xavier Pontes, Secretaria Municipal de Desenvolvimento Sustentavel, inscrita no CPF/MF nº 087.362.768-71, para\n exercer a funcao de gestor do Contrato 122/2025, EMPRESA DKB MUL",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 175, DE 28 DE JULHO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  4,
+                      "contractNumber":  "123/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "EMPRESA JML SINALIZACAO DE SERVICOS LTDA-ME",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-desenvolvimento-sustentavel"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 175, DE 28 DE JULHO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Selma Xavier Pontes, Secretaria Municipal de Desenvolvimento Sustentavel, inscrita no CPF/MF nº 087.362.768-71, para\n exercer a funcao de gestor do Contrato 123/2025, EMPRESA JML SIN",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 177, DE 28 DE JULHO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  4,
+                      "contractNumber":  "124/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "EMPRESA CLAUDIO ROSA CONSTRUCOES-ME",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-desenvolvimento-sustentavel"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 177, DE 28 DE JULHO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Selma Xavier Pontes, Secretaria Municipal de Desenvolvimento Sustentavel, inscrita no CPF/MF nº 087.362.768-71, para\n exercer a funcao de gestor do Contrato 124/2025, EMPRESA CLAUDIO",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 179, DE 28 DE JULHO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  5,
+                      "contractNumber":  "125/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "EMPRESA GONCALVES \u0026 SILVA DA LUZ LTDA – ME",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-desenvolvimento-sustentavel"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 179, DE 28 DE JULHO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Selma Xavier Pontes, Secretaria Municipal de Desenvolvimento Sustentavel, inscrita no CPF/MF nº 087.362.768-71, para\n exercer a funcao de gestor do Contrato 125/2025, EMPRESA GONCALV",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 181, DE 28 DE JULHO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "127/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "EMPRESA SAMUEL RIBEIRO – EPP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-desenvolvimento-sustentavel"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 181, DE 28 DE JULHO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Selma Xavier Pontes, Secretaria Municipal de Desenvolvimento Sustentavel, inscrita no CPF/MF nº 087.362.768-71, para\n exercer a funcao de gestor do Contrato 127/2025, EMPRESA SAMUEL ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 184, DE 29 DE JULHO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  7,
+                      "contractNumber":  "123/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Locacao de Imovel - Servico de Acolhimento Institucional para Criancas e Adolescentes (Saica)",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-assistencia-social",
+                      "primaryOrganizationName":  "Secretaria de Assistencia e Desenvolvimento Social",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "assistencia-social",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-assistencia-social"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Assistencia e Desenvolvimento Social"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 184, DE 29 DE JULHO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Virginia Lucia Oliva Cardoso de Morais, Secretaria Municipal de Assistencia e Desenvolvimento Social, inscrita no CPF/MF nº\n 884.170.268-00, para exercer a funcao de gestor do Contra",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "2º TERMO DE PRORROGACAO CONTRATO DE LOCACAO DE IMOVEL Nº 123/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  8,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "LUIZ GUSTTAVO DE ANDRADE E ANDRADE OLIVEIRA PEREIRA",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo contrato de locacao do imovel utilizado para a instalacao da demanda do Servico de Acolhimento Institucional",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-cultura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Secretaria de Cultura",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n2º TERMO DE PRORROGACAO CONTRATO DE LOCACAO DE IMOVEL Nº 123/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: LUIZ GUSTTAVO DE ANDRADE E ANDRADE OLIVEIRA PEREIRA\nOBJETO: Constitui o presente termo contrato de locacao do imovel utilizado para a instalacao da demanda do Servico de Acolhimento Institucional",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

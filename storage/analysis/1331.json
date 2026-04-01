@@ -1,0 +1,155 @@
+﻿{
+    "diaryId":  "1331",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:51",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1150_06075226.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1150_06075226.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 4.610.774,40"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "CONTRATO Nº 020/2026",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "020/2026",
+                      "processNumber":  "014/2026",
+                      "modality":  "",
+                      "contractor":  "COMPANHIA DE PROCESSAMENTO DE DADOS DO ESTADO DE SAO PAULO - PRODESP",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa para a prestacao de servicos de informatica pela CONTRATADA, abrangendo os servicos relativos a cessao de informacoes do banco de dados do DETRAN para o processamento de multas de transito, relacionados na “Planilha de Orcamento Orientativo” (Anexo I) e na “Especificacao de Servicos e Precos” E0251077 (Anexo II)",
+                      "value":  "R$ 225.540,00",
+                      "term":  "27/01/2026 ate 27/01/2027",
+                      "signatureDate":  "27/01/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATO Nº 020/2026\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COMPANHIA DE PROCESSAMENTO DE DADOS DO ESTADO DE SAO PAULO - PRODESP\nCNPJ: XX. 577.929/0001-XX\nPROCESSO ADMINISTRATIVO Nº: 014/2026 – Artigo 75, IX da Lei Federal 14.133/21.\nOBJETO: Contratacao de empresa para a prestacao de servicos de informatica pela CONTRATADA, abrangendo os servicos relativos a cessao de\ninformacoes do banco de dados do DETRAN para o processamento de multas de transito, relacionados na “Planilha de Orcamento Orientativo",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "CONTRATO Nº 026/2026 limpeza urbana durante Operacao Verao Iguape",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "026/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SAMUEL RIBEIRO EPP",
+                      "cnpj":  "",
+                      "object":  "Contratacao, por meio de credenciamento, de empresas para a prestacao de servicos de Limpa 2025/2026, envolvendo varredura manual, coleta de residuos e serviCcos gerais, no municipio",
+                      "value":  "R$ 41.656,80",
+                      "term":  "Periodo de 90 (noventa) dias –03/02/2026 a 02/05/2026.",
+                      "signatureDate":  "03/02/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATO Nº 026/2026 limpeza urbana durante Operacao Verao Iguape\nCONTRATANTE: MUNICIPIO DE IGUAPE de Iguape/SP\nCONTRATADO: SAMUEL RIBEIRO EPP\nOBJETO: Contratacao, por meio de credenciamento, de empresas para a prestacao de servicos de\n\nLimpa 2025/2026, envolvendo varredura manual, coleta de residuos e serviCcos gerais, no municipio\n\nDATA: 03/02/2026\nVALOR: R$ 41.656,80 (quarenta e um mil, seiscentos e cinquenta e seis reais e oitenta centavos)\nVIGENCIA: Periodo de 90 (noventa) dias –03/02/2026 a 02/05/202",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 040/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "040/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "HUNTER COMERCIAL LOCACOES LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacoes de empresa especializada em locacao de maquinas pesadas, caminhoes e equipamentos para execucao e manutencao em atendimento a demanda do departamento de obras e servicos do municipio de Iguape/sp, pelo periodo de 12 (doze) meses, com fornecimento de mao de obra e combustivel PREGAO PRESENCIAL - n°. 083/2023 C",
+                      "value":  "R$ 4.343.577,60",
+                      "term":  "E EXECUCAO: 07/02/2026 a 06/02/2027 inclusive.",
+                      "signatureDate":  "04/02/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 040/2025.\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: HUNTER COMERCIAL LOCACOES LTDA.\nCONTRATO Nº 040/2025 ORIUNDO DA ATA DE REGISTRO Nº 028/2024\nOBJETO: Contratacoes de empresa especializada em locacao de maquinas pesadas, caminhoes e equipamentos para execucao e manutencao em\natendimento a demanda do departamento de obras e servicos do municipio de Iguape/sp, pelo periodo de 12 (doze) meses, com fornecimento de mao\n\nde obra e combustivel PREGAO PRESENCIAL - n°. 083/202",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "11º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 053/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "053/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA-ME",
+                      "cnpj":  "",
+                      "object":  "termo aditivo de prazo ao contrato nº 053/2022, que entre si celebram a prefeitura municipal de iguape e a empresa sul vale c onstrutora ltda- me, cujo objeto refere-se a contratacao de empresa especializada para obra de centro multiuso, localizada na avenida maestro moacir serra s/nº - bairro canto do morro, conforme termo de convenio nº 100813/2022, celebrado entre a secretaria de desenvolvimento regional e a prefeitura de iguape. Tomada de Precos - n°. 009/2022",
+                      "value":  "",
+                      "term":  "E EXECUCAO: Periodo de 6 (seis) meses de 04/02/2026 a 03/08/2026 inclusive.",
+                      "signatureDate":  "03/02/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "11º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 053/2022\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\n\nCONTRATADA: SUL VALE CONSTRUTORA LTDA-ME\n\nCONTRATO N°: 053/2022 C\n\nOBJETO: termo aditivo de prazo ao contrato nº 053/2022, que entre si celebram a prefeitura municipal de iguape e a empresa sul vale c onstrutora ltda-\n\nme, cujo objeto refere-se a contratacao de empresa especializada para obra de centro multiuso, localizada na avenida maestro moacir serra s/nº - bairro\n\ncanto do morro, conforme termo de convenio nº 100813/2022, cel",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

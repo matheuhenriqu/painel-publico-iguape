@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "919",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:56",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_839_24080125.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_839_24080125.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 106.402,27"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE ACRESCIMO E SUPRESSAO AO CONTRATO 021/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "021/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SAMUEL RIBEIRO-EPP CONTRATO N°: 021/2024",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de reforma geral do ESF Itimirim I, localizado na Rodovia Prefeito Casimiro Teixeira, s/n – km 35, Bairro do Retiro – Iguape/SP. TOMADA DE PRECOS Nº 021/2023",
+                      "value":  "R$ 106.402,27",
+                      "term":  "",
+                      "signatureDate":  "20/09/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-camara",
+                      "primaryOrganizationName":  "Camara Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-camara"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Camara Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE ACRESCIMO E SUPRESSAO AO CONTRATO 021/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SAMUEL RIBEIRO-EPP CONTRATO N°: 021/2024\nOBJETO: Contratacao de empresa especializada para obra de reforma geral do ESF Itimirim I, localizado na Rodovia Prefeito Casimiro Teixeira, s/n – km\n35, Bairro do Retiro – Iguape/SP.\nTOMADA DE PRECOS Nº 021/2023\nDATA: 20/09/2024\nVALOR: Acrescimo de servico no valor de R$ 106.402,27(cento e seis mil,quatrocentos e dois reais e vinte e sete centavos) e supressao de serv",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

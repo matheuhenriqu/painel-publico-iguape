@@ -1,0 +1,125 @@
+﻿{
+    "diaryId":  "535",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:05",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/8aa79c098a354991dcaac7ea31226cf4.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/8aa79c098a354991dcaac7ea31226cf4.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 245.244,60"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 047/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "047/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ASSOCIACAO AMIGOS E MORADORES DOS BAIRROS ARATACA E CAPOAVA DO MOMUNA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Generos Alimenticios da Agricultura Familiar e do Empreendedor Familiar Rural, em atendimento ao Programa Nacional de Alimentacao Escolar – PNAE, para alunos da rede de educacao basica publica, verba FNDE/PNAE, durante 12 (doze) meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-fnde"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Fundo Nacional de Desenvolvimento da Educacao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ASSOCIACAO AMIGOS E MORADORES DOS BAIRROS ARATACA E CAPOAVA DO MOMUNA\nCONTRATO N°: 047/2023\nOBJETO: Aquisicao de Generos Alimenticios da Agricultura Familiar e do Empreendedor Familiar Rural, em atendimento ao Programa Nacional de\nAlimentacao Escolar – PNAE, para alunos da rede de educacao basica publica, verba FNDE/PNAE, durante 12 (doze) meses.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CHAMADA PUBLICA Nº 001/2022",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "001/2022",
+                      "modality":  "CHAMADA PUBLICA Nº 001/2022",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 245.244,60",
+                      "term":  "12 (doze) meses – periodo 06/04/2023 a 05/04/2024.",
+                      "signatureDate":  "06/04/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "CHAMADA PUBLICA Nº 001/2022\nDATA: 06/04/2023\nVALOR: Pagara a contratada o valor de R$ 245.244,60 (duzentos e quarenta e cinco mil, duzentos e quarenta e quatro reais e sessenta centavos)\nVIGENCIA: 12 (doze) meses – periodo 06/04/2023 a 05/04/2024.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 048/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "048/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COOPERASOL – COOPERATIVA AGROINDUSTRIAL SOLIDARIA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Generos Alimenticios da Agricultura Familiar e do Empreendedor Familiar Rural, em atendimento ao Programa Nacional de Alimentacao Escolar – PNAE, para alunos da rede de educacao basica publica, verba FNDE/PNAE, durante 12 (doze) meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-fnde"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Fundo Nacional de Desenvolvimento da Educacao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COOPERASOL – COOPERATIVA AGROINDUSTRIAL SOLIDARIA\nCONTRATO N°: 048/2023\nOBJETO: Aquisicao de Generos Alimenticios da Agricultura Familiar e do Empreendedor Familiar Rural, em atendimento ao Programa Nacional de\nAlimentacao Escolar – PNAE, para alunos da rede de educacao basica publica, verba FNDE/PNAE, durante 12 (doze) meses.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

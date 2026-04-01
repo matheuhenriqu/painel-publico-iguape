@@ -1,0 +1,158 @@
+﻿{
+    "diaryId":  "367",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:32",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/af8ac7a017a7360ce3994f4c7dc8e897.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/af8ac7a017a7360ce3994f4c7dc8e897.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 67.477,50"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "7º TERMO ADITIVO AO CONTRATO Nº 019/2019",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "019/2019",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ENGETEC ENGENHARIA EIRELI - ME",
+                      "cnpj":  "",
+                      "object":  "Constitui objeto do presente termo a prorrogacao da vigencia do contrato supra mencionado, pelo periodo de mais 90 (noventa) dias, contados de seu vencimento, no que se refere a Contratacao de Empresa Especializada para Execucao das Obras de Requalificacao da Orla do Valo Grande “FASE III” Convenio nº 167/2018 – DADETUR 349/2018, com fornecimento de equipamentos, material e mao de obra",
+                      "value":  "",
+                      "term":  "do contrato supra mencionado, pelo periodo de mais 90",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "7º TERMO ADITIVO AO CONTRATO Nº 019/2019\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ENGETEC ENGENHARIA EIRELI - ME\nOBJETO: Constitui objeto do presente termo a prorrogacao da vigencia do contrato supra mencionado, pelo periodo de mais 90\n(noventa) dias, contados de seu vencimento, no que se refere a Contratacao de Empresa Especializada para Execucao das\nObras de Requalificacao da Orla do Valo Grande “FASE III” Convenio nº 167/2018 – DADETUR 349/2018, com fornecimento de\nequipamentos, material e mao de obra.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "5º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 064/2020",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "064/2020",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para implantacao do Programa de coleta seletiva no Municipio de Iguape 1º FASE – Construcao de 01 (um) Galpao de Triagem, conforme contrato nº 381/2019, Celebrado entre a Prefeitura de Iguape e FEHIDRO- Fundo Estadual de Recursos Hidricos",
+                      "value":  "",
+                      "term":  "90 (noventa) dias - periodo: 10/09/2022 a 09/12/2022 e para execucao – periodo: 11/08/2022 a 09/11/2022",
+                      "signatureDate":  "10/08/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "5º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 064/2020\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU\nCONTRATO N°: 064/2020\nOBJETO: Contratacao de Empresa Especializada para implantacao do Programa de coleta seletiva no Municipio de Iguape 1º FASE –\nConstrucao de 01 (um) Galpao de Triagem, conforme contrato nº 381/2019, Celebrado entre a Prefeitura de Iguape e FEHIDRO- Fundo\nEstadual de Recursos Hidricos.\nDATA: 10/08/2022\nTomada de Precos: 006/2020\nVigencia: 90 (noventa) dias - p",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:094/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "4/2022",
+                      "processNumber":  "049/2022",
+                      "modality":  "Pregao Presencial n°. 049/2022",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de agua mineral para atender as diversas Secretarias da Prefeitura Municipal de",
+                      "value":  "R$ 8.250,00",
+                      "term":  "09/08/2022 a 08/08/2023",
+                      "signatureDate":  "09/08/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "federal-agu",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:094/2022\nOBJETO: Registro de Precos para aquisicao de agua mineral para atender as diversas Secretarias da Prefeitura Municipal de\nIguape, pelo periodo de 12 (doze) meses.\nPregao Presencial n°. 049/2022\nDATA: 09/08/2022\nVIGENCIA: 09/08/2022 a 08/08/2023\nVALOR: R$ 8.250,00 (oito mil, duzentos e cinquenta reais).",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:095/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "5/2022",
+                      "processNumber":  "049/2022",
+                      "modality":  "Pregao Presencial n°. 049/2022",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de agua mineral para atender as diversas Secretarias da Prefeitura Municipal de",
+                      "value":  "R$ 59.227,50",
+                      "term":  "09/08/2022 a 08/08/2023",
+                      "signatureDate":  "09/08/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "federal-agu",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:095/2022\nOBJETO: Registro de Precos para aquisicao de agua mineral para atender as diversas Secretarias da Prefeitura Municipal de\nIguape, pelo periodo de 12 (doze) meses.\nPregao Presencial n°. 049/2022\nDATA: 09/08/2022\nVIGENCIA: 09/08/2022 a 08/08/2023\nVALOR: R$ 59.227,50 (cinquenta e nove mil, duzentos e vinte e sete reais e cinquenta centavos).",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  }
+              ]
+}

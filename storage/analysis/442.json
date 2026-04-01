@@ -1,0 +1,91 @@
+﻿{
+    "diaryId":  "442",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:21",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/aa1932e2bacfe9ba6f7c41f4fcace04f.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/aa1932e2bacfe9ba6f7c41f4fcace04f.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE LICITACAO - PREGAO PRESENCIAL",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "068/2022",
+                      "modality":  "PREGAO PRESENCIAL nº. 068/2022",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES PARA AQUISICAO FUTURAS DE MATERIAIS DE ACABAMENTO, PINTURA, ELETRICA, HIDRAULICA E ALVENARIA, PARA MANUTENCAO DOS PREDIOS DA PREFEITURA MUNICIPAL DE IGUAPE/SP. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013, Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "AVISO DE LICITACAO\n PREGAO PRESENCIAL\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira,\nIguape/SP, CEP 11.920-000, o PREGAO PRESENCIAL nº. 068/2022, do tipo MENOR PRECO POR LOTE conforme especificacoes\ndetalhadas no Edital.\n\nOBJETO: REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES PARA AQUISICAO FUTURAS DE MATERIAIS DE\nACABAMENTO, PINTURA, ELETRICA, HIDRAULICA E ALVENARIA, PARA MANUTENCAO DOS PREDIOS DA PREFEITURA\nMUNICIPAL DE IGUAPE/S",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE LICITACAO - PREGAO PRESENCIAL",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "069/2022",
+                      "modality":  "PREGAO PRESENCIAL nº. 069/2022",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA COLETA, TRANSPORTE, ARMAZENAMENTO, TRATAMENTO E DESTINACAO FINAL DO LIXO HOSPITALAR DO MUNICIPIO DE IGUAPE. LEGISLACAO: Lei Federal nº 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, ,Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "AVISO DE LICITACAO\n PREGAO PRESENCIAL\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira,\nIguape/SP, CEP 11.920-000, o PREGAO PRESENCIAL nº. 069/2022, do tipo MENOR PRECO GLOBAL conforme especificacoes\ndetalhadas no Edital.\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA COLETA, TRANSPORTE, ARMAZENAMENTO, TRATAMENTO E\nDESTINACAO FINAL DO LIXO HOSPITALAR DO MUNICIPIO DE IGUAPE.\nLEGISLACAO: Lei Federal nº 8.666/93, de 21 de junho de 1993, ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

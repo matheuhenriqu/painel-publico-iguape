@@ -1,0 +1,53 @@
+﻿{
+    "diaryId":  "896",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:59",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_818_22072535.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_818_22072535.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 940.637,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO D PRORROGACAO AO CONTRATO 052/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "052/2024",
+                      "processNumber":  "031/2023",
+                      "modality":  "Pregao Presencial n°. 031/2023",
+                      "contractor":  "AUTO POSTO PORTO IGUAPE LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicoes de combustiveis para atender diversas Secretarias desta Prefeitura de Iguape/SP, pelo periodo de 03 (tres) meses. Item 1 - Gasolina Comum – R$ 5,94 o litro- Item 2 - Diesel S-10 – R$ 6,44 o litro Item 3 - Diesel S-500 – R$ 5.45 o litro – Item 4 - Etanol – R$ 3,98 o litro. Pregao Presencial n°. 031/2023",
+                      "value":  "R$ 940.637,00",
+                      "term":  "27/08/2024 a 27/10/2024.",
+                      "signatureDate":  "16/08/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO D PRORROGACAO AO CONTRATO 052/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: AUTO POSTO PORTO IGUAPE LTDA\nCONTRATO Nº 052/2024 – ORIUNDO DA ATA DE REGISTRO DE PRECOS N°: 062/2023.\nOBJETO:,Aquisicoes de combustiveis para atender diversas Secretarias desta Prefeitura de Iguape/SP, pelo periodo de 03 (tres) meses.\nItem 1 - Gasolina Comum – R$ 5,94 o litro- Item 2 - Diesel S-10 – R$ 6,44 o litro Item 3 - Diesel S-500 – R$ 5.45 o litro – Item 4 - Etanol – R$ 3,98 o litro.\nPregao Presencial n°. 031/20",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

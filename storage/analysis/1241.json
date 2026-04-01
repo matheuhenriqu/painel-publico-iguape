@@ -1,0 +1,127 @@
+﻿{
+    "diaryId":  "1241",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:09",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1087_23071343.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1087_23071343.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 274, DE 21 DE OUTUBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "166/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa COPA S.A. COMPANHIA DE OBRAS PARIQUERA- ACU",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 274, DE 21 DE OUTUBRO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas pelo\nartigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Ricardo de Oliveira Ragni de Castro Leite, Secretario Municipal de Infraestrutura Urbana e Obras, inscrito no CPF/MF nº.\nArt. 2º - 293.XXX.XXX-06, para exercer a funcao de gestor",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 276, DE 21 DE OUTUBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "165/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "contratacao de palestrante para formacao dos profissionais de educacao. Sera no dia 16/10/2025, no centro de eventos, em comemoracao ao dia dos professores. e ficara vigente por 30 dias (trinta dias) a partir da assinatura do contrato",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 276, DE 21 DE OUTUBRO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas pelo\nartigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Luciano Pereira Viana, Secretario Municipal de Educacao, inscrito no CPF/MF nº 131.XXX.XXX-54, para exercer a funcao de\nArt. 2º - gestor do contrato 165/2025, contratacao de pales",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 277, DE 21 DE OUTUBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "165/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 277, DE 21 DE OUTUBRO DE 2025\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas pelo\nartigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Eliene Dias Ferreira, Vice-Diretora, inscrita no CPF/MF nº 257.XXX.XXX-17, para exercer a funcao de fiscal do contrato 165/2025,\nArt. 2º - contratacao de palestrante para formacao",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

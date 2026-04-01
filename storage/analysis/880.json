@@ -1,0 +1,89 @@
+﻿{
+    "diaryId":  "880",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:01",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_804_30074820.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_804_30074820.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  11,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 202",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "113/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Empresa VALDECI ALVES DE ALMEIDA 26175929870",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 202\n DE 29 DE JULHO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Fernando Joao Carlos da Silva Noidoif, Diretor de Gestao e Planejamento, titular da Cedula de Identidade RG nº 45.760.408-6\n SSP/SP, inscrito no CPF/MF nº. 387.363.538-09, para exe",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "362/2024",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 8/2024 - EDITAL Nº: 15/2024",
+                      "contractor":  "SOLDA ACO COMERCIAL LTDA. - EPP",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA FORNECIMENTO DE OXIGENIO MEDICINAL, COM CESSAO EM COMODATO DE CILINDROS PELO PERIODO DE 12 (DOZE) MESES",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 362/2024\nREGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA FORNECIMENTO DE OXIGENIO MEDICINAL, COM\nCESSAO EM COMODATO DE CILINDROS PELO PERIODO DE 12 (DOZE) MESES.\nPR-E - PREGAO ELETRONICO - 8/2024 - EDITAL Nº: 15/2024\nINTERESSADOS: SECRETARIA MUNICIPAL DE SAUDE .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\n\nitens abaixo.\n\nFORNECEDOR: SOLDA ACO COMERCIAL LTDA. - EPP\nItem 1 - OXIGENIO MEDI",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

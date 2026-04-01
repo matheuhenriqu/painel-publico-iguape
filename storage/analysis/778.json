@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "778",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:15",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/20240313_2024-03-13_diariooficialedicao717_16014424.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/20240313_2024-03-13_diariooficialedicao717_16014424.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 417.566,20"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 035/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "035/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "EPCCO – ENGENHARIA DE PROJETOS, CONSULTORIA E CONSTRUCOES LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de pavimentacao e obras complementares de trecho da Rua Maria das Dores Becherer Costa, localizada no Bairro Jardim Primavera, neste Municipio de Iguape/SP, conforme termo de convenio nº 103368/2023, celebrado entre o Estado de Sao Paulo, atraves da Secretaria de Governo e relacoes institucionais e o Municipio de Iguape. TOMADA DE PRECO N°. 024/2023",
+                      "value":  "R$ 417.566,20",
+                      "term":  "06 (seis) meses, contados da data indicada na Autorizacao de Inicio dos Servicos.",
+                      "signatureDate":  "11/03/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "estadual-governo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Governo e Relacoes Institucionais"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\n\nCONTRATADA: EPCCO – ENGENHARIA DE PROJETOS, CONSULTORIA E CONSTRUCOES LTDA\n C\nCONTRATO N°: 035/2024\n\nOBJETO: Contratacao de empresa especializada para obra de pavimentacao e obras complementares de trecho da Rua Maria das Dores Becherer\n\nCosta, localizada no Bairro Jardim Primavera, neste Municipio de Iguape/SP, conforme termo de convenio nº 103368/2023, celebrado entre o Estado de\n\nSao Paulo, atraves da Secretaria de Governo e relacoes institucionais e o Municipio de Igua",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

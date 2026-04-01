@@ -1,0 +1,90 @@
+﻿{
+    "diaryId":  "929",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:55",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_848_08073402.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_848_08073402.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  9,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 37.822,60"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO AO CONTRATO: 049/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  9,
+                      "contractNumber":  "049/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COFARP – COOPERATIVA DOS AGRICULTORES FAMILIARES DE PIEDADE",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Generos Alimenticios da Agricultura Familiar e do Empreendedor Familiar Rural, em atendimento ao Programa Nacional de Alimentacao Escolar – PNAE, para alunos da rede de educacao basica publica, verba FNDE/PNAE",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-fnde"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Fundo Nacional de Desenvolvimento da Educacao"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO AO CONTRATO: 049/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COFARP – COOPERATIVA DOS AGRICULTORES FAMILIARES DE PIEDADE\nCONTRATO N°: 049/2023\nOBJETO: Aquisicao de Generos Alimenticios da Agricultura Familiar e do Empreendedor Familiar Rural, em atendimento ao Programa Nacional de\nAlimentacao Escolar – PNAE, para alunos da rede de educacao basica publica, verba FNDE/PNAE.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CHAMADA PUBLICA Nº 001/2022",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  9,
+                      "contractNumber":  "",
+                      "processNumber":  "001/2022",
+                      "modality":  "CHAMADA PUBLICA Nº 001/2022",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 37.822,60",
+                      "term":  "",
+                      "signatureDate":  "03/10/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-camara",
+                      "primaryOrganizationName":  "Camara Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-camara"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Camara Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "CHAMADA PUBLICA Nº 001/2022\nDATA: 03/10/2024\nOnde se le:\nVALOR: R$ 37.822,60 (trinta e sete mil, oitocentos e vinte e dois reais e sessenta centavos), no percentual de 10,909863950483%\nLeia-se:\nVALOR: R$ 37.813,40 (trinta e sete mil, oitocentos e treze reais e quarenta centavos), no percentual de 10,909863950483%\n\n CADERNO LEGISLATIVO\n\n ADMINISTRACAO\n\n PORTARIA\n\n PORTARIA Nº 33 DE 07 DE OUTUBRO DE 2024.\n\n DISPOE SOBRE A NOMEACAO DE FUNCIONARIO RESPONSAVEL PELO SETOR DE\n COMPRAS DA CAMARA MUNICIPAL DE IGUAPE.\n\n EDUA",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

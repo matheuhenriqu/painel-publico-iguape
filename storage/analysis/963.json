@@ -1,0 +1,89 @@
+﻿{
+    "diaryId":  "963",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:52",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_872_21065827.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_872_21065827.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  8,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 4.734,31"
+                },
+    "items":  [
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 356/2015",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MARIALDO AUGUSTO CORDEIRO DE SOUZA",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao do “Cartorio Eleitoral da 51ª Zona do “Municipio de Iguape”",
+                      "value":  "R$ 4.734,31",
+                      "term":  "",
+                      "signatureDate":  "19/11/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nTERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 356/2015\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: MARIALDO AUGUSTO CORDEIRO DE SOUZA\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao do “Cartorio Eleitoral da 51ª Zona do\n“Municipio de Iguape”.\nDATA: 19/11/2024\nVALOR: R$ 4.734,31 (quatro mil, setecentos e trinta e quatro reais e trinta e um centavos) mensais.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO 008/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "008/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de reforma e ampliacao da Casa da Crianca, localizada na rua k, nº 180, bairro jardim primavera, neste Municipio de Iguape/SP. TOMADA DE PRECO – Nº 018/2023",
+                      "value":  "",
+                      "term":  "Vigencia e Execucao:-90 (noventa) dias – Periodo de 16/11/2024 a 13/02/2025 inclusive.",
+                      "signatureDate":  "13/11/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-camara",
+                      "primaryOrganizationName":  "Camara Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-camara"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Camara Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO 008/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA\nCONTRATO N°: 008/2024\nOBJETO: Contratacao de empresa especializada para obra de reforma e ampliacao da Casa da Crianca, localizada na rua k, nº 180, bairro jardim\nprimavera, neste Municipio de Iguape/SP.\nTOMADA DE PRECO – Nº 018/2023\nData:13/11/2024\nVIGENCIA:Vigencia e Execucao:-90 (noventa) dias – Periodo de 16/11/2024 a 13/02/2025 inclusive.\n\n CADERNO LEGISLATIVO\n\n GABINETE D",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

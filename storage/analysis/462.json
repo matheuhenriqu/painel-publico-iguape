@@ -1,0 +1,168 @@
+﻿{
+    "diaryId":  "462",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:17",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/2d081c40642d7f007c003e703f6b9ed7.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/2d081c40642d7f007c003e703f6b9ed7.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 4,66"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 158/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "158/2022",
+                      "processNumber":  "054/2022",
+                      "modality":  "Pregao Presencial n°. 054/2022",
+                      "contractor":  "REGIS PAPER COMERCIAL LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de materiais permanentes (mobiliarios e equipamentos) em atendimento a Secretaria Municipal de Assistencia e Desenvolvimento Social, proveniente da Emenda Parlamentar nº 202037170008. Pregao Presencial n°. 054/2022",
+                      "value":  "",
+                      "term":  "Permanecera valido por mais 60 (sessenta) dias de 25/12/2022 a 23/02/2023.",
+                      "signatureDate":  "23/12/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-assistencia-social",
+                      "primaryOrganizationName":  "Secretaria de Assistencia e Desenvolvimento Social",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "assistencia-social",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-assistencia-social"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Assistencia e Desenvolvimento Social"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 158/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: REGIS PAPER COMERCIAL LTDA\nCONTRATO N°: 158/2022\nOBJETO: Aquisicao de materiais permanentes (mobiliarios e equipamentos) em atendimento a Secretaria Municipal de Assistencia e\nDesenvolvimento Social, proveniente da Emenda Parlamentar nº 202037170008.\nPregao Presencial n°. 054/2022\nData: 23/12/2022\nVIGENCIA: Permanecera valido por mais 60 (sessenta) dias de 25/12/2022 a 23/02/2023.",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 168/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "168/2022",
+                      "processNumber":  "057/2022",
+                      "modality":  "Pregao Presencial n°. 057/2022",
+                      "contractor":  "REGIS PAPER COMERCIAL LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de materiais permanentes (mobiliarios e eletrodomesticos) em atendimento a Secretaria Municipal de Assistencia e Desenvolvimento Social. Pregao Presencial n°. 057/2022",
+                      "value":  "",
+                      "term":  "Permanecera valido por mais 60 (sessenta) dias de 01/01/2023 a 02/03/2023",
+                      "signatureDate":  "23/12/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-assistencia-social",
+                      "primaryOrganizationName":  "Secretaria de Assistencia e Desenvolvimento Social",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "assistencia-social",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-assistencia-social"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Assistencia e Desenvolvimento Social"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 168/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: REGIS PAPER COMERCIAL LTDA\nCONTRATO N°: 168/2022\nOBJETO: Aquisicao de materiais permanentes (mobiliarios e eletrodomesticos) em atendimento a Secretaria Municipal de Assistencia\ne Desenvolvimento Social.\nPregao Presencial n°. 057/2022\nData: 23/12/2022\nVIGENCIA: Permanecera valido por mais 60 (sessenta) dias de 01/01/2023 a 02/03/2023",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE CANCELAMENTO DOS ITENS 21 E 22",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "R\u0026C DISTRIBUIDORA DE PRODUTOS FARMACEUTICOS",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE CANCELAMENTO DOS ITENS 21 E 22\nREGISTRO DE PRECOS Nº 062/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: R\u0026C DISTRIBUIDORA DE PRODUTOS FARMACEUTICOS",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 062/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "062/2022",
+                      "processNumber":  "023/2022",
+                      "modality":  "Pregao Presencial n°. 023/2022",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Ficam CANCELADOS da Ata de Registro os seguintes itens: 021 – Carbocisteina Ped 50 mg/m l– fr – qtde 1700 - Valor Unitario – R$ 4,66 (quatro reais e sessenta e seis centavos) - Valor Total – R$ 7.922,00 (sete mil, novecentos e vinte e dois reais), 022- Carbocisteina Ped – 20 mg/ml - qtde 750 - Valor Unitario – R$ 3,60 (tres reais e sessenta centavos) - Valor Total – R$ 2.700,00 (dois mi e setecentos reais). Pregao Presencial n°. 023/2022",
+                      "value":  "R$ 4,66",
+                      "term":  "",
+                      "signatureDate":  "23/12/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 062/2022\nOBJETO: Ficam CANCELADOS da Ata de Registro os seguintes itens: 021 – Carbocisteina Ped 50 mg/m l– fr – qtde 1700 - Valor\nUnitario – R$ 4,66 (quatro reais e sessenta e seis centavos) - Valor Total – R$ 7.922,00 (sete mil, novecentos e vinte e dois reais), 022-\nCarbocisteina Ped – 20 mg/ml - qtde 750 - Valor Unitario – R$ 3,60 (tres reais e sessenta centavos) - Valor Total – R$ 2.700,00 (dois\nmi e setecentos reais).\nPregao Presencial n°. 023/2022\nDATA: 23/12/2022",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  }
+              ]
+}

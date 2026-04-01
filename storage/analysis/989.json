@@ -1,0 +1,130 @@
+﻿{
+    "diaryId":  "989",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:49",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_895_31071225.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_895_31071225.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 167.619,60"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE CANCELAMENTO DE ITEM-ATA 047/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COMERCIAL CIRURGICA RIOCLARENSE LTDA",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE CANCELAMENTO DE ITEM-ATA 047/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: COMERCIAL CIRURGICA RIOCLARENSE LTDA",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:047/2024.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "7/2024",
+                      "processNumber":  "084/2023",
+                      "modality":  "Pregao Presencial n°. 084/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo de 12 (doze) meses. Pregao Presencial n°. 084/2023",
+                      "value":  "R$ 010",
+                      "term":  "",
+                      "signatureDate":  "30/12/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:047/2024.\nOBJETO: Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo\nperiodo de 12 (doze) meses.\nPregao Presencial n°. 084/2023\nData: 30/12/2024\nItem Cancelado – Item – 03 – Fenitoina-100 mg, cx c 5 Bl x, 20 Cp, Marca Teuto. Valor Unitario R$ 010 centavos. Saldo – 28.000 unid\nValor Total – R$ 2.800,00 (dois mil e oitocentos reais)",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 043/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "043/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "L. AUGUSTA F. PEREIRA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada em servicos de arbitragem para eventos esportivos de futebol e futsal neste municipio de Iguape/SP CARTA CONVITE Nº: 001/2023",
+                      "value":  "R$ 167.609,60",
+                      "term":  "24/03/2025 a 23/03/2026 (inclusive).",
+                      "signatureDate":  "26/12/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-desenvolvimento-sustentavel"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 043/2023\nCONTRATADA: L. AUGUSTA F. PEREIRA\nCONTRATO N°: 043/2023\nOBJETO: Contratacao de empresa especializada em servicos de arbitragem para eventos esportivos de futebol e futsal neste municipio de Iguape/SP\nCARTA CONVITE Nº: 001/2023\nDATA: 26/12/2024\nVIGENCIA: 24/03/2025 a 23/03/2026 (inclusive).\nVALOR: Pagara o valor de R$ 167.609,60 (cento e sessenta e sete mil, seiscentos e nove reais e sessenta centavos).\n\n DESENVOLVIMENTO SUSTENTAVEL\n\n DECRETO\n\n DECRETO Nº 3.214,\n ",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,190 @@
+﻿{
+    "diaryId":  "600",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:51",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/9c9c7bd455bab1d2a97da5f559241abd.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/9c9c7bd455bab1d2a97da5f559241abd.pdf",
+    "keywords":  [
+                     "contrato",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  5,
+                    "totalValue":  "R$ 263.500,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 209",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "111/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Empresa TRANSPELICANO TRANSPORTES E TURISMO EIRELI – EPP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 209\n DE 11 DE JULHO DE 2023\n\n DESIGNA FISCAL E GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Celio Paulo de Lima Junior, titular da Cedula de Identidade RG.nº 13.213.790-2 SSPS, inscrito no CPF/MF nº 192.921.628-\n 96, para exercer a funcao de Fiscal e Gestor do Contrato 11",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 067/2023.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "067/2023",
+                      "processNumber":  "037/2023",
+                      "modality":  "Pregao Presencial n°. 037/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para contratacao de empresa especializada em Locacao de Banheiros e Escritorio Container, a serem utilizados nos eventos do municipio de Iguape/SP Pregao Presencial n°. 037/2023",
+                      "value":  "R$ 76.000,00",
+                      "term":  "10/07/2023 a 08/09/2023 - 60 (sessenta) dias",
+                      "signatureDate":  "10/07/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 067/2023.\nOBJETO: Registro de Precos para contratacao de empresa especializada em Locacao de Banheiros e Escritorio Container, a serem utilizados nos eventos\ndo municipio de Iguape/SP\nPregao Presencial n°. 037/2023\nDATA: 10/07/2023\nVIGENCIA: 10/07/2023 a 08/09/2023 - 60 (sessenta) dias\nVALOR: R$ 76.000,00 (setenta e seis mil reais)",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 068/2023.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "068/2023",
+                      "processNumber":  "037/2023",
+                      "modality":  "Pregao Presencial n°. 037/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para contratacao de empresa especializada em Locacao de Banheiros e Escritorio Container, a serem utilizados nos eventos do municipio de Iguape/SP Pregao Presencial n°. 037/2023",
+                      "value":  "R$ 76.400,00",
+                      "term":  "10/07/2023 a 08/09/2023 - 60 (sessenta) dias",
+                      "signatureDate":  "10/07/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 068/2023.\nOBJETO: Registro de Precos para contratacao de empresa especializada em Locacao de Banheiros e Escritorio Container, a serem utilizados nos eventos\ndo municipio de Iguape/SP\nPregao Presencial n°. 037/2023\nDATA: 10/07/2023\nVIGENCIA: 10/07/2023 a 08/09/2023 - 60 (sessenta) dias\nVALOR: R$ 76.400,00 (setenta e seis mil e quatrocentos reais)",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 069/2023.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "069/2023",
+                      "processNumber":  "037/2023",
+                      "modality":  "Pregao Presencial n°. 037/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para contratacao de empresa especializada em Locacao de Banheiros e Escritorio Container, a serem utilizados nos eventos do municipio de Iguape/SP Pregao Presencial n°. 037/2023",
+                      "value":  "R$ 76.000,00",
+                      "term":  "10/07/2023 a 08/09/2023 - 60 (sessenta) dias",
+                      "signatureDate":  "10/07/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 069/2023.\nOBJETO: Registro de Precos para contratacao de empresa especializada em Locacao de Banheiros e Escritorio Container, a serem utilizados nos eventos\ndo municipio de Iguape/SP\nPregao Presencial n°. 037/2023\nDATA: 10/07/2023\nVIGENCIA: 10/07/2023 a 08/09/2023 - 60 (sessenta) dias\nVALOR: R$ 76.000,00 (setenta e seis mil reais)",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 111/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "111/2023",
+                      "processNumber":  "44/2022",
+                      "modality":  "PREGAO PRESENCIAL Nº 44/2022",
+                      "contractor":  "TRANSPELICANO TRANSPORTES E TURISMO EIRELI-EPP",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para locacao de onibus, micro onibus para atender as demandas do Gabinete desta municipalidade, pelo periodo de 03 (tres) meses PREGAO PRESENCIAL Nº 44/2022",
+                      "value":  "R$ 35.100,00",
+                      "term":  "Permanecera valido por um periodo de 03 (tres) meses – 11/07/2023 a 08/10/2023",
+                      "signatureDate":  "11/07/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: TRANSPELICANO TRANSPORTES E TURISMO EIRELI-EPP\nCONTRATO N°: 111/2023\nOBJETO: Contratacao de empresa especializada para locacao de onibus, micro onibus para atender as demandas do Gabinete desta municipalidade,\npelo periodo de 03 (tres) meses\nPREGAO PRESENCIAL Nº 44/2022\nDATA: 11/07/2023\nVALOR: Pagara a contratada o valor de R$ 35.100,00 (trinta e cinco mil e cem reais)\nVIGENCIA: Permanecera valido por um periodo de 03 (tres) meses – 11/07/2023 a 08/10/2023",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

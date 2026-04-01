@@ -1,0 +1,89 @@
+﻿{
+    "diaryId":  "987",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:49",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_893_27071049.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_893_27071049.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  37,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 20.076,89"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 096/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  29,
+                      "contractNumber":  "096/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SW SPORTS COMERCIO E SERVICOS LTDA de Iguape",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para fornecimento de servicos de profissionais da area esportiva em atendimento mensal de 923931//2021-celebrado entre o Ministerio da Cidadania – Secretaria Especial de Esportes e a Prefeitura Municipal",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE ao convenio\nCONTRATADA: SW SPORTS COMERCIO E SERVICOS LTDA de Iguape.\nCONTRATO N°: 096/2023\nOBJETO: Contratacao de Empresa especializada para fornecimento de servicos de profissionais da area esportiva em atendimento mensal de\n923931//2021-celebrado entre o Ministerio da Cidadania – Secretaria Especial de Esportes e a Prefeitura Municipal",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO Nº 002/2023",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  29,
+                      "contractNumber":  "",
+                      "processNumber":  "002/2023",
+                      "modality":  "PREGAO ELETRONICO Nº 002/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 20.076,89",
+                      "term":  "Permanecera vigente pelo periodo de 05 (cinco) meses, periodo de 20/12/2024 a 19/05/2025.",
+                      "signatureDate":  "19/12/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO Nº 002/2023\nDATA: 19/12/2024\nVALOR: O valor do ajuste e de R$ 100.384,45 (cem mil, trezentos e oitenta e quatro reais e quarenta e cinco centavos), perfazendo o valor\nR$ 20.076,89 (vinte mil, setenta e seis reais e oitenta e nove centavos)\nVIGENCIA: Permanecera vigente pelo periodo de 05 (cinco) meses, periodo de 20/12/2024 a 19/05/2025.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

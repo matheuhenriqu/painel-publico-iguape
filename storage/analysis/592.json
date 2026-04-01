@@ -1,0 +1,259 @@
+﻿{
+    "diaryId":  "592",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:53",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/0462bf7856dc3b7da60b603fcc338520.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/0462bf7856dc3b7da60b603fcc338520.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  7,
+                    "totalValue":  "R$ 4.600,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 202",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "107/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa VF ALVES DE SOUZA OLIVEIRA REPRESENTACOES",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 202\n DE 29 JUNHO DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Simone Silva de Fontes, Diretor Tecnico do Centro de Convivencia do Idoso, titular da Cedula de Identidade RG nº 24.519.087-\n 9 SSP/SP, inscrita no CPF/MF nº 157.723.248-88, para exer",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 101/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "101/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ALTERNATVA COMERCIAL TEXTIL LTDA-ME",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa para fornecimento de uniformes, para atender o convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de Esportes e a Prefeitura Muicipal de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ALTERNATVA COMERCIAL TEXTIL LTDA-ME\nCONTRATO N°: 101/2023\nOBJETO: Contratacao de Empresa para fornecimento de uniformes, para atender o convenio nº 923931/2021 celebrado entre o Ministerio da\nCidadania Secretaria Especial de Esportes e a Prefeitura Muicipal de Iguape/SP.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO Nº 004/2023",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "004/2023",
+                      "modality":  "PREGAO ELETRONICO Nº 004/2023",
+                      "contractor":  "o valor de R$ 4.600,00 (quatro mil e seiscentos reais)",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 4.600,00",
+                      "term":  "permanecera vigente pelo periodo de 90 (noventa) dias – 28/06/2023 a 26/09/2023.",
+                      "signatureDate":  "27/06/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO Nº 004/2023\nDATA: 27/06/2023\nVALOR: Pagara a contratada o valor de R$ 4.600,00 (quatro mil e seiscentos reais)\nVIGENCIA: permanecera vigente pelo periodo de 90 (noventa) dias – 28/06/2023 a 26/09/2023.",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 102/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "102/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "DIAS MELLO LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa para fornecimento de uniformes, para atender o convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de Esportes e a Prefeitura Muicipal de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: DIAS MELLO LTDA\nCONTRATO N°: 102/2023\nOBJETO: Contratacao de Empresa para fornecimento de uniformes, para atender o convenio nº 923931/2021 celebrado entre o Ministerio da\nCidadania Secretaria Especial de Esportes e a Prefeitura Muicipal de Iguape/SP.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 103/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "103/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "M TESTA CONFECCAO - ME",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa para fornecimento de uniformes, para atender o convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de Esportes e a Prefeitura Muicipal de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: M TESTA CONFECCAO - ME\nCONTRATO N°: 103/2023\nOBJETO: Contratacao de Empresa para fornecimento de uniformes, para atender o convenio nº 923931/2021 celebrado entre o Ministerio da\nCidadania Secretaria Especial de Esportes e a Prefeitura Muicipal de Iguape/SP.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 104/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "104/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "REGIS AUGUSTO PIANI - ME",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa para fornecimento de uniformes, para atender o convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de Esportes e a Prefeitura Muicipal de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: REGIS AUGUSTO PIANI - ME\nCONTRATO N°: 104/2023\nOBJETO: Contratacao de Empresa para fornecimento de uniformes, para atender o convenio nº 923931/2021 celebrado entre o Ministerio da\nCidadania Secretaria Especial de Esportes e a Prefeitura Muicipal de Iguape/SP.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 105/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "105/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para obra de pavimentacao e obras complementares de vias do bairro do Rocio e Jardim",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU\nCONTRATO N°: 105/2023\nOBJETO: Contratacao de Empresa Especializada para obra de pavimentacao e obras complementares de vias do bairro do Rocio e Jardim",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

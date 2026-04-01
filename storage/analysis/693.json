@@ -1,0 +1,89 @@
+﻿{
+    "diaryId":  "693",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:34",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/2363552bd2341b5cd6df2f5472e64814.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/2363552bd2341b5cd6df2f5472e64814.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  12,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 20.160,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "Iguape, 21 de novembro de 2023.",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "943/2023",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "34.028.316/0001-03",
+                      "object":  "",
+                      "value":  "R$20.160,00",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n Iguape, 21 de novembro de 2023.\n\n Processo nº 943/2023\n DESPACHO DE RATIFICACAO\n\n Tomando ciencia da justificativa oriunda da origem e do conteudo do procedimento, RATIFICO a contratacao por INEXIGIBILIDADE DE\nLICITACAO da empresa EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS, Inscrita no CNPJ: 34.028.316/0001-03, para contratacao da\nEmpresa Brasileira de Correios e Telegrafos, agencia de Correios de Iguape, para elaboracao /confeccao do Selo /Carimbo Comemorativo de 485\nanos do Municipio, COM FUNDAMENTO NO",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "904/2023",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE ASSENTAMENTO DE GUIA PRE MOLDADA, REASSENTAMENTO DE PAVIMENTO INTERTRAVADO REAPROVEITADO E CONFECCAO DE SARJETA E SARJETOES, LOCALIZADO NA RUA DENOMINADA TUCANO, BAIRRO DO ROCIO, NESTE MUNICIPIO DE IGUAPE. CO-O - CONVITE / OBRAS - 11/2023 - EDITAL Nº: 95/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 904/2023\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE ASSENTAMENTO DE GUIA PRE MOLDADA, REASSENTAMENTO DE\nPAVIMENTO INTERTRAVADO REAPROVEITADO E CONFECCAO DE SARJETA E SARJETOES, LOCALIZADO NA RUA DENOMINADA\nTUCANO, BAIRRO DO ROCIO, NESTE MUNICIPIO DE IGUAPE.\nCO-O - CONVITE / OBRAS - 11/2023 - EDITAL Nº: 95/2023",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

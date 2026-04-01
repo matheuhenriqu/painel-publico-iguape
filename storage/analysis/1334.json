@@ -1,0 +1,132 @@
+﻿{
+    "diaryId":  "1334",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:51",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1153_11074410.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1153_11074410.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade",
+                     "rescisao"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 125.000,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 29/2026",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "29/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para execucao de servicos de pavimentacao intertravada reutilizada com blocos sextavados de concreto (espessura 8cm), incluindo execucao de base em brita graduada com 0,10 m de espessura, guias, sarjetas e sarjetoes tipo PMSP, na rua Lais Carneiro Muniz, localizada no bairro Guaricana – municipio de Iguape/SP, custeado pela emenda parlamentar estadual nº 2025.3520301.72267 - Governo do Estado de Sao Paulo / Secretaria de Governo e Relacoes Institucionais",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "estadual-governo",
+                                                       "municipal-desenvolvimento-sustentavel"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Governo e Relacoes Institucionais",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP EXTRATO\n\n C\nCONTRATADA: COPA S.A COMPANHIA DE OBRAS PARIQUERA-ACU\n\nCNPJ: 33.XXX.XXX/XXXX-56\n\nCONTRATO N°: 29/2026.\n\nOBJETO: Contratacao de empresa especializada para execucao de servicos de pavimentacao intertravada reutilizada com blocos sextavados de\n\nconcreto (espessura 8cm), incluindo execucao de base em brita graduada com 0,10 m de espessura, guias, sarjetas e sarjetoes tipo PMSP, na rua Lais\n\nCarneiro Muniz, localizada no bairro Guaricana – municipio de Iguape/SP, ",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CONCORRENCIA ELETRONICA n°. 011/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "011/2025",
+                      "modality":  "CONCORRENCIA ELETRONICA n°. 011/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 125.000,00",
+                      "term":  "Validade do presente Contrato –180 (cento e oitenta) dias, periodo de 09/02/2026 a 07/08/2026",
+                      "signatureDate":  "09/02/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-desenvolvimento-sustentavel",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "CONCORRENCIA ELETRONICA n°. 011/2025\n\nData: 09/02/2026\n\nVIGENCIA: Validade do presente Contrato –180 (cento e oitenta) dias, periodo de 09/02/2026 a 07/08/2026\n\nVALOR: R$ 125.000,00 (cento e vinte e cinco mil reais).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Rescisao",
+                      "actTitle":  "EXTRATO DE ANULACAEOXTDREATROESCISAO CONTRATUAL",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "8/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E AMPLIACAO DA CASA DA CRIANCA, LOCALIZADA NA RUA K, Nº 180, BAIRRO JARDIM PRIMAVERA, NESTE MUNICIPIO DE IGUAPE/SP, Ato: Anulacao da rescisao contratual Motivo: Por razoes de legalidade e interesse publico, conforme principio da autotutela administrativa (Sumula 473/STF), fica anulada a rescisao contratual anteriormente formalizada. Efeitos: Esta anulacao retroage seus efeitos a data de 16/01/2026, restabelecendo a plena vigencia do contrato a partir desta data. Iguape, 10 de fevereiro de 2026. RICARDO OLIVEIRA RAGNI DE CASTRO LEITE Secretario de Infraestrutura Urbana e Obras",
+                      "value":  "",
+                      "term":  "do contrato a partir desta data.",
+                      "signatureDate":  "de 16/01/2026, restabelecendo a plena vigencia do contrato a partir desta data",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-desenvolvimento-sustentavel"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel"
+                                                     ],
+                      "excerpt":  "EXTRATO DE ANULACAEOXTDREATROESCISAO CONTRATUAL\n\nContrato nº008/2024 C\n\nPartes: PREFEITURA MUNICIPAL DE IGUAPE e a EMPRESA EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA.\n\nObjeto: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E AMPLIACAO DA CASA DA CRIANCA, LOCALIZADA NA\n\nRUA K, Nº 180, BAIRRO JARDIM PRIMAVERA, NESTE MUNICIPIO DE IGUAPE/SP,\n\nAto: Anulacao da rescisao contratual\n\nMotivo: Por razoes de legalidade e interesse publico, conforme principio da autotutela administrativa (Sumula 473/STF), fica ",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,189 @@
+﻿{
+    "diaryId":  "382",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:30",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/fa1b014cfa42058694effde3d8584df0.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/fa1b014cfa42058694effde3d8584df0.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  5,
+                    "totalValue":  "R$ 18,60"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO AO CONTRATO N.º 010/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "010/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "cnpj":  "",
+                      "object":  "contratacao de empresa especializada para obra de construcao de praca multiuso no bairro do Rocio, localizado na Alameda 3 esquina com a Alameda 19, neste municipio de Iguape/SP Tomada de Precos - n°. 001/2022",
+                      "value":  "",
+                      "term":  "Prazo de vigencia e execucao– 28/09/2022 a 26/12/2022- 90 (noventa) dias.",
+                      "signatureDate":  "05/09/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO AO CONTRATO N.º 010/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CIACAN ENGENHARIA EIRELI\nCONTRATO N°: 010/2022\nOBJETO: contratacao de empresa especializada para obra de construcao de praca multiuso no bairro do Rocio, localizado na Alameda\n3 esquina com a Alameda 19, neste municipio de Iguape/SP\nTomada de Precos - n°. 001/2022\nDATA:05/09/2022\nVIGENCIA: Prazo de vigencia e execucao– 28/09/2022 a 26/12/2022- 90 (noventa) dias.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COMEDER – COMERCIO DE MERCADORIAS E",
+                      "cnpj":  "",
+                      "object":  "Registro de Preco para aquisicao de Generos Alimenticios pereciveis e nao pereciveis para atender a demanda do Departamento de Educacao (Merenda Escolar) e demais Departamentos e Divisoes da Prefeitura Municipal de Iguape, pelo periodo de 12 (doze) meses, referente ao item 113 – Leite em Po Integral Instantaneo. PREGAO PRESENCIAL - n°. 033/2021",
+                      "value":  "R$ 18,60",
+                      "term":  "",
+                      "signatureDate":  "06/09/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO\nATA DE REGISTRO DE PRECO Nº 070/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COMEDER – COMERCIO DE MERCADORIAS E\nDERIVADOS DE PRODUTOS ALIMENTICIOS LTDA - EPP\nOBJETO: Registro de Preco para aquisicao de Generos Alimenticios pereciveis e nao pereciveis para atender a demanda do\nDepartamento de Educacao (Merenda Escolar) e demais Departamentos e Divisoes da Prefeitura Municipal de Iguape, pelo periodo de\n12 (doze) meses, referente ao item 113 – Leite em Po In",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "6º TERMO ADITIVO DE PRAZO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "080/2020",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para Pavimentacao e Obras Complementares de Vias do Municipio de Iguape/SP, conforme contratos de repasses nº 890545/2019 - Rua “Dom Idilio Jose Soares”. Tomada de Precos: 008/2020",
+                      "value":  "",
+                      "term":  "90 (noventa) dias, periodo – 06/09/2022 a 05/12/2022.",
+                      "signatureDate":  "05/09/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "6º TERMO ADITIVO DE PRAZO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU\nCONTRATO N°: 080/2020 – LOTE – Nº 01\nOBJETO: Contratacao de Empresa Especializada para Pavimentacao e Obras Complementares de Vias do Municipio de Iguape/SP,\nconforme contratos de repasses nº 890545/2019 - Rua “Dom Idilio Jose Soares”.\nTomada de Precos: 008/2020\nDATA:05/09/2022\nVIGENCIA: 90 (noventa) dias, periodo – 06/09/2022 a 05/12/2022.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "6º TERMO ADITIVO DE PRAZO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "081/2020",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para Pavimentacao e Obras Complementares de Vias do Municipio de Iguape/SP, conforme contratos de repasses nº 893950/2019 “Rua Professor Bento Pereira da Rocha”. Tomada de Precos: 008/2020",
+                      "value":  "",
+                      "term":  "90 (noventa) dias, periodo – 06/09/2022 a 05/12/2022.",
+                      "signatureDate":  "05/09/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "6º TERMO ADITIVO DE PRAZO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU\nCONTRATO N°: 081/2020 – LOTE Nº 02\nOBJETO: Contratacao de Empresa Especializada para Pavimentacao e Obras Complementares de Vias do Municipio de Iguape/SP,\nconforme contratos de repasses nº 893950/2019 “Rua Professor Bento Pereira da Rocha”.\nTomada de Precos: 008/2020\nDATA:05/09/2022\nVIGENCIA: 90 (noventa) dias, periodo – 06/09/2022 a 05/12/2022.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "6º TERMO ADITIVO DE VALOR AO CONTRATO Nº 002/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "002/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COOPERATIVA DE TRABALHADORES DE TRANSPORTE ESCOLAR DE IGUAPE",
+                      "cnpj":  "",
+                      "object":  "Constitui objeto do presente termo o ACRESCIMO de 0,3420571088312%, ao valor do contrato firmado entre as partes, nos termos previstos em sua clausula decima segunda, subitem 12.3 letra “m”, e com fundamento legal no § 1º do art 65 da Lei Federal nº",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "no § 1º do art 65 da Lei Federal nº",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "6º TERMO ADITIVO DE VALOR AO CONTRATO Nº 002/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COOPERATIVA DE TRABALHADORES DE TRANSPORTE ESCOLAR DE IGUAPE\nCONTRATO N°: 002/2022\nOBJETO: Constitui objeto do presente termo o ACRESCIMO de 0,3420571088312%, ao valor do contrato firmado entre as partes, nos\ntermos previstos em sua clausula decima segunda, subitem 12.3 letra “m”, e com fundamento legal no § 1º do art 65 da Lei Federal nº",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

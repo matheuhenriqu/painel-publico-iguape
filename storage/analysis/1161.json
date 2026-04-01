@@ -1,0 +1,98 @@
+﻿{
+    "diaryId":  "1161",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:22",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1027_26074817.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1027_26074817.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  12,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 170,52"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  10,
+                      "contractNumber":  "",
+                      "processNumber":  "614/2025",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CREDENCIAMENTO, DE EMPRESAS PARA A PRESTACAO DE SERVICOS DE LIMPEZA URBANA DURANTE A FESTA DO SENHOR BOM JESUS DE IGUAPE, ENVOLVENDO VARREDURA MANUAL, COLETA DE RESIDUOS E SERVICOS GERAIS, NO MUNICIPIO DE IGUAPE/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 614/2025\nOBJETO: CREDENCIAMENTO, DE EMPRESAS PARA A PRESTACAO DE SERVICOS DE LIMPEZA URBANA DURANTE A FESTA DO SENHOR\nBOM JESUS DE IGUAPE, ENVOLVENDO VARREDURA MANUAL, COLETA DE RESIDUOS E SERVICOS GERAIS, NO MUNICIPIO DE IGUAPE/SP",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CHAMADA PUBLICA Nº: 010/2025 – EDITAL Nº 024/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  10,
+                      "contractNumber":  "",
+                      "processNumber":  "010/2025",
+                      "modality":  "CHAMADA PUBLICA Nº: 010/2025",
+                      "contractor":  "S E CLASSIFICADAS",
+                      "cnpj":  "42.769.010/0001-36",
+                      "object":  "",
+                      "value":  "R$170,52",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-cultura",
+                                                       "federal-agu",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Secretaria de Cultura",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "CHAMADA PUBLICA Nº: 010/2025 – EDITAL Nº 024/2025\nINTERESSADOS: SECRETARIA MUNICIPAL DE CULTURA, ESPORTE E TURISMO.\n\nADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao abaixo.\n\nCREDENCIADAS E CLASSIFICADAS :\n\nRazao Social: I B FERREIRA SERVICOS LTDA PROTOCOLO 8.347/2025 1 DOC 1º classificada\nCNPJ: 42.769.010/0001-36 PROTOCOLO 8.393/2025 1 DOC 2ª classificada\nRazao Social: JOMMAR COMERCIO E SERVICOS LTDA PROTOCOLO 8.397/2025 1 DOC 3ª classificada\nCNPJ: 48.365.216/000",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

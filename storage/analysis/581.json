@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "581",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:55",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/8cd53bbe594c07a622f0fa75c3709054.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/8cd53bbe594c07a622f0fa75c3709054.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  8,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 846.826,88"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 077/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "077/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SIGMA ENGENHARIA INDUSTRIA E COMERCIO LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa espcializada para obra de eficientizacao de Sistema de Iluminacao Publica em diversos Bairros do Municipio de Iguape/SP, conforme termo de conveno nº 101385/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape. TOMADA DE PRECO Nº 002/2023",
+                      "value":  "R$ 846.826,88",
+                      "term":  "permanecera vigente pelo periodo de 06 (seis) meses, a contar da data de ciencia pela contratada na A.I.S. Autorizacao de Inicio dos",
+                      "signatureDate":  "-14/06/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SIGMA ENGENHARIA INDUSTRIA E COMERCIO LTDA\nCONTRATO N°: 077/2023\nOBJETO: Contratacao de Empresa espcializada para obra de eficientizacao de Sistema de Iluminacao Publica em diversos Bairros do Municipio de\nIguape/SP, conforme termo de conveno nº 101385/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape.\nTOMADA DE PRECO Nº 002/2023\nDATA:-14/06/2023\nVALOR: Pagara a contratada o valor de R$ 846.826,88 (oitocentos e quarenta e se",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,89 @@
+﻿{
+    "diaryId":  "1002",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:47",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_059-_17102135.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_extra_059-_17102135.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 2,60"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE RETI – RATIFICACAO - PREFEITURA MUNICIPAL DE IGUAPE",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "001/2025",
+                      "modality":  "EDITAL CHAMADA PUBLICA N° 001/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "PROCESSO ADMINISTRATIVO 031/2025",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "AVISO DE RETI – RATIFICACAO\n PREFEITURA MUNICIPAL DE IGUAPE\n EDITAL CHAMADA PUBLICA N° 001/2025\n PROCESSO ADMINISTRATIVO 031/2025",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CHAMADA PUBLICA Nº 001/2025 – PARA CREDENCIAMENTO DE INSTITUICAO FINANCEIRA PARA RECEBIMENTO DE ARRECADACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "001/2025",
+                      "modality":  "CHAMADA PUBLICA Nº 001/2025",
+                      "contractor":  "pela prestacao dos servicos a tarifa de R$ 2,60 (dois reais e sessenta centavos) por guia arrecadada",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 2,60",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "CHAMADA PUBLICA Nº 001/2025 – PARA CREDENCIAMENTO DE INSTITUICAO FINANCEIRA PARA RECEBIMENTO DE ARRECADACAO\nMUNICIPAL, NO PADRAO FEBRABAN, CONFORME ESPECIFICACOES RELACIONADAS NO ANEXO I, PARTE INTEGRANTE DESTE EDITAL.\nA Prefeitura Municipal de Iguape, atraves do Departamento de Licitacoes e Contratos, TORNA PUBLICO para conhecimento dos interessados, que o\nedital de credenciamento, sofreu retificacao conforme segue:\nOnde se le:\nANEXO I- TERMO DE REFERENCIA\n5.1 - O Municipio de Iguape/SP pagara a Instituicao Financ",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

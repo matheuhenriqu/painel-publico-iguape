@@ -1,0 +1,164 @@
+﻿{
+    "diaryId":  "1000",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:48",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_904_16065727.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_904_16065727.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 943.400,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:-001/2025.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "1/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos pelo periodo de 12 (doze) meses para contratacao de empresa especializada para eventual locacao de mao de obra com a finalidade de execucao e manutencao da infraestrutura de eventos, neste municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:-001/2025.\nOBJETO: Registro de Precos pelo periodo de 12 (doze) meses para contratacao de empresa especializada para eventual locacao de mao de obra com a\nfinalidade de execucao e manutencao da infraestrutura de eventos, neste municipio de Iguape/SP.",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Pregao Eletronico n°. 001/2024",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "001/2024",
+                      "modality":  "Pregao Eletronico n°. 001/2024",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 943.400,00",
+                      "term":  "Validade do presente Registro de Precos -13/01/2025 a 12/01/2026.",
+                      "signatureDate":  "13/01/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "Pregao Eletronico n°. 001/2024\nData: 13/01/2025\nVIGENCIA: Validade do presente Registro de Precos -13/01/2025 a 12/01/2026.\nVALOR: R$ 943.400,00 (novecentos e quarenta e tres mil e quatrocentos reais).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:-002/2025.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "2/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos pelo periodo de 12 (doze) meses para contratacao de empresa especializada para eventual locacao de mao de obra com a finalidade de execucao e manutencao da infraestrutura de eventos, neste municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:-002/2025.\nOBJETO: Registro de Precos pelo periodo de 12 (doze) meses para contratacao de empresa especializada para eventual locacao de mao de obra com a\nfinalidade de execucao e manutencao da infraestrutura de eventos, neste municipio de Iguape/SP.",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:-003/2025.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "3/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos pelo periodo de 12 (doze) meses para contratacao de empresa especializada para eventual locacao de mao de obra com a finalidade de execucao e manutencao da infraestrutura de eventos, neste municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:-003/2025.\nOBJETO: Registro de Precos pelo periodo de 12 (doze) meses para contratacao de empresa especializada para eventual locacao de mao de obra com a\nfinalidade de execucao e manutencao da infraestrutura de eventos, neste municipio de Iguape/SP.",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

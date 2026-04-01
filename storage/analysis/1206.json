@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "1206",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:15",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1061_17072509.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1061_17072509.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "690/2025",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 20/2025 - EDITAL Nº: 28/2025",
+                      "contractor":  "DEVERA SE DESLOCAR ATE A SEDE DA",
+                      "cnpj":  "",
+                      "object":  "Registro de precos para aquisicao de trajes padronizados para os integrantes da Banda Municipal Maestro Aquilino Jarbas de Carvalho, em atendimento a Secretaria de Cultura, Esportes e Turismo pelo periodo de 12 meses, conforme especificac~coes detalhadas no termo de referencia",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-cultura",
+                                                       "municipal-turismo-esporte"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Cultura",
+                                                         "Secretaria de Turismo e Esporte"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\nPROCESSO Nº: 690/2025\nRegistro de precos para aquisicao de trajes padronizados para os integrantes da Banda Municipal Maestro Aquilino Jarbas de Carvalho, em atendimento\na Secretaria de Cultura, Esportes e Turismo pelo periodo de 12 meses, conforme especificac~coes detalhadas no termo de referencia.\nPR-E - PREGAO ELETRONICO - 20/2025 - EDITAL Nº: 28/2025\nINTERESSADOS: SECRETARIA MUNIC. DE CULTURA, ESPORTES E TURISMO .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o pr",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,93 @@
+﻿{
+    "diaryId":  "805",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:10",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_743_-assinado_26055832.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_743_-assinado_26055832.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 313.213,77"
+                },
+    "items":  [
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "11º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 218/2013",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "018/2013",
+                      "modality":  "",
+                      "contractor":  "ALEXANDRE ROCHAEL",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao da “Secretaria de Cultura, Esportes e Turismo”",
+                      "value":  "R$ 2.128,37",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n11º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 218/2013\n\nCONTRATANTE: MUNICIPIO DE IGUAPE C\n\nCONTRATADO: ALEXANDRE ROCHAEL\n\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao da “Secretaria de Cultura, Esportes e\n\nTurismo”.\n\nVALOR: R$ 2.128,37 ( dois mil, cento e vinte e oito reais e trinta e sete centavos) mensais.\n\nProcesso Administrativo nº 018/2013",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 63/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "063/2023",
+                      "processNumber":  "019/2023",
+                      "modality":  "PREGAO PRESENCIAL Nº 019/2023",
+                      "contractor":  "ETHICA CURSOS LIVRES PROFISSIONAL \u0026 GERENCIAMENTO LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa(s) especializada(s) para oferta de profissionais qualificados para ministrar oficinas para idosos, adolescentes e familias usuarios dos servicos do CRAS -Centro de Referencia de Assistencia Social, bem como para cadastradores para o Cadunico e para execucao do Servico de Abordagem Social da Protecao Social Especial de Media Complexidade em cumprimento aos servicos da assistencia social, no municipio de Iguape, pelo periodo de 12 (doze) meses. Cofinanciamento federal e estadual. PREGAO PRESENCIAL Nº 019/2023",
+                      "value":  "R$ 311.085,40",
+                      "term":  "Periodo - 27/04/2024 a 26/04/2025 12 (doze) Meses – (Vigencia e Execucao).",
+                      "signatureDate":  "19/04/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 63/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ETHICA CURSOS LIVRES PROFISSIONAL \u0026 GERENCIAMENTO LTDA\nCONTRATO N°: 063/2023\nOBJETO: Contratacao de empresa(s) especializada(s) para oferta de profissionais qualificados para ministrar oficinas para idosos, adolescentes e\nfamilias usuarios dos servicos do CRAS -Centro de Referencia de Assistencia Social, bem como para cadastradores para o Cadunico e para execucao\ndo Servico de Abordagem Social da Protecao Social Especia",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

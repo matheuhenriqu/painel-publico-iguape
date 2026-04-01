@@ -1,0 +1,156 @@
+﻿{
+    "diaryId":  "650",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:42",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/8cc07d83662510da3744227f9cb6c96b.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/8cc07d83662510da3744227f9cb6c96b.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  7,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 276",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  4,
+                      "contractNumber":  "162/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa ASSOCIACAO HOSPITALAR DE PROTECAO A INFANCIA DR. PAULO CARNEIRO",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 276\n DE 18 DE SETEMBRO DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Victor Pereira de Matos, Diretor Administrativo de Saude, titular da Cedula de Identidade RG nº 46814632 SSP/SP, inscrito no\nArt. 2º - CPF/MF sob o nº. 405.316.238-66, para exercer a fun",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 278",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  5,
+                      "contractNumber":  "163/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa ECS COMERCIO DE VEICULOS E EQUIPAMENTOS LTDA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 278\n DE 18 DE SETEMBRO DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Giulia Barreto Bezerra, Secretaria Adjunto de Assuntos de Planejamento, titular da Cedula de Identidade RG nº 42.960.429-4\nArt. 2º - SSP/SP, inscrita no CPF/MF nº 440.698.418-65, para ex",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "9º TERMO ADITIVO AO CONTRATO Nº 047/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  7,
+                      "contractNumber":  "047/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "OLIVEIRA ENGENHARIA EIRELI – EPP",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de reforma/ ampliacao do predio que abriga o projeto “ Fazendo Acontecer”, conforme convenio n° 100328/2021 – celebrado entre o Estado de Sao Paulo, por meio da Secretaria de Desenvolvimento Regional e o Municipio de Iguape. TOMADA DE PRECO: 07/2021",
+                      "value":  "",
+                      "term":  "Execucao e Vigencia – 60 (sessenta) dias – 17/09/2023 a 15/11/2023.",
+                      "signatureDate":  "-15/09/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "9º TERMO ADITIVO AO CONTRATO Nº 047/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: OLIVEIRA ENGENHARIA EIRELI – EPP\nOBJETO: Contratacao de empresa especializada para obra de reforma/ ampliacao do predio que abriga o projeto “ Fazendo Acontecer”, conforme\nconvenio n° 100328/2021 – celebrado entre o Estado de Sao Paulo, por meio da Secretaria de Desenvolvimento Regional e o Municipio de Iguape.\nTOMADA DE PRECO: 07/2021\nDATA:-15/09/2023\nVIGENCIA: Execucao e Vigencia – 60 (sessenta) dias – 17/09/2023 a 15/11/2023.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE LICITACAO PREGAO PRESENCIAL",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  7,
+                      "contractNumber":  "",
+                      "processNumber":  "7/2023",
+                      "modality":  "PREGAO PRESENCIAL nº.057/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECO PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICOES DE UTENSILIOS DE COZINHA DESTINADOS AS UNIDADES ESCOLARES DESTE MUNICIPIO DE IGUAPE/SP. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013,Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE CUMPRE OS",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "AVISO DE LICITACAO PREGAO PRESENCIAL\n COM RESERVA DE COTA DE ATE 25% PARA ME/EPP\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP\n11920-000, o PREGAO PRESENCIAL nº.057/2023, do tipo MENOR PRECO POR ITEM, conforme especificacoes detalhadas no Edital.\nOBJETO: REGISTRO DE PRECO PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICOES DE UTENSILIOS DE COZINHA DESTINADOS\nAS UNIDADES ESCOLARES DESTE MUNICIPIO DE IGUAPE/SP.\n\nLEGISLACAO:",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,123 @@
+﻿{
+    "diaryId":  "859",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:04",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_788_05080245.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_788_05080245.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  10,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 559.350,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 169",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "067/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa ENGETEC ENGENHARIA EIRELI",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 169\n DE 02 DE JULHO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0\nArt. 2º - SSP/SP, inscrito no CPF/MF nº. 256.609.068/85, para exer",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 171",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "066/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa L \u0026 M SOLUCOES EM TECNOGIA DA INFORMACAO EIRELI",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 171\n DE 02 DE JULHO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Larry Luiz Carvalho Domingues, Secretario Adjunto de Tecnologia da Informacao, titular da Cedula de Identidade RG nº\nArt. 2º - 29.611.935-0 SSP/SP, inscrito no CPF/MF nº 296.129.338-39, par",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "CONTRATANTE: MUNICIPIO DE IGUAPE",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  9,
+                      "contractNumber":  "5/2023",
+                      "processNumber":  "036/2023",
+                      "modality":  "Pregao Presencial n°. 036/2023",
+                      "contractor":  "L\u0026M SOLUCOES E TECNOLOGIA DA INFORMACAO EIRELI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para disponibilizacao de equipamentos de informatica em regime de locacao mediante prestacao de servicos de manutencao e de seguranca, destinados aos departamentos da prefeitura municipal de Iguape, bem como aos convenios firmados com a municipalidade, pelo periodo de 12 (doze) meses. Pregao Presencial n°. 036/2023",
+                      "value":  "R$ 559.350,00",
+                      "term":  "03/07/2024 a 02/07/2025.",
+                      "signatureDate":  "02/07/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: L\u0026M SOLUCOES E TECNOLOGIA DA INFORMACAO EIRELI\nCONTRATO:-Nº066/2024, ORIUNDO DE SALDO DA ATA DE REGISTRO DE PRECOS N°:-065/2023.\nOBJETO:, Contratacao de empresa especializada para disponibilizacao de equipamentos de informatica em regime de locacao mediante prestacao de\nservicos de manutencao e de seguranca, destinados aos departamentos da prefeitura municipal de Iguape, bem como aos convenios firmados com a\nmunicipalidade, pelo periodo de 12 (doze) meses.\nPrega",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

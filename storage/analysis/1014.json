@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "1014",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:45",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_062_31115821.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_extra_062_31115821.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "EXTRATO DE RESULTADO DA CHAMADA PUBLICA PARA CREDENCIAMENTO Nº 001/2025 – PROCESSO N.º 031/20235– Objeto:",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "031/2023",
+                      "modality":  "",
+                      "contractor":  "s",
+                      "cnpj":  "81.466.286/0001-05",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "recursal de 03 (tres) dias uteis, que sera recebido e processado nos termos",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO DE RESULTADO DA CHAMADA PUBLICA PARA CREDENCIAMENTO Nº 001/2025 – PROCESSO N.º 031/20235– Objeto:\nCREDENCIAMENTO DE INSTITUICAO FINANCEIRA PARA RECEBIMENTO DE ARRECADACAO MUNICIPAL, NO PADRAO FEBRABAN.\nResultado do credenciamento pela Comissao de Selecao, apos Avaliacao das Documentacoes apresentadas pelas credenciadas:\n1- Razao Social: COOPERATIVA DE CREDITO, POUPANCA E INVESTIMENTO CAMPOS GERAIS E GRANDE CURITIBA SICREDI CAMPOS\nGERAIS E GRANDE CURITIBA PR SP–SICREDI, CNPJ 81.466.286/0001-05 – CREDENCIADA\n",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

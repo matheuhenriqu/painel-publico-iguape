@@ -1,0 +1,90 @@
+﻿{
+    "diaryId":  "568",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:57",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/152b74eb8064cb1d5dffc4ac72fbc924.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/152b74eb8064cb1d5dffc4ac72fbc924.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 2.118.521,18"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO DE PRORROGACAO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "029/2022",
+                      "modality":  "Pregao Presencial nº 029/2022",
+                      "contractor":  "INTERVALE TRANSPORTE TURISMO EIRELI-EPP",
+                      "cnpj":  "",
+                      "object":  "contratacao de empresa especializada na prestacao de servicos de transporte diario de pacientes atendidos pelo SUS na Rede Basica de Saude do municipio de Iguape pelo periodo de 12 (doze) meses",
+                      "value":  "R$ 2.118.486,18",
+                      "term":  "Periodo de 26/05/2023 a 25/05/2024",
+                      "signatureDate":  "25/05/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO DE PRORROGACAO\nCONTRATO DE 046/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: INTERVALE TRANSPORTE TURISMO EIRELI-EPP\nOBJETO: contratacao de empresa especializada na prestacao de servicos de transporte diario de pacientes atendidos pelo SUS na Rede Basica de\nSaude do municipio de Iguape pelo periodo de 12 (doze) meses.\nDATA: 25/05/2023\nPregao Presencial nº 029/2022\nVIGENCIA: Periodo de 26/05/2023 a 25/05/2024\nVALOR: O valor global e de R$ 2.118.486,18 (dois milhoes, cento e dezoito mil, quatroce",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  },
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "EXTRATO DE INEXIGIBILIDADE DE LICITACAO Nº 001/2023",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  5,
+                      "contractNumber":  "",
+                      "processNumber":  "011/2023",
+                      "modality":  "",
+                      "contractor":  "INDEPAC – Instituto de Cultura, Desenvolvimento Educacional, Promocao Humana e Acao Comunitaria",
+                      "cnpj":  "04.956.591/0001-26",
+                      "object":  "Contratacao de Empresa especializada para realizacao de concurso publico para preenchimento de vagas disponiveis existentes no quadro de servidores e cadastro reserva da Camara Municipal de Iguape",
+                      "value":  "R$ 35,00",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "inciso XIII, do artigo 24 da Lei n. 8.666/93.",
+                      "primaryOrganizationId":  "municipal-camara",
+                      "primaryOrganizationName":  "Camara Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-camara"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Camara Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO DE INEXIGIBILIDADE DE LICITACAO Nº 001/2023\n\n PROCESSO Nº. 011/2023. OBJETO: Contratacao de Empresa especializada para realizacao de concurso publico para preenchimento\nde vagas disponiveis existentes no quadro de servidores e cadastro reserva da Camara Municipal de Iguape.\n\nCONTRATADO: INDEPAC – Instituto de Cultura, Desenvolvimento Educacional, Promocao Humana e Acao Comunitaria.\n\nCNPJ: 04.956.591/0001-26\n\nVALOR TOTAL:\n\n NIVEL DE ESCOLARIDADE TAXA DE INSCRICAO\n Fundamental R$ 35,00\n Medio R$ 55,00\n Superi",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

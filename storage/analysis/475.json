@@ -1,0 +1,87 @@
+﻿{
+    "diaryId":  "475",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:15",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/f4818476ee6efcd77384ef713d5a504c.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/f4818476ee6efcd77384ef713d5a504c.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "3º TERMO AO CONTRATO 076/2020",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "076/2020",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para Obra de Reforma do Sistema Viario da Avenida Janio Quadros, conforme Convenio nº 73/2020, Celebrado entre a Prefeitura de Iguape e o DETRAN-SP, no ambito do Programa Respeito a Vida",
+                      "value":  "",
+                      "term":  "90 (noventa) dias periodo de 21/01/2023 a 21/04/2023",
+                      "signatureDate":  "20/01/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n3º TERMO AO CONTRATO 076/2020\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A COMPANHIA DE OBRAS PARIQUERA-ACU\nCONTRATO N°: 076/2020\nOBJETO: Contratacao de Empresa Especializada para Obra de Reforma do Sistema Viario da Avenida Janio Quadros, conforme\nConvenio nº 73/2020, Celebrado entre a Prefeitura de Iguape e o DETRAN-SP, no ambito do Programa Respeito a Vida.\nDATA: 20/01/2023\nTOMADA DE PRECO Nº 007/2020\nVIGENCIA: 90 (noventa) dias periodo de 21/01/2023 a 21/04/2023",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "5º TERMO ADITIVO DE PRAZO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "047/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "OLIVEIRA ENGENHARIA EIRELI-EPP",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para obra de Reforma/Ampliacao do Predio que abriga o Projeto “Fazendo Acontecer”, conforme Convenio n° 100328/2021, celebrado entre o Estado de Sao Paulo, por meio da Secretaria de Desenvolvimento Regional e o municipio de Iguape/SP Tomada de Precos - n°. 007/2021",
+                      "value":  "",
+                      "term":  "periodo de 18/02/2023 a 19/05/2023 e a execucao periodo de 19/01/2023 a 19/04/2023 – 90 (noventa) dias.",
+                      "signatureDate":  "19/01/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "5º TERMO ADITIVO DE PRAZO\nCONTRATO Nº 047/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: OLIVEIRA ENGENHARIA EIRELI-EPP\nCONTRATO N°: 047/2021\nOBJETO: Contratacao de Empresa Especializada para obra de Reforma/Ampliacao do Predio que abriga o Projeto “Fazendo\nAcontecer”, conforme Convenio n° 100328/2021, celebrado entre o Estado de Sao Paulo, por meio da Secretaria de Desenvolvimento\nRegional e o municipio de Iguape/SP\nTomada de Precos - n°. 007/2021\nDATA: 19/01/2023\nVIGENCIA: periodo de 18/02/2023 a 19/05/2023 e ",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

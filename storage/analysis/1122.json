@@ -1,0 +1,90 @@
+﻿{
+    "diaryId":  "1122",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:28",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_081_23070441.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_extra_081_23070441.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 77.198,15"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "9º TERMO ADITIVO DE ACRESCIMO E SUPRESSAO AO CONTRATO Nº 053/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "053/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA-ME",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de Centro Multiuso, localizada na Avenida Maestro Moacir Serra s/n – Bairro Canto do Morro, confome termo de Convenio nº 100813/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape. Tomada de Precos - n°. 009/2022",
+                      "value":  "R$ 77.198,15",
+                      "term":  "",
+                      "signatureDate":  "16/06/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "9º TERMO ADITIVO DE ACRESCIMO E SUPRESSAO AO CONTRATO Nº 053/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SUL VALE CONSTRUTORA LTDA-ME\nCONTRATO N°: 053/2022\nOBJETO: Contratacao de empresa especializada para obra de Centro Multiuso, localizada na Avenida Maestro Moacir Serra s/n – Bairro Canto do Morro,\nconfome termo de Convenio nº 100813/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape.\nTomada de Precos - n°. 009/2022\nDATA: 16/06/2025\nVALOR: Valor do Termo Aditivo e de R$",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "TERMO DE REVOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "007/2025",
+                      "modality":  "Pregao Eletronico n° 007/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "artigo 71, inciso II da lei 14.133/2021 , como",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n TERMO DE REVOGACAO\nA Prefeitura Municipal de Iguape torna publica a REVOGACAO do Pregao Eletronico n° 007/2025, tendo por objeto a CONTRATACAO DE EMPRESA\nESPECIALIZADA NO FORNECIMENTO DE SERVICOS DE BUFFET, COQUETEL, COFFEE BREAK, KIT ANIVERSARIO, KIT LANCHES,\nREFEICOES PRONTAS TIPO MARMITEX, REFEICOES PRONTAS TIPO A LA CARTE E CAMARIM PARA ATENDER AS SECRETARIAS DA\nPREFEITURA DE IGUAPE PELO PERIODO DE 12 (DOZE) MESES, por interesse publico fundamento legal artigo 71, inciso II da lei 14.133/2021 , como\na",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,61 @@
+﻿{
+    "diaryId":  "674",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:37",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/d8f6d88b0ef1a0f70dea9324ffa73f46.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/d8f6d88b0ef1a0f70dea9324ffa73f46.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  9,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "404/2023",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 50/2023 - EDITAL Nº: 81/2023",
+                      "contractor":  "UN Quantidade: 10.100,00 Valor Unitario: 1,96 Total: 19.796,00Item 95 - ADESIVO MEDIDAS",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES VISANDOCONTRATACOES FUTURAS PARA CONFECCAO DE MATERIAIS GRAFICOS ,DIVULGACAO E IMPRESSAO, PARA ATENDER DIVERSAS SECRETARIAS EDEPARTAMENTOS DA PREFEITURA MUNICIPAL DE IGUAPE/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-educacao",
+                                                       "municipal-cultura",
+                                                       "municipal-desenvolvimento-sustentavel"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Educacao",
+                                                         "Secretaria de Cultura",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 404/2023\nREGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES VISANDOCONTRATACOES FUTURAS PARA CONFECCAO DE MATERIAIS\nGRAFICOS ,DIVULGACAO E IMPRESSAO, PARA ATENDER DIVERSAS SECRETARIAS EDEPARTAMENTOS DA PREFEITURA MUNICIPAL DE\nIGUAPE/SP.\nPR-G - PREGAO PRESENCIAL - 50/2023 - EDITAL Nº: 81/2023\nINTERESSADOS: SECRETARIA MUNICIPAL DE GESTAO E PLANEJAMENTO , SECRETARIA MUNICIPAL DE EDUCACAO , SECRETARIA\nMUNICIPAL DE SAUDE , SECRETARIA MUNIC. DE ASSISTENCIA E DESENV. SOCIA",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

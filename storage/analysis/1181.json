@@ -1,0 +1,123 @@
+﻿{
+    "diaryId":  "1181",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:19",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1038-_15074651.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1038-_15074651.pdf",
+    "keywords":  [
+                     "contrato",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 178.193,46"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Extrato de Retificacao",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "125/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "Miriam Vieira Nobrega",
+                      "cnpj":  "",
+                      "object":  "Contratacao para a Locacao de Imovel para atendimento da Estrategia Saude da Familia (ESF) Aeroporto atendendo a demanda da Secretaria de Saude pelo periodo de 12meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "Extrato de Retificacao\n Publicacao Diario Oficial do Municipio – quinta-feira-14/08/2025- Ano 05-nº 1037\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: Miriam Vieira Nobrega\nCONTRATO N°: 125/2024\nOBJETO: : Contratacao para a Locacao de Imovel para atendimento da Estrategia Saude da Familia (ESF) Aeroporto atendendo a demanda da\nSecretaria de Saude pelo periodo de 12meses.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "Inexigibilidade - Nº 086/2024",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "5/2024",
+                      "processNumber":  "086/2024",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "Inexigibilidade - Nº 086/2024\nOnde se le :\nContrato de Locacao de Imovel – nº 125/2024\nLeia-se:\n1º Termo de Prorrogacao ao Contrato nº125/2024\nPermanecendo inalteradas as demais informacoes.",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "4º TERMO AITIVO DE ACRESCIMO E SUPRESSAO DE VALORES AO CONTRATO 022/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "022/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "OLIVEIRA ENGENHARIA LTDA",
+                      "cnpj":  "13901684000123",
+                      "object":  "Contratacao de Empresa especializada para obra de reforma e ampliacao do E.S.F. Aeroporto, localizado na Avenida Manoel Goncalves Pires, 175, Bairro do Rocio – Iguape/SP, conforme Proposta nº 13901684000123016 – Emenda nº 41710003, celebrado entre o Ministerio da Saude e o Municipio de Iguape. Tomada de Preco n°. 016/2023",
+                      "value":  "R$ 178.193,46",
+                      "term":  "",
+                      "signatureDate":  "13/08/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-ministerio-saude"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Ministerio da Saude"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n4º TERMO AITIVO DE ACRESCIMO E SUPRESSAO DE VALORES AO CONTRATO 022/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: OLIVEIRA ENGENHARIA LTDA\nCONTRATO N°: 022/2024\nOBJETO: Contratacao de Empresa especializada para obra de reforma e ampliacao do E.S.F. Aeroporto, localizado na Avenida Manoel Goncalves Pires,\n175, Bairro do Rocio – Iguape/SP, conforme Proposta nº 13901684000123016 – Emenda nº 41710003, celebrado entre o Ministerio da Saude e o\nMunicipio de Iguape.\nTomada de Preco n°. 016/2023.\nData: 13/08/2",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

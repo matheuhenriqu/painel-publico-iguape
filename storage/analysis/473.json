@@ -1,0 +1,53 @@
+﻿{
+    "diaryId":  "473",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:15",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/4fd20624278c9544762f36a540acec35.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/4fd20624278c9544762f36a540acec35.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "1193/2022",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 1/2023 - EDITAL Nº: 1/2023",
+                      "contractor":  "RENATO DE OLIVEIRA LIMPEZA - ME",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA LOCACAO DE BANHEIROS QUIMICOS TIPOCONVENCIONAL, STANDARD E PNE, A SEREM UTILIZADOS NOS EVENTOS DO MUNICIPIO DE IGUAPE,PELOPERIODO DE 12 (DOZE) MESES",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 1193/2022\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA LOCACAO DE BANHEIROS QUIMICOS TIPOCONVENCIONAL,\nSTANDARD E PNE, A SEREM UTILIZADOS NOS EVENTOS DO MUNICIPIO DE IGUAPE,PELOPERIODO DE 12 (DOZE) MESES.\nPR-G - PREGAO PRESENCIAL - 1/2023 - EDITAL Nº: 1/2023\nINTERESSADOS: DEPARTAMENTO DE CULTURA E ESPORTES .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a\n\nclassificacao dos itens abaixo.\n\nFORNECEDOR: RENATO DE OLIVEIRA LIMPEZA -",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,87 @@
+﻿{
+    "diaryId":  "922",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:56",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_841-_26074411.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_841-_26074411.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 793.843,08"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE SUPRESSAO AMIGAVEL AO CONTRATO 115/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "115/2024",
+                      "processNumber":  "046/2023",
+                      "modality":  "Pregao Presencial n°. 046/2023",
+                      "contractor":  "ENGETEC ENGENHARIA EIRELI - EPP",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para eventual locacao de mao de obra com a finalidade de execucao e manutencao da infraestrutura de eventos, neste municipio de Iguape/SP. Pregao Presencial n°. 046/2023",
+                      "value":  "R$ 791.875,00",
+                      "term":  "",
+                      "signatureDate":  "23/09/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE SUPRESSAO AMIGAVEL AO CONTRATO 115/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ENGETEC ENGENHARIA EIRELI - EPP\nCONTRATO Nº 115/2024\nOBJETO: Contratacao de empresa especializada para eventual locacao de mao de obra com a finalidade de execucao e manutencao\nda infraestrutura de eventos, neste municipio de Iguape/SP.\nPregao Presencial n°. 046/2023\nDATA: 23/09/2024\nVALOR: Supressao Amigavel no valor de R$ 791.875,00 (setecentos e noventa e um mil, oitocentos e setenta e cinco reais)",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE VALOR AO CONTRATO 002/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "002/2024",
+                      "processNumber":  "065/2023",
+                      "modality":  "Pregao Presencial n°. 065/2023",
+                      "contractor":  "GENTE SEGURADORA S.A",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para a prestacao de servicos de Seguro dos diversos veiculos que compoem a frota da Prefeitura Municipal de Iguape. Pregao Presencial n°. 065/2023",
+                      "value":  "R$ 1.968,08",
+                      "term":  "",
+                      "signatureDate":  "18/09/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE VALOR AO CONTRATO 002/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: GENTE SEGURADORA S.A.\nCONTRATO N°: 002/2024\nOBJETO: Contratacao de Empresa especializada para a prestacao de servicos de Seguro dos diversos veiculos que compoem a frota da Prefeitura\nMunicipal de Iguape.\nPregao Presencial n°. 065/2023.\nVALOR: Pagara a contratada o valor de R$ 1.968,08 (mil novecentos e sessenta e oito reais e oito centavos), acrescimo de 1,0958129175946%,\nreferente a inclusao de 01 (um) veiculo, Caminhao ME",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

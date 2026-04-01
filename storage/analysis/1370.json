@@ -1,0 +1,230 @@
+﻿{
+    "diaryId":  "1370",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-25T11:01:51",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1178_21084045.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1178_21084045.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  6,
+                    "totalValue":  "R$ 20.088.919,37"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 055/2026",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "055/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "TROUPE BRASIL LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializadas para prestacao de servicos de transporte escolar atraves de veiculos tipo onibus escolar exclusivo para atendimento de alunos da rede publica de ensino (municipal e estadual) do municipio de Iguape, pelo periodo de 12 meses, em 200 duzentos dias letivos-anuais",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: TROUPE BRASIL LTDA\nCNPJ: 66.xxx.xxx/xxxx-47\nCONTRATO N°: 055/2026\nOBJETO: Contratacao de empresa especializadas para prestacao de servicos de transporte escolar atraves de veiculos tipo onibus\nescolar exclusivo para atendimento de alunos da rede publica de ensino (municipal e estadual) do municipio de Iguape, pelo\nperiodo de 12 meses, em 200 duzentos dias letivos-anuais.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO Nº 002/2026",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "002/2026",
+                      "modality":  "PREGAO ELETRONICO Nº 002/2026",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 11.632.680,00",
+                      "term":  "12 (doze) meses-Periodo 16/03/2026 a 15/03/2027.",
+                      "signatureDate":  "12/03/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO Nº 002/2026\nData: 12/03/2026\nVALOR: R$ 11.632.680,00 (onze milhoes, seiscentos e trinta e dois mil, seiscentos e oitenta reais)\nVIGENCIA: 12 (doze) meses-Periodo 16/03/2026 a 15/03/2027.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 057/2026",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "057/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Credenciamento de instituicoes financeiras, autorizadas a funcionar pelo Banco Central do Brasil, para a prestacao de servicos bancarios de arrecadacao e recolhimento das receitas publicas municipais, tributarias e nao tributarias, da Prefeitura Municipal de Iguape/SP, incluindo, entre outras, as receitas provenientes de IPTU, ITBI, ISSQN, Taxas, Servicos e demais receitas municipais, por meio de DAM – Documento de Arrecadacao Municipal, com prestacao de contas por meio eletronico dos valores arrecadados, sendo vedado o recebimento em cheque, em conformidade com o padrao estabelecido pela Federacao Brasileira de Bancos – FEBRABAN",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: Instituicao Financeira Cooperativa de Credito, Poupanca e Investimento Campos Gerais, Grande Curitiba, Vale do Ribeira e Forc a dos\nVentos - Sicredi Campos Gerais e Grande Curitiba PR/SP\nCNPJ: 81.xxx.xxx/xxx05\nCONTRATO N°: 057/2026\nOBJETO: Credenciamento de instituicoes financeiras, autorizadas a funcionar pelo Banco Central do Brasil, para a prestacao de servicos bancarios de\narrecadacao e recolhimento das receitas publicas municipais, tributarias e nao tributa",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "CHAMADA PUBLICA Nº 003/2026 INEXIGIBILIDADE Nº 040/2026",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "003/2026",
+                      "modality":  "CHAMADA PUBLICA Nº 003/2026",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 2,57",
+                      "term":  "12 (doze) meses-Periodo de 19/03/2026 a 18/03/2027.",
+                      "signatureDate":  "17/03/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "CHAMADA PUBLICA Nº 003/2026 INEXIGIBILIDADE Nº 040/2026\nData:17/03/2026\nVALOR: Tarifa de R$ 2,57 (dois reais e cinquenta e sete centavos), por guia arrecadada.\nVIGENCIA: 12 (doze) meses-Periodo de 19/03/2026 a 18/03/2027.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 059/2026",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "059/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MAYFRAN LOCACAO DE VEICULOS E TRANSPORTES LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializadas para prestacao de servicos de transporte escolar atraves de veiculos tipo Kombi/Van escolar exclusivo para atendimento de alunos da rede publica de ensino (municipal e estadual) do municipio de Iguape, pelo periodo de 12 meses, em 200 duzentos dias letivos-anuais",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE EXTRATO\n\nCONTRATADA: MAYFRAN LOCACAO DE VEICULOS E TRANSPORTES LTDA\n\nCNPJ: 04.xxx.xxx/xxxx-19\n\nCONTRATO N°: 059/2026\n\nOBJETO: Contratacao de empresa especializadas para prestacao de servicos de transporte escolar atraves de veiculos tipo\n\nKombi/Van escolar exclusivo para atendimento de alunos da rede publica de ensino (municipal e estadual) do municipio de Iguape,\n\npelo periodo de 12 meses, em 200 duzentos dias letivos-anuais.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO Nº 003/2026",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "003/2026",
+                      "modality":  "PREGAO ELETRONICO Nº 003/2026",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 8.456.236,80",
+                      "term":  "12 (doze) meses-Periodo 20/03/2026 a 19/03/2027.",
+                      "signatureDate":  "20/03/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO Nº 003/2026\n\nData: 20/03/2026\n\nVALOR: R$ 8.456.236,80 (oito milhoes, quatrocentos e cinquenta e seis mil, duzentos e trinta e seis reais e oitenta centavos)\n\nVIGENCIA: 12 (doze) meses-Periodo 20/03/2026 a 19/03/2027.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

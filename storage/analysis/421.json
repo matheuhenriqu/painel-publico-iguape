@@ -1,0 +1,124 @@
+﻿{
+    "diaryId":  "421",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:25",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/762269db64ae85459d37d0f57951392b.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/762269db64ae85459d37d0f57951392b.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 17.786,92"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MOACIR CARLOS MATERA JUNIOR-ME",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICAO DEMATERIAIS DE EXPEDIENTE PARA OS DIVERSOS DEPARTAMENTOS DA PREFEITURA MUNICIPAL DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES. PREGAO PRESENCIAL - n°. 030/2021",
+                      "value":  "R$ 14,80",
+                      "term":  "",
+                      "signatureDate":  "26/10/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO\nATA DE REGISTRO DE PRECO Nº 065/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: MOACIR CARLOS MATERA JUNIOR-ME.\nOBJETO: REGISTRO DE PRECOS PARA AQUISICAO DEMATERIAIS DE EXPEDIENTE PARA OS DIVERSOS DEPARTAMENTOS\nDA PREFEITURA MUNICIPAL DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES.\nPREGAO PRESENCIAL - n°. 030/2021.\nDATA: 26/10/2022.\nVALORES: Item 17 – Valor Licitado R$ 14,80 Valor Reequilibrado R$ 18,50. Item 21 – Valor Licitado R$ 59,70 Valor Reequilibrado R$\n74,",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 016/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "016/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MARINA DE MORAES PEREIRA 44265471803",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para o Fornecimento de 36 (trinta e seis) cestas basicas, a serem entregues 12 unidades por mes ate dezembro de 2022, para atender os funcionarios da Camara Municipal de Iguape",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-camara",
+                      "primaryOrganizationName":  "Camara Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-camara",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Camara Municipal de Iguape",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: CAMARA MUNICIPAL DE IGUAPE\nCONTRATADA: MARINA DE MORAES PEREIRA 44265471803\nCONTRATO N°: 016/2022\nOBJETO: Contratacao de Empresa Especializada para o Fornecimento de 36 (trinta e seis) cestas basicas, a serem entregues 12\nunidades por mes ate dezembro de 2022, para atender os funcionarios da Camara Municipal de Iguape.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Dispensa",
+                      "actTitle":  "Dispensa de Licitacao - n°. 017/2022",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "017/2022",
+                      "modality":  "",
+                      "contractor":  "o valor global de R$ 17.772,12 (dezessete mil, setecentos e setenta e dois reais e doze centavos)",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 17.772,12",
+                      "term":  "",
+                      "signatureDate":  "21/10/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "Dispensa de Licitacao - n°. 017/2022\nVALOR: Pagara a contratada o valor global de R$ 17.772,12 (dezessete mil, setecentos e setenta e dois reais e doze centavos),\nperfazendo o valor mensal de R$ 5.924,04 (cinco mil, novecentos e vinte e quatro reais e quatro centavos).\nDATA: 21/10/2022",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

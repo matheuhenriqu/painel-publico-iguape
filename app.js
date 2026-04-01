@@ -765,7 +765,7 @@
     state.view = initialState.view;
     state.filters = { ...DEFAULT_FILTERS, ...initialState.filters };
 
-    const response = await fetch("./data/contracts-dashboard.json", { cache: "no-store" });
+    const response = await fetch(`./data/contracts-dashboard.json?ts=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) {
       throw new Error(`Falha ao carregar a base pública (${response.status}).`);
     }

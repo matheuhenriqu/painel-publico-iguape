@@ -1,0 +1,59 @@
+﻿{
+    "diaryId":  "1258",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:06",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1102_14082901.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1102_14082901.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 172/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "172/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "EPCCO – ENGENHARIA DE PROJETOS, CONSULTORIA E CONSTRUCAO LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para pavimentacao asfaltica de trechos da estrada do Jaire, conforme contrato repasse nº955401/2023/midr/caixa, que entre si celebram a uniao federal, por intermedio do Ministerio da Integracao e do Desenvolvimento Regional",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP EXTRATO\n\nCONTRATADA: EPCCO – ENGENHARIA DE PROJETOS, CONSULTORIA E CONSTRUCAO LTDA\n\nCNPJ: 61.XXX.XXX/XXXX-80\n\nCONTRATO Nº 172/2025\n\nOBJETO: Contratacao de empresa especializada para pavimentacao asfaltica de trechos da estrada do Jaire, conforme contrato repasse\n\nnº955401/2023/midr/caixa, que entre si celebram a uniao federal, por intermedio do Ministerio da Integracao e do Desenvolvimento Regional,",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

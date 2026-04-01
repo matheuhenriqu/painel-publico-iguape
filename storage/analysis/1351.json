@@ -1,0 +1,95 @@
+﻿{
+    "diaryId":  "1351",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:47",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1166_04074836.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1166_04074836.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO Nº 004/2026",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "004/2026",
+                      "modality":  "PREGAO ELETRONICO Nº 004/2026",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA FUTURAS E EVENTUAIS CONTRATACOES DE EMPRESA(S) ESPECIALIZADA(S) PARA FORNECIMENTO DE TONERS E UNIDADES DE IMAGEM DE DIFERENTES MARCAS E MODELOS, DESTINADOS A ATENDER A DEMANDA DAS SECRETARIAS MUNICIPAIS, PELO PERIODO DE 12 (DOZE) MESES",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "federal-agu",
+                                                       "municipal-educacao",
+                                                       "municipal-assistencia-social"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Secretaria de Educacao",
+                                                         "Secretaria de Assistencia e Desenvolvimento Social"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO Nº 004/2026\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO n.º 004/2026, do tipo MENOR PRECO POR LOTE, situada na Avenida\nAdhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: REGISTRO DE PRECOS PARA FUTURAS E EVENTUAIS CONTRATACOES DE EMPRESA(S) ESPECIALIZADA(S) PARA\nFORNECIMENTO DE TONERS E UNIDADES DE IMAGEM DE DIFERENTES MARCAS E MODELOS, DESTINADOS A ATENDER A DEMANDA DAS\nSECRETARIAS MUNI",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO Nº 005/2026",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "005/2026",
+                      "modality":  "PREGAO ELETRONICO Nº 005/2026",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de 02 (dois) aparelhos de ar condicionado 60.000 BTUs Split com instalacao, conforme especificacoes tecnicas detalhadas nos termos e condicoes estabelecidos nos documentos anexos",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO Nº 005/2026\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO n.º 005/2026, do tipo MENOR PRECO GLOBAL , situada na Avenida\nAdhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: Aquisicao de 02 (dois) aparelhos de ar condicionado 60.000 BTUs Split com instalacao, conforme especificacoes tecnicas detalhadas\nnos termos e condicoes estabelecidos nos documentos anexos.\nO recebimento das propostas dar",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

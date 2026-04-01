@@ -1,0 +1,89 @@
+﻿{
+    "diaryId":  "964",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:52",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_873_22071744.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_873_22071744.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  18,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 11.642,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 146/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "146/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "LUCAS ALEXANDRE SESSO COMERCIO LTDA",
+                      "cnpj":  "35203012022000",
+                      "object":  "Aquisicao de equipamentos mobiliarios, com destinacao dos bens para o Centro de referencia de Assistencia Social (CRAS), oriundo do recurso: Emenda Parlamentar Processo nº 202281000306 - Programacao SIGTV n° 352030120220002",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: LUCAS ALEXANDRE SESSO COMERCIO LTDA\nCONTRATO N°: 146/2024\nOBJETO:- Aquisicao de equipamentos mobiliarios, com destinacao dos bens para o Centro de referencia de Assistencia Social (CRAS), oriundo do\nrecurso: Emenda Parlamentar Processo nº 202281000306 - Programacao SIGTV n° 352030120220002.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Pregao Eletronico nº 014/2024",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "014/2024",
+                      "modality":  "Pregao Eletronico nº 014/2024",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 11.642,00",
+                      "term":  "Periodo de 90 (noventa) dias – 18/11/2024 a 15/02/2025.",
+                      "signatureDate":  "14/11/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "Pregao Eletronico nº 014/2024\nDATA: 14/11/2024\nVALOR: Global R$ 11.642,00 (onze mil, seiscentos e quarenta e dois reais)\nVIGENCIA: Periodo de 90 (noventa) dias – 18/11/2024 a 15/02/2025.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

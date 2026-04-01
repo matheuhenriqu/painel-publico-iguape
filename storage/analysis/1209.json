@@ -1,0 +1,86 @@
+﻿{
+    "diaryId":  "1209",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:14",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1063_19074005.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1063_19074005.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CHAMADA PUBLICA /CREDENCIAMENTO Nº 11/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "727/2025",
+                      "modality":  "CHAMADA PUBLICA /CREDENCIAMENTO Nº 11/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "A Prefeitura Municipal de Iguape, por meio do agente de contratacao, no uso legais de suas atribuicoes, torna publico o resultado do julgamento da",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "CHAMADA PUBLICA /CREDENCIAMENTO Nº 11/2025\n\n PROCESSO ADMINISTRATIVO N° 727/2025\n\nA Prefeitura Municipal de Iguape, por meio do agente de contratacao, no uso legais de suas atribuicoes, torna publico o resultado do julgamento da",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Chamada Publica/Credenciamento nº11/2025. Objeto: OBJETO Contratacao de pessoas fisicas e juridicas para prestacao de servicos medicos",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "11/2025",
+                      "modality":  "Chamada Publica/Credenciamento nº11/2025. Objeto: OBJETO Contratacao de pessoas fisicas e juridicas para prestacao de servicos medicos",
+                      "contractor":  "S, HABILITADAS e INABILITADAS as seguintes PARTICIPANTES",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "/ Nome PJ/ PF CREDENCIADA",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "Chamada Publica/Credenciamento nº11/2025. Objeto: OBJETO Contratacao de pessoas fisicas e juridicas para prestacao de servicos medicos\nplantonistas, medicos para Saude da Familia, medicos especialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA,\nPSICOLOGO, TERAPEUTA OCUPACIONAL, FONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de\nSaude de Iguape, bem como todos os locais de atendimento que a compoe. Pelo periodo de 12 meses. Apos a analise dos documentos apresenta",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

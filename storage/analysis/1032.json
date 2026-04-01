@@ -1,0 +1,122 @@
+﻿{
+    "diaryId":  "1032",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:41",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_927_19093707.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_927_19093707.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  8,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 65, DE 17 DE FEVEREIRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "041/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "referente a locacao de imovel para instalacao e funcionamento de uma Unidade Escolar no Bairro Icapara",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 65, DE 17 DE FEVEREIRO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa Celio Paulo de Lima Junior, Secretario Adjunto de Administracao Geral, inscrito no CPF/MF nº 192.921.628-96, para exercer a\n funcao de gestor do Contrato 041/2025, refer",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 037/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "037/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "BRADESCO S.A",
+                      "cnpj":  "",
+                      "object":  "Servicos bancarios de recebimento de tributos, impostos, taxas, divida ativa e demais receitas municipais atraves de DAM – Documento de Arrecadacao Municipal, padrao FEBRABAN",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: BRADESCO S.A\nCONTRATO Nº 037/2025\nOBJETO: Servicos bancarios de recebimento de tributos, impostos, taxas, divida ativa e demais receitas municipais atraves de DAM –\nDocumento de Arrecadacao Municipal, padrao FEBRABAN.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 038/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "038/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COOPERATIVA DE CREDITO, POUPANCA E INVESTIMENTO CAMPOS GERAIS E GRANDE CURITIBA SICREDI CAMPOS E",
+                      "cnpj":  "",
+                      "object":  "Servicos bancarios de recebimento de tributos, impostos, taxas, divida ativa e demais receitas municipais atraves de DAM – Documento de Arrecadacao Municipal, padrao FEBRABAN",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: COOPERATIVA DE CREDITO, POUPANCA E INVESTIMENTO CAMPOS GERAIS E GRANDE CURITIBA SICREDI CAMPOS E\nGERAIS E GRANDE CURITIBA PR/SP\nCONTRATO Nº 038/2025\nOBJETO: Servicos bancarios de recebimento de tributos, impostos, taxas, divida ativa e demais receitas municipais atraves de DAM –\nDocumento de Arrecadacao Municipal, padrao FEBRABAN.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

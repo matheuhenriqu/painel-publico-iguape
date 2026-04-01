@@ -1,0 +1,21 @@
+﻿{
+    "diaryId":  "123",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:17:17",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/60dc8a30a35013c980bbd578dd2cb095.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2021/60dc8a30a35013c980bbd578dd2cb095.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "extrato de contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Items\u0027 porque ele é uma matriz vazia."
+                },
+    "items":  [
+
+              ]
+}

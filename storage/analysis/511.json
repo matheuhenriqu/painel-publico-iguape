@@ -1,0 +1,93 @@
+﻿{
+    "diaryId":  "511",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:09",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/5e2972e53b2a7be551d76313b87d71d4.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/5e2972e53b2a7be551d76313b87d71d4.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  28,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CONCORRENCIA PUBLICA",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "CONCORRENCIA PUBLICA",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE RECAPEAMENTO E CALCADAS ACESSIVEIS NA AVENIDA ADHEMAR DE BARROS, NESTE MUNICIPIO DE IGUAPE/SP. LEGISLACAO: Lei Federal nº 8.666/93 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Lei Complementar 139, de 10 de novembro de 2011, Lei Complementar 147 de 07 de agosto de 2014",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "CONCORRENCIA PUBLICA\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, a CONCORRENCIA PUBLICA – n.º 001/2023, do tipo MENOR PRECO GLOBAL,\nsituada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas\nno Edital.\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE RECAPEAMENTO E CALCADAS ACESSIVEIS NA\nAVENIDA ADHEMAR DE BARROS, NESTE MUNICIPIO DE IGUAPE/SP.\nLEGISLACAO: Lei Federal nº 8.666/93 e suas alteracoes posteriores, e Lei Complemen",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero principal identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CONCORRENCIA PUBLICA",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "CONCORRENCIA PUBLICA",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIAZADA PARA OBRA DE REVITALIZACAO DA ORLA DO MAR PEQUENO - FASE III - CONVENIO Nº 000184/2022 ,QUE ENTRE SI CELEBRAM O ESTADO DE SAO PAULO, PELA SECRETARIA DE TURISMO E VIAGENS, E O MUNICIPIO DE IGUAPE , OBJETIVANDO A TRANSFERENCIA DE RECURSOS FINANCEIROS DO FUNDO DE MELHORIAS DOS MUNICIPIOS TURISTICOS. LEGISLACAO: Lei Federal nº 8.666/93 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Lei Complementar 139, de 10 de novembro de 2011 ,Lei Complementar 147 de 07 de agosto de 2014",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "estadual-turismo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Turismo e Viagens"
+                                                     ],
+                      "excerpt":  "CONCORRENCIA PUBLICA\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, a CONCORRENCIA PUBLICA – n.º 002/2023, do tipo MENOR PRECO GLOBAL,\nsituada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas\nno Edital.\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIAZADA PARA OBRA DE REVITALIZACAO DA ORLA DO MAR PEQUENO -\nFASE III - CONVENIO Nº 000184/2022 ,QUE ENTRE SI CELEBRAM O ESTADO DE SAO PAULO, PELA SECRETARIA DE TURISMO\nE VIAGENS, E O MUNICIPIO DE I",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero principal identificado"
+                                ]
+                  }
+              ]
+}

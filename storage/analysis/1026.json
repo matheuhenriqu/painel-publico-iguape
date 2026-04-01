@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "1026",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:42",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_923-_13073506.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_923-_13073506.pdf",
+    "keywords":  [
+                     "contrato",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 2.600,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "Processo nº 106/2025 DESPACHO DE RATIFICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "106/2025",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 2.600,00",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nProcesso nº 106/2025 DESPACHO DE RATIFICACAO\n\n Tomando ciencia da justificativa oriunda da origem e do conteudo do procedimento, RATIFICO a contratacao por INEXIGIBILIDADE DE\nLICITACAO, neste ato representado pelos Srs. MIGUEL MUNIZ, R.G.: 4.317.375-5-SSP-SP e CPF: 161.141.408-34 e a Sra. CHARLOTTE ELISABETH\nMUNIZ, R.G.:9.685.144-2 e CPF:387.600.718-69, residentes e domiciliados na Rua: Alfredo Gomes – 610 – Bairro - Centro, cidade de Peruibe/SP, CEP:\nnº 11.750-000, para a locacao do imovel destinado exclu",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

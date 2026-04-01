@@ -1,0 +1,130 @@
+﻿{
+    "diaryId":  "1253",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:08",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1098_08082128.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1098_08082128.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  9,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 1.221,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "4º TERMO ADITIVO DE ACRESCIMO AO CONTRATO 005/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  6,
+                      "contractNumber":  "005/2025",
+                      "processNumber":  "076/2023",
+                      "modality":  "Pregao Presencial n°. 076/2023",
+                      "contractor":  "JORNAL GAZETA SP – LTDA-EPP",
+                      "cnpj":  "",
+                      "object":  "Registro de precos pelo periodo de 12 (doze) meses, para contratacao de Jornal Diario de Grande Circulacao Regional, para prestacao de servicos de publicacao de atos oficiais da Prefeitura Municipal de Iguape. Pregao Presencial n°. 076/2023",
+                      "value":  "R$ 1.221,00",
+                      "term":  "",
+                      "signatureDate":  "05/11/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "4º TERMO ADITIVO DE ACRESCIMO AO CONTRATO 005/2025 EXTRATO\nCONTRATANTE:-MUNICIPIO DE IGUAPE\nCONTRATADA: - JORNAL GAZETA SP – LTDA-EPP\nCNPJ – 04.xxx.xxx.0001/70\nCONTRATO Nº 005/2025\nOBJETO: Registro de precos pelo periodo de 12 (doze) meses, para contratacao de Jornal Diario de Grande Circulacao Regional, para prestacao de\nservicos de publicacao de atos oficiais da Prefeitura Municipal de Iguape.\nPregao Presencial n°. 076/2023\nDATA: 05/11/2025\nVALOR: R$ 1.221,00 (um mil, duzentos e vinte e um reais), com acrescimo d",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "PREGAO ELETRONICO",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS, PELO PERIODO DE 12 (DOZE) MESES, PARA CONTRATACAO DE EMPRESA PARA PRESTACAO DE SERVICOS DE PUBLICACAO DE ATOS OFICIAIS DA PREFEITURA DE IGUAPE EM JORNAL DE GRANDE CIRCULACAO NO ESTADO DE SAO PAULO. 1.2. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO – n.º 028/2025, do tipo MENOR PRECO POR CM/CL, situada na\nAvenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\n1.1. OBJETO: REGISTRO DE PRECOS, PELO PERIODO DE 12 (DOZE) MESES, PARA\n\nCONTRATACAO DE EMPRESA PARA PRESTACAO DE SERVICOS DE PUBLICACAO DE ATOS OFICIAIS DA PREFEITURA DE IGUAPE EM\n\nJORNAL DE GRANDE CIRCULACAO NO ESTADO DE SAO PAULO.\n\n1.2",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero principal identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "PREGAO ELETRONICO",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de equipamentos/materiais permanentes odontologicos para as unidades basicas de saude - ESF Rocio Aeroporto e ESF Rocio Areia Branca, celebrado entre o Ministerio da Saude e o Municipio de Iguape/SP,em atendimento a proposta nº 13901.68400/1230-13/2023, 1.4. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "federal-ministerio-saude"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Ministerio da Saude"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO – n.º 029/2025, do tipo MENOR PRECO POR ITEM, situada na\nAvenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\n1.3. OBJETO: Aquisicao de equipamentos/materiais permanentes odontologicos para as unidades\n\nbasicas de saude - ESF Rocio Aeroporto e ESF Rocio Areia Branca, celebrado entre o Ministerio da Saude e o Municipio de Iguape/SP,em\n\natendimento",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero principal identificado"
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,59 @@
+﻿{
+    "diaryId":  "1299",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:57",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1129_08071614.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1129_08071614.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  7,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "618/2025",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 31/2025 - EDITAL Nº: 42/2025",
+                      "contractor":  "49.387.926 ANA LUCIA GERMANO SILVA",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES PARA AQUISICAO FUTURAS DE MATERIAIS DE ACABAMENTO, PINTURA, ELETRICA, HIDRAULICA E ALVENARIA, PARA MANUTENCAO DOS PREDIOS DA PREFEITURA MUNICIPAL DE IGUAPE/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n PARCIAL\n\nPROCESSO Nº: 618/2025\nREGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES PARA AQUISICAO FUTURAS DE MATERIAIS DE ACABAMENTO, PINTURA,\nELETRICA, HIDRAULICA E ALVENARIA, PARA MANUTENCAO DOS PREDIOS DA PREFEITURA MUNICIPAL DE IGUAPE/SP.\nPR-E - PREGAO ELETRONICO - 31/2025 - EDITAL Nº: 42/2025\nINTERESSADOS: SECRETARIA MUNICIPAL DE GESTAO E PLANEJAMENTO e SECRETARIA MUNIC. DE INFRAESTRUTURA URBANA E OBRAS\n.\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimen",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

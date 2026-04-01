@@ -1,0 +1,53 @@
+﻿{
+    "diaryId":  "1248",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:08",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1094_04013325.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1094_04013325.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 8.074,47"
+                },
+    "items":  [
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "3º TERMO DE PRORROGACAO E ALTERACAO DE DADOS BANCARIOS AO CONTRATO DE LOCACAO DE IMOVEL Nº 160/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  5,
+                      "contractNumber":  "",
+                      "processNumber":  "1021/2022",
+                      "modality":  "",
+                      "contractor":  "FLAVIA CRISTINA FREITAS",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao do “Arquivo Municipal e o Almoxarifado Central”",
+                      "value":  "R$ 8.074,47",
+                      "term":  "",
+                      "signatureDate":  "24/10/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n3º TERMO DE PRORROGACAO E ALTERACAO DE DADOS BANCARIOS AO CONTRATO DE LOCACAO DE IMOVEL Nº 160/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: FLAVIA CRISTINA FREITAS\nCPF - 290.XXX.XXX-80\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao do “Arquivo Municipal e o Almoxarifado\nCentral”.\nDATA: 24/10/2025\nVALOR: R$ 8.074,47 (oito mil, setenta e quatro reais e quarenta e sete centavos) mensais.\nProcesso Administrativo nº 1021/2022",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

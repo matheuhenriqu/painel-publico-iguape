@@ -1,0 +1,164 @@
+﻿{
+    "diaryId":  "1203",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:16",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1059_13082155.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1059_13082155.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade",
+                     "rescisao"
+                 ],
+    "summary":  {
+                    "pageCount":  35,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 1.796.175,43"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 2/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "2/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CHRONOS CONSTRUCAO E MANUTENCAO LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializadapara construcao de Unidade Basica de Saude (UBS) PORTE I- localizada na regiao da Alameda 18, esquina com a Rua 4 (Loteamento Iguape F), s/nº, Nova Iguape, Bairro do Rocio, no municipio de Iguape/SP, c onforme proposta nº 139016840001/24- 002 d o No vo PAC, CELEBRADO ENTRE O MINISTERIO DA SAUDE E O MUNICIPIO DE IGUAPE",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "federal-ministerio-saude"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Ministerio da Saude"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n CONTRATANTE: MUNICIPIO DE IGUAPE/SP\n CONTRATADA: CHRONOS CONSTRUCAO E MANUTENCAO LTDA\n CNPJ: 46.xxx.xxx/0001-36\n CONTRATO Nº:-142/2025\n OBJETO: Contratacao de empresa especializadapara construcao de Unidade Basica de Saude (UBS) PORTE I- localizada na regiao da Alameda 18,\n esquina com a Rua 4 (Loteamento Iguape F), s/nº, Nova Iguape, Bairro do Rocio, no municipio de Iguape/SP, c onforme proposta nº 139016840001/24-\n 002 d o No vo PAC, CELEBRADO ENTRE O MINISTERIO DA SAUDE E O MUNICIPIO DE IGUAPE.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CONCORRENCIA ELETRONICA n°.002/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "2/2025",
+                      "modality":  "CONCORRENCIA ELETRONICA n°.002/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 1.796.175,43",
+                      "term":  "O presente contrato tera vigencia de 18 (dezoito) meses, periodo de 12/09/2025 a 11/03/2027.",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "CONCORRENCIA ELETRONICA n°.002/2025\n VIGENCIA: O presente contrato tera vigencia de 18 (dezoito) meses, periodo de 12/09/2025 a 11/03/2027.\n VALOR: R$ 1.796.175,43 (um milhao, setecentos e noventa e seis mil, cento e setenta e cinco reais e quarenta e tres centavos).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE ABERTURA DE EDITAL",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "011/2025",
+                      "modality":  "CHAMADA PUBLICA nº 011/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n AVISO DE ABERTURA DE EDITAL\n CHAMADA PUPLICA - CREDENCIAMENTO DE SERVICOS MEDICOS\n\n Encontra-se ABERTO na Prefeitura Municipal de Iguape, a CHAMADA PUBLICA nº 011/2025, cujo objeto e o Credenciamento de pessoas fisicas e\n juridicas para a prestacao de servicos medicos plantonistas, medicos para Saude da Familia, medicos especialistas (G.O, ORTOPEDISTA, PSIQUIATRA,\n MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTA OCUPACIONAL, FONOAUDIOL OGO E NEUROPEDIATRA), para atender a\n demanda de toda Secretaria Mun",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "13",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  13,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "a ser informada pela credenciada : Agencia : .................,Banco",
+                      "cnpj":  "",
+                      "object":  "licitado, devendo ser observado o disposto no art . 117 da Lei nº 14.133/21. 9.1.1- Sendo: a) gestor do contrato: ....................................... b) fiscal (is) :......................................... CLAUSULA DECIMA QUARTA: DA VINCULACAO DO EDITAL 14.1- Vinculam esta contratacao , independente detranscricao: a) Estudo Tecnico Preliminar; b) Termo de Referencia",
+                      "value":  "",
+                      "term":  "maximo de 30 dias, desde que a referida fatura seja protocolada via Protocolo On-line,",
+                      "signatureDate":  "s dos atendimentos e horario deatendimento paracomprovacao da quantidade realizada",
+                      "legalBasis":  "Lei Federal n.º 14.133/2021",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "13\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – Nº 1059 Sabado, 13 de Setembro de 2025 - www.iguape.sp.gov.br\n\natendidos, datas dos atendimentos e horario deatendimento paracomprovacao da quantidade realizada.\n7.5-O pagamento sera efetuado atraves de credito em conta corrente da CONTRATADA a ser informada pela credenciada : Agencia : .................,Banco :\n................, Conta Corrente nº..................\n7.6-As Notas fiscais deverao ser protocoladas pelo fornecedor no Protocolo onLine da Prefeitura de Iguape;\n",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem orgao responsavel identificado"
+                                ]
+                  }
+              ]
+}

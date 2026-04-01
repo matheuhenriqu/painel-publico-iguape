@@ -1,0 +1,53 @@
+﻿{
+    "diaryId":  "424",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:24",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/e4c7b9643b5b8f071dc31d387c596d84.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/e4c7b9643b5b8f071dc31d387c596d84.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  12,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 11.033,20"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "CONTRATADA: C E C IMPORTACAO E COMERCIO DE PRODUTOS MEDICOS LTDA - EPP",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "163/2022",
+                      "processNumber":  "055/2022",
+                      "modality":  "PREGAO PRESENCIAL Nº: 055/2022",
+                      "contractor":  "C E C IMPORTACAO E COMERCIO DE PRODUTOS MEDICOS LTDA - EPP",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de materiais de equipamentos de Fisioterapia para atender a Secretaria Municipal de Saude. PREGAO PRESENCIAL Nº: 055/2022",
+                      "value":  "R$ 11.033,20",
+                      "term":  "60 (sessenta) dias,contados da data da assinatura.",
+                      "signatureDate":  "01/11/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATADA: C E C IMPORTACAO E COMERCIO DE PRODUTOS MEDICOS LTDA - EPP\nCONTRATO N°: 163/2022\nOBJETO: Aquisicao de materiais de equipamentos de Fisioterapia para atender a Secretaria Municipal de Saude.\nPREGAO PRESENCIAL Nº: 055/2022\nDATA: 01/11/2022\nVALOR: Pagara a contratada o valor de R$ 11.033,20 (onze mil, trinta e tres reais e vinte centavos).\nVIGENCIA: 60 (sessenta) dias,contados da data da assinatura.",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

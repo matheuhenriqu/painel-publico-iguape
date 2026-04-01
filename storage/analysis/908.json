@@ -1,0 +1,88 @@
+﻿{
+    "diaryId":  "908",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:58",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_046_07061208.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_extra_046_07061208.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 4.546,49"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "424/2024",
+                      "modality":  "CP-E - CONCORRENCIA PUBLICA ELETRONICA - 6/2024 - EDITAL Nº: 18/2024",
+                      "contractor":  "OLIVEIRA ENGENHARIA EIRELI -EPP",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA DIMENSIONAMENTO E DISTRIBUICAO ELETRICA PARA O SETOR DE PRONTO ATENDIMENTO DA UNIDADE MISTA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 424/2024\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA DIMENSIONAMENTO E DISTRIBUICAO ELETRICA PARA O SETOR DE PRONTO\nATENDIMENTO DA UNIDADE MISTA\nCP-E - CONCORRENCIA PUBLICA ELETRONICA - 6/2024 - EDITAL Nº: 18/2024\nINTERESSADOS: SECRETARIA MUNICIPAL DE SAUDE .\n\n HOMOLOGO E ADJUDICO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\n\nitens abaixo.\n\nFORNECEDOR: OLIVEIRA ENGENHARIA EIRELI -EPP\nItem 1 - SERVICOS TECNICOS DE ENGENHARIA, INC",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "CONTRATANTE: MUNICIPIO DE IGUAPE",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CARLOS ROBERTO DE MORAIS",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao de imovel para instalacao e funcionamento da Escola Municipal de Musica",
+                      "value":  "R$ 4.546,49",
+                      "term":  "",
+                      "signatureDate":  "04/09/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: CARLOS ROBERTO DE MORAIS\nTERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 170/2017\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao de imovel para instalacao e funcionamento da Escola Municipal de Musica.\nDATA: 04/09/2024\nVALOR: R$ 4.546,49 (quatro mil, quinhentos e quarenta e seis reais e quarenta e nove centavos) mensais.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

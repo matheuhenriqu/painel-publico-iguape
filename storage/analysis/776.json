@@ -1,0 +1,161 @@
+﻿{
+    "diaryId":  "776",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:17",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/20240309_2024-03-09_diariooficialedicao715_16013950.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/20240309_2024-03-09_diariooficialedicao715_16013950.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  54,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 89",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "031/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 89\n DE 07 DE MARCO DE 2024\n\n C\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0\nArt. 2º - SSP/SP, inscrito no CPF/MF nº. 256.609.068/85, para e",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 91",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "032/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 91\n DE 07 DE MARCO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Thiago Alex da Silva Morais, Diretor Tecnico de Atividades, titular da Cedula de Identidade – RG nº 41.461.202-4 SSP/SP,\nArt. 2º - inscrito no CPF/MF sob o nº 341.371.508-93, para exercer a ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 93",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  4,
+                      "contractNumber":  "033/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa EPCCO – ENGENHARIA DE PROJETOS, CONSULTORIA E CONSTRUCOES LTDA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 93\n DE 07 DE MARCO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Thiago Alex da Silva Morais, Diretor Tecnico de Atividades, titular da Cedula de Identidade – RG nº 41.461.202-4 SSP/SP,\nArt. 2º - inscrito no CPF/MF sob o nº 341.371.508-93, para exercer a ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  52,
+                      "contractNumber":  "",
+                      "processNumber":  "944/2023",
+                      "modality":  "",
+                      "contractor":  "EPCCO-ENGENH.PROJ.CONSULT.CONSTR. LTDA",
+                      "cnpj":  "",
+                      "object":  "C CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE PAVIMENTACAO E OBRASCOMPLEMENTARES DE TRECHO DA RUA MARIA DAS DORES BECHERER COSTA,LOCALIZADA NO BAIRRO JARDIM PRIMAVERA, NESTE MUNICIPIO DE IGUAPE/SP,CONFORME TERMO DE CONVENIO Nº 103368/2023, CELEBRADO ENTRE O ESTADODE SAO PAULO, ATRAVES DA SECRETARIA DE GOVERNO E RELACOESINTITUCIONAIS E O MUNICIPIO DE IGUAPE TP-O - TOMADA DE PRECOS / OBRAS - 24/2023 - EDITAL Nº: 141/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 944/2023 C\n\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE PAVIMENTACAO E OBRASCOMPLEMENTARES DE TRECHO DA RUA MARIA\nDAS DORES BECHERER COSTA,LOCALIZADA NO BAIRRO JARDIM PRIMAVERA, NESTE MUNICIPIO DE IGUAPE/SP,CONFORME TERMO DE\nCONVENIO Nº 103368/2023, CELEBRADO ENTRE O ESTADODE SAO PAULO, ATRAVES DA SECRETARIA DE GOVERNO E\nRELACOESINTITUCIONAIS E O MUNICIPIO DE IGUAPE\nTP-O - TOMADA DE PRECOS / OBRAS - 24/2023 - EDITAL Nº: 141/2023\nINTERESSADOS: SECRETARIA MUNIC.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

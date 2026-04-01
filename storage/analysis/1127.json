@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "1127",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:27",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_27jun2025_27091732.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_27jun2025_27091732.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  9,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "405/2025",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 8/2025 - EDITAL Nº: 10/2025",
+                      "contractor":  "CONTEBOX - CONTAINER E MODULOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para locacao de projecao de imagem, painel de led e telao, iluminacao, sonorizacao, geradores, grades, pal cos, pisos, tendas, galpoes, containers camarim, containers escritorio, containers sanitarios, arquibancadas, estruturas complementares e apoio, a serem utilizados pela Secretaria de Cultura, Esportes e Turismo nos eventos neste municipio pelo periodo de 12 (doze) meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-cultura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Cultura",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 405/2025\nRegistro de Precos para locacao de projecao de imagem, painel de led e telao, iluminacao, sonorizacao, geradores, grades, pal cos, pisos, tendas,\ngalpoes, containers camarim, containers escritorio, containers sanitarios, arquibancadas, estruturas complementares e apoio, a serem utilizados pela\nSecretaria de Cultura, Esportes e Turismo nos eventos neste municipio pelo periodo de 12 (doze) meses.\nPR-E - PREGAO ELETRONICO - 8/2025 - EDITAL Nº: 10/2025\nINTERESS",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

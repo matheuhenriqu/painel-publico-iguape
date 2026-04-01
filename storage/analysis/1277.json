@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "1277",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:02",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1113_05083331.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1113_05083331.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  15,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 1.119.830,46"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE PRORROGACAO AO CONTRATO Nº 200/202E3XTRATO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  5,
+                      "contractNumber":  "",
+                      "processNumber":  "058/2022",
+                      "modality":  "Pregao Presencial nº 058/2022",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Execucao dos servicos de manutencao e modernizacao o Parque de Iluminacao Publica no Municipio de Iguape/SP Pregao Presencial nº 058/2022",
+                      "value":  "R$ 1.119.830,46",
+                      "term":  "12 (doze) meses, periodo de 28/11/2025 a 27/11/2026.",
+                      "signatureDate":  "28/11/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE PRORROGACAO AO CONTRATO Nº 200/202E3XTRATO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCOTRATADA: APLAUSO ENGENHARIA LTDA – EPP\nCNPJ: 05.xxx.xxx/xxx-00\nORIUNDO DA ATA DE REGISTRO DE PREOS Nº 103/2022\nOBJETO: Execucao dos servicos de manutencao e modernizacao o Parque de Iluminacao Publica no Municipio de Iguape/SP\nPregao Presencial nº 058/2022\nVALOR: Pagara a contratada o valor global de R$ 1.119.830,46 (um milhao, cento e dezenove mil, oitocentos e trinta reais e quarenta e seis centavos).\nData: 28/11/202",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem contratada identificada"
+                                ]
+                  }
+              ]
+}

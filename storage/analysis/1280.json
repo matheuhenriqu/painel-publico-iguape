@@ -1,0 +1,97 @@
+﻿{
+    "diaryId":  "1280",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:02",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1115_09020919.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1115_09020919.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "ITEM FRACASSADO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "744/2025",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 29/2025 - EDITAL Nº: 40/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de equipamentos/materiais permanentes odontologicos para as unidades basicas de saude - ESF Rocio Aeroporto e ESF Rocio Areia Branca, celebrado entre o Ministerio da Saude e o Municipio de Iguape/SP,em atendimento a proposta nº 13901.68400/1230-13/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "federal-ministerio-saude",
+                                                       "municipal-prefeitura",
+                                                       "federal-agu",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Ministerio da Saude",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ITEM FRACASSADO\nPROCESSO Nº: 744/2025\nAquisicao de equipamentos/materiais permanentes odontologicos para as unidades basicas de saude - ESF Rocio Aeroporto e ESF Rocio Areia Branca,\ncelebrado entre o Ministerio da Saude e o Municipio de Iguape/SP,em atendimento a proposta nº 13901.68400/1230-13/2023,\nPR-E - PREGAO ELETRONICO - 29/2025 - EDITAL Nº: 40/2025\nINTERESSADOS: SECRETARIA MUNICIPAL DE SAUDE.\n\n Nos termos da Legislacao em vigor, o item restou -se FRACASSADO.\n\nLOTE 1 – QUANTIDADE : 02 , DESCRICAO : ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "744/2025",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 29/2025 - EDITAL Nº: 40/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de equipamentos/materiais permanentes odontologicos para as unidades basicas de saude - ESF Rocio Aeroporto e ESF Rocio Areia Branca, celebrado entre o Ministerio da Saude e o Municipio de Iguape/SP,em atendimento a proposta nº 13901.68400/1230-13/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "federal-ministerio-saude",
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Ministerio da Saude",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 744/2025\nAquisicao de equipamentos/materiais permanentes odontologicos para as unidades basicas de saude - ESF Rocio Aeroporto e ESF Rocio Areia\nBranca, celebrado entre o Ministerio da Saude e o Municipio de Iguape/SP,em atendimento a proposta nº 13901.68400/1230-13/2023,\nPR-E - PREGAO ELETRONICO - 29/2025 - EDITAL Nº: 40/2025\nINTERESSADOS: SECRETARIA MUNICIPAL DE SAUDE .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classi",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

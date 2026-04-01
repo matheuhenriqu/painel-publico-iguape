@@ -1,0 +1,92 @@
+﻿{
+    "diaryId":  "1365",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:45",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1175_18074340.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1175_18074340.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 117.920,43"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE ACRESCIMO DE VALOR AO CONTRATO 029/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "029/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "58007471694468",
+                      "object":  "Contratacao de empresa especializada para obra de Requalificacao da Orla do Valo Grande - fase IV, convenio que entre si celebram o Estado de Sao Paulo, por meio da Secretaria de Turismo e Viagens, e o Municipio de Iguape/SP – Termo de Convenio nº 178/2023. TOMADA DE PRECO N°. 023/2023",
+                      "value":  "R$ 117.920,43",
+                      "term":  "",
+                      "signatureDate":  "11/03/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "estadual-turismo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Turismo e Viagens"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE ACRESCIMO DE VALOR AO CONTRATO 029/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU\nCNPJ:-33.xxx.xxx/xxxx-56\nCONTRATO N°: 029/2024\nLOTE 01: Requalificacao da Orla do Valo Grande Fase IV\nOBJETO: Contratacao de empresa especializada para obra de Requalificacao da Orla do Valo Grande - fase IV, convenio que entre si celebram o\nEstado de Sao Paulo, por meio da Secretaria de Turismo e Viagens, e o Municipio de Iguape/SP – Termo de Convenio nº 178/2023.\nTOMA",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO Nº 009/2026",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "009/2026",
+                      "modality":  "PREGAO ELETRONICO Nº 009/2026",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA NA LOCACAO DE SANITARIOS QUIMICOS TIPO STANDARD, PNE e CONVENCIONAL, a fim de atender as demandas de acoes e eventos da Secretaria Municipal de Cultura, Esporte e Turismo pelo periodo de 12 (doze) meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO Nº 009/2026\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO n.º 009/2026, do tipo MENOR PRECO POR ITEM , situada na Avenida\nAdhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: REGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA NA LOCACAO DE SANITARIOS QUIMICOS TIPO\nSTANDARD, PNE e CONVENCIONAL, a fim de atender as demandas de acoes e eventos da Secretaria Municipal de Cultura, Espor",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

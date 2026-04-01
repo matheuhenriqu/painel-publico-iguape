@@ -1,0 +1,91 @@
+﻿{
+    "diaryId":  "542",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:03",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/1a21321451a7fb65ff864b0edaa22062.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/1a21321451a7fb65ff864b0edaa22062.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 150.000,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "4º TERMO DE PRORROGACAO AO CONTRATO Nº 039/2020",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "039/2020",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "EMPRESA BRASILEIRA",
+                      "cnpj":  "",
+                      "object":  "Contrato Multiplo de Prestacao de Servicos e Vendas de Produtos – Correios e Telegrafos",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n4º TERMO DE PRORROGACAO AO CONTRATO Nº 039/2020\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: EMPRESA BRASILEIRA\nDE CORREIOS E TELEGRAFOS\nOBJETO: Contrato Multiplo de Prestacao de Servicos e Vendas de Produtos – Correios e Telegrafos",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "Inexigibilidade n°. 033/2020",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "033/2020",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 150.000,00",
+                      "term":  "14/05/2023 a 14/05/2024",
+                      "signatureDate":  "25/04/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "Inexigibilidade n°. 033/2020\nDATA: 25/04/2023\nVALOR: O valor global da presente prorrogacao e de R$ 150.000,00 (cento e cinquenta mil reais)\nVIGENCIA: 14/05/2023 a 14/05/2024",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "1267",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:04",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1108_26073702.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1108_26073702.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 4.946,89"
+                },
+    "items":  [
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "10º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 356/2015",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MARIALDO AUGUSTO CORDEIRO DE SOUZA",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a Instalacao do “Cartorio Eleitoral da 51ª Zona do “Municipio de Iguape”",
+                      "value":  "R$ 4.946,89",
+                      "term":  "",
+                      "signatureDate":  "19/11/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n10º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 356/2015\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: MARIALDO AUGUSTO CORDEIRO DE SOUZA\nCPF: 048.783.048-20\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a Instalacao do “Cartorio Eleitoral da 51ª Zona do\n“Municipio de Iguape”\nDATA: 19/11/2025\nVALOR: R$ 4.946,89 (quatro mil, novecentos e quarenta e seis reais e oitenta e nove centavos) mensais.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

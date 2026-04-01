@@ -1,0 +1,53 @@
+﻿{
+    "diaryId":  "1103",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:30",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_989_29071115.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_989_29071115.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "PREGAO ELETRONICO",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA NO FORNECIMENTO DE SERVICOS DE BUFFET, COQUETEL, COFFEE BREAK, KIT ANIVERSARIO, KIT LANCHES, REFEICOES PRONTAS TIPO MARMITEX, REFEICOES PRONTAS TIPO A LA CARTE E CAMARIM PARA ATENDER AS SECRETARIAS DA PREFEITURA DE IGUAPE PELO PERIODO DE 12 (DOZE) MESES. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO – n.º 007/2025, do tipo MENOR PRECO GLOBAL POR LOTE ,\nsituada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA NO FORNECIMENTO DE SERVICOS DE BUFFET, COQUETEL, COFFEE BREAK,\nKIT ANIVERSARIO, KIT LANCHES, REFEICOES PRONTAS TIPO MARMITEX, REFEICOES PRONTAS TIPO A LA CARTE E CAMARIM PARA\nATENDER AS S",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero principal identificado"
+                                ]
+                  }
+              ]
+}

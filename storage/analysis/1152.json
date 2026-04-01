@@ -1,0 +1,159 @@
+﻿{
+    "diaryId":  "1152",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:23",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1022_19075946.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1022_19075946.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 281.599,94"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 95/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "95/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "S FERREIRA VSERVICOS E LOCACAO LTDA",
+                      "cnpj":  "",
+                      "object":  "Credenciamento de empresas para prestacao dos servicos de poda com equipe manual (ate 3,5 m, sem munck), poda com caminhao munck (com cesto aereo) e rocada manual com rastelamento e ensacamento de residuos vegetais em estradas vicinais e areas publicas nao abrangidas por contrato de limpeza urbana no Municipio de Iguape/SP – Grupo 3",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: S FERREIRA VSERVICOS E LOCACAO LTDA\nCONTRATO Nº: 95/2025\nOBJETO: Credenciamento de empresas para prestacao dos servicos de poda com equipe manual (ate 3,5 m, sem munck), poda com caminhao munck\n(com cesto aereo) e rocada manual com rastelamento e ensacamento de residuos vegetais em estradas vicinais e areas publicas nao abrangidas por\ncontrato de limpeza urbana no Municipio de Iguape/SP – Grupo 3",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "CHAMADA PUBLICA n°: 002/2025 vinculada a INEXIGIBILIDADE Nº 075/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "002/2025",
+                      "modality":  "CHAMADA PUBLICA n°: 002/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 21.600,00",
+                      "term":  "Os contratos celebrados deste credenciamento sera por empreitada por tempo indeterminado em conformidade com a liberacao de cada",
+                      "signatureDate":  "16/07/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "CHAMADA PUBLICA n°: 002/2025 vinculada a INEXIGIBILIDADE Nº 075/2025\nData: 16/07/2025\nVIGENCIA: Os contratos celebrados deste credenciamento sera por empreitada por tempo indeterminado em conformidade com a liberacao de cada\nOrdem de Inicio dos Servicos.\nPRAZO DE EXECUCAO: Os servicos deverao ser integralmente executados no prazo maximo de 60 (sessenta) dias corridos contados a partir da\nemissao da respectiva Ordem de Servico - (16/07/2025 a 13/09/2025).\nVALOR: R$ 21.600,00 (vinte e um mil e seiscentos reais).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 7/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "7/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "JOMMAR COMERCIO E SERVICOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Credenciamento de empresas para prestacao dos servicos de poda com equipe manual (ate 3,5 m, sem munck), poda com caminhao munck (com cesto aereo) e rocada manual com rastelamento e ensacamento de residuos vegetais em estradas vicinais e areas publicas nao abrangidas por contrato de limpeza urbana no Municipio de Iguape/SP – Grupo 3",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: JOMMAR COMERCIO E SERVICOS LTDA\nCONTRATO Nº:-97/2025\nOBJETO: Credenciamento de empresas para prestacao dos servicos de poda com equipe manual (ate 3,5 m, sem munck), poda com caminhao munck\n(com cesto aereo) e rocada manual com rastelamento e ensacamento de residuos vegetais em estradas vicinais e areas publicas nao abrangidas por\ncontrato de limpeza urbana no Municipio de Iguape/SP – Grupo 3",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:-012/2025.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "2/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Empresa especializada para o Registro de Precos para locacao de estruturas, tendas, grades, fechamentos, containers e sanitarios quimicos, a fim de atender a realizacao da festa de agosto 2025, pelo periodo de 60 (sessenta) dias conforme especificacoes detalhada no termo de referencia anexo I do edital. PregaoEletronico n°. 011/2025",
+                      "value":  "R$ 259.999,94",
+                      "term":  "Validade do presente Registro de Precos – 17/072025 a 14/09/2025 – 60 (sessenta) dias.",
+                      "signatureDate":  "17/07/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:-012/2025.\nOBJETO: Empresa especializada para o Registro de Precos para locacao de estruturas, tendas, grades, fechamentos, containers e sanitarios quimicos,\na fim de atender a realizacao da festa de agosto 2025, pelo periodo de 60 (sessenta) dias conforme especificacoes detalhada no termo de referencia\nanexo I do edital.\nPregaoEletronico n°. 011/2025\nData: 17/07/2025\nVIGENCIA: Validade do presente Registro de Precos – 17/072025 a 14/09/2025 – 60 (sessenta) dias.\nVALOR: Lote – 04 - R$ 2",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  }
+              ]
+}

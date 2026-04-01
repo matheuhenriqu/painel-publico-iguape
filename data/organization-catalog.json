@@ -1,0 +1,605 @@
+{
+  "version": "2026-03-18",
+  "checkedAt": "2026-03-18",
+  "notes": [
+    "As secretarias municipais foram catalogadas a partir da pagina oficial de secretarias da Prefeitura de Iguape.",
+    "As correspondencias estaduais e federais seguem afinidade tematica a partir das estruturas oficiais publicadas pelos governos estadual e federal."
+  ],
+  "sources": [
+    {
+      "id": "municipal-secretarias",
+      "sphere": "municipal",
+      "title": "Prefeitura Municipal de Iguape - SP - Secretarias",
+      "url": "https://www.iguape.sp.gov.br/portal/secretarias"
+    },
+    {
+      "id": "estadual-secretarias",
+      "sphere": "estadual",
+      "title": "Secretarias - Governo do Estado de Sao Paulo",
+      "url": "https://www.sp.gov.br/sp/institucional/estrutura/secretarias"
+    },
+    {
+      "id": "federal-ministerios",
+      "sphere": "federal",
+      "title": "Ministerios e orgaos com status de ministerios - Gov.br",
+      "url": "https://www.gov.br/pt-br/orgaos-do-governo/ministerios-e-orgaos-com-status-de-ministerios"
+    }
+  ],
+  "areas": [
+    {
+      "id": "saude",
+      "label": "Saude",
+      "municipalIds": ["municipal-saude"],
+      "stateIds": ["estadual-saude"],
+      "federalIds": ["federal-ministerio-saude"]
+    },
+    {
+      "id": "assistencia-social",
+      "label": "Assistencia social",
+      "municipalIds": ["municipal-assistencia-social"],
+      "stateIds": ["estadual-desenvolvimento-social"],
+      "federalIds": ["federal-mds"]
+    },
+    {
+      "id": "cultura",
+      "label": "Cultura",
+      "municipalIds": ["municipal-cultura"],
+      "stateIds": ["estadual-cultura"],
+      "federalIds": ["federal-ministerio-cultura"]
+    },
+    {
+      "id": "desenvolvimento",
+      "label": "Desenvolvimento economico e sustentabilidade",
+      "municipalIds": ["municipal-desenvolvimento-sustentavel"],
+      "stateIds": ["estadual-desenvolvimento-economico", "estadual-meio-ambiente"],
+      "federalIds": ["federal-mdic", "federal-meio-ambiente", "federal-empreendedorismo"]
+    },
+    {
+      "id": "gestao-planejamento",
+      "label": "Gestao, planejamento e administracao",
+      "municipalIds": ["municipal-gestao-planejamento"],
+      "stateIds": ["estadual-gestao-digital", "estadual-fazenda-planejamento"],
+      "federalIds": ["federal-mgi", "federal-planejamento"]
+    },
+    {
+      "id": "infraestrutura",
+      "label": "Infraestrutura urbana e obras",
+      "municipalIds": ["municipal-infraestrutura-obras"],
+      "stateIds": ["estadual-desenvolvimento-urbano", "estadual-meio-ambiente"],
+      "federalIds": ["federal-cidades", "federal-transportes"]
+    },
+    {
+      "id": "justica-cidadania",
+      "label": "Justica e cidadania",
+      "municipalIds": ["municipal-justica-cidadania", "municipal-pgm"],
+      "stateIds": ["estadual-justica-cidadania", "estadual-pge"],
+      "federalIds": ["federal-mjsp", "federal-mdhc", "federal-agu"]
+    },
+    {
+      "id": "educacao",
+      "label": "Educacao",
+      "municipalIds": ["municipal-educacao"],
+      "stateIds": ["estadual-educacao"],
+      "federalIds": ["federal-mec", "federal-fnde"]
+    },
+    {
+      "id": "mobilidade",
+      "label": "Transito e mobilidade",
+      "municipalIds": ["municipal-transito"],
+      "stateIds": ["estadual-transportes-metropolitanos"],
+      "federalIds": ["federal-cidades", "federal-transportes"]
+    },
+    {
+      "id": "turismo-esporte",
+      "label": "Turismo e esporte",
+      "municipalIds": ["municipal-turismo-esporte"],
+      "stateIds": ["estadual-turismo", "estadual-esportes"],
+      "federalIds": ["federal-turismo", "federal-esporte"]
+    },
+    {
+      "id": "fazenda",
+      "label": "Fazenda e arrecadacao",
+      "municipalIds": ["municipal-fazenda"],
+      "stateIds": ["estadual-fazenda-planejamento"],
+      "federalIds": ["federal-fazenda"]
+    },
+    {
+      "id": "governo",
+      "label": "Governo e articulacao institucional",
+      "municipalIds": ["municipal-prefeitura", "municipal-camara"],
+      "stateIds": ["estadual-governo", "estadual-casa-civil"],
+      "federalIds": ["federal-casa-civil", "federal-sri"]
+    }
+  ],
+  "organizations": [
+    {
+      "id": "municipal-saude",
+      "sphere": "municipal",
+      "kind": "secretaria",
+      "areaId": "saude",
+      "name": "Secretaria da Saude",
+      "sourceId": "municipal-secretarias",
+      "aliases": ["SECRETARIA DA SAUDE", "SECRETARIA MUNICIPAL DA SAUDE", "SAUDE"]
+    },
+    {
+      "id": "municipal-assistencia-social",
+      "sphere": "municipal",
+      "kind": "secretaria",
+      "areaId": "assistencia-social",
+      "name": "Secretaria de Assistencia e Desenvolvimento Social",
+      "sourceId": "municipal-secretarias",
+      "aliases": [
+        "SECRETARIA DE ASSISTENCIA E DESENVOLVIMENTO SOCIAL",
+        "SECRETARIA MUNICIPAL DE ASSISTENCIA E DESENVOLVIMENTO SOCIAL",
+        "ASSISTENCIA E DESENVOLVIMENTO SOCIAL"
+      ]
+    },
+    {
+      "id": "municipal-cultura",
+      "sphere": "municipal",
+      "kind": "secretaria",
+      "areaId": "cultura",
+      "name": "Secretaria de Cultura",
+      "sourceId": "municipal-secretarias",
+      "aliases": ["SECRETARIA DE CULTURA", "SECRETARIA MUNICIPAL DE CULTURA", "CULTURA"]
+    },
+    {
+      "id": "municipal-desenvolvimento-sustentavel",
+      "sphere": "municipal",
+      "kind": "secretaria",
+      "areaId": "desenvolvimento",
+      "name": "Secretaria de Desenvolvimento Economico Sustentavel",
+      "sourceId": "municipal-secretarias",
+      "aliases": [
+        "SECRETARIA DE DESENVOLVIMENTO ECONOMICO SUSTENTAVEL",
+        "SECRETARIA DE DESENVOLVIMENTO SUSTENTAVEL",
+        "SECRETARIA MUNICIPAL DE DESENVOLVIMENTO SUSTENTAVEL",
+        "DESENVOLVIMENTO SUSTENTAVEL"
+      ]
+    },
+    {
+      "id": "municipal-gestao-planejamento",
+      "sphere": "municipal",
+      "kind": "secretaria",
+      "areaId": "gestao-planejamento",
+      "name": "Secretaria de Gestao e Planejamento",
+      "sourceId": "municipal-secretarias",
+      "aliases": [
+        "SECRETARIA DE GESTAO E PLANEJAMENTO",
+        "SECRETARIA MUNICIPAL DE GESTAO E PLANEJAMENTO",
+        "GESTAO E PLANEJAMENTO",
+        "ADMINISTRACAO GERAL"
+      ]
+    },
+    {
+      "id": "municipal-infraestrutura-obras",
+      "sphere": "municipal",
+      "kind": "secretaria",
+      "areaId": "infraestrutura",
+      "name": "Secretaria de Infraestrutura Urbana e Obras",
+      "sourceId": "municipal-secretarias",
+      "aliases": [
+        "SECRETARIA DE INFRAESTRUTURA URBANA E OBRAS",
+        "SECRETARIA MUNICIPAL DE INFRAESTRUTURA URBANA E OBRAS",
+        "SECRETARIA MUNICIPAL DE INFRAESTRUTURA E OBRAS",
+        "SECRETARIA DE INFRAESTRUTURA E OBRAS",
+        "SMIURB"
+      ]
+    },
+    {
+      "id": "municipal-justica-cidadania",
+      "sphere": "municipal",
+      "kind": "secretaria",
+      "areaId": "justica-cidadania",
+      "name": "Secretaria de Justica e Cidadania",
+      "sourceId": "municipal-secretarias",
+      "aliases": [
+        "SECRETARIA DE JUSTICA E CIDADANIA",
+        "SECRETARIA MUNICIPAL DE JUSTICA E CIDADANIA",
+        "JUSTICA E CIDADANIA"
+      ]
+    },
+    {
+      "id": "municipal-educacao",
+      "sphere": "municipal",
+      "kind": "secretaria",
+      "areaId": "educacao",
+      "name": "Secretaria de Educacao",
+      "sourceId": "municipal-secretarias",
+      "aliases": ["SECRETARIA DE EDUCACAO", "SECRETARIA MUNICIPAL DE EDUCACAO", "EDUCACAO"]
+    },
+    {
+      "id": "municipal-transito",
+      "sphere": "municipal",
+      "kind": "secretaria",
+      "areaId": "mobilidade",
+      "name": "Secretaria de Transito e Mobilidade Urbana",
+      "sourceId": "municipal-secretarias",
+      "aliases": [
+        "SECRETARIA DE TRANSITO E MOBILIDADE URBANA",
+        "SECRETARIA MUNICIPAL DE TRANSITO E MOBILIDADE URBANA",
+        "TRANSITO E MOBILIDADE URBANA",
+        "DIVTRAN"
+      ]
+    },
+    {
+      "id": "municipal-turismo-esporte",
+      "sphere": "municipal",
+      "kind": "secretaria",
+      "areaId": "turismo-esporte",
+      "name": "Secretaria de Turismo e Esporte",
+      "sourceId": "municipal-secretarias",
+      "aliases": [
+        "SECRETARIA DE TURISMO E ESPORTE",
+        "SECRETARIA MUNICIPAL DE TURISMO E ESPORTE",
+        "SECRETARIA MUNICIPAL DE CULTURA ESPORTE E TURISMO",
+        "SECRETARIA MUNICIPAL DE CULTURA, ESPORTE E TURISMO",
+        "SECRETARIA MUNICIPAL DE CULTURA, TURISMO E ESPORTE",
+        "TURISMO E ESPORTE"
+      ]
+    },
+    {
+      "id": "municipal-fazenda",
+      "sphere": "municipal",
+      "kind": "secretaria",
+      "areaId": "fazenda",
+      "name": "Secretaria Municipal da Fazenda",
+      "sourceId": "municipal-secretarias",
+      "aliases": ["SECRETARIA MUNICIPAL DA FAZENDA", "SECRETARIA DA FAZENDA", "FAZENDA"]
+    },
+    {
+      "id": "municipal-pgm",
+      "sphere": "municipal",
+      "kind": "orgao",
+      "areaId": "justica-cidadania",
+      "name": "Procuradoria-Geral do Municipio",
+      "sourceId": "municipal-secretarias",
+      "aliases": ["PROCURADORIA-GERAL DO MUNICIPIO", "PROCURADORIA GERAL DO MUNICIPIO", "PGM"]
+    },
+    {
+      "id": "municipal-prefeitura",
+      "sphere": "municipal",
+      "kind": "orgao",
+      "areaId": "governo",
+      "name": "Prefeitura Municipal de Iguape",
+      "sourceId": "municipal-secretarias",
+      "aliases": ["PREFEITURA MUNICIPAL DE IGUAPE", "MUNICIPIO DE IGUAPE", "GABINETE DO PREFEITO"]
+    },
+    {
+      "id": "municipal-camara",
+      "sphere": "municipal",
+      "kind": "orgao",
+      "areaId": "governo",
+      "name": "Camara Municipal de Iguape",
+      "sourceId": "municipal-secretarias",
+      "aliases": ["CAMARA MUNICIPAL DE IGUAPE", "CAMARA MUNICIPAL"]
+    },
+    {
+      "id": "estadual-saude",
+      "sphere": "estadual",
+      "kind": "secretaria",
+      "areaId": "saude",
+      "name": "Secretaria da Saude",
+      "sourceId": "estadual-secretarias",
+      "aliases": ["SECRETARIA DA SAUDE"]
+    },
+    {
+      "id": "estadual-desenvolvimento-social",
+      "sphere": "estadual",
+      "kind": "secretaria",
+      "areaId": "assistencia-social",
+      "name": "Secretaria de Desenvolvimento Social",
+      "sourceId": "estadual-secretarias",
+      "aliases": ["SECRETARIA DE DESENVOLVIMENTO SOCIAL"]
+    },
+    {
+      "id": "estadual-cultura",
+      "sphere": "estadual",
+      "kind": "secretaria",
+      "areaId": "cultura",
+      "name": "Secretaria da Cultura, Economia e Industria Criativas",
+      "sourceId": "estadual-secretarias",
+      "aliases": ["SECRETARIA DA CULTURA, ECONOMIA E INDUSTRIA CRIATIVAS", "SECRETARIA DA CULTURA"]
+    },
+    {
+      "id": "estadual-desenvolvimento-economico",
+      "sphere": "estadual",
+      "kind": "secretaria",
+      "areaId": "desenvolvimento",
+      "name": "Secretaria de Desenvolvimento Economico",
+      "sourceId": "estadual-secretarias",
+      "aliases": ["SECRETARIA DE DESENVOLVIMENTO ECONOMICO"]
+    },
+    {
+      "id": "estadual-meio-ambiente",
+      "sphere": "estadual",
+      "kind": "secretaria",
+      "areaId": "desenvolvimento",
+      "name": "Secretaria de Meio Ambiente, Infraestrutura e Logistica",
+      "sourceId": "estadual-secretarias",
+      "aliases": [
+        "SECRETARIA DE MEIO AMBIENTE, INFRAESTRUTURA E LOGISTICA",
+        "SECRETARIA DE MEIO AMBIENTE INFRAESTRUTURA E LOGISTICA"
+      ]
+    },
+    {
+      "id": "estadual-gestao-digital",
+      "sphere": "estadual",
+      "kind": "secretaria",
+      "areaId": "gestao-planejamento",
+      "name": "Secretaria de Gestao e Governo Digital",
+      "sourceId": "estadual-secretarias",
+      "aliases": ["SECRETARIA DE GESTAO E GOVERNO DIGITAL"]
+    },
+    {
+      "id": "estadual-fazenda-planejamento",
+      "sphere": "estadual",
+      "kind": "secretaria",
+      "areaId": "fazenda",
+      "name": "Secretaria da Fazenda e Planejamento",
+      "sourceId": "estadual-secretarias",
+      "aliases": ["SECRETARIA DA FAZENDA E PLANEJAMENTO"]
+    },
+    {
+      "id": "estadual-desenvolvimento-urbano",
+      "sphere": "estadual",
+      "kind": "secretaria",
+      "areaId": "infraestrutura",
+      "name": "Secretaria de Desenvolvimento Urbano e Habitacao",
+      "sourceId": "estadual-secretarias",
+      "aliases": ["SECRETARIA DE DESENVOLVIMENTO URBANO E HABITACAO"]
+    },
+    {
+      "id": "estadual-justica-cidadania",
+      "sphere": "estadual",
+      "kind": "secretaria",
+      "areaId": "justica-cidadania",
+      "name": "Secretaria da Justica e Cidadania",
+      "sourceId": "estadual-secretarias",
+      "aliases": ["SECRETARIA DA JUSTICA E CIDADANIA"]
+    },
+    {
+      "id": "estadual-pge",
+      "sphere": "estadual",
+      "kind": "orgao",
+      "areaId": "justica-cidadania",
+      "name": "Procuradoria Geral do Estado",
+      "sourceId": "estadual-secretarias",
+      "aliases": ["PROCURADORIA GERAL DO ESTADO", "PGE"]
+    },
+    {
+      "id": "estadual-educacao",
+      "sphere": "estadual",
+      "kind": "secretaria",
+      "areaId": "educacao",
+      "name": "Secretaria da Educacao",
+      "sourceId": "estadual-secretarias",
+      "aliases": ["SECRETARIA DA EDUCACAO"]
+    },
+    {
+      "id": "estadual-transportes-metropolitanos",
+      "sphere": "estadual",
+      "kind": "secretaria",
+      "areaId": "mobilidade",
+      "name": "Secretaria dos Transportes Metropolitanos",
+      "sourceId": "estadual-secretarias",
+      "aliases": ["SECRETARIA DOS TRANSPORTES METROPOLITANOS"]
+    },
+    {
+      "id": "estadual-turismo",
+      "sphere": "estadual",
+      "kind": "secretaria",
+      "areaId": "turismo-esporte",
+      "name": "Secretaria de Turismo e Viagens",
+      "sourceId": "estadual-secretarias",
+      "aliases": ["SECRETARIA DE TURISMO E VIAGENS"]
+    },
+    {
+      "id": "estadual-esportes",
+      "sphere": "estadual",
+      "kind": "secretaria",
+      "areaId": "turismo-esporte",
+      "name": "Secretaria de Esportes",
+      "sourceId": "estadual-secretarias",
+      "aliases": ["SECRETARIA DE ESPORTES"]
+    },
+    {
+      "id": "estadual-governo",
+      "sphere": "estadual",
+      "kind": "secretaria",
+      "areaId": "governo",
+      "name": "Secretaria de Governo e Relacoes Institucionais",
+      "sourceId": "estadual-secretarias",
+      "aliases": ["SECRETARIA DE GOVERNO E RELACOES INSTITUCIONAIS"]
+    },
+    {
+      "id": "estadual-casa-civil",
+      "sphere": "estadual",
+      "kind": "secretaria",
+      "areaId": "governo",
+      "name": "Casa Civil",
+      "sourceId": "estadual-secretarias",
+      "aliases": ["CASA CIVIL"]
+    },
+    {
+      "id": "federal-ministerio-saude",
+      "sphere": "federal",
+      "kind": "ministerio",
+      "areaId": "saude",
+      "name": "Ministerio da Saude",
+      "sourceId": "federal-ministerios",
+      "aliases": ["MINISTERIO DA SAUDE"]
+    },
+    {
+      "id": "federal-mds",
+      "sphere": "federal",
+      "kind": "ministerio",
+      "areaId": "assistencia-social",
+      "name": "Ministerio do Desenvolvimento e Assistencia Social, Familia e Combate a Fome",
+      "sourceId": "federal-ministerios",
+      "aliases": ["MINISTERIO DO DESENVOLVIMENTO E ASSISTENCIA SOCIAL, FAMILIA E COMBATE A FOME"]
+    },
+    {
+      "id": "federal-ministerio-cultura",
+      "sphere": "federal",
+      "kind": "ministerio",
+      "areaId": "cultura",
+      "name": "Ministerio da Cultura",
+      "sourceId": "federal-ministerios",
+      "aliases": ["MINISTERIO DA CULTURA"]
+    },
+    {
+      "id": "federal-mdic",
+      "sphere": "federal",
+      "kind": "ministerio",
+      "areaId": "desenvolvimento",
+      "name": "Ministerio do Desenvolvimento, Industria, Comercio e Servicos",
+      "sourceId": "federal-ministerios",
+      "aliases": ["MINISTERIO DO DESENVOLVIMENTO, INDUSTRIA, COMERCIO E SERVICOS"]
+    },
+    {
+      "id": "federal-meio-ambiente",
+      "sphere": "federal",
+      "kind": "ministerio",
+      "areaId": "desenvolvimento",
+      "name": "Ministerio do Meio Ambiente e Mudanca do Clima",
+      "sourceId": "federal-ministerios",
+      "aliases": ["MINISTERIO DO MEIO AMBIENTE E MUDANCA DO CLIMA"]
+    },
+    {
+      "id": "federal-empreendedorismo",
+      "sphere": "federal",
+      "kind": "ministerio",
+      "areaId": "desenvolvimento",
+      "name": "Ministerio do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte",
+      "sourceId": "federal-ministerios",
+      "aliases": ["MINISTERIO DO EMPREENDEDORISMO, DA MICROEMPRESA E DA EMPRESA DE PEQUENO PORTE"]
+    },
+    {
+      "id": "federal-mgi",
+      "sphere": "federal",
+      "kind": "ministerio",
+      "areaId": "gestao-planejamento",
+      "name": "Ministerio da Gestao e da Inovacao em Servicos Publicos",
+      "sourceId": "federal-ministerios",
+      "aliases": ["MINISTERIO DA GESTAO E DA INOVACAO EM SERVICOS PUBLICOS"]
+    },
+    {
+      "id": "federal-planejamento",
+      "sphere": "federal",
+      "kind": "ministerio",
+      "areaId": "gestao-planejamento",
+      "name": "Ministerio do Planejamento e Orcamento",
+      "sourceId": "federal-ministerios",
+      "aliases": ["MINISTERIO DO PLANEJAMENTO E ORCAMENTO"]
+    },
+    {
+      "id": "federal-cidades",
+      "sphere": "federal",
+      "kind": "ministerio",
+      "areaId": "infraestrutura",
+      "name": "Ministerio das Cidades",
+      "sourceId": "federal-ministerios",
+      "aliases": ["MINISTERIO DAS CIDADES"]
+    },
+    {
+      "id": "federal-transportes",
+      "sphere": "federal",
+      "kind": "ministerio",
+      "areaId": "mobilidade",
+      "name": "Ministerio dos Transportes",
+      "sourceId": "federal-ministerios",
+      "aliases": ["MINISTERIO DOS TRANSPORTES"]
+    },
+    {
+      "id": "federal-mjsp",
+      "sphere": "federal",
+      "kind": "ministerio",
+      "areaId": "justica-cidadania",
+      "name": "Ministerio da Justica e Seguranca Publica",
+      "sourceId": "federal-ministerios",
+      "aliases": ["MINISTERIO DA JUSTICA E SEGURANCA PUBLICA"]
+    },
+    {
+      "id": "federal-mdhc",
+      "sphere": "federal",
+      "kind": "ministerio",
+      "areaId": "justica-cidadania",
+      "name": "Ministerio dos Direitos Humanos e Cidadania",
+      "sourceId": "federal-ministerios",
+      "aliases": ["MINISTERIO DOS DIREITOS HUMANOS E CIDADANIA"]
+    },
+    {
+      "id": "federal-agu",
+      "sphere": "federal",
+      "kind": "orgao",
+      "areaId": "justica-cidadania",
+      "name": "Advocacia-Geral da Uniao",
+      "sourceId": "federal-ministerios",
+      "aliases": ["ADVOCACIA-GERAL DA UNIAO", "ADVOCACIA GERAL DA UNIAO", "AGU"]
+    },
+    {
+      "id": "federal-mec",
+      "sphere": "federal",
+      "kind": "ministerio",
+      "areaId": "educacao",
+      "name": "Ministerio da Educacao",
+      "sourceId": "federal-ministerios",
+      "aliases": ["MINISTERIO DA EDUCACAO", "MEC"]
+    },
+    {
+      "id": "federal-fnde",
+      "sphere": "federal",
+      "kind": "orgao",
+      "areaId": "educacao",
+      "name": "Fundo Nacional de Desenvolvimento da Educacao",
+      "sourceId": "federal-ministerios",
+      "aliases": ["FUNDO NACIONAL DE DESENVOLVIMENTO DA EDUCACAO", "FNDE"]
+    },
+    {
+      "id": "federal-turismo",
+      "sphere": "federal",
+      "kind": "ministerio",
+      "areaId": "turismo-esporte",
+      "name": "Ministerio do Turismo",
+      "sourceId": "federal-ministerios",
+      "aliases": ["MINISTERIO DO TURISMO"]
+    },
+    {
+      "id": "federal-esporte",
+      "sphere": "federal",
+      "kind": "ministerio",
+      "areaId": "turismo-esporte",
+      "name": "Ministerio do Esporte",
+      "sourceId": "federal-ministerios",
+      "aliases": ["MINISTERIO DO ESPORTE"]
+    },
+    {
+      "id": "federal-fazenda",
+      "sphere": "federal",
+      "kind": "ministerio",
+      "areaId": "fazenda",
+      "name": "Ministerio da Fazenda",
+      "sourceId": "federal-ministerios",
+      "aliases": ["MINISTERIO DA FAZENDA"]
+    },
+    {
+      "id": "federal-casa-civil",
+      "sphere": "federal",
+      "kind": "orgao",
+      "areaId": "governo",
+      "name": "Casa Civil",
+      "sourceId": "federal-ministerios",
+      "aliases": ["CASA CIVIL"]
+    },
+    {
+      "id": "federal-sri",
+      "sphere": "federal",
+      "kind": "orgao",
+      "areaId": "governo",
+      "name": "Secretaria de Relacoes Institucionais",
+      "sourceId": "federal-ministerios",
+      "aliases": ["SECRETARIA DE RELACOES INSTITUCIONAIS"]
+    }
+  ]
+}

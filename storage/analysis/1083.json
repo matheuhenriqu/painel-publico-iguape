@@ -1,0 +1,93 @@
+﻿{
+    "diaryId":  "1083",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:33",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_971_26021907.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_971_26021907.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  10,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 123,04"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º Termo Aditivo de Prazo ao Contrato 28/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "028/2024",
+                      "processNumber":  "086/2023",
+                      "modality":  "Pregao Presencial n°. 086/2023",
+                      "contractor":  "M LOPES AMBIENTAL LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para execucao de fornecimento e Instalacao de Unidades Sanitarias Individuais (usi’s) para tratamento de esgoto unifamiliar nos Bairros Pinheirinho e Jaire, do Municipio de Iguape/SP, conforme contrato celebrado com o Fehidro – Fundo Estadual de Recursos Hidricos, nº 359/2023. Pregao Presencial n°. 086/2023",
+                      "value":  "",
+                      "term":  "E EXECUCAO: 90 (noventa) dias-Periodo de 25/04/2025 a 23/07/2025",
+                      "signatureDate":  "24/04/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "2º Termo Aditivo de Prazo ao Contrato 28/2024\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\n\nCONTRATADA: M LOPES AMBIENTAL LTDA\n\nCONTRATO N°: 028/2024\n\nOBJETO: Contratacao de empresa especializada para execucao de fornecimento e Instalacao de Unidades Sanitarias Individuais (usi’s) para tratamento\n\nde esgoto unifamiliar nos Bairros Pinheirinho e Jaire, do Municipio de Iguape/SP, conforme contrato celebrado com o Fehidro – Fundo Estadual de\n\nRecursos Hidricos, nº 359/2023.\n\nPregao Presencial n°. 086/2023. .\n\nData: 24/04/2025\n\nV",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "266/2025",
+                      "modality":  "EDITAL CHAMADA PUBLICA Nº: 02/2025",
+                      "contractor":  "J.A. DE SOUZA CARDOSO LTDA - ME",
+                      "cnpj":  "",
+                      "object":  "Credenciamento de empresas para prestacao dos servicos de poda com equipe manual (ate 3,5 m, sem munck), poda com caminhao munck (com cesto aereo) e rocada manual com rastelamento e ensacamento de residuos vegetais em estradas vicinais e areas publicas nao abrangidas por contrato de limpeza urbana no Municipio de Iguape/SP",
+                      "value":  "R$ 123,04",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\nPROCESSO Nº: 266/2025\nCredenciamento de empresas para prestacao dos servicos de poda com equipe manual (ate 3,5 m, sem munck), poda com caminhao munck\n(com cesto aereo) e rocada manual com rastelamento e ensacamento de residuos vegetais em estradas vicinais e areas publicas nao\nabrangidas por contrato de limpeza urbana no Municipio de Iguape/SP.\n\nEDITAL CHAMADA PUBLICA Nº: 02/2025.\nINTERESSADO: SECRETARIA MUNICIPAL DE INFRAESTRUTURA URBANA E OBRAS.\n\n HOMOLOGO E ADJUDICO, nos term",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

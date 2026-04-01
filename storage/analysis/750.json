@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "750",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:23",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/72e54f711d02ba4502658cd0d11670c8.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/72e54f711d02ba4502658cd0d11670c8.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "PREFEITURA MUNICIPAL DE IGUAPE",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "9/2023",
+                      "modality":  "PREGAO PRESENCIAL nº.069/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE UNIFORMES E FANTASIAS, PARA ATENDER AS SECRETARIAS DA PREFEITURA MUNICIPAL DE IGUAPE, PELO PERIODO 12 (DOZE) MESES",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n PREFEITURA MUNICIPAL DE IGUAPE\n AVISO DE REABERTURA DE LICITACAO\n\nEncontra-se reaberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP\n11.920-000, o PREGAO PRESENCIAL nº.069/2023, do tipo MENOR VALOR GLOBAL POR LOTE, conforme especificacoes detalhadas no Edital.\nOBJETO: REGISTRO DE PRECOS PARA AQUISICAO DE UNIFORMES E FANTASIAS, PARA ATENDER AS SECRETARIAS DA PREFEITURA\nMUNICIPAL DE IGUAPE, PELO PERIODO 12 (DOZE) MESES.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

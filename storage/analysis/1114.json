@@ -1,0 +1,86 @@
+﻿{
+    "diaryId":  "1114",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:29",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_996_07070727.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_996_07070727.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 329.064,97"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE ACRESCIMO A0 CONTRATO 050//2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "050/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "IB FERREIRA SERVICOS LTDA. (GRUPO RL ME)",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa para Prestacao de Servico de Controle de Acesso, Apoio e Fiscalizacao, com Coordenador e acompanhamento por monitoramento de cameras 24 (vinte e quatro) horas nas dependencias Prefeitura Municipal de Iguape, passarela “Vereador Gasparino Costa”, Hospital de Iguape (Pronto Socorro), Casa da Crianca, e CAPS (Porto do Ribeira) no municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE ACRESCIMO A0 CONTRATO 050//2025\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: IB FERREIRA SERVICOS LTDA. (GRUPO RL ME)\nCONTRATO Nº 050/2025\nOBJETO: Contratacao de empresa para Prestacao de Servico de Controle de Acesso, Apoio e Fiscalizacao, com Coordenador e acompanhamento\npor monitoramento de cameras 24 (vinte e quatro) horas nas dependencias Prefeitura Municipal de Iguape, passarela “Vereador Gasparino Costa”,\nHospital de Iguape (Pronto Socorro), Casa da Crianca, e CAPS (Porto do Ribeira) n",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Pregao Eletronico n°. 001/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "001/2025",
+                      "modality":  "Pregao Eletronico n°. 001/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 329.064,97",
+                      "term":  "",
+                      "signatureDate":  "05/06/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "Pregao Eletronico n°. 001/2025\nData: 05/06/2025\nVALOR: R$ 329.064,97 (trezentos e vinte e nove mil, sessenta e quatro reais e noventa e sete centavos)",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

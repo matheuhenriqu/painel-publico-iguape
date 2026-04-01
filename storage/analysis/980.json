@@ -1,0 +1,91 @@
+﻿{
+    "diaryId":  "980",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:50",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_886_13083438.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_886_13083438.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 2.989,59"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO 129/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "129/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "OLIVEIRA ENGENHARIA LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para execucao de dimensionamento e distribuicao eletrica para o setor de Pronto Atendimento da Unidade Mista, na Rua Latif Correa, 92-196, Centro – neste Municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "AO CONTRATO 129/2024",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO 129/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: OLIVEIRA ENGENHARIA LTDA\nCONTRATO N°: 129/2024\nOBJETO Contratacao de empresa especializada para execucao de dimensionamento e distribuicao eletrica para o setor de Pronto Atendimento da Unidade\nMista, na Rua Latif Correa, 92-196, Centro – neste Municipio de Iguape/SP.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 045/2018",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "NICANOR BALDUINO DE BRITO",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao da “Delegacia de Policia de Iguape - Bairro do Rocio – Iguape/SP”",
+                      "value":  "R$ 2.989,59",
+                      "term":  "",
+                      "signatureDate":  "11/12/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nTERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 045/2018\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: NICANOR BALDUINO DE BRITO\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao da “Delegacia de Policia de Iguape -\nBairro do Rocio – Iguape/SP”.\nDATA: 11/12/2024\nVALOR: R$ 2.989,59 (dois mil, novecentos e oitenta e nove reais e cinquenta e nove centavos).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

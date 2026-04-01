@@ -1,0 +1,53 @@
+﻿{
+    "diaryId":  "340",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:37",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/9880c7fc21231d3a346aea542326759b.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/9880c7fc21231d3a346aea542326759b.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO E HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "",
+                      "processNumber":  "95/2022",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 45/2022",
+                      "contractor":  "A MORAES - ME",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO E HOMOLOGACAO\n\n PROCESSO Nº: 95/2022\n REGISTRO DE PRECOS PARA AQUISICOES DE LIXEIRAS E CONTAINERS , PARA ATENDER AO MUNICIPIODE IGUAPE/SP\n PR-G - PREGAO PRESENCIAL - 45/2022\n EDITAL Nº: 67/2022\n\n HOMOLOGO E ADJUDICO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao\ndos itens abaixo.\n\nFORNECEDOR: A MORAES - ME\n\nItem Descricao Qtde U.M. Vl.Unitario Vl.Total\n001 60,00 UN 1.860,0000 111.600,00\n 12.5594 - CONTAINERS 1.000\n002 LITROS - DESCRICAO NO TERMO 100,00 UN 370,",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

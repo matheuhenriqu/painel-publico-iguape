@@ -1,0 +1,57 @@
+﻿{
+    "diaryId":  "599",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:51",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/2b8b9344349e2cb68d01c90d9e57311c.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/2b8b9344349e2cb68d01c90d9e57311c.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "516/2023",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 42/2023 - EDITAL Nº: 68/2023",
+                      "contractor":  "LOC Quantidade: 100,00 Valor Unitario: 154,00 Total: 15.400,00",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA FUTURAS LOCACOES DE CONJUNTOS DE MESAS COM BANCOS E CADEIRAS, PARA ATENDER AS NECESSIDADES DOS EVENTOS REALIZADOS NESTE MUNICIPIO DE IGUAPE/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 516/2023\nREGISTRO DE PRECOS PARA FUTURAS LOCACOES DE CONJUNTOS DE MESAS COM BANCOS E CADEIRAS, PARA ATENDER AS\nNECESSIDADES DOS EVENTOS REALIZADOS NESTE MUNICIPIO DE IGUAPE/SP.\nPR-G - PREGAO PRESENCIAL - 42/2023 - EDITAL Nº: 68/2023\nINTERESSADOS: SECRETARIA MUNIC. DE CULTURA, ESPORTES E TURISMO .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\nitens abaixo.\nFORNECEDOR: MOMENT LOCACOES E EVENTOS LTDA\nItem 1 -",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

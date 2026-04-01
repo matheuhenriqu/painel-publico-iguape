@@ -1,0 +1,87 @@
+﻿{
+    "diaryId":  "635",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:44",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/512651c043d17ec6c52aafa4c37639ee.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/512651c043d17ec6c52aafa4c37639ee.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 4.397,66"
+                },
+    "items":  [
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "CONTRATANTE: MUNICIPIO DE IGUAPE",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CARLOS ROBERTO DE MORAIS",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao de imovel para instalacao e funcionamento da Escola Municipal de Musica",
+                      "value":  "R$ 4.369,06",
+                      "term":  "",
+                      "signatureDate":  "28/08/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: CARLOS ROBERTO DE MORAIS\nTERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 170/2017\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao de imovel para instalacao e funcionamento da Escola Municipal de Musica.\nDATA: 28/08/2023\nVALOR: R$ 4.369,06 (quatro mil, trezentos e sessenta e nove reais e seis centavos) mensais.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE CANCELAMENTO DE ITEM A ATA DE REGISTRO DE PRECOS N°: 017/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "017/2023",
+                      "processNumber":  "008/2023",
+                      "modality":  "Pregao Presencial n°. 008/2023",
+                      "contractor":  "DOVALE HOSPITALAR LTDA",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo de 12 (doze) meses, fica cancelado da ata de registro o seguinte item: 022 Cloridrato de Tetracaina 10 mg+ cloridrato de fenilefrina 1mg+acido borico 15mg-colirio- Qtde 34 (trinta e quatro) fransco, Valor unitario – R$ 28,60 (vinte e oito reais e sessenta centavos), Valor Total – R$ 686,40 (seiscentos e oitenta e seis reais e quarenta centavos) Pregao Presencial n°. 008/2023",
+                      "value":  "R$ 28,60",
+                      "term":  "",
+                      "signatureDate":  "22/08/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE CANCELAMENTO DE ITEM A ATA DE REGISTRO DE PRECOS N°: 017/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA:-DOVALE HOSPITALAR LTDA\nOBJETO: Registro de Precos para aquisicao de medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo\nde 12 (doze) meses, fica cancelado da ata de registro o seguinte item: 022 Cloridrato de Tetracaina 10 mg+ cloridrato de fenilefrina 1mg+acido borico\n15mg-colirio- Qtde 34 (trinta e quatro) fransco, Valor unitario – R$ 28,60 (vin",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,12 @@
+﻿{
+    "diaryId":  "1304",
+    "parserVersion":  "2026.03.23.01",
+    "analyzedAt":  "2026-03-25T11:02:10",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1131_10083612.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1131_10083612.pdf",
+    "eventCount":  0,
+    "error":  "Os tipos de argumento não correspondem",
+    "events":  [
+
+               ]
+}

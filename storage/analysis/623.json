@@ -1,0 +1,87 @@
+﻿{
+    "diaryId":  "623",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:46",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/56171843939fde4ccdc4958984a8b8dc.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/56171843939fde4ccdc4958984a8b8dc.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 115.339,97"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 155/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "155/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SAMUEL RIBEIRO-EPP EIRELI",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE MANUTENCAO E REPAROS NA ESCOLA MUNICIPAL PROFª ABIGAIL FORTES MARTINS, LOCALIZADA NA RUA “F” – BAIRRO DA BARRA DO RIBEIRA, NESTE MUNICIPIO DE IGUAPE/SP. TOMADA DE PRECO Nº 009/2023",
+                      "value":  "R$ 115.339,97",
+                      "term":  "120 (cento e vinte) dias – (Vigencia e Execucao), contados da data indicada na Autorizacao de Inicio dos Servicos.",
+                      "signatureDate":  "09/08/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SAMUEL RIBEIRO-EPP EIRELI\nCONTRATO N°: 155/2023\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE MANUTENCAO E REPAROS NA ESCOLA MUNICIPAL PROFª\nABIGAIL FORTES MARTINS, LOCALIZADA NA RUA “F” – BAIRRO DA BARRA DO RIBEIRA, NESTE MUNICIPIO DE IGUAPE/SP.\nTOMADA DE PRECO Nº 009/2023\nDATA: 09/08/2023\nVALOR: Pagara a contratada o valor de R$ 115.339,97 ( cento e quinze mil, trezentos e trinta e nove reais e noventa e sete centavos)\nVIGENCIA: 120 (cento e vinte)",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO AO CONTRATO Nº 092/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "092/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "YPUA SANEAMENTO AMBIENTAL EIRELI",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA EXECUCAO DE FORNECIMENTO E INSTALACAO DE UNIDADE SANITARIA INDIVIDUAL (USI) PARA TRATAMENTO DE ESGOTO UNIFAMILIAR NOS BAIRROS DESTE MUNCIPIO DE IGUAPE/SP, conforme contratos nº 129,130,131/2020 e 019/2021, Celebrados entre a Prefeitura de Iguape e FEHIDRO- Fundo Estadual de Recursos Hidricos. Tomada de Precos - n°. 014/2021",
+                      "value":  "",
+                      "term":  "Prorrogada a Execucao do Servico e Vigencia do Contrato, periodo de 12/08/2023 a 10/10/2023 inclusive – (60 dias).",
+                      "signatureDate":  "12/08/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO AO CONTRATO Nº 092/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: YPUA SANEAMENTO AMBIENTAL EIRELI\nCONTRATO N°: 092/2021\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA EXECUCAO DE FORNECIMENTO E INSTALACAO DE UNIDADE SANITARIA\nINDIVIDUAL (USI) PARA TRATAMENTO DE ESGOTO UNIFAMILIAR NOS BAIRROS DESTE MUNCIPIO DE IGUAPE/SP, conforme contratos nº\n129,130,131/2020 e 019/2021, Celebrados entre a Prefeitura de Iguape e FEHIDRO- Fundo Estadual de Recursos Hidricos.\nTomada de Precos - n°. 014/2021\nDAT",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

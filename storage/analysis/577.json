@@ -1,0 +1,91 @@
+﻿{
+    "diaryId":  "577",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:56",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/a9c6fdd26e461d78a0c802de412a5b98.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/a9c6fdd26e461d78a0c802de412a5b98.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 6.637.750,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 060/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "060/2023",
+                      "processNumber":  "030/2023",
+                      "modality":  "Pregao Presencial n°. 030/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para futuras e eventuais contratacoes de empresa especializada para fornecimento de agregados minerais a serem utilizados neste municipio de Iguape/SP, pelo periodo de 12 meses. Pregao Presencial n°. 030/2023",
+                      "value":  "R$ 5.640.000,00",
+                      "term":  "02/06/2023 a 01/06/2024",
+                      "signatureDate":  "02/06/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 060/2023\nOBJETO: Registro de Precos para futuras e eventuais contratacoes de empresa especializada para fornecimento de agregados minerais a serem\nutilizados neste municipio de Iguape/SP, pelo periodo de 12 meses.\nPregao Presencial n°. 030/2023\nDATA: 02/06/2023\nVIGENCIA: 02/06/2023 a 01/06/2024\nVALOR: R$ 5.640.000,00 (cinco milhoes, seiscentos e quarenta mil reais).",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 061/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "061/2023",
+                      "processNumber":  "030/2023",
+                      "modality":  "Pregao Presencial n°. 030/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para futuras e eventuais contratacoes de empresa especializada para fornecimento de agregados minerais a serem utilizados neste municipio de Iguape/SP, pelo periodo de 12 meses. Pregao Presencial n°. 030/2023",
+                      "value":  "R$ 997.750,00",
+                      "term":  "02/06/2023 a 01/06/2024",
+                      "signatureDate":  "02/06/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 061/2023\nOBJETO: Registro de Precos para futuras e eventuais contratacoes de empresa especializada para fornecimento de agregados minerais a serem\nutilizados neste municipio de Iguape/SP, pelo periodo de 12 meses.\nPregao Presencial n°. 030/2023\nDATA: 02/06/2023\nVIGENCIA: 02/06/2023 a 01/06/2024\nVALOR: R$ 997.750,00 (novecentos e noventa e sete mil, setecentos e cinquenta reais).",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  }
+              ]
+}

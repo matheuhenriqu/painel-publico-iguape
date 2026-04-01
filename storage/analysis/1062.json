@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "1062",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:37",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_951-_27072905.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_951-_27072905.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "111/2025",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 1/2025 - EDITAL Nº: 2/2025",
+                      "contractor":  "I B FERREIRA SERVICOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa para prestacao de servico de controle de acesso, apoio e fiscalizacao, com coordenador e acompanhamento por monitoramento de cameras 24 (vinte e quatro) horas nas dependencias Prefeitura Municipal de Iguape, Passarela \"Vereador Gasparino Costa\", Hospital de Iguape (Pronto Socorro), Casa da Crianca, e CAPS (Porto do Ribeira) no municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-justica-cidadania",
+                      "primaryOrganizationName":  "Secretaria de Justica e Cidadania",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "justica-cidadania",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-justica-cidadania"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Justica e Cidadania"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 111/2025\nContratacao de empresa para prestacao de servico de controle de acesso, apoio e fiscalizacao, com coordenador e acompanhamento por monitoramento\nde cameras 24 (vinte e quatro) horas nas dependencias Prefeitura Municipal de Iguape, Passarela \"Vereador Gasparino Costa\", Hospital de Iguape (Pronto\nSocorro), Casa da Crianca, e CAPS (Porto do Ribeira) no municipio de Iguape/SP,\nPR-E - PREGAO ELETRONICO - 1/2025 - EDITAL Nº: 2/2025\nINTERESSADOS: SECRETARIA MUNICI",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

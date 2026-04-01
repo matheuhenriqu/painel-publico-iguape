@@ -1,0 +1,156 @@
+﻿{
+    "diaryId":  "300",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:47",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/20c2139a66c761ace0a48e799ef0e036.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/20c2139a66c761ace0a48e799ef0e036.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 342.880,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 064/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "064/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ENGETEC ENGENHARIA EIRELI - ME",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para obra de reforma do calcamento e ciclovia, localizado na Avenida Eduardo Ebano Pereira e Rua Euclides Roque Bastos, no Porto do Ribeira, neste municipio de Iguape/SP, prorrogada a execucao e vigencia ao contrato por mais 150 (cento e cinquenta) dias Tomada de Precos - n°. 012/2021",
+                      "value":  "",
+                      "term":  "ao contrato por mais 150 (cento e cinquenta) dias",
+                      "signatureDate":  "02/05/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 064/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ENGETEC ENGENHARIA EIRELI - ME\nCONTRATO N°: 064/2021\nOBJETO: Contratacao de Empresa Especializada para obra de reforma do calcamento e ciclovia, localizado na Avenida\nEduardo Ebano Pereira e Rua Euclides Roque Bastos, no Porto do Ribeira, neste municipio de Iguape/SP, prorrogada\na execucao e vigencia ao contrato por mais 150 (cento e cinquenta) dias\nTomada de Precos - n°. 012/2021\nDATA: 02/05/2022\nVIGENCIA: 150 (cento e c",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "4º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 064/2020",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "064/2020",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para implantacao do Programa de coleta seletiva no Municipio de Iguape 1º FASE – Construcao de 01 (um) Galpao de Triagem, conforme contrato nº 381/2019, celebrado entre a Prefeitura de Iguape e FEHIDRO- Fundo Estadual de Recursos Hidricos",
+                      "value":  "",
+                      "term":  "90 (noventa) dias, contados do seu vencimento.",
+                      "signatureDate":  "10/05/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "4º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 064/2020\nONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU\nCONTRATO N°: 064/2020\nOBJETO: Contratacao de Empresa Especializada para implantacao do Programa de coleta seletiva no Municipio\nde Iguape 1º FASE – Construcao de 01 (um) Galpao de Triagem, conforme contrato nº 381/2019, celebrado entre a\nPrefeitura de Iguape e FEHIDRO- Fundo Estadual de Recursos Hidricos.\nDATA: 10/05/2022\nTomada de Precos: 006/2020\nVigencia: 90 (noventa) dias, con",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "7º TERMO ADITIVO AO CONTRATO Nº 053/2020",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "053/2020",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Constitui objeto do presente termo a prorrogacao da vigencia do contrato supra mencionado, pelo periodo de mais 90 (noventa) dias, contados do seu vencimento, referente a Contratacao de Empresa Especializada para a Conclusao da Obra de Construcao da Creche na Avenida Manoel Goncalves Pires – Bairro do Rocio, neste Municipio de",
+                      "value":  "",
+                      "term":  "do contrato supra mencionado, pelo periodo de",
+                      "signatureDate":  "02/05/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "7º TERMO ADITIVO AO CONTRATO Nº 053/2020\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARQUERA-ACU.\nOBJETO: Constitui objeto do presente termo a prorrogacao da vigencia do contrato supra mencionado, pelo periodo de\nmais 90 (noventa) dias, contados do seu vencimento, referente a Contratacao de Empresa Especializada para a\nConclusao da Obra de Construcao da Creche na Avenida Manoel Goncalves Pires – Bairro do Rocio, neste Municipio de\nIguape, conforme Convenio nº 5041/2013, Celebrada com ",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:051/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "1/2022",
+                      "processNumber":  "022/2022",
+                      "modality":  "Pregao Presencial n°. 022/2022",
+                      "contractor":  "o valor global de R$ 342.880,00 (trezentos e quarenta e dosi mil e oitocentos e oitenta",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICOES FUTURAS DE PNEUS, CAMARAS DE AR E PROTETOR DE AR PARA FROTA DE VEICULOS PERTENCENTES A PREFEITURA DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES. Pregao Presencial n°. 022/2022",
+                      "value":  "R$ 342.880,00",
+                      "term":  "05/05/2022 a 04/05/2023",
+                      "signatureDate":  "05/05/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:051/2022\nOBJETO: REGISTRO DE PRECOS PARA AQUISICOES FUTURAS DE PNEUS, CAMARAS DE AR E PROTETOR\nDE AR PARA FROTA DE VEICULOS PERTENCENTES A PREFEITURA DE IGUAPE, PELO PERIODO DE 12\n(DOZE) MESES.\nPregao Presencial n°. 022/2022.\nDATA: 05/05/2022\nVIGENCIA: 05/05/2022 a 04/05/2023\nVALOR: Pagara a contratada o valor global de R$ 342.880,00 (trezentos e quarenta e dosi mil e oitocentos e oitenta\nreais)",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

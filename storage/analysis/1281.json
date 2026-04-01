@@ -1,0 +1,160 @@
+﻿{
+    "diaryId":  "1281",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:01",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1116_10080255.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1116_10080255.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  7,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 69.667,85"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "5º Termo Aditivo de Acrescimo de valor ao Contrato 062/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  6,
+                      "contractNumber":  "062/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de revitalizacao da Orla do Mar Pequeno Fase-III – Convenio nº 000184/2022, que entre si celebram o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens, e o Municipio de Iguape, objetivando a transferencia de recursos financeiros do fundo de melhorias dos Municipios Turisticos",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "estadual-turismo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Turismo e Viagens"
+                                                     ],
+                      "excerpt":  "5º Termo Aditivo de Acrescimo de valor ao Contrato 062/2023 EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\n\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU CNPJ: 33.xxx.xxx/xxxx-56\n\nCONTRATO N°: 062/2023\n\nOBJETO: Contratacao de empresa especializada para obra de revitalizacao da Orla do Mar Pequeno Fase-III – Convenio nº 000184/2022, que\n\nentre si celebram o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens, e o Municipio de Iguape, objetivando a transferencia de recursos\n\nfinanceiros do fundo de melhoria",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CONCORRENCIA PUBLICA Nº 002/2023",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "",
+                      "processNumber":  "002/2023",
+                      "modality":  "CONCORRENCIA PUBLICA Nº 002/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 66.508,27",
+                      "term":  "",
+                      "signatureDate":  "08/12/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "CONCORRENCIA PUBLICA Nº 002/2023\n\nDATA: 08/12/2025\n\nVALOR: R$ 66.508,27 (sessenta e seis mil, quinhentos e oito reais e vinte e sete centavos).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "3º TERMO DE PRORROGACAO CONTRATO DE LOCACAO DE IMOEVXETLRANTºO123/2024 Acolhimento Institucional",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  6,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "LUIZ GUSTTAVO DE ANDRADE E ANDRADE OLIVEIRA PEREIRA",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo contrato de locacao do imovel utilizado para a instalacao da demanda do Servico de para Criancas e Adolescentes (SAICA)",
+                      "value":  "R$ 3.159,58",
+                      "term":  "",
+                      "signatureDate":  "28/11/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n3º TERMO DE PRORROGACAO CONTRATO DE LOCACAO DE IMOEVXETLRANTºO123/2024 Acolhimento Institucional\nCONTRATANTE: MUNICIPIO DE IGUAPE R$ 3.159,58 (tres mil,\nCONTRATADO: LUIZ GUSTTAVO DE ANDRADE E ANDRADE OLIVEIRA PEREIRA\nOBJETO: Constitui o presente termo contrato de locacao do imovel utilizado para a instalacao da demanda do Servico de\npara Criancas e Adolescentes (SAICA).\nDATA: 28/11/2025\nVALOR: Valor Global – R$ 18.957,48 (dezoito mil, novecentos e cinquenta e sete reais e quarenta e oito centavos), sendo\nc",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE LICITEAXCTARAOTFORACASSADA",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "",
+                      "processNumber":  "773/2025",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 32/2025 - EDITAL Nº: 43/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de um Veiculo tipo Caminhonete PICK-UP, zero KM, cabine dupla, para atender a Secretaria Municipal de Saude em conformidade a emenda parlamentar nº 2025.059.63803, celebrado entre o GOVERNO DO ESTADO DE SAO PAULO e o Municipio de Iguape /SP, demais especificacoes tecnicasdetalhadas nos termos e condicoes estabelecidos nos documentos anexos",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n AVISO DE LICITEAXCTARAOTFORACASSADA\n\nPROCESSO Nº: 773/2025\nAquisicao de um Veiculo tipo Caminhonete PICK-UP, zero KM, cabine dupla, para atender a Secretaria Municipal de Saude em conformidade a emenda\nparlamentar nº 2025.059.63803, celebrado entre o GOVERNO DO ESTADO DE SAO PAULO e o Municipio de Iguape /SP, demais especificacoes\ntecnicasdetalhadas nos termos e condicoes estabelecidos nos documentos anexos.\nPR-E - PREGAO ELETRONICO - 32/2025 - EDITAL Nº: 43/2025\nINTERESSADOS: SECRETARIA MUNICIPAL DE SAUD",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

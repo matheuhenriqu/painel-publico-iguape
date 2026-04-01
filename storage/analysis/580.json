@@ -1,0 +1,128 @@
+﻿{
+    "diaryId":  "580",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:56",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/129faf8b8794e33bd9444841bc67104b.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/129faf8b8794e33bd9444841bc67104b.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 10.500.000,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 163",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "077/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa SIGMA ENGENHARIA INDUSTRIA E COMERCIO LTDA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 163\n DE 14 JUNHO DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0\n SSP/SP, inscrito no CPF/MF nº 256.609.068-85, para exercer ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 063/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "063/2023",
+                      "processNumber":  "029/2023",
+                      "modality":  "Pregao Presencial n°. 029/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Preco para contratacao de empresa especializada na Prestacao de Servicos de manutencao preventiva, corretiva e instalacao de aparelhos de ar condicionado para atender diversos Departamentos da Prefeitura Municipal de Iguape/SP. Pregao Presencial n°. 029/2023",
+                      "value":  "R$ 10.500.000,00",
+                      "term":  "14/06/2023 a 13/06/2024",
+                      "signatureDate":  "14/06/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 063/2023\nOBJETO: Registro de Preco para contratacao de empresa especializada na Prestacao de Servicos de manutencao preventiva, corretiva e instalacao de\naparelhos de ar condicionado para atender diversos Departamentos da Prefeitura Municipal de Iguape/SP.\nPregao Presencial n°. 029/2023\nDATA: 14/06/2023\nVIGENCIA: 14/06/2023 a 13/06/2024\nVALOR: R$ 10.500.000,00 (dez milhoes e quinhentos mil reais)",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 056/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "056/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de construcao de Centro Multiuso no bairro da Barra do Ribeira, conforme convenio nº 000104/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o municipio de Iguape/SP. TOMADA DE PRECOS Nº 005/2022",
+                      "value":  "",
+                      "term":  "06 (seis) meses – Periodo de 14/06/2023 a 13/12/2023.",
+                      "signatureDate":  "-14/06/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "estadual-turismo",
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Turismo e Viagens",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 056/2022\nCONTRATADA: CIACAN ENGENHARIA EIRELI\nCONTRATO N°: 056/2022\nOBJETO: Contratacao de empresa especializada para obra de construcao de Centro Multiuso no bairro da Barra do Ribeira, conforme convenio nº\n000104/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o municipio de Iguape/SP.\nTOMADA DE PRECOS Nº 005/2022\nDATA:-14/06/2023\nVIGENCIA: 06 (seis) meses – Periodo de 14/06/2023 a 13/12/2023.\n\n CONSELHO TUTELAR\n\n EDITAL\n\n Conselho de Di",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

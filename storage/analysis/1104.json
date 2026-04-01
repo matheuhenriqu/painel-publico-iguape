@@ -1,0 +1,91 @@
+﻿{
+    "diaryId":  "1104",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:30",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_990_30072544.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_990_30072544.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  9,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 170.000,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 064/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  8,
+                      "contractNumber":  "064/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "OLIVEIRA ENGENHARIA LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para Reforma do Centro de Atencao Psicossocial (CAPS) com fornecimento de materiais e mao de obra",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-camara",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Camara Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: OLIVEIRA ENGENHARIA LTDA\nCONTRATO Nº 064/2025\nOBJETO: Contratacao de empresa especializada para Reforma do Centro de Atencao Psicossocial (CAPS) com fornecimento de materiais e mao de\nobra.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Concorrencia Eletronica n°. 001/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  8,
+                      "contractNumber":  "",
+                      "processNumber":  "001/2025",
+                      "modality":  "Concorrencia Eletronica n°. 001/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 170.000,00",
+                      "term":  "03 (tres) meses, Periodo de 29/05/2025 a 28/08/2025",
+                      "signatureDate":  "-29/05/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-camara",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Camara Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "Concorrencia Eletronica n°. 001/2025\nData:-29/05/2025\nVIGENCIA: 03 (tres) meses, Periodo de 29/05/2025 a 28/08/2025\nEXECUCAO: 03 (tres) meses, a contar da data da ultima assinatura do representante legal da empresa na ordem de servico.\nVALOR: Valor global - R$ 170.000,00 (cento e setenta mil reais).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

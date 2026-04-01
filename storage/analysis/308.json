@@ -1,0 +1,90 @@
+﻿{
+    "diaryId":  "308",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:44",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/738df6cd3079c659835e4bbec628fdbd.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/738df6cd3079c659835e4bbec628fdbd.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 18.900,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:061/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "1/2022",
+                      "processNumber":  "023/2022",
+                      "modality":  "Pregao Presencial n°. 023/2022",
+                      "contractor":  "o valor global de R$ 18.900,00 (dezoito mil e novecentos reais)",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE MEDICAMENTOS, PARA ATENDER A SECRETARIA MUNICIPAL DE SAUDE DA PREFEITURA DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES. Pregao Presencial n°. 023/2022",
+                      "value":  "R$ 18.900,00",
+                      "term":  "12/05/2022 a 11/05/2023",
+                      "signatureDate":  "12/05/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "federal-agu",
+                      "primaryOrganizationName":  "Advocacia-Geral da Uniao",
+                      "primaryOrganizationSphere":  "federal",
+                      "primaryOrganizationAreaId":  "justica-cidadania",
+                      "mentionedOrganizationIds":  [
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:061/2022\nOBJETO: REGISTRO DE PRECOS PARA AQUISICAO DE MEDICAMENTOS, PARA ATENDER A SECRETARIA\nMUNICIPAL DE SAUDE DA PREFEITURA DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES.\nPregao Presencial n°. 023/2022.\nDATA: 12/05/2022\nVIGENCIA: 12/05/2022 a 11/05/2023\nVALOR: Pagara a contratada o valor global de R$ 18.900,00 (dezoito mil e novecentos reais)",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE LICITACAO - PREGAO PRESENCIAL",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "",
+                      "processNumber":  "033/2022",
+                      "modality":  "PREGAO PRESENCIAL nº. 033/2022",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "AQUISICAO DE EQUIPAMENTOS “ACADEMIA AO AR LIVRE”, CONFORME PLANO DE TRABALHO DO CONVENIO Nº319/2021- CELEBRADO COM A SECRETARIA DE ESPORTES DO GOVERNO DO ESTADO DE SAO PAULO E ESTE MUNICIPIO DE IGUAPE. LEGISLACAO: Lei Federal nº 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014 e suas atualizacoes",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu",
+                                                       "estadual-esportes"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Secretaria de Esportes"
+                                                     ],
+                      "excerpt":  "AVISO DE LICITACAO\n PREGAO PRESENCIAL\n\nEncontra-se REABERTO na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro\nPorto do Ribeira, Iguape/SP, CEP 11920-000, o PREGAO PRESENCIAL nº. 033/2022, do tipo MENOR VALOR GLOBAL,\nconforme especificacoes detalhadas no Edital.\nOBJETO: AQUISICAO DE EQUIPAMENTOS “ACADEMIA AO AR LIVRE”, CONFORME PLANO DE TRABALHO DO\nCONVENIO Nº319/2021- CELEBRADO COM A SECRETARIA DE ESPORTES DO GOVERNO DO ESTADO DE SAO\nPAULO E ESTE MUNICIPIO DE IGUAPE.\nLEGISLA",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

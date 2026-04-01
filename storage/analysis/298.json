@@ -1,0 +1,53 @@
+﻿{
+    "diaryId":  "298",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:48",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/b163b533de91ce985c9a463d0ad5f872.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/b163b533de91ce985c9a463d0ad5f872.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "EXTRATO DE RETI-RATIFICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  5,
+                      "contractNumber":  "",
+                      "processNumber":  "34/2022",
+                      "modality":  "PREGAO PRESENCIAL Nº 23/2022",
+                      "contractor":  "COMERCIAL CIRURGICA RIOCLARENSE LTDA",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO DE RETI-RATIFICACAO\n\nA Prefeitura Municipal de Iguape, atraves do Setor de Licitacoes, TORNA PUBLICO para conhecimento dos\ninteressados que o aviso de extrato da ADJUDICACAO/HOMOLOGACAO do PREGAO PRESENCIAL Nº 23/2022,\npublicado no Diario Oficial Iguape/SP, ANO 02- Nº 282 SEXTA FEIRA, 06 de Maio de 2022,sofreu retificacao conforme\nsegue:\n\nPROCESSO Nº: 34/2022\nREGISTRO DE PRECOS PARA AQUISICAO DE MEDICAMENTOS, PARA ATENDER ASECRETARIA MUNICIPAL\nDE SAUDE DA PREFEITURA DE IGUAPE PELO PERIODO DE 12 (DOZE) MESES",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,132 @@
+﻿{
+    "diaryId":  "664",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:40",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/36ad0873e0f89ef539fb7af92a51624b.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/36ad0873e0f89ef539fb7af92a51624b.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  35,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 115.305,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 285",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "173/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa B NUTRI SERVICOS E ALIMENTACAO LTDA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-cultura",
+                                                       "municipal-turismo-esporte"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Cultura",
+                                                         "Secretaria de Turismo e Esporte"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 285\n DE 09 DE OUTUBRO DE 2023\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Odail Gomes Santos Junior, Secretario Municipal de Cultura, Esporte e Turismo, titular da Cedula de Identidade RG nº\nArt. 2º - 18.739.606 SSP/SP, inscrito no CPF/MF nº 118.816.058-33, para",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:117//2023.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "057/2023",
+                      "modality":  "Pregao Presencial n°. 057/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos pelo periodo de 12 (doze) meses, para aquisicoes de utensilios de cozinha destinados as Unidades Escolares deste Municipio de Iguape/SP.. Pregao Presencial n°. 057/2023",
+                      "value":  "R$ 115.305,00",
+                      "term":  "- 12 (doze) meses.",
+                      "signatureDate":  "09/10/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:117//2023.\nOBJETO: Registro de Precos pelo periodo de 12 (doze) meses, para aquisicoes de utensilios de cozinha destinados as Unidades Escolares deste\nMunicipio de Iguape/SP..\nPregao Presencial n°. 057/2023\nDATA DA ASSINATURA: 09/10/2023\nVIGENCIA:- 12 (doze) meses.\nVALOR: R$ 115.305,00 (cento e quinze mil e trezentos e cinco reais).",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:119//2023.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo de 12 (doze) meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:119//2023.\nOBJETO Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo de\n12 (doze) meses",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

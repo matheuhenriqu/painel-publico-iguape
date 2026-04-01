@@ -1,0 +1,641 @@
+﻿{
+    "diaryId":  "1225",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:12",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1074_04081030.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1074_04081030.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  15,
+                    "itemCount":  17,
+                    "totalValue":  "R$ 199.976,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 226, DE 01 DE OUTUBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "153/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "para apresentacao musical “MARCOS MACHADO DUO” no evento 2° Passeio Ciclistico da Primavera, a ser realizado no dia 28 de setembro de 2025, na Orla do Mar Pequeno, Iguape-SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura",
+                                                       "municipal-cultura",
+                                                       "municipal-turismo-esporte"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Cultura",
+                                                         "Secretaria de Turismo e Esporte"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 226, DE 01 DE OUTUBRO DE 2025\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas pelo\nartigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Anisia Ricardo Lourenco, Secretaria Municipal Adjunta de Cultura, Esporte e Turismo, inscrita no CPF/MF nº. XXX.043.188-XX,\n para exercer a funcao de fiscal do Contrato 153/2025, ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 228, DE 01 DE OUTUBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "150/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Contratacao de servicos de instituicao para acompanhamento e assessoria tecnico e estrategico de programas, projetos e planos governamentais, com vigencia de 12 (doze) meses, podendo ser prorrogados nos termos do artigo 106 da lei 14.133/2021",
+                      "value":  "",
+                      "term":  "de 12 (doze) meses, podendo ser prorrogados nos termos do artigo 106 da lei 14.133/2021.",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 228, DE 01 DE OUTUBRO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas pelo\nartigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Maxwel Jose Rangel, Chefe de Gabinete, inscrito no CPF/MF nº. XXX.041.718-XX, para exercer a funcao de gestor do Contrato\n 150/2025, Contratacao de servicos de instituicao para ac",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 230, DE 01 DE OUTUBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "148/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Contratacao emergencial de empresa especializada para execucao de fechamento com tapume estruturado em madeira e telhas de fibrocimento, incluindo escavacao, concretagem, montagem, limpeza e cercamento do imovel localizado na Rua Vinte e Quatro de Agosto, nº 157, Canto do Morro, Iguape/SP, conforme determinacao judicial (Acao Civil Publica nº 1500732- 77.2025.8.26.0244)",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 230, DE 01 DE OUTUBRO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\n\n Designa, Cassio Henrique de Camargo Simoes Faria, Engenheiro Civil, inscrito no CPF/MF nº. 333.XXX.XXX-97, para exercer a funcao\n de gestor do Contrato 148/2025, Contratacao emergencial de",
+                      "completeness":  "baixa",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 232, DE 01 DE OUTUBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "147/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO APRESENTACAO MUSICAL “ALA SHOW DO G.R.E.S. ALVORADA” atraves de YASMIN DE FARIAS FERREIRA, na 8° Parada LGBTQIAPN+ de Iguape, as 20:00h do dia 04 de outubro de 2025, no Palco Concha Acustica da Orla do Mar Pequeno, Iguape-SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-cultura",
+                                                       "municipal-turismo-esporte"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Cultura",
+                                                         "Secretaria de Turismo e Esporte"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 232, DE 01 DE OUTUBRO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Anisia Ricardo Lourenco, Secretaria Municipal Adjunta de Cultura, Esporte e Turismo, inscrita no CPF/MF nº. XXX.043.188-XX,\nArt. 2º - para exercer a funcao de gestor do Contrato 1",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 236, DE 01 DE OUTUBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  5,
+                      "contractNumber":  "143/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA AQUISICAO E INSTALACAO DE MOVEIS PLANEJADOS EM MDF PARA O GABINETE DO PREFITO E COPA, COM ACABAMENTOS PERSONALIZADOS E FERRAGENS DE ALTA QUALIDADE, VISANDO ADEQUACAO ESTETICA, FUNCIONAL E ERGONOMICA DOS AMBIENTES",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 236, DE 01 DE OUTUBRO DE 2025\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Maxwel Jose Rangel, Chefe de Gabinete, inscrito no CPF/MF nº. XXX.041.718-XX, para exercer a funcao de gestor e fiscal do\n Contrato 143/2025, CONTRATACAO DE EMPR",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 237, DE 01 DE OUTUBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  5,
+                      "contractNumber":  "141/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "PRESTACAO DE SERVICOS ESPECIALIZADOS DE GUARDA, ALIMENTACAO, VIGILANCIA E MONITORAMENTO VETERINARIO BASICO, DE ANIMAIS DE MEDIO E GRANDE PORTE, EM ESPECIAL EQUINOS, POR UM PERIODO DE 12 (MESES)",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-transito",
+                      "primaryOrganizationName":  "Secretaria de Transito e Mobilidade Urbana",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "mobilidade",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-transito"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Transito e Mobilidade Urbana"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 237, DE 01 DE OUTUBRO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Adriani Jose de Souza, Secretaria Adjunta de Transito e Mobilidade Urbana, inscrito no CPF/MF nº. XXX.856.788-XX, para exercer\n a funcao de gestor do Contrato 141/2025, P",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 239, DE 01 DE OUTUBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "140/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de quinze notebooks, dois datashows e quatro impressoras, destinados a execucao adequada das atividades do programa CEFOR - Centro de Formacao, Treinamento e Aperfeicoamento, por meio de dispensa de licitacao, conforme previsto no art. 75, inciso II, da Lei nº 14.133/2021, regendo-se pelo art.75, inciso VIII, da Lei nº 14.133/2021",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "shows e quatro impressoras, destinados a execucao adequada das",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 239, DE 01 DE OUTUBRO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Debora da Silva Camargo, Secretaria Municipal de Saude, inscrita no CPF/MF nº. 039.XXX.XXX-90, para exercer a funcao de\n gestor do Contrato 140/2025, Aquisicao de quinze ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 241, DE 01 DE OUTUBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  7,
+                      "contractNumber":  "138/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "contratacao de empresa especializada na prestacao de servico de locacao de 2 (dois) veiculos tipo ambulancia (tipo B), garantindo a continuidade do servico publico essencial de transporte de pacientes e atendimentos de urgencia e emergencia",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 241, DE 01 DE OUTUBRO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Karimy de Ramos Aguiar, Enfermeira, inscrita no CPF/MF nº. 418.XXX.XXX-00, para exercer a funcao de gestor do Contrato\n 138/2025, contratacao de empresa especializada na ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 242, DE 01 DE OUTUBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  7,
+                      "contractNumber":  "138/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 242, DE 01 DE OUTUBRO DE 2025\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Ibanes Souza Vieira, Assessor I, inscrito no CPF/MF nº. 197.XXX.XXX-14, para exercer a funcao de fiscal do Contrato 138/2025,\nArt. 2º - contratacao de empresa especializada na pre",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 243, DE 01 DE OUTUBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  8,
+                      "contractNumber":  "136/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Contratacao de instituicao de acolhimento para garantir a protecao integral de 1 (um) idoso, com idade igual ou superior a 60 anos, que necessita de atendimento em regime de acolhimento institucional, paciente A.G. que ja se encontra na instituicao, conforme previsto na Politica Nacional de Assistencia Social, no Estatuto do Idoso e demais legislacoes aplicaveis",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-assistencia-social",
+                      "primaryOrganizationName":  "Secretaria de Assistencia e Desenvolvimento Social",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "assistencia-social",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-assistencia-social"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Assistencia e Desenvolvimento Social"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 243, DE 01 DE OUTUBRO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas pelo\nartigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Virginia Lucia Oliva Cardoso Moraes, Secretaria Municipal de Assistencia e Desenvolvimento Social, inscrita no CPF/MF nº.\n 884.XXX.XXX-00, para exercer a funcao de gestor",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "Portaria de gestao do contrato 135/2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  9,
+                      "contractNumber":  "135/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "Art. 1º - 9\nArt. 2º -\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – Nº 1074 Sabado, 04 de Outubro de 2025 - www.iguape.sp.gov.br\n\n PORTARIA\n\n Designa, Angelo Rosa Vieira, Secretaria Municipal Adjunto de Assuntos Financeiro, inscrito no CPF/MF nº. XXX.849.238-XX, para exercer\n a funcao de gestor do Contrato 135/2025, contratacao de empresa especializada em servicos de auditoria, assessoria e gestao em materia\n tributaria, com utilizacao de tecnicas e conhecimentos especializados, notadamente de tecnologia baseada em inte",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 247, DE 01 DE OUTUBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  9,
+                      "contractNumber":  "133/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para o artista Vadico, para a prestacao de servicos artisticos, consistentes na execucao de pintura artistica no muro da Delegacia de Policia e no letreiro \u0027IGUAPE\u0027, na entrada da cidade, com o objetivo de revitalizar espacos publicos e valorizar a identidade cultural do municipio, atraves da empresa OSVALDO DOMINGUES DA SILVA 275853828800",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 247, DE 01 DE OUTUBRO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\n\n Designa, Anisia Ricardo Lourenco, Secretaria Municipal Adjunto de Cultura, Esporte e Turismo, inscrita no CPF/MF nº. XXX. 043.188.XX,\n para exercer a funcao de gestor do Contrato 133/2025,",
+                      "completeness":  "baixa",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 249, DE 01 DE OUTUBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  10,
+                      "contractNumber":  "154/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu",
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 249, DE 01 DE OUTUBRO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Ana Leticia Cardoso Costa, Assessor I, lotado na Secretaria Municipal de Saude, titular da Cedula de Identidade RG nº 49.XXX.XXX\n-4, para exercer a funcao de gestor do contrato nº",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 253, DE 02 DE OUTUBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  12,
+                      "contractNumber":  "157/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-cultura",
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Cultura",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 253, DE 02 DE OUTUBRO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Ricardo de Oliveira Ragni de Castro Leite, Secretario Municipal de Infraestrutura Urbana e Obras, inscrito no CPF/MF nº.\n 293.XXX.XXX-06, para exercer a funcao de gestor ",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 254, DE 02 DE OUTUBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  13,
+                      "contractNumber":  "157/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "contratacao de empresa especializada para execucao de servico",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 254, DE 02 DE OUTUBRO DE 2025\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\n Designa, Rafael de Barros Leite, Engenheiro, titular da Cedula de Identidade RG nº 26.XXX.XXX-0 SSP/SP, inscrito no CPF/MF nº.\n. 256.XXX.XXX/85, para exercer a funcao de fiscal do Contrato ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 151/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  14,
+                      "contractNumber":  "151/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CAIXA ECONOMICA FEDERAL",
+                      "cnpj":  "",
+                      "object":  "Servicos bancarios de recebimento de tributos, impostos, taxas, divida ativa e demais receitas municipais atraves de DAM – Documento de Arrecadacao Municipal, padrao FEBRABAN",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: CAIXA ECONOMICA FEDERAL\nCNPJ -00.XXX.XXX/XXX-04\nCONTRATO Nº 151/2025\nOBJETO: Servicos bancarios de recebimento de tributos, impostos, taxas, divida ativa e demais receitas municipais atraves de DAM – Documento de\nArrecadacao Municipal, padrao FEBRABAN.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "CONTRATANTE: MUNICIPIO DE IGUAPE/SP",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  14,
+                      "contractNumber":  "156/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "RIONEST SERVICOS MEDICOS HOSPITALARES",
+                      "cnpj":  "",
+                      "object":  "Ata de Registro de Precos para eventual, futura e de forma parcelada, Contratacao de Empresa Especializaa para a prstacao de servicos de Ultrassonografia a serem prestados aos pacientes da Rede Publica Municipal para atender a Secretaria Municipal da Saude de Mairipora – SP",
+                      "value":  "R$ 199.976,00",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-saude",
+                      "primaryOrganizationName":  "Secretaria da Saude",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "saude",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-saude",
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria da Saude",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: RIONEST SERVICOS MEDICOS HOSPITALARES\nPROCESSO ADMINISTRATIVO: nº 2615/2025\nADESAO A ATA DE REGISTRO DE PRECOS Nº 050/2025-P M MAIRIPORA\nCONTRATO Nº 156/2025-PMI-ATA DE REGISTRO DE PRECOS Nº 028/2025-P M IGUAPE\nOBJETO: Ata de Registro de Precos para eventual, futura e de forma parcelada, Contratacao de Empresa Especializaa para a prstacao de servicos de\nUltrassonografia a serem prestados aos pacientes da Rede Publica Municipal para atender a Secretaria Munici",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

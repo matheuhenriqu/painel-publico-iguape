@@ -1,0 +1,90 @@
+﻿{
+    "diaryId":  "953",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:53",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_867_08064245.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_867_08064245.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "inexigibilidade",
+                     "rescisao"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º Termo Aditivo de Prazo ao Contrato 062/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "062/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de revitalizacao da orla do Mar Pequeno Fase-III – Convenio nº 000184/2022, que entre si celebram o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens, e o Municipio de Iguape, objetivando a transferencia de recursos financeiros do Fundo de Melhorias dos Municipios Turisticos",
+                      "value":  "",
+                      "term":  "ao Contrato 062/2023",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "estadual-turismo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Turismo e Viagens"
+                                                     ],
+                      "excerpt":  "2º Termo Aditivo de Prazo ao Contrato 062/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU\nCONTRATO N°: 062/2023\nOBJETO: Contratacao de empresa especializada para obra de revitalizacao da orla do Mar Pequeno Fase-III – Convenio nº 000184/2022, que entre si\ncelebram o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens, e o Municipio de Iguape, objetivando a transferencia de recursos financeiros do\nFundo de Melhorias dos Municipios Turisticos.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Rescisao",
+                      "actTitle":  "TERMO DE RESCISAO AMIGAVEL AO CONTRATO Nº 010/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "010/2024",
+                      "processNumber":  "999/2023",
+                      "modality":  "",
+                      "contractor":  "EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA",
+                      "cnpj":  "",
+                      "object":  "Tem por objeto a Rescisao Amigavel do Contrato 010/2024, a partir de 06/11/2024, entre o Municipio de Iguape e a Empresa, conforme dispoe o art. 79, inciso II da lei 8.666/93, em funcao da suspensao da execucao de servicos de engenharia objeto do contrato, por ordem escrita da Administracao, por prazo superior a 120 (cento e vinte) dias",
+                      "value":  "",
+                      "term":  "superior a 120 (cento e vinte) dias.",
+                      "signatureDate":  "06/11/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nTERMO DE RESCISAO AMIGAVEL AO CONTRATO Nº 010/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA\nOBJETO: Tem por objeto a Rescisao Amigavel do Contrato 010/2024, a partir de 06/11/2024, entre o Municipio de Iguape e a Empresa, conforme dispoe\no art. 79, inciso II da lei 8.666/93, em funcao da suspensao da execucao de servicos de engenharia objeto do contrato, por ordem escrita da Administracao,\npor prazo superior a 120 (cento e vinte) dias.\nDATA: 06/11/2024\nPr",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

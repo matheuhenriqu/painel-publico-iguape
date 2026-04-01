@@ -1,0 +1,88 @@
+﻿{
+    "diaryId":  "863",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:04",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_791_11062555.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_791_11062555.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  22,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 440.911,58"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "4º TERMO ADITIVO AO PRORROGACAO AO CONTRATO 23/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  21,
+                      "contractNumber":  "023/2021",
+                      "processNumber":  "12/2021",
+                      "modality":  "Pregao Presencial nº 12/2021",
+                      "contractor":  "CECAM – CONSULTORIA ECONOMICA, CONTABIL E ADMINISTRATIVA MUNICIPAL LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para cessao de direito de uso de sotfwares (modulos) de gestao publica, nas areas de ajuizamento eletronico (procuradoria), administracao de pessoal, almoxarifado, siafic, controle interno, portal datransparencia, compras e licitacoes, protocolo, frotas, patrimonio, IPTU e ITBI, IPTU E ITBI web, obras, ISS, ISS web, ISS eletronico e nota fiscal eletronica, saude e cemiterio, envolvendo conversao, migracao, implantacao dos modulos e capacitacao dos usuarios. . Pregao Presencial nº 12/2021",
+                      "value":  "R$ 420.911,58",
+                      "term":  "06 (seis) meses – periodo de 05/07/2024 a 04/01/2025.",
+                      "signatureDate":  "04/07/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "4º TERMO ADITIVO AO PRORROGACAO AO CONTRATO 23/2021\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\n\nCONTRATADA: CECAM – CONSULTORIA ECONOMICA, CONTABIL E ADMINISTRATIVA MUNICIPAL LTDA\n\nCONTRATO N°: 023/2021\n\nOBJETO: Contratacao de empresa especializada para cessao de direito de uso de sotfwares (modulos) de gestao publica, nas areas de ajuizamento eletronico\n\n(procuradoria), administracao de pessoal, almoxarifado, siafic, controle interno, portal datransparencia, compras e licitacoes, protocolo, frotas, patrimonio, IPTU\n\ne ITBI",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO – EXTRATO DE REVOGACAO DE LICITACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  21,
+                      "contractNumber":  "",
+                      "processNumber":  "278/2024",
+                      "modality":  "Concorrencia Publica Eletronica nº 004/2024",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 20.000,00",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-camara",
+                      "primaryOrganizationName":  "Camara Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-camara"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Camara Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n AVISO – EXTRATO DE REVOGACAO DE LICITACAO\n\nO Prefeito do Municipio de Iguape, no uso de suas atribuicoes legais, com fundamento no disposto do artigo 71, II, §2º da lei 14.133/2021,determinou a\nREVOGACAO do Processo Administrativo nº 278/2024, Concorrencia Publica Eletronica nº 004/2024, cujo objeto e a CONTRATACAO DE EMPRESA\nESPECIALIZADA PARA SERVICOS DE FINALIZACAO E REPAROS NA OBRA DE REQUALIFICACAO DA ORLA DO VALO GRANDE - FASE III,\nCONFORME TERMO DE CONVENIO Nº167/2018, QUE ENTRE SI CELEBRAM O ESTAD",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

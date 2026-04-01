@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "351",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:34",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/d090d2f33cec7b1904fe78806c31254a.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/d090d2f33cec7b1904fe78806c31254a.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  9,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE LICITACAO - PREGAO PRESENCIAL",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "",
+                      "processNumber":  "9/2022",
+                      "modality":  "PREGAO PRESENCIAL n.º049/2022",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE AGUA MINERAL PARA ATENDER OS DIVERSAS SECRETARIAS DA PREFEITURA MUNICIPAL DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013 Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014 e suas atualizacoes",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "AVISO DE LICITACAO\n PREGAO PRESENCIAL\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira,\nIguape/SP, CEP 11.920-000 o PREGAO PRESENCIAL n.º049/2022, do tipo MENOR PRECO POR ITEM conforme especificacoes\ndetalhadas no Edital.\nOBJETO: REGISTRO DE PRECOS PARA AQUISICAO DE AGUA MINERAL PARA ATENDER OS DIVERSAS SECRETARIAS DA\nPREFEITURA MUNICIPAL DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES.\nLEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

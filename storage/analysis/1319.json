@@ -1,0 +1,90 @@
+﻿{
+    "diaryId":  "1319",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:53",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1142_27073346.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1142_27073346.pdf",
+    "keywords":  [
+                     "contrato",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 7.500,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 30, DE 26 DE JANEIRO DE 2026",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "022/2026",
+                      "processNumber":  "064/2026",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 7.500,00",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 30, DE 26 DE JANEIRO DE 2026\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas pelo\nartigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Milena Fernandes Ferruccio, Assessora I, inscrito no CPF/MF nº. XXX. 318.738-XX, para exercer a funcao de Gestor\nArt. 2º - do Contrato nº 022/2026, e Victor Pereir",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CONCORRENCIA PUBLICA ELETRONICA Nº001/2026",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  4,
+                      "contractNumber":  "",
+                      "processNumber":  "1/2026",
+                      "modality":  "CONCORRENCIA PUBLICA ELETRONICA Nº001/2026",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO FUTURA E EVENTUAL DE EMPRESA ESPECIALIZADA PARA EXECUCAO DE SERVICOS DE MANUTENCAO E REQUALIFICACAO DE VIAS PUBLICAS COM PAVIMENTO INTERTRAVADO DE CONCRETO, NESTE MUNICIPIO DE IGUAPE/SP, por meio do Sistema de Registro de Precos pelo periodo de 12 meses. A Prefeitura Municipal de Iguape, atraves da Secretaria Municipal de Infraestrutura Urbana e Obras, TORNA PUBLICO para conhecimento dos",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "CONCORRENCIA PUBLICA ELETRONICA Nº001/2026\n\nOBJETO: CONTRATACAO FUTURA E EVENTUAL DE EMPRESA ESPECIALIZADA PARA EXECUCAO DE SERVICOS DE MANUTENCAO E\nREQUALIFICACAO DE VIAS PUBLICAS COM PAVIMENTO INTERTRAVADO DE CONCRETO, NESTE MUNICIPIO DE IGUAPE/SP, por meio do\nSistema de Registro de Precos pelo periodo de 12 meses.\n\nA Prefeitura Municipal de Iguape, atraves da Secretaria Municipal de Infraestrutura Urbana e Obras, TORNA PUBLICO para conhecimento dos\ninteressados, que o edital de licitacao, sofreu retificacao conf",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

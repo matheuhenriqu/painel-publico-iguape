@@ -1,0 +1,92 @@
+﻿{
+    "diaryId":  "1252",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:08",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1097_07084656.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1097_07084656.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CONCORRENCIA ELETRONICA Nº 006/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "006/2025",
+                      "modality":  "CONCORRENCIA ELETRONICA Nº 006/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "CONCORRENCIA ELETRONICA Nº 006/2025\n\nA PREFEITURA MUNICIPAL DE IGUAPE, atraves da Agente de Contratacao, no uso legais de suas atribuicoes; torna publico para conhecimento dos\ninteressados o RESULTADO do julgamento dos Recursos referente a Concorrencia Eletronica acima especificada, cujo objeto e a CONTRATACAO\nDE EMPRESA ESPECIALIZADA PARA PAVIMENTACAO ASFALTICA DE TRECHOS DA ESTRADA DO JAIRE, CONFORME CONTRATO\nREPASSE Nº955401/2023/MIDR/CAIXA, QUE ENTRE SI CELEBRAM A UNIAO FEDERAL, POR INTERMEDIO DO MINISTERIO DA ",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "ADJUDICACAEOXT/RHAOTOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "768/2025",
+                      "modality":  "CP-E - CONCORRENCIA PUBLICA ELETRONICA - 6/2025 - EDITAL Nº: 33/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA PAVIMENTACAO ASFALTICA DE TRECHOS DA ESTRADA DO JAIRE, CONFORME CONTRATO REPASSE Nº 955401/2023/MIDR/CAIXA, QUE ENTRE SI CELEBRAM A UNIAO FEDERAL, POR INTERMEDIO DO MINISTERIO DA INTEGRACAO E DO DESENVOLVIMENTO REGIONAL, REPRESENTADO(A) PELA CAIXA ECONOMICA FEDERAL E O MUNICIPIO DE IGUAPE",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAEOXT/RHAOTOMOLOGACAO\n\nPROCESSO Nº: 768/2025\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA PAVIMENTACAO ASFALTICA DE TRECHOS DA ESTRADA DO JAIRE, CONFORME\nCONTRATO REPASSE Nº 955401/2023/MIDR/CAIXA, QUE ENTRE SI CELEBRAM A UNIAO FEDERAL, POR INTERMEDIO DO MINISTERIO DA\nINTEGRACAO E DO DESENVOLVIMENTO REGIONAL, REPRESENTADO(A) PELA CAIXA ECONOMICA FEDERAL E O MUNICIPIO DE IGUAPE.\nCP-E - CONCORRENCIA PUBLICA ELETRONICA - 6/2025 - EDITAL Nº: 33/2025",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

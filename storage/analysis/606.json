@@ -1,0 +1,192 @@
+﻿{
+    "diaryId":  "606",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:49",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/326db1b42375c08963a5cc6fb5cbf7b6.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/326db1b42375c08963a5cc6fb5cbf7b6.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  5,
+                    "totalValue":  "R$ 283.675,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 247",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "146/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa RONIE CARLO GODOI",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-pgm",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Procuradoria-Geral do Municipio",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 247\n DE 19 DE JULHO DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Victor Pereira de Matos, Diretor Administrativo de Saude, titular da Cedula de Identidade RG nº 46814632 SSP/SP, inscrito no\nArt. 2º - CPF/MF sob o nº. 405.316.238-66, para exercer a funcao d",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 249",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "147/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa ANDRE RAMOS ODONTO TECNICA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 249\n DE 19 DE JULHO DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Victor Pereira de Matos, Diretor Administrativo de Saude, titular da Cedula de Identidade RG nº 46814632 SSP/SP, inscrito no\nArt. 2º - CPF/MF sob o nº. 405.316.238-66, para exercer a funcao ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 071/2023.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "071/2023",
+                      "processNumber":  "039/2023",
+                      "modality":  "Pregao Presencial n°. 039/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para Locacao de Estruturas: contencao, a serem utilizados nos eventos do Municipio de Iguape/SP Pregao Presencial n°. 039/2023",
+                      "value":  "R$ 28.000,00",
+                      "term":  "14/07/2023 a 11/09/2023 - 60 (sessenta) dias.",
+                      "signatureDate":  "14/07/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 071/2023.\nOBJETO: Contratacao de Empresa especializada para Locacao de Estruturas:\ncontencao, a serem utilizados nos eventos do Municipio de Iguape/SP\nPregao Presencial n°. 039/2023\nDATA: 14/07/2023\nVIGENCIA: 14/07/2023 a 11/09/2023 - 60 (sessenta) dias.\nVALOR: R$ 28.000,00 (vinte e oito mil, reais)",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 073/2023.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "073/2023",
+                      "processNumber":  "039/2023",
+                      "modality":  "Pregao Presencial n°. 039/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para Locacao de Estruturas: contencao, a serem utilizados nos eventos do Municipio de Iguape/SP Pregao Presencial n°. 039/2023",
+                      "value":  "R$ 188.100,00",
+                      "term":  "14/07/2023 a 11/09/2023 - 60 (sessenta) dias.",
+                      "signatureDate":  "14/07/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 073/2023.\nOBJETO: Contratacao de Empresa especializada para Locacao de Estruturas:\ncontencao, a serem utilizados nos eventos do Municipio de Iguape/SP\nPregao Presencial n°. 039/2023\nDATA: 14/07/2023\nVIGENCIA: 14/07/2023 a 11/09/2023 - 60 (sessenta) dias.\nVALOR: R$ 188.100,00 (cento e oitenta e oito mil e cem reais)",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 074/2023.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "074/2023",
+                      "processNumber":  "039/2023",
+                      "modality":  "Pregao Presencial n°. 039/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para Locacao de Estruturas: tendas e cobertura e galpao, fechamento em placas e grades de contencao, a serem utilizados nos eventos do Municipio de Iguape/SP Pregao Presencial n°. 039/2023",
+                      "value":  "R$ 67.575,00",
+                      "term":  "14/07/2023 a 11/09/2023 - 60 (sessenta) dias.",
+                      "signatureDate":  "14/07/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 074/2023.\nOBJETO: Contratacao de Empresa especializada para Locacao de Estruturas: tendas e cobertura e galpao, fechamento em placas e grades de\ncontencao, a serem utilizados nos eventos do Municipio de Iguape/SP\nPregao Presencial n°. 039/2023\nDATA: 14/07/2023\nVIGENCIA: 14/07/2023 a 11/09/2023 - 60 (sessenta) dias.\nVALOR: R$ 67.575,00 (sessenta e sete mil, quinhentos e setenta e cinco reais)",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  }
+              ]
+}

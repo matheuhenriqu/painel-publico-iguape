@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "616",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:46",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/1272fd01ecb4bd7066896f7f544760fd.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/1272fd01ecb4bd7066896f7f544760fd.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE ALTERACAO A ATA DE REGISTRO DE PRECOS N°: 077/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "077/2023",
+                      "processNumber":  "043/2023",
+                      "modality":  "Pregao Presencial n°. 043/2023",
+                      "contractor":  "INTERVALE TRANSPORTE E TURISMO EIRELI",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para contratacao de servicos de locacao de veiculos nas categorias passageiro, leve, utilitario e pesado, para atender a demanda das secretarias da Prefeitura Municipal de Iguape, sendo alterado:- Marca/Modelo- Licitado – Fiat Toro e a Alteracao para Marca/Modelo- GM/Montana. Pregao Presencial n°. 043/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "26/07/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE ALTERACAO A ATA DE REGISTRO DE PRECOS N°: 077/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA:-INTERVALE TRANSPORTE E TURISMO EIRELI\nOBJETO: Registro de Precos para contratacao de servicos de locacao de veiculos nas categorias passageiro, leve, utilitario e pesado, para atender a\ndemanda das secretarias da Prefeitura Municipal de Iguape, sendo alterado:- Marca/Modelo- Licitado – Fiat Toro e a Alteracao para Marca/Modelo-\nGM/Montana.\nPregao Presencial n°. 043/2023\nDATA: 26/07/2023",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

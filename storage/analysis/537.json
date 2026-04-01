@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "537",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:05",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/d815d9fff4282dc839cd6fa845139021.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/d815d9fff4282dc839cd6fa845139021.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  13,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  7,
+                      "contractNumber":  "",
+                      "processNumber":  "1164/2022",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 9/2023 - EDITAL Nº: 9/2023",
+                      "contractor":  "DENTAL PRIME - PRODUTOS ODONTOLOGICOS MEDICOS HOSPITALARES EIRELI",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE MATERIAL DE ENFERMAGEM, RADIOLOGIA,ODONTOLOGIA E FISIOTERAPIA PARA ATENDER AS UNIDADES DA SECRETARIA DE SAUDE DA PREFEITURA MUNICIPAL DE IGUAPE, PELO PERIODO DE 12 MESES",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 1164/2022\nREGISTRO DE PRECOS PARA AQUISICAO DE MATERIAL DE ENFERMAGEM, RADIOLOGIA,ODONTOLOGIA E FISIOTERAPIA PARA ATENDER\nAS UNIDADES DA SECRETARIA DE SAUDE DA PREFEITURA MUNICIPAL DE IGUAPE, PELO PERIODO DE 12 MESES.\nPR-G - PREGAO PRESENCIAL - 9/2023 - EDITAL Nº: 9/2023\nINTERESSADOS: FUNDO MUNICIPAL DE SAUDE .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\nlotes abaixo.\n15 - LOTE 15 MATERIAL DE ODONTOLOGIA",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

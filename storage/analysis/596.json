@@ -1,0 +1,91 @@
+﻿{
+    "diaryId":  "596",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:52",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/e160537cc3b7e80e067b9e741b8ba921.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/e160537cc3b7e80e067b9e741b8ba921.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "54/2023",
+                      "modality":  "",
+                      "contractor":  "GEPAM - GESTAO PUBLICA ASSES. CONTABIL, AUDIT. ASSES.EM ADMIN. SS LTDA",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA PRESTACAO DE SERVICOS TECNICOS MULTIPROFISSIONAIS EM GESTAO PUBLICA, CONSISTENTES NA ORIENTACAO GOVERNAMENTAL PREVENTIVA E CONSULTIVA PARA A ADMINISTRACAO MUNICIPAL DE IGUAPE, NAS AREAS DE PLANEJAMENTO (PPA, LDO e LOA), FINANCAS (CONTABILIDADE, TESOURARIA e TRIBUTARIA), ADMINISTRACAO (RECURSOS HUMANOS, COMPRAS, LICITACOES e CONTRATOS, PATRIMONIO) E CONTROLE INTERNO, EXCETUANDO, EM TODOS OS CASOS, AS AREAS DE COMPETENCIA EXCLUSIVA DOS PROCURADORES, ADVOGADOS E DEMAIS SERVIDORES PUBLICOS, PELO PERIODO DE 12 (DOZE) MESES. TP-C - TOMADA DE PRECOS / COMPRAS/SERVICOS - 6/2023 - EDITAL Nº: 28/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\nPROCESSO Nº: 54/2023\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA PRESTACAO DE SERVICOS TECNICOS MULTIPROFISSIONAIS EM GESTAO PUBLICA,\nCONSISTENTES NA ORIENTACAO GOVERNAMENTAL PREVENTIVA E CONSULTIVA PARA A ADMINISTRACAO MUNICIPAL DE IGUAPE, NAS\nAREAS DE PLANEJAMENTO (PPA, LDO e LOA), FINANCAS (CONTABILIDADE, TESOURARIA e TRIBUTARIA), ADMINISTRACAO (RECURSOS\nHUMANOS, COMPRAS, LICITACOES e CONTRATOS, PATRIMONIO) E CONTROLE INTERNO, EXCETUANDO, EM TODOS OS CASOS, AS AREAS\nDE COMPETENC",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "515/2023",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 37/2023 - EDITAL Nº: 63/2023",
+                      "contractor":  "HELDER FRANCISCO NALIATO EPP",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA EM LOCACAO DE BANHEIROS E ESCRITORIO CONTAINER, A SEREM UTILIZADOS NOS EVENTOS DO MUNICIPIO DE IGUAPE/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-cultura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Cultura",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\nPROCESSO Nº: 515/2023\nREGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA EM LOCACAO DE BANHEIROS E ESCRITORIO CONTAINER, A\nSEREM UTILIZADOS NOS EVENTOS DO MUNICIPIO DE IGUAPE/SP.\nPR-G - PREGAO PRESENCIAL - 37/2023 - EDITAL Nº: 63/2023\nINTERESSADOS: SECRETARIA MUNIC. DE CULTURA, ESPORTES E TURISMO .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\n\nitens abaixo.\n\nFORNECEDOR: HELDER FRANCISCO NALIATO EPP\nItem 2 - B",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

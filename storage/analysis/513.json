@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "513",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:08",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/471517324cff55e39922294e2c1e050f.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/471517324cff55e39922294e2c1e050f.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 160.400,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "CONTRATADA:L. AUGUSTA F. PEREIRA",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "043/2023",
+                      "processNumber":  "008/2022",
+                      "modality":  "PREGAO PRESENCIAL Nº: 008/2022",
+                      "contractor":  "L. AUGUSTA F. PEREIRA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada em servicos de arbitragem para eventos esportivos de Futebol e Futsal neste municipio de Iguape/SP PREGAO PRESENCIAL Nº: 008/2022",
+                      "value":  "R$ 160.400,00",
+                      "term":  "",
+                      "signatureDate":  "14/03/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATADA:L. AUGUSTA F. PEREIRA\nCONTRATO N°: 043/2023\nOBJETO: Contratacao de Empresa especializada em servicos de arbitragem para eventos esportivos de Futebol e Futsal neste\nmunicipio de Iguape/SP\nPREGAO PRESENCIAL Nº: 008/2022\nDATA:14/03/2023\nVALOR: Pagara a contratada o valor de R$ 160.400,00 (cento e sessenta mil e quatrocentos reais).",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

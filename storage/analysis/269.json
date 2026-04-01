@@ -1,0 +1,22 @@
+﻿{
+    "diaryId":  "269",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:54",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/2eefa22b2a3b71f4ab79cc4ecd6563d4.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/2eefa22b2a3b71f4ab79cc4ecd6563d4.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Items\u0027 porque ele é uma matriz vazia."
+                },
+    "items":  [
+
+              ]
+}

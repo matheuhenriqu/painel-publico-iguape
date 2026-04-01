@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "1086",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:32",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_974_06071104.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_974_06071104.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 63/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "063/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ETHICA CURSOS LIVRES PROFISSIONAL \u0026 GERENCIAMENTO LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa(s) especializada(s) para oferta de profissionais qualificados para ministrar oficinas para idosos, adolescentes e familias usuarios dos servicos do Cras-centro de referencia de assistencia social, bem como para cadastradores para o cadunico e para execucao do servico de abordagem social da protecao social especial de media complexidade em cumprimento aos servicos da assistencia social, no municipio de",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 63/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ETHICA CURSOS LIVRES PROFISSIONAL \u0026 GERENCIAMENTO LTDA\nCONTRATO N°: 063/2023\nOBJETO: Contratacao de empresa(s) especializada(s) para oferta de profissionais qualificados para ministrar oficinas para idosos, adolescentes e\nfamilias usuarios dos servicos do Cras-centro de referencia de assistencia social, bem como para cadastradores para o cadunico e para execucao do\nservico de abordagem social da protecao social especial",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,198 @@
+﻿{
+    "diaryId":  "1301",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:57",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1130_09080232.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1130_09080232.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  5,
+                    "totalValue":  "R$ 460.300,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 222/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "222/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "FABRIKA COMERCIO E SERVICOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de mobiliarios, equipamentos de tecnologia, materiais recreativos e eletrodomesticos destinados a estruturacao e funcionamento da Casa da Juventude, localizada no Bairro do Rocio neste Municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: FABRIKA COMERCIO E SERVICOS LTDA\nCNPJ: 43.XXX.XXX/XXXX-43\nCONTRATO N°: 222/2025.\nOBJETO: Aquisicao de mobiliarios, equipamentos de tecnologia, materiais recreativos e eletrodomesticos destinados a estruturacao e\nfuncionamento da Casa da Juventude, localizada no Bairro do Rocio neste Municipio de Iguape/SP",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Pregao Eletronico n°.030/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "0/2025",
+                      "modality":  "Pregao Eletronico n°.030/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 41.800,00",
+                      "term":  "Validade do presente Contrato –60 (sessenta) dias periodo de 30/12/2025 a 28/02/2026",
+                      "signatureDate":  "30/12/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "Pregao Eletronico n°.030/2025\nData: 30/12/2025\nVIGENCIA: Validade do presente Contrato –60 (sessenta) dias periodo de 30/12/2025 a 28/02/2026\nVALOR: R$ 41.800,00 (quarenta e um mil e oitocentos reais).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 224/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "224/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MBR COMERCIO DE VEICULOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de 01 (um) veiculo 0km, tipo VAN MINIBUS, via emenda parlamentar estadual nº 2024.016.59140, por meio da Secretaria de Governo e Relacoes Institucionais do Estado de Sao Paulo, em atendimento ao Departamento de Esportes",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "estadual-governo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Governo e Relacoes Institucionais"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: MBR COMERCIO DE VEICULOS LTDA\nCNPJ: 14.XXX.XXX/XXXX-08\nCONTRATO N°: 224/2025.\nOBJETO: Aquisicao de 01 (um) veiculo 0km, tipo VAN MINIBUS, via emenda parlamentar estadual nº 2024.016.59140, por meio da Secretaria de\nGoverno e Relacoes Institucionais do Estado de Sao Paulo, em atendimento ao Departamento de Esportes.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Pregao Eletronico n°.023/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "3/2025",
+                      "modality":  "Pregao Eletronico n°.023/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 418.500,00",
+                      "term":  "Validade do presente Contrato –120 (cento e vinte) dias periodo de 30/12/2025 a 28/04/2026",
+                      "signatureDate":  "30/12/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "Pregao Eletronico n°.023/2025\nData: 30/12/2025\nVIGENCIA: Validade do presente Contrato –120 (cento e vinte) dias periodo de 30/12/2025 a 28/04/2026\nVALOR: R$ 418.500,00 (quatrocentos e dezoito mil e quinhentos reais).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PROROGACAO A ATA DE REGISTRO-79/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "RR MEDICAL LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para “aquisicao de medicamentos” contidos na tabela CMED de “a” a “z”",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PROROGACAO A ATA DE REGISTRO-79/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: RR MEDICAL LTDA.\nCNPJ:-33.XXX.XXX/XXXX-50\nOBJETO: Contratacao de empresa especializada para “aquisicao de medicamentos” contidos na tabela CMED de “a” a “z”.",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

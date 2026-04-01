@@ -1,0 +1,87 @@
+﻿{
+    "diaryId":  "1006",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:47",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_908_22070449.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_908_22070449.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 20, DE 21 DE JANEIRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "154/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "firmado com a empresa SMARAPD INFORMATICA LTDA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, tornando sem efeito a Portaria nº 275, de 20 de dezembro de 2024, e revogando",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 20, DE 21 DE JANEIRO DE 2025\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Edson Luiz Novais Machado, Diretor II, titular da Cedula de Identidade RG nº 18188315, inscrito no CPF/MF nº 103.327.138-14,\nArt. 2º - para exercer a funcao de gestor e fi",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "1º TERMO DE PRORROGACAO AO CONTRATO 141/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "141/2024",
+                      "processNumber":  "050/2023",
+                      "modality":  "Pregao Presencial nº 050/2023",
+                      "contractor":  "ROGERIO F DE FREITAS",
+                      "cnpj":  "",
+                      "object":  "Ccontratacoes futuras para confeccao de Materiais Graficos, divulgacao e impressao para atender diversas Secretarias e Departamentos da Prefeitura Municipal de Iguape/SP Pregao Presencial nº 050/2023",
+                      "value":  "",
+                      "term":  "Periodo de 90 (noventa) dias – 21/01/2025 a 20/04/2025.",
+                      "signatureDate":  "20/01/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n1º TERMO DE PRORROGACAO AO CONTRATO 141/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ROGERIO F DE FREITAS\nCONTRATO N°: 141/2024\nOBJETO: Ccontratacoes futuras para confeccao de Materiais Graficos, divulgacao e impressao para atender diversas Secretarias e\nDepartamentos da Prefeitura Municipal de Iguape/SP\nPregao Presencial nº 050/2023\nDATA: 20/01/2025\nVIGENCIA: Periodo de 90 (noventa) dias – 21/01/2025 a 20/04/2025.",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

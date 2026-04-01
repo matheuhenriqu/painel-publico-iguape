@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "934",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:55",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_853_16072921.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_853_16072921.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "454/2024",
+                      "modality":  "CP-E - CONCORRENCIA PUBLICA ELETRONICA - 7/2024 - EDITAL Nº: 19/2024",
+                      "contractor":  "KNAY ADMINISTRACAO E CONSTRUCOES EIRELI-ME",
+                      "cnpj":  "",
+                      "object":  "SOLICITA ABERTURA DE PROCEDIMENTO PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA SERVICOS DE FINALIZACAO E REPAROS NA OBRA DE REQUALIFICACAO DA ORLA DO VALO GRANDE - FASE III - LOTE 1",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 454/2024\nSOLICITA ABERTURA DE PROCEDIMENTO PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA SERVICOS DE FINALIZACAO E\nREPAROS NA OBRA DE REQUALIFICACAO DA ORLA DO VALO GRANDE - FASE III - LOTE 1\nCP-E - CONCORRENCIA PUBLICA ELETRONICA - 7/2024 - EDITAL Nº: 19/2024\nINTERESSADOS: SECRETARIA MUNIC. DE INFRAESTRUTURA URBANA E OBRAS .\n\n HOMOLOGO E ADJUDICO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\n\nitens abaixo.\n\nFORNECEDOR: KNAY A",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

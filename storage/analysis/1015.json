@@ -1,0 +1,156 @@
+﻿{
+    "diaryId":  "1015",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:45",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_915_01075526.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_915_01075526.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  11,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 557.270,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "CONTRATANTE: MUNICIPIO DE IGUAPE/SP",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "029/2025",
+                      "processNumber":  "078/2023",
+                      "modality":  "Pregao Presencial n°. 078/2023",
+                      "contractor":  "RICARDO GIUSEPPE SILVI - AREiA",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para futuras e eventuais contratacoes de empresa(s) especializada(s) para fornecimento de agregados minerais a serem utilizados neste municipio de Iguape. Pregao Presencial n°. 078/2023",
+                      "value":  "R$ 47.460,00",
+                      "term":  "3 (tres) meses –Periodo de 28/01/2025 a 27/04/2025",
+                      "signatureDate":  "27/01/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: RICARDO GIUSEPPE SILVI - AREiA\nCONTRATO Nº 029/2025 – ORIUNDO DA ATA DE REGISTRO DE PRECOS N°:016/2024.\nOBJETO: Registro de Precos para futuras e eventuais contratacoes de empresa(s) especializada(s) para fornecimento de agregados minerais a serem\nutilizados neste municipio de Iguape.\nPregao Presencial n°. 078/2023\nData: 27/01/2025\nVIGENCIA: 3 (tres) meses –Periodo de 28/01/2025 a 27/04/2025\nVALOR: R$ 47.460,00 (quarenta e sete mil, quatrocentos e sessenta re",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "CONTRATANTE: MUNICIPIO DE IGUAPE/SP",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "030/2025",
+                      "processNumber":  "078/2023",
+                      "modality":  "Pregao Presencial n°. 078/2023",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para futuras e eventuais contratacoes de empresa(s) especializada(s) para fornecimento de agregados minerais a serem utilizados neste municipio de Iguape Pregao Presencial n°. 078/2023",
+                      "value":  "R$ 419.510,00",
+                      "term":  "3 (tres) meses – Periodo de 28/01/2025 a 27/04/2025",
+                      "signatureDate":  "27/01/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU\nCONTRATO Nº 030/2025 – ORIUNDO DA ATA DE REGISTRO DE PRECOS N°:017/2024.\nOBJETO: Registro de Precos para futuras e eventuais contratacoes de empresa(s) especializada(s) para fornecimento de agregados minerais a serem\nutilizados neste municipio de Iguape\nPregao Presencial n°. 078/2023\nData: 27/01/2025\nVIGENCIA: 3 (tres) meses – Periodo de 28/01/2025 a 27/04/2025\nVALOR: R$ 419.510,00 (quatrocentos e dezenove mil, quinh",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "CONTRATANTE: MUNICIPIO DE IGUAPE/SP quente com aditivo de retardo (a granel), massa asfaltica CBUQ (aplicacao a",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "032/2025",
+                      "processNumber":  "4/2023",
+                      "modality":  "Pregao Presencial n°.074/2023",
+                      "contractor":  "ULTRACOM COMERCIO E SERVICOS LTDA executados em diversas vias, em atendimento a demanda do Departamento",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos pra aquisicoes de asfalto reciclado usinado a frio) e emulsao asfaltica RR-2C, para os servicos de “tapa buraco” a serem de Obras e Servicos deste Municipio de Iguape Pregao Presencial n°.074/2023",
+                      "value":  "R$ 72.300,00",
+                      "term":  "3 (tres) meses – Periodo de 28/01/2025 a 27/01/2025",
+                      "signatureDate":  "27/01/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP quente com aditivo de retardo (a granel), massa asfaltica CBUQ (aplicacao a\nCONTRATADA: ULTRACOM COMERCIO E SERVICOS LTDA executados em diversas vias, em atendimento a demanda do Departamento\nCONTRATO Nº 032/2025\nORIUNDO DA ATA DE REGISTRO DE PRECOS N°:019/2024.\nOBJETO: Registro de Precos pra aquisicoes de asfalto reciclado usinado a\nfrio) e emulsao asfaltica RR-2C, para os servicos de “tapa buraco” a serem\nde Obras e Servicos deste Municipio de Iguape\nPregao Presencial ",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "1º TERMO DE PRORROGACAO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "LUIZ GUSTTAVO DE ANDRADE E ANDRADE OLIVEIRA PEREIRA",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo contrato de locacao do imovel utilizado para a instalacao da demanda do Servico de Acolhimento Institucional para Criancas e Adolescentes (SAICA)",
+                      "value":  "R$ 18.000,00",
+                      "term":  "",
+                      "signatureDate":  "29/01/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n1º TERMO DE PRORROGACAO\nCONTRATO DE LOCACAO DE IMOVEL Nº 123/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: LUIZ GUSTTAVO DE ANDRADE E ANDRADE OLIVEIRA PEREIRA\nOBJETO: Constitui o presente termo contrato de locacao do imovel utilizado para a instalacao da demanda do Servico de Acolhimento Institucional para\nCriancas e Adolescentes (SAICA).\nDATA: 29/01/2025\nVALOR: Valor Global – R$ 18.000,00 (dezoito mil reais), sendo R$ 3.000,00 (tres mil reais) mensais.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,87 @@
+﻿{
+    "diaryId":  "704",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:33",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/ce020d97bb4ea53348dafa5964e963f6.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/ce020d97bb4ea53348dafa5964e963f6.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  13,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 1.069.757,16"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 337",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  11,
+                      "contractNumber":  "203/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa LOCALIZA VEICULOS ESPECIAIS S.A",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 337\n DE 06 DE DEZEMBRO DE 2023\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nDesigna, Mauro Christofaro, Diretor de Frota e Veiculos, titular da Cedula de Identidade RG nº 144149801 SSP/SP, inscrito no CPF/MF nº 030.456.698-\n59, para exercer a funcao de Fiscal, do Contrato 203/2023,",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "CONTRATANTE: MUNICIPIO DE IGUAPE e dezesseis",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  12,
+                      "contractNumber":  "200/2023",
+                      "processNumber":  "0058/2022",
+                      "modality":  "Pregao Presencial n°. 0058/2022",
+                      "contractor":  "APLAUSO ENGENHARIA LTDA -EPP",
+                      "cnpj":  "",
+                      "object":  "Execucao dos servicos de manutencao e modernizacao do Parque de Iluminacao Publica no Municipio de Iguape/SP. Pregao Presencial n°. 0058/2022",
+                      "value":  "R$ 1.069.757,16",
+                      "term":  "12 (doze) meses, contados da data de encerramento da Ata de Registro de Precos nº 103/2022.",
+                      "signatureDate":  "28/11/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE e dezesseis\nCONTRATADA: APLAUSO ENGENHARIA LTDA -EPP\nCONTRATO N°: 200/2023\nORIUNDO DA ATA DE REGISTRO DE REGISTRO DE PRECOS Nº 103/2022\nOBJETO: Execucao dos servicos de manutencao e modernizacao do Parque de Iluminacao Publica no Municipio de Iguape/SP.\nPregao Presencial n°. 0058/2022.\nVALOR: Pagara a contratada o valor global de R$ 1.069.757,16 (um milhao, sessenta e nove mil, setecentos e cinquenta e sete reais\ncentavos).\nData: 28/11/2023\nVIGENCIA: 12 (doze) meses, contad",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

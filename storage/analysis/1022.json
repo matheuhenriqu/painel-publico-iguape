@@ -1,0 +1,53 @@
+﻿{
+    "diaryId":  "1022",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:43",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_919_07073727.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_919_07073727.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 2,56"
+                },
+    "items":  [
+                  {
+                      "type":  "Dispensa",
+                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "",
+                      "processNumber":  "31/2025",
+                      "modality":  "EDITAL CHAMADA PUBLICA Nº: 01/2025",
+                      "contractor":  "BANCO BRADESCO S.A",
+                      "cnpj":  "",
+                      "object":  "CREDENCIAMENTO DE INSTITUICAO FINANCEIRA PARA PRESTACAO DE SERVICOS DE CENTRALIZACAO E ARRECADACAO DE TRIBUTOS DE CARNES DE IPTU-IMPOSTO PREDIAL E TERRITORIAL URBANO, ISSQN/TAXAS, ITBI E OUTROS SERVICOS, INCLUSIVE DIVIDA ATIVA E DEMAIS LANCAMENTOS TRIBUTARIAS PARA O EXERCICIO DE 2025 ATRAVES DE DAM- Documento de Arrecadacao Municipal DE ACORDO COM O PADRAO DA FERDERACAO BRASILEIRA DE BANCOS -FEBRABAN.430 , DISP - DISPENSA DE LICITACAO - 9/2025 - EDITAL CHAMADA PUBLICA Nº: 01/2025",
+                      "value":  "R$ 2,56",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\nPROCESSO Nº: 31/2025\nCREDENCIAMENTO DE INSTITUICAO FINANCEIRA PARA PRESTACAO DE SERVICOS DE CENTRALIZACAO E ARRECADACAO DE TRIBUTOS DE\nCARNES DE IPTU-IMPOSTO PREDIAL E TERRITORIAL URBANO, ISSQN/TAXAS, ITBI E OUTROS SERVICOS, INCLUSIVE DIVIDA ATIVA E DEMAIS\nLANCAMENTOS TRIBUTARIAS PARA O EXERCICIO DE 2025 ATRAVES DE DAM- Documento de Arrecadacao Municipal DE ACORDO COM O\nPADRAO DA FERDERACAO BRASILEIRA DE BANCOS -FEBRABAN.430 ,\nDISP - DISPENSA DE LICITACAO - 9/2025 - EDITAL CHAMAD",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

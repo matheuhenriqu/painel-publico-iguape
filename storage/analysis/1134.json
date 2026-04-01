@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "1134",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:26",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1012_04071709.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1012_04071709.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 559.350,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 66/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "66/2024",
+                      "processNumber":  "036/2023",
+                      "modality":  "Pregao Presencial n°. 036/2023",
+                      "contractor":  "L\u0026M SOLUCOES E TECNOLOGIA DA INFORMACAO EIRELI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para disponibilizacao de equipamentos de informatica em regime de locacao mediante prestacao de servicos de manutencao e de seguranca, destinados aos departamentos da Prefeitura Municipal de Iguape, bem como aos convenios firmados com a municipalidade, pelo periodo de 12 (doze) meses. Pregao Presencial n°. 036/2023",
+                      "value":  "R$ 559.350,00",
+                      "term":  "03/07/2025 a 02/07/2026.",
+                      "signatureDate":  "02/07/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 66/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: L\u0026M SOLUCOES E TECNOLOGIA DA INFORMACAO EIRELI\nCONTRATO: Nº066/2024\nOBJETO: Contratacao de empresa especializada para disponibilizacao de equipamentos de informatica em regime de locacao mediante prestacao de\nservicos de manutencao e de seguranca, destinados aos departamentos da Prefeitura Municipal de Iguape, bem como aos convenios firmados com a\nmunicipalidade, pelo periodo de 12 (doze) meses.\nPregao Presencial n°. 03",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

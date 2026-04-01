@@ -1,0 +1,195 @@
+﻿{
+    "diaryId":  "1338",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:50",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1156_14075314.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1156_14075314.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  20,
+                    "itemCount":  5,
+                    "totalValue":  "R$ 173,57"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 37,",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  4,
+                      "contractNumber":  "029/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 37,\n DE 13 DE FEVEREIRO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Ricardo Oliveira Ragni de Castro Leite, Secretario Municipal de Infraestrutura Urbana e Obras, inscrita no CPF/MF nº.\n293.XXX.XXX- 06, para exercer a funcao d",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO AO CONTRATO 214/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  6,
+                      "contractNumber":  "214/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "I B FERREIRA SERVICOS LTDA (GRUPO RL – EPP)",
+                      "cnpj":  "",
+                      "object":  "Constitui objeto deste edital o credenciamento de empresas para prestacao dos seguintes servicos durante o periodo da “Operacao Verao Iguape Limpa” , em conformidade com o estudo tecnico preliminar e termo de referencia, o Termo e o acrescimo de servicos no percentual de 25% do valor do contrato",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO AO CONTRATO 214/2025 EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\n\nCONTRATADA: I B FERREIRA SERVICOS LTDA (GRUPO RL – EPP)\n\nCONTRATO-N°:-214/2025\n\nCNPJ: 42.xxx.xxx/xxxx-36\n\nOBJETO: Constitui objeto deste edital o credenciamento de empresas para prestacao dos seguintes servicos durante o periodo da “Operacao Verao\n\nIguape Limpa” , em conformidade com o estudo tecnico preliminar e termo de referencia, o Termo e o acrescimo de servicos no percentual de\n\n25% do valor do contrato.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CHAMADA PUBLICA – Nº 014/2025.",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "",
+                      "processNumber":  "014/2025",
+                      "modality":  "CHAMADA PUBLICA – Nº 014/2025.",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 173,57",
+                      "term":  "",
+                      "signatureDate":  "13/02/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "CHAMADA PUBLICA – Nº 014/2025.\n\nVALOR: O valor do presente: - LOTE I – 30 (trinta) Turnos - Operacao de Limpeza de Verao, conforme especificados no estudo tecnico preliminar e\n\ntermo de referencia, anexos deste edital - Valor unitario R$ 173,57 (cento e setenta e tres reais e cinquenta e sete centavos), sendo valor global de R$\n\n5.207,10 (cinco mil, duzentos e sete reais e dez centavos), - LOTE II - 3 (tres) Turnos - Operacao Coleta Seletiva, conforme especificados no estudo\n\ntecnico preliminar e termo de referenci",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO Nº 002/2026",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "",
+                      "processNumber":  "002/2026",
+                      "modality":  "PREGAO ELETRONICO Nº 002/2026",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADASPARA PRESTACAO DE SERVICOS DE TRANSPORTE ESCOLAR ATRAVES DE VEICULOS TIPO ONIBUS ESCOLAR EXCLUSIVO PARA ATENDIMENTO DE ALUNOS DA REDE PUBLICA DE ENSINO (MUNICIPAL E ESTADUAL) DO MUNICIPIO DE IGUAPE, PELO PERIODO DE 12 MESES, EM 200 DUZENTOS DIAS LETIVOS ANUAIS",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO Nº 002/2026\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO n.º 002/2026, do tipo MENOR PRECO POR KM RODADO, situada\nna Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADASPARA PRESTACAO DE SERVICOS DE TRANSPORTE ESCOLAR ATRAVES DE\nVEICULOS TIPO ONIBUS ESCOLAR EXCLUSIVO PARA ATENDIMENTO DE ALUNOS DA REDE PUBLICA DE ENSINO (MUNICIPAL E\nESTADUAL) DO M",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO Nº 003/2026",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "",
+                      "processNumber":  "003/2026",
+                      "modality":  "PREGAO ELETRONICO Nº 003/2026",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADAS PARA PRESTACAO DE SERVICOS DE TRANSPORTE ESCOLAR ATRAVES DE VEICULOS TIPO KOMBI/VAN ESCOLAR EXCLUSIVO PARA ATENDIMENTO DE ALUNOS DA REDE PUBLICA DE ENSINO (MUNICIPAL E ESTADUAL) DO MUNICIPIO DE IGUAPE, PELO PERIODO DE 12 MESES, EM 200 DUZENTOS DIAS LETIVOS ANUAIS",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO Nº 003/2026\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO n.º 003/2026, do tipo MENOR PRECO POR KM RODADO, situada\nna Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADAS PARA PRESTACAO DE SERVICOS DE TRANSPORTE ESCOLAR ATRAVES DE\nVEICULOS TIPO KOMBI/VAN ESCOLAR EXCLUSIVO PARA ATENDIMENTO DE ALUNOS DA REDE PUBLICA DE ENSINO (MUNICIPAL E\nESTADUAL) ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

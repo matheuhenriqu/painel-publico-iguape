@@ -1,0 +1,88 @@
+﻿{
+    "diaryId":  "522",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:07",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/f77167f69ac6e201a4a35954ebc8c743.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/f77167f69ac6e201a4a35954ebc8c743.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 4.090,05"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 66",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "044/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "AMBSERV – TRATAMENTO DE RESIDUOS",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 66\n DE 28 DE MARCO 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao\nPaulo, no uso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Fernando Rorato, Diretor Administrativo da Saude, titular da Cedula de Identidade RG nº 8.184.053-9 SSP/SP,\n inscrito no CPF/MF nº 041.448.279-41, para exercer a funcao de Gestor do Contrato 044",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "2º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 005/2021 instalacao e funcionamento da",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MIRIAM VIEIRA DE LARA",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a sede do CRAS – Centro de Referencia de Assistencia Social",
+                      "value":  "R$ 4.090,05",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n2º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 005/2021 instalacao e funcionamento da\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: MIRIAM VIEIRA DE LARA\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a\nsede do CRAS – Centro de Referencia de Assistencia Social\nVALOR: R$ 4.090,05 (quatro mil, noventa reais e cinco centavos) mensais.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

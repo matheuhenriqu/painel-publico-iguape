@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "1118",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:28",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1000_13074514.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1000_13074514.pdf",
+    "keywords":  [
+                     "contrato",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CONCORRENCIA ELETRONICA",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "CONCORRENCIA ELETRONICA",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA CONSTRUCAO DE UNIDADE BASICA DE SAUDE (UBS) PORTE I- localizada na regiao da Alameda 18, esquina com a Rua 4 (Loteamento Iguape F), s/nº, Nova Iguape, Bairro do Rocio, no municipio de Iguape/SP, conforme proposta nº 139016840001/24-002 do Novo PAC, CELEBRADO ENTRE O MINISTERIO DA SAUDE E O MUNICIPIO DE IGUAPE. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu",
+                                                       "federal-ministerio-saude"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Ministerio da Saude"
+                                                     ],
+                      "excerpt":  "CONCORRENCIA ELETRONICA\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, a CONCORRENCIA ELETRONICA – n.º 002/2025, do tipo MENOR PRECO GLOBAL, situada\nna Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA CONSTRUCAO DE UNIDADE BASICA DE SAUDE (UBS) PORTE I- localizada\nna regiao da Alameda 18, esquina com a Rua 4 (Loteamento Iguape F), s/nº, Nova Iguape, Bairro do Rocio, no municipi",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero principal identificado"
+                                ]
+                  }
+              ]
+}

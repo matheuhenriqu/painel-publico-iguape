@@ -1,0 +1,90 @@
+﻿{
+    "diaryId":  "997",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:48",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_901_11071137.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_901_11071137.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  18,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "EXTRATO DE PUBLICACAO DE JULGAMENTO DE LICITACAO PREGAO ELETRONICO Nº 01/2024",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  9,
+                      "contractNumber":  "",
+                      "processNumber":  "01/2024",
+                      "modality":  "PREGAO ELETRONICO Nº 01/2024",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "e o Registro de precos pelo periodo de 12 (doze) meses para contratacao de empresa especializada para eventual locacao de mao de obra com a finalidade de execucao e manutencao da infraestrutura de eventos, neste municipio de Iguape/SP. Com o seguinte RESULTADO: IMPROVIMENTO do recurso da empresa ENGETEC ENGENHARIA LTDA, mantendo habilitadas no certame as empresas INGRID BRAGA FERREIRA (GRUPO RL-ME) e AEROFOTO NORDESTE LTDA. Iguape, 10 de janeiro de 2025 ROSANA MARIA DA SILVA PREGOEIRA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO DE PUBLICACAO DE JULGAMENTO DE LICITACAO PREGAO ELETRONICO Nº 01/2024\n\n A PREFEITURA MUNICIPAL DE IGUAPE, atraves da Pregoeira, no uso legais de suas atribuicoes; torna publico para conhecimento dos\ninteressados o RESULTADO do julgamento dos Recursos referente ao Pregao Eletronico acima especificado, cujo objeto e o Registro de precos pelo\nperiodo de 12 (doze) meses para contratacao de empresa especializada para eventual locacao de mao de obra com a finalidade de execucao e\nmanutencao da infraestrutura de e",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  9,
+                      "contractNumber":  "",
+                      "processNumber":  "302/2024",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 1/2024 - EDITAL Nº: 8/2024",
+                      "contractor":  "AEROFOTO NORDESTE LTDA",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PELO PERIODO DE12 (DOZE) MESES PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARAEVENTUAL LOCACAO DE MAO DE OBRA COM A FINALIDADE DE EXECUCAOE MANUTENCAO DA INFRAESTRUTURA DE EVENTOS, NESTE MUNICIPIODE IGUAPE/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-cultura",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Cultura",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\nPROCESSO Nº: 302/2024\nREGISTRO DE PRECOS PELO PERIODO DE12 (DOZE) MESES PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARAEVENTUAL LOCACAO\nDE MAO DE OBRA COM A FINALIDADE DE EXECUCAOE MANUTENCAO DA INFRAESTRUTURA DE EVENTOS, NESTE MUNICIPIODE IGUAPE/SP\nPR-E - PREGAO ELETRONICO - 1/2024 - EDITAL Nº: 8/2024\nINTERESSADOS: SECRETARIA MUNICIPAL DE GESTAO E PLANEJAMENTO e SECRETARIA MUNIC. DE CULTURA, ESPORTES E TURISMO .\n\nADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedime",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

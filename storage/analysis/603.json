@@ -1,0 +1,294 @@
+﻿{
+    "diaryId":  "603",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:49",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/6bef57f68eeb8cdd396a4190688116f3.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/6bef57f68eeb8cdd396a4190688116f3.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  36,
+                    "itemCount":  8,
+                    "totalValue":  "R$ 50.750,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 244",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  31,
+                      "contractNumber":  "136/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "GEPAM – GESTAO PUBLICA, AUDITORIA CONTABIL, ACESSORIA E CONSULTORIA EM ADMINISTRACAO MUNICIPAL S/S LTDA. EPP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 244\n DE 17 JULHO DE 2023\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Fritz Walter Klimke, Secretario Adjunto de Gestao e Planejamento, titular da Cedula de Identidade RG nº 10.450.701-9 SSP/SP,\n inscrito no CPF/MF nº 973.246.638-34, para exercer a func",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 112/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  33,
+                      "contractNumber":  "112/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ALFER SCIENTIFIC EQUIPAMENTOS PARA LABORATORIOS LTDA",
+                      "cnpj":  "",
+                      "object":  "AQUISICAO DE MOBILIARIOS/MATERIAIS PERMANENTE PARA ATENDER A SECRETARIA MUNICIPAL DE SAUDE, 01 – RECURSO EMENDA PARLAMENTAR Nº 41710016 e 41190001",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE CONFORME PROPOSTA Nº 13901.684000/1220-\nCONTRATADA: ALFER SCIENTIFIC EQUIPAMENTOS PARA LABORATORIOS LTDA\nCONTRATO N°: 112/2023\nOBJETO: AQUISICAO DE MOBILIARIOS/MATERIAIS PERMANENTE PARA ATENDER A SECRETARIA MUNICIPAL DE SAUDE,\n01 – RECURSO EMENDA PARLAMENTAR Nº 41710016 e 41190001",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO Nº 001/2023",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  33,
+                      "contractNumber":  "",
+                      "processNumber":  "001/2023",
+                      "modality":  "PREGAO ELETRONICO Nº 001/2023",
+                      "contractor":  "o valor de R$ 50.750,00 (cinquenta mil, setecentos e cinquenta reais)",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 50.750,00",
+                      "term":  "Permanecera valido por um periodo de 04 (quatro) meses – 12/07/2023 a 11/11/2023.",
+                      "signatureDate":  "12/07/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO Nº 001/2023\nDATA:12/07/2023\nVALOR: Pagara a contratada o valor de R$ 50.750,00 (cinquenta mil, setecentos e cinquenta reais)\nVIGENCIA: Permanecera valido por um periodo de 04 (quatro) meses – 12/07/2023 a 11/11/2023.",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 113/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  33,
+                      "contractNumber":  "113/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CPS MOBILIARIO E EQUIPAMENTOS EIRELI – ME",
+                      "cnpj":  "",
+                      "object":  "AQUISICAO DE MOBILIARIOS/MATERIAIS PERMANENTE PARA ATENDER A SECRETARIA MUNICIPAL DE SAUDE, 01 – RECURSO EMENDA PARLAMENTAR Nº 41710016 e 41190001",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE CONFORME PROPOSTA Nº 13901.684000/1220-\nCONTRATADA: CPS MOBILIARIO E EQUIPAMENTOS EIRELI – ME\nCONTRATO N°: 113/2023\nOBJETO: AQUISICAO DE MOBILIARIOS/MATERIAIS PERMANENTE PARA ATENDER A SECRETARIA MUNICIPAL DE SAUDE,\n01 – RECURSO EMENDA PARLAMENTAR Nº 41710016 e 41190001",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 114/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  33,
+                      "contractNumber":  "114/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CROMA EQUIPAMENTOS E SERVICOS EIRELI",
+                      "cnpj":  "",
+                      "object":  "AQUISICAO DE MOBILIARIOS/MATERIAIS PERMANENTE PARA ATENDER A SECRETARIA MUNICIPAL DE SAUDE, 01 – RECURSO EMENDA PARLAMENTAR Nº 41710016 e 41190001",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE CONFORME PROPOSTA Nº 13901.684000/1220-\nCONTRATADA:CROMA EQUIPAMENTOS E SERVICOS EIRELI\nCONTRATO N°: 114/2023\nOBJETO: AQUISICAO DE MOBILIARIOS/MATERIAIS PERMANENTE PARA ATENDER A SECRETARIA MUNICIPAL DE SAUDE,\n01 – RECURSO EMENDA PARLAMENTAR Nº 41710016 e 41190001.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 115/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  33,
+                      "contractNumber":  "115/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "F.S. COMERCIO E SERVICOS EIRELI",
+                      "cnpj":  "",
+                      "object":  "AQUISICAO DE MOBILIARIOS/MATERIAIS PERMANENTE PARA ATENDER A SECRETARIA MUNICIPAL DE SAUDE, 01 – RECURSO EMENDA PARLAMENTAR Nº 41710016 e 41190001",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE CONFORME PROPOSTA Nº 13901.684000/1220-\nCONTRATADA: F.S. COMERCIO E SERVICOS EIRELI\nCONTRATO N°: 115/2023\nOBJETO: AQUISICAO DE MOBILIARIOS/MATERIAIS PERMANENTE PARA ATENDER A SECRETARIA MUNICIPAL DE SAUDE,\n01 – RECURSO EMENDA PARLAMENTAR Nº 41710016 e 41190001.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 116/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  33,
+                      "contractNumber":  "116/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "FILIPE MOISES GARCIA - ME",
+                      "cnpj":  "",
+                      "object":  "AQUISICAO DE MOBILIARIOS/MATERIAIS PERMANENTE PARA ATENDER A SECRETARIA MUNICIPAL DE SAUDE, 01 – RECURSO EMENDA PARLAMENTAR Nº 41710016 e 41190001",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE CONFORME PROPOSTA Nº 13901.684000/1220-\nCONTRATADA: FILIPE MOISES GARCIA - ME\nCONTRATO N°: 116/2023\nOBJETO: AQUISICAO DE MOBILIARIOS/MATERIAIS PERMANENTE PARA ATENDER A SECRETARIA MUNICIPAL DE SAUDE,\n01 – RECURSO EMENDA PARLAMENTAR Nº 41710016 e 41190001.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 117/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  33,
+                      "contractNumber":  "117/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "HMA COMERCIO E ATACADISTA DE PRODUTOS DE INFORMAICA E ELETROELETRONICOS LTDA",
+                      "cnpj":  "",
+                      "object":  "AQUISICAO DE MOBILIARIOS/MATERIAIS PERMANENTE PARA ATENDER A SECRETARIA MUNICIPAL DE SAUDE, CONFORME PROPOSTA Nº 13901.684000/1220- 01 – RECURSO EMENDA PARLAMENTAR Nº 41710016 e 41190001",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: HMA COMERCIO E ATACADISTA DE PRODUTOS DE INFORMAICA E ELETROELETRONICOS LTDA\nCONTRATO N°: 117/2023\nOBJETO: AQUISICAO DE MOBILIARIOS/MATERIAIS PERMANENTE PARA ATENDER A SECRETARIA MUNICIPAL DE SAUDE, CONFORME PROPOSTA Nº 13901.684000/1220-\n01 – RECURSO EMENDA PARLAMENTAR Nº 41710016 e 41190001.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

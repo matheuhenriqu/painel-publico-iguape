@@ -1,0 +1,160 @@
+﻿{
+    "diaryId":  "1154",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:23",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1023_22034108.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1023_22034108.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "rescisao"
+                 ],
+    "summary":  {
+                    "pageCount":  10,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 596.030,60"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "Portaria de gestao do contrato 097/2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "097/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "EMPRESA JOMMAR COMERCIO E SERVICOS LTDA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-infraestrutura-obras",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Infraestrutura Urbana e Obras",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "3\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – Nº 1023 Terca-feira, 22 de Julho de 2025 - www.iguape.sp.gov.br\n\n PORTARIA\n\n- Designa, Ricardo de Oliveira Ragni de Castro Leite, Secretario Municipal de Infraestrutura Urbana e Obras, inscrito no CPF/MF nº. 293.199.448-06, para\n\n exercer a funcao de gestor do Contrato 097/2025, EMPRESA JOMMAR COMERCIO E SERVICOS LTDA.\n\n- Esta portaria entra em vigor na data de sua publicacao, revogadas as disposicoes em contrario.\n\n GABINETE DO PREFEITO, 18 DE JULHO DE 2025\n\n SALVADOR JO",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 157, DE 18 DE JULHO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "097/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-infraestrutura-obras",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Infraestrutura Urbana e Obras",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 157, DE 18 DE JULHO DE 2025\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas pelo\n artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\n- Designa, Demilson Pereira Fabricio, Assessor III, inscrito no CPF/MF nº 358.118.788-42, para exercer a funcao de fiscal do Contrato 097/2025,\n\n EMPRESA JOMMAR COMERCIO E SERVICOS LTDA.\n\n- Esta port",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 098/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  10,
+                      "contractNumber":  "098/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "FREDERICO MOTA PEDRO DE OLIVEIRA EIRELI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para fornecimento e execucao de infraestrutura eletrica e hidraulica, destinada a realizacao da Festa em Louvor ao Senhor Bom Jesus de Iguape – 2025",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: FREDERICO MOTA PEDRO DE OLIVEIRA EIRELI\nCONTRATO Nº 098/2025\nOBJETO: Contratacao de empresa especializada para fornecimento e execucao de infraestrutura eletrica e hidraulica, destinada a realizacao da Festa\nem Louvor ao Senhor Bom Jesus de Iguape – 2025.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Concorrencia Eletronica n°. 003/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  10,
+                      "contractNumber":  "",
+                      "processNumber":  "003/2025",
+                      "modality":  "Concorrencia Eletronica n°. 003/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 596.030,60",
+                      "term":  "30 (trinta) dias Periodo de 21/07/2025 a 19/08/2025",
+                      "signatureDate":  "21/07/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "Concorrencia Eletronica n°. 003/2025\nData: 21/07/2025\nVIGENCIA: 30 (trinta) dias Periodo de 21/07/2025 a 19/08/2025\nEXECUCAO: 30 (trinta) dias a contar da data da ultima assinatura do representante legal da empresa na ordem de servico – (Periodo de 21/07/2025 a\n19/08/2025).\nVALOR:- Valor global - R$ 596.030,60 (quinhentos e noventa e seis mil, trinta reais e sessenta centavos).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

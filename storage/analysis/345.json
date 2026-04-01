@@ -1,0 +1,95 @@
+﻿{
+    "diaryId":  "345",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:35",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/ad81a6361fac4ae8f88e7ae1d81cfea6.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/ad81a6361fac4ae8f88e7ae1d81cfea6.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 51.156,40"
+                },
+    "items":  [
+                  {
+                      "type":  "Dispensa",
+                      "actTitle":  "DISPENSA DE LICITACAO da empresa GLORIA MARQUES DE AGUIAR NOBREGA, inscrita no CNPJ: 51.066.074/0001-61, PARA",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "074/0001",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "51.066.074/0001-61",
+                      "object":  "",
+                      "value":  "R$ 30.217,00",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "DISPENSA DE LICITACAO da empresa GLORIA MARQUES DE AGUIAR NOBREGA, inscrita no CNPJ: 51.066.074/0001-61, PARA\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA PRESTACAO DE SERVICOS FUNERARIOS PARA ATENDIMENTO\nDE FAMILIAS DE IGUAPE EM SITUACAO DE VULNERABILIDADE, ATENDIDAS PELOS SERVICOS SOCIOASSISTENCIAIS, COM\nFUNDAMENTO NO ARTIGO 75, INCISO II, DA LEI FEDERAL 14.133/2021, sendo o valor contratado de R$ 30.217,00 (trinta mil, duzentos e\ndezessete reais), pois que, ao analisaro caso concreto, eis que estao preenchidos todo",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "INEXIGIBILIDADE DE LICITACAO da empresa FITTIPALDI ONE ENTRETENIMENTO, inscrita no CNPJ: 32.711.010/0001-21 PARA",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "010/0001",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "32.711.010/0001-21",
+                      "object":  "",
+                      "value":  "R$ 20.939,40",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "INEXIGIBILIDADE DE LICITACAO da empresa FITTIPALDI ONE ENTRETENIMENTO, inscrita no CNPJ: 32.711.010/0001-21 PARA\nAPRESENTACAO MUSICAL da “Claudio Fontana”, NO DIA 31 DE JULHO DE 2022, A PARTIR DAS 22H00, POR 70min DE SHOW, NO\nCENTRO DE EVENTOS PREFEITO CASIMIRO TEIXEIRA, COMO PARTE DO EVENTO “FESTA DE AGOSTO” COM FUNDAMENTO NO\nARTIGO 25, INCISO III, DA LEI FEDERAL 8.666/93, sendo o valor contratado de R$ 20.939,40 (vinte mil, novecentos e trinta e nove reais e\nquarenta centavos), pois que, ao analisar o caso concre",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

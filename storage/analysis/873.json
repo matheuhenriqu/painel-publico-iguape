@@ -1,0 +1,91 @@
+﻿{
+    "diaryId":  "873",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:02",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_799_23073343.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_799_23073343.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 406.000,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:069/2024.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "9/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para contratacao de empresa especializada para Locacao de Estruturas: tendas e cobertura e galpao, fechamento em placas e grades de contencao, a serem utilizados nas festas e eventos do municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:069/2024.\nOBJETO: Registro de Precos para contratacao de empresa especializada para Locacao de Estruturas: tendas e cobertura e galpao, fechamento em\nplacas e grades de contencao, a serem utilizados nas festas e eventos do municipio de Iguape/SP.",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "PREGAO ELETRONICO Nº 005/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "005/2024",
+                      "modality":  "PREGAO ELETRONICO Nº 005/2024",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 406.000,00",
+                      "term":  "A Ata de Registro de Precos tera validade de 02 (dois) meses – 22/07/2024 a 22/09/2024.",
+                      "signatureDate":  "22/07/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO Nº 005/2024\nData: 22/07/2024\nVIGENCIA: A Ata de Registro de Precos tera validade de 02 (dois) meses – 22/07/2024 a 22/09/2024.\nVALOR: Valor Global da Ata de Registro de Precos: R$ 406.000,00 (quatrocentos e seis mil reais)",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem contratada identificada",
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,123 @@
+﻿{
+    "diaryId":  "927",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:55",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_846_04123719.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_846_04123719.pdf",
+    "keywords":  [
+                     "contrato",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 642.428,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 076/2024.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "076/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos objetivando futuras aquisicoes de agua mineral sem gas, para atender as diversas Secretarias da Prefeitura Municipal de",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "federal-agu",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 076/2024.\nOBJETO: Registro de Precos objetivando futuras aquisicoes de agua mineral sem gas, para atender as diversas Secretarias da Prefeitura Municipal de\nIguape, pelo periodo de 12 (doze) meses.",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Pregao Eletronico n°. 011/2024",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "011/2024",
+                      "modality":  "Pregao Eletronico n°. 011/2024",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 114.028,00",
+                      "term":  "Validade do presente Registro de Precos 12 (doze) meses – periodo de 02/10/2024 a 01/10/2025",
+                      "signatureDate":  "02/10/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "Pregao Eletronico n°. 011/2024\nData: 02/10/2024\nVIGENCIA: Validade do presente Registro de Precos 12 (doze) meses – periodo de 02/10/2024 a 01/10/2025\nVALOR: R$ 114.028,00 (cento e catorze mil e vinte e oito reais)",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 077/2024.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "077/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Eventual contratacao de empresa especializada para construcao de abrigo de Ponto de Onibus, neste municipio de Iguape/SP, por meio do Sistema de Registro de Precos – SRP",
+                      "value":  "R$ 528.400,00",
+                      "term":  "Validade do presente Registro de Precos 12 (doze) meses – periodo de 02/10/2024 a 01/10/2025",
+                      "signatureDate":  "02/10/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 077/2024.\nOBJETO: Eventual contratacao de empresa especializada para construcao de abrigo de Ponto de Onibus, neste municipio de Iguape/SP, por meio do\nSistema de Registro de Precos – SRP\nData: 02/10/2024\nVIGENCIA: Validade do presente Registro de Precos 12 (doze) meses – periodo de 02/10/2024 a 01/10/2025\nVALOR: R$ 528.400,00 (quinhentos e vinte e oito mil e quatrocentos reais).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,158 @@
+﻿{
+    "diaryId":  "1340",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:50",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1157_19080100.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1157_19080100.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 1.550.507,97"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 40,",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "032/2026",
+                      "processNumber":  "125/2026",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "o Credenciamento de instituicoes financeiras, autorizadas a funcionar pelo Banco Central do Brasil, para a prestacao de servicos bancarios de arr ecadacao e recolhimento das receitas publicas municipais, tributarias e nao tributarias, da Prefeitura Municipal de Iguape/SP",
+                      "value":  "R$ 1.550.334,40",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-fazenda",
+                      "primaryOrganizationName":  "Secretaria Municipal da Fazenda",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "fazenda",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-fazenda"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria Municipal da Fazenda"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 40,\n DE 18 DE FEVEREIRO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao\nconferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Angelo Rosa Vieira, Secretario Municipal da Fazenda, inscrito no CPF/MF nº. XXX. 849.238-XX, para exercer a\n funcao de Gestor do Contrato nº 032/2026, e Marco",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO AO CONTRATO 215/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "215/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "RJ SERVICOS (JONATHAN LOPES PEREIRA ME)",
+                      "cnpj":  "",
+                      "object":  "Constitui objeto deste edital o credenciamento de empresas para prestacao dos seguintes servicos durante o periodo da “Operacao Verao Iguape Limpa”, em conformidade com o estudo tecnico preliminar e termo de referencia, o Termo e o acrescimo de servicos no percentual de 25% do valor do contrato",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO AO CONTRATO 215/2025\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: RJ SERVICOS (JONATHAN LOPES PEREIRA ME)\nCONTRATON°: 215/2025\nCNPJ:-58.xxx.xxx/xxxx-03\nOBJETO: Constitui objeto deste edital o credenciamento de empresas para prestacao dos seguintes servicos durante o periodo da “Operacao Verao\nIguape Limpa”, em conformidade com o estudo tecnico preliminar e termo de referencia, o Termo e o acrescimo de servicos no percentual de 25%\ndo valor do contrato.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CHAMADA PUBLICA – Nº 014/2025.",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  4,
+                      "contractNumber":  "",
+                      "processNumber":  "014/2025",
+                      "modality":  "CHAMADA PUBLICA – Nº 014/2025.",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 173,57",
+                      "term":  "",
+                      "signatureDate":  "13/02/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "CHAMADA PUBLICA – Nº 014/2025.\nVALOR: O valor do presente: LOTE I – 30 (trinta) Turnos - Operacao de Limpeza de Verao, conforme especificados no estudo tecnico preliminar e\ntermo de referencia, anexos deste edital - Valor unitario R$ 173,57 (cento e setenta e tres reais e cinquenta e sete centavos), sendo valor global de R$\n5.207,10 (cinco mil, duzentos e sete reais e dez centavos), LOTE II - 3 (tres) Turnos - Operacao Coleta Seletiva, conforme especificados no estudo\ntecnico preliminar e termo de referencia, anexo",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato publicado",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "Instituicao Financeira - Banco do Brasil – S.A",
+                      "cnpj":  "",
+                      "object":  "Credenciamento de instituicoes financeiras, autorizadas a funcionar pelo Banco Central do Brasil, para a prestacao de servicos bancarios de arrecadacao e recolhimento das receitas publicas municipais, tributarias e nao tributarias, da Prefeitura Municipal de Iguape/SP, incluindo, entre outras, as receitas provenientes de IPTU, ITBI, ISSQN, Taxas, Servicos e demais receitas municipais, por meio de DAM – Documento de Arrecadacao Municipal, com prestacao de contas por meio eletronico dos valores arrecadados, sendo vedado o recebimento em cheque, em conformidade com o padrao estabelecido pela Federacao Brasileira de Bancos – FEBRABAN",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: Instituicao Financeira - Banco do Brasil – S.A.\nCNPJ: 00.xxx.xxx/xxxx-91\nCONTRATO-N°:-032/2026\nOBJETO: Credenciamento de instituicoes financeiras, autorizadas a funcionar pelo Banco Central do Brasil, para a prestacao de servicos bancarios de\narrecadacao e recolhimento das receitas publicas municipais, tributarias e nao tributarias, da Prefeitura Municipal de Iguape/SP, incluindo, entre outras,\nas receitas provenientes de IPTU, ITBI, ISSQN, Taxas, Servicos e dem",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

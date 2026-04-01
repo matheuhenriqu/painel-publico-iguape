@@ -1,0 +1,130 @@
+﻿{
+    "diaryId":  "1090",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:32",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_978_13072745.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_978_13072745.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 290.468,80"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "7º TERMO ADITIVO DE PRORROGACAO AO CONTRATO Nº 035/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "035/2022",
+                      "processNumber":  "019/2022",
+                      "modality":  "PREGAO PRESENCIAL Nº 019/2022",
+                      "contractor":  "FRANKLIN CANGUSSU SAMPAIO EIRELI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada em fornecimento de profissionais na area da saude, para atendimentos na Estrategia de Saude da Familia, Unidade Mista e CAPS (Centro de Atendimento Psicossocial), no municipio de Iguape. PREGAO PRESENCIAL Nº 019/2022",
+                      "value":  "R$ 243.635,68",
+                      "term":  "30 (trinta) dias – 09/05/2025 a 07/06/2025.",
+                      "signatureDate":  "08/05/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "7º TERMO ADITIVO DE PRORROGACAO AO CONTRATO Nº 035/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: FRANKLIN CANGUSSU SAMPAIO EIRELI\nCONTRATO N°: 035/2022\nOBJETO: Contratacao de empresa especializada em fornecimento de profissionais na area da saude, para atendimentos na Estrategia de Saude da\nFamilia, Unidade Mista e CAPS (Centro de Atendimento Psicossocial), no municipio de Iguape.\nPREGAO PRESENCIAL Nº 019/2022\nVALOR: R$ 243.635,68 (duzentos e quarenta e tres mil, seiscentos e trinta e cinco reais e sessenta e o",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1° TERMO ADITIVO DE PRORROGACAO - CONTRATO N.° 05/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "05/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "METABIT SISTEMAS PARA GESTAO PUBLICA LTDA EPP",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-camara",
+                      "primaryOrganizationName":  "Camara Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-camara",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Camara Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "1° TERMO ADITIVO DE PRORROGACAO - CONTRATO N.° 05/2024\nCONTRATANTE: CAMARA MUNICIPAL DE IGUAPE\nCONTRATADA: METABIT SISTEMAS PARA GESTAO PUBLICA LTDA EPP",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Dispensa",
+                      "actTitle":  "DISPENSA DE LICITACAO N°: 012/2024",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "012/2024",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Contratacao de LICENCA DE USA DE SISTEMA DE ANALISE ESTRUTURADA DE DADOS, disponibilizados via internet, contendo informacoes necessarias a otimizacao e suporte das rotinas do controle interno, permitindo o acompanhamento de indicadores mediante relatorios periodicos e sistematizados, visando atender legislacao especifica e regramentos do Tribunal de Contas do estado de Sao Paulo",
+                      "value":  "R$ 46.833,12",
+                      "term":  "O contrato tera validade por 12 (doze) meses, sendo de 10/05/2025 a 09/05/2026.",
+                      "signatureDate":  "08/05/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "DISPENSA DE LICITACAO N°: 012/2024\nOBJETO: Contratacao de LICENCA DE USA DE SISTEMA DE ANALISE ESTRUTURADA DE DADOS, disponibilizados via internet, contendo\ninformacoes necessarias a otimizacao e suporte das rotinas do controle interno, permitindo o acompanhamento de indicadores mediante relatorios\nperiodicos e sistematizados, visando atender legislacao especifica e regramentos do Tribunal de Contas do estado de Sao Paulo.\nDATA: 08/05/2025\nVIGENCIA: O contrato tera validade por 12 (doze) meses, sendo de 10/05/2025 ",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

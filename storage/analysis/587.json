@@ -1,0 +1,192 @@
+﻿{
+    "diaryId":  "587",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:54",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/a8297cf06d0fb66b734fe2ff8f0ef1a5.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/a8297cf06d0fb66b734fe2ff8f0ef1a5.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  10,
+                    "itemCount":  5,
+                    "totalValue":  "R$ 529.045,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 179",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  5,
+                      "contractNumber":  "086/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa SOLDA ACO COMERCIAL LTDA - EPP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 179\n DE 22 JUNHO DE 2023\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Maira Bitencourt Pereira, Coordenadora de Atencao Especializada, titular da Cedula de Identidade RG nº 30.393.319-7 SSP/SP,\n inscrita no CPF/MF nº 312.432.348-30, para exerc",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 181",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "091/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa METALURGICA SILLOTT LTDA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 181\n DE 23 JUNHO DE 2023\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\n uso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Giulia Barreto Bezerra, Secretaria Adjunto de Assuntos de Planejamento, titular da Cedula de Identidade RG nº 42.960.429-4\nArt. 2º - SSP/SP, inscrita no CPF/MF nº 440.698.418-65, pa",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 064/2023.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  9,
+                      "contractNumber":  "064/2023",
+                      "processNumber":  "035/2023",
+                      "modality":  "Pregao Presencial n°. 035/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos pelo periodo de 12 (doze) meses, para aquisicao de Tubos de Concreto Armado, para execucao de servicos de manejo de valas, transposicoes de corpos hidricos e drenagem pluvial no municipio de Iguape~SP. Pregao Presencial n°. 035/2023",
+                      "value":  "R$ 499.245,00",
+                      "term":  "20/06/2023 a 19/06/2024",
+                      "signatureDate":  "20/06/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 064/2023.\nOBJETO: Registro de Precos pelo periodo de 12 (doze) meses, para aquisicao de Tubos de Concreto Armado, para execucao de servicos de manejo\nde valas, transposicoes de corpos hidricos e drenagem pluvial no municipio de Iguape~SP.\nPregao Presencial n°. 035/2023\nDATA: 20/06/2023\nVIGENCIA: 20/06/2023 a 19/06/2024\nVALOR: R$ 499.245,00 (quatrocentos e noventa e nove mil, duzentos e quarenta e cinco reais)",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 086/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  9,
+                      "contractNumber":  "086/2023",
+                      "processNumber":  "008/2023",
+                      "modality":  "PREGAO PRESENCIAL Nº 008/2023",
+                      "contractor":  "SOLDA ACO COMERCIAL LTDA-EPP",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para fornecimento de oxigenio medicinal, com periodo de 60 (sessenta) dias. PREGAO PRESENCIAL Nº 008/2023",
+                      "value":  "R$ 29.800,00",
+                      "term":  "permanecera vigente pelo periodo de 60 (sessenta) dias, 22/06/2023 a 20/08/2023.",
+                      "signatureDate":  "21/06/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE cessao em comodato de cilindros pelo\nCONTRATADA: SOLDA ACO COMERCIAL LTDA-EPP\nCONTRATO N°: 086/2023\nOBJETO: Contratacao de Empresa especializada para fornecimento de oxigenio medicinal, com\nperiodo de 60 (sessenta) dias.\nPREGAO PRESENCIAL Nº 008/2023\nDATA: 21/06/2023\nVALOR: Pagara a contratada o valor de R$ 29.800,00 (vinte e nove mil e oitocentos reais)\nVIGENCIA: permanecera vigente pelo periodo de 60 (sessenta) dias, 22/06/2023 a 20/08/2023.",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  9,
+                      "contractNumber":  "",
+                      "processNumber":  "1159/2022",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 21/2023 - EDITAL Nº: 35/2023",
+                      "contractor":  "VF ALVES DE SOUZA OLIVEIRA REPRESENTACOES",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Materiais Permanentes (mobiliarios e eletrodomesticos) em atendimento a Secretaria Municipal de Assistencia e Desenvolvimento Social",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "SHOW, PROJETOR PROFISSIONAL, SVGA 800X600",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-assistencia-social",
+                      "primaryOrganizationName":  "Secretaria de Assistencia e Desenvolvimento Social",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "assistencia-social",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-assistencia-social",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Assistencia e Desenvolvimento Social",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\nPROCESSO Nº: 1159/2022\nAquisicao de Materiais Permanentes (mobiliarios e eletrodomesticos) em atendimento a Secretaria Municipal de Assistencia e Desenvolvimento Social ,\nPR-G - PREGAO PRESENCIAL - 21/2023 - EDITAL Nº: 35/2023\nINTERESSADOS: SECRETARIA MUNIC. DE ASSISTENCIA E DESENV. SOCIAL .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\nitens abaixo.\n\nFORNECEDOR: VF ALVES DE SOUZA OLIVEIRA REPRESENTACOES\nItem 1 - CAIXA ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

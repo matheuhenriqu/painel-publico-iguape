@@ -1,0 +1,52 @@
+﻿{
+    "diaryId":  "954",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:52",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_868_09072329.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_868_09072329.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  7,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 2.886,11"
+                },
+    "items":  [
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 225/2017",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  7,
+                      "contractNumber":  "",
+                      "processNumber":  "276/2017",
+                      "modality":  "",
+                      "contractor":  "ALZIRA APARECIDA DANTAS DEMARTIS",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao da “Residencia Terapeutica”",
+                      "value":  "R$ 2.886,11",
+                      "term":  "13/11/2024 a 12/11/2025.",
+                      "signatureDate":  "07/11/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nTERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 225/2017\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: ALZIRA APARECIDA DANTAS DEMARTIS\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao da “Residencia Terapeutica”\nDATA: 07/11/2024\nVALOR: R$ 2.886,11 (dois mil, oitocentos e oitenta e seis reais e onze centavos) mensais.\nProcesso Administrativo nº 276/2017\nVIGENCIA: 13/11/2024 a 12/11/2025.",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

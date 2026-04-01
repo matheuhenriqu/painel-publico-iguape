@@ -1,0 +1,158 @@
+﻿{
+    "diaryId":  "893",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:59",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_815_17080203.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_815_17080203.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 630.000,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 215",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "125/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "destina-se exclusivamente a Contratacao para a Locacao de Imovel para atendimento da Estrategia Saude da Familia (ESF) Aeroporto atendendo a demanda da Secretaria de Saude",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 215\n DE 15 DE AGOSTO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso\ndas atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Eder Henrique de Ramos Silva, Coordenador I PSF, titular da Cedula de Identidade – RG nº 30.992.438-8 SSP/SP, inscrito\n no CPF/MF sob o nº 384.443.768-17, para exercer a funcao de gestor d",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "CONTRATO DE LOCACAO DE IMOVEL Nº 125/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MIRIAM VIEIRA NOBREGA",
+                      "cnpj":  "",
+                      "object":  "Contratacao para a locacao de imovel para atendimento da Estrategia Saude da Familia (ESF) Aeroporto atendendo a demanda da Secretaria de Saude pelo periodo de 12 meses",
+                      "value":  "R$ 36.000,00",
+                      "term":  "",
+                      "signatureDate":  "13/08/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATO DE LOCACAO DE IMOVEL Nº 125/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: MIRIAM VIEIRA NOBREGA\nOBJETO: Contratacao para a locacao de imovel para atendimento da Estrategia Saude da Familia (ESF) Aeroporto atendendo a demanda da\nSecretaria de Saude pelo periodo de 12 meses.\nDATA: 13/08/2024\nVALOR: Valor Global – R$ 36.000,00 (trinta e seis mil reais), sendo R$ 3.000,00 (tres mil reais) mensais.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO 008/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "008/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de reforma e ampliacao da Casa da Crianca, localizada na rua k, nº 180, bairro Jardim Primavera, neste Municipio de Iguape/SP. TOMADA DE PRECO Nº 018/2023",
+                      "value":  "",
+                      "term":  "Vigencia e Execucao: 90 (noventa) dias – Periodo de 18/08/2024 a 15/11/2024 inclusive.",
+                      "signatureDate":  "15/08/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO 008/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA\nCONTRATO N°: 008/2024\nOBJETO: Contratacao de empresa especializada para obra de reforma e ampliacao da Casa da Crianca, localizada na rua k, nº 180, bairro Jardim\nPrimavera, neste Municipio de Iguape/SP.\nTOMADA DE PRECO Nº 018/2023\nData: 15/08/2024\nVIGENCIA: Vigencia e Execucao: 90 (noventa) dias – Periodo de 18/08/2024 a 15/11/2024 inclusive.\n\n CADERNO LEGISLATIVO\n\n ASSUNTOS F",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CONCORRENCIA PUBLICA Nº - 01/2024PROCESSO Nº: 028/2024",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "028/2024",
+                      "modality":  "Concorrencia publica n° 01/2024",
+                      "contractor":  "",
+                      "cnpj":  "08.098.069/0001-01",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA PRESTACAO DE SERVICOS TECNICOS DE CONSULTORIA NAS AREAS ORCAMENTARIA, CONTABIL E FINANCEIRA OBJETIVANDO O CUMPRIMENTO DAS EXIGENCIAS LEGAIS, ATRAVES DE INFORMACOES PREVENTIVAS E CONSULTIVAS PARA ATENDIMENTO DAS DEMANDAS DESTA CAMARA MUNICIPAL",
+                      "value":  "R$ 594.000,00",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-camara",
+                      "primaryOrganizationName":  "Camara Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-camara"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Camara Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "CONCORRENCIA PUBLICA Nº - 01/2024PROCESSO Nº: 028/2024\nEDITAL Nº: 02/2024\n\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA PRESTACAO DE SERVICOS TECNICOS DE CONSULTORIA NAS AREAS\nORCAMENTARIA, CONTABIL E FINANCEIRA OBJETIVANDO O CUMPRIMENTO DAS EXIGENCIAS LEGAIS, ATRAVES DE INFORMACOES\nPREVENTIVAS E CONSULTIVAS PARA ATENDIMENTO DAS DEMANDAS DESTA CAMARA MUNICIPAL.\n\nINTERESSADO: LEGISLATIVO\n\nDiante da documentacao juntada aos autos e com fundamento nos artigos 71, IV, §4º e 72, VIII da Lei 14.133/2021, ADJUDICO o ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

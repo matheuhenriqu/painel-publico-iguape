@@ -1,0 +1,129 @@
+﻿{
+    "diaryId":  "1347",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:48",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1162_26052429.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1162_26052429.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  18,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 209.634,06"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "6º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 002/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "002/2024",
+                      "processNumber":  "990/2023",
+                      "modality":  "",
+                      "contractor":  "Gente Seguradora S.A",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA A PRESTACAO DE SERVICOS DE SEGURO DOS DIVERSOS VEICULOS QUE COMPOEM A FROTA DA PREFEITURA MUNICIPAL DE IGUAPE. Processo nº 990/2023",
+                      "value":  "R$ 209.634,06",
+                      "term":  "23/02/2026 a 22/02/2027, inclusive.",
+                      "signatureDate":  "23/02/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "6º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 002/2024.\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: Gente Seguradora S.A.\nCNPJ: 90.xxx.xxx/xxxx-02\nCONTRATO Nº 002/2024\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA A PRESTACAO DE SERVICOS DE SEGURO DOS DIVERSOS VEICULOS QUE\nCOMPOEM A FROTA DA PREFEITURA MUNICIPAL DE IGUAPE.\nProcesso nº 990/2023\nDATA: 23/02/2026.\nVALOR: R$ 209.634,06 (duzentos e nove mil, seiscentos e trinta e quatro reais e seis centavos)\nVIGENCIA: 23/02/2026 a 22/02/2027, inclusive.",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO Nº 001/2026 - MENOR PRECO POR ITEM",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "001/2026",
+                      "modality":  "PREGAO ELETRONICO Nº 001/2026",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "e o REGISTRO DE PRECOS PARA FUTURAS E EVENTUAIS CONTRATACOES DE EMPRESA(S) ESPECIALIZADA(S) PARA FORNECIMENTO DE AGREGADOS MINERAIS DESTINADOS A EXECUCAO E MANUTENCAO DE OBRAS E SERVICOS DE INFRAESTRUTURA URBANA E RURAL NO MUNICIPIO DE IGUAPE/SP, PELO PERIODO DE 12 MESES, com o seguinte RESULTADO: Dando PROVIMENTO ao recurso interposto pela empresa COMERCIO DE PEDRAS ELDORADO LTDA, com a consequente HABILITACAO da empresa no certame nos itens 9 e 17. Fica os autos do Processo com vista franqueada aos interessados. Iguape, 24 de fevereiro de 2026. Daniel Factore Moroni Sella Pregoeiro",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO Nº 001/2026 - MENOR PRECO POR ITEM\n\nA PREFEITURA MUNICIPAL DE IGUAPE, atraves do Pregoeiro, nos usos legais de suas atribuicoes, torna publico para conhecimento dos interessados\no RESULTADO do julgamento do recurso administrativo da licitacao Pregao Eletronico nº 001/2026, cujo objeto e o REGISTRO DE PRECOS PARA\nFUTURAS E EVENTUAIS CONTRATACOES DE EMPRESA(S) ESPECIALIZADA(S) PARA FORNECIMENTO DE AGREGADOS MINERAIS\nDESTINADOS A EXECUCAO E MANUTENCAO DE OBRAS E SERVICOS DE INFRAESTRUTURA URBANA E RU",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "1/2026",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 1/2026 - EDITAL Nº: 2/2026",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA FUTURAS E EVENTUAIS CONTRATACOES DE EMPRESA(S) ESPECIALIZADA(S) PARA FORNECIMENTO DE AGREGADOS MINERAIS DESTINADOS A EXECUCAO E MANUTENCAO DE OBRAS E SERVICOS DE INFRAESTRUTURA URBANA E RURAL NO MUNICIPIO DE IGUAPE/SP, PELO PERIODO DE 12 MESES",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 1/2026\nREGISTRO DE PRECOS PARA FUTURAS E EVENTUAIS CONTRATACOES DE EMPRESA(S) ESPECIALIZADA(S) PARA FORNECIMENTO DE\nAGREGADOS MINERAIS DESTINADOS A EXECUCAO E MANUTENCAO DE OBRAS E SERVICOS DE INFRAESTRUTURA URBANA E RURAL NO\nMUNICIPIO DE IGUAPE/SP, PELO PERIODO DE 12 MESES.\nPR-E - PREGAO ELETRONICO - 1/2026 - EDITAL Nº: 2/2026\nINTERESSADOS: SECRETARIA MUNIC. DE INFRAESTRUTURA URBANA E OBRAS .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

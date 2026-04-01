@@ -1,0 +1,57 @@
+﻿{
+    "diaryId":  "324",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:41",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/0c16f8dddc4b0c6dc0d0982efc9f4c42.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/0c16f8dddc4b0c6dc0d0982efc9f4c42.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "CONTRATADA: CIACAN ENGENHARIA EIRELI",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "056/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de construcao de Centro Multiuso no bairro da Barra do Ribeira, conforme Convenio nº 000104/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o municipio de Iguape/SP TOMADA DE PRECOS Nº 005/2022",
+                      "value":  "R$ 1.459,809,42",
+                      "term":  "365 (trezentos e sesenta e cinco) dias a contar da data da ciencia da A.I.S.",
+                      "signatureDate":  "06/06/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "estadual-turismo",
+                                                       "municipal-prefeitura",
+                                                       "municipal-camara",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Turismo e Viagens",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Camara Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATADA: CIACAN ENGENHARIA EIRELI\nCONTRATO N°: 056/2022\nOBJETO: Contratacao de empresa especializada para obra de construcao de Centro Multiuso no bairro da Barra do Ribeira, conforme\nConvenio nº 000104/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o municipio de Iguape/SP\nTOMADA DE PRECOS Nº 005/2022\nDATA: 06/06/2022\nVALOR: Pagara a contratada o valor de R$ 1.459,809,42 (um milhao e quatrocentos e cinquenta e nove mil e oitocentos e nove reais\ne quarenta e dois cen",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

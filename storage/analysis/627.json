@@ -1,0 +1,125 @@
+﻿{
+    "diaryId":  "627",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:45",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/8cec9b9b325e912a03288dedc1fa447e.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/8cec9b9b325e912a03288dedc1fa447e.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 261",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "156/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa CIACAN ENGENHARIA EIRELI",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 261\n DE 16 AGOSTO DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0\n SSP/SP, inscrito no CPF/MF nº 256.609.068-85, para exercer",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE READEQUACAO SEM ALTERACAO DE CUSTOS, CUJO OBJETO E O REGISTRO DE PRECOS PELO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "058/2022",
+                      "modality":  "Pregao Presencial nº 058/2022",
+                      "contractor":  "APLAUSO ENGENHARIA LTDA EPP",
+                      "cnpj":  "",
+                      "object":  "E O REGISTRO DE PRECOS PELO ATA DE REGISTRO Nº 103/2022 DOS SERVICOS DE MANUTENCAO E MODERNIZACAO DO PARQUE DE ILUMINACAO",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "09/08/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE READEQUACAO SEM ALTERACAO DE CUSTOS, CUJO OBJETO E O REGISTRO DE PRECOS PELO\nATA DE REGISTRO Nº 103/2022 DOS SERVICOS DE MANUTENCAO E MODERNIZACAO DO PARQUE DE ILUMINACAO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO:APLAUSO ENGENHARIA LTDA EPP\nOBJETO: READEQUACAO DO SALDO DOS ITENS\nPERIODO DE 12 (DOZE) MESES, PARA EXECUCAO\nPUBLICA NO MUNICIPIO DE IGUAPE/SP.\nDATA: 09/08/2023\nProcesso Administrativo nº 1.083/2022\nPregao Presencial nº 058/2022",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CONCORRENCIA PUBLICA -SRP",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "004/2023",
+                      "modality":  "CONCORRENCIA PUBLICA n.º 004/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA FORNECIMENTO E INSTALACAO DE UNIDADE SANITARIA INDIVIDUAL-(USI), PARA ATENDER AS RESIDENCIAS QUE NAO SAO ATENDIDAS PELA REDE COLETORA DE ESGOTO NO MUNICIPIO DE IGUAPE/SP, CONFORME TERMO DE AJUSTAMENTO DE CONDUTA (TAC), demais especificacao constante do anexo I – Termo de Referencia. LEGISLACAO: Lei Federal nº 8.666/93 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Lei Complementar 139, de 10 de novembro de 2011, Lei Complementar 147 de 07 de agosto de 2014",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE CUMPRE OS",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "CONCORRENCIA PUBLICA -SRP\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, a CONCORRENCIA PUBLICA n.º 004/2023, do tipo MENOR PRECO GLOBAL, situada na\nAvenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11920-000, nas especificacoes detalhadas no Edital.\nOBJETO: REGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA FORNECIMENTO E INSTALACAO DE\nUNIDADE SANITARIA INDIVIDUAL-(USI), PARA ATENDER AS RESIDENCIAS QUE NAO SAO ATENDIDAS PELA REDE COLETORA DE ESGOTO\nNO MUNICIPIO DE",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

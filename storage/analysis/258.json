@@ -1,0 +1,20 @@
+﻿{
+    "diaryId":  "258",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:57",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/27df3fc7fb0d97611cb33904024d0cb4.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/27df3fc7fb0d97611cb33904024d0cb4.pdf",
+    "keywords":  [
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Items\u0027 porque ele é uma matriz vazia."
+                },
+    "items":  [
+
+              ]
+}

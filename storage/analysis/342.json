@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "342",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:36",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/c42d285348cbe4380f617b9ba83522d1.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/c42d285348cbe4380f617b9ba83522d1.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  22,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  20,
+                      "contractNumber":  "",
+                      "processNumber":  "64/2022",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 40/2022 - EDITAL Nº: 56/2022",
+                      "contractor":  "TATICO EQUIPAMENTOS DE SEGURANCA LTDA-ME",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE EQUIPAMENTOS DE PROTECAO INDIVIDUAL –(EPI) E UNIFORMES PROFISSIONAIS, PELO PERIODO 12 (DOZE) MESES, PARA ATENDER A DEMANDA DA PREFEITURA MUNICIPAL DE IGUAPE/SP",
+                      "value":  "R$ 15.560,00,",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 64/2022\nREGISTRO DE PRECOS PARA AQUISICAO DE EQUIPAMENTOS DE PROTECAO INDIVIDUAL –(EPI) E UNIFORMES\nPROFISSIONAIS, PELO PERIODO 12 (DOZE) MESES, PARA ATENDER A DEMANDA DA PREFEITURA MUNICIPAL DE IGUAPE/SP.\n\nPR-G - PREGAO PRESENCIAL - 40/2022 - EDITAL Nº: 56/2022\nINTERESSADO: DEPARTAMENTO DE ADMINISTRACAO .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a\nclassificacao dos lotes abaixo.\n\nFORNECEDOR: TATICO EQUIPAMENTOS DE SEGUR",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

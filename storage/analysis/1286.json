@@ -1,0 +1,205 @@
+﻿{
+    "diaryId":  "1286",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:01",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1121_17074639.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1121_17074639.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  9,
+                    "itemCount":  5,
+                    "totalValue":  "R$ 70.256,18"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 342,",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "200/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "a Aquisicao de equipamentos/materiais permanentes odontologicos para as unidades basicas de saude",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 342,\n DE 12 DE DEZEMBRO DE 2025\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados EDER HENRIQUE RAMOS DA SILVA, ASSESSOR I, inscrito(a) no CPF/MF nº XXX. 443.768-XX, para exercer a\nArt. 2º - funcao de Gestor do Contrato nº 200/2025, e BRENO",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "Portaria de gestao do contrato 201/2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  4,
+                      "contractNumber":  "201/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-desenvolvimento-sustentavel"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel"
+                                                     ],
+                      "excerpt":  "Art. 1º - 4\nArt. 2º -\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – Nº 1121 Quarta-feira, 17 de Dezembro de 2025 - www.iguape.sp.gov.br\n\n PORTARIA\n\n Ficam designados EDER HENRIQUE RAMOS DA SILVA, ASSESSOR I, inscrito(a) no CPF/MF nº XXX. 443.768-XX, para exercer a\n funcao de Gestor do Contrato nº 201/2025, e BRENO FORTES RIBEIRO, Cirurgiao-dentista, inscrito(a) no CPF/MF nº\n XXX.733.468-XX, para atuar como Fiscal do mesmo instrumento contratual. AMB DISTRIBUIDORA DE MEDICAMENTO E\n PRODUTOS HOSPITALARES LTDA. O objeto de",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "Portaria de gestao do contrato 045/2018",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  5,
+                      "contractNumber":  "045/2018",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "s de renovacao da CNH, os servidores deverao se atentar aos prazos ali concedidos para o fim de nao incorrer em infracao",
+                      "signatureDate":  "de sua publicacao",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "5\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – Nº 1121 Quarta-feira, 17 de Dezembro de 2025 - www.iguape.sp.gov.br\n\nArt. 2º Para conduzir o veiculo oficial e alugado, os servidores autorizados deverao possuir:\nCarteira Nacional de Habilitacao valida, e com categoria compativel com o tipo de veiculo a ser conduzido.\n\nArt. 3º Os servidores autorizados deverao verificar se o veiculo possui condicoes de seguranca para trafegar, sendo de sua responsabilidade qualquer\nonus decorrente de ato culposo ou doloso que venha a com",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 347,",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  6,
+                      "contractNumber":  "204/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "empresas para prestacao dos servicos de poda",
+                      "cnpj":  "",
+                      "object":  "deste instrumento o credenciamento da CREDENCIADA, empresas para prestacao dos servicos de poda com equipe manual (ate 3,5 m, sem munck), poda com caminhao munck (com cesto aereo) e rocada manual com rastelamento e ensacamento de residuos vegetais em estradas vicinais e areas publicas nao abrangidas por contrato de limpeza urbana no Munic ipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-educacao",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Educacao",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 347,\n DE 15 DE DEZEMBRO DE 2025\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Luciano Pereira Viana, Secretario Municipal de Educacao, inscrito(a) no CPF/MF nº XXX.818.418-XX, para\n exercer a funcao de Gestor do Contrato nº 204/2025, e ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO DE PRORROGACAO COM REAJUSTE AO CONTRATO 2023/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  8,
+                      "contractNumber":  "203/2022",
+                      "processNumber":  "064/2022",
+                      "modality":  "PREGAO PRESENCIAL Nº: 064/2022",
+                      "contractor":  "VALDENICIO DOS SANTOS-18622969878-MEI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializda para execucao do Transporte Fluvial da Rede Estadual e Municipal de Ensino da area rural neste municipio de Iguape, para atender a Secretaria de Educacao. PREGAO PRESENCIAL Nº: 064/2022",
+                      "value":  "R$ 70.256,18",
+                      "term":  "Periodo de 14/12/2025 a 13/12/2026.",
+                      "signatureDate":  "12/12/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-cultura",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Cultura",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO DE PRORROGACAO COM REAJUSTE AO CONTRATO 2023/2022\nCONTRATADA: VALDENICIO DOS SANTOS-18622969878-MEI\nCNPJ: 22.xxx.xxx/xxxx-12\nCONTRATO N°: 203/2022\nOBJETO: Contratacao de empresa especializda para execucao do Transporte Fluvial da Rede Estadual e Municipal de Ensino da area rural neste\nmunicipio de Iguape, para atender a Secretaria de Educacao.\nPREGAO PRESENCIAL Nº: 064/2022\nDATA: 12/12/2025\nVALOR: Pagara a contratada o valor global de R$ 70.256,18 (setenta mil, duzentos e cinquenta e seis reais e d",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

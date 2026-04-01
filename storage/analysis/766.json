@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "766",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:19",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/280d2195b2cc73190e4cc341be505976.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/280d2195b2cc73190e4cc341be505976.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 4.342,82"
+                },
+    "items":  [
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "6º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 038/2018",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "046/2018",
+                      "modality":  "",
+                      "contractor":  "EDSON RIBEIRO VIEIRA",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao da “Universidade Virtual de Sao Paulo - ”UNIVESP”",
+                      "value":  "R$ 4.342,82",
+                      "term":  "",
+                      "signatureDate":  "23/02/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n6º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 038/2018\n\nCONTRATANTE: MUNICIPIO DE IGUAPE C\n\nCONTRATADO: EDSON RIBEIRO VIEIRA\n\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao da “Universidade Virtual de Sao\n\nPaulo - ”UNIVESP”.\n\nDATA: 23/02/2024\n\nVALOR: R$ 4.342,82 (quatro mil, trezentos e quarenta e dois reais e oitenta e dois centavos) mensais.\n\nProcesso Administrativo nº 046/2018",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

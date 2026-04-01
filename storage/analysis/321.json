@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "321",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:41",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/ae90a5da099b0fc36f4c7d6b1fc0213f.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/ae90a5da099b0fc36f4c7d6b1fc0213f.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE LICITACAO - LEILAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  5,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "AVISO DE LICITACAO - LEILAO",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA PARA EXPLORACAO DE ESPACO PUBLICO PARA INSTALACAO DE UM PARQUE DE DIVERSOES E GERENCIAMENTO E GESTAO DE ESTACIONAMENTO , POR OCASIAO DA REALIZACAO DA FESTA DE BOM JESUS, NO MUNICIPIO DE IGUAPE",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-camara",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Camara Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "AVISO DE LICITACAO\n LEILAO\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira,\nIguape/SP, CEP 11.920-000, o LEILAO nº 001/2022, do tipo MAIOR LANCE POR LOTE, conforme especificacoes detalhadas no Edital.\n\nOBJETO: CONTRATACAO DE EMPRESA PARA EXPLORACAO DE ESPACO PUBLICO PARA INSTALACAO DE UM PARQUE DE\nDIVERSOES E GERENCIAMENTO E GESTAO DE ESTACIONAMENTO , POR OCASIAO DA REALIZACAO DA FESTA DE BOM\nJESUS, NO MUNICIPIO DE IGUAPE.",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero principal identificado"
+                                ]
+                  }
+              ]
+}

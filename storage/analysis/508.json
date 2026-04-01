@@ -1,0 +1,57 @@
+﻿{
+    "diaryId":  "508",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:10",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/5b06975fd6af68a777d5e62c6a6a4bbb.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/5b06975fd6af68a777d5e62c6a6a4bbb.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE ABERTURA DE EDITAL DE CHAMADA PUBLICA",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "001/2023",
+                      "modality":  "CHAMADA PUBLICA nº. 001/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Generos Alimenticios diretamente da Agricultura Familiar e do Empreendedor Familiar Rural conforme Conforme §1º do art.14 da Lei nº 11.947/2009 e Resolucoes do FNDE relativas ao PNAE e a Lei n.º 8.666/93 e o dispositivo que a regulamente, em todos os seus termos",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "PARA A ENTREGA DO (S) DOCUMENTO (S) DE HABILITACAO E PROJETO DE VENDA ATE: 31 DE MARCO DE 2023, NO",
+                      "legalBasis":  "Lei n.º 8.666/93 e o dispositivo que a regulamente,",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "federal-fnde"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Fundo Nacional de Desenvolvimento da Educacao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n AVISO DE ABERTURA DE EDITAL DE CHAMADA PUBLICA\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira,\nIguape/SP, CEP 11.920-000, a CHAMADA PUBLICA nº. 001/2023, conforme especificacoes detalhadas no Edital.\n\nOBJETO: Aquisicao de Generos Alimenticios diretamente da Agricultura Familiar e do Empreendedor Familiar Rural conforme Conforme\n§1º do art.14 da Lei nº 11.947/2009 e Resolucoes do FNDE relativas ao PNAE e a Lei n.º 8.666/93 e o",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

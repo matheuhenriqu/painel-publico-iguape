@@ -1,0 +1,53 @@
+﻿{
+    "diaryId":  "358",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:33",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/2807c1e8a3cd3db93976dffc9aea67ec.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/2807c1e8a3cd3db93976dffc9aea67ec.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  17,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,71"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 081/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  17,
+                      "contractNumber":  "081/2021",
+                      "processNumber":  "036/2021",
+                      "modality":  "Pregao Presencial n°. 036/2021",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Fica CANCELADO o presente item 006 – ampola – Dipirona Sodica – 500 mg?ml 2ml – marca Teuto – qtde 6.700",
+                      "value":  "R$ 0,7100",
+                      "term":  "",
+                      "signatureDate":  "27/07/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 081/2021\nOBJETO: Fica CANCELADO o presente item 006 – ampola – Dipirona Sodica – 500 mg?ml 2ml – marca Teuto – qtde 6.700,\nValor Unitario – R$ 0,7100 setenta e um centavos)\nValor Total – R$ 4.757,00 (quatro mil, setecentos e cinquenta e sete reais)\nPregao Presencial n°. 036/2021\nDATA: 27/07/2022",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  }
+              ]
+}

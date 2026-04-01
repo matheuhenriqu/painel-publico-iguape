@@ -1,0 +1,129 @@
+﻿{
+    "diaryId":  "965",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:52",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_874_23122146.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_874_23122146.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 149.010,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE CANCELAMENTO DE ITEM -175",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "DOVALLE HOSPITALAR LTDA",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE CANCELAMENTO DE ITEM -175\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: DOVALLE HOSPITALAR LTDA",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:042/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "2/2024",
+                      "processNumber":  "084/2023",
+                      "modality":  "Pregao Presencial n°. 084/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de precos para aquisicao de medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo de 12 (doze) meses. Cancelamento do Item – 175 – Petidina - 50 mg 2Ml – solucao injetavel. Amp. Pregao Presencial n°. 084/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "20/11/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:042/2024\nOBJETO: Registro de precos para aquisicao de medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo de\n12 (doze) meses.\nCancelamento do Item – 175 – Petidina - 50 mg 2Ml – solucao injetavel. Amp.\nPregao Presencial n°. 084/2023\nData: 20/11/2024",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "8º TERMO ADITIVO DE READEQUACAO AO CONTRATO DE 046/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "029/2022",
+                      "modality":  "Pregao Presencial nº 029/2022",
+                      "contractor":  "INTERVALE TRANSPORTE TURISMO EIRELI-EPP",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada na prestacao de servicos de transporte diario de pacientes atendidos pelo sus na rede basica de saude do municipio de Iguape pelo periodo de 12 (doze) meses",
+                      "value":  "R$ 149.010,00",
+                      "term":  "",
+                      "signatureDate":  "20/11/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "8º TERMO ADITIVO DE READEQUACAO AO CONTRATO DE 046/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: INTERVALE TRANSPORTE TURISMO EIRELI-EPP\nOBJETO: Contratacao de empresa especializada na prestacao de servicos de transporte diario de pacientes atendidos pelo sus na rede basica de saude\ndo municipio de Iguape pelo periodo de 12 (doze) meses.\nDATA: 20/11/2024\nPregao Presencial nº 029/2022\nVALOR: Valor global do presente termo R$ 149.010,00 (cento e quarenta e nove mil e dez reais), referente aos itens:\nItem 4-destin",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

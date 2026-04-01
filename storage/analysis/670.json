@@ -1,0 +1,91 @@
+﻿{
+    "diaryId":  "670",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:38",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/4725fbfe27c4b8e1df995c4cadb9cf29.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/4725fbfe27c4b8e1df995c4cadb9cf29.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 50.000,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 111/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "111/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "TRANSPELICANO TRANSPORTES E TURISMO EIRELI – EPP",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 111/2023 – ORIUNDO DA ATA DE REGISTRO DE PRECOS – 085/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: TRANSPELICANO TRANSPORTES E TURISMO EIRELI – EPP",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 085/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "085/2022",
+                      "processNumber":  "044/2022",
+                      "modality":  "PREGAO PRESENCIAL N°. 044/2022",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA LOCACAO DE ONIBUS, MICRO-ONIBUS E VANS PARA ATENDER AS DEMANDAS DO GABINETE DESTA MUNICIPALIDADE. PREGAO PRESENCIAL N°. 044/2022",
+                      "value":  "R$ 50.000,00",
+                      "term":  "30 (trinta) dias – 12/10/2023 a 11/11/2023.",
+                      "signatureDate":  "11/10/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 085/2022\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA LOCACAO DE ONIBUS, MICRO-ONIBUS E VANS PARA ATENDER AS\nDEMANDAS DO GABINETE DESTA MUNICIPALIDADE.\nPREGAO PRESENCIAL N°. 044/2022.\nDATA: 11/10/2023\nVIGENCIA: 30 (trinta) dias – 12/10/2023 a 11/11/2023.\n\n FINANCEIRO\n FINANCEIRO\n\n DECRETO\n\n DECRETO Nº 3.094,\n DE 02 DE OUTUBRO DE 2023\n\n DISPOE SOBRE A ABERTURA DE CREDITO ADICIONAL SUPLEMENTAR, E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito de Iguape em exercici",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  }
+              ]
+}

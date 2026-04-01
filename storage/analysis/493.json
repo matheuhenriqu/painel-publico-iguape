@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "493",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:12",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/a173691a8605c4590224d18256cbc8d2.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/a173691a8605c4590224d18256cbc8d2.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 110.592,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "CONTRATADA: L\u0026M SOLUCOES EM TECNOLOGIA DA INFORMACAO-EIRELI",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "031/2023",
+                      "processNumber":  "006/2022",
+                      "modality":  "PREGAO PRESENCIAL Nº: 006/2022",
+                      "contractor":  "L\u0026M SOLUCOES EM TECNOLOGIA DA INFORMACAO-EIRELI",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para contratacao de empresa especializada para disponibilizacao de equipamentos de informatica em regime de locacao mediante prestacao de servicos de manutencao e de seguranca, destinados aos departamentos da Prefeitura Municipal de Iguape, bem como aos convenios firmados com a municipalidade, pelo periodo de 03 (tres) meses. PREGAO PRESENCIAL Nº: 006/2022",
+                      "value":  "R$ 110.592,00",
+                      "term":  "",
+                      "signatureDate":  "08/02/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-camara",
+                      "primaryOrganizationName":  "Camara Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-camara"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Camara Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATADA: L\u0026M SOLUCOES EM TECNOLOGIA DA INFORMACAO-EIRELI\nCONTRATO N°: 031/2023– Oriundo da Ata de Registro de Precos nº 030/2022\nOBJETO: Registro de Precos para contratacao de empresa especializada para disponibilizacao de equipamentos de\ninformatica em regime de locacao mediante prestacao de servicos de manutencao e de seguranca, destinados aos\ndepartamentos da Prefeitura Municipal de Iguape, bem como aos convenios firmados com a municipalidade, pelo periodo\nde 03 (tres) meses.\nPREGAO PRESENCIAL Nº: 00",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

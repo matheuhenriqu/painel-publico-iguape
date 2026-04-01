@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "400",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:28",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/a1f86f433b12430a3ccb5700456022f0.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/a1f86f433b12430a3ccb5700456022f0.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE LICITACAO - PREGAO PRESENCIAL",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "AVISO DE LICITACAO - PREGAO PRESENCIAL",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Materiais Permanentes (mobiliarios e equipamentos) em atendimento a Secretaria Municipal de Assistencia e Desenvolvimento Social, proveniente da Emenda Parlamentar nº 202037170008. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 dejulho de 2002,Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-assistencia-social",
+                      "primaryOrganizationName":  "Secretaria de Assistencia e Desenvolvimento Social",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "assistencia-social",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras",
+                                                       "municipal-assistencia-social"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras",
+                                                         "Secretaria de Assistencia e Desenvolvimento Social"
+                                                     ],
+                      "excerpt":  "AVISO DE LICITACAO\n PREGAO PRESENCIAL\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros,n.º 1.070, Bairro Porto do Ribeira,\nIguape/SP, CEP 11.920-000,o PREGAO PRESENCIALnº054/2022, do tipo MENOR PRECO POR ITEM conforme especificacoes\ndetalhadas no Edital. OBJETO: Aquisicao de Materiais Permanentes (mobiliarios e equipamentos) em atendimento a\nSecretaria Municipal de Assistencia e Desenvolvimento Social, proveniente da Emenda Parlamentar nº 202037170008.\nLEGISLACAO: Lei Fede",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero principal identificado"
+                                ]
+                  }
+              ]
+}

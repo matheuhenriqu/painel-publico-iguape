@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "315",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:42",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/88bca628821dc94ed36b5d30e7b342ba.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/88bca628821dc94ed36b5d30e7b342ba.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO AO CONTRATO Nº 11/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "11/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SAMUEL RIBEIRO - ME",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para fornecimento de mao de obra necessaria para reforma do predio da Policia Militar - 14º BPM/I - 3ª CIA/PM - Acordo de Cooperacao Tecnica nº 01/2021, celebrado entre o 14º Batalhao da Policia Militar do Estado de Sao Paulo e municipio de Iguape. CARTA CONVITE Nº 001/2022",
+                      "value":  "",
+                      "term":  "periodo de vigencia e execucao e de 60 (sessenta) dias, periodo de 21/05/2022 a 20/07/2022",
+                      "signatureDate":  "20/05/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO AO CONTRATO Nº 11/2022\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\n\nCONTRATADA: SAMUEL RIBEIRO - ME\n\nOBJETO: Contratacao de empresa especializada para fornecimento de mao de obra necessaria para reforma do predio\n\nda Policia Militar - 14º BPM/I - 3ª CIA/PM - Acordo de Cooperacao Tecnica nº 01/2021, celebrado entre o 14º Batalhao\n\nda Policia Militar do Estado de Sao Paulo e municipio de Iguape.\n\nCARTA CONVITE Nº 001/2022\n\nDATA:20/05/2022\n\nVIGENCIA: periodo de vigencia e execucao e de 60 (sessenta) dias, perio",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

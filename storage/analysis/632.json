@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "632",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:45",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/c9ce3b2e7406c9fe074e7e0d95b20835.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/c9ce3b2e7406c9fe074e7e0d95b20835.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 25.200,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:116//2023.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "033/2023",
+                      "modality":  "Pregao Presencial n°. 033/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para contratacao de empresa especializada para fornecimento de oxigenio medicinal, com cessao em comodato de cilindros pelo periodo de 12 (doze) meses. Pregao Presencial n°. 033/2023",
+                      "value":  "R$ 25.200,00",
+                      "term":  "- 21/08/2023 a 20/08/2024 - 12 (doze) meses.",
+                      "signatureDate":  "21/08/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:116//2023.\nOBJETO: Registro de Precos para contratacao de empresa especializada para fornecimento de oxigenio medicinal, com cessao em comodato de\ncilindros pelo periodo de 12 (doze) meses.\nPregao Presencial n°. 033/2023\nDATA: 21/08/2023\nVIGENCIA:- 21/08/2023 a 20/08/2024 - 12 (doze) meses.\nVALOR: R$ 25.200,00 (vinte e cinco mil e duzentos reais).",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem contratada identificada"
+                                ]
+                  }
+              ]
+}

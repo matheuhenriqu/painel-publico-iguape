@@ -1,0 +1,19 @@
+﻿{
+    "diaryId":  "276",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:52",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/50a1156683d8b9159e93ac2285611d34.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/50a1156683d8b9159e93ac2285611d34.pdf",
+    "keywords":  [
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Items\u0027 porque ele é uma matriz vazia."
+                },
+    "items":  [
+
+              ]
+}

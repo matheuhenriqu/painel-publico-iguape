@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "901",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:58",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_823-_29073729.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_823-_29073729.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "LICITACAO FRACASSADA",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "418/2024",
+                      "modality":  "LICITACAO FRACASSADA",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA SERVICOS DE FINALIZACAO E REPAROS NA OBRA DE REQUALIFICACAO DA ORLA DO VALO GRANDE - FASE III, CONFORME TERMO DE CONVENIO Nº167/2018, QUE ENTRE SI CELEBRAM O ESTADO DE SAO PAULO, PELA SECRETARIADE TURISMO, E O MUNICIPIO DE IGUAPE",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n LICITACAO FRACASSADA\n PROCESSO Nº: 418/2024\n\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA SERVICOS DE FINALIZACAO E REPAROS NA OBRA DE REQUALIFICACAO DA ORLA\nDO VALO GRANDE - FASE III, CONFORME TERMO DE CONVENIO Nº167/2018, QUE ENTRE SI CELEBRAM O ESTADO DE SAO PAULO, PELA\nSECRETARIADE TURISMO, E O MUNICIPIO DE IGUAPE.\n\nCP-E – CONCORRENCIA PUBLICA ELETRONICA - 005/2024 - EDITAL Nº: 016/2024INTERESSADOS: SECRETARIA MUNICIPAL DE\nINFRAESTRUTURA URBANA E OBRAS\nNos termos da Legislacao em vigor, o procedimento li",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,58 @@
+﻿{
+    "diaryId":  "1192",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:18",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1048_29070558.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1048_29070558.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "553/2025",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 14/2025 - EDITAL Nº: 19/2025",
+                      "contractor":  "OMEGA SOLUCOES INTEGRADAS LTDA",
+                      "cnpj":  "12.043.445/0001-38",
+                      "object":  "Registro de precos para futura e eventual contratacao de empresa especializada no fornecimento de gelo em cubos, a fim de atender as demandas de acoes e eventos da Secretaria Municipal de Cultura, Esporte e Turismo pelo periodo de 12 (doze) meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-cultura",
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Cultura",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 553/2025\nRegistro de precos para futura e eventual contratacao de empresa especializada no fornecimento de gelo em cubos, a fim de atender as demandas de\nacoes e eventos da Secretaria Municipal de Cultura, Esporte e Turismo pelo periodo de 12 (doze) meses.\nPR-E - PREGAO ELETRONICO - 14/2025 - EDITAL Nº: 19/2025\nINTERESSADOS: SECRETARIA MUNIC. DE CULTURA, ESPORTES E TURISMO .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a cla",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

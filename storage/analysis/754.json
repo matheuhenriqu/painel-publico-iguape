@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "754",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:22",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/21155843b5036ed39f0a8457534b1de3.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/21155843b5036ed39f0a8457534b1de3.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  24,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 4.183.800,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:025/2024.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "5/2024",
+                      "processNumber":  "072/2023",
+                      "modality":  "de Pregao, por meio presencial, atraves de Sistema de",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos pelo periodo de 12 (doze) meses para aquisicoes futuras de materiais de acabamento, pintura, eletrica, hidraulica e alvenaria, para manutencao dos predios da Prefeitura Municipal de Iguape/SP, na modalidade de Pregao, por meio presencial, atraves de Sistema de Registro de Precos (srp). Pregao Presencial n°. 072/2023",
+                      "value":  "R$ 4.183.800,00",
+                      "term":  "Validade do presente Registro de Precos (05/02/2024 a 04/02/2025)",
+                      "signatureDate":  "05/02/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-assistencia-social"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Assistencia e Desenvolvimento Social"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:025/2024.\nOBJETO: Registro de Precos pelo periodo de 12 (doze) meses para aquisicoes futuras de materiais de acabamento, pintura, eletrica, hidraulica e\nalvenaria, para manutencao dos predios da Prefeitura Municipal de Iguape/SP, na modalidade de Pregao, por meio presencial, atraves de Sistema de\nRegistro de Precos (srp).\nPregao Presencial n°. 072/2023\nData: 05/02/2024\nVIGENCIA: Validade do presente Registro de Precos (05/02/2024 a 04/02/2025)\nVALOR: Valor Global da Ata de Registro de P",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  }
+              ]
+}

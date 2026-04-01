@@ -1,0 +1,160 @@
+﻿{
+    "diaryId":  "853",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:05",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_785_02073325.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_785_02073325.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  9,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 109.117,95"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE ACRESCIMO E SUPRESSAO AO CONTRATO 027/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  6,
+                      "contractNumber":  "027/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SAMUEL RIBEIRO EPP",
+                      "cnpj":  "62568487538713",
+                      "object":  "Contratacao de empresa especializada para obra de construcao de banheiro publico na praca da basilica, localizada no Centro Historico de Iguape. Tomada de Preco n°. 017/2023",
+                      "value":  "R$ 72.915,87",
+                      "term":  "",
+                      "signatureDate":  "28/06/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE ACRESCIMO E SUPRESSAO AO CONTRATO 027/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SAMUEL RIBEIRO EPP\nCONTRATO N°: 027/2024\nOBJETO: Contratacao de empresa especializada para obra de construcao de banheiro publico na praca da basilica, localizada no Centro Historico de\nIguape.\nTomada de Preco n°. 017/2023.\nVALOR: Termo aditivo corresponde a R$ 59.422,95 (cinquenta e nove mil, quatrocentos e vinte e dois reais e noventa e cinco centavos), correspondente\nao percentual de 20,371575965887% ao va",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "1° TERMO DE PRORROGACAO AO CONTRATO Nº 082/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  6,
+                      "contractNumber":  "082/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COMPANHIA DE PROCESSAMENTO DE DADOS DO ESTADO DE SAO PAULO - PRODESP",
+                      "cnpj":  "62.577.929/0001-35",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n1° TERMO DE PRORROGACAO AO CONTRATO Nº 082/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COMPANHIA DE PROCESSAMENTO DE DADOS DO ESTADO DE SAO PAULO - PRODESP\nCNPJ: 62.577.929/0001-35",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Dispensa",
+                      "actTitle":  "DISPENSA DE LICITACAO: 31/2023 – art. 57, inciso II da Lei Federal n° 8.666/93",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  6,
+                      "contractNumber":  "",
+                      "processNumber":  "549/2023",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Contratacao da Companhia de Processamento de Dados (PRODESP), para prestacao de servico de informatica, abrangendo consultoria, desenvolvimento e manutencao de sistemas, processamento de dados, tratamento de informacoes, microfilmagem, treinamento e outros servicos compativeis com a sua finalidade",
+                      "value":  "R$ 36.202,08",
+                      "term":  "20/06/2024 ate 19/06/2025",
+                      "signatureDate":  "19/06/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "DISPENSA DE LICITACAO: 31/2023 – art. 57, inciso II da Lei Federal n° 8.666/93\nPROCESSO ADMINISTRATIVO Nº: 549/2023\nOBJETO: Contratacao da Companhia de Processamento de Dados (PRODESP), para prestacao de servico de informatica, abrangendo consultoria,\ndesenvolvimento e manutencao de sistemas, processamento de dados, tratamento de informacoes, microfilmagem, treinamento e outros servicos\ncompativeis com a sua finalidade.\nDATA: 19/06/2024\nVIGENCIA: 20/06/2024 ate 19/06/2025\nVALOR: R$ 36.202,08 (trinta e seis mil, duz",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  6,
+                      "contractNumber":  "",
+                      "processNumber":  "282/2024",
+                      "modality":  "",
+                      "contractor":  "ENGETEC ENGENHARI EIRELI",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA PAVIMENTACAO ASFALTICA DE TRECHOS DA ESTRADA DO JAIRE, CONFORME CONTRATO REPASSE Nº955401/2023/MIDR/CAIXA, QUE ENTRE SI CELEBRAM A UNIAO FEDERAL, POR INTERMEDIO DO MINISTERIO DA INTEGRACAO E DO DESENVOLVIMENTO REGIONAL, REPRESENTADO(A) PELA CAIXA ECONOMICA FEDERAL E O MUNICIPIO DE IGUAPE",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 282/2024\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA PAVIMENTACAO ASFALTICA DE TRECHOS DA ESTRADA DO JAIRE, CONFORME\nCONTRATO REPASSE Nº955401/2023/MIDR/CAIXA, QUE ENTRE SI CELEBRAM A UNIAO FEDERAL, POR INTERMEDIO DO MINISTERIO DA\nINTEGRACAO E DO DESENVOLVIMENTO REGIONAL, REPRESENTADO(A) PELA CAIXA ECONOMICA FEDERAL E O MUNICIPIO DE IGUAPE .\nCP-E – CONCORRENCIA PUBLICA ELETRONICA/ OBRAS - 01/2024 - EDITAL Nº: 04/2024\nINTERESSADOS: SECRETARIA MUNIC. DE INFRAESTRUTURA U",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "1257",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:06",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1101-_13073404.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1101-_13073404.pdf",
+    "keywords":  [
+                     "contrato",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO Nº 023/2025- MENOR PRECO POR ITEM",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "023/2025",
+                      "modality":  "PREGAO ELETRONICO Nº 023/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "marcada para o dia 14/11/2025 as 09h00m na plataforma BLL",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "estadual-governo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Governo e Relacoes Institucionais"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO Nº 023/2025- MENOR PRECO POR ITEM\n\nA PREFEITURA MUNICIPAL DE IGUAPE, atraves do Pregoeiro, nos usos legais de suas atribuicoes, torna publico para conhecimento dos interessados\no RESULTADO do julgamento do recurso administrativo da licitacao Pregao Eletronico nº 023/2025, cujo objeto e a Aquisicao de 01 (um) veiculo 0km,\ntipo VAN MINIBUS, via emenda parlamentar estadual nº 2024.016.59140, por meio da SECRETARIA DE GOVERNO E RELACOES\nINSTITUCIONAIS DO ESTADO DE SAO PAULO, em atendimento ao Departam",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

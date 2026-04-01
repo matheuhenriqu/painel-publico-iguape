@@ -1,0 +1,93 @@
+﻿{
+    "diaryId":  "1116",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:29",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_998_11073734.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_998_11073734.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 127,88"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 133,",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "067/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "DOUGLAS SILVA CAMARGO MEI",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-assistencia-social",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Assistencia e Desenvolvimento Social",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 133,\n DE 10 DE JUNHO DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Ricardo de Oliveira Ragni de Castro Leite, Secretario Municipal de Infraestrutura Urbana e Obras, inscrito no CPF/MF nº.\n 293.199.448-06, para exercer a funcao de gestor do Contra",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "428/2025",
+                      "modality":  "EDITAL CHAMADA PUBLICA Nº: 004/2025",
+                      "contractor":  "ACESSOMED GESTAO E SERVICOS LTDA",
+                      "cnpj":  "",
+                      "object":  "EDITAL CHAMADA PUBLICA Nº: 004/2025 Credenciamento para a Contratacao empresa de medicos plantonistas, Medicos para Saude da Familia, medicos especialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTA OCUPACIONAL, FONOALDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de saude de Iguape, bem como todos os locais de atendimento que a compoe. Pelo periodo de 12 meses",
+                      "value":  "R$ 127,88",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 428/2025\nEDITAL CHAMADA PUBLICA Nº: 004/2025\nCredenciamento para a Contratacao empresa de medicos plantonistas, Medicos para Saude da Familia, medicos especialistas (G.O,\nORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTA OCUPACIONAL, FONOALDIOLOGO E\nNEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de saude de Iguape, bem como todos os locais de atendimento que\na compoe. Pelo periodo de 12 meses.\nINTERESSADOS: SECRETARIA M",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

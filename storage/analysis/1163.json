@@ -1,0 +1,159 @@
+﻿{
+    "diaryId":  "1163",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:21",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1028_29082900.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1028_29082900.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 109.814,88"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 165, DE 28 DE JULHO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "118/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "EMPRESA TR2 COMERCIO E SERVICOS DE PAPELARIA EIRELI",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 165, DE 28 DE JULHO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Celio Paulo de Lima Junior, Secretario Adjunto de Administracao Geral, inscrito no CPF/MF nº 192.921.628-96, para exercer\n a funcao de gestor do Contrato 118/2025, EMPRESA TR2 COMERC",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 120/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "120/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "I B FERREIRA SERVICOS LTDA-EPP",
+                      "cnpj":  "",
+                      "object":  "Credenciamento, de empresas para a Prestacao de Servicos de limpeza urbana durante a festa do Senhor Bom Jesus de Iguape, envolvendo varredura manual, coleta de residuos e servicos gerais, no municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: I B FERREIRA SERVICOS LTDA-EPP\nCONTRATO Nº: 120/2025\nOBJETO: Credenciamento, de empresas para a Prestacao de Servicos de limpeza urbana durante a festa do Senhor Bom Jesus de Iguape, envolvendo\nvarredura manual, coleta de residuos e servicos gerais, no municipio de Iguape/SP",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "CHAMADA PUBLICA n°: - 010/2025 vinculada a INEXIGIBILIDADE Nº 093/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "010/2025",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 109.814,88",
+                      "term":  "E PRAZO DE EXECUCAO: Os servicos deverao ser integralmente executados no prazo maximo de 60 (sessenta) dias corridos contados a",
+                      "signatureDate":  "27/07/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "CHAMADA PUBLICA n°: - 010/2025 vinculada a INEXIGIBILIDADE Nº 093/2025\nData: 27/07/2025\nVIGENCIA E PRAZO DE EXECUCAO: Os servicos deverao ser integralmente executados no prazo maximo de 60 (sessenta) dias corridos contados a\npartir da emissao da respectiva Ordem de Servico – (periodo de 27/07/2025 a 24/09/2025).\nVALOR: R$ 109.814,88 (cento e nove mil, oitocentos e catorze reais e oitenta e oito centavos).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 121/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "121/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "JOMMAR COMERCIO E SERVICOS LTDA-ME",
+                      "cnpj":  "",
+                      "object":  "Credenciamento, de empresas para a Prestacao de Servicos de limpeza urbana durante a festa do Senhor Bom Jesus de Iguape, envolvendo varredura manual, coleta de residuos e servicos gerais, no municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: JOMMAR COMERCIO E SERVICOS LTDA-ME\nCONTRATO Nº: 121/2025\nOBJETO: Credenciamento, de empresas para a Prestacao de Servicos de limpeza urbana durante a festa do Senhor Bom Jesus de Iguape,\nenvolvendo varredura manual, coleta de residuos e servicos gerais, no municipio de Iguape/SP",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

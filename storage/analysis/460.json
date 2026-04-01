@@ -1,0 +1,155 @@
+﻿{
+    "diaryId":  "460",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:17",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/b37972a0d483f79ce6deab0a381a96b8.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/b37972a0d483f79ce6deab0a381a96b8.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO CONTRATO 163/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "163/2022",
+                      "processNumber":  "055/2022",
+                      "modality":  "PREGAO PRESENCIAL Nº 055/2022",
+                      "contractor":  "C E C –IMPORTACAO E COMERCIO DE PRODUTOS MEDICOS LTDA-EPP",
+                      "cnpj":  "",
+                      "object":  "contratacao de empresa especializada para aquisicao de Materiais de Equipamentos de Fisioterapia para atender a Secretaria Municipal de Saude. PREGAO PRESENCIAL Nº 055/2022",
+                      "value":  "",
+                      "term":  "Vigencia contratual por mais 25 (vinte e cinco) dias, contados de seu vencimento –Periodo de 01/01/2023 a 03/02/2023.",
+                      "signatureDate":  "28/12/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO CONTRATO 163/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: C E C –IMPORTACAO E COMERCIO DE PRODUTOS MEDICOS LTDA-EPP\nCONTRATO N°: 163/2022\nOBJETO: contratacao de empresa especializada para aquisicao de Materiais de Equipamentos de Fisioterapia para atender a Secretaria\nMunicipal de Saude.\nPREGAO PRESENCIAL Nº 055/2022\nDATA:28/12/2022\nVIGENCIA: Vigencia contratual por mais 25 (vinte e cinco) dias, contados de seu vencimento –Periodo de 01/01/2023 a 03/02/2023.",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO CONTRATO 165/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "165/2022",
+                      "processNumber":  "055/2022",
+                      "modality":  "PREGAO PRESENCIAL Nº 055/2022",
+                      "contractor":  "FAC LICITA EIRELI-ME",
+                      "cnpj":  "",
+                      "object":  "contratacao de empresa especializada para aquisicao de Materiais de Equipamentos de Fisioterapia para atender a Secretaria Municipal de Saude. PREGAO PRESENCIAL Nº 055/2022",
+                      "value":  "",
+                      "term":  "Vigencia contratual por mais 21 (vinte e um) dias, contados de seu vencimento –Periodo de 01/01/2023 a 22/01/2023.",
+                      "signatureDate":  "28/12/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO CONTRATO 165/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: FAC LICITA EIRELI-ME\nCONTRATO N°: 165/2022\nOBJETO: contratacao de empresa especializada para aquisicao de Materiais de Equipamentos de Fisioterapia para atender a Secretaria\nMunicipal de Saude.\nPREGAO PRESENCIAL Nº 055/2022\nDATA:28/12/2022\nVIGENCIA: Vigencia contratual por mais 21 (vinte e um) dias, contados de seu vencimento –Periodo de 01/01/2023 a 22/01/2023.",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO CONTRATO 166/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "166/2022",
+                      "processNumber":  "055/2022",
+                      "modality":  "PREGAO PRESENCIAL Nº 055/2022",
+                      "contractor":  "VALLEMED COMERCIAL EIRELLI - EPP",
+                      "cnpj":  "",
+                      "object":  "contratacao de empresa especializada para aquisicao de Materiais de Equipamentos de Fisioterapia para atender a Secretaria Municipal de Saude. PREGAO PRESENCIAL Nº 055/2022",
+                      "value":  "",
+                      "term":  "Vigencia contratual por mais 70 (setenta) dias, contados de seu vencimento –Periodo de 01/01/2023 a 12/03/2023.",
+                      "signatureDate":  "29/12/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO CONTRATO 166/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: VALLEMED COMERCIAL EIRELLI - EPP\nCONTRATO N°: 166/2022\nOBJETO: contratacao de empresa especializada para aquisicao de Materiais de Equipamentos de Fisioterapia para atender a Secretaria\nMunicipal de Saude.\nPREGAO PRESENCIAL Nº 055/2022\nDATA: 29/12/2022\nVIGENCIA: Vigencia contratual por mais 70 (setenta) dias, contados de seu vencimento –Periodo de 01/01/2023 a 12/03/2023.",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "054/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA - ME",
+                      "cnpj":  "",
+                      "object":  "contratacao de empresa especializada para obra de reforma do predio municipal localizado na Rua da Saudade s/n, bairro Canto do Morro, neste municipio de Iguape/SP TOMADA DE PRECOS Nº 10/2022",
+                      "value":  "",
+                      "term":  "periodo de vigencia e execucao e de 60 (sessenta) dias de 29/12/2022 a 27/02/2023",
+                      "signatureDate":  "26/12/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SUL VALE CONSTRUTORA LTDA - ME\nCONTRATO N°: 054/2022\nOBJETO: contratacao de empresa especializada para obra de reforma do predio municipal localizado na Rua da Saudade s/n, bairro\nCanto do Morro, neste municipio de Iguape/SP\nTOMADA DE PRECOS Nº 10/2022\nDATA: 26/12/2022\nVIGENCIA: periodo de vigencia e execucao e de 60 (sessenta) dias de 29/12/2022 a 27/02/2023",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

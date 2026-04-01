@@ -1,0 +1,128 @@
+﻿{
+    "diaryId":  "628",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:45",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/028de9a7077b12ff0a6f7c9fe7f964ba.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/028de9a7077b12ff0a6f7c9fe7f964ba.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 3.393.763,03"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:115//2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA EVENTUAL LOCACAO DE MAO DE OBRA COM A FINALIDADE DE EXECUCAO E MANUTENCAO DA INFRAESTRUTURA DE EVENTOS, NESTE MUNICIPIO Pregao Presencial n°. 0462023",
+                      "value":  "R$ 2.527.000,00",
+                      "term":  "17/08/2023 a 16/08/2024 - 12 (doze) meses.",
+                      "signatureDate":  "17/08/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:115//2023\nOBJETO: REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA\nEVENTUAL LOCACAO DE MAO DE OBRA COM A FINALIDADE DE EXECUCAO E MANUTENCAO DA INFRAESTRUTURA DE EVENTOS,\nNESTE MUNICIPIO\nPregao Presencial n°. 0462023\nDATA: 17/08/2023\nVIGENCIA: 17/08/2023 a 16/08/2024 - 12 (doze) meses.\nVALOR: R$ 2.527.000,00 (dois milhoes, quinhentos e vinte e sete mil reais)",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 156/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "156/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E MANUTENCAO DA ESCOLA MUNICIPAL BENEDITO ROSA CARNEITO FASE II, NESTE MUNICIPIO DE IGUAPE/SP TOMADA DE PRECO Nº 010/2023",
+                      "value":  "R$ 866.763,03",
+                      "term":  "12 (doze) meses, contados da data indicada na Autorizacao de Inicio dos Servicos.",
+                      "signatureDate":  "17/08/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CIACAN ENGENHARIA EIRELI\nCONTRATO N°: 156/2023\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E MANUTENCAO DA ESCOLA MUNICIPAL BENEDITO\nROSA CARNEITO FASE II, NESTE MUNICIPIO DE IGUAPE/SP\nTOMADA DE PRECO Nº 010/2023\nDATA:17/08/2023\nVALOR: Pagara a contratada o valor de R$ 866.763,03 (oitocentos e sessenta e seis mil, setecentos sessenta e tres reais e tres centavos)\nVIGENCIA: 12 (doze) meses, contados da data indicada na Autorizacao de Inicio ",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "EXTRATO DE PUBLICACAO DO RESULTADO DE JULGAMENTO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "033/2023",
+                      "modality":  "PREGAO PRESENCIAL Nº 033/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "e o REGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA FORNECIMENTO DE OXIGENIO MEDICINAL, COM CESSAO EM COMODATO DE CILINDROS PELO PERIODO DE 12 (DOZE) MESES. Com o seguinte RESULTADO: NEGAR PROVIMENTO ao recurso interposto pela empresa SOLDA ACO COMERCIAL LTDA – EPP, mantendo-se a empresa – W.S PINO LTDA HABILITADA no certame. Ficam os autos do Processo com vista franqueada aos interessados. Iguape,18 de agosto de 2023 Atenciosamente, MARIA CLAUDIA DA SILVA Pregoeira",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO DE PUBLICACAO DO RESULTADO DE JULGAMENTO\n PREGAO PRESENCIAL Nº 033/2023- MENOR VALOR GLOBAL\n\nA PREFEITURA MUNICIPAL DE IGUAPE, atraves da Pregoeira, no uso legais de suas atribuicoes; torna publico para conhecimento dos interessados\no RESULTADO do julgamento do recurso administrativo referente ao Pregao Presencial acima especificado, cujo objeto e o REGISTRO DE PRECOS\nPARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA FORNECIMENTO DE OXIGENIO MEDICINAL, COM CESSAO EM COMODATO\nDE CILINDROS PELO PERIODO DE 12 (DO",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

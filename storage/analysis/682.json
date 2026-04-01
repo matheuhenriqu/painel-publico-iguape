@@ -1,0 +1,164 @@
+﻿{
+    "diaryId":  "682",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:35",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/35c417ce4a42258a5b50dc3c900a5632.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/35c417ce4a42258a5b50dc3c900a5632.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 199.320,10"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE CANCELAMENTO DE ITEM",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COMERCIAL CIRURGICA RIOCLARENSE LTDA",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE CANCELAMENTO DE ITEM\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COMERCIAL CIRURGICA RIOCLARENSE LTDA",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:016/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "6/2023",
+                      "processNumber":  "008/2023",
+                      "modality":  "Pregao Presencial n°. 008/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo de 12 (doze) meses. - Fica cancelado da Ata de Registro o Item 190-Sulfato de Efedrina 50 mg/ml 1ml sol. Injetavel – Marca – Hipolabor – Amp. – Quantidade 500- Valor unitario – R$ 5,10 (cinco reais e dez centavos) e Valor Total – R$ 2.550,00 (dois mil, quinhentos e cinquenta reais) Pregao Presencial n°. 008/2023",
+                      "value":  "R$ 5,10",
+                      "term":  "",
+                      "signatureDate":  "08/11/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:016/2023\nOBJETO: Registro de Precos para aquisicao de Medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo\nde 12 (doze) meses. - Fica cancelado da Ata de Registro o Item 190-Sulfato de Efedrina 50 mg/ml 1ml sol. Injetavel – Marca – Hipolabor – Amp. –\nQuantidade 500- Valor unitario – R$ 5,10 (cinco reais e dez centavos) e Valor Total – R$ 2.550,00 (dois mil, quinhentos e cinquenta reais)\nPregao Presencial n°. 008/2023\nDATA: 08/11/2023",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "11º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 064/2020",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "064/2020",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para implantacao do Programa de Coleta Seletiva no Municipio de Iguape 1º FASE – Construcao de 01 (um) Galpao de Triagem, conforme contrato nº 381/2019, celebrado entre a Prefeitura de Iguape e FEHIDRO- Fundo Estadual de Recursos Hidricos",
+                      "value":  "",
+                      "term":  "60 (sessenta) dias - periodo: 06/11/2023 a 05/01/2024.",
+                      "signatureDate":  "01/11/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "11º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 064/2020\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU\nCONTRATO N°: 064/2020\nOBJETO: Contratacao de Empresa Especializada para implantacao do Programa de Coleta Seletiva no Municipio de Iguape 1º FASE –\nConstrucao de 01 (um) Galpao de Triagem, conforme contrato nº 381/2019, celebrado entre a Prefeitura de Iguape e FEHIDRO- Fundo Estadual de\nRecursos Hidricos.\nDATA: 01/11/2023\nTomada de Precos: 006/2020\nVigencia: 60 (sessenta) dias -",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 176/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "176/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "JULIANA MARTINS DE CAMARGO - MEI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para Prestacao de Servicos de Manutencao, Conservacao e Zeladoria das Instalacoes nas Trilhas e Atrativos Turisticos, neste Municipio de Iguape/SP. Carta Convite n°. 009/2023",
+                      "value":  "R$ 199.315,00",
+                      "term":  "12(doze) meses a contar da data da ciencia da Autorizacao de Inicio de Servico.",
+                      "signatureDate":  "da ciencia da Autorizacao de Inicio de Servico",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: JULIANA MARTINS DE CAMARGO - MEI\nCONTRATO N°: 176/2023\nOBJETO: Contratacao de Empresa Especializada para Prestacao de Servicos de Manutencao, Conservacao e Zeladoria das Instalacoes nas Trilhas\ne Atrativos Turisticos, neste Municipio de Iguape/SP.\nCarta Convite n°. 009/2023\nVALOR: Pagara a contratada o valor global de R$ 199.315,00 (cento e noventa e nove mil, trezentos e quinze reais).\nVIGENCIA: 12(doze) meses a contar da data da ciencia da Autorizacao de Inici",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

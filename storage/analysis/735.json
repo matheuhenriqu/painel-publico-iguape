@@ -1,0 +1,93 @@
+﻿{
+    "diaryId":  "735",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:26",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/785072f54eda9c52439fc4bdd918dce7.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/785072f54eda9c52439fc4bdd918dce7.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRAZO – CONTRATO Nº 155/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "155/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SAMUEL RIBEIRO-EPP EIRELI CONTRATO N°: 155/2023 C",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE ABIGAIL FORTES MARTINS, LOCALIZADA NA RUA “F” – BAIRRO DA BARRA TOMADA DE PRECO Nº 009/2023",
+                      "value":  "",
+                      "term":  "60 (sessenta) dias – Periodo de 19/01/2024 a 18/03/2024",
+                      "signatureDate":  "12/01/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRAZO – CONTRATO Nº 155/2023 MANUTENCAO E REPAROS NA ESCOLA MUNICIPAL PROFª\nCONTRATANTE: MUNICIPIO DE IGUAPE DO RIBEIRA, NESTE MUNICIPIO DE IGUAPE/SP.\n\nCONTRATADA: SAMUEL RIBEIRO-EPP EIRELI CONTRATO N°: 155/2023 C\n\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE\nABIGAIL FORTES MARTINS, LOCALIZADA NA RUA “F” – BAIRRO DA BARRA\nTOMADA DE PRECO Nº 009/2023\nDATA: 12/01/2024\nVIGENCIA: 60 (sessenta) dias – Periodo de 19/01/2024 a 18/03/2024",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "5º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 045/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "045/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI OBJETO: Contratacao de Empresa especializada para execucao de obra de pavimentacao articulada",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para execucao de obra de pavimentacao articulada de via de acesso que interliga o Centro multiuso a praia da Jureia, conforme convenio nº 000133/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o municipio de Iguape/SP. TOMADA DE PRECO: 004/2022",
+                      "value":  "",
+                      "term":  "90 (noventa) dias, periodo de 14/01/2024 a 12/04/2024",
+                      "signatureDate":  "-12/01/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "estadual-turismo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Turismo e Viagens"
+                                                     ],
+                      "excerpt":  "5º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 045/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CIACAN ENGENHARIA EIRELI OBJETO: Contratacao de Empresa especializada para execucao de obra de pavimentacao articulada\nde via de acesso que interliga o Centro multiuso a praia da Jureia, conforme convenio nº 000133/2021, celebrado entre o Estado de Sao Paulo, pela\nSecretaria de Turismo e Viagens e o municipio de Iguape/SP.\nTOMADA DE PRECO: 004/2022\nDATA:-12/01/2024\nVIGENCIA: 90 (noventa) dias, periodo de 14/01/2024 a 12/0",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,128 @@
+﻿{
+    "diaryId":  "1291",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:00",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1124_20122101.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1124_20122101.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  14,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 173,57"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "HOMOLOGACEAXTORA/ ATODJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  9,
+                      "contractNumber":  "",
+                      "processNumber":  "950/2025",
+                      "modality":  "EDITAL CHAMADA PUBLICA Nº: 14/2025",
+                      "contractor":  "I B FERREIRA SERVICOS LTDA 1ª Classificada - Lote I e II",
+                      "cnpj":  "42.769.010/0001-36",
+                      "object":  "CONTRATACAO, POR MEIO DE CREDENCIAMENTO, DE EMPRESAS PARA A PRESTACAO DE SERVICOS DE LIMPEZA URBANA DURANTE OPERACAO VERAO IGUAPE LIMPA 2025/2026, ENVOLVENDO VARREDURA MANUAL, COLETA DE RESIDUOS E SERVICOS GERAIS, NO MUNICIPIO DE IGUAPE/SP",
+                      "value":  "R$ 173,57",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-desenvolvimento-sustentavel",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n HOMOLOGACEAXTORA/ ATODJUDICACAO\n\nPROCESSO Nº: 950/2025\nCONTRATACAO, POR MEIO DE CREDENCIAMENTO, DE EMPRESAS PARA A PRESTACAO DE SERVICOS DE LIMPEZA URBANA DURANTE\nOPERACAO VERAO IGUAPE LIMPA 2025/2026, ENVOLVENDO VARREDURA MANUAL, COLETA DE RESIDUOS E SERVICOS GERAIS, NO\nMUNICIPIO DE IGUAPE/SP.\n\nEDITAL CHAMADA PUBLICA Nº: 14/2025.\nINTERESSADO: SECRETARIA MUNICIPAL DE DESENVOLVIMENTO SUSTENTAVEL.\n\n HOMOLOGO E ADJUDICO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao\ndos iten",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CHAMADA PUBLICA/CREDENCIAMENTO Nº 014/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  9,
+                      "contractNumber":  "",
+                      "processNumber":  "950/2025",
+                      "modality":  "CHAMADA PUBLICA/CREDENCIAMENTO Nº 014/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "A Prefeitura Municipal de Iguape, atraves do Agente de Contratacao, no uso de suas atribuicoes legais, torna publico o result ado do julgamento da",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "CHAMADA PUBLICA/CREDENCIAMENTO Nº 014/2025\n\n PROCESSO ADMINISTRATIVO Nº 950/2025\n\nA Prefeitura Municipal de Iguape, atraves do Agente de Contratacao, no uso de suas atribuicoes legais, torna publico o result ado do julgamento da",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Chamada Publica / Credenciamento nº 014/2025, que tem por OBJETO: CONTRATACAO, POR MEIO DE CREDENCIAMENTO, DE EMPRESAS",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  9,
+                      "contractNumber":  "",
+                      "processNumber":  "014/2025",
+                      "modality":  "Chamada Publica / Credenciamento nº 014/2025, que tem por OBJETO: CONTRATACAO, POR MEIO DE CREDENCIAMENTO, DE EMPRESAS",
+                      "contractor":  "S/HABILITADAS e INABILITADAS as seguintes PARTICIPANTES",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO, POR MEIO DE CREDENCIAMENTO, DE EMPRESAS PARA A PRESTACAO DE SERVICOS DE LIMPEZA URBANA DURANTE OPERACAO VERAO IGUAPE LIMPA 2025/2026, ENVOLVENDO VARREDURA MANUAL, COLETA DE RESIDUOS E SERVICOS GERAIS, NO MUNICIPIO DE IGUAPE/SP, para atender a demanda da Secretaria Municipal de Desenvolvimento Sustentavel de Iguape, bem como todos os locais de atendimento que a compoe. Apos a analise dos documentos apresentados, ficam CREDENCIADAS/HABILITADAS e INABILITADAS as seguintes PARTICIPANTES",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-desenvolvimento-sustentavel"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel"
+                                                     ],
+                      "excerpt":  "Chamada Publica / Credenciamento nº 014/2025, que tem por OBJETO: CONTRATACAO, POR MEIO DE CREDENCIAMENTO, DE EMPRESAS\nPARA A PRESTACAO DE SERVICOS DE LIMPEZA URBANA DURANTE OPERACAO VERAO IGUAPE LIMPA 2025/2026, ENVOLVENDO\nVARREDURA MANUAL, COLETA DE RESIDUOS E SERVICOS GERAIS, NO MUNICIPIO DE IGUAPE/SP, para atender a demanda da Secretaria\nMunicipal de Desenvolvimento Sustentavel de Iguape, bem como todos os locais de atendimento que a compoe. Apos a analise dos documentos\napresentados, ficam CREDENCIADAS/HABILIT",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

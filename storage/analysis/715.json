@@ -1,0 +1,58 @@
+﻿{
+    "diaryId":  "715",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:32",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/cf1b8f4e32cc2bc35c6be89674f9443d.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/cf1b8f4e32cc2bc35c6be89674f9443d.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO AO CONTRATO N.º 044/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "044/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "cnpj":  "",
+                      "object":  "contratacao de empresa especializada para execucao de obra de construcao Campo de Futebol na barra do ribeira, conforme convenio nº 00089/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o municipio de Sao Paulo/SP TOMADA DE PRECOS Nº 003/2022",
+                      "value":  "",
+                      "term":  "Prazo de vigencia e o prazo da execucao do servico – 06 (seis) meses – periodo de 17/12/2023 a 16/06/2024.",
+                      "signatureDate":  "14/12/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "estadual-turismo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Turismo e Viagens"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO AO CONTRATO N.º 044/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CIACAN ENGENHARIA EIRELI\nCONTRATO N°: 044/2022\nOBJETO: contratacao de empresa especializada para execucao de obra de construcao Campo de Futebol na barra do ribeira, conforme convenio nº\n00089/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o municipio de Sao Paulo/SP\nTOMADA DE PRECOS Nº 003/2022\nDATA:14/12/2023\nVIGENCIA: Prazo de vigencia e o prazo da execucao do servico – 06 (seis) meses – pe",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

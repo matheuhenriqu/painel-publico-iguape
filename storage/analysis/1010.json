@@ -1,0 +1,87 @@
+﻿{
+    "diaryId":  "1010",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:46",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_912_29085602.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_912_29085602.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  25,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 47.522,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 156/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "156/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de reforma e manutencao da escola municipal Benedito Rosa Carneito fase ii, neste municipio de Iguape/SP TOMADA DE PRECO Nº 010/2023",
+                      "value":  "",
+                      "term":  "E EXECUCAO: Periodo de 90 (noventa) dias – 29/01/2025 a 28/04/2025.",
+                      "signatureDate":  "24/01/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 156/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CIACAN ENGENHARIA EIRELI\nCONTRATO N°: 156/2023\nOBJETO: Contratacao de empresa especializada para obra de reforma e manutencao da escola municipal Benedito Rosa Carneito fase ii, neste municipio\nde Iguape/SP\nTOMADA DE PRECO Nº 010/2023\nDATA: 24/01/2025\nVIGENCIA E EXECUCAO: Periodo de 90 (noventa) dias – 29/01/2025 a 28/04/2025.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "CONTRATANTE: MUNICIPIO DE IGUAPE/SP",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "019/2025",
+                      "processNumber":  "077/2023",
+                      "modality":  "Pregao Presencial n°. 077/2023",
+                      "contractor":  "ICOCITAL ARTEFATOS DE CONCRETO LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de tubos de concreto armado, para execucao de servicos de manejo de valas, transposicoes de corpos hidricos e drenagem pluvial no Municipio de Iguape/SP. Pregao Presencial n°. 077/2023",
+                      "value":  "R$ 47.522,00",
+                      "term":  "Periodo de 3 (tres) meses – de 24/01/2025 a 23/04/2025",
+                      "signatureDate":  "24/01/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA:-ICOCITAL ARTEFATOS DE CONCRETO LTDA\nCONTRATO Nº 019/2025 – ORIUNDO DA ATA DE REGISTRO DE PRECOS N°:014/2024.\nOBJETO: Aquisicao de tubos de concreto armado, para execucao de servicos de manejo de valas, transposicoes de corpos hidricos e drenagem pluvial\nno Municipio de Iguape/SP.\nPregao Presencial n°. 077/2023\nData: 24/01/2025\nVIGENCIA: Periodo de 3 (tres) meses – de 24/01/2025 a 23/04/2025\nVALOR: R$ 47.522,00 (quarenta e sete mil, quinhentos e vinte e dois r",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

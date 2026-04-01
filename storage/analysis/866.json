@@ -1,0 +1,164 @@
+﻿{
+    "diaryId":  "866",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:03",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_793_13055811.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_793_13055811.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  14,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 1.480.935,85"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 186",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  10,
+                      "contractNumber":  "075/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa EQAT SOLUCOES HOSPITALARES LTDA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "federal-agu",
+                                                       "municipal-prefeitura",
+                                                       "municipal-camara",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Camara Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 186\n DE 11 DE JULHO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Victor Pereira de Matos, Diretor II, titular da Cedula de Identidade RG nº. 46.814.632-5 SSP/SP, inscrito no CPF/MF nº.\n 405.316.238/66, para exercer a funcao de Gestor do Contrato",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 075/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  12,
+                      "contractNumber":  "075/2024",
+                      "processNumber":  "002/2024",
+                      "modality":  "PREGAO PRESENCIAL N°. 002/2024",
+                      "contractor":  "EQAT SOLUCOES HOSPITALARES-LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de equipamentos destinados ao pronto atendimento, ESF Itimirim e ESF Jaire, oriundo da Emenda Parlamentar nº 2022.026.37518 - Estadual. PREGAO PRESENCIAL N°. 002/2024",
+                      "value":  "R$ 30.935,85",
+                      "term":  "60 (sessenta) dias, periodo de 11/07/2024 a 09/09/2024.",
+                      "signatureDate":  "11/07/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: EQAT SOLUCOES HOSPITALARES-LTDA\nCONTRATO N°: 075/2024\nOBJETO: Aquisicao de equipamentos destinados ao pronto atendimento, ESF Itimirim e ESF Jaire, oriundo da Emenda Parlamentar nº 2022.026.37518\n- Estadual.\nPREGAO PRESENCIAL N°. 002/2024.\nVALOR: Pagara a contratada o valor global de R$ 30.935,85 (trinta mil, novecentos e trinta e cinco reais e oitenta e cinco centavos).\nData: 11/07/2024\nVIGENCIA: 60 (sessenta) dias, periodo de 11/07/2024 a 09/09/2024.",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:066/2024.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  12,
+                      "contractNumber":  "6/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos pelo periodo de 12 (doze) meses, para execucao dos servicos de manutencao da Malha Viaria existente em pavimento intertravado de concreto e pavimento asfaltico no Municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:066/2024.\nOBJETO: Registro de Precos pelo periodo de 12 (doze) meses, para execucao dos servicos de manutencao da Malha Viaria existente em pavimento\nintertravado de concreto e pavimento asfaltico no Municipio de Iguape/SP",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "Concorrencia Publica Presencial n°. 001/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  12,
+                      "contractNumber":  "",
+                      "processNumber":  "001/2024",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 1.450.000,00",
+                      "term":  "Validade do presente Registro de Precos – 12 (doze) meses - (10/07/2024 a 09/07/2025)",
+                      "signatureDate":  "10/07/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "Concorrencia Publica Presencial n°. 001/2024\nData: 10/07/2024\nVIGENCIA: Validade do presente Registro de Precos – 12 (doze) meses - (10/07/2024 a 09/07/2025)\nVALOR: Valor Global da Ata de Registro de Precos: R$ 9.498.271,50 (nove milhoes, quatrocentos e noventa e oito mil, duzentos e setenta e um reais e\ncinquenta centavos).\n\n FINANCEIRO\n C\n\n DECRETO\n\n DECRETO Nº 3.168,\n DE 28 DE JUNHO DE 2024\n\n DISPOE SOBRE A ALTERACAO ORCAMENTARIA, CONFORME A LEI Nº 2.526/2023, E DA OUTRAS\n PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Pr",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem contratada identificada",
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

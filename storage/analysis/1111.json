@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "1111",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:29",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_079_05104833.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_extra_079_05104833.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  13,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "4 12",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  12,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CONTRATO Nº",
+                      "cnpj":  "",
+                      "object":  "licitado, devendo ser observado o disposto no art. 117 da Lei nº 14.133/21. 9.1.1- Sendo: • a) gestor do contrato: ....................................... • b) fiscal (is) :......................................... CLAUSULA DECIMA TERCEIRA - DO FORO 13.1-Fica eleito o Foro da Comarca de Iguape para dirimir duvidas ou questoes oriundas do presente contrato",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "Lei Federal nº 14.133/2021, com garantia do contraditorio e ampla defesa",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "4 12\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – EDICAO EXTRA Nº 079 Quinta-feira, 05 de Junho de 2025\n\nCLAUSULA- NONA-SUSPENSAO/INATIVACAO\n9.1-A credenciada podera suspender temporariamente seu credenciamento mediante o encaminhamento de requerimento, assinado pelo responsavel\n\nlegal ou procurador e no formato pdf por meio do “Protocolo online” na plataforma eletronica 1DOC, com antecedencia minima de 30 (trinta) dias.\nCLAUSULA DECIMA - DA LEI GERAL DE PROTECAO DE DADOS (LEI Nº 13.709/2018)\n10.1-O LICITANTE obriga-s",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

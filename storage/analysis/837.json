@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "837",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:07",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_771_12072724.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_771_12072724.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 116.269,50"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO E ACRESCIMO E SUPRESSAO AO CONTRATO Nº 004/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "004/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SAMUEL RIBEIRO EPP CONTRATANTE: MUNICIPIO DE IGUAPE C",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para obra de reforma e adequacoes da Escola Municipal Profª Jocy Rita Cardoso Rocha, localizada na Rua Capitao Floramante, s/n, Bairro Vila Garces – Iguape/SP. Tomada de Preco n°. 014/2023",
+                      "value":  "R$ 116.269,50",
+                      "term":  "",
+                      "signatureDate":  "10/06/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-camara",
+                      "primaryOrganizationName":  "Camara Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-camara"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Camara Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO E ACRESCIMO E SUPRESSAO AO CONTRATO Nº 004/2024\n\nCONTRATADA: SAMUEL RIBEIRO EPP CONTRATANTE: MUNICIPIO DE IGUAPE C\n\nCONTRATO N°: 004/2024\nOBJETO: Contratacao de Empresa especializada para obra de reforma e adequacoes da Escola Municipal Profª Jocy Rita Cardoso Rocha, localizada\nna Rua Capitao Floramante, s/n, Bairro Vila Garces – Iguape/SP.\nTomada de Preco n°. 014/2023.\nVALOR: Valor do presente termo aditivo e de R$ 76.432,49 (setenta e seis mil, quatrocentos e trinta e dois reais e quarenta e nove",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,95 @@
+﻿{
+    "diaryId":  "407",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:27",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/472768f01e7032751730597d989fa4a6.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/472768f01e7032751730597d989fa4a6.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade",
+                     "rescisao"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO bairro",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  5,
+                      "contractNumber":  "054/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA - ME",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de reforma do predio municipal localizado na Rua da Saudade s/n, Canto do Morro, neste municipio de Iguape/SP TOMADA DE PRECOS Nº 010/2022",
+                      "value":  "",
+                      "term":  "periodo de vigencia e execucao e de 60 (sessenta) dias de 29/10/2022 a 28/12/2022",
+                      "signatureDate":  "14/10/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO bairro\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SUL VALE CONSTRUTORA LTDA - ME\nCONTRATO N°: 054/2022\nOBJETO: Contratacao de empresa especializada para obra de reforma do predio municipal localizado na Rua da Saudade s/n,\nCanto do Morro, neste municipio de Iguape/SP\nTOMADA DE PRECOS Nº 010/2022\nDATA:14/10/2022\nVIGENCIA: periodo de vigencia e execucao e de 60 (sessenta) dias de 29/10/2022 a 28/12/2022",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  5,
+                      "contractNumber":  "",
+                      "processNumber":  "636/2022",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 53/2022 - EDITAL Nº: 76/2022",
+                      "contractor":  "PROESTE COMERCIO DE VEICULOS E PECAS BAURU LTDA",
+                      "cnpj":  "",
+                      "object":  "AQUISICOES DE VEICULOS DE PASSEIO TIPO HATCH , UTILITARIO PICK UP (CABINE DUPLA), CAMINHAO TIPO VUC- VEICULO URBANO DE CARGA E TRATOR COLETOR DE LIXO , PARA ATENDER DIVERSOS DEPARTAMENTOS DESTE MUNICIPIO DE IGUAPE/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-saude",
+                      "primaryOrganizationName":  "Secretaria da Saude",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "saude",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "estadual-saude",
+                                                       "municipal-saude",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria da Saude",
+                                                         "Secretaria da Saude",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 636/2022\nAQUISICOES DE VEICULOS DE PASSEIO TIPO HATCH , UTILITARIO PICK UP (CABINE DUPLA), CAMINHAO TIPO VUC- VEICULO\nURBANO DE CARGA E TRATOR COLETOR DE LIXO , PARA ATENDER DIVERSOS DEPARTAMENTOS DESTE MUNICIPIO DE\nIGUAPE/SP.\nPR-G - PREGAO PRESENCIAL - 53/2022 - EDITAL Nº: 76/2022\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a\nclassificacao dos lotes abaixo.\n1 - SECRETARIA DA SAUDE\nFORNECEDOR: PROESTE COMERCIO DE VEICULOS E ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

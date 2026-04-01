@@ -1,0 +1,20 @@
+﻿{
+    "diaryId":  "291",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:49",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/5ddcd32550581c68e08a21b7b11fef33.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/5ddcd32550581c68e08a21b7b11fef33.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Items\u0027 porque ele é uma matriz vazia."
+                },
+    "items":  [
+
+              ]
+}

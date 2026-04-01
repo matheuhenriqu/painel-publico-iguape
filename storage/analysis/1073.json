@@ -1,0 +1,203 @@
+﻿{
+    "diaryId":  "1073",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:35",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_962_11083117.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_962_11083117.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  5,
+                    "totalValue":  "R$ 245.244,60"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO DE PRORROGACAO – CONTRATO 47/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "047/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ASSOCIACAO AMIGOS E MORADORES DOS BAIRROS ARATACA E CAPOAVA DO MOMUNA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Generos Alimenticios da Agricultura Familiar e do Empreendedor Familiar Rural, em atendimento ao Programa Nacional de Alimentacao Escolar – PNAE, para alunos da rede de educacao basica publica, verba FNDE/PNAE, durante 12 (doze) meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-fnde",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Fundo Nacional de Desenvolvimento da Educacao",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO DE PRORROGACAO – CONTRATO 47/2023\n CONTRATANTE: MUNICIPIO DE IGUAPE\n CONTRATADA: ASSOCIACAO AMIGOS E MORADORES DOS BAIRROS ARATACA E CAPOAVA DO MOMUNA\n CONTRATO N°: 047/2023\n OBJETO: Aquisicao de Generos Alimenticios da Agricultura Familiar e do Empreendedor Familiar Rural, em atendimento ao Programa Nacional de\n Alimentacao Escolar – PNAE, para alunos da rede de educacao basica publica, verba FNDE/PNAE, durante 12 (doze) meses.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CHAMADA PUBLICA Nº 001/2023",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "001/2023",
+                      "modality":  "CHAMADA PUBLICA Nº 001/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 245.244,60",
+                      "term":  "12(doze) Meses – periodo 06/04/2025 a 05/04/2026",
+                      "signatureDate":  "04/04/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "CHAMADA PUBLICA Nº 001/2023\n DATA: 04/04/2025\n VALOR: Pagara a contratada o valor de R$ 245.244,60 (duzentos e quarenta e cinco mil, duzentos e quarenta e quatro reais e sessenta centavos).\n VIGENCIA: 12(doze) Meses – periodo 06/04/2025 a 05/04/2026",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE PRORROGACAO AO CONTRATO: 048/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "048/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COOPERASOL – COOPERATIVA AGROINDUSTRIAL SOLIDARIA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Generos Alimenticios da Agricultura Familiar e do Empreendedor Familiar Rural, em atendimento ao Programa Nacional de Alimentacao Escolar – PNAE, para alunos da rede de educacao basica publica, verba FNDE/PNAE, durante 12 (doze) meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-fnde",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Fundo Nacional de Desenvolvimento da Educacao",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE PRORROGACAO AO CONTRATO: 048/2023\n CONTRATANTE: MUNICIPIO DE IGUAPE\n CONTRATADA: COOPERASOL – COOPERATIVA AGROINDUSTRIAL SOLIDARIA\n CONTRATO N°: 048/2023\n OBJETO: Aquisicao de Generos Alimenticios da Agricultura Familiar e do Empreendedor Familiar Rural, em atendimento ao Programa Nacional de\n Alimentacao Escolar – PNAE, para alunos da rede de educacao basica publica, verba FNDE/PNAE, durante 12 (doze) meses.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "8º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 053/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "053/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA-ME",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para obra de Centro Multiuso, localizada na Avenida Maestro Moacir Serra s/n – Bairro Canto do Morro, confome termo de Convenio nº 100813/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape. Tomada de Precos - n°. 009/2022 DATA: 08/04/2025 VIGENCIA: Prorrogada a Execucao do Servico e Vigencia do Contrato pelo periodo de 10/04/2025 a 07/08/2025 inclusive –120 (cento e vinte) dias",
+                      "value":  "",
+                      "term":  "Prorrogada a Execucao do Servico e Vigencia do Contrato pelo periodo de 10/04/2025 a 07/08/2025 inclusive –120 (cento e vinte) dias.",
+                      "signatureDate":  "08/04/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "8º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 053/2022\n CONTRATANTE: MUNICIPIO DE IGUAPE\n CONTRATADA:- SUL VALE CONSTRUTORA LTDA-ME\n CONTRATO N°: 053/2022\n OBJETO: Contratacao de Empresa Especializada para obra de Centro Multiuso, localizada na Avenida Maestro Moacir Serra s/n – Bairro Canto do\n Morro, confome termo de Convenio nº 100813/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape.\n Tomada de Precos - n°. 009/2022\n DATA: 08/04/2025\n VIGENCIA: Prorrogada a Execucao do Servico e",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "266/2025",
+                      "modality":  "EDITAL CHAMADA PUBLICA Nº: 02/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Credenciamento de empresas para prestacao dos servicos de poda com equipe manual (ate 3,5 m, sem munck), poda com caminhao munck (com cesto aereo) e rocada manual com rastelamento e ensacamento de residuos vegetais em estradas vicinais e areas publicas nao abrangidas por contrato de limpeza urbana no Municipio de Iguape/SP. EDITAL CHAMADA PUBLICA Nº: 02/2025. INTERESSADOS: SECRETARIA MUNICIPAL DE INFRAESTRUTURA URBANA E OBRAS",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\n PROCESSO Nº: 266/2025\n Credenciamento de empresas para prestacao dos servicos de poda com equipe manual (ate 3,5 m, sem munck), poda com caminhao munck\n (com cesto aereo) e rocada manual com rastelamento e ensacamento de residuos vegetais em estradas vicinais e areas publicas nao\n abrangidas por contrato de limpeza urbana no Municipio de Iguape/SP.\n\n EDITAL CHAMADA PUBLICA Nº: 02/2025.\n INTERESSADOS: SECRETARIA MUNICIPAL DE INFRAESTRUTURA URBANA E OBRAS.",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

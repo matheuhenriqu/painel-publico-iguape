@@ -1,0 +1,260 @@
+﻿{
+    "diaryId":  "589",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:54",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/2f9cc79d03d78d694d5fdaa931943fc2.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/2f9cc79d03d78d694d5fdaa931943fc2.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  7,
+                    "totalValue":  "R$ 19.188,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 182",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "096/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 182\n DE 27 JUNHO DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Cristiani Aparecida Lisboa Lopes, titular da Cedula de Identidade RG.nº 25.111.472-7 SSPSP, inscrita no CPF/MF nº\nArt. 2º - 251.286.778-18, para exercer a funcao de Gestor, Contrato nº 096/202",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 076/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "076/2023",
+                      "processNumber":  "036/2022",
+                      "modality":  "PREGAO PRESENCIAL Nº 036/2022",
+                      "contractor":  "INTERVALE TRANSPORTE E TURISMO EIRELI - EPP",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada na prestacao de servicos de transporte de pacientes atendidos pelo SUS na Rede Basica de Saude do municipio de Iguape PREGAO PRESENCIAL Nº 036/2022",
+                      "value":  "R$ 14.400,00",
+                      "term":  "permanecera vigente pelo periodo de 05 (cinco) meses, a contar da 13/06/2023 a 12/11/2023.",
+                      "signatureDate":  "-13/06/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: INTERVALE TRANSPORTE E TURISMO EIRELI - EPP\nCONTRATO N°: 076/2023- ORIUNDO DA ATA DE REGISTRO DE PRECO Nº 073/2022\nOBJETO: Contratacao de empresa especializada na prestacao de servicos de transporte de pacientes atendidos pelo SUS na Rede Basica de Saude\ndo municipio de Iguape\nPREGAO PRESENCIAL Nº 036/2022\nDATA:-13/06/2023\nVALOR: Pagara a contratada o valor de R$ 14.400,00 (catorze mil e quatrocentos reais)\nVIGENCIA: permanecera vigente pelo periodo de 05 (cinco",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 080/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "080/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MYR COMERCIO DE ARTIGOS PEDAGOGICOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Materiais Esportivos para atender o Convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de Esportes e a Prefeitura Municipal de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: MYR COMERCIO DE ARTIGOS PEDAGOGICOS LTDA\nCONTRATO N°: 080/2023\nOBJETO: Aquisicao de Materiais Esportivos para atender o Convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de\nEsportes e a Prefeitura Municipal de Iguape/SP",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO Nº 003/2023",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "003/2023",
+                      "modality":  "PREGAO ELETRONICO Nº 003/2023",
+                      "contractor":  "o valor de R$ 4.788,00 (quatro mil, setecentos e oitenta e oito reais)",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 4.788,00",
+                      "term":  "permanecera vigente pelo periodo de 60 (sessenta) dias, a contar da 20/06/2023 a 19/08/2023.",
+                      "signatureDate":  "-20/06/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO Nº 003/2023\nDATA:-20/06/2023\nVALOR: Pagara a contratada o valor de R$ 4.788,00 (quatro mil, setecentos e oitenta e oito reais)\nVIGENCIA: permanecera vigente pelo periodo de 60 (sessenta) dias, a contar da 20/06/2023 a 19/08/2023.",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 083/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "083/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MAIS ESPORTE COMERCIO DE ARTIGOS ESPORTIVOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Materiais Esportivos para atender o Convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de Esportes e a Prefeitura Municipal de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: MAIS ESPORTE COMERCIO DE ARTIGOS ESPORTIVOS LTDA\nCONTRATO N°: 083/2023\nOBJETO: Aquisicao de Materiais Esportivos para atender o Convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de\nEsportes e a Prefeitura Municipal de Iguape/SP",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 084/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "084/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "RM SPORTS COMERCIO DE PRODUTOS ESPORTIVOS EIRELI",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Materiais Esportivos para atender o Convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de Esportes e a Prefeitura Municipal de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: RM SPORTS COMERCIO DE PRODUTOS ESPORTIVOS EIRELI\nCONTRATO N°: 084/2023\nOBJETO: Aquisicao de Materiais Esportivos para atender o Convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de\nEsportes e a Prefeitura Municipal de Iguape/SP",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 085/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "085/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SW SPORTS COMERCIO E SERVICOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Materiais Esportivos para atender o Convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de Esportes e a Prefeitura Municipal de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SW SPORTS COMERCIO E SERVICOS LTDA\nCONTRATO N°: 085/2023\nOBJETO: Aquisicao de Materiais Esportivos para atender o Convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de\nEsportes e a Prefeitura Municipal de Iguape/SP",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

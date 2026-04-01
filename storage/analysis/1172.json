@@ -1,0 +1,53 @@
+﻿{
+    "diaryId":  "1172",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:20",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_100_08090050.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_extra_100_08090050.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Republicado por conter erro material na redacao",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "017/2025",
+                      "modality":  "pregao eletronico n° 017/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "a Aquisicao de um Veiculo tipo Caminhonete PICK-UP, zero KM, cabine dupla, em atendimento ao Fundo Social de Solidariedade do Municipio de Iguape/SP, conforme especificacoes tecnicas detalhadas nos termos e condicoes estabelecidos nos documentos anexos. Ficam os interessados cientes da presente decisao. Publique-se. Cumpra-se. Iguape, 07 de agosto de 2025. Milton Sussumu Nomura Secretario Municipal de Gestao e Planejamento /",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nRepublicado por conter erro material na redacao\nTorna sem efeito a publicacao na edicao ordinaria n° 1033, de 08 de agosto de 2025\n\n AVISO DE SUSPENSAO DE LICITACAO\nA Prefeitura Municipal de Iguape torna publica a suspensao do pregao eletronico n° 017/2025, marcado para 07/08/2025, as 09h30min , em decorrencia\nde readequacao do edital, tendo por objeto a Aquisicao de um Veiculo tipo Caminhonete PICK-UP, zero KM, cabine dupla, em atendimento ao Fundo\nSocial de Solidariedade do Municipio de Iguape/SP, confor",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

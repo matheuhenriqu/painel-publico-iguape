@@ -1,0 +1,53 @@
+﻿{
+    "diaryId":  "526",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:06",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/b7a10c3c4a11c446d831346d140f74b2.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/b7a10c3c4a11c446d831346d140f74b2.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 4.022,24"
+                },
+    "items":  [
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "3º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 035/2019",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  5,
+                      "contractNumber":  "",
+                      "processNumber":  "055/2016",
+                      "modality":  "",
+                      "contractor":  "AUTO POSTO PONTO DE ENCONTRO LTDA",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado “Estadio Americo Mancio”",
+                      "value":  "R$ 4.022,24",
+                      "term":  "",
+                      "signatureDate":  "27/03/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n3º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 035/2019\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: AUTO POSTO PONTO DE ENCONTRO LTDA\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado “Estadio Americo Mancio”.\nDATA: 27/03/2023\nVALOR: R$ 4.022,24 (quatro mil, vinte e dois reais e vinte e quatro centavos) mensais.\nProcesso Administrativo nº 055/2016",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

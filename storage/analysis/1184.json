@@ -1,0 +1,108 @@
+﻿{
+    "diaryId":  "1184",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:19",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1041_20075538.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1041_20075538.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "LICITACAO - ITENS FRACASSADOS",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "353/2025",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 15/2025 - EDITAL Nº: 20/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de lubrificantes e correlatos para a manutencao do veiculo da Secretaria Municipal de Cultura, Esporte e Turismo do Municipio, para atender a necessidade do setor, para um periodo de 12 meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-cultura",
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-educacao",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Secretaria de Cultura",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Educacao",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n LICITACAO - ITENS FRACASSADOS\n\nPROCESSO Nº: 353/2025\nAquisicao de lubrificantes e correlatos para a manutencao do veiculo da Secretaria Municipal de Cultura, Esporte e Turismo do Municipio, para atender\na necessidade do setor, para um periodo de 12 meses.\nPR-E - PREGAO ELETRONICO - 15/2025 - EDITAL Nº: 20/2025\nINTERESSADOS: GABINETE DO PREFEITO , SECRETARIA MUNICIPAL DE GESTAO E PLANEJAMENTO , SECRETARIA MUNICIPAL DE\nEDUCACAO , SECRETARIA MUNICIPAL DE SAUDE , SECRETARIA MUNIC. DE ASSISTENCIA E DESENV. SOC",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "353/2025",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 15/2025 - EDITAL Nº: 20/2025",
+                      "contractor":  "AUTOLUK COMERCIO DE PNEUMATICOS E PECAS LTDA EPP",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de lubrificantes e correlatos para a manutencao do veiculo da Secretaria Municipal de Cultura, Esporte e Turismo do Municipio, para atender a necessidade do setor, para um periodo de 12 meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-cultura",
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-educacao",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Secretaria de Cultura",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Educacao",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 353/2025\nAquisicao de lubrificantes e correlatos para a manutencao do veiculo da Secretaria Municipal de Cultura, Esporte e Turismo do Municipio, para atender\na necessidade do setor, para um periodo de 12 meses.\nPR-E - PREGAO ELETRONICO - 15/2025 - EDITAL Nº: 20/2025\nINTERESSADOS: GABINETE DO PREFEITO , SECRETARIA MUNICIPAL DE GESTAO E PLANEJAMENTO , SECRETARIA MUNICIPAL DE\nEDUCACAO , SECRETARIA MUNICIPAL DE SAUDE , SECRETARIA MUNIC. DE ASSISTENCIA E DESENV. SOCIAL ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

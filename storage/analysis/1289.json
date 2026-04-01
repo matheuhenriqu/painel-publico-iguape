@@ -1,0 +1,300 @@
+﻿{
+    "diaryId":  "1289",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:00",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1123_19070133.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1123_19070133.pdf",
+    "keywords":  [
+                     "contrato",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  7,
+                    "totalValue":  "R$ 2.500,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 353,",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "205/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "(A), para",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura",
+                                                       "federal-agu",
+                                                       "municipal-cultura",
+                                                       "municipal-turismo-esporte"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Secretaria de Cultura",
+                                                         "Secretaria de Turismo e Esporte"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 353,\n DE 18 DE DEZEMBRO DE 2025\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Anisia Ricardo Lourenco, Secretaria Municipal Adjunta de Turismo, inscrita no CPF/MF nº. XXX.043.188-XX, para\n exercer a funcao de Gestor do Contrato nº 205/2",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "Portaria de gestao do contrato 206/2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "206/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu",
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "2\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – Nº 1123 Sexta-feira, 19 de Dezembro de 2025 - www.iguape.sp.gov.br\n\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Anisia Ricardo Lourenco, Secretaria Municipal Adjunta de Turismo, inscrita no CPF/MF nº. XXX.043.188-XX, para\n exercer a funcao de Gestor do Contrato nº 206/2025, e Fernando Eiji Yanaguizawa, Secretario Adjunto de Cultura, Esporte e Turismo,\n inscrito(a) no CPF/MF nº XX.453.608-XX, p",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 355,",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "210/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "(A), da apresentacao",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu",
+                                                       "municipal-cultura",
+                                                       "municipal-turismo-esporte"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Secretaria de Cultura",
+                                                         "Secretaria de Turismo e Esporte"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 355,\n DE 18 DE DEZEMBRO DE 2025\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Anisia Ricardo Lourenco, Secretaria Municipal Adjunta de Turismo, inscrita no CPF/MF nº. XXX.043.188-XX, para\n exercer a funcao de Gestor do Contrato nº 210/2",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "Portaria de gestao do contrato 207/2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "207/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "federal-agu",
+                                                       "municipal-cultura",
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Secretaria de Cultura",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "Art. 1º - 3\nArt. 2º -\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – Nº 1123 Sexta-feira, 19 de Dezembro de 2025 - www.iguape.sp.gov.br\n\n Ficam designados Anisia Ricardo Lourenco, Secretaria Municipal Adjunta de Turismo, inscrita no CPF/MF nº. XXX.043.188-XX, para\n exercer a funcao de Gestor do Contrato nº 207/2025, e Fernando Eiji Yanaguizawa, Secretario Adjunto de Cultura, Esporte e Turismo,\n inscrito(a) no CPF/MF nº XX.453.608-XX, para atuar como Fiscal do mesmo instrumento contratual, CONTRATACAO APRESENTACAO\n MUSICA",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 357,",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "211/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu",
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 357,\n DE 18 DE DEZEMBRO DE 2025\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Anisia Ricardo Lourenco, Secretaria Municipal Adjunta de Turismo, inscrita no CPF/MF nº. XXX.043.188-XX, para\n exercer a funcao de Gestor do Contrato nº 211/2",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "Portaria de gestao do contrato 209/2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  4,
+                      "contractNumber":  "209/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "federal-agu",
+                                                       "municipal-cultura",
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Secretaria de Cultura",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "Art. 2º - 4\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – Nº 1123 Sexta-feira, 19 de Dezembro de 2025 - www.iguape.sp.gov.br\n\n exercer a funcao de Gestor do Contrato nº 209/2025, e Fernando Eiji Yanaguizawa, Secretario Adjunto de Cultura, Esporte e Turismo,\n inscrito(a) no CPF/MF nº XX.453.608-XX, para atuar como Fiscal do mesmo instrumento contratual, Contratacao do artista “BRUNO\n DIEGUES” atraves de W.F.A. EVENTOS SOCIEDADE SIMPLES LTDA no evento de Reveillon 2025, a ser realizada no dia 31 de\n dezembro de 2025, as ",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 359,",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  17,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "208/2025",
+                      "processNumber":  "919/2025",
+                      "modality":  "",
+                      "contractor":  "KARINA FERRO OTSUKA",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO, da apresentacao musical “GRUPO FANDANGO AJJ” atraves de KARINA FERRO OTSUKA, no evento Encontro de Povos Tradicionais, a realizar-se as 17:00h do dia 12/12/2025, na Barra do Ribeira, Iguape-SP",
+                      "value":  "R$ 2.500,00",
+                      "term":  "12/12/2025 ate 12/01/2026.",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "federal-agu",
+                                                       "municipal-cultura",
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Secretaria de Cultura",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 359,\n DE 18 DE DEZEMBRO DE 2025\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Anisia Ricardo Lourenco, Secretaria Municipal Adjunta de Turismo, inscrita no CPF/MF nº. XXX.043.188-XX, para\n exercer a funcao de Gestor do Contrato nº 208/2",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

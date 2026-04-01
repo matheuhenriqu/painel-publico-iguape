@@ -1,0 +1,200 @@
+﻿{
+    "diaryId":  "777",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:16",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/20240312_2024-03-12_diariooficialedicao716_16014220.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/20240312_2024-03-12_diariooficialedicao716_16014220.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  16,
+                    "itemCount":  5,
+                    "totalValue":  "R$ 1.885.087,97"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 97",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "035/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa EPCCO – ENGENHARIA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 97\n DE 11 DE MARCO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Thiago Alex da Silva Morais, Diretor Tecnico de Atividades, titular da Cedula de Identidade – RG nº 41.461.202-4 SSP/SP,\n inscrito no CPF/MF sob o nº 341.371.508-93, para exercer a funcao de",
+                      "completeness":  "baixa",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 98",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "035/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa EPCCO – ENGENHARIA DE PROJETOS, CONSULTORIA E CONSTRUCOES LTDA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 98\n DE 11 DE MARCO DE 2024\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0\nArt. 2º - SSP/SP, inscrito no CPF/MF nº. 256.609.068/85, para exerc",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 031/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "031/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU C",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de Pavimentacao Asfaltica da Rua Capitao Floramante “fase I e fase II” e trecho da Rua Ten. Cel. Zacarias conforme convenio nº 102967/2022 celebrado com a Secretaria de Governo e Relacoes Institucionais do governo do Estado de Sao Paulo, e Recursos da Uniao. TOMADA DE PRECO N°. 020/2023",
+                      "value":  "R$ 188.948,18",
+                      "term":  "04 (quatro) meses, contados da data indicada na Autorizacao de Inicio dos Servicos",
+                      "signatureDate":  "05/03/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "estadual-governo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Governo e Relacoes Institucionais"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\n\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU C\n\nCONTRATO N°: 031/2024\n\nLOTE-01: FaseI - Trecho da Rua Capitao Flaramante – Vila Garcez\n\nOBJETO: Contratacao de empresa especializada para obra de Pavimentacao Asfaltica da Rua Capitao Floramante “fase I e fase II” e trecho da Rua Ten.\n\nCel. Zacarias conforme convenio nº 102967/2022 celebrado com a Secretaria de Governo e Relacoes Institucionais do governo do Estado de Sao Paulo,\n\ne Recursos da Uniao.\n\nTOMADA DE PREC",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 032/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "032/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de Pavimentacao Asfaltica da Rua Capitao Floramante “fase I e fase II” e trecho da Rua Ten. Cel. Zacarias conforme convenio nº 102967/2022 celebrado com a Secretaria de Governo e Relacoes Institucionais do governo do Estado de Sao Paulo, e Recursos da Uniao. TOMADA DE PRECO N°. 020/2023",
+                      "value":  "R$ 1.544.501,66",
+                      "term":  "08 (oito) meses, contados da data indicada na Autorizacao de Inicio dos Servicos.",
+                      "signatureDate":  "05/03/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "estadual-governo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Governo e Relacoes Institucionais"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU\nCONTRATO N°: 032/2024\nLOTE-02: FaseII - Trechos da Rua Capitao Flaramante\nOBJETO: Contratacao de empresa especializada para obra de Pavimentacao Asfaltica da Rua Capitao Floramante “fase I e fase II” e trecho da Rua\nTen. Cel. Zacarias conforme convenio nº 102967/2022 celebrado com a Secretaria de Governo e Relacoes Institucionais do governo do Estado de Sao\nPaulo, e Recursos da Uniao.\nTOMADA DE PRECO N°. 020/2023.\nVALOR",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 033/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "033/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "EPCCO – ENGENHARIA DE PROJETOS, CONSULTORIA E CONSTRUCOES LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de Pavimentacao Asfaltica da Rua Capitao Floramante “fase I e fase II” e trecho da Rua Ten. Cel. Zacarias conforme convenio nº 102967/2022 celebrado com a Secretaria de Governo e Relacoes Institucionais do governo do Estado de Sao Paulo, e Recursos da Uniao. TOMADA DE PRECO N°. 020/2023",
+                      "value":  "R$ 151.638,13",
+                      "term":  "04 (quatro) meses, contados da data indicada na Autorizacao de Inicio dos Servicos.",
+                      "signatureDate":  "05/03/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "estadual-governo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Governo e Relacoes Institucionais"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: EPCCO – ENGENHARIA DE PROJETOS, CONSULTORIA E CONSTRUCOES LTDA\nCONTRATO N°: 033/2024\nLOTE-03: - Trecho da Rua Tenente Coronel Zacarias – Vila Garces\nOBJETO: Contratacao de empresa especializada para obra de Pavimentacao Asfaltica da Rua Capitao Floramante “fase I e fase II” e trecho da Rua\nTen. Cel. Zacarias conforme convenio nº 102967/2022 celebrado com a Secretaria de Governo e Relacoes Institucionais do governo do Estado de Sao\nPaulo, e Recursos da Uniao.\nTOM",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

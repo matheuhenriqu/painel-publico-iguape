@@ -1,0 +1,53 @@
+﻿{
+    "diaryId":  "4",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:14",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/358c0bfe5d45e988887d097fddbfafb6.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/358c0bfe5d45e988887d097fddbfafb6.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 8.900,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:004/2023- Lote 02",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "4/2023",
+                      "processNumber":  "065/2022",
+                      "modality":  "Pregao Presencial n°. 065/2022",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para futuras aquisicoes de equipamento de ponto eletronico biometrico com software e bobina de papel pelo periodo de 12 (doze) meses. Pregao Presencial n°. 065/2022",
+                      "value":  "R$ 8.900,00",
+                      "term":  "18/01/2023 a 17/01/2024",
+                      "signatureDate":  "18/01/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:004/2023- Lote 02\nOBJETO: Registro de Precos para futuras aquisicoes de equipamento de ponto eletronico biometrico com software e bobina de papel\npelo periodo de 12 (doze) meses.\nPregao Presencial n°. 065/2022\nDATA: 18/01/2023\nVIGENCIA: 18/01/2023 a 17/01/2024\nVALOR: R$ 8.900,00 (oito mil e novecentos reais)",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  }
+              ]
+}

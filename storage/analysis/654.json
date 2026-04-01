@@ -1,0 +1,91 @@
+﻿{
+    "diaryId":  "654",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:41",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/8fe205ad650c4ef58d782655979e8602.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/8fe205ad650c4ef58d782655979e8602.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 282",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "165/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa CAIXA ECONOMICA FEDERAL",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 282\n DE 22 DE SETEMBRO DE 2023\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, THAUAN FELIPE CARVALHO FONTES, Secretario Adjunto Municipal de Despesa de Pessoal, titular da Cedula de Identidade\n RG nº 47.518.547-X SSP/SP, inscrito no CPF/MF nº 406.",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO AO CONTRATO 050/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "050/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "contratacao de empresa especializada para obra de recapeamento e drenagem na av. Janio Quadros e Princesa Isabel, Bairro Canto do Morro, conforme termo de convenio nº 102969/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape. TOMADA DE PRECO Nº 003/2023",
+                      "value":  "",
+                      "term":  "05 (cinco) meses – (Vigencia e Execucao), periodo de 24/09/2023 a 23/02/2024.",
+                      "signatureDate":  "22/09/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO AO CONTRATO 050/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU\nCONTRATO N°: 050/2023\nOBJETO: contratacao de empresa especializada para obra de recapeamento e drenagem na av. Janio Quadros e Princesa Isabel, Bairro Canto do\nMorro, conforme termo de convenio nº 102969/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape, celebrado\nentre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape.\nTOMADA DE PRECO Nº",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

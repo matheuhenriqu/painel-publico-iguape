@@ -1,0 +1,52 @@
+﻿{
+    "diaryId":  "374",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:31",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/17e1da72fb3c37a464f8514c0616ee46.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/17e1da72fb3c37a464f8514c0616ee46.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 2.096,56"
+                },
+    "items":  [
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 075/2016",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ANA KEILLA DE OLIVEIRA SILVA",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao do “Conselho Tutelar”",
+                      "value":  "R$ 2.096,56",
+                      "term":  "",
+                      "signatureDate":  "26/08/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nTERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 075/2016\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: ANA KEILLA DE OLIVEIRA SILVA\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao do “Conselho Tutelar”\nDATA: 26/08/2022\nVALOR: R$ 2.096,56 (dois mil noventa e seis reais e cinquenta e seis centavos) mensais.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

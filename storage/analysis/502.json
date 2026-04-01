@@ -1,0 +1,128 @@
+﻿{
+    "diaryId":  "502",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:11",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/0540301d1479e0806781388a1aa46f16.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/0540301d1479e0806781388a1aa46f16.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 59.503,10"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "7º TERMO ADITIVO DE PRAZO-CONTRATO 001/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "001/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "EPCCO-ENGENHARIA DE PROJETOS CONSULTORIA E CONSTRUCOES LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para pavimentacao e obras complementares na Avenida Julio Franco no Bairro do Rocio, neste Municipio de Iguape/SP, conforme contrato de repasse nº 896691/2019, celebrado com o MDR (Ministerio de Desenvolvimento Regional)/Caixa . Tomada de Precos - n°. 009/2020",
+                      "value":  "",
+                      "term":  "90 (noventa) dias, periodo de 24/02/2023 a 24/05/2023.",
+                      "signatureDate":  "23/12/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "7º TERMO ADITIVO DE PRAZO-CONTRATO 001/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: EPCCO-ENGENHARIA DE PROJETOS CONSULTORIA E CONSTRUCOES LTDA\nCONTRATO N°: 001/2021\nOBJETO: Contratacao de Empresa Especializada para pavimentacao e obras complementares na Avenida Julio Franco no Bairro do\nRocio, neste Municipio de Iguape/SP, conforme contrato de repasse nº 896691/2019, celebrado com o MDR (Ministerio de\nDesenvolvimento Regional)/Caixa .\nTomada de Precos - n°. 009/2020\nDATA: 23/12/2022\nVIGENCIA: 90 (noventa) dia",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Dispensa",
+                      "actTitle":  "6º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 069/2017",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MORAIS EMP IMOBILIARIOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao e funcionamento da sede administrativa do Paco Municipal – Iguape/SP",
+                      "value":  "R$ 14.573,10",
+                      "term":  "04/03/2023 a 03/03/2024",
+                      "signatureDate":  "27/02/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n6º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 069/2017\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: MORAIS EMP IMOBILIARIOS LTDA\nOBJETO:Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao e funcionamento da\nsede administrativa do Paco Municipal – Iguape/SP.\nVALOR: R$ 14.573,10 (catorze mil, quinhentos e setenta e tres reais e dez centavos) mensais.\nDATA: 27/02/2023\nProcesso de Dispensa de Licitacao nº 107/2017\nVIGENCIA: 04/03/2023 a 03/03/2024",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada",
+                                    "Sem numero principal identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "13º TERMO ADITIVO AO CONTRATO Nº 230/2017",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "230/2017",
+                      "processNumber":  "054/2017",
+                      "modality":  "Pregao Presencial n°. 054/2017",
+                      "contractor":  "FENICIA CURSOS TREINAMENTOS E CAPACITACAO LTDA - ME",
+                      "cnpj":  "",
+                      "object":  "Constitui objeto do presente termo a prorrogacao da vigencia do contrato 230/2017, referente a contratacao de empresa especializada para oferta de profissionais qualificados para ministrar oficinas para idosos, adolescentes e familias usuarios dos servicos do CRAS, bem como para cadastradores para o CADUNICO, e para execucao do programa “ACESSUAIS” em atendimento aos programas do Governo Federal, no Municipio de Iguape. Pregao Presencial n°. 054/2017",
+                      "value":  "R$ 44.930,00",
+                      "term":  "do contrato 230/2017, referente a contratacao de empresa",
+                      "signatureDate":  "24/02/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "13º TERMO ADITIVO AO CONTRATO Nº 230/2017\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: FENICIA CURSOS TREINAMENTOS E CAPACITACAO LTDA - ME\nOBJETO: Constitui objeto do presente termo a prorrogacao da vigencia do contrato 230/2017, referente a contratacao de empresa\nespecializada para oferta de profissionais qualificados para ministrar oficinas para idosos, adolescentes e familias usuarios dos servicos\ndo CRAS, bem como para cadastradores para o CADUNICO, e para execucao do programa “ACESSUAIS” em atendimento aos\npro",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

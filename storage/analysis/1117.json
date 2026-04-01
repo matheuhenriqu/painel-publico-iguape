@@ -1,0 +1,127 @@
+﻿{
+    "diaryId":  "1117",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:28",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_999_12080634.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_999_12080634.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 72.276,93"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "428/2025",
+                      "modality":  "EDITAL CHAMADA PUBLICA Nº: 004/2025",
+                      "contractor":  "ESFERA SAUDE LTDA",
+                      "cnpj":  "",
+                      "object":  "EDITAL CHAMADA PUBLICA Nº: 004/2025 Credenciamento para a contratacao empresa de medicos plantonistas, medicos para Saude da Familia, medicos especialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTA OCUPACIONAL, FONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de Saude de Iguape, bem como todos os locais de atendimento que a compoe, pelo periodo de 12 meses",
+                      "value":  "R$ 2.125,00",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 428/2025\nEDITAL CHAMADA PUBLICA Nº: 004/2025\n\nCredenciamento para a contratacao empresa de medicos plantonistas, medicos para Saude da Familia, medicos especialistas (G.O,\nORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTA OCUPACIONAL, FONOAUDIOLOGO E\nNEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de Saude de Iguape, bem como todos os locais de atendimento que a\ncompoe, pelo periodo de 12 meses.\nINTERESSADOS: SECRETARIA ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO 129/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "129/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "OLIVEIRA ENGENHARIA LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para execucao de dimensionamento e distribuicao eletrica para o setor de Pronto Atendimento da Unidade Mista, na Rua Latif Correa, 92-196, Centro – neste Municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "AO CONTRATO 129/2024",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO 129/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: OLIVEIRA ENGENHARIA LTDA\nCONTRATO N°: 129/2024\nOBJETO: Contratacao de empresa especializada para execucao de dimensionamento e distribuicao eletrica para o setor de Pronto Atendimento\nda Unidade Mista, na Rua Latif Correa, 92-196, Centro – neste Municipio de Iguape/SP.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "7º TERMO ADITIVO AO PRORROGACAO AO CONTRATO 23/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "023/2021",
+                      "processNumber":  "12/2021",
+                      "modality":  "Pregao Presencial nº 12/2021",
+                      "contractor":  "CECAM – CONSULTORIA ECONOMICA, CONTABIL E ADMINISTRATIVA MUNICIPAL LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para cessao de direito de uso de sotfwares (modulos) de gestao publica, nas areas de ajuizamento eletronico (procuradoria), administracao de pessoal, almoxarifado, siafic, controle interno, portal da transparencia, compras e licitacoes, protocolo, frotas, patrimonio, IPTU e ITBI, IPTU E ITBI web, obras, ISS, ISS web, ISS eletronico e nota fiscal eletronica, saude e cemiterio, envolvendo conversao, migracao, implantacao dos modulos e capacitacao dos usuarios. . Pregao Presencial nº 12/2021",
+                      "value":  "R$ 70.151,93",
+                      "term":  "30 (trinta) dias – periodo de 06/06/2025 a 05/07/2025.",
+                      "signatureDate":  "04/06/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "7º TERMO ADITIVO AO PRORROGACAO AO CONTRATO 23/2021\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\n\nCONTRATADA: CECAM – CONSULTORIA ECONOMICA, CONTABIL E ADMINISTRATIVA MUNICIPAL LTDA\n\nCONTRATO N°: 023/2021\n\nOBJETO: Contratacao de empresa especializada para cessao de direito de uso de sotfwares (modulos) de gestao publica, nas areas de\n\najuizamento eletronico (procuradoria), administracao de pessoal, almoxarifado, siafic, controle interno, portal da transparencia, compras e\n\nlicitacoes, protocolo, frotas, patrimonio, IPTU e ITB",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

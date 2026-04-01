@@ -1,0 +1,57 @@
+﻿{
+    "diaryId":  "1048",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:39",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_extra_070_13071451.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_extra_070_13071451.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade",
+                     "rescisao"
+                 ],
+    "summary":  {
+                    "pageCount":  12,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE REABERTURA DE EDITAL",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "001/2025",
+                      "modality":  "CHAMADA PUBLICA nº 001/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "AVISO DE REABERTURA DE EDITAL\n\n PREFEITURA MUNICIPAL DE IGUAPE\n\n AVISO DE REABERTURA DE EDITAL\n CHAMADA PUPLICA - CREDENCIAMENTO DE INSTITUICOES FINANCEIRAS\n\nEncontra-se REABERTO na Prefeitura Municipal de Iguape, a CHAMADA PUBLICA nº 001/2025, cujo objeto e o Credenciamento de Instituicao\nFinanceira para recebimento de arrecadacao Municipal, no padrao Febraban, conforme descricao e especificacoes relacionados no anexo I,\nparte integrante deste edital.\n\nAs Instituicoes Financeiras interessadas ao credenciamento dev",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

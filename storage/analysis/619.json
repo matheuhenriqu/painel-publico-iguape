@@ -1,0 +1,19 @@
+﻿{
+    "diaryId":  "619",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:46",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/1d3134ec70679b93840a5c125e8ae90c.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/1d3134ec70679b93840a5c125e8ae90c.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  0,
+                    "itemCount":  0,
+                    "totalValue":  "R$ 0,00",
+                    "error":  "Não é possível associar o argumento ao parâmetro \u0027Items\u0027 porque ele é uma matriz vazia."
+                },
+    "items":  [
+
+              ]
+}

@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "773",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:17",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/65894807e26d3f29c367cdaae90673f0.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/65894807e26d3f29c367cdaae90673f0.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 666.229,91"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE SUPRESSAO E ACRESCIMO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para obra e manutencao da Escola Municipal Profª Zely Alves Fortes, localizada na Avenida Vereador Manoel Goncalvs Pires, nº 205 – Rocio – Iguape/SP. TOMADA DE PRECO Nº 005/2023",
+                      "value":  "R$ 666.229,91",
+                      "term":  "",
+                      "signatureDate":  "05/03/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE SUPRESSAO E ACRESCIMO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE C\n\nCONTRATADA: CIACAN ENGENHARIA LTDA\n\nCONTRATON°: 060/2023\n\nOBJETO: Contratacao de Empresa especializada para obra e manutencao da Escola Municipal Profª Zely Alves Fortes, localizada na Avenida Vereador\n\nManoel Goncalvs Pires, nº 205 – Rocio – Iguape/SP.\n\nTOMADA DE PRECO Nº 005/2023\n\nDATA: 05/03/2024\n\nVALOR: Corresponde ao valor de R$ R$ 624.511,68 (seiscentos e vinte e quatro mil, quinhentos e onze reais e sessenta e oito centavos) sendo",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

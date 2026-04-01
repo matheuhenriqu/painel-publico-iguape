@@ -1,0 +1,164 @@
+﻿{
+    "diaryId":  "436",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:23",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/f4c5e979a02b9f9e186a733cf44bafa2.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/f4c5e979a02b9f9e186a733cf44bafa2.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  70,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 118.698,96"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 037/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  68,
+                      "contractNumber":  "037/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ENGETEC ENGENHARIA EIRELI - ME",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para Obra de Reassentamento de pavimentacao em lajotas de concreto no Bairro da Barra do Ribeira, conforme convenio nº 100306/2021 – celebrado com a Secretaria de desenvolvimento Regional e o Municipio de Iguape Tomada de Precos - n°. 008/2021",
+                      "value":  "",
+                      "term":  "Prazo de vigencia - 01/01/2023 a 02/03/2023 – 60 (sessenta) dias, e o prazo da execucao do servico -02/12/2022 a",
+                      "signatureDate":  "24/11/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 037/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ENGETEC ENGENHARIA EIRELI - ME\nCONTRATO N°: 037/2021\nOBJETO: Contratacao de Empresa Especializada para\nObra de Reassentamento de pavimentacao em lajotas de concreto no Bairro da Barra do Ribeira, conforme convenio nº 100306/2021 –\ncelebrado com a Secretaria de desenvolvimento Regional e o Municipio de Iguape\nTomada de Precos - n°. 008/2021\nDATA: 24/11/2022\nVIGENCIA: Prazo de vigencia - 01/01/2023 a 02/03/2023 – 60 (sessen",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "4º TERMO ADITIVO AO CONTRATO N.º 066/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  68,
+                      "contractNumber":  "066/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ENGETEC ENGENHARIA EIRELI - ME",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para execucao de obra de pavimentacao asfaltica no Bairro Jardim Primavera, conforme convenio nº 100903/2021,celebrado entre a Secretaria de Desenvolvimento Regional do Estado de Sao Paulo e o municipio de Iguape/SP. Tomada de Precos - n°. 013/2021",
+                      "value":  "",
+                      "term":  "Prazo de vigencia - 22/12/2022 a 22/03/2023 – 90 (noventa) dias, e o prazo da execucao do servico -23/11/2022 a",
+                      "signatureDate":  "22/11/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "4º TERMO ADITIVO AO CONTRATO N.º 066/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ENGETEC ENGENHARIA EIRELI - ME\nCONTRATO N°: 066/2021\nOBJETO: Contratacao de Empresa Especializada para execucao de obra de pavimentacao asfaltica no Bairro Jardim Primavera,\nconforme convenio nº 100903/2021,celebrado entre a Secretaria de Desenvolvimento Regional do Estado de Sao Paulo e o municipio\nde Iguape/SP.\nTomada de Precos - n°. 013/2021\nDATA: 22/11/2022\nVIGENCIA: Prazo de vigencia - 22/12/2022 a 22/03/2023 – 90 (noventa) ",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "4º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO – CONTRATO Nº 047/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  68,
+                      "contractNumber":  "047/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "OLIVEIRA ENGENHARIA EIRELI-EPP",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para obra de reforma/Ampliacao do Predio que abriga o Projeto “Fazendo Acontecer”, conforme convenio n° 100328/2021, celebrado entre o Estado de Sao Paulo, por meio da Secretaria de Desenvolvimento Regional e o municipio de Iguape/SP Tomada de Precos - n°. 007/2021",
+                      "value":  "R$118.698,96",
+                      "term":  "",
+                      "signatureDate":  "28/11/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "4º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO – CONTRATO Nº 047/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: OLIVEIRA ENGENHARIA EIRELI-EPP\nCONTRATO N°: 047/2021\nOBJETO: Contratacao de Empresa Especializada para obra de reforma/Ampliacao do Predio que abriga o Projeto “Fazendo Acontecer”,\nconforme convenio n° 100328/2021, celebrado entre o Estado de Sao Paulo, por meio da Secretaria de Desenvolvimento Regional e o\nmunicipio de Iguape/SP\nTomada de Precos - n°. 007/2021\nDATA: 28/11/2022\nVALOR: Reequilibr",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "5º TERMO ADITIVO DE PRAZO – CONTRATO 040/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  68,
+                      "contractNumber":  "040/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ENGETEC ENGENHARIA EIRELI - ME",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para obra do predio da escola Vaz Caminha, neste municipio de Iguape/SP Tomada de Precos - n°. 009/2021",
+                      "value":  "",
+                      "term":  "Execucao 90 (noventa) dias periodo de 03/12/2022 a 03/03/2023 e Vigencia do contrato 90 (noventa) dias periodo de",
+                      "signatureDate":  "24/11/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "5º TERMO ADITIVO DE PRAZO – CONTRATO 040/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ENGETEC ENGENHARIA EIRELI - ME\nCONTRATO N°: 040/2021\nOBJETO: Contratacao de Empresa Especializada para obra do predio da escola Vaz Caminha, neste municipio de Iguape/SP\nTomada de Precos - n°. 009/2021\nDATA: 24/11/2022\nVIGENCIA: Execucao 90 (noventa) dias periodo de 03/12/2022 a 03/03/2023 e Vigencia do contrato 90 (noventa) dias periodo de\n03/01/2023 a 03/04/2023",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

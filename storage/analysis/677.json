@@ -1,0 +1,188 @@
+﻿{
+    "diaryId":  "677",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:36",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/007449481e86c6fd7eeca5b702629f87.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/007449481e86c6fd7eeca5b702629f87.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  5,
+                    "totalValue":  "R$ 3.273.169,90"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:131/2023.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "1/2023",
+                      "processNumber":  "050/2023",
+                      "modality":  "Pregao Presencial n°. 050/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos pelo periodo de 12 (doze) meses visando contratacoes futuras para confeccao de Materiais Graficos, divulgacao e impressao para atender diversas Secretarias e Departamentos da Prefeitura Municipal de Iguape/SP. Pregao Presencial n°. 050/2023",
+                      "value":  "R$ 1.693.000,00",
+                      "term":  "Periodo de 26/10/2023 a 25/10/2024-12 (doze) meses.",
+                      "signatureDate":  "30/10/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:131/2023.\nOBJETO: Registro de Precos pelo periodo de 12 (doze) meses visando contratacoes futuras para confeccao de Materiais Graficos, divulgacao e\nimpressao para atender diversas Secretarias e Departamentos da Prefeitura Municipal de Iguape/SP.\nPregao Presencial n°. 050/2023\nDATA DA ASSINATURA: 30/10/2023\nVIGENCIA: Periodo de 26/10/2023 a 25/10/2024-12 (doze) meses.\nVALOR: R$ 1.693.000,00 (um milhao, seiscentos e noventa e tres mil reais)",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:132/2023.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "2/2023",
+                      "processNumber":  "050/2023",
+                      "modality":  "Pregao Presencial n°. 050/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos pelo periodo de 12 (doze) meses visando contratacoes futuras para confeccao de Materiais Graficos, divulgacao e impressao para atender diversas Secretarias e Departamentos da Prefeitura Municipal de Iguape/SP. Pregao Presencial n°. 050/2023",
+                      "value":  "R$ 55.197,00",
+                      "term":  "Periodo de 26/10/2023 a 25/10/2024 - 12 (doze) meses.",
+                      "signatureDate":  "31/10/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:132/2023.\nOBJETO: Registro de Precos pelo periodo de 12 (doze) meses visando contratacoes futuras para confeccao de Materiais Graficos, divulgacao e\nimpressao para atender diversas Secretarias e Departamentos da Prefeitura Municipal de Iguape/SP.\nPregao Presencial n°. 050/2023\nDATA DA ASSINATURA: 31/10/2023\nVIGENCIA: Periodo de 26/10/2023 a 25/10/2024 - 12 (doze) meses.\nVALOR: R$ 55.197,00 (cinquenta e cinco mil, cento e noventa e sete reais)",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:133/2023.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "3/2023",
+                      "processNumber":  "050/2023",
+                      "modality":  "Pregao Presencial n°. 050/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos pelo periodo de 12 (doze) meses visando contratacoes futuras para confeccao de Materiais Graficos, divulgacao e impressao para atender diversas Secretarias e Departamentos da Prefeitura Municipal de Iguape/SP. Pregao Presencial n°. 050/2023",
+                      "value":  "R$ 274.272,50",
+                      "term":  "Periodo de 26/10/2023 a 25/10/2024 -12 (doze) meses.",
+                      "signatureDate":  "- 30/10/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:133/2023.\nOBJETO: Registro de Precos pelo periodo de 12 (doze) meses visando contratacoes futuras para confeccao de Materiais Graficos, divulgacao e\nimpressao para atender diversas Secretarias e Departamentos da Prefeitura Municipal de Iguape/SP.\nPregao Presencial n°. 050/2023\nDATA DA ASSINATURA:- 30/10/2023\nVIGENCIA: Periodo de 26/10/2023 a 25/10/2024 -12 (doze) meses.\nVALOR: R$ 274.272,50 (duzentos e setenta e quatro mil, duzentos e setenta e dois reais e cinquenta centavos)",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:134/2023.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "4/2023",
+                      "processNumber":  "050/2023",
+                      "modality":  "Pregao Presencial n°. 050/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos pelo periodo de 12 (doze) meses visando contratacoes futuras para confeccao de Materiais Graficos, divulgacao e impressao para atender diversas Secretarias e Departamentos da Prefeitura Municipal de Iguape/SP. Pregao Presencial n°. 050/2023",
+                      "value":  "R$ 310.300,00",
+                      "term":  "Periodo de 26/10/2023 a 25/10/2024 - 12 (doze) meses.",
+                      "signatureDate":  "30/10/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:134/2023.\nOBJETO: Registro de Precos pelo periodo de 12 (doze) meses visando contratacoes futuras para confeccao de Materiais Graficos, divulgacao e\nimpressao para atender diversas Secretarias e Departamentos da Prefeitura Municipal de Iguape/SP.\nPregao Presencial n°. 050/2023\nDATA DA ASSINATURA: 30/10/2023\nVIGENCIA: Periodo de 26/10/2023 a 25/10/2024 - 12 (doze) meses.\nVALOR: R$ 310.300,00 (trezentos e dez mil e trezentos reais)",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:135/2023.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "5/2023",
+                      "processNumber":  "052/2023",
+                      "modality":  "Pregao Presencial n°. 052/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos pelo periodo de 12 (doze) meses para contratacao de empresa especializada para locacao de onibus, micro onibus e vans para atender as Secretarias e Departamentos deste municipio de Iguape /SP Pregao Presencial n°. 052/2023",
+                      "value":  "R$ 940.400,40",
+                      "term":  "Periodo de 30/10/2023 a 29/10/2024- 12 (doze) meses.",
+                      "signatureDate":  "31/10/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:135/2023.\nOBJETO: Registro de Precos pelo periodo de 12 (doze) meses para contratacao de empresa especializada para locacao de onibus, micro onibus e\nvans para atender as Secretarias e Departamentos deste municipio de Iguape /SP\nPregao Presencial n°. 052/2023\nDATA DA ASSINATURA: 31/10/2023\nVIGENCIA:Periodo de 30/10/2023 a 29/10/2024- 12 (doze) meses.\nVALOR: R$ 940.400,40 (novecentos e quarenta mil, quatrocentos reais e quarenta centavos)",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  }
+              ]
+}

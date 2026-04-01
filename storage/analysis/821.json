@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "821",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:08",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_759_23073539.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_759_23073539.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 131.294,62"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE PRORROGACAO AO CONTRATO Nº 038/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "038/2022",
+                      "processNumber":  "020/2022",
+                      "modality":  "Normal ou Magisterio Superior/Licenciatura Plena em Pedagogia nao conta ponto na prova de titulos, de acordo com o",
+                      "contractor":  "1 DOC TECNOLOGIA S.A",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada na prestacao de servicos em sistema informatizado integrado e oficial de comunicacao interna e externa, gestao documental, central de atendimento com modulos, memorando, circular, protocolo eletronico, oficio eletronico, chamado tecnico, processo administrativo, aprovacao de projetos de construcao e parcelamento de solo e funcionalidades, pelo periodo de 12 (doze) meses. PREGAO PRESENCIAL n°. 020/2022",
+                      "value":  "R$ 131.294,62",
+                      "term":  "Periodo de 20/05/2024 a 19/05/2025.",
+                      "signatureDate":  "12/05/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE PRORROGACAO AO CONTRATO Nº 038/2022\n\nCONTRATANTE: MUNICIPIO DE IGUAPE C\n\nCONTRATADA: 1 DOC TECNOLOGIA S.A.\n\nCONTRATO N°: 048/2021\n\nOBJETO: Contratacao de Empresa Especializada na prestacao de servicos em sistema informatizado integrado e oficial de comunicacao interna e\n\nexterna, gestao documental, central de atendimento com modulos, memorando, circular, protocolo eletronico, oficio eletronico, chamado tecnico,\n\nprocesso administrativo, aprovacao de projetos de construcao e parcelamento de solo ",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

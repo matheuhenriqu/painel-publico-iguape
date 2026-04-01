@@ -1,0 +1,128 @@
+﻿{
+    "diaryId":  "1069",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:36",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_958_05104847.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_958_05104847.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  25,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 102, DE 04 DE ABRIL DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "139/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "EMPRESA KNAY ADMINISTRACAO E CONSTRUCOES EIRELI-ME",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-infraestrutura-obras",
+                                                       "estadual-turismo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Infraestrutura Urbana e Obras",
+                                                         "Secretaria de Turismo e Viagens"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 102, DE 04 DE ABRIL DE 2025\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas pelo\nartigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\n\n Designa, Ricardo de Oliveira Ragni de Castro, Secretario Municipal de Infraestrutura Urbana e Obras, inscrito no CPF/MF nº. 293.199.448-\n 06, para exercer a funcao de gestor do Contrato 139",
+                      "completeness":  "baixa",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE ABERTURA DE EDITAL",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  5,
+                      "contractNumber":  "",
+                      "processNumber":  "002/2025",
+                      "modality":  "EDITAL CHAMADA PUBLICA N° 002/2025",
+                      "contractor":  "",
+                      "cnpj":  "45.550.167/0001-64",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "ou insolvencia judicialmente decretadas",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n AVISO DE ABERTURA DE EDITAL\n CHAMADA PUPLICA -\n\nEncontra-se ABERTO na Prefeitura Municipal de Iguape, a CHAMADA PUBLICA nº 002/2025, cujo objeto e o Credenciamento de Empresas para a\nPrestacao dos Servicos de Poda com equipe manual (ate 3,5m), Poda com caminhao Munck (com cesto aereo) e rocada manual com\nrastelamento e ensacamento de residuos vegetais em estradas vicinais e areas publicas nao abrangidas por contrato de limpeza urbana no\nMunicipio de Iguape/SP.\n\nAs empresas interessadas ao credenciamento d",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "13",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  13,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CONTRATO Nº",
+                      "cnpj":  "",
+                      "object":  "licitado, devendo ser observado o disposto no art. 117 da Lei nº 14.133/21. 9.1.1- Sendo: a) gestor do contrato: ....................................... b) fiscal (is) :......................................... CLAUSULA DECIMA - DO FORO 10.1-Fica eleito o Foro da Comarca de Iguape para dirimir duvidas ou questoes oriundas do presente contrato",
+                      "value":  "",
+                      "term":  "s processuais, conforme regras",
+                      "signatureDate":  "_______________________________",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "13\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – Nº 958 Sabado, 05 de Abril de 2025\n\nCLAUSULA NONA – DO GESTOR E FISCAL\n9.1-A gestao do contrato sera realizada pela Secretaria Municipal de Infraestrutura Urbana e, sendo esse responsavel atraves de servidores designado\nmediante portaria, pelo recebimento e fiscalizacao do objeto licitado, devendo ser observado o disposto no art. 117 da Lei nº 14.133/21. 9.1.1- Sendo:\na) gestor do contrato: .......................................\nb) fiscal (is) :.........................",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

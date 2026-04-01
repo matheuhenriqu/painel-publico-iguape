@@ -1,0 +1,120 @@
+﻿{
+    "diaryId":  "307",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:44",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/f47ddac359b9c720278107d744f79426.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/f47ddac359b9c720278107d744f79426.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 66.601,39"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO DE SUPRESSAO AO CONTRATO Nº 002/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "002/2022",
+                      "processNumber":  "001/2022",
+                      "modality":  "PREGAO PRESENCIAL Nº 001/2022",
+                      "contractor":  "COOPERATIVA DE TRABALHADORES DE TRANSPORTE ESCOLAR DE IGUAPE",
+                      "cnpj":  "",
+                      "object":  "Constitui o objeto do presente termo, o Anexo I – Termo de Ref erencia do Edital – Item 1.2 – Lote 01, por veiculo Kombi/Van Escolar, nos bairros rurais e urbanos em f ornecimento de 53 (cinquenta e tres) veiculos, f ica suprimido 17 (dezessete) veiculos, permanecendo apenas 36. (trinta e seis) veiculos para a execucao de todas as rotas, com f undamento no artigo 65 inciso II alinea b da lei8.666/93 PREGAO PRESENCIAL Nº 001/2022",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "11/05/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO DE SUPRESSAO AO CONTRATO Nº 002/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COOPERATIVA DE TRABALHADORES DE TRANSPORTE ESCOLAR DE IGUAPE\nCONTRATO N°: 002/2022\nOBJETO: Constitui o objeto do presente termo, o Anexo I – Termo de Ref erencia do Edital – Item 1.2 – Lote 01, por veiculo\nKombi/Van Escolar, nos bairros rurais e urbanos em f ornecimento de 53 (cinquenta e tres) veiculos, f ica suprimido 17\n(dezessete) veiculos, permanecendo apenas 36. (trinta e seis) veiculos para a execucao de todas ",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 040/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "040/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "cnpj":  "",
+                      "object":  "lote (01) Reforma da Creche Antonia de Lima Vitorio no Bairro do Rocio. TOMADA DE PRECOS Nº 002/2022",
+                      "value":  "R$ 66.601,39",
+                      "term":  "03 (tres) meses a contar da data da ciencia da A.I.S.",
+                      "signatureDate":  "19/05/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CIACAN ENGENHARIA EIRELI\nCONTRATO N°: 040/2022\nOBJETO: lote (01) Reforma da Creche Antonia de Lima Vitorio no Bairro do Rocio.\nTOMADA DE PRECOS Nº 002/2022\nDATA: 19/05/2022\nVALOR: Pagara a contratada o valor de R$ 66.601,39 (sessenta e seis mil, seiscentos e um reais e trinta e nove\ncentavos)\nVIGENCIA: 03 (tres) meses a contar da data da ciencia da A.I.S.",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 041/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "041/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "cnpj":  "",
+                      "object":  "lote (02) - Reforma da Creche Maria Lourenco da Silva no Bairro do Rocio",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CIACAN ENGENHARIA EIRELI\nCONTRATO N°: 041/2022\nOBJETO: lote (02) - Reforma da Creche Maria Lourenco da Silva no Bairro do Rocio.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

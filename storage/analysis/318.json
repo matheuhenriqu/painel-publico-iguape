@@ -1,0 +1,52 @@
+﻿{
+    "diaryId":  "318",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:42",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/4bd6d2f8733025549c31e94c2297e926.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/4bd6d2f8733025549c31e94c2297e926.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "",
+                      "processNumber":  "63/2020",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 34/2022 - EDITAL Nº: 50/2022",
+                      "contractor":  "A.C.DOS SANTOS MOVEIS",
+                      "cnpj":  "",
+                      "object":  "AQUISICAO DE MOBILIARIOS, EQUIPAMENTOS E MATERIAIS PERMANENTES, DESTINADOS A CRECHE MUNICIPAL, LOCALIZADA NA AVENIDA VEREADOR MANOEL GONCALVES PIRES S/N - BAIRRO ROCIO, NOS TERMOS DO CONVENIO CELEBRADO ENTRE O ESTADO DE SAO PAULO, A FUNDACAO PARA O DESENVOLVIMENTO DA EDUCACAO - FDE E O MUNICIPIO DE IGUAPE/ SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 63/2020\nAQUISICAO DE MOBILIARIOS, EQUIPAMENTOS E MATERIAIS PERMANENTES, DESTINADOS A CRECHE\nMUNICIPAL, LOCALIZADA NA AVENIDA VEREADOR MANOEL GONCALVES PIRES S/N - BAIRRO ROCIO, NOS\nTERMOS DO CONVENIO CELEBRADO ENTRE O ESTADO DE SAO PAULO, A FUNDACAO PARA O\nDESENVOLVIMENTO DA EDUCACAO - FDE E O MUNICIPIO DE IGUAPE/ SP.\nPR-G - PREGAO PRESENCIAL - 34/2022 - EDITAL Nº: 50/2022\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento\nlicitatorio e a class",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

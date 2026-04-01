@@ -1,0 +1,53 @@
+﻿{
+    "diaryId":  "1245",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:08",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1091_30074217.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1091_30074217.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 60.075,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "CONTRATO Nº 167/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "167/2025",
+                      "processNumber":  "789/2025",
+                      "modality":  "",
+                      "contractor":  "COMERCIO DE PEDRAS ELDORADO LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa para a aquisicao de 675 toneladas de bica corrida de quartzo, destinadas a execucao de manutencoes precarias e tapa buracos na estrada do Coveiro, em virtude das mas condicoes de trafegabilidade observadas em diversos trechos",
+                      "value":  "R$ 60.075,00",
+                      "term":  "21/10/2025 ate 21/12/2026",
+                      "signatureDate":  "21/10/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATO Nº 167/2025\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COMERCIO DE PEDRAS ELDORADO LTDA\nCNPJ: XX.275.625/0001-XX\nPROCESSO ADMINISTRATIVO Nº: 789/2025 – Artigo 75, II da Lei Federal 14.133/21.\nOBJETO: Contratacao de empresa para a aquisicao de 675 toneladas de bica corrida de quartzo, destinadas a execucao de manutencoes precarias e tapa\nburacos na estrada do Coveiro, em virtude das mas condicoes de trafegabilidade observadas em diversos trechos.\nDATA: 21/10/2025\nVIGENCIA: 21/10/2025 ate 21/12/20",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "393",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:29",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/c9af14e58e03c31bbf3c09b5c453438a.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/c9af14e58e03c31bbf3c09b5c453438a.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  10,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "46/2022",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 31/2022 - EDITAL Nº: 45/2022",
+                      "contractor":  "JORNAL GAZETA DE SP LTDA-EPP",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES, PARA CONTRATACAO DE JORNAL DIARIO DE GRANDE CIRCULACAO REGIONAL, PARA PRESTACAO DE SERVICOS DE PUBLICACAO DE ATOS OFICIAIS DA PREFEITURA MUNICIPAL DE IGUAPE",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n PROCESSO Nº: 46/2022\n\nREGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES, PARA CONTRATACAO DE JORNAL DIARIO DE GRANDE\nCIRCULACAO REGIONAL, PARA PRESTACAO DE SERVICOS DE PUBLICACAO DE ATOS OFICIAIS DA PREFEITURA MUNICIPAL\nDE IGUAPE .\nPR-G - PREGAO PRESENCIAL - 31/2022 - EDITAL Nº: 45/2022\nINTERESSADOS: GABINETE DO PREFEITO E DEPENDENCIAS .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a\nclassificacao dos itens abaixo.\nFORNECEDOR: JORNAL GA",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

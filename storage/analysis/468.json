@@ -1,0 +1,126 @@
+﻿{
+    "diaryId":  "468",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:16",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/2ea13fbbe81461acec04ca9e1b3499ed.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/2ea13fbbe81461acec04ca9e1b3499ed.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 10.488.279,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO AO CONTRATO 194/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "194/2022",
+                      "processNumber":  "039/2021",
+                      "modality":  "PREGAO PRESENCIAL Nº: 039/2021",
+                      "contractor":  "SALETTI INDUSTRIA E COMERCIO E ARTEFATOS DE FIBRA LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para locacao de banheiros quimicos tipo convencional, standart e pne, a serem utilizados nos eventos do municipio de Iguape, pelo periodo de 60 (sessenta) dias, o presente Termo tera o acrescimo de servicos ao contrato inicial. PREGAO PRESENCIAL Nº: 039/2021",
+                      "value":  "R$ 6.780,00",
+                      "term":  "Contados da data da ciencia na A.I.S. autorizacao de inicio dos servicos.",
+                      "signatureDate":  "05/01/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO AO CONTRATO 194/2022\nCONTRATADA: SALETTI INDUSTRIA E COMERCIO E ARTEFATOS DE FIBRA LTDA\nCONTRATO N°: 194/2022 – Oriundo da Ata de Registro de Precos nº 094/2021\nOBJETO: Contratacao de empresa especializada para locacao de banheiros quimicos tipo convencional, standart e pne, a serem\nutilizados nos eventos do municipio de Iguape, pelo periodo de 60 (sessenta) dias, o presente Termo tera o acrescimo de servicos ao\ncontrato inicial.\nPREGAO PRESENCIAL Nº: 039/2021\nDATA:05/01/2023\nVALOR: O valor Global ",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:001/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "1/2023",
+                      "processNumber":  "067/2022",
+                      "modality":  "Pregao Presencial n°. 067/2022",
+                      "contractor":  "o valor global de R$ 27.216,50 (vinte e sete mil, duzentos e dezesseis reais e cinquenta centavos)",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos pelo periodo de 12 (doze) meses para aquisicao de artigos de cama, mesa e banho para atender as Secretarias de Saude e Assistencia e Promocao Social Pregao Presencial n°. 067/2022",
+                      "value":  "R$ 27.216,50",
+                      "term":  "04/01/2023 a 03/01/2024",
+                      "signatureDate":  "04/01/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:001/2023\nOBJETO: Registro de Precos pelo periodo de 12 (doze) meses para aquisicao de artigos de cama, mesa e banho\npara atender as Secretarias de Saude e Assistencia e Promocao Social\nPregao Presencial n°. 067/2022.\nDATA: 04/01/2023\nVIGENCIA: 04/01/2023 a 03/01/2024\nVALOR: Pagara a contratada o valor global de R$ 27.216,50 (vinte e sete mil, duzentos e dezesseis reais e cinquenta centavos).",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:002/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "2/2023",
+                      "processNumber":  "067/2022",
+                      "modality":  "Pregao Presencial n°. 067/2022",
+                      "contractor":  "o valor global de R$ 10.454.282,50 (dez milhoes, quatrocentos e cinquenta e quatro mil, duzentos e",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos pelo periodo de 12 (doze) meses para aquisicoes futuras de materiais de acabamento, pintura, eletrica, hidraulica e alvenaria, para manutencao dos predios da Prefeitura Municipal de Iguape/SP Pregao Presencial n°. 067/2022",
+                      "value":  "R$ 10.454.282,50",
+                      "term":  "10/01/2023 a 09/01/2024",
+                      "signatureDate":  "10/01/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:002/2023\nOBJETO: Registro de Precos pelo periodo de 12 (doze) meses para aquisicoes futuras de materiais de acabamento, pintura, eletrica,\nhidraulica e alvenaria, para manutencao dos predios da Prefeitura Municipal de Iguape/SP\nPregao Presencial n°. 067/2022.\nDATA: 10/01/2023\nVIGENCIA: 10/01/2023 a 09/01/2024\nVALOR: Pagara a contratada o valor global de R$ 10.454.282,50 (dez milhoes, quatrocentos e cinquenta e quatro mil, duzentos e\noitenta e dois reais e cinquenta centavos).",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

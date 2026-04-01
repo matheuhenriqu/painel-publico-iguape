@@ -1,0 +1,190 @@
+﻿{
+    "diaryId":  "423",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:24",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/088239b119c024a703827a5292c4f21e.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/088239b119c024a703827a5292c4f21e.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  13,
+                    "itemCount":  5,
+                    "totalValue":  "R$ 1.740,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "Portaria de gestao do contrato 163/2022",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "163/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "3\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 02 – Nº 404 Quinta-feira, 10 de Novembro de 2022\nPaulo, no uso das atribuicoes que lhe sao conferidas pelo daretigJaon8e5i,rioncdiseo2IV02, d2a L2ei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Fernando Rorato, Coordenador Administrativo da Saude, titular da Cedula de Identidade RG nº 8.184.053-9\n SSP/SP, inscrito no CPF/MF nº 041.448.279-41, para exercer a funcao de Gestor do Contrato 163/2022 empresa C E C\n IMPORTACAO E COMERCIO DE PRODUT",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "Portaria de gestao do contrato 164/2022",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  4,
+                      "contractNumber":  "164/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Empresa CIRURGICA IZAMED LTDA – EPP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "4\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 02 – Nº 404 Quinta-feira, 10 de Novembro de 2022\n de JPaOneRiTroARdIeA2022 2\n\nArt. 1º - Designa, Fernando Rorato, Coordenador Administrativo da Saude, titular da Cedula de Identidade RG nº 8.184.053-9\n SSP/SP, inscrito no CPF/MF nº 041.448.279-41, para exercer a funcao de Gestor do Contrato 164/2022, Empresa\n CIRURGICA IZAMED LTDA – EPP.\n\nArt. 2º - Esta portaria entra em vigor na data de sua publicacao, revogadas as disposicoes em contrario.\n\n GABINETE DO PREFEITO\n\n WILSON ALM",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "Portaria de gestao do contrato 165/2022",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  5,
+                      "contractNumber":  "165/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Empresa FAC LICITA EIRELI -ME",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "5\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 02 – Nº 404 Quinta-feira, 10 de Novembro de 2022\n de Janeiro de 2022 2\n\n PORTARIA\n\nArt. 1º - Designa, Fernando Rorato, Coordenador Administrativo da Saude, titular da Cedula de Identidade RG nº 8.184.053-9\n SSP/SP, inscrito no CPF/MF nº 041.448.279-41, para exercer a funcao de Gestor do Contrato 165/2022, Empresa FAC\n LICITA EIRELI -ME.\n\nArt. 2º - Esta portaria entra em vigor na data de sua publicacao, revogadas as disposicoes em contrario.\n\n GABINETE DO PREFEITO\n\n WILSON ALME",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "Portaria de gestao do contrato 166/2022",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "166/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Empresa VALLEMED COMERCIAL EIRELI - EPP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "6\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 02 – Nº 404 Quinta-feira, 10 de Novembro de 2022\n de Janeiro de 2022 2\n\n PORTARIA\n\nArt. 1º - Designa, Fernando Rorato, Coordenador Administrativo da Saude, titular da Cedula de Identidade RG nº 8.184.053-9\n SSP/SP, inscrito no CPF/MF nº 041.448.279-41, para exercer a funcao de Gestor do Contrato 166/2022, Empresa\n VALLEMED COMERCIAL EIRELI - EPP.\n\nArt. 2º - Esta portaria entra em vigor na data de sua publicacao, revogadas as disposicoes em contrario.\n\n GABINETE DO PREFEITO\n\n W",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "CONTRATADA:CIRURGICA IZAMED LTDA",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  11,
+                      "contractNumber":  "164/2022",
+                      "processNumber":  "055/2022",
+                      "modality":  "PREGAO PRESENCIAL Nº: 055/2022",
+                      "contractor":  "CIRURGICA IZAMED LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de materiais de equipamentos de Fisioterapia para atender a Secretaria Municipal de Saude PREGAO PRESENCIAL Nº: 055/2022",
+                      "value":  "R$ 1.740,00",
+                      "term":  "60 (sessenta) dias,contados da data da assinatura.",
+                      "signatureDate":  "01/11/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATADA:CIRURGICA IZAMED LTDA\nCONTRATO N°: 164/2022\nOBJETO: Aquisicao de materiais de equipamentos de Fisioterapia para atender a Secretaria Municipal de Saude\nPREGAO PRESENCIAL Nº: 055/2022\nDATA:01/11/2022\nVALOR: Pagara a contratada o valor de R$ 1.740,00 (um mil, setecentos e quarenta reais).\nVIGENCIA: 60 (sessenta) dias,contados da data da assinatura.",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

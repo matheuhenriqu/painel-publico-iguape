@@ -1,0 +1,53 @@
+﻿{
+    "diaryId":  "798",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:11",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_736-assinado_17075035.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_736-assinado_17075035.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "6º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 045/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "045/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para execucao de obra de pavimentacao articulada de via de acesso que interliga o Centro Multiuso a de Turismo e Viagens e o municipio de Praia da Jureia, conforme convenio nº 000133/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria Iguape/SP. TOMADA DE PRECO: 004/2022",
+                      "value":  "",
+                      "term":  "90 (noventa) dias, periodo de 13/04/2024 a 11/07/2024.",
+                      "signatureDate":  "12/04/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "6º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 045/2022\n\nCONTRATANTE: MUNICIPIO DE IGUAPE C\n\nCONTRATADA: CIACAN ENGENHARIA EIRELI\n\nOBJETO: Contratacao de empresa especializada para execucao de obra de pavimentacao articulada de via de acesso que interliga o Centro Multiuso a\n de Turismo e Viagens e o municipio de\nPraia da Jureia, conforme convenio nº 000133/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria\n\nIguape/SP.\n\nTOMADA DE PRECO: 004/2022\n\nDATA:12/04/2024\n\nVIGENCIA: 90 (noventa) dias, periodo de 13/04/20",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

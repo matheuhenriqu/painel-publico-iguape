@@ -1,0 +1,236 @@
+﻿{
+    "diaryId":  "1304",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:57",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1131_10083612.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1131_10083612.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  11,
+                    "itemCount":  6,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 01,",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "220/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, retroagindo seus efeitos a 1º de janeiro de 2026, revogadas as disposicoes em",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 01,\n DE 09 DE JANEIRO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Luciano Pereira Viana, Secretario Municipal de Educacao, inscrito no CPF/MF nº. XXX.818.418-XX, para exercer\n a funcao de Gestor do Contrato nº 220/2025, e Muri",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "Portaria de gestao do contrato 213/2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "213/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, retroagindo seus efeitos a 1º de janeiro de 2026, revogadas as disposicoes em",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras",
+                                                       "federal-fnde"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras",
+                                                         "Fundo Nacional de Desenvolvimento da Educacao"
+                                                     ],
+                      "excerpt":  "2\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – Nº 1131 Sabado, 10 de Janeiro de 2026 - www.iguape.sp.gov.br\n\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Ricardo Oliveira Ragni de Castro Leite, Secretario Municipal de Infraestrutura Urbana e Obras , inscrito no\n CPF/MF nº. XXX.199.448-XX, para exercer a funcao de Gestor do Contrato nº 213/2025, e Diego Fernando Rodrigues, Engenheiro\n Civil, inscrito(a) no CPF/MF nº XXX.713.648.XX, para atua",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "Portaria de gestao do contrato 214/2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "214/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, retroagindo seus efeitos a 1º de janeiro de 2026, revogadas as disposicoes em",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-desenvolvimento-sustentavel",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "Art. 1º - 3\nArt. 2º -\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – Nº 1131 Sabado, 10 de Janeiro de 2026 - www.iguape.sp.gov.br\n\n PORTARIA\n\n Ficam designados Selma Xavier Pontes, Secretaria Desenvolvimento Sustentavel, inscrita no CPF/MF nº. XXX.362.768-XX, para exercer\n a funcao de Gestor do Contrato nº 214/2025, e Larissa Colaco Costa, Engenheiro Civil, inscrito(a) no CPF/MF nº XXX.705.388.XX, para\n atuar como Fiscal do mesmo instrumento contratual, empresas para a prestacao de servicos de limpeza urbana durante oper",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 06,",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "219/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-desenvolvimento-sustentavel",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 06,\n DE 09 DE JANEIRO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Ana Leticia Cardoso Costa, Assessor I, inscrito no CPF/MF nº. XXX.199.448-XX, para exercer a funcao de Gestor\n do Contrato nº 219/2025, e Victor Pereira de Mato",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "Portaria de gestao do contrato 221/2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  4,
+                      "contractNumber":  "221/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, retroagindo seus efeitos a 1º de janeiro de 2026, revogadas as disposicoes em",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "Art. 2º - 4\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – Nº 1131 Sabado, 10 de Janeiro de 2026 - www.iguape.sp.gov.br\n\n mesmo instrumento contratual, para a prestacao de servicos medicos plantonistas, Medicos para Saude da Familia, medicos especialistas\n (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTA OCUPACIONAL,\n FONOAUDIOLOGO E NEUROPEDIATRA).\n\n Esta Portaria entra em vigor na data de sua publicacao, retroagindo seus efeitos a 1º de janeiro de 2026, revogadas as disposicoes em\n con",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "ATA DE SEEXTSRSAATOO PUBLICA",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  11,
+                      "contractNumber":  "",
+                      "processNumber":  "013/2025",
+                      "modality":  "CHAMADA PUBLICA Nº 013/2025",
+                      "contractor":  "",
+                      "cnpj":  "24.006.302/0004-88",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "s do Agente de Contratacao e membros da Equipe de Apoio:",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "federal-agu",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ATA DE SEEXTSRSAATOO PUBLICA\nLicitacao: CHAMADA PUBLICA Nº 013/2025\nForma de Julgamento: tecnica e preco\nProcesso: 929/2025\nObjeto: Selecao de Entidade Privada, sem fins lucrativos, previamente qualificadas como Organizacao Social de Saude no ambito do\nmunicipio de Iguape/SP, para celebracao de Contrato de Gestao, visando o gerenciamento, operacionalizacao e execucao das acoes e\nservicos de saude no Pronto Atendimento, na Unidade Mista, na Unidade Basica de Saude, nas Unidades de Estrategia Saude da Fa mi",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

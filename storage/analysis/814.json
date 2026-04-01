@@ -1,0 +1,52 @@
+﻿{
+    "diaryId":  "814",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:09",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_752_10071948.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_752_10071948.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 2.771.810,84"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "6º TERMO ADITIVO DE PRORROGACAO AO CONTRATO Nº 035/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "035/2022",
+                      "processNumber":  "019/2022",
+                      "modality":  "PREGAO PRESENCIAL Nº 019/2022",
+                      "contractor":  "FRANKLIN CANGUSSU SAMPAIO EIRELI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada em fornecimento de profissionais na area da saude, para atendimentos na Estrategia de Saude da Familia, Unidade Mista e CAPS (Centro de Atendimento Psicossocial), no municipio de Iguape. PREGAO PRESENCIAL Nº 019/2022",
+                      "value":  "R$ 2.771.810,84",
+                      "term":  "12 (doze) meses – 09/05/2024 a 08/05/2025",
+                      "signatureDate":  "08/05/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "6º TERMO ADITIVO DE PRORROGACAO AO CONTRATO Nº 035/2022C\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: FRANKLIN CANGUSSU SAMPAIO EIRELI\nCONTRATO N°: 035/2022\nOBJETO: Contratacao de empresa especializada em fornecimento de profissionais na area da saude, para atendimentos na Estrategia de Saude da\nFamilia, Unidade Mista e CAPS (Centro de Atendimento Psicossocial), no municipio de Iguape.\nPREGAO PRESENCIAL Nº 019/2022\nVALOR: R$ 2.771.810,84 (dois milhoes, setecentos e setenta e um mil, oitocentos e dez reais e oitent",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,165 @@
+﻿{
+    "diaryId":  "1350",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:48",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1165_03075356.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1165_03075356.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  7,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 5.748,65"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 52,",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "047/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras",
+                                                       "federal-mec"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras",
+                                                         "Ministerio da Educacao"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 52,\n DE 27 DE FEVEREIRO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Ficam designados Ricardo Oliveira Ragni De Castro Leite, Secretario Municipal de Infraestrutura Urbana e Obras, inscrito no\n CPF/MF nº. XXX. 199.448-XX, para exercer ",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO AO CONTRATO nº 19/2026",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  6,
+                      "contractNumber":  "19/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ELIAS TEIXEIRA DE AGUIAR",
+                      "cnpj":  "",
+                      "object":  "Constitui objeto deste termo o acrescimo de servicos no percentual de 25% do valor do contrato, com fundamento no artigo 125 da Lei federal 14.133/2021, sendo que os servicos a serem prestados sao os seguintes “Operacao Verao Iguape Limpa” , em conformidade com o estudo tecnico preliminar e termo de referencia CHAMADA PUBLICA – Nº 014/2025",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO AO CONTRATO nº 19/2026 EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\n\nCONTRATADA: ELIAS TEIXEIRA DE AGUIAR\n\nCONTRATO N°: 19/2026\n\nCNPJ: 28.xxx.xxx/xxxx-96\n\nOBJETO: Constitui objeto deste termo o acrescimo de servicos no percentual de 25% do valor do contrato, com fundamento no artigo 125 da Lei federal\n\n14.133/2021, sendo que os servicos a serem prestados sao os seguintes “Operacao Verao Iguape Limpa” , em conformidade com o estudo tecnico\n\npreliminar e termo de referencia CHAMADA PUBLICA – Nº 014/2025",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "INEXIGIBILIDADE – 19/2026",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "",
+                      "processNumber":  "19/2026",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 173,57",
+                      "term":  "",
+                      "signatureDate":  "27/02/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "INEXIGIBILIDADE – 19/2026\n\nVALOR: O valor do presente: LOTE I – 50 (cinquenta) Turnos -Operacao de Limpeza de Verao, conforme especificados no estudo tecnico preliminar\n\ne termo de referencia, anexos deste edital - Valor unitario R$ 173,57 (cento e setenta e tres reais e cinquenta e sete centavos), sendo valor global de\n\nR$ 8.678,50 (oito mil, seiscentos e setenta e oito reais e cinquenta centavos).\n\nData: 27/02/2026",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 146/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  6,
+                      "contractNumber":  "146/2023",
+                      "processNumber":  "23/2023",
+                      "modality":  "PREGAO PRESENCIAL Nº 23/2023",
+                      "contractor":  "RONIE CARLOS GODOI",
+                      "cnpj":  "",
+                      "object":  "Prestacao de Servicos de empresa especializada para manutencao preventiva e corretiva com calibracao e teste de seguranca eletrica em equipamentos odontologicos das unidade de saude do municipio, atendendo a solicitacao da Secretaria Municipal de Saude, pelo periodo de 12 (doze) meses. PREGAO PRESENCIAL Nº 23/2023",
+                      "value":  "R$ 5.575,0783",
+                      "term":  "Permanecera valido por um periodo de 01(um) mes - 20/02/2026 a 19/03/2026.",
+                      "signatureDate":  "20/02/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 146/2023 EXTRATO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: RONIE CARLOS GODOI\nCNPJ – XX.801.088/0001-XX\nCONTRATO:N°:146/2023\nOBJETO Prestacao de Servicos de empresa especializada para manutencao preventiva e corretiva com calibracao e teste de seguranca eletrica em\nequipamentos odontologicos das unidade de saude do municipio, atendendo a solicitacao da Secretaria Municipal de Saude, pelo periodo de 12 (doze)\nmeses.\nPREGAO PRESENCIAL Nº 23/2023\nDATA:20/02/2026\nVALOR: Pa",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

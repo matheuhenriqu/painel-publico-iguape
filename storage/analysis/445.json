@@ -1,0 +1,91 @@
+﻿{
+    "diaryId":  "445",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:20",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/39cca77d3e5f88b4a3384fbd0cd86dd5.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/39cca77d3e5f88b4a3384fbd0cd86dd5.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 820.000,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "CONTRATADA: JANE RIBEIRO PEREIRA KUSNIER 16948985807 - MEI",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "198/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "JANE RIBEIRO PEREIRA KUSNIER 16948985807 - MEI",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA FORNECIMENTO DE MATERIAIS E SERVICOS DE DECORACAO DE NATAL EM PRACAS E PREDIOS PUBLICOS, PORTAIS DA ENTRADA DA CIDADE, ORLA DA AVENIDA NOSSA SENHORA DO ROCIO, ORLA DO PORTO DO RIBEIRA, E ESPACOS PUBLICOS",
+                      "value":  "R$ 170.000,0000",
+                      "term":  "45 (quarenta e cinco) dias, periodo07/12/2022 a 21/01/2023.",
+                      "signatureDate":  "07/12/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATADA: JANE RIBEIRO PEREIRA KUSNIER 16948985807 - MEI\nCONTRATO N°: 198/2022\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA FORNECIMENTO DE MATERIAIS E SERVICOS DE\nDECORACAO DE NATAL EM PRACAS E PREDIOS PUBLICOS, PORTAIS DA ENTRADA DA CIDADE, ORLA DA AVENIDA NOSSA\nSENHORA DO ROCIO, ORLA DO PORTO DO RIBEIRA, E ESPACOS PUBLICOS\nData: 07/12/2022\nVALOR: Pagara a contratada o valor de R$ 170.000,0000 (cento e setenta mil reais).\nVIGENCIA: 45 (quarenta e cinco) dias, periodo07/12/2022 a 21/01/2023.",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "CONTRATADA: COFIPE VEICULOS LTDA COMPACTADOR DE RESIDUOS",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "199/2022",
+                      "processNumber":  "60/2022",
+                      "modality":  "PREGAO PRESENCIAL Nº: 60/2022",
+                      "contractor":  "COFIPE VEICULOS LTDA COMPACTADOR DE RESIDUOS",
+                      "cnpj":  "",
+                      "object":  "AQUISICAO DE 01 (UM) CAMINHAO DOTADO DE EQUIPAMENTO COLETOR COLETA TRASEIRA, COM CAPACIDADE MINIMA DE 15M³ PREGAO PRESENCIAL Nº: 60/2022",
+                      "value":  "R$ 650.000,0000",
+                      "term":  "60 (sessenta) dias consecutivos, periodo de 07/12/2022 a 05/02/2023",
+                      "signatureDate":  "25/11/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATADA: COFIPE VEICULOS LTDA COMPACTADOR DE RESIDUOS-\nCONTRATO N°: 199/2022\nOBJETO: AQUISICAO DE 01 (UM) CAMINHAO DOTADO DE EQUIPAMENTO COLETOR\nCOLETA TRASEIRA, COM CAPACIDADE MINIMA DE 15M³\nPREGAO PRESENCIAL Nº: 60/2022\nDATA: 25/11/2022\nVALOR: Pagara a contratada o valor de R$ 650.000,0000 (seiscentos e cinquenta mil reais)\nVIGENCIA: 60 (sessenta) dias consecutivos, periodo de 07/12/2022 a 05/02/2023",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

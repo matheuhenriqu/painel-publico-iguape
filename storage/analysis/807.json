@@ -1,0 +1,94 @@
+﻿{
+    "diaryId":  "807",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:10",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_745_30073522.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_745_30073522.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "3º TERMO – PRAZO CONTRATO 51/2023 C",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "051/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para obra de pavimentacao em lajotas de concreto e obras complementares no Bairro da Barra do Ribeira – Fase III, conforme Termo de Convenio nº 101386/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape TOMADA DE PRECO Nº 004/2023",
+                      "value":  "",
+                      "term":  "90 (noventa) dias – (Vigencia e Execucao), periodo de 22/04/2024 a 21/07/2024.",
+                      "signatureDate":  "19/04/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "estadual-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria da Educacao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n3º TERMO – PRAZO CONTRATO 51/2023 C\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\n\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU\n\nCONTRATO N°: 051/2023\n\nOBJETO: Contratacao de Empresa especializada para obra de pavimentacao em lajotas de concreto e obras complementares no Bairro da Barra do\n\nRibeira – Fase III, conforme Termo de Convenio nº 101386/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape\n\nTOMADA DE PRECO Nº 004/2023\n\nDATA: 19/04/2024.\n\nVIGENCIA: 90 (noventa) dias",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "4º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 056/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "056/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CIACAN-ENGENHARIA EIRELI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de construcao de centro multiuso no bairro da Barra do Ribeira, conforme convenio nº 000104/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o Municipio de Iguape/SP TOMADA DE PRECOS Nº 005/2022",
+                      "value":  "",
+                      "term":  "Vigencia e Execucao - 30 (trinta) dias – Periodo de 27/04/2024 a 26/05/2024.",
+                      "signatureDate":  "26/04/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "estadual-turismo",
+                                                       "estadual-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Turismo e Viagens",
+                                                         "Secretaria da Educacao"
+                                                     ],
+                      "excerpt":  "4º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 056/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: CIACAN-ENGENHARIA EIRELI\nCONTRATO N°: 056/2022\nOBJETO: Contratacao de empresa especializada para obra de construcao de centro multiuso no bairro da Barra do Ribeira, conforme convenio nº\n000104/2021, celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o Municipio de Iguape/SP\nTOMADA DE PRECOS Nº 005/2022\nDATA: 26/04/2024\nVIGENCIA: Vigencia e Execucao - 30 (trinta) dias – Periodo de 27/04/2024 ",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

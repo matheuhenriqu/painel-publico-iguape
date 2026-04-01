@@ -1,0 +1,176 @@
+﻿{
+    "diaryId":  "1296",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:59",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1126_24083732.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1126_24083732.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade",
+                     "rescisao"
+                 ],
+    "summary":  {
+                    "pageCount":  19,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 246.094,10"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO-036/2024 EXTRATO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "036/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para realizacao de obras de infraestrutura urbana no municipio de Iguape/SP conforme Programa Eficiencia Municipal – Banco do Brasil",
+                      "value":  "",
+                      "term":  "AO CONTRATO-036/2024 EXTRATO",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO-036/2024 EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\n\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU\n\nCONTRATO N°: 036/2024\n\nLOTE 01: Implantacao de drenagem de agua pluvial com revestimento em aduelas concreto e pavimentacao asfaltica e drenagem na alameda 18 -\n\nNova Iguape – Rocio\n\nOBJETO: Contratacao de Empresa especializada para realizacao de obras de infraestrutura urbana no municipio de Iguape/SP conforme Programa\n\nEficiencia Municipal – Banco do Brasil.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE READEQUACAO A ATA DE REGISTRO DEEPXRTREACTOOS 009/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CONTEBOX CONTAINER E MODULOS LTDA",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE READEQUACAO A ATA DE REGISTRO DEEPXRTREACTOOS 009/2025\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: CONTEBOX CONTAINER E MODULOS LTDA CNPJ:-42.xxx.xxx/xxxx-67",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 009/2025.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "009/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para locacao de projecao de imagem, painel de led e telao, iluminacao, sonorizacao, geradores, grades, palcos, pisos, tendas, galpoes, containers camarim, containers escritorio, containers sanitarios, arquibancadas, estruturas complementares e apoio, a serem utilizados pela Secretaria de Cultura, Esportes e Turismo nos eventos neste municipio pelo periodo de 12 (doze) meses. Remanejamento de saldo dos itens: 61. – Camarin montado em container 12-locacoes, 6.3 – Containers de banheiro – 8 locacoes e item 6.2 – Containers escritorio com ar condicionado, mantendo o valor de R$ 6.096,50 a locacao",
+                      "value":  "R$ 6.096,50",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-cultura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Cultura",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 009/2025.\nOBJETO: Registro de Precos para locacao de projecao de imagem, painel de led e telao, iluminacao, sonorizacao, geradores, grades, palcos, pisos,\ntendas, galpoes, containers camarim, containers escritorio, containers sanitarios, arquibancadas, estruturas complementares e apoio, a serem\nutilizados pela Secretaria de Cultura, Esportes e Turismo nos eventos neste municipio pelo periodo de 12 (doze) meses. Remanejamento de saldo dos\nitens: 61. – Camarin montado em container 12-loc",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Pregao Eletronico n°. 008/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "008/2025",
+                      "modality":  "Pregao Eletronico n°. 008/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 239.997,60",
+                      "term":  "",
+                      "signatureDate":  "27/06/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "Pregao Eletronico n°. 008/2025\nData: 27/06/2025\nVALOR: Global da Ata – R$ 239.997,60 (duzentos e trinta e nove mil, novecentos e noventa e sete reais e sessenta centavos).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

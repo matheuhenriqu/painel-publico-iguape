@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "377",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:31",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/af3f86112190e19e095943b4ea334463.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/af3f86112190e19e095943b4ea334463.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 123.402,31"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO AO CONTRATO Nº 064/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "064/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ENGETEC ENGENHARIA EIRELI - ME",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para obra de reforma do calcamento e ciclovia, localizado na Avenida Eduardo Ebano Pereira e Rua Euclides Roque Bastos, no Porto do Ribeira, neste municipio de Iguape/SP, correspondente ao acrescimo de servicos, ao contrato no valor de R$ 123.402,31 (cento e vinte e tres mil, quatrocentos e dois reais e trinta e um centavos), equivalente ao percentual de 22,177318685123 % ao contrato inicial. Tomada de Precos - n°. 012/2021",
+                      "value":  "R$ 123.402,31",
+                      "term":  "",
+                      "signatureDate":  "18/08/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO AO CONTRATO Nº 064/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ENGETEC ENGENHARIA EIRELI - ME\nCONTRATO N°: 064/2021\nOBJETO: Contratacao de Empresa Especializada para obra de reforma do calcamento e ciclovia, localizado na Avenida Eduardo Ebano\nPereira e Rua Euclides Roque Bastos, no Porto do Ribeira, neste municipio de Iguape/SP, correspondente ao acrescimo de servicos,\nao contrato no valor de R$ 123.402,31 (cento e vinte e tres mil, quatrocentos e dois reais e trinta e um centavos), equivale",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

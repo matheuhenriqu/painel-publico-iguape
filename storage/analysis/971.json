@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "971",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:51",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_880_05071726.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_880_05071726.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  8,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "304/2024",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 2/2024 - EDITAL Nº: 9/2024",
+                      "contractor":  "PIROTECNICA IMPORTACAO E EXPORTACAO LTDA ME",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA EM SHOW PIROTECNICO, COM FORNECIMENTO DE FOGOS DE ARTIFICIO, MAO DE OBRA COM INSTALACAO E SOLTURA, PARA ATENDER AOS EVENTOS DO MUNICIPIO DE IGUAPE/SP, PELO PERIODO DE 12 (DOZE) MESES",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 304/2024\nREGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA ESPECIALIZADA EM SHOW PIROTECNICO, COM FORNECIMENTO DE FOGOS\nDE ARTIFICIO, MAO DE OBRA COM INSTALACAO E SOLTURA, PARA ATENDER AOS EVENTOS DO MUNICIPIO DE IGUAPE/SP, PELO PERIODO\nDE 12 (DOZE) MESES.\nPR-E - PREGAO ELETRONICO - 2/2024 - EDITAL Nº: 9/2024\nINTERESSADOS: SECRETARIA MUNIC. DE CULTURA, ESPORTES E TURISMO .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classifi",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "1019",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:44",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_918_06073002.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_918_06073002.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "inexigibilidade",
+                     "rescisao"
+                 ],
+    "summary":  {
+                    "pageCount":  17,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 8.000,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "CONTRATO DE LOCACAO DE IMOVEL Nº 035/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "DARLENE MARIETTO ABRAO",
+                      "cnpj":  "",
+                      "object":  "Contratacao para a Locacao de Imovel para instalacao do Centro de Formacao Educacional do Municipio, com utilizacao multipla: ETEC, UNIVESP, cursos e aperfeicoamento para servidores publicos, nesta cidade de Iguape/SP",
+                      "value":  "R$ 8.000,00",
+                      "term":  "Periodo de 60 (sessenta) meses – 04/02/2025 a 04/02/2030.",
+                      "signatureDate":  "03/02/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATO DE LOCACAO DE IMOVEL Nº 035/2025\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO:- DARLENE MARIETTO ABRAO\nOBJETO: Contratacao para a Locacao de Imovel para instalacao do Centro de Formacao Educacional do Municipio, com utilizacao multipla: ETEC,\nUNIVESP, cursos e aperfeicoamento para servidores publicos, nesta cidade de Iguape/SP\nDATA: 03/02/2025\nVALOR: Estabelecido o valor mensal do aluguel sera de R$ 8.000,00 (oito mil reais) corrigido anualmente, porem havera um desconto no valor de\nR$ 1.500,00 (mi",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

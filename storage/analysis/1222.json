@@ -1,0 +1,197 @@
+﻿{
+    "diaryId":  "1222",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:13",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1071_01080915.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1071_01080915.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  19,
+                    "itemCount":  5,
+                    "totalValue":  "R$ 71.331,76"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 221, DE 29 DE SETEMBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  15,
+                      "contractNumber":  "152/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "EMPRESA I B FERREIRA SERVICOS LTDA (GRUPO RL- ME)",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 221, DE 29 DE SETEMBRO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Ricardo de Oliveira Ragni de Castro Leite, Secretario Municipal deInfraestrutura Urbana e Obras, inscrito no CPF/MF nº.\nArt. 2º - 293.XXX.XXX-06, para exercer a funcao degestor d",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato publicado",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  19,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "DOCTOR GESTAO EM SERVICOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Credenciamento de pessoas fisicas e juridicas para a prestacao de servicos medicos plantonistas, Medicos para Saude da Famil ia, medicos especialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTAOCUPACIONAL, FONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de saude de Iguape, bem como todos os locais de atendimento que a compoe, pelo periodo de12 meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP EXTRATO\n\nCONTRATADA: DOCTOR GESTAO EM SERVICOS LTDA\n\nCNPJ: 13.xxx.xxx-07\n\nCONTRATO: Nº: 149/2025\n\nOBJETO: Credenciamento de pessoas fisicas e juridicas para a prestacao de servicos medicos plantonistas, Medicos para Saude da Famil ia, medicos\n\nespecialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTAOCUPACIONAL,\n\nFONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de saude de Iguape, bem como todos os ",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "CHAMADA PUBLICA/CREDENCIAMENTO INEXIGIBILIDADE - n°.108/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  19,
+                      "contractNumber":  "",
+                      "processNumber":  "8/2025",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 130,50",
+                      "term":  "O presente contrato tera vigencia de 12 (doze) meses, periodo de 26/09/2025 a 25/09/2026.",
+                      "signatureDate":  "26/09/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "CHAMADA PUBLICA/CREDENCIAMENTO INEXIGIBILIDADE - n°.108/2025\n\nVIGENCIA: O presente contrato tera vigencia de 12 (doze) meses, periodo de 26/09/2025 a 25/09/2026.\n\nDATA: 26/09/2025\n\nVALOR: R$ 130,50/h (cento e trinta reais e cinquenta centavos): Medico Generalista, R$ 394,75/h (trezentos e noventa e quatro reais e setenta e cinco\n\ncentavos):Medico Ginecologista, e R$ 1.676,45 (hum mil, seiscentos e setenta e seis reais e quarenta e cinco centavos): Plant ao (12x36), valor fixo a\n\nhora/ plantao efetivamente trabalhad",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE PRORROGACAO – ATA DE REGISTRO DE EPXRTERCATOOS Nº 074/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  19,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "AUTO POSTO PORTO IGUAPE",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE PRORROGACAO – ATA DE REGISTRO DE EPXRTERCATOOS Nº 074/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: AUTO POSTO PORTO IGUAPE",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 074/2024.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  19,
+                      "contractNumber":  "074/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 71.201,2576",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 074/2024.\nOBJETO: Registro de Precos, objetivando futuras aquisicoes parceladas de combustiveis (gasolina comum, etanol, oleo diesel s -500 e s-10) para\natender a frota do municipio de Iguape/SP, pelo periodo de 12 (doze) meses. Itens: 01- Gasolina Comum – Bandeira Branca -Quantidade estimada -\n264.762 litros- valor unitario-R$ 6,4900 – valor total -R$ 1.718.305,38, 02- Etanol- Bandeira Branca - Quantidade estimada – 105 litros - valor unitario -\nR$ 4,3800-valor total-R$ 459,90, 03- Di",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

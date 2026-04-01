@@ -1,0 +1,92 @@
+﻿{
+    "diaryId":  "911",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:57",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_832_12071440.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_832_12071440.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRAZO Pires,",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "022/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "OLIVEIRA ENGENHARIA LTDA",
+                      "cnpj":  "13901684000123",
+                      "object":  "Contratacao de empresa especializada para obra de reforma e ampliacao do E.S.F. Aeroporto, localizado na Avenida Manoel Goncalves 175, Bairro do Rocio – Iguape/SP, conforme Proposta nº 13901684000123016 – Emenda nº 41710003, celebrado entre o Ministerio da Saude e o Municipio de Iguape. Tomada de Preco n°. 016/2023",
+                      "value":  "",
+                      "term":  "180 (cento e oitenta) dias – Periodo de 13/09/2024 a 11/03/2025.",
+                      "signatureDate":  "11/09/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "federal-ministerio-saude"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Ministerio da Saude"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRAZO Pires,\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: OLIVEIRA ENGENHARIA LTDA\nCONTRATO N°: 022/2024\nOBJETO: Contratacao de empresa especializada para obra de reforma e ampliacao do E.S.F. Aeroporto, localizado na Avenida Manoel Goncalves\n175, Bairro do Rocio – Iguape/SP, conforme Proposta nº 13901684000123016 – Emenda nº 41710003, celebrado entre o Ministerio da Saude e o\nMunicipio de Iguape.\nTomada de Preco n°. 016/2023.\nData: 11/09/2024\nVIGENCIA: 180 (cento e oitenta) dias – Periodo de 13",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "PREGAO ELETRONICO",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS OBJETIVANDO FUTURAS AQUISICOES PARCELADAS DE COMBUSTIVEIS (GASOLINA COMUM, ETANOL, OLEO DIESEL S-500 E S-10) PARA ATENDER A FROTA DO MUNICIPIO DE IGUAPE /SP, PELO PERIODO DE 12 (DOZE) MESES, conforme especificacoes nos anexos I e II do edital. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, o PREGAO ELETRONICO – n.º 010/2024, do tipo MENOR PRECO POR ITEM, situada na\nAvenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: REGISTRO DE PRECOS OBJETIVANDO FUTURAS AQUISICOES PARCELADAS DE COMBUSTIVEIS (GASOLINA COMUM, ETANOL,\nOLEO DIESEL S-500 E S-10) PARA ATENDER A FROTA DO MUNICIPIO DE IGUAPE /SP, PELO PERIODO DE 12 (DOZE) MESES, conforme\nespecificac",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero principal identificado"
+                                ]
+                  }
+              ]
+}

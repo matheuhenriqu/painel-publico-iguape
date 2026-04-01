@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "294",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:49",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/f2a8ecc3972129ad86af6973f9d59314.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/f2a8ecc3972129ad86af6973f9d59314.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  36,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE LICITACAO - TOMADA DE PRECO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  12,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "AVISO DE LICITACAO - TOMADA DE PRECO",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE RECAPEAMENTO E OBRAS COMPLEMENTARES DA RUA CELSO RAMOS NO BAIRRO DO ROCIO, CONFORME TERMO DE CONVENIO Nº 100622/2022,CELEBRADO ENTRE A SECRETARIA DE DESENVOLVIMENTO REGIONAL E A PREFEITURA DE IGUAPE. LEGISLACAO: Lei Federal nº 8.666/93 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Lei Complementar 139, de 10 de novembro de 2011, Lei Complementar 147 de 07 de agosto de 2014",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "AVISO DE LICITACAO\n TOMADA DE PRECO\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, a TOMADA DE PRECO – nº.008/2022, do tipo MENOR PRECO\nGLOBAL, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas\nespecificacoes detalhadas no Edital.\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE RECAPEAMENTO E OBRAS\nCOMPLEMENTARES DA RUA CELSO RAMOS NO BAIRRO DO ROCIO, CONFORME TERMO DE CONVENIO Nº\n100622/2022,CELEBRADO ENTRE A SECRETARIA DE DESENVOLVIMENTO REG",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero principal identificado"
+                                ]
+                  }
+              ]
+}

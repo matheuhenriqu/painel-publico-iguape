@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "403",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:27",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/e25143a9333100586b38f1e75060c890.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/e25143a9333100586b38f1e75060c890.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 2.653,13"
+                },
+    "items":  [
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 225/2017",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "276/2017",
+                      "modality":  "",
+                      "contractor":  "ANTONELLA MARIA DEMARTIS E DALVA DEMARTIS",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao da “Residencia Terapeutica”",
+                      "value":  "R$ 2.653,13",
+                      "term":  "13/11/2022 a 12/11/2023",
+                      "signatureDate":  "05/10/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nTERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 225/2017\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: ANTONELLA MARIA DEMARTIS E DALVA DEMARTIS\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao da “Residencia\nTerapeutica”\nDATA: 05/10/2022\nVALOR: R$ 2.653,13 (dois mil, seiscentos e cinquenta e tres reais e treze centavos) mensais.\nProcesso Administrativo nº 276/2017\nVIGENCIA: 13/11/2022 a 12/11/2023",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

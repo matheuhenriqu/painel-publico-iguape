@@ -1,0 +1,224 @@
+﻿{
+    "diaryId":  "546",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:02",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/2c908f5522fb1a18d3e5c3bbea45d4cf.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/2c908f5522fb1a18d3e5c3bbea45d4cf.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  14,
+                    "itemCount":  6,
+                    "totalValue":  "R$ 712.189,40"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 049/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  10,
+                      "contractNumber":  "049/2023",
+                      "processNumber":  "020/2023",
+                      "modality":  "Pregao Presencial n°. 020/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Preco pelo periodo de 12 (doze) meses, para aquisicoes de mobiliarios, para atender as Secretarias e Departamentos desta Prefeitura de Iguape/SP. Pregao Presencial n°. 020/2023",
+                      "value":  "R$ 47.306,40",
+                      "term":  "27/04/2023 a 26/04/2024",
+                      "signatureDate":  "27/04/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 049/2023\nOBJETO: Registro de Preco pelo periodo de 12 (doze) meses, para aquisicoes de mobiliarios, para atender as Secretarias e Departamentos desta\nPrefeitura de Iguape/SP.\nPregao Presencial n°. 020/2023\nDATA: 27/04/2023\nVIGENCIA: 27/04/2023 a 26/04/2024\nVALOR: R$ 47.306,40 (quarenta e sete mil, trezentos e seis reais e quarenta centavos).",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 050/2023.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  10,
+                      "contractNumber":  "050/2023",
+                      "processNumber":  "020/2023",
+                      "modality":  "Pregao Presencial n°. 020/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Preco pelo periodo de 12 (doze) meses, para aquisicoes de mobiliarios, para atender as Secretarias e Departamentos desta Prefeitura de Iguape/SP. . Pregao Presencial n°. 020/2023",
+                      "value":  "R$ 20.560,00",
+                      "term":  "27/04/2023 a 26/04/2024",
+                      "signatureDate":  "27/04/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 050/2023.\n\nOBJETO: Registro de Preco pelo periodo de 12 (doze) meses, para aquisicoes de mobiliarios, para atender as Secretarias e Departamentos desta\n\nPrefeitura de Iguape/SP. .\n\nPregao Presencial n°. 020/2023\n\nDATA: 27/04/2023\n\nVIGENCIA: 27/04/2023 a 26/04/2024\n\nVALOR: R$ 20.560,00 (vinte mil, quinhentos e sessenta reais).",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 051/2023.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  10,
+                      "contractNumber":  "051/2023",
+                      "processNumber":  "020/2023",
+                      "modality":  "Pregao Presencial n°. 020/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Preco pelo periodo de 12 (doze) meses, para aquisicoes de mobiliarios, para atender as Secretarias e Departamentos desta Prefeitura de Iguape/SP. . Pregao Presencial n°. 020/2023",
+                      "value":  "R$ 193.762,00",
+                      "term":  "27/04/2023 a 26/04/2024",
+                      "signatureDate":  "27/04/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 051/2023.\n\nOBJETO: Registro de Preco pelo periodo de 12 (doze) meses, para aquisicoes de mobiliarios, para atender as Secretarias e Departamentos desta\n\nPrefeitura de Iguape/SP. .\n\nPregao Presencial n°. 020/2023\n\nDATA: 27/04/2023\n\nVIGENCIA: 27/04/2023 a 26/04/2024\n\nVALOR: R$ 193.762,00 (cento noventa e tres mil, setecentos e sessenta e dois reais).",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 052/2023.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  10,
+                      "contractNumber":  "052/2023",
+                      "processNumber":  "020/2023",
+                      "modality":  "Pregao Presencial n°. 020/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Preco pelo periodo de 12 (doze) meses, para aquisicoes de mobiliarios, para atender as Secretarias e Departamentos desta Prefeitura de Iguape/SP. . Pregao Presencial n°. 020/2023",
+                      "value":  "R$ 227.040,00",
+                      "term":  "27/04/2023 a 26/04/2024",
+                      "signatureDate":  "27/04/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 052/2023.\n\nOBJETO: Registro de Preco pelo periodo de 12 (doze) meses, para aquisicoes de mobiliarios, para atender as Secretarias e Departamentos desta\n\nPrefeitura de Iguape/SP. .\n\nPregao Presencial n°. 020/2023\n\nDATA: 27/04/2023\n\nVIGENCIA: 27/04/2023 a 26/04/2024\n\nVALOR: R$ 227.040,00 (duzentos e vinte e sete mil e quarenta reais).",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 053/2023.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  10,
+                      "contractNumber":  "053/2023",
+                      "processNumber":  "020/2023",
+                      "modality":  "Pregao Presencial n°. 020/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Preco pelo periodo de 12 (doze) meses, para aquisicoes de mobiliarios, para atender as Secretarias e Departamentos desta Prefeitura de Iguape/SP. . Pregao Presencial n°. 020/2023",
+                      "value":  "R$ 223.521,00",
+                      "term":  "27/04/2023 a 26/04/2024",
+                      "signatureDate":  "27/04/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 053/2023.\n\nOBJETO: Registro de Preco pelo periodo de 12 (doze) meses, para aquisicoes de mobiliarios, para atender as Secretarias e Departamentos desta\n\nPrefeitura de Iguape/SP. .\n\nPregao Presencial n°. 020/2023\n\nDATA: 27/04/2023\n\nVIGENCIA: 27/04/2023 a 26/04/2024\n\nVALOR: R$ 223.521,00 (duzentos e vinte e tres mil e quinhentos e vinte e um reais).",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 054/2023.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  10,
+                      "contractNumber":  "054/2023",
+                      "processNumber":  "020/2023",
+                      "modality":  "Pregao Presencial n°. 020/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Preco pelo periodo de 12 (doze) meses, para aquisicoes de mobiliarios, para atender as Secretarias e Departamentos desta Prefeitura de Iguape/SP. . Pregao Presencial n°. 020/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 054/2023.\n\nOBJETO: Registro de Preco pelo periodo de 12 (doze) meses, para aquisicoes de mobiliarios, para atender as Secretarias e Departamentos desta\n\nPrefeitura de Iguape/SP. .\n\nPregao Presencial n°. 020/2023",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,189 @@
+﻿{
+    "diaryId":  "519",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:07",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/273399800abb8a93c0559b371c96ac6e.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/273399800abb8a93c0559b371c96ac6e.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  10,
+                    "itemCount":  5,
+                    "totalValue":  "R$ 852.263,23"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:027/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "7/2023",
+                      "processNumber":  "012/2023",
+                      "modality":  "Pregao Presencial n°. 012/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de Materiais de Expediente para as diversas Secretarias e Departamentos da Prefeitura Municipal de Iguape, pelo periodo de 12 meses. Pregao Presencial n°. 012/2023",
+                      "value":  "R$ 237.295,03",
+                      "term":  "17/03/2023 a 16/03/2024",
+                      "signatureDate":  "17/03/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:027/2023\nOBJETO: Registro de Precos para aquisicao de Materiais de Expediente para as diversas Secretarias e Departamentos\nda Prefeitura Municipal de Iguape, pelo periodo de 12 meses.\nPregao Presencial n°. 012/2023\nDATA: 17/03/2023\nVIGENCIA: 17/03/2023 a 16/03/2024\nVALOR: R$ 237.295,03 (duzentos e trinta e sete mil e duzentos e noventa e cinco reais e tres centavos)",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:028/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "8/2023",
+                      "processNumber":  "012/2023",
+                      "modality":  "Pregao Presencial n°. 012/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de Materiais de Expediente para as diversas Secretarias e Departamentos da Prefeitura Municipal de Iguape, pelo periodo de 12 meses. Pregao Presencial n°. 012/2023",
+                      "value":  "R$ 50.228,89",
+                      "term":  "17/03/2023 a 16/03/2024",
+                      "signatureDate":  "17/03/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:028/2023\nOBJETO: Registro de Precos para aquisicao de Materiais de Expediente para as diversas Secretarias e Departamentos\nda Prefeitura Municipal de Iguape, pelo periodo de 12 meses.\nPregao Presencial n°. 012/2023\nDATA: 17/03/2023\nVIGENCIA: 17/03/2023 a 16/03/2024\nVALOR: R$ 50.228,89 (cinquenta mil, duzentos e vinte e oito reais e oitenta e nove centavos)",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:029/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "9/2023",
+                      "processNumber":  "012/2023",
+                      "modality":  "Pregao Presencial n°. 012/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de Materiais de Expediente para as diversas Secretarias e Departamentos da Prefeitura Municipal de Iguape, pelo periodo de 12 meses. Pregao Presencial n°. 012/2023",
+                      "value":  "R$ 259.646,37",
+                      "term":  "17/03/2023 a 16/03/2024",
+                      "signatureDate":  "17/03/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:029/2023\nOBJETO: Registro de Precos para aquisicao de Materiais de Expediente para as diversas Secretarias e Departamentos\nda Prefeitura Municipal de Iguape, pelo periodo de 12 meses.\nPregao Presencial n°. 012/2023\nDATA: 17/03/2023\nVIGENCIA: 17/03/2023 a 16/03/2024\nVALOR: R$ 259.646,37 (duzentos e cinquenta e nove mil, seiscentos e quarenta e seis reais e trinta e sete centavos)",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:030/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "0/2023",
+                      "processNumber":  "012/2023",
+                      "modality":  "Pregao Presencial n°. 012/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de Materiais de Expediente para as diversas Secretarias e Departamentos da Prefeitura Municipal de Iguape, pelo periodo de 12 meses. Pregao Presencial n°. 012/2023",
+                      "value":  "R$ 20.380,55",
+                      "term":  "17/03/2023 a 16/03/2024",
+                      "signatureDate":  "17/03/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:030/2023\nOBJETO: Registro de Precos para aquisicao de Materiais de Expediente para as diversas Secretarias e Departamentos\nda Prefeitura Municipal de Iguape, pelo periodo de 12 meses.\nPregao Presencial n°. 012/2023\nDATA: 17/03/2023\nVIGENCIA: 17/03/2023 a 16/03/2024\nVALOR: R$ 20.380,55 (vinte mil, trezentos e oitenta reais e cinquenta e cinco centavos)",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:031/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "1/2023",
+                      "processNumber":  "012/2023",
+                      "modality":  "Pregao Presencial n°. 012/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de Materiais de Expediente para as diversas Secretarias e Departamentos da Prefeitura Municipal de Iguape, pelo periodo de 12 meses. Pregao Presencial n°. 012/2023",
+                      "value":  "R$ 284.712,39",
+                      "term":  "17/03/2023 a 16/03/2024",
+                      "signatureDate":  "17/03/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:031/2023\nOBJETO: Registro de Precos para aquisicao de Materiais de Expediente para as diversas Secretarias e Departamentos\nda Prefeitura Municipal de Iguape, pelo periodo de 12 meses.\nPregao Presencial n°. 012/2023\nDATA: 17/03/2023\nVIGENCIA: 17/03/2023 a 16/03/2024\nVALOR: R$ 284.712,39 (duzentos e oitenta e quatro mil, setecentos e doze reais e trinta e nove centavos)",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  }
+              ]
+}

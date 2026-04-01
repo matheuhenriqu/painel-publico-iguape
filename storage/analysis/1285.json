@@ -1,0 +1,124 @@
+﻿{
+    "diaryId":  "1285",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:01",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1120_16064811.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1120_16064811.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 65.000,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 50/2025.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "50/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos, pelo periodo de 12 (doze) meses, para contratacao de empresa para prestacao de servicos de publicacao de atos oficiais da Prefeitura de Iguape em Jornal de Grande Circulacao no Estado de Sao Paulo",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 50/2025.\nOBJETO: Registro de Precos, pelo periodo de 12 (doze) meses, para contratacao de empresa para prestacao de servicos de publicacao de atos oficiais\nda Prefeitura de Iguape em Jornal de Grande Circulacao no Estado de Sao Paulo.",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Pregao Eletronico n°.028/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "8/2025",
+                      "modality":  "Pregao Eletronico n°.028/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 65.000,00",
+                      "term":  "Validade do presente Registro de Precos –12 (doze) meses periodo de 09/12/2025 a 08/12/2026",
+                      "signatureDate":  "09/12/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "Pregao Eletronico n°.028/2025\nData: 09/12/2025\nVIGENCIA: Validade do presente Registro de Precos –12 (doze) meses periodo de 09/12/2025 a 08/12/2026\nVALOR: R$ 65.000,00 (sessenta e cinco mil reais)",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE SUSPENSAO DE LICITACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "008/2025",
+                      "modality":  "Concorrencia Publica Eletronica n° 008/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "a CONTRATACAO DE EMPRESA ESPECIALIZADA PARA SERVICOS DE LIMPEZA URBANA E DESTINACAO DE RESIDUOS SOLIDOS URBANOS DO MUNICIPIO DE IGUAPE/SP, conforme especificacoes detalhadas nos anexos do edital. Ficam os interessados cientes da presente decisao. Publique-se. Iguape, 15 de dezembro de 2025. SELMA XAVIER PONTES Secretaria Municipal de Desenvolvimento Sustentavel",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-desenvolvimento-sustentavel"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n AVISO DE SUSPENSAO DE LICITACAO\n\n A Prefeitura Municipal de Iguape torna publica a suspensao da Concorrencia Publica Eletronica n° 008/2025, marcado para 22/12/2025, as\n9:30h, em decorrencia de alteracao ao instrumento convocatorio, tendo por objeto a CONTRATACAO DE EMPRESA ESPECIALIZADA PARA\nSERVICOS DE LIMPEZA URBANA E DESTINACAO DE RESIDUOS SOLIDOS URBANOS DO MUNICIPIO DE IGUAPE/SP, conforme especificacoes\ndetalhadas nos anexos do edital.\n\n Ficam os interessados cientes da presente decisao. Publique-se",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

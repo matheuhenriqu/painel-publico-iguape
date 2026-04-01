@@ -1,0 +1,58 @@
+﻿{
+    "diaryId":  "811",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:10",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_749-assinado_07071827.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_749-assinado_07071827.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  12,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 2.800,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 8/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "8/2024",
+                      "processNumber":  "033/2023",
+                      "modality":  "Pregao Presencial n°. 033/2023",
+                      "contractor":  "WS PINO EIRELI",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para contratacao de empresa especializada para fornecimento de oxigenio medicinal, com cessao em comodato de cilindros pelo periodo de 12 (doze) meses. Pregao Presencial n°. 033/2023",
+                      "value":  "R$ 2.800,00",
+                      "term":  "- 30 (trinta) dias da assinatura, periodo de 03/05/2024 a 01/06/2024.",
+                      "signatureDate":  "02/05/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-desenvolvimento-sustentavel",
+                                                       "municipal-assistencia-social"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel",
+                                                         "Secretaria de Assistencia e Desenvolvimento Social"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE C\n\nCONTRATADA: WS PINO EIRELI\n\nCONTRATO N°:048/2024 – Oriundo da Ata de Registro de Preco nº 116/2023.\n\nOBJETO: Registro de Precos para contratacao de empresa especializada para fornecimento de oxigenio medicinal, com cessao em comodato de\n\ncilindros pelo periodo de 12 (doze) meses.\n\nPregao Presencial n°. 033/2023\n\nDATA: 02/05/2024\n\nVIGENCIA:- 30 (trinta) dias da assinatura, periodo de 03/05/2024 a 01/06/2024.\n\nVALOR: R$ 2.800,00 (dois mil e oitocentos reais).\n\n DESENVOLVIM",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

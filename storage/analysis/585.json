@@ -1,0 +1,123 @@
+﻿{
+    "diaryId":  "585",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:55",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/39ec84cecc812d2a1663a360053e49e2.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/39ec84cecc812d2a1663a360053e49e2.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 8.500,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 166",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "079/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 166\n DE 14 JUNHO DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Cristiani Aparecida Lisboa Lopes, titular da Cedula de Identidade RG.nº 25.111.472-7 SSP/SP, inscrita no CPF/MF nº\nArt. 2º - 251.286.778-18, para exercer a funcao de Gestor, Contrato nº 079/20",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "3º TERMO DE PRORROGACAO CONTRATO DE LOCACAO DE IMOVEL Nº 056/2020 do Centro Judiciario – CEJUSC, Fazenda",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MARIDALVA MARTINS",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo ao contrato de locacao do imovel utilizado para as instalacoes Publica e Protocolo de Distribuicao de Processos Civeis e Criminais – Iguape/SP”",
+                      "value":  "R$ 8.500,00",
+                      "term":  "",
+                      "signatureDate":  "20/06/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n3º TERMO DE PRORROGACAO CONTRATO DE LOCACAO DE IMOVEL Nº 056/2020 do Centro Judiciario – CEJUSC, Fazenda\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: MARIDALVA MARTINS\nOBJETO: Constitui o presente termo ao contrato de locacao do imovel utilizado para as instalacoes\nPublica e Protocolo de Distribuicao de Processos Civeis e Criminais – Iguape/SP”.\nDATA: 20/06/2023\nVALOR: R$ 8.500,00 (oito mil e quinhentos reais) mensais.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "99/2023",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 4/2023 - EDITAL Nº: 52/2023",
+                      "contractor":  "ALTERNATIVA COMERCIAL TEXTIL LTDA",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA PARA FORNECIMENTO DE UNIFORMES, PARA ATENDER O CONVENIO Nº 923931/2021 CELEBRADO ENTRE O MINISTERIO DA CIDADANIA SECRETARIA ESPECIAL DE ESPORTES E A PREFEITURA MUNICIPAL DE IGUAPE/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 99/2023\nCONTRATACAO DE EMPRESA PARA FORNECIMENTO DE UNIFORMES, PARA ATENDER O CONVENIO Nº 923931/2021 CELEBRADO ENTRE\nO MINISTERIO DA CIDADANIA SECRETARIA ESPECIAL DE ESPORTES E A PREFEITURA MUNICIPAL DE IGUAPE/SP.\nPR-E - PREGAO ELETRONICO - 4/2023 - EDITAL Nº: 52/2023\nINTERESSADOS: DEPARTAMENTO DE CULTURA E ESPORTES .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\nitens abaixo.\nFORNECEDOR: ALTERNATIVA COME",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

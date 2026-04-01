@@ -1,0 +1,58 @@
+﻿{
+    "diaryId":  "1330",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:51",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1149_05073256.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1149_05073256.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE READEQUACAO A ATA 009/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CONTEBOX CONTAINER E MODULOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para locacao de projecao de imagem, painel de led e telao, iluminacao, sonorizacao, geradores, grades, palcos, pisos, tendas, galpoes, containers camarim, containers escritorio, containers sanitarios, arquibancadas, estruturas complementares e apoio, a serem utilizados pela Secretaria de Cultura, Esportes e Turismo nos eventos neste municipio pelo periodo de 12 (doze) meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE READEQUACAO A ATA 009/2025\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA:- CONTEBOX CONTAINER E MODULOS LTDA.\nATA DE REGISTRO N°: 009/2025\nOBJETO: Registro de Precos para locacao de projecao de imagem, painel de led e telao, iluminacao, sonorizacao, geradores, grades, palcos,\npisos, tendas, galpoes, containers camarim, containers escritorio, containers sanitarios, arquibancadas, estruturas complementares e apoio, a\nserem utilizados pela Secretaria de Cultura, Esportes e Turismo nos eventos neste m",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

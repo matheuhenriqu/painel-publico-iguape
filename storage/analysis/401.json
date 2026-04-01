@@ -1,0 +1,89 @@
+﻿{
+    "diaryId":  "401",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:28",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/65c636569a1e6c8e49853c81834d2326.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/65c636569a1e6c8e49853c81834d2326.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  50,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 146.600,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 144/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  49,
+                      "contractNumber":  "144/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "DI PISA ENGENHARIA E CONSULTORIA",
+                      "cnpj":  "",
+                      "object":  "contratacao de empresa especializada para elaboracao de projetos tecnicos para instalacao de sistema completo de combate contra incendio e elaboracao de projetos tecnicos para a instalacao de SPDA – Sistema de Protecao contra Descargas Atmosfericas nos predios pertencentes a Secretaria da Educacao, em atendimento a Prefeitura Municipal de Iguape/SP. PREGAO PRESENCIALNº 052/2022",
+                      "value":  "R$ 14.500,00",
+                      "term":  "periodo de vigencia 05/10/2022 a 02/02/2023 – (120 dias).",
+                      "signatureDate":  "05/10/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "estadual-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria da Educacao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: DI PISA ENGENHARIA E CONSULTORIA\nCONTRATO N°: 144/2022\nOBJETO: contratacao de empresa especializada para elaboracao de projetos tecnicos para instalacao de sistema completo de combate\ncontra incendio e elaboracao de projetos tecnicos para a instalacao de SPDA – Sistema de Protecao contra Descargas Atmosfericas\nnos predios pertencentes a Secretaria da Educacao, em atendimento a Prefeitura Municipal de Iguape/SP.\nPREGAO PRESENCIALNº 052/2022\nDATA: 05/10/2022\nVALOR",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 145/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  49,
+                      "contractNumber":  "145/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "B NUTRI SERVICOS E ALIMENTACAO LTDA",
+                      "cnpj":  "",
+                      "object":  "contratacao de empresa especializada para fornecimento de Buffet em comemoracao ao evento do Dia das Criancas, a ser realizada neste municipio de Iguape/SP. CARTA CONVITE Nº 013/2022",
+                      "value":  "R$ 132.100,00",
+                      "term":  "periodo de vigencia 06/10/2022 a 20/11/2022- (45 dias).",
+                      "signatureDate":  "05/10/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: B NUTRI SERVICOS E ALIMENTACAO LTDA\nCONTRATO N°: 145/2022\nOBJETO: contratacao de empresa especializada para fornecimento de Buffet em comemoracao ao evento do Dia das Criancas, a ser\nrealizada neste municipio de Iguape/SP.\nCARTA CONVITE Nº 013/2022\nDATA: 05/10/2022\nVALOR: Pagara a contratada o valor de R$ 132.100,00 (cento e trinta e dois mil e cem\nreais).\nVIGENCIA: periodo de vigencia 06/10/2022 a 20/11/2022- (45 dias).",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

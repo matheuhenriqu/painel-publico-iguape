@@ -1,0 +1,91 @@
+﻿{
+    "diaryId":  "932",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:55",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_851_11075840.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_851_11075840.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 81.217,04"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRORROGACAO E SUPRESSAO AO CONTRATO Nº 47/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "47/2023",
+                      "processNumber":  "24/2023",
+                      "modality":  "PREGAO PRESENCIAL Nº 24/2023",
+                      "contractor":  "ANDRE RAMOS ODONTO-TECNICA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Servico de empresa especializada na manutencao preventiva e corretiva de equipamentos de fisioterapia atendendo demanda da Secretaria de Saude pelo periodo de 12 meses. PREGAO PRESENCIAL Nº 24/2023",
+                      "value":  "R$ 62.107,15",
+                      "term":  "Periodo de 12 (doze) meses 09/10/2024 a 08/10/2025.",
+                      "signatureDate":  "07/10/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRORROGACAO E SUPRESSAO AO CONTRATO Nº 47/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ANDRE RAMOS ODONTO-TECNICA\nCONTRATO:N°:147/2023\nOBJETO: Contratacao de Servico de empresa especializada na manutencao preventiva e corretiva de equipamentos de fisioterapia atendendo demanda\nda Secretaria de Saude pelo periodo de 12 meses.\nPREGAO PRESENCIAL Nº 24/2023\nDATA:07/10/2024\nVALOR: Pagara o valor de R$ 62.107,15 (sessenta e dois mil, cento e sete reais e quinze centavos)\nVIGENCIA: Periodo de 12 (",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO AO CONTRATO 147/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "147/2023",
+                      "processNumber":  "24/2023",
+                      "modality":  "PREGAO PRESENCIAL Nº 24/2023",
+                      "contractor":  "ANDRE RAMOS ODONTO TECNICA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Servico de empresa especializada na manutencao preventiva e corretiva de equipamentos de fisioterapia atendendo demanda da Secretaria de Saude pelo periodo de 12 meses. PREGAO PRESENCIAL Nº 24/2023",
+                      "value":  "R$ 19.109,8896",
+                      "term":  "Periodo de 12 (doze) meses – 09/10/2024 a 08/10/2025.",
+                      "signatureDate":  "07/10/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO AO CONTRATO 147/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ANDRE RAMOS ODONTO TECNICA\nCONTRATO:N°:147/2023\nOBJETO: Contratacao de Servico de empresa especializada na manutencao preventiva e corretiva de equipamentos de fisioterapia atendendo demanda\nda Secretaria de Saude pelo periodo de 12 meses.\nPREGAO PRESENCIAL Nº 24/2023\nDATA:07/10/2024\nVALOR: Pagara o acrescimo de servicos o valor de R$ 19.109,8896 (dezenove mil, cento e nove reais e centavos), perfazendo o percentual de\n23,52940909937",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

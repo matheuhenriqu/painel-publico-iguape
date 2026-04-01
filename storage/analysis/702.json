@@ -1,0 +1,124 @@
+﻿{
+    "diaryId":  "702",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:34",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/316aa27c4658eb8b09d7aca0588b3017.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/316aa27c4658eb8b09d7aca0588b3017.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 20.937,41"
+                },
+    "items":  [
+                  {
+                      "type":  "Dispensa",
+                      "actTitle":  "DISPENSA DE LICITACAO N°: 99/2023 – Artigo 75, II, da Lei Federal 14.133/2021.",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "836/2023",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "PARA CONTRATACAO DE EMPRESAA ESPECIALIZADA PARA REALIZACAO DE OBRA DE CONSTRUCAO DE TAPUME PARA ISOLA- MENTO DE FACHADA DO HOTEL SAO PAULO, LOCALIZADO NA RUA NOVE DE JULHO, 146 - CENTRO - IGUAPE/SP",
+                      "value":  "R$ 19.037,41",
+                      "term":  "",
+                      "signatureDate":  "23/11/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "DISPENSA DE LICITACAO N°: 99/2023 – Artigo 75, II, da Lei Federal 14.133/2021.\nPROCESSO ADMINISTRATIVO Nº: 836/2023\nOBJETO: PARA CONTRATACAO DE EMPRESAA ESPECIALIZADA PARA REALIZACAO DE OBRA DE CONSTRUCAO DE TAPUME PARA ISOLA-\nMENTO DE FACHADA DO HOTEL SAO PAULO, LOCALIZADO NA RUA NOVE DE JULHO, 146 - CENTRO - IGUAPE/SP.\nDATA: 23/11/2023\nVALOR: R$ 19.037,41 (dezenove mil, trinta e sete reais e quarenta e um centavos)",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "PREFEITURA MUNICIPAL DE IGUAPE",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "3/2023",
+                      "modality":  "PREGAO PRESENCIAL nº.063/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE EQUIPAMENTOS DE PROTECAO INDIVIDUAL –(EPI), PELO PERIODO 12 (DOZE) MESES, PARA ATENDER A DEMANDA DA PREFEITURA MUNICIPAL DE IGUAPE/SP. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013,Lei Com- plementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE CUMPRE OS REQUISI-",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n PREFEITURA MUNICIPAL DE IGUAPE\n AVISO DE ABERTURA DE LICITACAO\n\n PREGAO PRESENCIAL\n\nEncontra-se ABERTO na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP\n11.920-000, o PREGAO PRESENCIAL nº.063/2023, do tipo MENOR VALOR GLOBALPOR LOTE conforme especificacoes detalhadas no Edital.\n\nOBJETO: REGISTRO DE PRECOS PARA AQUISICAO DE EQUIPAMENTOS DE PROTECAO INDIVIDUAL –(EPI), PELO PERIODO 12 (DOZE) MESES,\nPARA ATENDER A DEMANDA DA PREFEITURA ",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "Iguape, 01 de dezembro de 2023.",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "979/2023",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "42.735.740/0001-16",
+                      "object":  "DESPACHO DE RATIFICACAO Tomando ciencia da justificativa oriunda da origem e do conteudo do procedimento, RATIFICO a contratacao por INEXIGIBILIDADE DE LICITA- CAO da empresa ROBSON REICHERT DA CRUZ 37801754875, CNPJ: 42.735.740/0001-16, CONTRATACAO DE APRESENTACAO MUSICAL DO CAN- TOR “DALMO TRIO” para atendimento do calendario de eventos do Municipio de Iguape, COM FUNDAMENTO NO ARTIGO 25, INCISO III, DA LEI FEDE- RAL 8.666/93, sendo o valor contratado de R$ 1.900,00 (hum mil e novecentos reais), pois que, ao analisar o caso concreto, vislumbro preenchidos todos os requisitos legais",
+                      "value":  "R$ 1.900,00",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n Iguape, 01 de dezembro de 2023.\n\nProcesso nº 979/2023\nDESPACHO DE RATIFICACAO\n\n Tomando ciencia da justificativa oriunda da origem e do conteudo do procedimento, RATIFICO a contratacao por INEXIGIBILIDADE DE LICITA-\nCAO da empresa ROBSON REICHERT DA CRUZ 37801754875, CNPJ: 42.735.740/0001-16, CONTRATACAO DE APRESENTACAO MUSICAL DO CAN-\nTOR “DALMO TRIO” para atendimento do calendario de eventos do Municipio de Iguape, COM FUNDAMENTO NO ARTIGO 25, INCISO III, DA LEI FEDE-\nRAL 8.666/93, sendo o valor contrat",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

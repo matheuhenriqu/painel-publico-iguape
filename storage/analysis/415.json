@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "415",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:26",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/4944d6c13794c38971efe657fb89ba3d.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/4944d6c13794c38971efe657fb89ba3d.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "632/2022",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 57/2022 - EDITAL Nº: 82/2022",
+                      "contractor":  "REGIS PAPER COMERCIAL LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Materiais Permanentes (mobiliarios e eletrodomesticos) em atendimento a Secretaria Municipal de Assistencia e Desenvolvimento Social",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-assistencia-social",
+                      "primaryOrganizationName":  "Secretaria de Assistencia e Desenvolvimento Social",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "assistencia-social",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-assistencia-social"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Assistencia e Desenvolvimento Social"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 632/2022\nAquisicao de Materiais Permanentes (mobiliarios e eletrodomesticos) em atendimento a Secretaria Municipal de Assistencia e\nDesenvolvimento Social\nPR-G - PREGAO PRESENCIAL - 57/2022 - EDITAL Nº: 82/2022\nINTERESSADOS: FUNDO MUNICIPAL DE ASSISTENCIA SOCIAL .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a\nclassificacao dos itens abaixo.\nFORNECEDOR: REGIS PAPER COMERCIAL LTDA\nItem 1 - CADEIRA FIXA EM ACO PINTADO, EM CORV",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

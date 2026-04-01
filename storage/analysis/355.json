@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "355",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:33",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/7f44973b1c22a43f42c1f39bada0c71e.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/7f44973b1c22a43f42c1f39bada0c71e.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 800,18"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "6º TERMO ADITIVO AO CONTRATO Nº 102/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "102/2021",
+                      "processNumber":  "041/2021",
+                      "modality":  "PREGAO PRESENCIAL N,º 041/2021",
+                      "contractor":  "SEGUROS SURA S/A",
+                      "cnpj":  "78427944020141",
+                      "object":  "Constitui objeto do presente termo o ACRESCIMO de 0,7842794402014125% ao valor do contrato inicial, firmado entre as partes, referente a inclusao de 01 (um) veiculo MERCEDES BENS – Modelo – ACCELO 1016 2.p - Diesel – Ano 2021 – Placa/Chassi – GAKIF47/9BM97076MB256904, nos termos previstos no § 1º, do artigo 65 da Lei Federal nº 8.666/93. PREGAO PRESENCIAL N,º 041/2021",
+                      "value":  "R$ 800,18",
+                      "term":  "",
+                      "signatureDate":  "20/07/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "6º TERMO ADITIVO AO CONTRATO Nº 102/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SEGUROS SURA S/A\nCONTRATO N°: 102/2021\nOBJETO: Constitui objeto do presente termo o ACRESCIMO de 0,7842794402014125% ao valor do contrato inicial, firmado entre as\npartes, referente a inclusao de 01 (um) veiculo MERCEDES BENS – Modelo – ACCELO 1016 2.p - Diesel – Ano 2021 – Placa/Chassi –\nGAKIF47/9BM97076MB256904, nos termos previstos no § 1º, do artigo 65 da Lei Federal nº 8.666/93.\nPREGAO PRESENCIAL N,º 041/2021\nDATA: 20/07/2022",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

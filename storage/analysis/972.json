@@ -1,0 +1,154 @@
+﻿{
+    "diaryId":  "972",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:51",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_881_06070634.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_881_06070634.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 5.934,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 148/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "148/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ELITH INFORMATICA LTDA",
+                      "cnpj":  "35203012022000",
+                      "object":  "Contratacao de Empresa para aquisicao de Equipamentos de Informatica, com destinacao dos bens para o Centro de referencia de Assistencia Social (CRAS), oriundo do recurso: emenda parlamentar Processo nº202281000306. Programacao SIGTV n° 352030120220002",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ELITH INFORMATICA LTDA\nCONTRATO N°: 148/2024\nOBJETO: Contratacao de Empresa para aquisicao de Equipamentos de Informatica, com destinacao dos bens para o Centro de referencia de Assistencia\nSocial (CRAS), oriundo do recurso: emenda parlamentar Processo nº202281000306. Programacao SIGTV n° 352030120220002",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Pregao Eletronico n°. 013/2024.",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "013/2024",
+                      "modality":  "Pregao Eletronico n°. 013/2024",
+                      "contractor":  "o valor global de R$ 4.934,00 (quatro mil, novecentos e trinta e quatro reais)",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 4.934,00",
+                      "term":  "90 (noventa) dias – Periodo de 28/11/2024 a 25/02/2025.",
+                      "signatureDate":  "28/11/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "Pregao Eletronico n°. 013/2024.\nVALOR: Pagara a contratada o valor global de R$ 4.934,00 (quatro mil, novecentos e trinta e quatro reais).\nData: 28/11/2024\nVIGENCIA: 90 (noventa) dias – Periodo de 28/11/2024 a 25/02/2025.",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 149/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "149/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "HOBBY INDUSTRIA E COMERCIO LTDA",
+                      "cnpj":  "35203012022000",
+                      "object":  "Contratacao de empresa para aquisicao de equipamentos de Informatica, com destinacao dos bens para o Centro de Referencia de Assistencia Social (CRAS), oriundo do recurso: emenda parlamentar Processo nº202281000306. Programacao SIGTV n° 352030120220002 Pregao Eletronica n°. 013/2024",
+                      "value":  "R$ 1.000,00",
+                      "term":  "90 (noventa) dias – Periodo 28/11/2024 a 25/02/2025.",
+                      "signatureDate":  "28/11/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: HOBBY INDUSTRIA E COMERCIO LTDA\nCONTRATO N°: 149/2024\nOBJETO: Contratacao de empresa para aquisicao de equipamentos de Informatica, com destinacao dos bens para o Centro de Referencia de Assistencia\nSocial (CRAS), oriundo do recurso: emenda parlamentar Processo nº202281000306. Programacao SIGTV n° 352030120220002\nPregao Eletronica n°. 013/2024.\nVALOR: Pagara a contratada o valor global de R$ 1.000,00 (um mil reais).\nData: 28/11/2024\nVIGENCIA: 90 (noventa) dias –",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 150/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "150/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "RSM SOLUCOES LTDA",
+                      "cnpj":  "35203012022000",
+                      "object":  "Contratacao de empresa para aquisicao de equipamentos de Informatica, com destinacao dos bens para o Centro de Referencia de Assistencia Social (CRAS), oriundo do recurso: emenda parlamentar Processo nº202281000306. Programacao SIGTV n° 352030120220002",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: RSM SOLUCOES LTDA\nCONTRATO N°: 150/2024\nOBJETO: Contratacao de empresa para aquisicao de equipamentos de Informatica, com destinacao dos bens para o Centro de Referencia de Assistencia\nSocial (CRAS), oriundo do recurso: emenda parlamentar Processo nº202281000306. Programacao SIGTV n° 352030120220002.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

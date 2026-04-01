@@ -1,0 +1,156 @@
+﻿{
+    "diaryId":  "361",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:32",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/5aa1d81802ad131c020ef574fa0a0674.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/5aa1d81802ad131c020ef574fa0a0674.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 967.200,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 180",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "059/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 180\n DE 10 DE AGOSTO DE 2022\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao\nPaulo, no uso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Fernando Rorato, Diretor de Administracao, titular da Cedula de Identidade RG nº 8.184.053-9 SSP/SP, inscrito\n no CPF/MF nº041.448.279-41, para exercer a funcao de Gestor do Contrato 059/2",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE VALOR AO CONTRATO Nº 016/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "016/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "JULIANA MARTINS DE CAMARGO - MEI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para Prestacao de Servicos de Manutencao, Conservacao e Atrativos Turisticos do Parque Municipal do Morro do Espia no Municipio de Iguape/SP. Carta Convite n°. 003/2021",
+                      "value":  "R$ 19.200,00",
+                      "term":  "",
+                      "signatureDate":  "04/08/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE VALOR AO CONTRATO Nº 016/2021 e Instalacoes nas Trilhas\nCONTRATANTE: MUNICIPIO DE IGUAPE mensal de R$ 19.200,00\nCONTRATADA: JULIANA MARTINS DE CAMARGO - MEI\nCONTRATO N°: 016/2021\nOBJETO: Contratacao de Empresa Especializada para Prestacao de Servicos de Manutencao, Conservacao\ne Atrativos Turisticos do Parque Municipal do Morro do Espia no Municipio de Iguape/SP.\nCarta Convite n°. 003/2021\nVALOR: Pagara a contratada o acrescimo de servico no percentual de 24,6184083% , perfazendo um valor\n(dezen",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE PRAZO – CONTRATO 040/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "040/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ENGETEC ENGENHARIA EIRELI - ME",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para obra do predio da escola Vaz Caminha, neste municipio de Iguape/SP Tomada de Precos - n°. 009/2021",
+                      "value":  "",
+                      "term":  "Execucao 60 (sessenta) dias periodo de 03/08/2022 a 02/10/2022 e Vigencia do contrato 60 (sessenta) dias periodo de",
+                      "signatureDate":  "02/08/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE PRAZO – CONTRATO 040/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ENGETEC ENGENHARIA EIRELI - ME\nCONTRATO N°: 040/2021\nOBJETO: Contratacao de Empresa Especializada para obra do predio da escola Vaz Caminha, neste municipio de Iguape/SP\nTomada de Precos - n°. 009/2021\nDATA: 02/08/2022\nVIGENCIA: Execucao 60 (sessenta) dias periodo de 03/08/2022 a 02/10/2022 e Vigencia do contrato 60 (sessenta) dias periodo de\n03/09/2022 a 02/11/2022",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:093/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "3/2022",
+                      "processNumber":  "040/2022",
+                      "modality":  "Pregao Presencial n°. 040/2022",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos pelo periodo de 12 (doze) meses eventual locacao de mao de obra com a finalidade de execucao municipio de Iguape/SP Pregao Presencial n°. 040/2022",
+                      "value":  "R$ 948.000,00",
+                      "term":  "02/08/2022 a 01/08/2023",
+                      "signatureDate":  "02/08/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:093/2022\nOBJETO: Registro de Precos pelo periodo de 12 (doze) meses\neventual locacao de mao de obra com a finalidade de execucao\nmunicipio de Iguape/SP\nPregao Presencial n°. 040/2022\nDATA: 02/08/2022\nVIGENCIA: 02/08/2022 a 01/08/2023\nVALOR: R$ 948.000,00 (novecentos e quarenta e oito mil reais).",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  }
+              ]
+}

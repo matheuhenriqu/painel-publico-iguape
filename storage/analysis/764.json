@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "764",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:20",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/567fddd913298740b78c7098f4bf1ce8.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/567fddd913298740b78c7098f4bf1ce8.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  10,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 993.511,02"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato publicado",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  8,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU C",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para obra de pavimentacao e obras complementares da “Rua Tenente Ascelino Cunha “fase I e fase II, conforme convenio nº 103190/2023, celebrado com a Secretaria de Governo e relacoes institucionais do Governo do Estado de Sao Paulo, e Recursos da Uniao. TOMADA DE PRECOS – Nº 019/2023",
+                      "value":  "R$ 993.511,02",
+                      "term":  "08 (oito) meses, a contar da data da ciencia pela contratada na A.I.S. Autorizacao de Inicio dos Servicos, emitida pela fiscalizacao da",
+                      "signatureDate":  "14/02/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "estadual-governo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Governo e Relacoes Institucionais"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\n\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU C\n\nCONTRATO-N°: 011/2024 - Lote 01: - Fase I\n\nOBJETO: Contratacao de Empresa especializada para obra de pavimentacao e obras complementares da “Rua Tenente Ascelino Cunha “fase I e fase\n\nII, conforme convenio nº 103190/2023, celebrado com a Secretaria de Governo e relacoes institucionais do Governo do Estado de Sao Paulo, e Recursos\n\nda Uniao.\n\nTOMADA DE PRECOS – Nº 019/2023.\n\nVALOR: O valor do presente ajuste e de R$ ",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

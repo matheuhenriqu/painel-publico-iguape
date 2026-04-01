@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "344",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:35",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/4b026aa801b54e5b0a237a527efff75b.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/4b026aa801b54e5b0a237a527efff75b.pdf",
+    "keywords":  [
+                     "contrato",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 3.500,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "INEXIGIBILIDADE DE LICITACAO da empresa GERSON LUIZ DE ALVARENGA 38876790837, inscrita no CNPJ: 35.261.535/0001-09 para",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "535/0001",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "35.261.535/0001-09",
+                      "object":  "",
+                      "value":  "R$3.500,00",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "INEXIGIBILIDADE DE LICITACAO da empresa GERSON LUIZ DE ALVARENGA 38876790837, inscrita no CNPJ: 35.261.535/0001-09 para\napresentacao “GE HENRIQUE”, NO DIA 24 DE JULHO DE 2022, AS 19h15min, NO BAIRRO DO ICAPARA, COMO PARTE DO EVENTO\n“FESTA DA TAINHA” COM FUNDAMENTO NO ARTIGO 25, INCISO III, DA LEI FEDERAL 8.666/93, sendo o valor contratado de R$3.500,00\n(tres mil e quinhentos reais), pois que, ao analisar o caso concreto, eis que estao preenchidos todos os requisitos legais.\n\n Expecam-se as publicacoes necessarias p",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

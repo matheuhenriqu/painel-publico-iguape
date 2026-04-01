@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "583",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:55",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/cc81a8d24a0738272edd49c67fe80ea7.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/cc81a8d24a0738272edd49c67fe80ea7.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  7,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 24.411,48"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "3º TERMO DE ´PRORROGACAO AO CONTRATO Nº 016/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "016/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "JULIANA MARTINS DE CAMARGO - MEI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para Prestacao de Servicos de Manutencao, Conservacao e Instalacoes nas Trilhas e Atrativos Turisticos do Parque Municipal do Morro do Espia no Municipio de Iguape/SP. Carta Convite n°. 003/2021",
+                      "value":  "R$ 24.411,48",
+                      "term":  "Periodo de 03(tres) meses de 17/06/2023 a 16/09/2023.",
+                      "signatureDate":  "16/06/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n3º TERMO DE ´PRORROGACAO AO CONTRATO Nº 016/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: JULIANA MARTINS DE CAMARGO - MEI\nCONTRATO N°: 016/2021\nOBJETO: Contratacao de Empresa especializada para Prestacao de Servicos de Manutencao, Conservacao e Instalacoes nas Trilhas e Atrativos\nTuristicos do Parque Municipal do Morro do Espia no Municipio de Iguape/SP.\nCarta Convite n°. 003/2021\nVALOR: Pagara a contratada o valor global do ajuste de R$ 24.411,48 (vinte e quatro mil, quatrocentos e onze reais e quare",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

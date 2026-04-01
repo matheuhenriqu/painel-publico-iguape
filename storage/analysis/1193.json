@@ -1,0 +1,58 @@
+﻿{
+    "diaryId":  "1193",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:18",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1049_30074400.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1049_30074400.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "291/2025",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 6/2025 - EDITAL Nº: 8/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para Aquisicao de pneus, camaras de ar e protetores de camaras de ar para atender as demandas das secretarias da Prefeitura Municipal de Iguape",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\nPROCESSO Nº: 291/2025\nRegistro de Precos para Aquisicao de pneus, camaras de ar e protetores de camaras de ar para atender as demandas das secretarias da Prefeitura\nMunicipal de Iguape.\nPR-E - PREGAO ELETRONICO - 6/2025 - EDITAL Nº: 8/2025\nINTERESSADOS: GABINETE DO PREFEITO , SECRETARIA MUNICIPAL DE GESTAO E PLANEJAMENTO , SECRETARIA MUNICIPAL DE\nEDUCACAO , SECRETARIA MUNICIPAL DE SAUDE , SECRETARIA MUNIC. DE ASSISTENCIA E DESENV. SOCIAL , SECRETARIA MUNIC. DE",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

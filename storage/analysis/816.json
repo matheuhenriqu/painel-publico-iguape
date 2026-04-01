@@ -1,0 +1,91 @@
+﻿{
+    "diaryId":  "816",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:09",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_754_15074206.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_754_15074206.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 246.470,93"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE ACRESCIMO E SUPRESSAO AO CONTRATO Nº 156/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "156/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI C",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E MANUTENCAO DA ESCOLA MUNICIPAL BENEDITO ROSA CARNEIRO FASE II, NESTE MUNICIPIO DE IGUAPE/SP TOMADA DE PRECO Nº 010/2023",
+                      "value":  "R$ 246.470,93",
+                      "term":  "",
+                      "signatureDate":  "13/05/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE ACRESCIMO E SUPRESSAO AO CONTRATO Nº 156/2023\n\nCONTRATANTE: MUNICIPIO DE IGUAPE CONTRATADA: CIACAN ENGENHARIA EIRELI C\n\nCONTRATO N°: 156/2023\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E MANUTENCAO DA ESCOLA MUNICIPAL BENEDITO\nROSA CARNEIRO FASE II, NESTE MUNICIPIO DE IGUAPE/SP\nTOMADA DE PRECO Nº 010/2023\nDATA:13/05/2024\nVALOR: Pagara a contratada o valor de R$ 246.470,93 (duzentos e quarenta e seis mil, quatrocentos e setenta reais e noventa e tres centavos), sendo\no valo",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "TERMO DE RETI – RATIFICACAO AO 6º TERMO ADITIVO DE PRORROGACAO AO CONTRATO Nº 035/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "035/2022",
+                      "processNumber":  "019/2022",
+                      "modality":  "PREGAO PRESENCIAL Nº 019/2022",
+                      "contractor":  "FRANKLIN CANGUSSU SAMPAIO EIRELI",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nTERMO DE RETI – RATIFICACAO AO 6º TERMO ADITIVO DE PRORROGACAO AO CONTRATO Nº 035/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: FRANKLIN CANGUSSU SAMPAIO EIRELI\nCONTRATO N°: 035/2022\nOBJETO: Contratacao de empresa especializada em fornecimento de profissionais na area da saude, para atendimentos na Estrategia de Saude da\nFamilia, Unidade Mista e CAPS (Centro de Atendimento Psicossocial), no municipio de Iguape.\nPREGAO PRESENCIAL Nº 019/2022\nOnde se le: 3.1 - As despesas decorrentes do presente contrato",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

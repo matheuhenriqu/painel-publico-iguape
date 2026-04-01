@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "532",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:05",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/e0f004e786d68d8679c536906d2a37fd.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/e0f004e786d68d8679c536906d2a37fd.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  9,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "1/2023",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E MANUTENCAO DA ESCOLA MUNICIPAL PROFª ZELY ALVES FORTES, LOCALIZADA NA AVENIDA VEREADOR MANOEL GONCALVES PIRES, Nº 205, ROCIO - IGUAPE/SP TP-O - TOMADA DE PRECOS / OBRAS - 5/2023 - EDITAL Nº: 25/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 1/2023\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E MANUTENCAO DA ESCOLA MUNICIPAL PROFª ZELY ALVES\nFORTES, LOCALIZADA NA AVENIDA VEREADOR MANOEL GONCALVES PIRES, Nº 205, ROCIO - IGUAPE/SP\nTP-O - TOMADA DE PRECOS / OBRAS - 5/2023 - EDITAL Nº: 25/2023\nINTERESSADOS: DEPARTAMENTO DE OBRAS .\n\n HOMOLOGO E ADJUDICO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\n\nitens abaixo.\n\nFORNECEDOR: CIACAN ENGENHARIA EIRELI\nItem 1",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,57 @@
+﻿{
+    "diaryId":  "412",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:26",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/993d55bc7edfb463a3fb993cc9932a3f.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/993d55bc7edfb463a3fb993cc9932a3f.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  20,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO N.º 096/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  17,
+                      "contractNumber":  "096/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ENGETEC ENGENHARIA EIRELI - ME",
+                      "cnpj":  "",
+                      "object":  "Constitui objeto do presente termo a prorrogacao da vigencia do contrato supra mencionado, referente a contratacao de empresa especializada para pavimentacao e obras complementares de trechos das ruas Manoel Camargo e Lauro Jose Ferreira no bairro do Rocio- conforme convenio nº 101113/2021-SDR (Lote-002) TOMADA DE PRECO – Nº 015/2021",
+                      "value":  "",
+                      "term":  "do contrato supra mencionado, referente a contratacao de",
+                      "signatureDate":  "19/10/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO N.º 096/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ENGETEC ENGENHARIA EIRELI - ME\nOBJETO: Constitui objeto do presente termo a prorrogacao da vigencia do contrato supra mencionado, referente a contratacao de\nempresa especializada para pavimentacao e obras complementares de trechos das ruas Manoel Camargo e Lauro Jose Ferreira no\nbairro do Rocio- conforme convenio nº 101113/2021-SDR (Lote-002)\nTOMADA DE PRECO – Nº 015/2021\nDATA: 19/10/2022\nVIGENCIA: 20/10/2022 a 19/12/202",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

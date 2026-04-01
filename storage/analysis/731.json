@@ -1,0 +1,52 @@
+﻿{
+    "diaryId":  "731",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:27",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/523401148144ad0b6d57625b250e19c4.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/523401148144ad0b6d57625b250e19c4.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 823.948,52"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 003/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "003/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para obra de reforma na Escola Municipal Profª Amancia Alves Muniz, localizada na avenida Julio Franco , nº 307, Bairro do Rocio – Iguape/SP. Tomada de Preco n°. 013/2023",
+                      "value":  "R$ 823.948,52",
+                      "term":  "18 (dezoito) meses, a contar da data de ciencia pela CONTRATADA na A.I.S. Autorizacao de Inicio dos Servicos",
+                      "signatureDate":  "08/01/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CIACAN ENGENHARIA EIRELI\nCONTRATO N°: 003/2024\nOBJETO: Contratacao de Empresa especializada para obra de reforma na Escola Municipal Profª Amancia Alves Muniz, localizada na avenida Julio\nFranco , nº 307, Bairro do Rocio – Iguape/SP.\nTomada de Preco n°. 013/2023.\nVALOR: Pagara a contratada o valor global de R$ 823.948,52 (oitocentos e vinte e tres mil, novecentos e quarenta e oito reais e cinquenta e dois\ncentavos).\nData: 08/01/2024\nVIGENCIA: 18 (dezoito) meses,",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

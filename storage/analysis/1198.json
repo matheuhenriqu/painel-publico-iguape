@@ -1,0 +1,189 @@
+﻿{
+    "diaryId":  "1198",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:17",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1054_06060859.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1054_06060859.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  5,
+                    "totalValue":  "R$ 976.151,50"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 024/2025.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "024/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de precos para futura e eventual contratacao de empresa especializada no fornecimento de materiais graficos impressos, a fim de atender as demandas de acoes e eventos da Secretaria Municipal de Cultura, Esportes e Turismo pelo periodo de 12 (doze) meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 024/2025.\nOBJETO: Registro de precos para futura e eventual contratacao de empresa especializada no fornecimento de materiais graficos impressos, a fim de\natender as demandas de acoes e eventos da Secretaria Municipal de Cultura, Esportes e Turismo pelo periodo de 12 (doze) meses.",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Pregao Eletronico n°.013/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "3/2025",
+                      "modality":  "Pregao Eletronico n°.013/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 859.351,50",
+                      "term":  "Validade do presente Registro de Precos – 03/09/2025 a 02/09/2026 – 12 (doze) meses.",
+                      "signatureDate":  "03/09/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "Pregao Eletronico n°.013/2025\nData: 03/09/2025\nVIGENCIA: Validade do presente Registro de Precos – 03/09/2025 a 02/09/2026 – 12 (doze) meses.\nVALOR: R$ 859.351,50 (oitocentos e cinquenta e nove mil, trezentos e cinquenta e um reais e cinquenta centavos).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 025/2025.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "025/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de precos para futura e eventual contratacao de empresa especializada no fornecimento de materiais graficos impressos, a fim de atender as demandas de acoes e eventos da Secretaria Municipal de Cultura, Esportes e Turismo pelo periodo de 12 (doze) meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 025/2025.\nOBJETO: Registro de precos para futura e eventual contratacao de empresa especializada no fornecimento de materiais graficos impressos, a fim de\natender as demandas de acoes e eventos da Secretaria Municipal de Cultura, Esportes e Turismo pelo periodo de 12 (doze) meses.",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 139/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "139/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "VALEC DISTRIBUIDORA DE VEICULOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de um veiculo tipo Caminhonete PICK-UP, zero KM, cabine dupla, em atendimento ao Fundo Social de Solidariedade do Municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: VALEC DISTRIBUIDORA DE VEICULOS LTDA\nCNPJ: 02.xxx.xxx/0001-12\nCONTRATO Nº: 139/2025\nOBJETO: Aquisicao de um veiculo tipo Caminhonete PICK-UP, zero KM, cabine dupla, em atendimento ao Fundo Social de Solidariedade do Municipio\nde Iguape/SP",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO n°.017/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "7/2025",
+                      "modality":  "PREGAO ELETRONICO n°.017/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 116.800,00",
+                      "term":  "O presente contrato tera vigencia de 60 (sessenta) dias, periodo de 03/09/2025 a 01/11/2025.",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO n°.017/2025\nVIGENCIA: O presente contrato tera vigencia de 60 (sessenta) dias, periodo de 03/09/2025 a 01/11/2025.\nVALOR: R$ 116.800,00 (cento e dezesseis mil e oitocentos reais).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,88 @@
+﻿{
+    "diaryId":  "1326",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:52",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1146_31080657.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1146_31080657.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  9,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 2.138.886,90"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "CONTRATANTE: MUNICIPIO DE IGUAPE/SP",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "1402/2025",
+                      "modality":  "",
+                      "contractor":  "PREFEITURA DO MUNICIPIO DE JUQUITIBA",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para futura e eventual aquisicao de insumos para merenda, generos alimenticioss estocaveis, Hortifrutigranjeiros e acougue com entrega fracionada ponto a ponto para atender as secretarias de Educacao, Saude, Cultura e promocao Social de Municipio de Iguape",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: PREFEITURA DO MUNICIPIO DE JUQUITIBA.\nCNPJ: 10..XXX.XXX/XXXX-86\nAta de Registro nº 005/2026 – Adesao a Ata de Registro de Precos 002 2025\nProcesso nº 1402/2025\nOBJETO: Registro de Precos para futura e eventual aquisicao de insumos para merenda, generos alimenticioss estocaveis, Hortifrutigranjeiros e acougue\ncom entrega fracionada ponto a ponto para atender as secretarias de Educacao, Saude, Cultura e promocao Social de Municipio de Iguape",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Pregao Eletronico n°. 002/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "002/2025",
+                      "modality":  "Pregao Eletronico n°. 002/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 2.138.886,90",
+                      "term":  "Validade do presente Contrato – 09 (nove) meses periodo de 26/01/2026 a 25/10/2026",
+                      "signatureDate":  "26/01/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "Pregao Eletronico n°. 002/2025\nData: 26/01/2025\nVIGENCIA: Validade do presente Contrato – 09 (nove) meses periodo de 26/01/2026 a 25/10/2026\nVALOR ESTIMADO: R$ 2.138.886,90 (dois milhoes, cento e trinta e oito mil, oitocentos e oitenta e seis reais e noventa centavos).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

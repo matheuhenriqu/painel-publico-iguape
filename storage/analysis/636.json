@@ -1,0 +1,197 @@
+﻿{
+    "diaryId":  "636",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:44",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/d35279aba748ca48e6d2a190d907ebb4.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/d35279aba748ca48e6d2a190d907ebb4.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  5,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "1º TERMO DE PRORROGACAO AO CONTRATO Nº 080/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "080/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MYR COMERCIO DE ARTIGOS PEDAGOGICOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Materiais Esportivos para atender o convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania/ Secretaria Especial de Esportes e a Prefeitura Municipal de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n1º TERMO DE PRORROGACAO AO CONTRATO Nº 080/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: MYR COMERCIO DE ARTIGOS PEDAGOGICOS LTDA\nOBJETO: Aquisicao de Materiais Esportivos para atender o convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania/ Secretaria Especial de\nEsportes e a Prefeitura Municipal de Iguape/SP.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "1º TERMO DE PRORROGACAO AO CONTRATO Nº 083/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "083/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MAIS ESPORTE COMERCIO DE ARTIGOS ESPORTIVOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Materiais Esportivos para atender o convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania/ Secretaria Especial de Esportes e a Prefeitura Municipal de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n1º TERMO DE PRORROGACAO AO CONTRATO Nº 083/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: MAIS ESPORTE COMERCIO DE ARTIGOS ESPORTIVOS LTDA\nOBJETO: Aquisicao de Materiais Esportivos para atender o convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania/ Secretaria Especial\nde Esportes e a Prefeitura Municipal de Iguape/SP.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "1º TERMO DE PRORROGACAO AO CONTRATO Nº 084/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "084/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "RMM SPORTS COMERCIO DE PRODUTOS ESPORTIVOS EIRELI-ME",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Materiais Esportivos para atender o convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania/ Secretaria Especial de Esportes e a Prefeitura Municipal de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n1º TERMO DE PRORROGACAO AO CONTRATO Nº 084/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: RMM SPORTS COMERCIO DE PRODUTOS ESPORTIVOS EIRELI-ME\nOBJETO: Aquisicao de Materiais Esportivos para atender o convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania/ Secretaria Especial\nde Esportes e a Prefeitura Municipal de Iguape/SP.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "1º TERMO DE PRORROGACAO AO CONTRATO Nº 085/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "085/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SW SPORTS COMERCIO E SERVICOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Materiais Esportivos para atender o convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania/ Secretaria Especial de Esportes e a Prefeitura Municipal de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n1º TERMO DE PRORROGACAO AO CONTRATO Nº 085/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SW SPORTS COMERCIO E SERVICOS LTDA\nOBJETO: Aquisicao de Materiais Esportivos para atender o convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania/ Secretaria Especial\nde Esportes e a Prefeitura Municipal de Iguape/SP.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "1º TERMO DE PRORROGACAO AO CONTRATO Nº 101/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "101/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ALTERNATIVA COMERCIAL TEXTIL LTDA - ME",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa para fornecimento de uniformes, para atender o convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania/ Secretaria Especial de Esportes e a Prefeitura Municipal de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n1º TERMO DE PRORROGACAO AO CONTRATO Nº 101/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ALTERNATIVA COMERCIAL TEXTIL LTDA - ME\nOBJETO: Contratacao de empresa para fornecimento de uniformes, para atender o convenio nº 923931/2021 celebrado entre o Ministerio da\nCidadania/ Secretaria Especial de Esportes e a Prefeitura Municipal de Iguape/SP",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

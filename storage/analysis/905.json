@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "905",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:58",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_827_04064324.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_827_04064324.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "427/2024",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 9/2024 - EDITAL Nº: 17/2024",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para o REGISTRO DE PRECOS, visando a eventual “AQUISICAO DE MATERIAIS E EQUIPAMENTOSMEDICO- HOSPITALARES DE ‘A a Z’, CONSTANTES NA REVISTA SIMPRO HOSPITLAR(edicao vigente)",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 427/2024\nContratacao de empresa especializada para o REGISTRO DE PRECOS, visando a eventual “AQUISICAO DE MATERIAIS E EQUIPAMENTOSMEDICO-\nHOSPITALARES DE ‘A a Z’, CONSTANTES NA REVISTA SIMPRO HOSPITLAR(edicao vigente).\nPR-E - PREGAO ELETRONICO - 9/2024 - EDITAL Nº: 17/2024\nINTERESSADOS: SECRETARIA MUNICIPAL DE SAUDE .",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

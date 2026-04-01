@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "648",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:42",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/7eff267dfcec7e6999be54e9ffd5eac9.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/7eff267dfcec7e6999be54e9ffd5eac9.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "rescisao"
+                 ],
+    "summary":  {
+                    "pageCount":  8,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 1.104.945,54"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "5º TERMO ADITIVO DE PRORROGACAO AO CONTRATO N.º 029/2020",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  7,
+                      "contractNumber":  "029/2020",
+                      "processNumber":  "044/2019",
+                      "modality":  "pregao presencial nº 044/2019",
+                      "contractor":  "J.M.L. SINALIZACAO E SERVICOS LTDA",
+                      "cnpj":  "",
+                      "object":  "contratacao de empresa especializada para prestacao de servicos de conservacao urbana, compreendendo: varricao, capina, afastamento dos residuos, pintura de guias brancas de ruas e avenidas (licitacao fracassada pregao presencial nº 044/2019) Pregao Presencial n.° 003/2020",
+                      "value":  "R$1.104.945,54",
+                      "term":  "03 (tres) meses - 17/09/2023 a 16/12/2023 (inclusive)",
+                      "signatureDate":  "15/09/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "5º TERMO ADITIVO DE PRORROGACAO AO CONTRATO N.º 029/2020 coleta e\nCONTRATANTE: MUNICIPIO DE IGUAPE e quatro\nCONTRATADA: J.M.L. SINALIZACAO E SERVICOS LTDA\nOBJETO: contratacao de empresa especializada para prestacao de servicos de conservacao urbana, compreendendo: varricao, capina,\nafastamento dos residuos, pintura de guias brancas de ruas e avenidas (licitacao fracassada pregao presencial nº 044/2019)\nPregao Presencial n.° 003/2020\nDATA: 15/09/2023\nVALOR: O presente Termo Aditivo e de R$1.104.945,54 (um milhao, ce",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

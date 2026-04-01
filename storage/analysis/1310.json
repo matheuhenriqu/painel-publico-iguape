@@ -1,0 +1,132 @@
+﻿{
+    "diaryId":  "1310",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:55",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1136_17102944.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1136_17102944.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade",
+                     "rescisao"
+                 ],
+    "summary":  {
+                    "pageCount":  48,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 130,50"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "Portaria de gestao do contrato 18/2026",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  5,
+                      "contractNumber":  "18/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogando-se as disposicoes em sentido contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-cultura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Cultura",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "5\n\n Diario Oficial\n\n Iguape - SP\n\n ANO 05 – Nº 1136 Sabado, 17 de Janeiro de 2026 - www.iguape.sp.gov.br\n\n D E C R E T A\nArt. 1º - Fica exonerado, a partir de 15 de janeiro de 2026, o servidor publico GUILHERME ROMERA DE ALMEIDA (RG n. 40.302.070-0 – SSP/SP),\nocupante do cargo em comissao Assessor IV DCA-30, Referencia 4-G, na Secretaria Municipal de Cultura.\n\nArt. 2º - Fica nomeado, a partir de 16 de janeiro de 2026, para ocupar o cargo em comissao de Assessor IV DCA-30, Referencia 4-G, na Secretaria\nMunicipal de ",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato publicado",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  7,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MEDBLANC GESTAO EM SAUDE E IMAGEM LTDA",
+                      "cnpj":  "",
+                      "object":  "Credenciamento de pessoas fisicas e juridicas para a prestacao de servicos medicos plantonistas, Medicos para Saude da Familia, medicos especialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTAOCUPACIONAL, FONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de saude de Iguape, bem como todos os locais de atendimento que a compoe, pelo periodo de 12 meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP EXTRATO\n\nCONTRATADA: MEDBLANC GESTAO EM SAUDE E IMAGEM LTDA.\n\nCNPJ:-42.xxx.xxx-05\n\nCONTRATO: Nº:-17/2026\n\nOBJETO: Credenciamento de pessoas fisicas e juridicas para a prestacao de servicos medicos plantonistas, Medicos para Saude da Familia, medicos\n\nespecialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTAOCUPACIONAL,\n\nFONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de saude de Iguape, bem como to",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "CHAMADA PUBLICA/CREDENCIAMENTO INEXIGIBILIDADE n°.17/2026",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  7,
+                      "contractNumber":  "",
+                      "processNumber":  "17/2026",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 130,50",
+                      "term":  "O presente contrato tera vigencia de 12 (doze) meses, periodo de 14/01/2026 a 13/04/2026.",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "federal-agu",
+                      "primaryOrganizationName":  "Advocacia-Geral da Uniao",
+                      "primaryOrganizationSphere":  "federal",
+                      "primaryOrganizationAreaId":  "justica-cidadania",
+                      "mentionedOrganizationIds":  [
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "CHAMADA PUBLICA/CREDENCIAMENTO INEXIGIBILIDADE n°.17/2026\n\nVIGENCIA: O presente contrato tera vigencia de 12 (doze) meses, periodo de 14/01/2026 a 13/04/2026.\n\nVALOR: R$ 130,50/h (cento e trinta reais e cinquenta centavos): Medico Generalista, R$ 368,33 (Trezentos e sessenta e oito reais e trinta e tres\n\ncentavos).Medico Pediatra, 315,80 (trezentos e quinze reais e oitenta centavos) Medico Psiquiatra, valor fixo a hora/ plantao efetivamente\n\ntrabalhada, sendo em rodizio trimestral conforme Ordem de inicio de Servic",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

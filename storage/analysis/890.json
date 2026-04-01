@@ -1,0 +1,123 @@
+﻿{
+    "diaryId":  "890",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:59",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_812_14074354.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_812_14074354.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 138.754,04"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 211",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "146/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa RONIE CARLO GODOI",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 211\n DE 13 DE AGOSTO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\n\n Designa, Eder Henrique de Ramos Silva, Coordenador I PSF, titular da Cedula de Identidade – RG nº 30.992.438-8 SSP/SP, inscrito no\n CPF/MF sob o nº 384.443.768-17, para exercer a funcao de gestor d",
+                      "completeness":  "baixa",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO AO CONTRATO 026/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  5,
+                      "contractNumber":  "026/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de reforma E.S.F Cavalcante, localizado na estrada do Arataca – Bairro Cavalcante neste municipio de Iguape/SP. TOMADA DE PRECOS Nº 022/2023",
+                      "value":  "R$ 75.175,22",
+                      "term":  "",
+                      "signatureDate":  "09/08/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO AO CONTRATO 026/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA\nCONTRATO N°: 026/2024\nOBJETO: Contratacao de empresa especializada para obra de reforma E.S.F Cavalcante, localizado na estrada do Arataca – Bairro Cavalcante\nneste municipio de Iguape/SP.\nTOMADA DE PRECOS Nº 022/2023\nDATA: 09/08/2024\nValor: Corresponde ao acrescimo de servicos no valor de R$ 75.175,22 (setenta e cinco mil, cento e setenta e cinco reais e vinte e dois centavos),\ne supre",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 146/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  5,
+                      "contractNumber":  "146/2023",
+                      "processNumber":  "23/2023",
+                      "modality":  "PREGAO PRESENCIAL Nº 23/2023",
+                      "contractor":  "RONIE CARLOS GODOI",
+                      "cnpj":  "",
+                      "object":  "Prestacao de Servicos de empresa especializada para manutencao preventiva e corretiva com calibracao e teste de seguranca eletrica em equipamentos odontologicos das unidade de saude do municipio, atendendo a solicitacao da Secretaria Municipal de Saude, pelo periodo de 12 (doze) meses. PREGAO PRESENCIAL Nº 23/2023",
+                      "value":  "R$ 63.578,82",
+                      "term":  "Permanecera valido por um periodo de 12 (doze) meses - 20/08/2024 a 19/08/2025.",
+                      "signatureDate":  "12/08/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 146/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: RONIE CARLOS GODOI\nCONTRATO:N°:146/2023\nOBJETO Prestacao de Servicos de empresa especializada para manutencao preventiva e corretiva com calibracao e teste de seguranca eletrica\nem equipamentos odontologicos das unidade de saude do municipio, atendendo a solicitacao da Secretaria Municipal de Saude, pelo periodo\nde 12 (doze) meses.\nPREGAO PRESENCIAL Nº 23/2023\nDATA:12/08/2024\nVALOR: Pagara o presente termo o valor de R",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "601",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:51",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/aea3da691bd2343d34ef3b20375c3881.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/aea3da691bd2343d34ef3b20375c3881.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  13,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  9,
+                      "contractNumber":  "",
+                      "processNumber":  "517/2023",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 39/2023 - EDITAL Nº: 65/2023",
+                      "contractor":  "H.D.F. PRODUCOES EVENTOS E MANUTENCAO TECNICA LTDA - ME",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA LOCACAO DE ESTRUTURAS: TENDAS E COBERTURA E GALPAO , FECHAMENTO EM PLACAS E GRADES DE CONTENCAO, A SEREM UTILIZADOS NAS FESTAS E EVENTOS DO MUNICIPIO DE IGUAPE/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 517/2023\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA LOCACAO DE ESTRUTURAS: TENDAS E COBERTURA E GALPAO , FECHAMENTO EM\nPLACAS E GRADES DE CONTENCAO, A SEREM UTILIZADOS NAS FESTAS E EVENTOS DO MUNICIPIO DE IGUAPE/SP.\nPR-G - PREGAO PRESENCIAL - 39/2023 - EDITAL Nº: 65/2023\nINTERESSADOS: SECRETARIA MUNIC. DE CULTURA, ESPORTES E TURISMO .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\n\nitens abaixo.\n\nFORNECEDOR:",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

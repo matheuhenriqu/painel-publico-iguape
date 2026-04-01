@@ -1,0 +1,91 @@
+﻿{
+    "diaryId":  "1098",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:31",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_984_22072409.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_984_22072409.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 1.834,33"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE PRAZO AO CONTRATO 067/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "067/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SUL VALE CONSTRUTORA LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de reforma de Ginasio Poliesportivo, localizado na Rua dos Estu dantes com aRua Antonio Jose de Morais e a Rua Tiradentes no Municipio de Iguape, conforme termo de convenio 101008/2022, celebrado entre a Secretaria de Desenvolvimento Regional e a Prefeitura de Iguape. TOMADA DE PRECO Nº 001/2023",
+                      "value":  "",
+                      "term":  "Vigencia e Execucao - 240 (duzentos e quarenta) dias – Periodo de 20/05/2025 a 14/01/2026.",
+                      "signatureDate":  "20/05/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE PRAZO AO CONTRATO 067/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SUL VALE CONSTRUTORA LTDA\nCONTRATO N°: 067/2023\nOBJETO: Contratacao de empresa especializada para obra de reforma de Ginasio Poliesportivo, localizado na Rua dos Estu dantes com aRua\nAntonio Jose de Morais e a Rua Tiradentes no Municipio de Iguape, conforme termo de convenio 101008/2022, celebrado entre a Secretaria de\nDesenvolvimento Regional e a Prefeitura de Iguape.\nTOMADA DE PRECO Nº 001/2023\nDATA: 20/05/2025\nVIGENCIA: V",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 262/2011",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "DELMINDA DE CAMARGO DIAS",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao do “ITESP - Instituto de Terras do Estado de Sao Paulo”",
+                      "value":  "R$ 1.834,33",
+                      "term":  "",
+                      "signatureDate":  "19/05/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nTERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 262/2011\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: DELMINDA DE CAMARGO DIAS\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao do “ITESP - Instituto de Terras do Estado\nde Sao Paulo”\nDATA: 19/05/2025\nVALOR: R$ 1.834,33 (hum mil, oitocentos e trinta e quatro reais e trinta e tres centavos) mensais.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

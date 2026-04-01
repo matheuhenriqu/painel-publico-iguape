@@ -1,0 +1,57 @@
+﻿{
+    "diaryId":  "1100",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:31",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_986-_24073837.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_986-_24073837.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 139.081,36"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO DE PRORROGACAO AO CONTRATO Nº 038/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "038/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "1 DOC TECNOLOGIA S.A",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada na prestacao de servicos em sistema informatizado integrado e oficial de comunicacao interna e externa, gestao documental, central de atendimento com modulos, memorando, circular, protocolo eletronico, oficio eletronico, chamado tecnico, processo administrativo, aprovacao de projetos de construcao e parcelamento de solo e funcionalidades. PREGAO PRESENCIAL - n°. 020/2022",
+                      "value":  "R$ 139.081,36",
+                      "term":  "Periodo de 20/05/2025 a 19/05/2026.",
+                      "signatureDate":  "19/05/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-camara",
+                      "primaryOrganizationName":  "Camara Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-camara"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Camara Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO DE PRORROGACAO AO CONTRATO Nº 038/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: 1 DOC TECNOLOGIA S.A.\nCONTRATO N°: 038/2022\nOBJETO: Contratacao de empresa especializada na prestacao de servicos em sistema informatizado integrado e oficial de comunicacao interna e\nexterna, gestao documental, central de atendimento com modulos, memorando, circular, protocolo eletronico, oficio eletronico, chamado tecnico,\nprocesso administrativo, aprovacao de projetos de construcao e parcelamento de solo e funcio",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

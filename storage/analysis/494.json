@@ -1,0 +1,162 @@
+﻿{
+    "diaryId":  "494",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:12",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/629883aab06f488d5878dcbd07e9efb0.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/629883aab06f488d5878dcbd07e9efb0.pdf",
+    "keywords":  [
+                     "contrato",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  9,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 6.085.874,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:008/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "8/2023",
+                      "processNumber":  "006/2023",
+                      "modality":  "Pregao Presencial n°. 006/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de generos alimenticios pereciveis e nao pereciveis para atender a Secretaria de Educacao (merenda escolar) e demais Secretarias e Departamentos da Prefeitura Municipal de Iguape, pelo periodo de 12 (doze) meses. Pregao Presencial n°. 006/2023",
+                      "value":  "R$ 437.000,00",
+                      "term":  "10/02/2023 a 09/02/2024",
+                      "signatureDate":  "10/02/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-educacao",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Educacao",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:008/2023\nOBJETO: Registro de Precos para aquisicao de generos alimenticios pereciveis e nao pereciveis para atender a Secretaria de Educacao\n(merenda escolar) e demais Secretarias e Departamentos da Prefeitura Municipal de Iguape, pelo periodo de 12 (doze) meses.\nPregao Presencial n°. 006/2023\nDATA: 10/02/2023\nVIGENCIA: 10/02/2023 a 09/02/2024\nVALOR: R$ 437.000,00 (quatrocentos e trinta e sete mil reais).",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:009/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "9/2023",
+                      "processNumber":  "006/2023",
+                      "modality":  "Pregao Presencial n°. 006/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de generos alimenticios pereciveis e nao pereciveis para atender a Secretaria de Educacao (merenda escolar) e demais Secretarias e Departamentos da Prefeitura Municipal de Iguape, pelo periodo de 12(doze) meses. Pregao Presencial n°. 006/2023",
+                      "value":  "R$ 1.640.500,00",
+                      "term":  "10/02/2023 a 09/02/2024",
+                      "signatureDate":  "10/02/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-educacao",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Educacao",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:009/2023\nOBJETO: Registro de Precos para aquisicao de generos alimenticios pereciveis e nao pereciveis para atender a Secretaria de Educacao\n(merenda escolar) e demais Secretarias e Departamentos da Prefeitura Municipal de Iguape, pelo periodo de 12(doze) meses.\nPregao Presencial n°. 006/2023\nDATA: 10/02/2023\nVIGENCIA: 10/02/2023 a 09/02/2024\nVALOR: R$ 1.640.500,00 (um milhao, seiscentos e quarenta mil e quinhentos reais).",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:010/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "0/2023",
+                      "processNumber":  "006/2023",
+                      "modality":  "Pregao Presencial n°. 006/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de generos alimenticios pereciveis e nao pereciveis para atender a Secretaria de Educacao (merenda escolar) e demais Secretarias e Departamentos da Prefeitura Municipal de Iguape, pelo periodo de 12(doze) meses. Pregao Presencial n°. 006/2023",
+                      "value":  "R$ 4.008.374,00",
+                      "term":  "10/02/2023 a 09/02/2024",
+                      "signatureDate":  "10/02/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-educacao",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Educacao",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:010/2023\nOBJETO: Registro de Precos para aquisicao de generos alimenticios pereciveis e nao pereciveis para atender a Secretaria de Educacao\n(merenda escolar) e demais Secretarias e Departamentos da Prefeitura Municipal de Iguape, pelo periodo de 12(doze) meses.\nPregao Presencial n°. 006/2023\nDATA: 10/02/2023\nVIGENCIA: 10/02/2023 a 09/02/2024\nVALOR: R$ 4.008.374,00 (quatro milhoes, oito mi, trezentos e setenta e quatro reais).",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE LICITACAO - PREGAO PRESENCIAL",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  4,
+                      "contractNumber":  "",
+                      "processNumber":  "010/2023",
+                      "modality":  "PREGAO PRESENCIAL nº. 010/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICOES FUTURAS DE LAMPADAS, REATORES E RELES PARA MANUTENCAO DO PARQUE DE ILUMINACAO - VAPOR DE SODIO SOB GESTAO DA SECRETARIA MUNICIPAL DE INFRAESTRUTURA URBANA E OBRAS. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013, Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "AVISO DE LICITACAO\n PREGAO PRESENCIAL\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira,\nIguape/SP, CEP 11.920-000, o PREGAO PRESENCIAL nº. 010/2023, do tipo MENOR PRECO POR ITEM conforme especificacoes\ndetalhadas no Edital.\n\nOBJETO: REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICOES FUTURAS DE LAMPADAS,\nREATORES E RELES PARA MANUTENCAO DO PARQUE DE ILUMINACAO - VAPOR DE SODIO SOB GESTAO DA SECRETARIA\nMUNICIPAL DE INFRAES",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

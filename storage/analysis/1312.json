@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "1312",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:54",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1138_21080538.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1138_21080538.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao",
+                     "rescisao"
+                 ],
+    "summary":  {
+                    "pageCount":  20,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CHAMADA PUBLICA Nº 000/2026 – Credenciamento de instituicoes financeiras, autorizadas a funcionar pelo Banco Central do Brasil, para a",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "000/2026",
+                      "modality":  "CHAMADA PUBLICA Nº 000/2026",
+                      "contractor":  "s deverao observar as normas e padroes estabelecidos pela Federacao Brasileira de Banc os – FEBRABAN",
+                      "cnpj":  "45.550.167/0001-64",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "Lei Federal nº 14.133/2021, especialmente ao art",
+                      "primaryOrganizationId":  "municipal-fazenda",
+                      "primaryOrganizationName":  "Secretaria Municipal da Fazenda",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "fazenda",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-fazenda"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria Municipal da Fazenda"
+                                                     ],
+                      "excerpt":  "CHAMADA PUBLICA Nº 000/2026 – Credenciamento de instituicoes financeiras, autorizadas a funcionar pelo Banco Central do Brasil, para a\nprestacao de servicos bancarios de arrecadacao e recolhimento das receitas publicas municipais, tributarias e nao tributarias, da Prefeitura\nMunicipal de Iguape/SP, incluindo, entre outras, as receitas provenientes de IPTU, ITBI, ISSQN, Taxas, Servicos e demais receitas municipais,\npor meio de DAM – Documento de Arrecadacao Municipal, com prestacao de contas por meio eletronico dos ",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,126 @@
+﻿{
+    "diaryId":  "359",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:32",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/06146da59109e8ef0bc8ec54a6fbd7d5.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/06146da59109e8ef0bc8ec54a6fbd7d5.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 83.400,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "",
+                      "processNumber":  "364/2022",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 49/2022 - EDITAL Nº: 73/2022",
+                      "contractor":  "SIMONE NOVAIS RIBEIRO ME",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE AGUA MINERAL PARA ATENDER AS DIVERSAS SECRETARIAS DA PREFEITURA MUNICIPAL DE IGUAPE , PELO PERIODO DE 12 (DOZE) MESES",
+                      "value":  "",
+                      "term":  "DE VALIDADE COM REGISTRO NO MINISTERIO DA SAUDE, COM",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "federal-agu",
+                                                       "municipal-prefeitura",
+                                                       "federal-ministerio-saude"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Ministerio da Saude"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 364/2022\nREGISTRO DE PRECOS PARA AQUISICAO DE AGUA MINERAL PARA ATENDER AS DIVERSAS SECRETARIAS DA PREFEITURA\nMUNICIPAL DE IGUAPE , PELO PERIODO DE 12 (DOZE) MESES .\nPR-G - PREGAO PRESENCIAL - 49/2022 - EDITAL Nº: 73/2022\nINTERESSADOS: DEPARTAMENTO DE ADMINISTRACAO , DEPARTAMENTO MUNICIPAL DE TRANSITO , DEPARTAMENTO DE\nEDUCACAO , DEPARTAMENTO DE CULTURA E ESPORTES , DEPARTAMENTO DE TURISMO , FUNDO MUNICIPAL DE SAUDE\ne FUNDO MUNICIPAL DE ASSISTENCIA SOCIAL .\n\n ADJUDI",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRORROGACAO AO CONTRATO Nº: 011/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "011/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "0 presente instrumento tem por objeto a prorrogacao, conforme clausula decima segunda do contrato nº 011/2022 – para Contratacao de Empresa Especializada na prestacao de servico, de forma continua, dos servicos de limpeza, asseio e conservacao predial, com disponibilizacao de mao de obra de dois funcionarios nas dependencias do edificio da sede da Camara Municipal de Iguape, com area total de 337,25M, subdividida em dois pavimentos, terreo e superior",
+                      "value":  "R$ 17.400,00",
+                      "term":  "60 (sessenta) dias a partir da assinatura do contrato.",
+                      "signatureDate":  "13/07/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-camara",
+                      "primaryOrganizationName":  "Camara Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-camara"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Camara Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRORROGACAO AO CONTRATO Nº: 011/2022\nOBJETO: 0 presente instrumento tem por objeto a prorrogacao, conforme clausula decima segunda do contrato nº 011/2022 – para\nContratacao de Empresa Especializada na prestacao de servico, de forma continua, dos servicos de limpeza, asseio e conservacao\npredial, com disponibilizacao de mao de obra de dois funcionarios nas dependencias do edificio da sede da Camara Municipal de Iguape,\ncom area total de 337,25M, subdividida em dois pavimentos, terreo e superior.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRORROGACAO AO CONTRATO Nº: 012/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  4,
+                      "contractNumber":  "012/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "0 presente instrumento tem por objeto a prorrogacao, conforme clausula setima do contrato nº 012/2021 – para Contratacao de Empresa do ramo de locacao de som, para locacao de aparelhagem de sonorizacao para atender as Sessoes Ordinarias, Extraordinarias, Solenes e demais eventos internos e externos da Camara Municipal de Iguape, pelo periodo de 12 (doze) meses",
+                      "value":  "R$ 66.000,00",
+                      "term":  "21/07/2022 a 20/07/2023.",
+                      "signatureDate":  "21/07/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-camara",
+                      "primaryOrganizationName":  "Camara Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-camara"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Camara Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRORROGACAO AO CONTRATO Nº: 012/2021\nOBJETO: 0 presente instrumento tem por objeto a prorrogacao, conforme clausula setima do contrato nº 012/2021 – para Contratacao\nde Empresa do ramo de locacao de som, para locacao de aparelhagem de sonorizacao para atender as Sessoes Ordinarias,\nExtraordinarias, Solenes e demais eventos internos e externos da Camara Municipal de Iguape, pelo periodo de 12 (doze) meses.\nDATA: 21/07/2022\n\nVIGENCIA: 21/07/2022 a 20/07/2023.\nVALOR: 0 valor global do presente ajus",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  }
+              ]
+}

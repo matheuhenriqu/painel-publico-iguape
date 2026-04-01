@@ -1,0 +1,106 @@
+﻿{
+    "diaryId":  "1322",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:52",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1144_29074748.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1144_29074748.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO Nº 035/2025 - MENOR PRECO POR ITEM",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "035/2025",
+                      "modality":  "PREGAO ELETRONICO Nº 035/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "e o REGISTRO DE PRECOS PARA A CONTRATACAO DE EMPRESA ESPECIALIZADA NO FORNECIMENTO DE AGUA MINERAL SEM GAS, EM COPOS DE 200 ML, GARRAFAS DE 500 ML E GALOES DE 20 LITROS, DESTINADOS A ATENDER A DEMANDA DAS SECRETARIAS MUNICIPAIS, PELO PERIODO DE 12 (DOZE) MESES, com o seguinte RESULTADO: Dando IMPROVIMENTO ao recurso interposto pela empresa E-COM SERVICOS E COMERCIO LTDA, mantendo a sua INABILITACAO no certame. Fica os autos do Processo com vista franqueada aos interessados. Iguape, 28 de janeiro de 2026. DANIEL FACTORE MORONI SELLA Pregoeiro",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO Nº 035/2025 - MENOR PRECO POR ITEM\n\nA PREFEITURA MUNICIPAL DE IGUAPE, atraves do Pregoeiro, nos usos legais de suas atribuicoes, torna publico para conhecimento dos interessados\no RESULTADO do julgamento do recurso administrativo da licitacao Pregao Eletronico nº 035/2025, cujo objeto e o REGISTRO DE PRECOS PARA A\nCONTRATACAO DE EMPRESA ESPECIALIZADA NO FORNECIMENTO DE AGUA MINERAL SEM GAS, EM COPOS DE 200 ML, GARRAFAS DE\n500 ML E GALOES DE 20 LITROS, DESTINADOS A ATENDER A DEMANDA DAS SECRETARIAS",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "879/2025",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 35/2025 - EDITAL Nº: 50/2025",
+                      "contractor":  "29.581.628 VALDECI ALVES DE ALMEIDA",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA A CONTRATACAO DE EMPRESA ESPECIALIZADA NO FORNECIMENTO DE AGUA MINERAL SEM GAS, EM COPOS DE 200 ML, GARRAFAS DE 500 ML E GALOES DE 20 LITROS, DESTINADOS A ATENDER A DEMANDA DAS SECRETARIAS MUNICIPAIS, PELO PERIODO DE 12 (DOZE) MESES",
+                      "value":  "",
+                      "term":  "DE VALIDADE COM REGISTRO NO MINISTERIO DA SAUDE, COM FORNECIMENTO DE GALAO - UN",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "federal-agu",
+                                                       "municipal-prefeitura",
+                                                       "municipal-educacao",
+                                                       "municipal-cultura",
+                                                       "municipal-infraestrutura-obras",
+                                                       "municipal-desenvolvimento-sustentavel",
+                                                       "municipal-pgm",
+                                                       "federal-ministerio-saude"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Educacao",
+                                                         "Secretaria de Cultura",
+                                                         "Secretaria de Infraestrutura Urbana e Obras",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel",
+                                                         "Procuradoria-Geral do Municipio",
+                                                         "Ministerio da Saude"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 879/2025\nREGISTRO DE PRECOS PARA A CONTRATACAO DE EMPRESA ESPECIALIZADA NO FORNECIMENTO DE AGUA MINERAL SEM GAS, EM\nCOPOS DE 200 ML, GARRAFAS DE 500 ML E GALOES DE 20 LITROS, DESTINADOS A ATENDER A DEMANDA DAS SECRETARIAS MUNICIPAIS,\nPELO PERIODO DE 12 (DOZE) MESES.\nPR-E - PREGAO ELETRONICO - 35/2025 - EDITAL Nº: 50/2025\nINTERESSADOS: GABINETE DO PREFEITO , SECRETARIA MUNICIPAL DE GESTAO E PLANEJAMENTO , SECRETARIA MUNICIPAL DE\nEDUCACAO , SECRETARIA MUNICIPAL DE SAU",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

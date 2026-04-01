@@ -1,0 +1,90 @@
+﻿{
+    "diaryId":  "1128",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:27",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1008_28080243.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1008_28080243.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  13,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 9.240,40"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "5º TERMO ADITIVO DE REAJUSTE CONTRATO DE LOCACAO DE IMOVEL Nº 056/2020 Centro Judiciario – CEJUSC, Fazenda",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  5,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MARIDALVA MARTINS",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo ao contrato de locacao do imovel utilizado para as instalacoes do Publica e Protocolo de Distribuicao de Processos Civeis e Criminais – Iguape/SP”",
+                      "value":  "R$ 9.240,40",
+                      "term":  "",
+                      "signatureDate":  "25/06/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "5º TERMO ADITIVO DE REAJUSTE CONTRATO DE LOCACAO DE IMOVEL Nº 056/2020 Centro Judiciario – CEJUSC, Fazenda\nCONTRATANTE: MUNICIPIO DE IGUAPE (IBGE) -5,201420%\nCONTRATADO: MARIDALVA MARTINS\nOBJETO: Constitui o presente termo ao contrato de locacao do imovel utilizado para as instalacoes do\nPublica e Protocolo de Distribuicao de Processos Civeis e Criminais – Iguape/SP”.\nDATA: 25/06/2025\nVALOR:- R$ 9.240,40 (nove mil, duzentos e quarenta reais e quarenta centavos) mensais,com base no INPC",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CONCORRENCIA ELETRONICA",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  5,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "CONCORRENCIA ELETRONICA",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para fornecimento e execucao de infraestrutura eletrica e hidraulica, destinada a realizacao da Festa em Louvor ao Senhor Bom Jesus de Iguape – 2025, incluindo materiais, mao de obra, instalacao e posterior desmontagem, conforme projeto, memoria de calculo, cronograma e planilha orcamentaria anexos. LEGISLACAO: Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3.125/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "legalBasis":  "Lei Federal nº 14.133/2021 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Decreto Municipal nº 3",
+                      "primaryOrganizationId":  "municipal-assistencia-social",
+                      "primaryOrganizationName":  "Secretaria de Assistencia e Desenvolvimento Social",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "assistencia-social",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-assistencia-social"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Assistencia e Desenvolvimento Social"
+                                                     ],
+                      "excerpt":  "CONCORRENCIA ELETRONICA\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, a CONCORRENCIA ELETRONICA – n.º 003/2025, do tipo MENOR PRECO GLOBAL, situada\nna Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: Contratacao de empresa especializada para fornecimento e execucao de infraestrutura eletrica e hidraulica, destinada a realizacao\nda Festa em Louvor ao Senhor Bom Jesus de Iguape – 2025, incluindo materiais, mao de obra,",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero principal identificado"
+                                ]
+                  }
+              ]
+}

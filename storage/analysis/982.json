@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "982",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:50",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_888_17050948.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_888_17050948.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º Termo Aditivo de Prazo ao Contrato 28/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "028/2024",
+                      "processNumber":  "086/2023",
+                      "modality":  "Pregao Presencial n°. 086/2023",
+                      "contractor":  "M LOPES AMBIENTAL LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para execucao de fornecimento e Instalacao de Unidades Sanitarias Individuais (usi’s) para tratamento de esgoto unifamiliar nos Bairros Pinheirinho e Jaire, do Municipio de Iguape/SP, conforme contrato celebrado com o Fehidro – Fundo Estadual de Recursos Hidricos, nº 359/2023. Pregao Presencial n°. 086/2023",
+                      "value":  "",
+                      "term":  "E EXECUCAO: 120 (cento e vinte) dias-Periodo de 26/12/2024 a 24/04/2025.",
+                      "signatureDate":  "12/12/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "1º Termo Aditivo de Prazo ao Contrato 28/2024\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\n\nCONTRATADA: M LOPES AMBIENTAL LTDA\n\nCONTRATO N°: 028/2024\n\nOBJETO: Contratacao de empresa especializada para execucao de fornecimento e Instalacao de Unidades Sanitarias Individuais (usi’s) para tratamento\n\nde esgoto unifamiliar nos Bairros Pinheirinho e Jaire, do Municipio de Iguape/SP, conforme contrato celebrado com o Fehidro – Fundo Estadual de Recursos\n\nHidricos, nº 359/2023.\n\nPregao Presencial n°. 086/2023. .\n\nData:12/12/2024\n\nVI",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

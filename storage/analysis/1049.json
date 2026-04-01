@@ -1,0 +1,93 @@
+﻿{
+    "diaryId":  "1049",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:39",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_941_13071403.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_941_13071403.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE SUPRESSAO AO CONTRATO 038/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "038/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COOPERATIVA DE CREDITO, POUPANCA E INVESTIMENTO CAMPOS GERAIS E GRANDE CURITIBA SICREDI CAMPOS GERAIS",
+                      "cnpj":  "",
+                      "object":  "Servicos bancarios de recebimento de tributos, impostos, taxas, divida ativa e demais receitas municipais atraves de DAM – Documento de Arrecadacao Municipal, padrao FEBRABAN. Passando a Clausula II a ter a seguinte redacao: b) Com fundamento nos termos do artigo 124 inciso II alinea “b” da lei 14.133/2021, ficam suprimidos os seguintes canais alternativos: por meio de QR Code, Pix. Chamamento Publico n°. 01/2025",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "07/03/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE SUPRESSAO AO CONTRATO 038/2025\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COOPERATIVA DE CREDITO, POUPANCA E INVESTIMENTO CAMPOS GERAIS E GRANDE CURITIBA SICREDI CAMPOS GERAIS\nE GRANDE CURITIBA CAMPOS GERAIS E GRANDE CURITIBA PR/SP\nCONTRATO N°: 038/2025\nOBJETO: Servicos bancarios de recebimento de tributos, impostos, taxas, divida ativa e demais receitas municipais atraves de DAM – Documento de\nArrecadacao Municipal, padrao FEBRABAN.\nPassando a Clausula II a ter a seguinte redacao:\nb) Com fund",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE PRAZO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "022/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "OLIVEIRA ENGENHARIA LTDA",
+                      "cnpj":  "13901684000123",
+                      "object":  "Contratacao de Empresa especializada para obra de reforma e ampliacao do E.S.F. Aeroporto, localizado na Avenida Manoel Goncalves Pires, 175, Bairro do Rocio – Iguape/SP, conforme Proposta nº 13901684000123016 – Emenda nº 41710003, celebrado entre o Ministerio da Saude e o Municipio de Iguape. Tomada de Preco n°. 016/2023. Ata: 11/03/2025",
+                      "value":  "",
+                      "term":  "150 (cento e cinquenta) dias – Periodo de 12/03/2025 a 08/08/2025.",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "federal-ministerio-saude"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Ministerio da Saude"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE PRAZO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: OLIVEIRA ENGENHARIA LTDA\nCONTRATO N°: 022/2024\nOBJETO: Contratacao de Empresa especializada para obra de reforma e ampliacao do E.S.F. Aeroporto, localizado na Avenida Manoel Goncalves Pires,\n175, Bairro do Rocio – Iguape/SP, conforme Proposta nº 13901684000123016 – Emenda nº 41710003, celebrado entre o Ministerio da Saude e o Municipio\nde Iguape.\nTomada de Preco n°. 016/2023.\nAta: 11/03/2025\nVIGENCIA: 150 (cento e cinquenta) dias – Periodo de 1",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

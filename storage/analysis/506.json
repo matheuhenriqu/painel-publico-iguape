@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "506",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:10",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/a5f4112bb79589c2ac490e1c5b8fa9eb.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/a5f4112bb79589c2ac490e1c5b8fa9eb.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "1290/2022",
+                      "modality":  "",
+                      "contractor":  "MTSI COMERCIO E SERVICOS DE IMPRESSAO LTDA",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE TONER E TINTA DE IMPRESSORAS, PARA ATENDER AS SECRETARIAS E DEPARTAMENTOS DA PREFEITURA MUNICIPAL DE IGUAPE PELO PERIODO DE 12 (DOZE) MESES",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 1290/2022\nREGISTRO DE PRECOS PARA AQUISICAO DE TONER E TINTA DE IMPRESSORAS, PARA ATENDER AS SECRETARIAS E\nDEPARTAMENTOS DA PREFEITURA MUNICIPAL DE IGUAPE PELO PERIODO DE 12 (DOZE) MESES.\nPR-G – PREGAO PRESENCIAL - 11/2023 - EDITAL Nº: 11/2023\nINTERESSADOS: DEPARTAMENTO DE ADMINISTRACAO, DEPARTAMENTO DE EDUCACAO e FUNDO MUNICIPAL DE\nASSISTENCIA SOCIAL .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a\nclassificacao dos itens a",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

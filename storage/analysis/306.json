@@ -1,0 +1,129 @@
+﻿{
+    "diaryId":  "306",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:45",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/dbbd756a9c0e32febea71effd7645771.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/dbbd756a9c0e32febea71effd7645771.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  28,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 255.795,90"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:053/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "3/2022",
+                      "processNumber":  "023/2022",
+                      "modality":  "Pregao Presencial n°. 023/2022",
+                      "contractor":  "o valor global de R$ 10.580,00 (dez mil e quinhentos e oitenta reais)",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE MEDICAMENTOS, PARA ATENDER A SECRETARIA MUNICIPAL DE SAUDE DA PREFEITURA DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES. Pregao Presencial n°. 023/2022",
+                      "value":  "R$ 10.580,00",
+                      "term":  "12/05/2022 a 11/05/2023",
+                      "signatureDate":  "12/05/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:053/2022\nOBJETO: REGISTRO DE PRECOS PARA AQUISICAO DE MEDICAMENTOS, PARA ATENDER A SECRETARIA\nMUNICIPAL DE SAUDE DA PREFEITURA DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES.\nPregao Presencial n°. 023/2022.\nDATA: 12/05/2022\nVIGENCIA: 12/05/2022 a 11/05/2023\nVALOR: Pagara a contratada o valor global de R$ 10.580,00 (dez mil e quinhentos e oitenta reais)",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:054/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "4/2022",
+                      "processNumber":  "023/2022",
+                      "modality":  "Pregao Presencial n°. 023/2022",
+                      "contractor":  "o valor global de R$ 12.580,00 (doze mil e quinhentos e oitenta reais)",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE MEDICAMENTOS, PARA ATENDER A SECRETARIA MUNICIPAL DE SAUDE DA PREFEITURA DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES. Pregao Presencial n°. 023/2022",
+                      "value":  "R$ 12.580,00",
+                      "term":  "12/05/2022 a 11/05/2023",
+                      "signatureDate":  "12/05/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:054/2022\nOBJETO: REGISTRO DE PRECOS PARA AQUISICAO DE MEDICAMENTOS, PARA ATENDER A SECRETARIA\nMUNICIPAL DE SAUDE DA PREFEITURA DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES.\nPregao Presencial n°. 023/2022.\nDATA: 12/05/2022\nVIGENCIA: 12/05/2022 a 11/05/2023\nVALOR: Pagara a contratada o valor global de R$ 12.580,00 (doze mil e quinhentos e oitenta reais)",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:055/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "5/2022",
+                      "processNumber":  "023/2022",
+                      "modality":  "Pregao Presencial n°. 023/2022",
+                      "contractor":  "o valor global de R$ 232.635,90 (duzentos e trinta e dois mil e seiscentos",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE MEDICAMENTOS, PARA ATENDER A MUNICIPAL DE SAUDE DA PREFEITURA DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES. Pregao Presencial n°. 023/2022",
+                      "value":  "R$ 232.635,90",
+                      "term":  "12/05/2022 a 11/05/2023",
+                      "signatureDate":  "12/05/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:055/2022\nOBJETO: REGISTRO DE PRECOS PARA AQUISICAO DE MEDICAMENTOS, PARA ATENDER A\nMUNICIPAL DE SAUDE DA PREFEITURA DE IGUAPE, PELO PERIODO DE 12 (DOZE) MESES.\nPregao Presencial n°. 023/2022.\nDATA: 12/05/2022\nVIGENCIA: 12/05/2022 a 11/05/2023\nVALOR: Pagara a contratada o valor global de R$ 232.635,90 (duzentos e trinta e dois mil e seiscentos\nreais e noventa centavos)",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

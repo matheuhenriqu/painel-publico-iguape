@@ -1,0 +1,88 @@
+﻿{
+    "diaryId":  "884",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:00",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_807_02073042.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_807_02073042.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  13,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 188.764,04"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE SUPRESSAO AO CONTRATO-003/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  12,
+                      "contractNumber":  "003/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de reforma na Escola Municipal Profª Amancia Alves Muniz, localizada na Avenida Julio Franco, nº 307, Bairro do Rocio – Iguape/SP. TOMADA DE PRECOS Nº 013/2023",
+                      "value":  "R$ 188.764,04",
+                      "term":  "",
+                      "signatureDate":  "30/07/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE SUPRESSAO AO CONTRATO-003/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CIACAN ENGENHARIA EIRELI\nCONTRATO N°: 003/2024\nOBJETO Contratacao de empresa especializada para obra de reforma na Escola Municipal Profª Amancia Alves Muniz, localizada na Avenida\nJulio Franco, nº 307, Bairro do Rocio –\nIguape/SP.\nTOMADA DE PRECOS Nº 013/2023\nDATA: 30/07/2024\nVALOR: Aditivo corresponde ao acrescimo de servicos no valor de R$ 188.764,04 (cento e oitenta e oito mil, setecentos e sessenta e quatro\nreais e ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO 021/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  12,
+                      "contractNumber":  "021/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SAMUEL RIBEIRO-EPP",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de reforma geral do ESF Itimirim I, localizado na Rodovia Prefeito Casimiro Teixeira, s/n – km 35, Bairro do Retiro –",
+                      "value":  "",
+                      "term":  "AO CONTRATO 021/2024",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO 021/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SAMUEL RIBEIRO-EPP\nCONTRATO N°: 021/2024\nOBJETO: Contratacao de empresa especializada para obra de reforma geral do ESF Itimirim I, localizado na Rodovia Prefeito Casimiro\nTeixeira, s/n – km 35, Bairro do Retiro –",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

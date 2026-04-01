@@ -1,0 +1,130 @@
+﻿{
+    "diaryId":  "1321",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:53",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1143_28090103.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1143_28090103.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 412,25"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato publicado",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MEDLEI SERVICOS MEDICOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Credenciamento de pessoas fisicas e juridicas para a prestacao de servicos medicos plantonistas, Medicos para Saude da Familia, med icos especialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTA OCUPACIONAL, FONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de Saude de Iguape, bem como todos os locais de atendimento que a compoe, pelo periodo de 12 meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: MEDLEI SERVICOS MEDICOS LTDA.\nCNPJ:-13.xxx.xxx-07\nCONTRATO: Nº: 22/2026\nOBJETO: Credenciamento de pessoas fisicas e juridicas para a prestacao de servicos medicos plantonistas, Medicos para Saude da Familia, med icos\nespecialistas (G.O, ORTOPEDISTA, PSIQUIATRA, MEDICO DO TRABALHO, PEDIATRA, PSICOLOGO, TERAPEUTA OCUPACIONAL,\nFONOAUDIOLOGO E NEUROPEDIATRA), para atender a demanda de toda Secretaria Municipal de Saude de Iguape, bem como todos os locais de\natend",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "CHAMADA PUBLICA/CREDENCIAMENTO INEXIGIBILIDADE n°.11/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "11/2025",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 412,25",
+                      "term":  "O presente contrato tera vigencia de 3 (tres) meses, periodo de 21/01/2026 a 20/04/2026.",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-cultura",
+                      "primaryOrganizationName":  "Secretaria de Cultura",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "cultura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "CHAMADA PUBLICA/CREDENCIAMENTO INEXIGIBILIDADE n°.11/2025\nVIGENCIA: O presente contrato tera vigencia de 3 (tres) meses, periodo de 21/01/2026 a 20/04/2026.\nVALOR: R$ 412,25 (quatrocentos e doze reais e vinte e cinco centavos), valor fixo a hora/ plantao efetivamente trabalhada, sendo em rodizio\ntrimestral conforme Ordem de Inicio de Servicos.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "TERMO DE REVOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "008/2025",
+                      "modality":  "Concorrencia Eletronica nº 008/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-desenvolvimento-sustentavel",
+                      "primaryOrganizationName":  "Secretaria de Desenvolvimento Economico Sustentavel",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "desenvolvimento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-cultura",
+                                                       "municipal-desenvolvimento-sustentavel"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Cultura",
+                                                         "Secretaria de Desenvolvimento Economico Sustentavel"
+                                                     ],
+                      "excerpt":  "EXTRATO\n TERMO DE REVOGACAO\n\nA Prefeitura Municipal de Iguape torna publica a REVOGACAO da Concorrencia Eletronica nº 008/2025, tendo por objeto\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA SERVICOS DE LIMPEZA URBANA E DESTINACAO DE RESIDUOS\nSOLIDOS URBANOS DO MUNICIPIO DE IGUAPE/SP,conforme especificacoes detalhadas nos anexos do edital , nos termos da Sumula 473\ndo Supremo Tribunal Federal e artigo 71, inciso II, da lei 14.133/2021. Tal medida se fundamenta em razoes de interesse publico decorrentes de\nfatos superve",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

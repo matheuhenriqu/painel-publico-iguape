@@ -1,0 +1,157 @@
+﻿{
+    "diaryId":  "666",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:39",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/a31eba5a73b5064639122051d89a5d54.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/a31eba5a73b5064639122051d89a5d54.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 98.004,04"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato publicado",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "B. NUTRI SERVICOS E ALIMENTACAO LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para fornecimento de Buffet em comemoracao ao evento do Dia das Criancas, a ser realizado neste municipio de Iguape/sp. CARTA CONVITE - Nº 007/2023",
+                      "value":  "R$ 98.000,00",
+                      "term":  "45 (quarenta e cinco ) dias – a contar da data de ciencia pela Contratada na A.I.S Autorizacao de Inicio dos Servicos.",
+                      "signatureDate":  "-09/10/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: B. NUTRI SERVICOS E ALIMENTACAO LTDA\nCONTRATO-N°:-173/2023\nOBJETO: Contratacao de empresa especializada para fornecimento de Buffet em comemoracao ao evento do Dia das Criancas, a ser realizado neste\nmunicipio de Iguape/sp.\nCARTA CONVITE - Nº 007/2023\nDATA DA ASSINATURA:-09/10/2023\nVALOR: Pagara a contratada o valor de R$ 98.000,00 (noventa e oito mil reais)\nVIGENCIA: 45 (quarenta e cinco ) dias – a contar da data de ciencia pela Contratada na A.I.S Autorizacao ",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO AO CONTRATO 061/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "061/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A.COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de recapeamento e calcadas acessiveis na avenida Adhemar de Barros, neste municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO AO CONTRATO 061/2023.\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A.COMPANHIA DE OBRAS PARIQUERA-ACU\nCONTRATO N°: 061/2023\nOBJETO: Contratacao de empresa especializada para obra de recapeamento e calcadas acessiveis na avenida Adhemar de Barros, neste municipio\nde Iguape/SP.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE CANCELAMENTO DE ITEM",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COMERCIAL CIRURGICA RIOCLARENSE LTDA",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE CANCELAMENTO DE ITEM\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COMERCIAL CIRURGICA RIOCLARENSE LTDA",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:016/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "6/2023",
+                      "processNumber":  "008/2023",
+                      "modality":  "Pregao Presencial n°. 008/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo de 12 (doze) meses. Fica cancelado da Ata de Registro o Item 175- Petidina 50 mg/ml 2ml sol. Injetavel – Marca – Cristalia – Amp. – Quantidade 550",
+                      "value":  "R$ 4,04",
+                      "term":  "",
+                      "signatureDate":  "06/10/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:016/2023\nOBJETO: Registro de Precos para aquisicao de medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo de\n12 (doze) meses. Fica cancelado da Ata de Registro o Item 175- Petidina 50 mg/ml 2ml sol. Injetavel – Marca – Cristalia – Amp. – Quantidade 550-\nValor Untiario – R$ 4,04 (quatro reais e quatro centavos) e Valor Total – R$ 2.222,00 (dois mil, duzentos e vinte e dois reais)\nPregao Presencial n°. 008/2023\nDATA: 06/10/2023\n\n CULTURA, ESPORT",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  }
+              ]
+}

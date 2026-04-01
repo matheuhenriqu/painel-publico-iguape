@@ -1,0 +1,92 @@
+﻿{
+    "diaryId":  "899",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:59",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_821_27072003.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_821_27072003.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 3,19"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO DA ATA DE REFISWTRO D PRECOS - 37/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  5,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ACACIA COMERCIO DE MEDICAMENTOS EIRELI",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO DA ATA DE REFISWTRO D PRECOS - 37/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: ACACIA COMERCIO DE MEDICAMENTOS EIRELI",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:037/2024.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  5,
+                      "contractNumber":  "7/2024",
+                      "processNumber":  "084/2023",
+                      "modality":  "Pregao Presencial n°. 084/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo de 12 (doze) meses – Item – 145 – DIPROPIONATO DE BETAMETASONA 5mg/ml + FOSFATO DISSODICO DE BETAMETASONA 2 mg/ml*-amp – Marca – Eurofarma. Pregao Presencial n°. 084/2023",
+                      "value":  "R$ 3,19",
+                      "term":  "",
+                      "signatureDate":  "22/08/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:037/2024.\nOBJETO: Registro de Precos para aquisicao de medicamentos, para atender a Secretaria Municipal de Saude da Prefeitura de Iguape pelo periodo de\n12 (doze) meses – Item – 145 – DIPROPIONATO DE BETAMETASONA 5mg/ml + FOSFATO DISSODICO DE BETAMETASONA 2 mg/ml*-amp – Marca\n– Eurofarma.\nPregao Presencial n°. 084/2023\nData: 22/08/2024\nVALOR: Valor unitario licitado R$ 3,19 e valor unitario com reequilibrio R$ 3,6929,\n\n FINANCEIRO\n\n DECRETO\n\n DECRETO Nº 3.182,\n DE 20 DE AGOSTO DE 2024\n",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  }
+              ]
+}

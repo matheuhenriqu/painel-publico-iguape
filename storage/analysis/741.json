@@ -1,0 +1,129 @@
+﻿{
+    "diaryId":  "741",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:25",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/2a321ec94e7fbe2e72c9c56eb54afd64.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/2a321ec94e7fbe2e72c9c56eb54afd64.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  12,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 604.839,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "CONTRATANTE: MUNICIPIO DE IGUAPE",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "1/2024",
+                      "processNumber":  "067/2023",
+                      "modality":  "Pregao Presencial n°. 067/2023",
+                      "contractor":  "EDILSON AZEVEDO ZANI",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos pelo periodo de 12 (doze) meses para aqui ATA DE REGISTRO DE PRECOS N°:001/2024. Csicao de pao tipo bisnaguinha (25gr) e pao frances (50gr), para atender as Secretarias deste Municipio de Iguape/SP. Pregao Presencial n°. 067/2023",
+                      "value":  "R$ 240.039,00",
+                      "term":  "Periodo de 15/01/2024 a 14/01/2025 - 12 (doze) meses.",
+                      "signatureDate":  "15/01/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA:- EDILSON AZEVEDO ZANI\n\nOBJETO: Registro de Precos pelo periodo de 12 (doze) meses para aqui ATA DE REGISTRO DE PRECOS N°:001/2024. Csicao de pao tipo bisnaguinha (25gr) e pao frances (50gr), para atender as\n\nSecretarias deste Municipio de Iguape/SP.\nPregao Presencial n°. 067/2023\nDATA: 15/01/2024\nVIGENCIA: Periodo de 15/01/2024 a 14/01/2025 - 12 (doze) meses.\nVALOR: R$ 240.039,00 (duzentos e quarenta mil e trinta e nove reais).",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:005/2024.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "5/2024",
+                      "processNumber":  "062/2023",
+                      "modality":  "Pregao Presencial n°. 062/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos pelo periodo de 12 (doze) meses para, contratacao de empresa especializada para disponibilizacao de equipamentos de informatica em regime de locacao mediante prestacao de servicos de manutencao e de seguranca, destinados aos Departamentos da Prefeitura Municipal de Iguape, bem como aos convenios firmados com a Municipalidade. Pregao Presencial n°. 062/2023",
+                      "value":  "R$ 364.800,00",
+                      "term":  "Ficara condicionada a data da sua assinatura e a validade do presente Registro de Precos.",
+                      "signatureDate":  "22/01/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:005/2024.\nOBJETO: Registro de Precos pelo periodo de 12 (doze) meses para, contratacao de empresa especializada para disponibilizacao de equipamentos de\ninformatica em regime de locacao mediante prestacao de servicos de manutencao e de seguranca, destinados aos Departamentos da Prefeitura Municipal\nde Iguape, bem como aos convenios firmados com a Municipalidade.\nPregao Presencial n°. 062/2023\nData da Assinatura: 22/01/2024\nVIGENCIA: Ficara condicionada a data da sua assinatura e a valid",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "346/2023",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 66/2023 - EDITAL Nº: 108/2023",
+                      "contractor":  "RTK TRANSPORTE TURISMO E LOCACAO",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECO PARA A CONTRATACAO DE EMPRESA ESPECIALIZADA NA PRESTACAO DE SERVICOS DE TRANSPORTE COM VEICULO DE PEQUENO PORTE PARA PACIENTES ATENDIDOS PELO SUS NA REDE BASICA DE SAUDE DO MUNICIPIO DE IGUAPE",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 346/2023\nREGISTRO DE PRECO PARA A CONTRATACAO DE EMPRESA ESPECIALIZADA NA PRESTACAO DE SERVICOS DE TRANSPORTE COM\nVEICULO DE PEQUENO PORTE PARA PACIENTES ATENDIDOS PELO SUS NA REDE BASICA DE SAUDE DO MUNICIPIO DE IGUAPE.\nPR-G - PREGAO PRESENCIAL - 66/2023 - EDITAL Nº: 108/2023\nINTERESSADOS: SECRETARIA MUNICIPAL DE SAUDE .\n\nADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos itens abaixo.\n\nFORNECEDOR: RTK TRANSPORTE",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

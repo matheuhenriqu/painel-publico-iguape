@@ -1,0 +1,160 @@
+﻿{
+    "diaryId":  "1316",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:53",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1140_23093455.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1140_23093455.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  6,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 40.421.912,89"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º Termo Aditivo de Prazo ao Contrato N°: 003/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  5,
+                      "contractNumber":  "003/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA NA ESCOLA MUNICIPAL PROFª AM ANCIA ALVES MUNIZ, LOCALIZADA NA AVENIDA JULIO FRANCO, Nº 307, BAIRRO DO ROCIO – IGUAPE/SP TOMADA DE PRECOS n°. 013/2023",
+                      "value":  "",
+                      "term":  "Validade do presente Termo Aditivo –6 (seis) dias periodo de 22/01/2026 a 21/07/2026",
+                      "signatureDate":  "21/01/2026",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "3º Termo Aditivo de Prazo ao Contrato N°: 003/2024.\n\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA NA ESCOLA MUNICIPAL PROFª AM ANCIA ALVES\n\nMUNIZ, LOCALIZADA NA AVENIDA JULIO FRANCO, Nº 307, BAIRRO DO ROCIO – IGUAPE/SP\n\nTOMADA DE PRECOS n°. 013/2023\n\nData: 21/01/2026\n\nVIGENCIA: Validade do presente Termo Aditivo –6 (seis) dias periodo de 22/01/2026 a 21/07/2026",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 21/2026",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  5,
+                      "contractNumber":  "21/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "JADE AZ COMERCIAL DE ALIMENTOS LTDA",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA FUTURAS E EVENTUAIS AQUISICOES DE GENEROS ALIMENTICIOS PERECIVEIS E ESTOCAVEIS PARA OS MUNICIPIOS CONSORCIADOS AO CONSORCIO INTERMUNICIPAL DA REGIAO CENTRAL DO ESTADO DE SAO PAULO. Adesao a Ata de Registro 12/2025 Concen",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP EXTRATO\n\nCONTRATADA: JADE AZ COMERCIAL DE ALIMENTOS LTDA.\n\nCNPJ: 10..XXX.XXX/XXXX-61\n\nContrato n°: 21/2026.\n\nOBJETO: REGISTRO DE PRECOS PARA FUTURAS E EVENTUAIS AQUISICOES DE GENEROS ALIMENTICIOS PERECIVEIS E ESTOCAVEIS\n\nPARA OS MUNICIPIOS CONSORCIADOS AO CONSORCIO INTERMUNICIPAL DA REGIAO CENTRAL DO ESTADO DE SAO PAULO.\n\nAdesao a Ata de Registro 12/2025 Concen.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Pregao Eletronico n°.-11/2025 - CONCEN",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  5,
+                      "contractNumber":  "",
+                      "processNumber":  "1/2025",
+                      "modality":  "Pregao Eletronico n°.-11/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 2.436.912,30",
+                      "term":  "Validade do presente Contrato –10 (dez) meses periodo de 20/01/2026 a 19/11/2026",
+                      "signatureDate":  "20/01/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "Pregao Eletronico n°.-11/2025 - CONCEN\n\nData: 20/01/2025\n\nVIGENCIA: Validade do presente Contrato –10 (dez) meses periodo de 20/01/2026 a 19/11/2026\n\nVALOR: R$ 2.436.912,30 (dois milhoes, quatrocentos e trinta e seis mil, novecentos e doze reais e trinta centavos)",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  5,
+                      "contractNumber":  "",
+                      "processNumber":  "929/2025",
+                      "modality":  "",
+                      "contractor":  "BENEFICENCIA HOSPITALAR DE CESARIO LANGE – BHCL",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 37.985.000,59",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 929/2025\n\nCelebracao de Contrato de Gestao com instituicao privada, sem fins lucrativos, qualificada como Organizacao Social no Municipio de Iguape, nos termos\nda Lei Municipal nº 2037/2010, para o gerenciamento, operacionalizacao e execucao das acoes e servicos de saude no Pronto Atendimento, na Unidade\nMista, na Unidade Basica de Saude, nas Unidades de Estrategia Saude da Familia, no CAPS, na Fisioterapia Centro, no Centro de Reabilitacao Rocio, na\nResidencia Terap",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

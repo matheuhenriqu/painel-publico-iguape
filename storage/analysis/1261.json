@@ -1,0 +1,167 @@
+﻿{
+    "diaryId":  "1261",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:05",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1104_18074601.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1104_18074601.pdf",
+    "keywords":  [
+                     "contrato",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 345.000,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "CONTRATO Nº 173/2025 EXTRATO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "173/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ASSOCIACAO CRAQUES CORINTHIANOS",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATO Nº 173/2025 EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\n\nCONTRATADA: ASSOCIACAO CRAQUES CORINTHIANOS\n\nCNPJ: XX. .778.889/0001-XX",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "INEXIGIBILIDADE DE LICITACAO N°:119/2025 – Artigo 74, I, da Lei Federal 14.133/21.",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "776/2025",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Contratacao do Time Master do Corinthians para jogo amistoso do campo de futebol na Barra do Ribeira, dia 20 de novembro",
+                      "value":  "R$ 35.000,00",
+                      "term":  "30/07/2025 A 29/08/2025",
+                      "signatureDate":  "30/07/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "INEXIGIBILIDADE DE LICITACAO N°:119/2025 – Artigo 74, I, da Lei Federal 14.133/21.\n\nPROCESSO ADMINISTRATIVO Nº: 776/2025\n\nOBJETO: Contratacao do Time Master do Corinthians para jogo amistoso do campo de futebol na Barra do Ribeira, dia 20 de novembro.\n\nDATA: 30/07/2025\n\nVIGENCIA: 30/07/2025 A 29/08/2025\n\nVALOR: R$ 35.000,00 (trinta e cinco mil reais)",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "CONTRATO Nº 174/2025 EXTRATO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "174/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "EXTRA MAQUINAS S/A",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de 1 (uma) retroescavadeira zero km, tracao 4x4 com motor Diesel, para modernizacao da frota e atendimento das necessidades de infraestrutura rural, agricola e urbana do Municipio de Iguape, conforme Proposta nº 009045/2024 – celebrado com o Ministerio da Integracao e do Desenvolvimento Regional",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATO Nº 174/2025 EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\n\nCONTRATADA: EXTRA MAQUINAS S/A\n\nCNPJ : 19.XXX.XXX/XXXX-41\n\nOBJETO: Aquisicao de 1 (uma) retroescavadeira zero km, tracao 4x4 com motor Diesel, para modernizacao da frota e atendimento das necessidades\n\nde infraestrutura rural, agricola e urbana do Municipio de Iguape, conforme Proposta nº 009045/2024 – celebrado com o Ministerio da Integracao e do\n\nDesenvolvimento Regional",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Pregao Eletronico n°. 026/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "026/2025",
+                      "modality":  "Pregao Eletronico n°. 026/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 310.000,00",
+                      "term":  "120 (cento e vinte) dias - Periodo de 11/11//2025 a 10/03/2026.",
+                      "signatureDate":  "11/11/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "Pregao Eletronico n°. 026/2025\n\nData: 11/11/2025\n\nVIGENCIA: 120 (cento e vinte) dias - Periodo de 11/11//2025 a 10/03/2026.\n\nVALOR: Valor global - R$ 310.000,00 (trezentos e dez mil reais), sendo Recurso Federal no valor de R$ 306.000,00 (trezentos e seis mil reais) e Rec urso\n\nProprio no valor de R$ 3.100,00 (tres mil e cem reais).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

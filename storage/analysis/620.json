@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "620",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:46",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/e67cfe7dce4c6f9e9311274bc0735670.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/e67cfe7dce4c6f9e9311274bc0735670.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "401/2023",
+                      "modality":  "",
+                      "contractor":  "SAMUEL RIBEIRO -EPP",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE MANUTENCAO E REPAROS NA ESCOLA MUNICIPAL PROFª ABIGAIL FORTES MARTINS, LOCALIZADA NA RUA \"F\" - BAIRRO DA BARRA DO RIBEIRA, NESTE MUNICIPIO DE IGUAPE/SP TP-O - TOMADA DE PRECOS / OBRAS - 9/2023 - EDITAL Nº: 54/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 401/2023\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE MANUTENCAO E REPAROS NA ESCOLA MUNICIPAL PROFª ABIGAIL FORTES\nMARTINS, LOCALIZADA NA RUA \"F\" - BAIRRO DA BARRA DO RIBEIRA, NESTE MUNICIPIO DE IGUAPE/SP\nTP-O - TOMADA DE PRECOS / OBRAS - 9/2023 - EDITAL Nº: 54/2023\nINTERESSADOS: SECRETARIA MUNIC. DE INFRAESTRUTURA URBANA E OBRAS .\n\n HOMOLOGO E ADJUDICO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\n\nitens abaixo.\n\nFORNECE",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

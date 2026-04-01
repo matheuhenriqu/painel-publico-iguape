@@ -1,0 +1,91 @@
+﻿{
+    "diaryId":  "548",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:02",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/427f6aeca394f28f853c96d95e06d797.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/427f6aeca394f28f853c96d95e06d797.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "6º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 037/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "037/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ENGETEC ENGENHARIA EIRELI - ME",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para obra de reassentamento de pavimentacao em lajotas de concreto no Bairro da Barra do Ribeira, conforme convenio nº 100306/2021 – celebrado com a Secretaria de Desenvolvimento Regional e o Municipio de Iguape. Tomada de Precos - n°. 008/2021",
+                      "value":  "",
+                      "term":  "30 (trinta) dias de 03/05/2023 a 01/06/2023.",
+                      "signatureDate":  "03/05/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "6º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 037/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ENGETEC ENGENHARIA EIRELI - ME\nCONTRATO N°: 037/2021\nOBJETO: Contratacao de Empresa especializada para obra de reassentamento de pavimentacao em lajotas de concreto no Bairro da Barra do Ribeira,\nconforme convenio nº 100306/2021 – celebrado com a Secretaria de Desenvolvimento Regional e o Municipio de Iguape.\nTomada de Precos - n°. 008/2021\nDATA: 03/05/2023\nVIGENCIA: 30 (trinta) dias de 03/05/2023 a 01/06/2023.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE LICITACAO - PREGAO PRESENCIAL",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "025/2023",
+                      "modality":  "PREGAO PRESENCIAL nº. 025/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA PARA SERVICOS DE BUFFET, REFEICOES, MARMITEX E LANCHES, PARA ATENDER DIVERSOS DEPARTAMENTOS DA PREFEITURA DE IGUAPE PELO PERIODO DE 12 (DOZE) MESES",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "para a entrega do(s) documento(s) para credenciamento, da declaracao de que a proponente cumpre os requisitos de habilitacao, de declaracao",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "AVISO DE LICITACAO\n PREGAO PRESENCIAL\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11920-\n000, o PREGAO PRESENCIAL nº. 025/2023, do tipo MENOR PRECO POR ITEM conforme especificacoes detalhadas no Edital.\n\nOBJETO: REGISTRO DE PRECOS PARA CONTRATACAO DE EMPRESA PARA SERVICOS DE BUFFET, REFEICOES, MARMITEX E LANCHES,\nPARA ATENDER DIVERSOS DEPARTAMENTOS DA PREFEITURA DE IGUAPE PELO PERIODO DE 12 (DOZE) MESES.\nData para a ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

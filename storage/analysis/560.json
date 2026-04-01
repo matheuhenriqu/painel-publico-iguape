@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "560",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:59",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/f78da6ca5236b49cdfa2c99b627f29a9.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/f78da6ca5236b49cdfa2c99b627f29a9.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE LICITACAO - TOMADA DE PRECOS",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "AVISO DE LICITACAO - TOMADA DE PRECOS",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E MANUTENCAO DA ESCOLA MUNICIPAL BENEDITO ROSA CARNEIRO – FASE II, NESTE MUNICIPIO DE IGUAPE/SP LEGISLACAO: Lei Federal nº 8.666/93 e suas alteracoes posteriores, e Lei Complementar nº 123/2006, Lei Complementar 139, de 10 de novembro de 2011, Lei Complementar 147 de 07 de agosto de 2014",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE CUMPRE OS",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-camara",
+                      "primaryOrganizationName":  "Camara Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-camara"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Camara Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "AVISO DE LICITACAO\n TOMADA DE PRECOS\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, a TOMADA DE PRECOS – n.º 010/2023, do tipo MENOR PRECO GLOBA, situada na Avenida\nAdhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11920-000, nas especificacoes detalhadas no Edital.\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE REFORMA E MANUTENCAO DA ESCOLA MUNICIPAL BENEDITO\nROSA CARNEIRO – FASE II, NESTE MUNICIPIO DE IGUAPE/SP\n\nLEGISLACAO: Lei Federal nº 8.666/93 e suas alteracoes posterio",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero principal identificado"
+                                ]
+                  }
+              ]
+}

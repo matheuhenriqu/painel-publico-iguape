@@ -1,0 +1,86 @@
+﻿{
+    "diaryId":  "503",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:11",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/4135e2b63e180d4b0e444b519f225ac2.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/4135e2b63e180d4b0e444b519f225ac2.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE LICITACAO - PREGAO PRESENCIAL",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "014/2023",
+                      "modality":  "PREGAO PRESENCIAL nº. 014/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECO PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICOES DE UTENSILIOS DE COZINHA DESTINADOS AS UNIDADES ESCOLARES DESTE MUNICIPIO DE IGUAPE/SP. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013, Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "AVISO DE LICITACAO\n PREGAO PRESENCIAL\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira,\nIguape/SP, CEP 11.920-000, o PREGAO PRESENCIAL nº. 014/2023, do tipo MENOR PRECO POR ITEM conforme especificacoes\ndetalhadas no Edital.\nOBJETO: REGISTRO DE PRECO PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICOES DE UTENSILIOS DE COZINHA\nDESTINADOS AS UNIDADES ESCOLARES DESTE MUNICIPIO DE IGUAPE/SP.\nLEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho d",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE LICITACAO - PREGAO PRESENCIAL Nº 003/2023",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "003/2023",
+                      "modality":  "PREGAO PRESENCIAL Nº 003/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-camara",
+                      "primaryOrganizationName":  "Camara Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-camara"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Camara Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "AVISO DE LICITACAO\n\nPREGAO PRESENCIAL Nº 003/2023\nOBJETO: Contratacao de empresa especializada, pelo periodo de12 (doze) meses na prestacao, de forma continua, dos servicos de\nlimpeza, asseio e conservacao predial, com disponibilizacao de mao de obra de dois funcionarios para limpeza e um zelador para\nconservacao predial, nas dependencias do edificio da sede da Camara, com area total de 337,25m², subdividida em dois pavimentos,\nterreo e superior.\nAbertura das Propostas: 15 de Marco de 2023 as 09:00 hs.\nLocal: Rua d",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

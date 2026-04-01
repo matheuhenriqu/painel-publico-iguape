@@ -1,0 +1,53 @@
+﻿{
+    "diaryId":  "297",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:48",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/42c642918a093c82d305c5b5ea3a3eb5.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/42c642918a093c82d305c5b5ea3a3eb5.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  16,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE LICITACAO - PREGAO PRESENCIAL",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  7,
+                      "contractNumber":  "",
+                      "processNumber":  "030/2022",
+                      "modality":  "PREGAO PRESENCIAL nº. 030/2022",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECO PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICOES FUTURAS DE COMBUSTIVEIS PARA ATENDER DIVERSAS SECRETARIAS DO MUNICIPIO DE IGUAPE/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "AVISO DE LICITACAO\n PREGAO PRESENCIAL\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto\ndo Ribeira, Iguape/SP, CEP 11.920-000, o PREGAO PRESENCIAL nº. 030/2022, do tipo MENOR PRECO POR ITEM\nconforme especificacoes detalhadas no Edital.\nOBJETO: REGISTRO DE PRECO PELO PERIODO DE 12 (DOZE) MESES, PARA AQUISICOES FUTURAS DE\nCOMBUSTIVEIS PARA ATENDER DIVERSAS SECRETARIAS DO MUNICIPIO DE IGUAPE/SP.",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

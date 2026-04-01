@@ -1,0 +1,123 @@
+﻿{
+    "diaryId":  "1043",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:40",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_936_06104527.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_936_06104527.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  13,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 226.217,20"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "6º TERMO ADITIVO AO PRORROGACAO AO CONTRATO 23/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "023/2021",
+                      "processNumber":  "12/2021",
+                      "modality":  "Pregao Presencial nº 12/2021",
+                      "contractor":  "CECAM – CONSULTORIA ECONOMICA, CONTABIL E ADMINISTRATIVA MUNICIPAL LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para cessao de direito de uso de sotfwares (modulos) de gestao publica, nas areas de ajuizamento eletronico (procuradoria), administracao de pessoal, almoxarifado, siafic, controle interno, portal datransparencia, compras e licitacoes, protocolo, frotas, patrimonio, IPTU e ITBI, IPTU E ITBI web, obras, ISS, ISS web, ISS eletronico e nota fiscal eletronica, saude e cemiterio, envolvendo conversao, migracao, implantacao dos modulos e capacitacao dos usuarios. . Pregao Presencial nº 12/2021",
+                      "value":  "R$ 210.455,79",
+                      "term":  "03 (tres) meses – periodo de 06/03/2025 a 05/06/2025.",
+                      "signatureDate":  "28/02/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "6º TERMO ADITIVO AO PRORROGACAO AO CONTRATO 23/2021\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\n\nCONTRATADA: CECAM – CONSULTORIA ECONOMICA, CONTABIL E ADMINISTRATIVA MUNICIPAL LTDA\n\nCONTRATO N°: 023/2021\n\nOBJETO: Contratacao de empresa especializada para cessao de direito de uso de sotfwares (modulos) de gestao publica, nas areas de\n\najuizamento eletronico (procuradoria), administracao de pessoal, almoxarifado, siafic, controle interno, portal datransparencia, compras e\n\nlicitacoes, protocolo, frotas, patrimonio, IPTU e ITBI",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Dispensa",
+                      "actTitle":  "8º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 069/2017",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MORAIS EMP IMOBILIARIOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao e funcionamento da sede administrativa do Paco Municipal – Iguape/SP",
+                      "value":  "R$ 15.761,41",
+                      "term":  "04/03/2025 a 03/03/2026",
+                      "signatureDate":  "28/02/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n8º TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 069/2017\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: MORAIS EMP IMOBILIARIOS LTDA\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao e funcionamento da sede administrativa\ndo Paco Municipal – Iguape/SP.\nVALOR: R$ 15.761,41 (quinze mil, setecentos e sessenta e um reais e quarenta e um centavos) mensais.\nDATA: 28/02/2025\nProcesso de Dispensa de Licitacao nº 107/2017\nVIGENCIA: 04/03/2025 a 0",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada",
+                                    "Sem numero principal identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "4º TERMO ADITIVO DE VALOR AO CONTRATO N°: 002/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "002/2024",
+                      "processNumber":  "065/2023",
+                      "modality":  "Pregao Presencial n°. 065/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para a Pestacao de servicos de Seguro dos diversos veiculos que compoem a frota da Prefeitura Municipal de Iguape. Pregao Presencial n°. 065/2023. Onde se le",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "18/09/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "4º TERMO ADITIVO DE VALOR AO CONTRATO N°: 002/2024\nOBJETO: Contratacao de empresa especializada para a Pestacao de servicos de Seguro dos diversos veiculos que compoem a frota da Prefeitura\nMunicipal de Iguape.\nPregao Presencial n°. 065/2023.\nOnde se le:\nData: 18/09/2024\nLeia-se:\nData: 18/02/2025\nPermanecendo inalteradas as demais informacoes.\n\n SAUDE\n\n EDITAL\n\n EDITAL\n\n PROCESSO SELETIVO SIMPLIFICADO 002/2025-SMS/SMDS\n\n A COMISSAO ESPECIAL ORGANIZADORA do Processo Seletivo Simplificado para contratacao temporaria ",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

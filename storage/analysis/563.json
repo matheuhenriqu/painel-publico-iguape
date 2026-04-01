@@ -1,0 +1,158 @@
+﻿{
+    "diaryId":  "563",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:58",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/6e36680932274703192849369b3c14da.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/6e36680932274703192849369b3c14da.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  9,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 3.781.057,43"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 126",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "064/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa SUL VALE CONSTRUTORA LTDA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 126\n DE 10 DE MAIO DE 2023\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0\nArt. 2º - SSP/SP, inscrito no CPF/MF nº 256.609.068-85, para exerce",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 071/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "071/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "OLIVEIRA ENGENHARIA LTDA EPP",
+                      "cnpj":  "",
+                      "object":  "(LOTE 1) – Fornecimento/Instalacao de Galpao Pre Moldado em concreto armado TOMADA DE PRECO Nº 008/2023",
+                      "value":  "R$ 3.145.834,88",
+                      "term":  "permanecera vigente pelo periodo de 03 (tres) meses, a contar da data de ciencia pela CONTRATADA na A.I.S. Autorizacao de Inicio",
+                      "signatureDate":  "23/05/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: OLIVEIRA ENGENHARIA LTDA EPP\nCONTRATO N°: 071/2023\nOBJETO: (LOTE 1) – Fornecimento/Instalacao de Galpao Pre Moldado em concreto armado\nTOMADA DE PRECO Nº 008/2023\nDATA: 23/05/2023\nVALOR: Pagara a contratada o valor de R$ 3.145.834,88 (tres milhoes, cento e quarenta e cinco mil, oitocentos e trinta e quatro reais e oitenta e oito\ncentavos)\nVIGENCIA: permanecera vigente pelo periodo de 03 (tres) meses, a contar da data de ciencia pela CONTRATADA na A.I.S. Autoriza",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 072/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "072/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "OLIVEIRA ENGENHARIA LTDA EPP",
+                      "cnpj":  "",
+                      "object":  "(LOTE 2) Implantacao de Piso no Centro de Eventos Municipal TOMADA DE PRECO Nº 008/2023",
+                      "value":  "R$ 635.222,55",
+                      "term":  "permanecera vigente pelo periodo de 60 (sessenta) dias, a contar da data de ciencia pela CONTRATADA na A.I.S. Autorizacao de",
+                      "signatureDate":  "23/05/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: OLIVEIRA ENGENHARIA LTDA EPP\nCONTRATO N°: 072/2023\nOBJETO: (LOTE 2) Implantacao de Piso no Centro de Eventos Municipal\nTOMADA DE PRECO Nº 008/2023\nDATA: 23/05/2023\nVALOR: Pagara a contratada o valor de R$ 635.222,55 (seiscentos e trinta e cinco mil, duzentos e vinte e dois reais e cinquenta e cinco centavos)\nVIGENCIA: permanecera vigente pelo periodo de 60 (sessenta) dias, a contar da data de ciencia pela CONTRATADA na A.I.S. Autorizacao de\nInicio dos Servicos, ",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE LICITACAO - PREGAO PRESENCIAL",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "2/2023",
+                      "modality":  "PREGAO PRESENCIAL nº.032/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA EVENTUAL CONTRATACAO DE EMPRESA ESPECIALIZADA PARA PRESTACAO DE SERVICOS TOPOGRAFICOS. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013, Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE CUMPRE OS",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "AVISO DE LICITACAO\n PREGAO PRESENCIAL\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11920-\n000, o PREGAO PRESENCIAL nº.032/2023, do tipo MENOR VALOR GLOBAL, conforme especificacoes detalhadas no Edital.\n\nOBJETO: REGISTRO DE PRECOS PARA EVENTUAL CONTRATACAO DE EMPRESA ESPECIALIZADA PARA PRESTACAO DE SERVICOS\nTOPOGRAFICOS.\n\nLEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julh",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

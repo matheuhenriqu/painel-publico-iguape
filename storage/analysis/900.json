@@ -1,0 +1,58 @@
+﻿{
+    "diaryId":  "900",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:58",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_822_28075048.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_822_28075048.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS Nº 60/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "60/2024",
+                      "processNumber":  "089/2023",
+                      "modality":  "PREGAO PRESENCIAL Nº 089/2023",
+                      "contractor":  "",
+                      "cnpj":  "45.550.167/0001-64",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "federal-fazenda"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Ministerio da Fazenda"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS Nº 60/2024\n\n PREGAO PRESENCIAL Nº 089/2023\n\n PROCESSO ADMINISTRATIVO Nº 1.057/2023\n\n Aos 23 (vinte tres) dias do mes de agosto do ano de dois mil e vinte e quatro, na cidade de Iguape, Estado de Sao Paulo, PREFEITURA MUNICIPAL\nDE IGUAPE, inscrita no CNPJ nº. 45.550.167/0001-64, sito na Avenida Adhemar de Barros, nº. 1.070, Porto do Ribeira – Iguape/SP, representada\nneste ato pelo PREFEITO, Senhor WILSON ALMEIDA LIMA, brasileiro, casado, portador do RG. nº. 66.xxx.xxx -0 SSP/SP, inscrito no",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

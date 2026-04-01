@@ -1,0 +1,90 @@
+﻿{
+    "diaryId":  "1216",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:14",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1067_25084246.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1067_25084246.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  10,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "EXTRATO DE RESULTADO DA CHAMADA PUBLICA PARA CREDENCIAMENTO Nº 001/2025 – PROCESSO N.º 031/2025–",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "031/2025",
+                      "modality":  "",
+                      "contractor":  "1- Razao Social: CAIXA ECONOMICA FEDERAL",
+                      "cnpj":  "00.360.305/0001-04",
+                      "object":  "CREDENCIAMENTO DE INSTITUICAO FINANCEIRA PARA RECEBIMENTO DE ARRECADACAO MUNICIPAL, NO PADRAO FEBRABAN. Resultado do credenciamento pela Comissao de Selecao, apos Avaliacao das Documentacoes apresentadas pela credenciada: 1- Razao Social: CAIXA ECONOMICA FEDERAL, CNPJ 00.360.305/0001-04 – CREDENCIADA DANIEL FACTORE MORONI SELLA Agente de Contratacao MARINEY RIBEIRO DE LARA CAMARGO Equipe de Apoio PETER SCHMEICHEL CABRAL DE LIMA Equipe de Apoio DANIEL HONORIO DE OLIVEIRA CASTRO Equipe de Apoio",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "EXTRATO DE RESULTADO DA CHAMADA PUBLICA PARA CREDENCIAMENTO Nº 001/2025 – PROCESSO N.º 031/2025–\nObjeto: CREDENCIAMENTO DE INSTITUICAO FINANCEIRA PARA RECEBIMENTO DE ARRECADACAO MUNICIPAL, NO\nPADRAO FEBRABAN.\n\nResultado do credenciamento pela Comissao de Selecao, apos Avaliacao das Documentacoes apresentadas pela credenciada:\n\n1- Razao Social: CAIXA ECONOMICA FEDERAL, CNPJ 00.360.305/0001-04 – CREDENCIADA\n\n DANIEL FACTORE MORONI SELLA\n Agente de Contratacao\n\n MARINEY RIBEIRO DE LARA CAMARGO\n Equipe de Apoio\n\n PETER",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Dispensa",
+                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "31/2025",
+                      "modality":  "EDITAL CHAMADA PUBLICA Nº: 01/2025",
+                      "contractor":  "CAIXA ECONOMICA FEDERAL Total: 82.176,00",
+                      "cnpj":  "",
+                      "object":  "CREDENCIAMENTO DE INSTITUICAO FINANCEIRA PARA PRESTACAO DE SERVICOS DE CENTRALIZACAO E ARRECADACAO DE TRIBUTOS DE CARNES DE IPTU-IMPOSTO PREDIAL E TERRITORIAL URBANO, ISSQN/TAXAS, ITBI E OUTROS SERVICOS, INCLUSIVE DIVIDA ATIVA E DEMAIS LANCAMENTOS TRIBUTARIAS PARA O EXERCICIO DE 2025, ATRAVES DE DAM- Documento de Arrecadacao Municipal de acordo com o padrao da FEDERACAO BRASILEIRA DE BANCOS -FEBRABAN. DISP - DISPENSA DE LICITACAO - 9/2025 - EDITAL CHAMADA PUBLICA Nº: 01/2025",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-educacao",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Educacao",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nHOMOLOGACAO / ADJUDICACAO\n PROCESSO Nº: 31/2025\n\nCREDENCIAMENTO DE INSTITUICAO FINANCEIRA PARA PRESTACAO DE SERVICOS DE CENTRALIZACAO E ARRECADACAO DE TRIBUTOS\nDE CARNES DE IPTU-IMPOSTO PREDIAL E TERRITORIAL URBANO, ISSQN/TAXAS, ITBI E OUTROS SERVICOS, INCLUSIVE DIVIDA ATIVA E\nDEMAIS LANCAMENTOS TRIBUTARIAS PARA O EXERCICIO DE 2025, ATRAVES DE DAM- Documento de Arrecadacao Municipal de acordo\ncom o padrao da FEDERACAO BRASILEIRA DE BANCOS -FEBRABAN.\n\nDISP - DISPENSA DE LICITACAO - 9/2025 - EDITAL CHAMADA P",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

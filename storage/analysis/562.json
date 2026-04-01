@@ -1,0 +1,92 @@
+﻿{
+    "diaryId":  "562",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:58",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/b1ae720ed9359fbd620c0579f637fc27.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/b1ae720ed9359fbd620c0579f637fc27.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 124.200,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 068/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "068/2023",
+                      "processNumber":  "030/2022",
+                      "modality":  "PREGAO PRESENCIAL Nº 030/2022",
+                      "contractor":  "AUTO POSTO PORTO IGUAPE",
+                      "cnpj":  "",
+                      "object":  "Aquisicoes de combustiveis para atender diversas Secretarias desta Prefeitura no municipio de Iguape/SP, pelo periodo de 30 (trinta) dias. PREGAO PRESENCIAL Nº 030/2022",
+                      "value":  "R$ 124.200,00",
+                      "term":  "60 (sessenta) dias – Periodo de 23/05/2023 a 22/07/2023",
+                      "signatureDate":  "22/05/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: AUTO POSTO PORTO IGUAPE\nCONTRATO N°: 068/2023 - Oriundo da A.R.P. 066/2022\nOBJETO: Aquisicoes de combustiveis para atender diversas Secretarias desta Prefeitura no municipio de Iguape/SP, pelo periodo de 30 (trinta) dias.\nPREGAO PRESENCIAL Nº 030/2022\nDATA: 22/05/2023\nVALOR: Pagara a contratada o valor de R$ 124.200,00 (cento e vinte e quatro mil e duzentos reais)\nVIGENCIA: 60 (sessenta) dias – Periodo de 23/05/2023 a 22/07/2023",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO DE PRAZO CONTRATO Nº 144/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "144/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "DI PISA ENGENHARIA E CONSULTORIA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para a elaboracao de projetos tecnicos para instalacao de sistema completo de combate contra incendio e elaboracao de projetos tecnicos para a instalacao de SPDA - Sistema de Protecao contra Descargas Atmosferica nos predios pertencentes a Secretaria de Educacao, em atendimento a Prefeitura Municipal de Iguape/ SP. Pregao Presencial - n°. 052/2022",
+                      "value":  "",
+                      "term":  "periodo de 04/06/2023 a 02/08/2023 e a execucao periodo de 25/05/2023 a 23/07/2023 – 60 (sessenta) dias.",
+                      "signatureDate":  "24/05/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO DE PRAZO CONTRATO Nº 144/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: DI PISA ENGENHARIA E CONSULTORIA\nCONTRATO-N°:144/2022\nOBJETO: Contratacao de empresa especializada para a elaboracao de projetos tecnicos para instalacao de sistema completo de combate contra incendio\ne elaboracao de projetos tecnicos para a instalacao de SPDA - Sistema de Protecao contra Descargas Atmosferica nos predios pertencentes a Secretaria\nde Educacao, em atendimento a Prefeitura Municipal de Iguape/ SP.\nPregao Prese",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

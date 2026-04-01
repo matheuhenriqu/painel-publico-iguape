@@ -1,0 +1,58 @@
+﻿{
+    "diaryId":  "488",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:13",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/8681b1bb8143ad9a0fd3fd5e7ba5c08c.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/8681b1bb8143ad9a0fd3fd5e7ba5c08c.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  9,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "683/2022",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 6/2023 - EDITAL Nº: 6/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "o REGISTRO DE PRECOS PARA AQUISICAO DE GENEROS ALIMENTICIOS PERECIVEIS E NAO PERECIVEIS PARA ATENDER A DEMANDA DA SECRETARIA DE EDUCACAO (MERENDA ESCOLAR) E DEMAIS SECRETARIAS E DEPARTAMENTOS DA PREFEITURA MUNICIPAL DE IGUAPE, PELO PERIODO DE 12(DOZE) MESES",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-educacao",
+                                                       "municipal-justica-cidadania"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Educacao",
+                                                         "Secretaria de Justica e Cidadania"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\nPROCESSO Nº: 683/2022\no REGISTRO DE PRECOS PARA AQUISICAO DE GENEROS ALIMENTICIOS PERECIVEIS E NAO PERECIVEIS PARA ATENDER\nA DEMANDA DA SECRETARIA DE EDUCACAO (MERENDA ESCOLAR) E DEMAIS SECRETARIAS E DEPARTAMENTOS DA\nPREFEITURA MUNICIPAL DE IGUAPE, PELO PERIODO DE 12(DOZE) MESES.\nPR-G - PREGAO PRESENCIAL - 6/2023 - EDITAL Nº: 6/2023\nINTERESSADOS: GABINETE DO PREFEITO E DEPENDENCIAS, DEPARTAMENTO DE ADMINISTRACAO, DEPARTAMENTO DE",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

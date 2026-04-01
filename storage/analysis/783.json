@@ -1,0 +1,90 @@
+﻿{
+    "diaryId":  "783",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:14",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/20240321_2024-03-21_diariooficialedicao722_16014919.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/20240321_2024-03-21_diariooficialedicao722_16014919.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  17,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "EXTRCATO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  16,
+                      "contractNumber":  "",
+                      "processNumber":  "994/2023",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIAZADA PARA CONTRATACAO DE EMPRESA ESPECIALIZADA PARA REALIZACAO DE OBRAS DEINFRAESTRUTURA URBANA NO MUNICIPIO DE IGUAPE/SP CONFORME PROGRAMA EFICIENCIA MUNICIPAL – BANCO DO BRASIL, no Diario Oficial do Estado – segunda-feira, 18 de marco de 2024 - Diario Oficial Caderno Municipios -Sao Paulo, 134 (52) – 11",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRCATO\n\n AVISO DE CANCELAMENTO DE PUBLICACAO\n\nA PREFEITURA MUNICIPAL DE IGUAPE, comunica aos interessados que torna sem efeito a publicacao do EXTRATO DE\nHOMOLOGACAO/ADJUDICACAO do PROCESSO Nº: 994/2023 - CONTRATACAO DE EMPRESA ESPECIALIAZADA PARA CONTRATACAO DE\nEMPRESA ESPECIALIZADA PARA REALIZACAO DE OBRAS DEINFRAESTRUTURA URBANA NO MUNICIPIO DE IGUAPE/SP CONFORME\nPROGRAMA EFICIENCIA MUNICIPAL – BANCO DO BRASIL, no Diario Oficial do Estado – segunda-feira, 18 de marco de 2024 - Diario Oficial Caderno\nMunicipios",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  16,
+                      "contractNumber":  "",
+                      "processNumber":  "994/2023",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIAZADA PARA CONTRATACAO DE EMPRESAESPECIALIZADA PARA REALIZACAO DE OBRAS DEINFRAESTRUTURA URBANA NO MUNICIPIO DE IGUAPE/SP CONFORME PROGRAMAEFICIENCIA MUNICIPAL – BANCO DO BRASIL",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\nPROCESSO Nº: 994/2023\nCONTRATACAO DE EMPRESA ESPECIALIAZADA PARA CONTRATACAO DE EMPRESAESPECIALIZADA PARA REALIZACAO DE OBRAS\nDEINFRAESTRUTURA URBANA NO MUNICIPIO DE IGUAPE/SP CONFORME PROGRAMAEFICIENCIA MUNICIPAL – BANCO DO BRASIL ,\nCP-O - CONCORRENCIA PUBLICA / OBRAS - 5/2023 - EDITAL Nº: 130/2023\nINTERESSADOS: SECRETARIA MUNIC. DE INFRAESTRUTURA URBANA E OBRAS .\n\n HOMOLOGO E ADJUDICO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\nlotes aba",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

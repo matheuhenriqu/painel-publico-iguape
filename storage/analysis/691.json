@@ -1,0 +1,125 @@
+﻿{
+    "diaryId":  "691",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:34",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/253ff6d51774613fb3c56688df70a43e.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/253ff6d51774613fb3c56688df70a43e.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 99.100,79"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 178/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "178/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para reforma/pintura em predios publicos desta Prefeitura Municipal de Iguape. LOTE 1 – Creche Antonia de Lima Vitorio Carta Convite n°. 010/2023",
+                      "value":  "R$ 30.750,15",
+                      "term":  "120 (cento e vinte) dias a contar da data da ciencia da Autorizacao de Inicio de Servico.",
+                      "signatureDate":  "da ciencia da Autorizacao de Inicio de Servico",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CIACAN ENGENHARIA EIRELI\nCONTRATO N°: 178/2023\nOBJETO: Contratacao de Empresa Especializada para reforma/pintura em predios publicos desta Prefeitura Municipal\nde Iguape.\nLOTE 1 – Creche Antonia de Lima Vitorio\nCarta Convite n°. 010/2023\nVALOR: Pagara a contratada o valor global de R$ 30.750,15 (trinta mil, setecentos e cinquenta reais e quinze centavos).\nVIGENCIA: 120 (cento e vinte) dias a contar da data da ciencia da Autorizacao de Inicio de Servico.\nData: 13",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 179/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "179/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para reforma/pintura em predios publicos desta Prefeitura Municipal de Iguape. LOTE 2 – Campo Municipal Antonio Carlos Soares de Lima Carta Convite n°. 010/2023",
+                      "value":  "R$ 32.050,71",
+                      "term":  "60 (sessenta) dias a contar da data da ciencia da Autorizacao de Inicio de Servico.",
+                      "signatureDate":  "da ciencia da Autorizacao de Inicio de Servico",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CIACAN ENGENHARIA EIRELI\nCONTRATO N°: 179/2023\nOBJETO: Contratacao de Empresa Especializada para reforma/pintura em predios publicos desta Prefeitura Municipal\nde Iguape.\nLOTE 2 – Campo Municipal Antonio Carlos Soares de Lima\nCarta Convite n°. 010/2023\nVALOR: Pagara a contratada o valor global de R$ 32.050,71 (trinta e dois mil, cinquenta reais e setenta e um centavos) .\nVIGENCIA: 60 (sessenta) dias a contar da data da ciencia da Autorizacao de Inicio de Servico",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 180/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "180/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SAMUEL RIBEIRO - EPP",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para reforma/pintura em predios publicos desta Prefeitura Municipal de Iguape. LOTE 3 – ESF ILHA GRANDE E ESF SUBAUNA Carta Convite n°. 010/2023",
+                      "value":  "R$ 36.299,93",
+                      "term":  "90 (noventa) dias a contar da data da ciencia da Autorizacao de Inicio de Servico.",
+                      "signatureDate":  "da ciencia da Autorizacao de Inicio de Servico",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SAMUEL RIBEIRO - EPP\nCONTRATO N°: 180/2023\nOBJETO: Contratacao de Empresa Especializada para reforma/pintura em predios publicos desta Prefeitura\nMunicipal de Iguape.\nLOTE 3 – ESF ILHA GRANDE E ESF SUBAUNA\nCarta Convite n°. 010/2023\nVALOR: Pagara a contratada o valor global de R$ 36.299,93 (trinta e seis mil, duzentos e noventa e nove reais\ne noventa e tres centavos) .\nVIGENCIA: 90 (noventa) dias a contar da data da ciencia da Autorizacao de Inicio de Servico.\n\n",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

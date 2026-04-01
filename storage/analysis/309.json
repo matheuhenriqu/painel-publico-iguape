@@ -1,0 +1,93 @@
+﻿{
+    "diaryId":  "309",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:44",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/a95f203889df43830c7778e5ec2ddd19.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/a95f203889df43830c7778e5ec2ddd19.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 127.300,03"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO DE VALOR AO CONTRATO 001/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "001/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "EPCCO-ENGENHARIA DE PROJETOS CONSULTORIA E CONSTRUCOES LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para pavimentacao e obras complementares na Avenida Julio Franco no Bairro do Rocio, neste Municipio de Iguape/SP, conforme contrato de repasse nº 896691/2019, celebrado com o MDR (Ministerio de Desenvolvimento Regional)/ Caixa . Tomada de Precos - n°. 009/2020",
+                      "value":  "R$ 127.300,03",
+                      "term":  "",
+                      "signatureDate":  "10/05/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO DE VALOR AO CONTRATO 001/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: EPCCO-ENGENHARIA DE PROJETOS CONSULTORIA E CONSTRUCOES LTDA\nCONTRATO N°: 001/2021\nOBJETO: Contratacao de Empresa Especializada para pavimentacao e obras complementares na Avenida Julio Franco\nno Bairro do Rocio, neste Municipio de Iguape/SP, conforme contrato de repasse nº 896691/2019, celebrado com o MDR\n(Ministerio de Desenvolvimento Regional)/ Caixa .\nTomada de Precos - n°. 009/2020\nDATA: 10/05/2022\nVALOR: R$ 127.300,03 (",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:059/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "9/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE MEDICAMENTOS, PARA ATENDER A SECRETARIA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:059/2022\nOBJETO: REGISTRO DE PRECOS PARA AQUISICAO DE MEDICAMENTOS, PARA ATENDER A SECRETARIA",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

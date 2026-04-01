@@ -1,0 +1,157 @@
+﻿{
+    "diaryId":  "629",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:45",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/f5eef337905c64ebcf80261156afadb5.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/f5eef337905c64ebcf80261156afadb5.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 21.431,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 045/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "045/2022",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para execucao de obra de pavimentacao articulada de via de acesso que interliga o Centro multiuso a praia da Jureia, conforme convenio nº 000133/2021,celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o municipio de Iguape/SP TOMADA DE PRECO: 004/2022",
+                      "value":  "",
+                      "term":  "Execucao e Vigencia – por mais 90 (noventa) dias, periodo de 17/08/2023 a 14/11/2023",
+                      "signatureDate":  "16/08/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "estadual-turismo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Turismo e Viagens"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 045/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CIACAN ENGENHARIA EIRELI\nOBJETO: Contratacao de Empresa especializada para execucao de obra de pavimentacao articulada de via de acesso que interliga o Centro multiuso\na praia da Jureia, conforme convenio nº 000133/2021,celebrado entre o Estado de Sao Paulo, pela Secretaria de Turismo e Viagens e o municipio de\nIguape/SP\nTOMADA DE PRECO: 004/2022\nDATA: 16/08/2023\nVIGENCIA: Execucao e Vigencia – por mais 90 (noventa) dias,",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "8º TERMO ADITIVO DE ACRESCIMO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "047/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "OLIVEIRA ENGENHARIA EIRELI - EPP",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para obra de reforma/ampliacao do predio que abriga o projeto “ Fazendo Acontecer”, conforme convenio n° 100328/2021 – celebrado entre o Estado de Sao Paulo, por meio da Secretaria de Desenvolvimento Regional e o municipio de Iguape. TOMADA DE PRECOS Nº 07/2021",
+                      "value":  "R$ 21.431,00",
+                      "term":  "",
+                      "signatureDate":  "16/082023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "8º TERMO ADITIVO DE ACRESCIMO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: OLIVEIRA ENGENHARIA EIRELI - EPP\nCONTRATO N°: 047/2021\nOBJETO: Contratacao de Empresa especializada para obra de reforma/ampliacao do predio que abriga o projeto “ Fazendo Acontecer”, conforme\nconvenio n° 100328/2021 – celebrado entre o Estado de Sao Paulo, por meio da Secretaria de Desenvolvimento Regional e o municipio de Iguape.\nTOMADA DE PRECOS Nº 07/2021\nDATA: 16/082023\nVALOR: O valor do presente Termo Aditivo e de R$ 21.431,00 (vinte e",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE LICITACAO - Encontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "047/2023",
+                      "modality":  "PREGAO PRESENCIAL nº. 047/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA EM TELEATENDIMENTO EM PEDIATRIA COM USO DE DISPOSITIVO E ADAPTADORES PARA EXAMES FISICOS DE CAPTACAO REMOTA DE DADOS, PELO PERIODO DE 12 MESES. LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013, Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE CUMPRE OS",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "AVISO DE LICITACAO\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP\n11.920-000, o PREGAO PRESENCIAL nº. 047/2023, do tipo MENOR VALOR GLOBAL, conforme especificacoes detalhadas no Edital.\n\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA EM TELEATENDIMENTO EM PEDIATRIA COM USO DE DISPOSITIVO E\nADAPTADORES PARA EXAMES FISICOS DE CAPTACAO REMOTA DE DADOS, PELO PERIODO DE 12 MESES.\n\nLEGISLACAO: Lei Federal n.º 8.666/93, de 21 de",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE LICITACAO - Encontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "048/2023",
+                      "modality":  "PREGAO PRESENCIAL nº. 048/2023",
+                      "contractor":  "S NO FUTURO, DA ADMINISTRACAO PUBLICA",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE INSTITUICAO FINANCEIRA PARA O RECEBIMENTO DOS CREDITOS EM CONTA, DOS ATUAIS SERVIDORES ATIVOS, INATIVOS E PENSIONISTAS, BEM COMO, AQUELES QUE FOREM CONTRATADOS NO FUTURO, DA ADMINISTRACAO PUBLICA . LEGISLACAO: Lei Federal n.º 8.666/93, de 21 de junho de 1993, Lei Federal n.º 10.520 de 17 de julho de 2002, Decreto nº 7.892 de 23/01/2013, Lei Complementar n.º 123 de 14 de dezembro de 2006 e Lei Complementar n.º 147 de 07 de agosto de 2014",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "PARA A ENTREGA DO(S) DOCUMENTO(S) PARA CREDENCIAMENTO, DA DECLARACAO DE QUE A PROPONENTE CUMPRE OS",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "AVISO DE LICITACAO\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP\n11.920-000, o PREGAO PRESENCIAL nº. 048/2023, do tipo MAIOR PRECO GLOBAL, conforme especificacoes detalhadas no Edital.\n\nOBJETO: CONTRATACAO DE INSTITUICAO FINANCEIRA PARA O RECEBIMENTO DOS CREDITOS EM CONTA, DOS ATUAIS SERVIDORES\nATIVOS, INATIVOS E PENSIONISTAS, BEM COMO, AQUELES QUE FOREM CONTRATADOS NO FUTURO, DA ADMINISTRACAO PUBLICA .\n\nLEGISLACAO: Le",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

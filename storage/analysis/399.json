@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "399",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:28",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/65da82779de98daf76c4097782ff36f3.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/65da82779de98daf76c4097782ff36f3.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  8,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "4º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 013/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  5,
+                      "contractNumber":  "013/2021",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa Especializada para Ampliacao da Unidade E.S.F.III-Barra do Ribeira neste municipio de Iguape/SP – PROGRAMA REQUALIFICA UBS - Proposta nº 13901.6840001/19-001, com Recurso do Minsiterio da Saude. Tomada de Precos n°. 002/2021",
+                      "value":  "",
+                      "term":  "Prazo da execucao - 90 (noventa) dias – 03/10/2022 a 01/01/2023 e vigencia – 02/11/2022 a 31/01/2023",
+                      "signatureDate":  "30/09/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "4º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 013/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA\nCONTRATO N°: 013/2021\nOBJETO: Contratacao de Empresa Especializada para Ampliacao da Unidade E.S.F.III-Barra do Ribeira neste municipio de Iguape/SP –\nPROGRAMA REQUALIFICA UBS - Proposta nº 13901.6840001/19-001, com Recurso do Minsiterio da Saude.\nTomada de Precos n°. 002/2021\nData: 30/09/2022\nVIGENCIA: Prazo da execucao - 90 (noventa) dias – 03/10/2022 a 01/01/2023 e vigenc",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

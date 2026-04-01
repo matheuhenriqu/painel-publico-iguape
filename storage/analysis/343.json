@@ -1,0 +1,89 @@
+﻿{
+    "diaryId":  "343",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:36",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/853d3148d37a9fb34e931e7c5d080ee9.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/853d3148d37a9fb34e931e7c5d080ee9.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  20,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 100.000,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "INEXIGIBILIDADE DE LICITACAO da empresa MC PROMOCOES ARTISTICAS LTDA, inscrita no CNPJ: 26.774.529/0001-56, para",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  18,
+                      "contractNumber":  "",
+                      "processNumber":  "529/0001",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "26.774.529/0001-56",
+                      "object":  "",
+                      "value":  "R$100.000,00",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "INEXIGIBILIDADE DE LICITACAO da empresa MC PROMOCOES ARTISTICAS LTDA, inscrita no CNPJ: 26.774.529/0001-56, para\napresentacao “SERGIO REIS”, NO DIA 05 DE AGOSTO DE 2022, AS 23:00H, NO CENTRO DE EVENTOS PREFEITO CASEMIRO TEIXEIRA, POR\n90MIN. DE SHOW, COMO PARTE DO EVENTO “FESTA DE AGOSTO” COM FUNDAMENTO NO ARTIGO 25, INCISO III, DA LEI FEDERAL\n8.666/93, sendo o valor contratado de R$100.000,00 (cem mil reais), pois que, ao analisaro caso concreto, eis que estao preenchidos todos os\nrequisitos legais.\n\n Expecam-se as",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem modalidade identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  18,
+                      "contractNumber":  "",
+                      "processNumber":  "67/2021",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES VISANDO CONTRATACOES FUTURAS PARA CONFECCAO DE",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 67/2021\nREGISTRO DE PRECOS PELO PERIODO DE 12 (DOZE) MESES VISANDO CONTRATACOES FUTURAS PARA CONFECCAO DE",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

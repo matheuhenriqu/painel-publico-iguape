@@ -1,0 +1,92 @@
+﻿{
+    "diaryId":  "957",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:52",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_869_13064534.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_869_13064534.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 208.134,17"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "1º TERMO DE PRORROGACAO AO CONTRATO 176/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "176/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "JULIANA MARTINS DE CAMARGO - MEI",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para prestacao de servicos de manutencao, conservacao e zeladoria das instalacoes nas Trilhas e Atrativos Turisticos, neste municipio de Iguape/SP. Carta Convite n°. 009/2023",
+                      "value":  "R$ 208.134,17",
+                      "term":  "12(doze) meses – Periodo - 14/11/2024 a 13/11/2025",
+                      "signatureDate":  "08/11/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n1º TERMO DE PRORROGACAO AO CONTRATO 176/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: JULIANA MARTINS DE CAMARGO - MEI\nCONTRATO N°: 176/2023\nOBJETO: Contratacao de empresa especializada para prestacao de servicos de manutencao, conservacao e zeladoria das instalacoes nas Trilhas e\nAtrativos Turisticos, neste municipio de Iguape/SP.\nCarta Convite n°. 009/2023\nVALOR: Valor global do aditivo R$ 208.134,17 (duzentos e oito mil, cento e trinta e quatro reais e dezessete centavos).\nVIGENCIA: 12(doze) meses –",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "503/2024",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 14/2024 - EDITAL Nº: 25/2024",
+                      "contractor":  "L. A. SESSO COMERCIO LTDA",
+                      "cnpj":  "35203012022000",
+                      "object":  "Aquisicao de equipamentos mobiliarios, com destinacao dos bens para o Centro de Referencia de Assistencia Social (CRAS), oriundo do RECURSO:EMENDA PARLAMENTAR PROCESSO Nº 202281000306. PROGRAMACAO SIGTV N° 352030120220002, em conformidade com os anexos do",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 503/2024\nAquisicao de equipamentos mobiliarios, com destinacao dos bens para o Centro de Referencia de Assistencia Social (CRAS), oriundo do\nRECURSO:EMENDA PARLAMENTAR PROCESSO Nº 202281000306. PROGRAMACAO SIGTV N° 352030120220002, em conformidade com os anexos\ndo\nPR-E - PREGAO ELETRONICO - 14/2024 - EDITAL Nº: 25/2024\nINTERESSADOS: SECRETARIA MUNIC. DE ASSISTENCIA E DESENV. SOCIAL .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatori",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

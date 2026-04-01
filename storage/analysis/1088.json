@@ -1,0 +1,53 @@
+﻿{
+    "diaryId":  "1088",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:32",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_976-_08073439.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_976-_08073439.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  1,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 76.820,16"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "2º TERMO DE PRORROGACAO– CONTRATO-Nº 44/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "044/2023",
+                      "processNumber":  "013/2023",
+                      "modality":  "PREGAO PRESENCIAL Nº: 013/2023",
+                      "contractor":  "AMBSERV– TRATAMENTO DE RESIDUOS",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para Coleta, Transporte, Armazenamento, Tratamento e Destinacao final do lixo Hospitalar do Municipio de Iguape. PREGAO PRESENCIAL Nº: 013/2023",
+                      "value":  "R$ 76.820,16",
+                      "term":  "12 (doze) meses - Periodo de 06/05/2025 a 05/05/2026.",
+                      "signatureDate":  "28/04/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n2º TERMO DE PRORROGACAO– CONTRATO-Nº 44/2023\nCONTRATANTE: PREFEITURA MUNICIPAL DE IGUAPE\nCONTRATADA: AMBSERV– TRATAMENTO DE RESIDUOS\nCONTRATO N°: 044/2023\nOBJETO: Contratacao de empresa especializada para Coleta, Transporte, Armazenamento, Tratamento e Destinacao final do lixo Hospitalar do\nMunicipio de Iguape.\nPREGAO PRESENCIAL Nº: 013/2023\nDATA:28/04/2025\nVALOR: Pagara a contratada o valor de R$ 76.820,16 (setenta e seis mil, oitocentos e vinte reais e dezesseis centavos), perfazendo o valor do Kg de\nR$ ",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

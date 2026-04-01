@@ -1,0 +1,124 @@
+﻿{
+    "diaryId":  "612",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:47",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/f4f302c018943f10dcd9293878f36ed7.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/f4f302c018943f10dcd9293878f36ed7.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 80.853,03"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 251",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "153/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa POINT PARK DIVERSOES EVENTOS TRANSPORTES E FEIRAS LTDA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 251\n DE 27 JULHO DE 2023\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Marcelo Henrique Vieira, Secretario Adjunto Financeiro, titular da Cedula de Identidade RG nº 224563750 SSP/SP, inscrito no\nArt. 2º - CPF/MF nº 122.683.038-29, para exercer a funcao de",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE SUPRESSAO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "066/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SAMUEL RIBEIRO- EPP",
+                      "cnpj":  "08796702868346",
+                      "object":  "contratacao de empresa especializada para execucao do servico de limpeza, troca de valvulas e de filtros das caixas d´agua nas escolas e creches municipais de Iguape/SP CARTA CONVITE Nº 006/2023",
+                      "value":  "R$ 853,03",
+                      "term":  "",
+                      "signatureDate":  "24/07/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE SUPRESSAO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SAMUEL RIBEIRO- EPP\nCONTRATO N°: 066/2023\nOBJETO: contratacao de empresa especializada para execucao do servico de limpeza, troca de valvulas e de filtros das caixas d´agua nas escolas e\ncreches municipais de Iguape/SP\nCARTA CONVITE Nº 006/2023\nDATA:24/07/2023\nVALOR: Valor do acrescimo: R$ 853,03 (oitocentos e cinquenta e tres reais e tres centavos), sendo 08796702868346%, Predio do Forum de Iguape,\nValor da supressao R$ 16.072,98 (dezessesi",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato publicado",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "POINT PARK DIVERSOES EVENTOS TRANSPORTES E FEIRAS LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa para exploracao de espaco publico para instalacao de um Parque de Diversoes e gerenciamento, por ocasiao da realizacao da Festa de Bom Jesus, bem como contemplar acoes que visem contribuir com outro(s) Evento(s) no Municipio de Iguape LEILAO Nº 005/2023",
+                      "value":  "R$ 80.000,00",
+                      "term":  "Permanecera valido pelo periodo de 28/072023 a 11/10/2023, nos termos da Legislacao vigente que regula da materia.",
+                      "signatureDate":  "26/07/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: POINT PARK DIVERSOES EVENTOS TRANSPORTES E FEIRAS LTDA\nCONTRATO:N°:153/2023\nOBJETO: Contratacao de empresa para exploracao de espaco publico para instalacao de um Parque de Diversoes e gerenciamento, por ocasiao da\nrealizacao da Festa de Bom Jesus, bem como contemplar acoes que visem contribuir com outro(s) Evento(s) no Municipio de Iguape\nLEILAO Nº 005/2023\nDATA:26/07/2023\nVALOR: Pagara a contratante o valor de R$ 80.000,00 (oitenta mil reais), sendo descontado",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

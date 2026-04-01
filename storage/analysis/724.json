@@ -1,0 +1,159 @@
+﻿{
+    "diaryId":  "724",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:30",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/3984d892a44ca81efdca3ace57ebdd31.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/3984d892a44ca81efdca3ace57ebdd31.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  22,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 641.554,90"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 043/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  16,
+                      "contractNumber":  "043/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "L. AUGUSTA F. PEREIRA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada em servicos de arbitragem para eventos esportivos de futebol e futsal neste municipio de Iguape/SP CARTA CONVITE Nº: 001/2023",
+                      "value":  "R$ 160.400,00",
+                      "term":  "24/03/2024 a 23/03/2025",
+                      "signatureDate":  "-27/12/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 043/2023\nCONTRATADA: L. AUGUSTA F. PEREIRA\nCONTRATO N°: 043/2023\nOBJETO: Contratacao de empresa especializada em servicos de arbitragem para eventos esportivos de futebol e futsal neste municipio de Iguape/SP\nCARTA CONVITE Nº: 001/2023\nDATA:-27/12/2023\nVIGENCIA: 24/03/2024 a 23/03/2025\nVALOR: Pagara a contratada o valor de R$ 160.400,00 (cento e sessenta mil e quatrocentos reais).",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "12º TERMO ADITIVO DE PRORROGACAO E DE VALOR AO CONTRATO Nº 102/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  16,
+                      "contractNumber":  "102/2021",
+                      "processNumber":  "041/2021",
+                      "modality":  "PREGAO PRESENCIAL N,º 041/2021",
+                      "contractor":  "SEGUROS SURA S/A",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para a Prestacao de Servicos de Seguro dos divervos veiculos que compoem a frota da Prefeitura Municipal de Iguape. PREGAO PRESENCIAL N,º 041/2021",
+                      "value":  "R$ 37.768,90",
+                      "term":  "",
+                      "signatureDate":  "22/12/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "12º TERMO ADITIVO DE PRORROGACAO E DE VALOR AO CONTRATO Nº 102/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SEGUROS SURA S/A\nCONTRATO N°: 102/2021\nOBJETO: Contratacao de Empresa especializada para a Prestacao de Servicos de Seguro dos divervos veiculos que compoem a frota da Prefeitura\nMunicipal de Iguape.\nPREGAO PRESENCIAL N,º 041/2021\nDATA:22/12/2023\nVALIDADE:- 23/12/2023 A 20/02/2024 – Periodo de 60 (sessenta) dias.\nVALOR: O valor global do Termo Aditivo e de R$ 37.768,90 (trinta e sete mil, setecentos e se",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:140/2023.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  16,
+                      "contractNumber":  "0/2023",
+                      "processNumber":  "061/2023",
+                      "modality":  "Pregao Presencial n°. 061/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para a prestacao de servicos medicos auxiliares de diagnostico e terapia – ultrassonografia, para atendimento dos pacientes provenientes das unidades de Saude deste Municipio de Iguape SP. Pregao Presencial n°. 061/2023",
+                      "value":  "R$ 443.386,00",
+                      "term":  "- Periodo de 27/12/2023 a 26/12/2024 - 12 (doze) meses.",
+                      "signatureDate":  "27/12/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:140/2023.\nOBJETO: Contratacao de Empresa especializada para a prestacao de servicos medicos auxiliares de diagnostico e terapia – ultrassonografia, para\natendimento dos pacientes provenientes das unidades de Saude deste Municipio de Iguape SP.\nPregao Presencial n°. 061/2023\nDATA: 27/12/2023\nVIGENCIA:- Periodo de 27/12/2023 a 26/12/2024 - 12 (doze) meses.\nVALOR:- R$ 443.386,00 (quatrocentos e quarenta e tres mil, trezentos e oitenta e seis reais).",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "AVISO DE LICITACAO - TOMADA DE PRECOS",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  16,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "AVISO DE LICITACAO - TOMADA DE PRECOS",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE PAVIMENTACAO ASFALTICA DA RUA CAPITAO FLORAMANTE “FASE I E FASE II” E TRECHO DA RUA TEN. CEL. ZACARIAS CONFORME CONVENIO Nº 102967/2022 CELEBRADO COM A SECRETARIA DE GOVERNO E RELACOES INSTITUCIONAIS DO GOVERNO DO ESTADO DE SAO PAULO, E RECURSOS DA UNIAO",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "estadual-governo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Governo e Relacoes Institucionais"
+                                                     ],
+                      "excerpt":  "AVISO DE LICITACAO\n TOMADA DE PRECOS\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, a TOMADA DE PRECOS – n.º 020/2023, do tipo MENOR PRECO POR LOTE, situada na Avenida\nAdhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11.920-000, nas especificacoes detalhadas no Edital.\n\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA OBRA DE PAVIMENTACAO ASFALTICA DA RUA CAPITAO FLORAMANTE\n“FASE I E FASE II” E TRECHO DA RUA TEN. CEL. ZACARIAS CONFORME CONVENIO Nº 102967/2022 CELEBRADO COM A SECRETARIA",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero principal identificado"
+                                ]
+                  }
+              ]
+}

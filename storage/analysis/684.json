@@ -1,0 +1,124 @@
+﻿{
+    "diaryId":  "684",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:35",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/95de5a61887f502a0abf92adad5e02a1.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/95de5a61887f502a0abf92adad5e02a1.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 483.147,68"
+                },
+    "items":  [
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:136/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "6/2023",
+                      "processNumber":  "059/2023",
+                      "modality":  "Pregao Presencial n°. 059/2023",
+                      "contractor":  "o valor global de R$ 480.375,00 ( quatrocentos e oitenta mil, trezentos e setenta e cinco reais)",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICOES DE GAS DE COZINHA GLP, P13 E P45, PARA ATENDER DIVERSAS SECRETARIAS DA PREFEITURA DE IGUAPE, PELO PERIODO DE 12 MESES. Pregao Presencial n°. 059/2023",
+                      "value":  "R$ 480.375,00",
+                      "term":  "08/11/2023 a 07/11/2024",
+                      "signatureDate":  "08/11/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:136/2023\nOBJETO: REGISTRO DE PRECOS PARA AQUISICOES DE GAS DE COZINHA GLP, P13 E P45, PARA ATENDER DIVERSAS SECRETARIAS DA\nPREFEITURA DE IGUAPE, PELO PERIODO DE 12 MESES.\nPregao Presencial n°. 059/2023.\nVIGENCIA: 08/11/2023 a 07/11/2024\nDATA: 08/11/2023\nVALOR: Pagara a contratada o valor global de R$ 480.375,00 ( quatrocentos e oitenta mil, trezentos e setenta e cinco reais).",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 225/2017",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "276/2017",
+                      "modality":  "",
+                      "contractor":  "ALZIRA APARECIDA DANTAS DEMARTIS",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao da “Residencia Terapeutica”",
+                      "value":  "R$ 2.772,68",
+                      "term":  "13/11/2023 a 12/11/2024",
+                      "signatureDate":  "09/11/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nTERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 225/2017\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: ALZIRA APARECIDA DANTAS DEMARTIS\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para a instalacao da “Residencia Terapeutica”\nDATA: 09/11/2023\nVALOR: R$ 2.772,68 (dois mil, setecentos e setenta e dois reais e sessenta e oito centavos) mensais.\nProcesso Administrativo nº 276/2017\nVIGENCIA: 13/11/2023 a 12/11/2024",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "HOMOLOGACAO / ADJUDICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "811/2023",
+                      "modality":  "",
+                      "contractor":  "CIACAN ENGENHARIA EIRELI",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA REFORMA / PINTURA EM PREDIOS PUBLICOS DESTA PREFEITURA MUNICIPAL DE IGUAPE CO-O - CONVITE / OBRAS - 10/2023 - EDITAL Nº: 94/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-educacao",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Educacao",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n HOMOLOGACAO / ADJUDICACAO\n\nPROCESSO Nº: 811/2023\nCONTRATACAO DE EMPRESA ESPECIALIZADA PARA REFORMA / PINTURA EM PREDIOS PUBLICOS DESTA PREFEITURA MUNICIPAL DE\nIGUAPE\nCO-O - CONVITE / OBRAS - 10/2023 - EDITAL Nº: 94/2023\nINTERESSADOS: SECRETARIA MUNICIPAL DE EDUCACAO e SECRETARIA MUNIC. DE INFRAESTRUTURA URBANA E OBRAS .\n\n HOMOLOGO E ADJUDICO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao\n\ndos lotes abaixo.\n\n1 - CRECHE ANTONIA DE LIMA VITORIO\nFORNECEDOR: CIACAN ENGENHARIA ",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada"
+                                ]
+                  }
+              ]
+}

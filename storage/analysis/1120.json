@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "1120",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:28",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1002_17072554.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1002_17072554.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 290,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE SUPRESSAO AO CONTRATO Nº 30/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "30/2025",
+                      "processNumber":  "078/2023",
+                      "modality":  "Pregao Presencial n°. 078/2023",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para futuras e eventuais contratacoes de empresa(s) especializada(s) para fornecimento de agregados minerais a serem utilizados neste municipio de Iguape Pregao Presencial n°. 078/2023",
+                      "value":  "R$ 290,00",
+                      "term":  "",
+                      "signatureDate":  "12/06/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE SUPRESSAO AO CONTRATO Nº 30/2025\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU\nCONTRATO Nº 030/2025 – ORIUNDO DA ATA DE REGISTRO DE PRECOS N°:017/2024.\nOBJETO: Registro de Precos para futuras e eventuais contratacoes de empresa(s) especializada(s) para fornecimento de agregados minerais a serem\nutilizados neste municipio de Iguape\nPregao Presencial n°. 078/2023\nData: 12/06/2025\nVALOR: O valor do presente aditivo de supressao e de R$ 290,00 (duzentos e",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

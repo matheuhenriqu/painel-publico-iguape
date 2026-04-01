@@ -1,0 +1,129 @@
+﻿{
+    "diaryId":  "1097",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:31",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_983_21092329.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_983_21092329.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 24.608,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 059/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "059/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ELIAS TEIXEIRA DE AGUIAR",
+                      "cnpj":  "",
+                      "object":  "Credenciamento de empresas para prestacao dos servicos de poda com equipe manual (ate 3,5 m, sem munck), poda com caminhao munck (com cesto aereo) e rocada manual com rastelamento e ensacamento de residuos vegetais em estradas vicinais e areas publicas nao abrangidas por contrato de limpeza urbana no Municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP\nCONTRATADA: ELIAS TEIXEIRA DE AGUIAR\nCONTRATO Nº: 059/2025\nOBJETO: Credenciamento de empresas para prestacao dos servicos de poda com equipe manual (ate 3,5 m, sem munck), poda com caminhao\nmunck (com cesto aereo) e rocada manual com rastelamento e ensacamento de residuos vegetais em estradas vicinais e areas publicas nao\nabrangidas por contrato de limpeza urbana no Municipio de Iguape/SP",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Inexigibilidade",
+                      "actTitle":  "CHAMADA PUBLICA n°.: 002/2025 vinculada a INEXIGIBILIDADE Nº 044/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "002/2025",
+                      "modality":  "CHAMADA PUBLICA n°.: 002/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 24.608,00",
+                      "term":  "Os contratos celebrados deste credenciamento sera por empreitada por tempo indeterminado em conformidade com a liberacao de cada",
+                      "signatureDate":  "13/05/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "CHAMADA PUBLICA n°.: 002/2025 vinculada a INEXIGIBILIDADE Nº 044/2025\nData: 13/05/2025\nVIGENCIA: Os contratos celebrados deste credenciamento sera por empreitada por tempo indeterminado em conformidade com a liberacao de cada\nOrdem de Inicio dos Servicos.\nPRAZO DE EXECUCAO: Os servicos deverao ser integralmente executados no prazo maximo de 60 (sessenta) dias corridos contados a partir da\nemissao da respectiva Ordem de Servico.\nVALOR: R$ 24.608,00 (vinte e quatro mil, seiscentos e oito reais).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "236/2025",
+                      "modality":  "PR-E - PREGAO ELETRONICO - 4/2025 - EDITAL Nº: 6/2025",
+                      "contractor":  "ALFA EXCELENCIA DIAGNOSTICA LTDA",
+                      "cnpj":  "",
+                      "object":  "Registro de precos para a contratacao de empresa especializada para a prestacao de servicos de exames laboratoriais de analises clinicas para atender a demanda dos pacientes atendidos no centro de saude, UBS, Pronto Atendimento, unidades das Estrategias de Saude da Familia e CAPS, do municipio de Iguape, pelo periodo de 12 (doze) meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 236/2025\nRegistro de precos para a contratacao de empresa especializada para a prestacao de servicos de exames laboratoriais de analises clinicas para atender\na demanda dos pacientes atendidos no centro de saude, UBS, Pronto Atendimento, unidades das Estrategias de Saude da Familia e CAPS, do municipio\nde Iguape, pelo periodo de 12 (doze) meses.\nPR-E - PREGAO ELETRONICO - 4/2025 - EDITAL Nº: 6/2025\nINTERESSADOS: SECRETARIA MUNICIPAL DE SAUDE .\n\n ADJUDICO E HOMOLOGO,",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

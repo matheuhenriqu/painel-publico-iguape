@@ -1,0 +1,125 @@
+﻿{
+    "diaryId":  "640",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:43",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/8c824c5d26e3831ccc2e2b94b16ada81.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/8c824c5d26e3831ccc2e2b94b16ada81.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "rescisao"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Rescisao",
+                      "actTitle":  "TERMO DE RESCISAO AMIGAVEL",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  7,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "GDAI INDUSTRIA E COMERCIO ELETRONICOS EIRELI",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nTERMO DE RESCISAO AMIGAVEL\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: GDAI INDUSTRIA E COMERCIO ELETRONICOS EIRELI",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°: 066/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "066/2023",
+                      "processNumber":  "036/2023",
+                      "modality":  "Pregao Presencial n°. 036/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "O Termo de Rescisao Amigavel da Ata de Registro nº 66/2023, Registro de Precos pelo periodo de 12 (doze) meses, para contratacao de empresa especializada para disponibilizacao de equipamentos de informatica em regime de locacao mediante prestacao de servicos de manutencao e de seguranca, destinados aos Departamentos da Prefeitura Municipal de Iguape, bem como aos convenios firmados com a municipalidade, a partir de 30/08/2023, conforme dispoe o artigo 79, inciso II da Lei 8.666/93. Pregao Presencial n°. 036/2023",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "31/08/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°: 066/2023\nOBJETO: O Termo de Rescisao Amigavel da Ata de Registro nº 66/2023, Registro de Precos pelo periodo de 12 (doze) meses, para contratacao de\nempresa especializada para disponibilizacao de equipamentos de informatica em regime de locacao mediante prestacao de servicos de manutencao e\nde seguranca, destinados aos Departamentos da Prefeitura Municipal de Iguape, bem como aos convenios firmados com a municipalidade, a partir de\n30/08/2023, conforme dispoe o artigo 79, inciso II da ",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "629/2023",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 47/2023 - EDITAL Nº: 76/2023",
+                      "contractor":  "ASSOCIACAO HOSPITALAR DE PROT INFANCIA DR RAUL CARNEIRO",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA EM TELEATENDIMENTO EM PEDIATRIA COM USO DE DISPOSITIVO E ADAPTADORES PARA EXAMES FISICOS DE CAPTACAO REMOTA DE DADOS, PELO PERIODO DE 12 MESES",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 629/2023\nCONTRATACAO DE EMPRESA ESPECIALIZADA EM TELEATENDIMENTO EM PEDIATRIA COM USO DE DISPOSITIVO E ADAPTADORES PARA\nEXAMES FISICOS DE CAPTACAO REMOTA DE DADOS, PELO PERIODO DE 12 MESES.\nPR-G - PREGAO PRESENCIAL - 47/2023 - EDITAL Nº: 76/2023\nINTERESSADOS: SECRETARIA MUNICIPAL DE SAUDE.\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\n\nitens abaixo.\n\nFORNECEDOR: ASSOCIACAO HOSPITALAR DE PROT INFANCIA DR RA",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

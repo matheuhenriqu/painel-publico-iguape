@@ -1,0 +1,128 @@
+﻿{
+    "diaryId":  "454",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:18",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/18bc8a9a736f0f44e8ed3de3ac124ea5.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/18bc8a9a736f0f44e8ed3de3ac124ea5.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 155.943,47"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO AO CONTRATO 23/2021",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "023/2021",
+                      "processNumber":  "12/2021",
+                      "modality":  "Pregao Presencial nº 12/2021",
+                      "contractor":  "CECAM – CONSULTORIA ECONOMICA, CONTABIL E ADMINISTRATIVA MUNICIPAL LTDA",
+                      "cnpj":  "",
+                      "object":  "refere-se a Contratacao de empresa especializada para cessao de direito de uso de softwares (modulos) de gestao publica, nas areas de ajuizamento eletronico (procuradoria), administracao de pessoal, almoxarifado, contabilidade publica e tesouraria, controle interno, portal da transparencia, compras e licitacoes, protocolo, frotas, patrimonio, IPTU e itbi, iptu e itbi web, obras, iss, iss web, iss eletronico e nota fiscal eletronica, saude e cemiterio, envolvendo conversao, migracao, implantacao dos modulos e capacitacao dos usuarios, pelo periodo de 12 meses. Pregao Presencial nº 12/2021",
+                      "value":  "R$ 7.298,01",
+                      "term":  "",
+                      "signatureDate":  "22/12/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO AO CONTRATO 23/2021\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: CECAM – CONSULTORIA ECONOMICA, CONTABIL E ADMINISTRATIVA MUNICIPAL LTDA\nCONTRATO N°: 023/2021\nOBJETO: Constitui o presente termo aditivo de substituicao e acrescimo de valor, dos programas de contabilidade e orcamento\npublico dos orgaos Municipais pela Licenca de uso do Sistema Unico Integrado de Execucao Orcamentaria Administracao\nFinanceira e Controle – SIAFIC, visando atender o Decreto nº 10.540 de 2020, cujo objeto refere-se a Con",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "6º TERMO ADITIVO AO CONTRATO Nº 077/2016",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "077/2016",
+                      "processNumber":  "002/2016",
+                      "modality":  "Concorrencia Publica n.º 002/2016",
+                      "contractor":  "EMS TRANSPORTES E SERVICOS EIRELI",
+                      "cnpj":  "",
+                      "object":  "Pelo presente instrumento tem por objeto a prorrogacao ao contrato n.º 077/2016 – Concorrencia Publica n.º 002/2016 - empresa especializada no Transporte Coletivo, veiculo tipo onibus, para transportar passageiros que residem na Zona Rural e Urbana, do Municipio de Iguape",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "6º TERMO ADITIVO AO CONTRATO Nº 077/2016\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: EMS TRANSPORTES E SERVICOS EIRELI\nOBJETO: Pelo presente instrumento tem por objeto a prorrogacao ao contrato n.º 077/2016 – Concorrencia Publica n.º 002/2016 -\nempresa especializada no Transporte Coletivo, veiculo tipo onibus, para transportar passageiros que residem na Zona Rural e Urbana,\ndo Municipio de Iguape.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "Concorrencia Publica n°. 002/2016.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "002/2016",
+                      "modality":  "Concorrencia Publica n°. 002/2016",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 148.645,46",
+                      "term":  "",
+                      "signatureDate":  "22/12/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-educacao"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Educacao"
+                                                     ],
+                      "excerpt":  "Concorrencia Publica n°. 002/2016.\nDATA: 22/12/2022\nVALOR: O valor do presente termo aditivo de reequilibrio economico financeiro e de R$ 148.645,46 (cento e quarenta e oito mil,\nseiscentos e quarenta e cinco reais e quarenta e seis centavos), mensais, com aplicacao dos percentuais requerido de 57,29%\n(cinquenta e sete virgula vinte e nove porcento), sendo pago de forma retroativa em conformidade com o art 59 da Lei 8.666/93 e\nParecer Juridico no despacho 10-1.1533/202 1DOC.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem contratada identificada",
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

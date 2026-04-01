@@ -1,0 +1,59 @@
+﻿{
+    "diaryId":  "555",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:00",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/093160310723dbbb75e6822d374889ba.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/093160310723dbbb75e6822d374889ba.pdf",
+    "keywords":  [
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "PREGAO ELETRONICO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "",
+                      "processNumber":  "001/2023",
+                      "modality":  "PREGAO ELETRONICO nº. 001/2023",
+                      "contractor":  "",
+                      "cnpj":  "01.684000/1220-01",
+                      "object":  "AQUISICAO DE MOBILIARIOS/MATERIAIS PERMANENTE PARA ATENDER A SECRETARIA MUNICIPAL DE SAUDE, CONFORME RECURSO MINISTERIO DA SAUDE- PROPOSTA Nº 13901.684000/1220-01 –EMENDAS PARLAMENTAR Nº 41710016 e 41190001. LEGISLACAO: Lei Federal nº 10.520, de 17 de julho de 2002, e subsidiariamente, a Lei Federal nº 8.666/93 em conformidade com o Decreto Federal nº 10.024/2019, com as alteracoes posteriores e Artigos 42, 43, 44, 45 e 46 da Lei Complementar 123, de 14 de dezembro de 2006, Lei Complementar nº 147 de 07 de agosto de 2014 e Decreto Municipal nº 2.789 de 07 de abril de 2020",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "e horario limite acima estabelecidos",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "federal-ministerio-saude",
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Ministerio da Saude",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "PREGAO ELETRONICO\n\nEncontra-se aberto na Prefeitura Municipal de Iguape, situada na Avenida Adhemar de Barros, n.º 1.070, Bairro Porto do Ribeira, Iguape/SP, CEP 11920-\n000, o PREGAO ELETRONICO nº. 001/2023, do tipo MENOR PRECO POR ITEM, conforme especificacoes detalhadas no Edital.\nOBJETO: AQUISICAO DE MOBILIARIOS/MATERIAIS PERMANENTE PARA ATENDER A SECRETARIA MUNICIPAL DE SAUDE, CONFORME\nRECURSO MINISTERIO DA SAUDE- PROPOSTA Nº 13901.684000/1220-01 –EMENDAS PARLAMENTAR Nº 41710016 e 41190001.\nLEGISLACAO: Lei Fede",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

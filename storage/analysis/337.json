@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "337",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:37",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/4eff25c80edb8b8cb571c35bc9b73af1.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2022/4eff25c80edb8b8cb571c35bc9b73af1.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  8,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 1,39"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MOACIR CARLOS MATERA JUNIOR-ME",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE MATERIAIS DE UTILIDADES DOMESTICAS E MATERIAIS DE HIGIENE E LIMPEZA PARA OS DIVERSOS DEPARTAMENTOS E DIVISOES DA PREFEITURA MUNICIPAL DE IGUAPE, PELO PERIODO DE 12 MESES. PREGAO PRESENCIAL - n°. 008/2022",
+                      "value":  "R$ 1,39",
+                      "term":  "",
+                      "signatureDate":  "29/06/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE REEQUILIBRIO ECONOMICO FINANCEIRO\nAta de Registro Nº 046/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: MOACIR CARLOS MATERA JUNIOR-ME\nOBJETO: REGISTRO DE PRECOS PARA AQUISICAO DE MATERIAIS DE UTILIDADES DOMESTICAS E MATERIAIS DE HIGIENE\nE LIMPEZA PARA OS DIVERSOS DEPARTAMENTOS E DIVISOES DA PREFEITURA MUNICIPAL DE IGUAPE, PELO PERIODO DE\n12 MESES.\nPREGAO PRESENCIAL - n°. 008/2022\nDATA: 29/06/2022\nVALOR: Item 06 - Valor licitado R$ R$ 1,39 (um real e trinta e nove centavos) e Valor c/ Reequil",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

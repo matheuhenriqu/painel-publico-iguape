@@ -1,0 +1,55 @@
+﻿{
+    "diaryId":  "652",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:41",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/db33cd8733a2c3d1c4d7a89e4512ea61.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/db33cd8733a2c3d1c4d7a89e4512ea61.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "ADJUDICACAO / HOMOLOGACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "441/2023",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 48/2023 - EDITAL Nº: 77/2023",
+                      "contractor":  "S NO FUTURO, DA ADMINISTRACAO PUBLICA",
+                      "cnpj":  "",
+                      "object":  "MAIOR PRECO GLOBAL CONTRATACAO DE INSTITUICAO FINANCEIRA PARA O RECEBIMENTO DOS CREDITOS EM CONTA, DOS ATUAIS SERVIDORES ATIVOS, INATIVOS E PENSIONISTAS, BEM COMO, AQUELES QUE FOREM CONTRATADOS NO FUTURO, DA ADMINISTRACAO PUBLICA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-camara"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Camara Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n ADJUDICACAO / HOMOLOGACAO\n\n PROCESSO Nº: 441/2023\n MAIOR PRECO GLOBAL\n\nCONTRATACAO DE INSTITUICAO FINANCEIRA PARA O RECEBIMENTO DOS CREDITOS EM CONTA, DOS ATUAIS SERVIDORES ATIVOS,\nINATIVOS E PENSIONISTAS, BEM COMO, AQUELES QUE FOREM CONTRATADOS NO FUTURO, DA ADMINISTRACAO PUBLICA.\nPR-G - PREGAO PRESENCIAL - 48/2023 - EDITAL Nº: 77/2023\nINTERESSADOS: SECRETARIA MUNICIPAL DE GESTAO E PLANEJAMENTO .\n\n ADJUDICO E HOMOLOGO, nos termos da Legislacao em vigor, o procedimento licitatorio e a classificacao dos\nit",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

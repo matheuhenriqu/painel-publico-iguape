@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "478",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:15",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/7bb1c1828c64f7497408d3fd331306de.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/7bb1c1828c64f7497408d3fd331306de.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "10º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 002/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  14,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "002/2022",
+                      "processNumber":  "001/2022",
+                      "modality":  "PREGAO PRESENCIAL N,º 001/2022",
+                      "contractor":  "COOPERATIVA DE TRABALHADORES DE TRANSPORTE ESCOLAR DE IGUAPE",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada para Prestacao de Servicos de Transporte por Kombi ou Van com monitor escolar, nos Bairros Rurais e Urbanos, destinados aos alunos da Rede Publica de Ensino (Municipal e Estadual) do Municipio de Iguape, pelo periodo de ate 102 dias letivos do calendario escolar. PREGAO PRESENCIAL N,º 001/2022",
+                      "value":  "",
+                      "term":  "Termo Aditivo sera de 24/12/2022 a 30/01/2023",
+                      "signatureDate":  "23/12/2022",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "10º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 002/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COOPERATIVA DE TRABALHADORES DE TRANSPORTE ESCOLAR DE IGUAPE\nCONTRATO N°: 002/2022\nOBJETO: Contratacao de Empresa especializada para Prestacao de Servicos de Transporte por Kombi ou Van com monitor escolar,\nnos Bairros Rurais e Urbanos, destinados aos alunos da Rede Publica de Ensino (Municipal e Estadual) do Municipio de Iguape, pelo\nperiodo de ate 102 dias letivos do calendario escolar.\nPREGAO PRESENCIAL N,º 001/2022\nD",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

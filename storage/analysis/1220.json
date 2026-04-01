@@ -1,0 +1,262 @@
+﻿{
+    "diaryId":  "1220",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:13",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1070-_30071623.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1070-_30071623.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  7,
+                    "totalValue":  "R$ 41.909,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 217, DE 24 DE SETEMBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "144/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 217, DE 24 DE SETEMBRO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Ana Leticia Cardoso Costa, Assessor I, lotado na Secretaria Municipal de Saude, titular da Cedula de Identidade RG nº 49.XXX.XXX\n-4, para exercer a funcao de gestor do contrato n",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 219, DE 24 DE SETEMBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "149/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 219, DE 24 DE SETEMBRO DE 2025\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Ana Leticia Cardoso Costa, Assessor I, lotado na Secretaria Municipal de Saude, titular da Cedula de Identidade RG nº 49.XXX.XXX\n-4, para exercer a funcao de gestor do contrato n",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 220, DE 24 DE SETEMBRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  17,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "145/2025",
+                      "processNumber":  "723/2025",
+                      "modality":  "",
+                      "contractor":  "CENTRO DE RECUPERACAO PARA DEPENDENTE QUIMICO - CERDEQ LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada em tratamento de dependecia quimica de alcool e outras drogas, compulsoria involuntaria com remocao, para o paciente M. de C. l., pelo periodo de 06 (seis) meses, conforme decisao no Processo nº 1001642 64.2025.8.26.0244 e documentos anexos",
+                      "value":  "R$ 17.100,00",
+                      "term":  "22/09/2025 A 22/03/2026",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 220, DE 24 DE SETEMBRO DE 2025\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa Victor Pereira de Matos, Assessor I, inscrito no CPF/MF nº 478.837.088-30, para exercer a funcao de fiscal do contrato nº\nArt. 2º - 149/2025, Empresa Bem Estar e Saude Medicina e ",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CONCORRENCIA PUBLICA Nº 004/2025- MENOR VALOR GLOBAL",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "004/2025",
+                      "modality":  "CONCORRENCIA PUBLICA Nº 004/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "e a Contratacao de empresa especializada para Reforma e Revitalizacao da Cobertura e Forro da Igreja Sao Benedito com fornecimento de materiais e mao de obra, neste Municipio de Iguape/SP. Com o seguinte: RESULTADO: DEFERINDO o recurso administrativo da empresa OLIVEIRA ENGENHARIA LTDA – EPP e a INABILITACAO da empresa SAMUEL RIBEIRO -EPP. Ficam CONVOCADAS as empresas para a REABERTURA do certame, com data marcada para o dia 01/10/2025 as 09h00m na plataforma BLL. Fica os autos do Processo com vista franqueada aos interessados",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "marcada para o dia 01/10/2025 as 09h00m na plataforma BLL",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "CONCORRENCIA PUBLICA Nº 004/2025- MENOR VALOR GLOBAL\n\nA PREFEITURA MUNICIPAL DE IGUAPE, atraves do Agente de Contratacao, no uso legais de suas atribuicoes; torna publico para conhecimento dos\ninteressados o RESULTADO do julgamento do recurso administrativo, cujo objeto e a Contratacao de empresa especializada para Reforma e\nRevitalizacao da Cobertura e Forro da Igreja Sao Benedito com fornecimento de materiais e mao de obra, neste Municipio de Iguape/SP. Com\no seguinte: RESULTADO: DEFERINDO o recurso administrativ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "CONTRATANTE: MUNICIPIO DE IGUAPE/SP equipe manual (ate 3,5 m, sem munck), poda com caminhao munck",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "IB FERREIRA SERVICOS LTDA. (GRUPO RL ME) vegetais em estradas vicinais e areas publicas nao abrangidas por",
+                      "cnpj":  "",
+                      "object":  "Credenciamento de empresas para prestacao dos servicos de poda com de 60 (sessenta) dias corridos contados a partir da emissao da (com cesto aereo) e rocada manual com rastelamento e ensacamento de residuos contrato de limpeza urbana no Municipio de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP equipe manual (ate 3,5 m, sem munck), poda com caminhao munck\nCONTRATADA: IB FERREIRA SERVICOS LTDA. (GRUPO RL ME) vegetais em estradas vicinais e areas publicas nao abrangidas por\nCONTRATO TERMO DE CREDENCIAMENTO Nº: 152/2025\nOBJETO: Credenciamento de empresas para prestacao dos servicos de poda com de 60 (sessenta) dias corridos contados a partir da emissao da\n(com cesto aereo) e rocada manual com rastelamento e ensacamento de residuos\ncontrato de limpeza urbana no Mun",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Chamada Publica n°.: 002/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "002/2025",
+                      "modality":  "Chamada Publica n°.: 002/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 24.809,00",
+                      "term":  "Os servicos deverao ser integralmente executados no prazo maximo",
+                      "signatureDate":  "17/09/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "Chamada Publica n°.: 002/2025\nVinculada a Dispensa nº 224/2025\nData: 17/09/2025\nVIGENCIA: Os servicos deverao ser integralmente executados no prazo maximo\nrespectiva Ordem de Servico-– Periodo de 26/09/2025 a 24/11/2025\nVALOR: R$ 24.809,00 (vinte e quatro mil, oitocentos e nove reais).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO Nº: 029/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "029/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de Requalificacao da Orla do Valo Grande - fase IV, convenio que entre si celebram o Estado de Sao Paulo, por meio da Secretaria de Turismo e Viagens e o Municipio de Iguape/SP – termo de convenio nº 178/2023. TOMADA DE PRECO N°. 023/2023",
+                      "value":  "",
+                      "term":  "06 (seis) meses, periodo de 24/09/2025 a 23/03/2026.",
+                      "signatureDate":  "23/09/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "estadual-turismo"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Turismo e Viagens"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO Nº: 029/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA-ACU\nCONTRATO N°: 029/2024\nLOTE-01: Requalificacao da Orla do Valo Grande Fase IV\nOBJETO: Contratacao de empresa especializada para obra de Requalificacao da Orla do Valo Grande - fase IV, convenio que entre si celebram o\nEstado de Sao Paulo, por meio da Secretaria de Turismo e Viagens e o Municipio de Iguape/SP – termo de convenio nº 178/2023.\nTOMADA DE PRECO N°. 023/2023.\nData: 23/",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

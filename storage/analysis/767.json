@@ -1,0 +1,171 @@
+﻿{
+    "diaryId":  "767",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:19",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/964bc3a85602e752c989fa473e4b3d61.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/964bc3a85602e752c989fa473e4b3d61.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  4,
+                    "totalValue":  "R$ 4.198.495,25"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 74",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "022/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa OLIVEIRA ENGENHARIA LTDA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 74\n DE 27 DE FEVEREIRO DE 2024\n\n DESIGCNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\nArt. 2º -\n Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0\n SSP/SP, inscrito no CPF/MF nº. 256.609.068/85, para ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 76",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  2,
+                      "contractNumber":  "026/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-infraestrutura-obras",
+                      "primaryOrganizationName":  "Secretaria de Infraestrutura Urbana e Obras",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "infraestrutura",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-infraestrutura-obras"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Infraestrutura Urbana e Obras"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 76\n DE 28 DE FEVEREIRO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Rafael de Barros Leite, Secretario Municipal de Infraestrutura e Obras, titular da Cedula de Identidade RG nº 26.166.016-0\nArt. 2º - SSP/SP, inscrito no CPF/MF nº. 256.609.068/85, para e",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:030/2024.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "0/2024",
+                      "processNumber":  "080/2023",
+                      "modality":  "Pregao Presencial n°. 080/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de generos alimenticios pereciveis e nao pereciveis para atender a Secretaria de Educacao (merenda escolar) e demais Secretarias e Departamentos da Prefeitura Municipal de Iguape, pelo periodo de 12 (doze) meses. Pregao Presencial n°. 080/2023",
+                      "value":  "R$ 2.825.226,90",
+                      "term":  "Validade do presente Registro de Precos (27/02/2024 a 26/02/2025)",
+                      "signatureDate":  "27/02/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-educacao",
+                                                       "municipal-prefeitura",
+                                                       "estadual-meio-ambiente"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Educacao",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Meio Ambiente, Infraestrutura e Logistica"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:030/2024.\n\nOBJETO: Registro de Precos para aquisicao de generos alimenticios pereciveis e nao pereciveis para atender a Secretaria de Educacao (merenda\n\nescolar) e demais Secretarias e Departamentos da Prefeitura Municipal de Iguape, pelo periodo de 12 (doze) meses.\n\nPregao Presencial n°. 080/2023\n\nData:27/02/2024\n\nVIGENCIA: Validade do presente Registro de Precos (27/02/2024 a 26/02/2025)\n\nVALOR: Valor Global da Ata de Registro de Precos: R$ 2.825.226,90 (dois milhoes, oitocentos e vin",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:031/2024.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "1/2024",
+                      "processNumber":  "080/2023",
+                      "modality":  "Pregao Presencial n°. 080/2023",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicao de generos alimenticios pereciveis e nao pereciveis para atender a Secretaria de Educacao (merenda escolar) e demais Secretarias e Departamentos da Prefeitura Municipal de Iguape, pelo periodo de 12(doze) meses. Pregao Presencial n°. 080/2023",
+                      "value":  "R$ 1.373.268,35",
+                      "term":  "Validade do presente Registro de Precos (27/02/2024 a 26/02/2025)",
+                      "signatureDate":  "27/02/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-educacao",
+                                                       "municipal-prefeitura",
+                                                       "estadual-meio-ambiente"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Educacao",
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Meio Ambiente, Infraestrutura e Logistica"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:031/2024.\nOBJETO: Registro de Precos para aquisicao de generos alimenticios pereciveis e nao pereciveis para atender a Secretaria de Educacao (merenda\nescolar) e demais Secretarias e Departamentos da Prefeitura Municipal de Iguape, pelo periodo de 12(doze) meses.\nPregao Presencial n°. 080/2023\nData:27/02/2024\nVIGENCIA: Validade do presente Registro de Precos (27/02/2024 a 26/02/2025)\nVALOR: Valor Global da Ata de Registro de Precos: R$ 1.373.268,35 (um milhao trezentos e setenta e tres ",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem contratada identificada"
+                                ]
+                  }
+              ]
+}

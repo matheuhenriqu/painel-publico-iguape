@@ -1,0 +1,87 @@
+﻿{
+    "diaryId":  "1229",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:11",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1077_09074958.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1077_09074958.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 214.766,66"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE PRORROAGACAO – CONTRATO 162/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "162/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "ASSOCIACAO HOSPITALAR DE PROTECAO A INFANCIA Dr. Paulo Carneiro",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Empresa especializada em Teleatendimento em Pediatria com uso de dispositivo e adaptadores para exames fisicos de captacao remota de dados pelo periodo de 12 meses. PREGAO PRESENCIAL - Nº 47/2023",
+                      "value":  "R$ 129.382,79",
+                      "term":  "12 (doze) Meses – Periodo de 04/10/2025 a 03/10/2026.",
+                      "signatureDate":  "02/10/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE PRORROAGACAO – CONTRATO 162/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ASSOCIACAO HOSPITALAR DE PROTECAO A INFANCIA Dr. Paulo Carneiro\nCNPJ – 76.XXX.XXX/0001-30\nCONTRATO-N°:162/2023\nOBJETO:. Contratacao de Empresa especializada em Teleatendimento em Pediatria com uso de dispositivo e adaptadores para exames fisicos\nde captacao remota de dados pelo periodo de 12 meses.\nPREGAO PRESENCIAL - Nº 47/2023\nData: 02/10/2025\nVALOR: Pagara a contratada o valor de R$ 129.382,79 (cento e vinte e nove ",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO AO CONTRATO 147/2023",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "147/2023",
+                      "processNumber":  "24/2023",
+                      "modality":  "PREGAO PRESENCIAL Nº 24/2023",
+                      "contractor":  "ANDRE RAMOS ODONTO TECNICA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de Servico de empresa especializada na manutencao preventiva e corretiva de equipamentos de fisioterapia atendendo demanda da Secretaria de Saude pelo periodo de 12 meses. PREGAO PRESENCIAL Nº 24/2023",
+                      "value":  "R$ 85.383,87",
+                      "term":  "Periodo de 12 (doze) meses – 09/10/2025 a 08/10/2026.",
+                      "signatureDate":  "06/10/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO AO CONTRATO 147/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: ANDRE RAMOS ODONTO TECNICA\nCNPJ:-33.XXX.XXX/0001-66\nCONTRATO:N°:147/2023\nOBJETO: Contratacao de Servico de empresa especializada na manutencao preventiva e corretiva de equipamentos de fisioterapia atendendo demanda\nda Secretaria de Saude pelo periodo de 12 meses.\nPREGAO PRESENCIAL Nº 24/2023\nDATA: 06/10/2025\nVALOR: Valor global de R$ 85.383,87 (oitenta e cinco mil, trezentos e oitenta e tres reais e oitenta e sete centavos), perfaze",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

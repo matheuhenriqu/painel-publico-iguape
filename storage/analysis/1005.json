@@ -1,0 +1,122 @@
+﻿{
+    "diaryId":  "1005",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:47",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_907_21073707.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_907_21073707.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 154.550,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 19, DE 17 DE JANEIRO DE 2025",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "005/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "JORNAL GAZETA SP LTDA – EPP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-gestao-planejamento"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Gestao e Planejamento"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 19, DE 17 DE JANEIRO DE 2025\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas pelo\nartigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Lilian Rochael Maciel, Diretora de Comunicacao, titular da Cedula de Identidade RG nº 21.940.340-5 SSP/SP, inscrita no CPF/MF\n. nº. 118.816.148-24, para exercer a funcao ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "CONTRATANTE: MUNICIPIO DE IGUAPE",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "004/2025",
+                      "processNumber":  "073/2023",
+                      "modality":  "Pregao Presencial n°. 073/2023",
+                      "contractor":  "RENATO DE OLIVEIRA LIMPEZA LTDA (DD REGIS)",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para locacao de banheiros quimicos tipo convencional, standard e PNE, a serem utilizados nos eventos do municipio de Iguape. Pregao Presencial n°. 073/2023",
+                      "value":  "R$ 149.600,00",
+                      "term":  "O contrato tera validade por um periodo de 90 (noventa) dias de 16/01/2025 a 15/04/2025.",
+                      "signatureDate":  "16/01/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: RENATO DE OLIVEIRA LIMPEZA LTDA (DD REGIS)\nCONTRATO Nº 004/2025 – ORIUNDO DO SALDO DA ATA DE REGISTRO DE PRECOS N°: 004/2024.\nOBJETO: Contratacao de empresa especializada para locacao de banheiros quimicos tipo convencional, standard e PNE, a serem utilizados nos eventos\ndo municipio de Iguape.\nPregao Presencial n°. 073/2023\nDATA:16/01/2025\nVIGENCIA: O contrato tera validade por um periodo de 90 (noventa) dias de 16/01/2025 a 15/04/2025.\nVALOR: R$ 149.600,00 (ce",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "CONTRATANTE: MUNICIPIO DE IGUAPE",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "005/2025",
+                      "processNumber":  "076/2023",
+                      "modality":  "Pregao Presencial n°. 076/2023",
+                      "contractor":  "JORNAL GAZETA SP – LTDA-EPP",
+                      "cnpj":  "",
+                      "object":  "Registro de precos para contratacao de Jornal Diario de Grande Circulacao egional, para prestacao de servicos de publicacao de atos oficiais da Prefeitura Municipal de Iguape. Pregao Presencial n°. 076/2023",
+                      "value":  "R$ 4.950,00",
+                      "term":  "O contrato tera validade por um periodo de 90 (noventa) dias de 17/01/2025 a 16/04/2025.",
+                      "signatureDate":  "17/01/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: JORNAL GAZETA SP – LTDA-EPP\nCONTRATO Nº 005/2025 – ORIUNDO DO SALDO DA ATA DE REGISTRO DE PRECOS N°: 012/2024.\nOBJETO: Registro de precos para contratacao de Jornal Diario de Grande Circulacao egional, para prestacao de servicos de publicacao de atos oficiais\nda Prefeitura Municipal de Iguape.\nPregao Presencial n°. 076/2023\nDATA: 17/01/2025\nVIGENCIA: O contrato tera validade por um periodo de 90 (noventa) dias de 17/01/2025 a 16/04/2025.\nVALOR: R$ 4.950,00 (quat",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

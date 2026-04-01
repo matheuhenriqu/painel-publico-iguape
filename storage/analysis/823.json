@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "823",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:08",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_761-_25084429.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_761-_25084429.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  3,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 5.141,09"
+                },
+    "items":  [
+                  {
+                      "type":  "Ato Contratual",
+                      "actTitle":  "TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVE CONTRATANTE: MUNICIPIO DE IGUAPE CL Nº 095/2016 para atender “Logistica - Merenda Escolar Municipal”.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  11,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "055/2016",
+                      "modality":  "",
+                      "contractor":  "PATRICIA VICHI MUNHOZ",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado",
+                      "value":  "R$ 5.141,09",
+                      "term":  "",
+                      "signatureDate":  "09/05/2024",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nTERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVE CONTRATANTE: MUNICIPIO DE IGUAPE CL Nº 095/2016 para atender “Logistica - Merenda Escolar Municipal”.\n\nCONTRATADO: PATRICIA VICHI MUNHOZ\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado\nDATA: 09/05/2024\nVALOR: R$ 5.141,09 (cinco mil, cento e quarenta e um reais e nove centavos) mensais.\nProcesso Administrativo nº 055/2016",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato"
+                                ]
+                  }
+              ]
+}

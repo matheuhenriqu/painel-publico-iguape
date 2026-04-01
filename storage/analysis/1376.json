@@ -1,0 +1,53 @@
+﻿{
+    "diaryId":  "1376",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-27T14:28:44",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1182_27073407.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1182_27073407.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA N┬║ 76,",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  1,
+                      "contractNumber":  "060/2026",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publica├º├uo, revogadas as disposi├º├Aes em contr├irio",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA N┬║ 76,\n DE 25 DE MAR├cO DE 2026\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E D├u OUTRAS PROVID├eNCIAS.\n\n SALVADOR JOS├e BARBOSA J├UNIOR, Prefeito Municipal de Iguape, Estado de S├uo Paulo, no uso das atribui├º├Aes que lhe s├uo conferidas\npelo artigo 85, inciso IV, da Lei Org├onica do Munic├¡pio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1┬║ - Ficam designados Selma Xavier Pontes, Secretaria Municipal de Desenvolvimento Econ├┤mico Sustent├ivel, inscrito no CPF/MF n┬║.\n XXX.362.768-XX, para exercer a fun├º├uo",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

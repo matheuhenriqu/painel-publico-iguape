@@ -1,0 +1,263 @@
+﻿{
+    "diaryId":  "728",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:15:28",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/61297d1129e4203925133dd10ff28fbc.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/61297d1129e4203925133dd10ff28fbc.pdf",
+    "keywords":  [
+                     "contrato",
+                     "dispensa",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  12,
+                    "itemCount":  7,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 09",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  5,
+                      "contractNumber":  "231/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Empresa SOM DA ILHA COMERCIO E PRODUCOES LTDA - ME",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-turismo-esporte",
+                      "primaryOrganizationName":  "Secretaria de Turismo e Esporte",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "turismo-esporte",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-turismo-esporte",
+                                                       "municipal-cultura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Turismo e Esporte",
+                                                         "Secretaria de Cultura"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 09\n DE 03 DE JANEIRO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Marconi Antonio Coutinho Junior, Secretario Adjunto de Cultura, Esporte e Turismo, titular da Cedula de Identidade RG nº\n 18.503.648-X SSP/SP, inscrito no CPF/MF nº. 123.008.238-70, para e",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 11",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  6,
+                      "contractNumber":  "230/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Empresa CAMMINARE MAQUINAS E EMPREENDIMENTOS LTDA",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "federal-agu",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Advocacia-Geral da Uniao",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 11\n DE 03 DE JANEIRO DE 2024\n\n DESIGNA GESTOR DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\nArt. 1º - PORTARIA\n\n Designa, Samuel Roberto Dias Martins, Diretor Tecnico de Cadastro Unico, titular da Cedula de Identidade RG nº 42.393.209-3 SSP/SP,\n inscrito no CPF/MF nº. 370.366.328-60, para exercer a funcao de ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 15",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  8,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  8,
+                      "contractNumber":  "146/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "empresa RONIE CARLO GODOI",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario, tornando sem efeito a Portaria Nº",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 15\n DE 04 JANEIRO DE 2024\n\n DESIGNA FISCAL DO CONTRATO E DA OUTRAS PROVIDENCIAS.\n\n WILSON ALMEIDA LIMA, Prefeito Municipal de Iguape, Estado de Sao Paulo, no\nuso das atribuicoes que lhe sao conferidas pelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Designa, Lidiane Aparecida Vieira Pedro, Coordenadora do ESF, titular da Cedula de Identidade RG nº 13.105.720-x SSP/SP, inscrita\n no CPF/MF nº 070.337.496/60, para exercer a funcao de Fiscal do Contr",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "3º TERMO DE PRORROGACAO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  9,
+                      "contractNumber":  "080/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MYR COMERCIO DE ARTIGOS PEDAGOGICOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Materiais Esportivos para atender o Convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de Esportes e a Prefeitura Municipal de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n3º TERMO DE PRORROGACAO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: MYR COMERCIO DE ARTIGOS PEDAGOGICOS LTDA\nCONTRATO N°: 080/2023\nOBJETO: Aquisicao de Materiais Esportivos para atender o Convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial\nde Esportes e a Prefeitura Municipal de Iguape/SP",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "3º TERMO DE PRORROGACAO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  9,
+                      "contractNumber":  "083/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MAIS ESPORTE COMERCIO DE ARTIGOS ESPORTIVOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Materiais Esportivos para atender o Convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de Esportes e a Prefeitura Municipal de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n3º TERMO DE PRORROGACAO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: MAIS ESPORTE COMERCIO DE ARTIGOS ESPORTIVOS LTDA\nCONTRATO N°: 083/2023\nOBJETO: Aquisicao de Materiais Esportivos para atender o Convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial\nde Esportes e a Prefeitura Municipal de Iguape/SP",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "3º TERMO DE PRORROGACAO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  9,
+                      "contractNumber":  "084/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "RMM SPORTS COMERCIO DE PRODUTOS ESPORTIVOS EIRELI",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Materiais Esportivos para atender o Convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial de Esportes e a Prefeitura Municipal de Iguape/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n3º TERMO DE PRORROGACAO\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: RMM SPORTS COMERCIO DE PRODUTOS ESPORTIVOS EIRELI\nCONTRATO N°: 084/2023\nOBJETO: Aquisicao de Materiais Esportivos para atender o Convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial\nde Esportes e a Prefeitura Municipal de Iguape/SP",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "3º TERMO DE PRORROGACAO",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  9,
+                      "contractNumber":  "085/2023",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SW SPORTS COMERCIO E SERVICOS LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de Materiais Esportivos para atender o convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n3º TERMO DE PRORROGACAO\nCONTRATO Nº 085/2023\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SW SPORTS COMERCIO E SERVICOS LTDA\nOBJETO: Aquisicao de Materiais Esportivos para atender o convenio nº 923931/2021 celebrado entre o Ministerio da Cidadania Secretaria Especial",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

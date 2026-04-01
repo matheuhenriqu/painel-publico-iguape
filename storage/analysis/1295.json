@@ -1,0 +1,124 @@
+﻿{
+    "diaryId":  "1295",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:59",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1125_23085548.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1125_23085548.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  5,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 98.200,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Gestao Contratual",
+                      "actTitle":  "PORTARIA Nº 360,",
+                      "recordClass":  "gestao_contratual",
+                      "recordClassLabel":  "Gestao do contrato",
+                      "confidenceScore":  17,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  1,
+                      "contractNumber":  "168/2025",
+                      "processNumber":  "934/2025",
+                      "modality":  "",
+                      "contractor":  "FABIANE FERREIRA DA SILVA 28383078862",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO, da apresentacao musical “NAVE DE ORION”, atraves de FABIANE FERREIRA DA SILVA 28383078862, no Reveillon 2025, as 22h30 do dia 31 de dezembro de 2025, no bairro do Icapara, Iguape-SP",
+                      "value":  "R$ 8.000,00",
+                      "term":  "17/12/2025 ate 17/01/2026",
+                      "signatureDate":  "de sua publicacao, revogadas as disposicoes em contrario",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-gestao-planejamento",
+                      "primaryOrganizationName":  "Secretaria de Gestao e Planejamento",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "gestao-planejamento",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-gestao-planejamento",
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Secretaria de Gestao e Planejamento",
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "PORTARIA Nº 360,\n DE 19 DE DEZEMBRO DE 2025\n\n DESIGNA GESTOR E FISCAL DO CONTRATO E DA OUTRAS\n PROVIDENCIAS.\n\n SALVADOR JOSE BARBOSA JUNIOR, Prefeito Municipal de Iguape, Estado de Sao Paulo, no uso das atribuicoes que lhe sao conferidas\npelo artigo 85, inciso IV, da Lei Organica do Municipio de Iguape, baixa a seguinte:\n\n PORTARIA\n\nArt. 1º - Ficam designados Lilian Rochael Maciel, Assessor I, inscrita no CPF/MF nº. XXX.816.148-XX, para exercer a funcao de Gestor do\n Contrato nº 168/2025, e Wanderson Franca Pontes,",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 213/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "213/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "SAMUEL RIBEIRO EPP",
+                      "cnpj":  "",
+                      "object":  "CONTRATACAO DE EMPRESA ESPECIALIZADA PARA MANUTENCAO CORRETIVA DA ESCOLA MUNICIPAL TADASHI NAMBA, LOCALIZADA NA RODOVIA CASEMIRO TEIXEIRA – BAIRRO ITATINS – IGUAPE/SP (-24.510224, -47.559070), NESTE MUNICIPIO DE IGUAPE/SP",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: SAMUEL RIBEIRO EPP\nCNPJ: 08.xxx.xxx/xxxx-36\nCONTRATO N°: 213/2025\nOBJETO: CONTRATACAO DE EMPRESA ESPECIALIZADA PARA MANUTENCAO CORRETIVA DA ESCOLA MUNICIPAL TADASHI NAMBA,\nLOCALIZADA NA RODOVIA CASEMIRO TEIXEIRA – BAIRRO ITATINS – IGUAPE/SP (-24.510224, -47.559070), NESTE MUNICIPIO DE\nIGUAPE/SP",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "CONCORRENCIA PUBLICA – Nº 007/2025.",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  10,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "007/2025",
+                      "modality":  "CONCORRENCIA PUBLICA – Nº 007/2025.",
+                      "contractor":  "na A.I.S. Autorizacao de",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 90.200,00",
+                      "term":  "03 (tres) meses, periodo de 19/12/2025 a 18/03/2026, e a execucao a contar da data da ciencia pela contratada na A.I.S. Autorizacao de",
+                      "signatureDate":  "19/12/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "CONCORRENCIA PUBLICA – Nº 007/2025.\nVALOR: O valor do presente e de R$ 90.200,00 (noventa mil e duzentos reais)\nData: 19/12/2025\nVIGENCIA: 03 (tres) meses, periodo de 19/12/2025 a 18/03/2026, e a execucao a contar da data da ciencia pela contratada na A.I.S. Autorizacao de\nInicio dos Servicos, emitida pela fiscalizacao da Contratante",
+                      "completeness":  "alta",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,123 @@
+﻿{
+    "diaryId":  "974",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:51",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_882_07084600.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2024/diario_oficial_edicao_882_07084600.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  7,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO 70/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "070/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para pavimentacao asfaltica na Rua Joao Bonifacio da Silva, trecho entre a Rua Dom Idilio Jose Soares e Rua Capitao Oliveira, Guaricana – Iguape/SP, conforme contrato repasse nº943144/2023/MCidades/Caixa, que entre si celebram a Uniao Federal, por intermedio do Ministerio das Cidades, representado (a) pela Caixa Economica Federal e o Municipio de Iguape",
+                      "value":  "",
+                      "term":  "AO CONTRATO 70/2024",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-cidades"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Ministerio das Cidades"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO 70/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU\nCONTRATO N°: 070/2024\nOBJETO: Contratacao de empresa especializada para pavimentacao asfaltica na Rua Joao Bonifacio da Silva, trecho entre a Rua Dom Idilio Jose Soares\ne Rua Capitao Oliveira, Guaricana – Iguape/SP, conforme contrato repasse nº943144/2023/MCidades/Caixa, que entre si celebram a Uniao Federal, por\nintermedio do Ministerio das Cidades, representado (a) pela Caixa Econo",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 071/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "071/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para pavimentacao asfaltica e obras complementares em trecho de via no Bairro do Rocio – Rua Vitoriano Ribeiro, trecho entre a Avenida Antonio Filadelfo Colaco e a Avenida Julio Franco, Bairro do Rocio – Iguape/SP, conforme contrato de repasse nº 928593/2022/MDR/Caixa, que entre si celebram a Uniao Federal, por intermedio do Ministerio do Desenvolvimento Regional, representado(a) pela Caixa Economica Federal e o Municipio de Iguape",
+                      "value":  "",
+                      "term":  "AO CONTRATO Nº 071/2024",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "1º TERMO ADITIVO DE PRAZO AO CONTRATO Nº 071/2024\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: COPA S.A. COMPANHIA DE OBRAS PARIQUERA ACU\nCONTRATO N°: 071/2024\nOBJETO: Contratacao de empresa especializada para pavimentacao asfaltica e obras complementares em trecho de via no Bairro do Rocio – Rua Vitoriano\nRibeiro, trecho entre a Avenida Antonio Filadelfo Colaco e a Avenida Julio Franco, Bairro do Rocio – Iguape/SP, conforme contrato de repasse nº\n928593/2022/MDR/Caixa, que entre si celebram a Uniao Federal, por in",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Registro de Precos",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS Nº 078/2024.",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "078/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para contratacao de empresa especializada em Show Pirotecnico, com fornecimento de fogos de artificio, mao de obra com instalacao e soltura, para atender aos eventos do municipio de Iguape/SP, pelo periodo de 12 (doze) meses",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS Nº 078/2024.\nOBJETO: Registro de Precos para contratacao de empresa especializada em Show Pirotecnico, com fornecimento de fogos de artificio, mao de obra\ncom instalacao e soltura, para atender aos eventos do municipio de Iguape/SP, pelo periodo de 12 (doze) meses.",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

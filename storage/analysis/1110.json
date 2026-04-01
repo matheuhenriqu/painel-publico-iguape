@@ -1,0 +1,124 @@
+﻿{
+    "diaryId":  "1110",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:30",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_994_05071553.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_994_05071553.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa",
+                     "inexigibilidade",
+                     "rescisao"
+                 ],
+    "summary":  {
+                    "pageCount":  7,
+                    "itemCount":  3,
+                    "totalValue":  "R$ 157.100,92"
+                },
+    "items":  [
+                  {
+                      "type":  "Dispensa",
+                      "actTitle":  "TERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 204/2015",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  7,
+                      "contractNumber":  "",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "AMAURI JOSE DE CARVALHO",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para as instalacoes e funcionamento do Setor de “Fisioterapia”",
+                      "value":  "R$ 2.744,18",
+                      "term":  "Periodo de 12 (doze) meses - 04/06/2025 a 03/06/2026 (inclusive)",
+                      "signatureDate":  "01/06/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nTERMO DE PRORROGACAO AO CONTRATO DE LOCACAO DE IMOVEL Nº 204/2015\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: AMAURI JOSE DE CARVALHO\nOBJETO: Constitui o presente termo a prorrogacao ao contrato de locacao do imovel utilizado para as instalacoes e funcionamento do Setor de\n“Fisioterapia”\nVALOR: R$ 2.744,18 (dois mil, setecentos e quarenta e quatro reais e dezoito centavos) mensais.\nDATA: 01/06/2025\nProcesso de Dispensa de Licitacao nº 068/2015\nVIGENCIA: Periodo de 12 (doze) meses - 04/06/2025 a 03/06/2026",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem modalidade identificada",
+                                    "Sem numero principal identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 050/2022",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  16,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  7,
+                      "contractNumber":  "050/2022",
+                      "processNumber":  "025/2022",
+                      "modality":  "PREGAO PRESENCIAL Nº 025/2022",
+                      "contractor":  "WORK AND LIFE COMERCIAL EIRELI - EPP",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada em manutencao preventiva e corretiva com calibracao e teste de seguranca eletrica em equipamentos hospitalares do pronto atendimento, unidade basica de saude e sala de raio x pelo periodo de 12(doze) meses. PREGAO PRESENCIAL Nº 025/2022",
+                      "value":  "R$ 64.706,78",
+                      "term":  "Periodo de vigencia 12(doze) meses, periodo de 01/06/2025 a 31/05/2026.",
+                      "signatureDate":  "30/05/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO DE PRORROGACAO AO CONTRATO 050/2022\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: WORK AND LIFE COMERCIAL EIRELI - EPP\nLote: 03 – Equipamentos de Radiologia\nOBJETO: Contratacao de empresa especializada em manutencao preventiva e corretiva com calibracao e teste de seguranca eletrica em\nequipamentos hospitalares do pronto atendimento, unidade basica de saude e sala de raio x pelo periodo de 12(doze) meses.\nPREGAO PRESENCIAL Nº 025/2022\nDATA: 30/05/2025\nVALOR: Pagara a importancia de R$ 64.706,78 (ses",
+                      "completeness":  "alta",
+                      "flags":  [
+
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "5º TERMO ADITIVO DE ACRESCIMO AO CONTRATO 008/2024",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  15,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  7,
+                      "contractNumber":  "008/2024",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA",
+                      "cnpj":  "",
+                      "object":  "Contratacao de empresa especializada para obra de reforma e ampliacao da primavera, neste Municipio de Iguape/SP. TOMADA DE PRECO – Nº 018/2023",
+                      "value":  "R$ 89.649,96",
+                      "term":  "",
+                      "signatureDate":  "29/05/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "5º TERMO ADITIVO DE ACRESCIMO AO CONTRATO 008/2024 Casa da Crianca, localizada na rua k, nº 180, bairro jardim\nCONTRATANTE: MUNICIPIO DE IGUAPE quarenta e nove reais e noventa e seis centavos).\nCONTRATADA: EXATA ENGENHARIA DE PROJETOS E CONSTRUCOES LTDA\nCONTRATO N°: 008/2024\nOBJETO: Contratacao de empresa especializada para obra de reforma e ampliacao da\nprimavera, neste Municipio de Iguape/SP.\nTOMADA DE PRECO – Nº 018/2023\nData: 29/05/2025\nVALOR: Acrescimo de servicos no valor de R$ 89.649,96 (oitenta e nove mil, ",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

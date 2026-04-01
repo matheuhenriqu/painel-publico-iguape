@@ -1,0 +1,195 @@
+﻿{
+    "diaryId":  "1287",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:14:00",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1122_18071858.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2025/diario_oficial_edicao_1122_18071858.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao",
+                     "inexigibilidade"
+                 ],
+    "summary":  {
+                    "pageCount":  10,
+                    "itemCount":  5,
+                    "totalValue":  "R$ 80.522,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 200/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  9,
+                      "contractNumber":  "200/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "BH DENTAL COMERCIAL EIRELI EPP",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de equipamentos/materiais permanentes odontologicos para as unidades basicas de saude - ESF Rocio Aeroporto e ESF Rocio Areia Branca, celebrado entre o Ministerio da Saude e o Municipio de Iguape/SP, em atendimento a proposta nº 13901.68400/1230- 13/2023. ITEM 3 – Cadeira Odontologica Completa",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-ministerio-saude"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Ministerio da Saude"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP EXTRATO\n\nCONTRATADA: BH DENTAL COMERCIAL EIRELI EPP\n\nCNPJ: 29.XXX.XXX/XXXX-26\n\nCONTRATO N°: 200/2025.\n\nOBJETO: Aquisicao de equipamentos/materiais permanentes odontologicos para as unidades basicas de saude - ESF Rocio Aeroporto e ESF\n\nRocio Areia Branca, celebrado entre o Ministerio da Saude e o Municipio de Iguape/SP, em atendimento a proposta nº 13901.68400/1230-\n\n13/2023.\n\nITEM 3 – Cadeira Odontologica Completa.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Pregao Eletronico n°.029/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  9,
+                      "contractNumber":  "",
+                      "processNumber":  "9/2025",
+                      "modality":  "Pregao Eletronico n°.029/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 65.000,00",
+                      "term":  "Validade do presente Contrato –60 (sessenta) dias periodo de 10/12/2025 a 07/12/2026",
+                      "signatureDate":  "10/12/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "Pregao Eletronico n°.029/2025\n\nData: 10/12/2025\n\nVIGENCIA: Validade do presente Contrato –60 (sessenta) dias periodo de 10/12/2025 a 07/12/2026\n\nVALOR: R$ 65.000,00 (sessenta e cinco mil reais).",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 201/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  9,
+                      "contractNumber":  "201/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "AMB DISTRIBUIDORA DE MEDICAMENTO E PRODUTOS HOSPITALARES LTDA",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de equipamentos/materiais permanentes odontologicos para as unidades basicas de saude - ESF Rocio Aeroporto e ESF Rocio Areia Branca, celebrado entre o Ministerio da Saude e o Municipio de Iguape/SP, em atendimento a proposta nº 13901.68400/1230 - 13/2023. ITEM 2 – Aparelho de RX - Odontologico",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-ministerio-saude"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Ministerio da Saude"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP EXTRATO\n\nCONTRATADA: AMB DISTRIBUIDORA DE MEDICAMENTO E PRODUTOS HOSPITALARES LTDA\n\nCNPJ: 37.XXX.XXX/XXXX-80\n\nCONTRATO N°: 201/2025.\n\nOBJETO: Aquisicao de equipamentos/materiais permanentes odontologicos para as unidades basicas de saude - ESF Rocio Aeroporto e ESF\n\nRocio Areia Branca, celebrado entre o Ministerio da Saude e o Municipio de Iguape/SP, em atendimento a proposta nº 13901.68400/1230 -\n\n13/2023.\n\nITEM 2 – Aparelho de RX - Odontologico",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Aviso de Licitacao",
+                      "actTitle":  "Pregao Eletronico-n°.-029/2025",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  6,
+                      "confidenceLabel":  "media",
+                      "pageNumber":  9,
+                      "contractNumber":  "",
+                      "processNumber":  "029/2025",
+                      "modality":  "Pregao Eletronico-n°.-029/2025",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "R$ 15.522,00",
+                      "term":  "Validade do presente Contrato –60 (sessenta) dias periodo de 10/12/2025 a 07/12/2026",
+                      "signatureDate":  "10/12/2025",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  null,
+                      "primaryOrganizationName":  null,
+                      "primaryOrganizationSphere":  null,
+                      "primaryOrganizationAreaId":  null,
+                      "mentionedOrganizationIds":  [
+
+                                                   ],
+                      "mentionedOrganizationNames":  [
+
+                                                     ],
+                      "excerpt":  "Pregao Eletronico-n°.-029/2025\n\nData:10/12/2025\n\nVIGENCIA: Validade do presente Contrato –60 (sessenta) dias periodo de 10/12/2025 a 07/12/2026\n\nVALOR: R$ 15.522,00 (quinze mil, quinhentos e vinte e dois reais)",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem objeto identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Contrato",
+                      "actTitle":  "Contrato 202/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  13,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  9,
+                      "contractNumber":  "202/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "MHM DO COUTO COMERCIAL",
+                      "cnpj":  "",
+                      "object":  "Aquisicao de equipamentos/materiais permanentes odontologicos para as unidades basicas de saude - ESF Rocio Aeroporto e ESF Rocio Areia Branca, celebrado entre o Ministerio da Saude e o Municipio de Iguape/SP, em atendimento a proposta nº 13901.684 00/1230- 13/2023. ITEM 4 – Auto Clave Hospitalar 54 litros",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-ministerio-saude"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Ministerio da Saude"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\nCONTRATANTE: MUNICIPIO DE IGUAPE/SP EXTRATO\n\nCONTRATADA: MHM DO COUTO COMERCIAL\n\nCNPJ: 97.XXX.XXX/XXXX-38\n\nCONTRATO N°: 202/2025.\n\nOBJETO: Aquisicao de equipamentos/materiais permanentes odontologicos para as unidades basicas de saude - ESF Rocio Aeroporto e ESF\n\nRocio Areia Branca, celebrado entre o Ministerio da Saude e o Municipio de Iguape/SP, em atendimento a proposta nº 13901.684 00/1230-\n\n13/2023.\n\nITEM 4 – Auto Clave Hospitalar 54 litros",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

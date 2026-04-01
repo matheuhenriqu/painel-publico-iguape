@@ -1,0 +1,56 @@
+﻿{
+    "diaryId":  "547",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:02",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/71b84337db5088b56089b0e9bf982cb6.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/71b84337db5088b56089b0e9bf982cb6.pdf",
+    "keywords":  [
+                     "contrato",
+                     "homologacao"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 13.649,88"
+                },
+    "items":  [
+                  {
+                      "type":  "Homologacao",
+                      "actTitle":  "RETI – RATIFICACAO",
+                      "recordClass":  "licitacao_ou_contratacao",
+                      "recordClassLabel":  "Licitacao e contratacao",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "",
+                      "processNumber":  "1160/2022",
+                      "modality":  "PR-G - PREGAO PRESENCIAL - 16/2023 - EDITAL Nº: 18/2023",
+                      "contractor":  "COMEDER-COM.MERC.DERIV.PROD.ALIMENTICIOS LTDA-EPP",
+                      "cnpj":  "",
+                      "object":  "REGISTRO DE PRECOS PARA AQUISICAO DE MATERIAIS DE UTILIDADES DOMESTICAS E MATERIAIS DE HIGIENE E LIMPEZA PARA AS DIVERSAS SECRETARIAS E DEPARTAMENTOS DA PREFEITURA MUNICIPAL DE IGUAPE, PELO PERIODO DE 12 MESES",
+                      "value":  "R$ 13.649,88",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-educacao",
+                      "primaryOrganizationName":  "Secretaria de Educacao",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "educacao",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "municipal-educacao",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Secretaria de Educacao",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "EXTRATO\n\n RETI – RATIFICACAO\n ADJUDICACAO / HOMOLOGACAO\n\nPROCESSO Nº: 1160/2022\nREGISTRO DE PRECOS PARA AQUISICAO DE MATERIAIS DE UTILIDADES DOMESTICAS E MATERIAIS DE HIGIENE E LIMPEZA PARA AS\nDIVERSAS SECRETARIAS E DEPARTAMENTOS DA PREFEITURA MUNICIPAL DE IGUAPE, PELO PERIODO DE 12 MESES.\nPR-G - PREGAO PRESENCIAL - 16/2023 - EDITAL Nº: 18/2023\nINTERESSADOS: GABINETE DO PREFEITO , SECRETARIA MUNICIPAL DE EDUCACAO , SECRETARIA MUNICIPAL DE SAUDE e SECRETARIA\nMUNIC. DE ASSISTENCIA E DESENV. SOCIAL .\n\n ADJUDICO E HOMO",
+                      "completeness":  "media",
+                      "flags":  [
+
+                                ]
+                  }
+              ]
+}

@@ -1,0 +1,54 @@
+﻿{
+    "diaryId":  "483",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:16:14",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/318ce3ed0c90e1a542d2421f9666ded0.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2023/318ce3ed0c90e1a542d2421f9666ded0.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato",
+                     "dispensa"
+                 ],
+    "summary":  {
+                    "pageCount":  4,
+                    "itemCount":  1,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "3º TERMO ADITIVO DE ADEQUACAO AO LOTE I de Referencia ao Lote I, sem alteracao de custos nos termos do artigo",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  12,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  3,
+                      "contractNumber":  "",
+                      "processNumber":  "027/2022",
+                      "modality":  "Pregao Presencial nº 019/2022",
+                      "contractor":  "FRANKLIN CANGUSSU SAMPAIO EIRELI",
+                      "cnpj":  "",
+                      "object":  "Constitui o presente termo de Adequacao ao Termo 65, inciso II, alinea “b” da Lei 8.666/93, sendo: Realocacao",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "30/01/2023",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape"
+                                                     ],
+                      "excerpt":  "3º TERMO ADITIVO DE ADEQUACAO AO LOTE I de Referencia ao Lote I, sem alteracao de custos nos termos do artigo\nCONTRATO DE 035/2022 do Medico Generalista do ESF Jaire para o ESF Barra do Ribeira.\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADO: FRANKLIN CANGUSSU SAMPAIO EIRELI\nOBJETO: Constitui o presente termo de Adequacao ao Termo\n65, inciso II, alinea “b” da Lei 8.666/93, sendo: Realocacao\nDATA: 30/01/2023\nProcesso Administrativo nº 027/2022\nPregao Presencial nº 019/2022",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem numero do contrato",
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

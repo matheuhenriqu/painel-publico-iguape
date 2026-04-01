@@ -1,0 +1,92 @@
+﻿{
+    "diaryId":  "1356",
+    "parserVersion":  "2026.03.18.10",
+    "analyzedAt":  "2026-03-18T17:13:46",
+    "sourcePdfUrl":  "https://www.iguape.sp.gov.br/uploads/diario_oficial_edicao_1169_10081158.pdf",
+    "sourceLocalPdfRelative":  "storage/pdfs/2026/diario_oficial_edicao_1169_10081158.pdf",
+    "keywords":  [
+                     "aditivo",
+                     "contrato"
+                 ],
+    "summary":  {
+                    "pageCount":  2,
+                    "itemCount":  2,
+                    "totalValue":  "R$ 0,00"
+                },
+    "items":  [
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "2º TERMO ADITIVO DE PRORROGACAO A ATA DE REGISTRO DE PRECOS 004/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "004/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "STANGHERLIN \u0026 BATIROLA LTDA",
+                      "cnpj":  "",
+                      "object":  "",
+                      "value":  "",
+                      "term":  "",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "2º TERMO ADITIVO DE PRORROGACAO A ATA DE REGISTRO DE PRECOS 004/2025\nCONTRATANTE: MUNICIPIO DE IGUAPE\nCONTRATADA: STANGHERLIN \u0026 BATIROLA LTDA\nCNPJ: 052.xxx.xxx/xxxx-04",
+                      "completeness":  "baixa",
+                      "flags":  [
+                                    "Sem objeto identificado",
+                                    "Sem valor identificado"
+                                ]
+                  },
+                  {
+                      "type":  "Termo Aditivo",
+                      "actTitle":  "ATA DE REGISTRO DE PRECOS N°:004/2025",
+                      "recordClass":  "execucao_contratual",
+                      "recordClassLabel":  "Execucao contratual",
+                      "confidenceScore":  9,
+                      "confidenceLabel":  "alta",
+                      "pageNumber":  2,
+                      "contractNumber":  "4/2025",
+                      "processNumber":  "",
+                      "modality":  "",
+                      "contractor":  "",
+                      "cnpj":  "",
+                      "object":  "Registro de Precos para aquisicoes futuras de gas de cozinha GLP, P13 e P45, para atender diversas Secretarias da Prefeitura Municipal de",
+                      "value":  "",
+                      "term":  "e renovacao de saldo ate o limite",
+                      "signatureDate":  "",
+                      "legalBasis":  "",
+                      "primaryOrganizationId":  "municipal-prefeitura",
+                      "primaryOrganizationName":  "Prefeitura Municipal de Iguape",
+                      "primaryOrganizationSphere":  "municipal",
+                      "primaryOrganizationAreaId":  "governo",
+                      "mentionedOrganizationIds":  [
+                                                       "municipal-prefeitura",
+                                                       "federal-agu"
+                                                   ],
+                      "mentionedOrganizationNames":  [
+                                                         "Prefeitura Municipal de Iguape",
+                                                         "Advocacia-Geral da Uniao"
+                                                     ],
+                      "excerpt":  "ATA DE REGISTRO DE PRECOS N°:004/2025\nOBJETO: Registro de Precos para aquisicoes futuras de gas de cozinha GLP, P13 e P45, para atender diversas Secretarias da Prefeitura Municipal de\nIguape, pelo periodo de 12 meses. O Termo Aditivo tem por objeto a prorrogacao por mais 01(um) ano da vigencia e renovacao de saldo ate o limite\nlicitado da Ata de Registro de Precos nº 004/2025, com fundamento no artigo 84 da Lei nº 14.133, de 2021 e artigo 49 §2º do Decreto Municipal nº3.125\nde 29 dezembro 2023.",
+                      "completeness":  "media",
+                      "flags":  [
+                                    "Sem contratada identificada",
+                                    "Sem valor identificado"
+                                ]
+                  }
+              ]
+}

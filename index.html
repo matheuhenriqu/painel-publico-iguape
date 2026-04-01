@@ -6,9 +6,9 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="theme-color" content="#184a78">
-  <meta name="description" content="Painel público de contratos vigentes de Iguape/SP com foco em gestor, fiscal, vigência e alertas de vacância a partir do cruzamento entre Diário Oficial e portal.">
+  <meta name="description" content="Painel de contratos vigentes de Iguape/SP com gestor, fiscal e alertas.">
   <meta property="og:title" content="Contratos Vigentes e Responsáveis | Iguape/SP">
-  <meta property="og:description" content="Leitura pública para identificar contratos atuais, gestor, fiscal e alertas de vacância em Iguape/SP.">
+  <meta property="og:description" content="Painel de contratos vigentes com gestor, fiscal e alertas.">
   <meta property="og:type" content="website">
   <title>Contratos Vigentes e Responsáveis | Iguape/SP</title>
   <link rel="icon" type="image/png" href="./assets/iguape-brasao.png">
@@ -22,10 +22,7 @@
         <div class="brand-copy">
           <span class="eyebrow">Prefeitura de Iguape</span>
           <h1>Contratos vigentes, gestor e fiscal</h1>
-          <p>
-            Painel público voltado a descobrir rapidamente quais contratos seguem em vigor,
-            quem responde por eles e onde há risco de vacância com base no cruzamento entre Diário Oficial e portal.
-          </p>
+          <p>Painel para ver contratos atuais, gestor, fiscal e alertas.</p>
         </div>
       </div>
 
@@ -37,9 +34,9 @@
 
     <section class="hero card">
       <div class="hero-copy">
-        <span class="eyebrow">Objetivo principal</span>
-        <h2>Saber se o contrato ainda está atual, quem é o gestor, quem é o fiscal e quando o vínculo ficou sem responsável.</h2>
-        <p id="hero-summary" class="hero-summary">Conferindo a base consolidada...</p>
+        <span class="eyebrow">Visão geral</span>
+        <h2>Contratos atuais e responsáveis.</h2>
+        <p id="hero-summary" class="hero-summary">Carregando resumo...</p>
         <div id="hero-callout" class="hero-callout"></div>
       </div>
 
@@ -54,14 +51,14 @@
     <section class="methodology card">
       <div class="section-head">
         <div>
-          <span class="eyebrow">Como ler este painel</span>
-          <h2>Leitura cruzada da base pública</h2>
+          <span class="eyebrow">Navegação</span>
+          <h2>Escolha a área</h2>
         </div>
         <div id="updated-at" class="updated-at">Atualizando...</div>
       </div>
 
       <p id="method-summary" class="method-summary">
-        Organizando metodologia...
+        Carregando atalhos...
       </p>
 
       <div id="method-notes" class="method-notes">
@@ -139,9 +136,7 @@
             <span class="eyebrow">Alertas operacionais</span>
             <h2>Contratos que pedem atenção primeiro</h2>
           </div>
-          <p class="section-copy">
-            Esta lista prioriza severidade, ausência de responsável confirmado e inconsistências no cruzamento entre fontes.
-          </p>
+          <p class="section-copy">Lista priorizada.</p>
         </div>
         <div id="alert-records" class="record-list">
           <div class="empty-state">Carregando alertas...</div>
@@ -153,8 +148,8 @@
       <section class="card filters-card">
         <div class="section-head">
           <div>
-            <span class="eyebrow">Consulta detalhada</span>
-            <h2>Filtrar contratos e responsáveis</h2>
+            <span class="eyebrow">Consulta</span>
+            <h2>Buscar contratos</h2>
           </div>
         </div>
 
@@ -190,7 +185,7 @@
           </label>
 
           <label class="field">
-            <span>Cruzamento de fontes</span>
+            <span>Origem</span>
             <select id="source-select"></select>
           </label>
         </div>
@@ -219,9 +214,7 @@
         <span class="eyebrow">Painel público</span>
         <strong>Contratos vigentes e responsáveis</strong>
       </div>
-      <p id="footer-copy">
-        Atualização pública em preparação.
-      </p>
+      <p id="footer-copy">Atualizando painel...</p>
     </footer>
   </main>
 

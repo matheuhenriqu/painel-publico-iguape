@@ -32,8 +32,8 @@
     },
     source: {
       todos: "Todas as origens",
-      cruzado: "Diário + portal",
-      somente_diario: "Somente Diário",
+      cruzado: "Cruzado",
+      somente_diario: "So Diario",
       somente_portal: "Somente portal",
     },
     scope: {
@@ -45,27 +45,27 @@
   const PRESETS = {
     semGestorEFiscal: {
       label: "Sem gestor e fiscal",
-      description: "Contratos atuais sem nenhum responsável confirmado.",
+      description: "Lista sem gestor e fiscal.",
       filters: { management: "sem_gestor_e_fiscal", scope: "atuais" },
     },
     semGestor: {
       label: "Sem gestor",
-      description: "Contratos atuais em que falta o gestor.",
+      description: "Lista sem gestor.",
       filters: { management: "sem_gestor", scope: "atuais" },
     },
     semFiscal: {
       label: "Sem fiscal",
-      description: "Contratos atuais em que falta o fiscal.",
+      description: "Lista sem fiscal.",
       filters: { management: "sem_fiscal", scope: "atuais" },
     },
     somenteDiario: {
-      label: "Somente Diário",
-      description: "Contratos atuais ainda sem correspondência automática no portal.",
+      label: "So Diario",
+      description: "Lista desta origem.",
       filters: { source: "somente_diario", scope: "atuais" },
     },
     completos: {
       label: "Responsáveis completos",
-      description: "Contratos atuais com gestor e fiscal identificados.",
+      description: "Lista com gestor e fiscal.",
       filters: { management: "completos", scope: "atuais" },
     },
   };
@@ -309,22 +309,22 @@
       {
         label: "Contratos atuais",
         value: summary.contratosAtuais,
-        detail: `${formatNumber(summary.vigentesInferidos)} com vigência inferida e ${formatNumber(summary.emAcompanhamento)} em acompanhamento no Diário.`,
+        detail: "Total atual.",
       },
       {
         label: "Sem gestor e fiscal",
         value: summary.semGestorEFiscal,
-        detail: "Casos em que nenhum responsável atual foi confirmado.",
+        detail: "Sem responsáveis.",
       },
       {
         label: "Responsáveis completos",
         value: summary.comResponsaveisCompletos,
-        detail: "Contratos atuais com gestor e fiscal identificados.",
+        detail: "Com gestor e fiscal.",
       },
       {
         label: "Alertas críticos",
         value: summary.alertasCriticos,
-        detail: `${formatNumber(summary.somenteDiario)} contratos atuais aparecem apenas no Diário Oficial.`,
+        detail: "Itens prioritários.",
       },
     ]
       .map(
@@ -341,8 +341,8 @@
 
   function renderMethodology() {
     elements.updatedAt.textContent = `Atualizado em ${formatDateTime(state.payload.generatedAt)}`;
-    elements.methodSummary.textContent = state.payload.methodology.summary;
-    elements.methodNotes.innerHTML = state.payload.methodology.notes
+    elements.methodSummary.textContent = "Use as áreas abaixo.";
+    elements.methodNotes.innerHTML = ["Painel: resumo geral.", "Alertas: itens prioritários.", "Consulta: busca e filtros."]
       .map((note) => `<article class="note-card">${escapeHtml(note)}</article>`)
       .join("");
   }
@@ -350,13 +350,9 @@
   function renderHero() {
     const summary = state.payload.summary;
     elements.heroSummary.textContent =
-      `A base atual acompanha ${formatNumber(summary.contratosAtuais)} contratos como atuais. ` +
-      `${formatNumber(summary.semGestorEFiscal)} deles seguem sem gestor e fiscal confirmados, e ${formatNumber(summary.comResponsaveisCompletos)} já mostram os dois responsáveis identificados.`;
-
-    elements.heroCallout.textContent =
-      summary.vigentesConfirmados === 0
-        ? "A maior parte da leitura atual depende de movimentação recente no Diário Oficial, porque o portal não confirma vigência ativa para quase toda a base cruzada."
-        : `Há ${formatNumber(summary.vigentesConfirmados)} contrato(s) com vigência confirmada diretamente no portal oficial.`;
+      `${formatNumber(summary.contratosAtuais)} contratos atuais, ${formatNumber(summary.semGestorEFiscal)} sem gestor e fiscal, ${formatNumber(summary.comResponsaveisCompletos)} completos.`;
+    elements.heroCallout.textContent = "";
+    elements.heroCallout.classList.add("hidden");
   }
 
   function renderStatusGrid() {
@@ -365,25 +361,25 @@
       {
         label: "Vigência inferida",
         value: summary.vigentesInferidos,
-        detail: "Contratos em que o prazo atual foi encontrado em documento ou termo.",
+        detail: "Prazo identificado.",
         className: "status-card--warning",
       },
       {
         label: "Em acompanhamento",
         value: summary.emAcompanhamento,
-        detail: "Contratos tratados como atuais porque têm movimentação recente no Diário Oficial.",
+        detail: "Em acompanhamento.",
         className: "status-card--warning",
       },
       {
         label: "Sem gestor atual",
         value: summary.semGestor,
-        detail: "Contratos atuais em que o gestor não foi confirmado.",
+        detail: "Gestor pendente.",
         className: "status-card--danger",
       },
       {
         label: "Sem fiscal atual",
         value: summary.semFiscal,
-        detail: "Contratos atuais em que o fiscal não foi confirmado.",
+        detail: "Fiscal pendente.",
         className: "status-card--danger",
       },
     ];
@@ -445,7 +441,7 @@
             <strong>${escapeHtml(group.title)}</strong>
             <span class="priority-count">${formatNumber(group.count)}</span>
             <p>${escapeHtml(PRESETS[group.preset].description)}</p>
-            <div class="priority-sample">${escapeHtml(group.sample || "Sem exemplos prioritários nesta faixa.")}</div>
+            <div class="priority-sample">${escapeHtml(group.sample || "Sem itens nesta lista.")}</div>
             <button type="button" data-preset="${escapeHtml(group.preset)}">Abrir lista</button>
           </article>
         `
@@ -497,20 +493,20 @@
     if (person?.name) {
       return {
         title: person.name,
-        subtitle: person.role || "Responsável identificado na base pública.",
+        subtitle: person.role || "Responsável atual.",
       };
     }
 
     if (person?.needsReview) {
       return {
-        title: "Precisa revisão",
-        subtitle: "O nome extraído do Diário Oficial não foi tratado como confirmação válida.",
+        title: "Revisar",
+        subtitle: "Nome pendente.",
       };
     }
 
     return {
       title: "Não identificado",
-      subtitle: "Sem responsável atual confirmado na leitura pública.",
+      subtitle: "Sem registro.",
     };
   }
 
@@ -567,16 +563,16 @@
       <article class="record-card ${getToneClass(record)}">
         <div class="record-head">
           <div class="record-heading">
-            <span class="record-number">${escapeHtml(record.contractNumber || "Contrato sem número")}</span>
-            <h3>${escapeHtml(record.organization || "Órgão não identificado")}</h3>
-            <span class="record-summary">${escapeHtml(record.managementSummary || "Sem resumo de gestão.")}</span>
+            <span class="record-number">${escapeHtml(record.contractNumber || "Contrato sem numero")}</span>
+            <h3>${escapeHtml(record.organization || "Orgao nao identificado")}</h3>
+            <span class="record-summary">${escapeHtml(record.managementSummary || "Sem resumo.")}</span>
           </div>
           <div class="badge-row">
             ${renderBadges(record)}
           </div>
         </div>
 
-        <p class="record-object">${escapeHtml(truncateText(record.object || "Sem objeto resumido disponível."))}</p>
+        <p class="record-object">${escapeHtml(truncateText(record.object || "Sem objeto resumido."))}</p>
 
         <div class="record-meta">
           <div class="meta-block">
@@ -591,36 +587,36 @@
           </div>
           <div class="meta-block">
             <span>Vigência</span>
-            <strong>${escapeHtml(record.vigency?.label || "Sem vigência identificada")}</strong>
-            <small>${escapeHtml(record.vigency?.sourceLabel || "Sem fonte de vigência")}</small>
+            <strong>${escapeHtml(record.vigency?.label || "Sem vigencia")}</strong>
+            <small>${escapeHtml(record.vigency?.sourceLabel || "Sem detalhe")}</small>
           </div>
           <div class="meta-block">
-            <span>Última movimentação</span>
+            <span>Ultima data</span>
             <strong>${escapeHtml(formatDate(record.managementActAt || record.publishedAt))}</strong>
-            <small>${escapeHtml(record.lastMovementTitle || record.administration || "Sem ato destacado")}</small>
+            <small>${escapeHtml(record.lastMovementTitle || record.administration || "Sem detalhe")}</small>
           </div>
         </div>
 
         <div class="record-meta">
           <div class="meta-block">
             <span>Fornecedor</span>
-            <strong>${escapeHtml(record.supplier || "Não identificado")}</strong>
+            <strong>${escapeHtml(record.supplier || "Nao identificado")}</strong>
             <small>${escapeHtml(record.valueLabel || formatCurrency(record.valueNumber))}</small>
           </div>
           <div class="meta-block">
-            <span>Período de gestão</span>
-            <strong>${escapeHtml(record.administration || "Não identificado")}</strong>
-            <small>${escapeHtml(record.year ? `Ano de referência ${record.year}` : "Ano de referência não identificado")}</small>
+            <span>Gestao</span>
+            <strong>${escapeHtml(record.administration || "Nao identificado")}</strong>
+            <small>${escapeHtml(record.year ? `Ano ${record.year}` : "Sem ano")}</small>
           </div>
           <div class="meta-block">
-            <span>Cruzamento</span>
+            <span>Origem</span>
             <strong>${escapeHtml(getLabel("source", record.sourceStatus))}</strong>
-            <small>${escapeHtml(`${record.movementCount || 0} movimentação(ões) associadas`)}</small>
+            <small>${escapeHtml(`${record.movementCount || 0} registro(s)`)}</small>
           </div>
           <div class="meta-block">
             <span>Prazo final</span>
             <strong>${record.vigency?.endDate ? escapeHtml(formatDate(record.vigency.endDate)) : "Sem data final"}</strong>
-            <small>${record.vigency?.daysUntilEnd != null ? `${escapeHtml(String(record.vigency.daysUntilEnd))} dia(s) estimados` : "Sem prazo consolidado"}</small>
+            <small>${record.vigency?.daysUntilEnd != null ? `${escapeHtml(String(record.vigency.daysUntilEnd))} dia(s)` : "Sem prazo"}</small>
           </div>
         </div>
 
@@ -640,7 +636,7 @@
       .slice(0, 10);
 
     if (!records.length) {
-      elements.alertRecords.innerHTML = `<div class="empty-state">Nenhum alerta prioritário foi encontrado.</div>`;
+      elements.alertRecords.innerHTML = `<div class="empty-state">Sem alertas nesta lista.</div>`;
       return;
     }
 
@@ -658,8 +654,8 @@
     elements.resultsMeta.textContent =
       `${formatNumber(filtered.length)} contrato(s) exibidos. ` +
       (state.filters.scope === "atuais"
-        ? "A consulta está limitada aos contratos tratados como atuais."
-        : `${formatNumber(currentInScope)} deles ainda aparecem como atuais na leitura cruzada.`);
+        ? "Mostrando contratos atuais."
+        : `${formatNumber(currentInScope)} atuais nesta lista.`);
 
     const activeFilters = [];
     if (state.filters.query) activeFilters.push(`Busca: ${state.filters.query}`);
@@ -671,10 +667,10 @@
     if (state.filters.scope !== DEFAULT_FILTERS.scope) activeFilters.push(`Escopo: ${getLabel("scope", state.filters.scope)}`);
     elements.activeFilterSummary.textContent = activeFilters.length
       ? activeFilters.join(" · ")
-      : "Sem filtros adicionais além do escopo padrão de contratos atuais.";
+      : "Sem filtros extras.";
 
     if (!visible.length) {
-      elements.recordList.innerHTML = `<div class="empty-state">Nenhum contrato encontrou correspondência com os filtros aplicados.</div>`;
+      elements.recordList.innerHTML = `<div class="empty-state">Nenhum contrato encontrado.</div>`;
       elements.loadMore.classList.add("hidden");
       return;
     }
@@ -684,9 +680,7 @@
   }
 
   function renderFooter() {
-    const summary = state.payload.summary;
-    elements.footerCopy.textContent =
-      `Base com ${formatNumber(summary.analisados)} edições analisadas e ${formatNumber(summary.contratosPortal)} contratos do portal considerados no cruzamento público.`;
+    elements.footerCopy.textContent = "Painel atualizado.";
   }
 
   function renderAll() {

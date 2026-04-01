@@ -124,6 +124,9 @@
     alertsSummary: document.getElementById("alerts-summary"),
     alertSummaryGrid: document.getElementById("alert-summary-grid"),
     alertRecords: document.getElementById("alert-records"),
+    reviewQueueSummary: document.getElementById("review-queue-summary"),
+    reviewSummaryGrid: document.getElementById("review-summary-grid"),
+    reviewQueue: document.getElementById("review-queue"),
     searchInput: document.getElementById("search-input"),
     scopeSelect: document.getElementById("scope-select"),
     organizationSelect: document.getElementById("organization-select"),
@@ -193,7 +196,9 @@
   function validatePayloadShape(payload) {
     if (!payload || typeof payload !== "object") return false;
     if (!payload.summary || typeof payload.summary !== "object") return false;
+    if (!payload.reviewSummary || typeof payload.reviewSummary !== "object") return false;
     if (!Array.isArray(payload.records)) return false;
+    if (!Array.isArray(payload.reviewQueue)) return false;
     if (!payload.filters || typeof payload.filters !== "object") return false;
     return true;
   }
@@ -346,6 +351,53 @@
       organizationSummary: (payload.organizationSummary || []).map((item) => ({
         organization: sanitizePlainText(item.organization, 160),
         count: Number(item.count || 0),
+      })),
+      reviewSummary: {
+        total: Number(payload.reviewSummary?.total || 0),
+        current: Number(payload.reviewSummary?.current || 0),
+        high: Number(payload.reviewSummary?.high || 0),
+        medium: Number(payload.reviewSummary?.medium || 0),
+        low: Number(payload.reviewSummary?.low || 0),
+        divergent: Number(payload.reviewSummary?.divergent || 0),
+        crossPending: Number(payload.reviewSummary?.crossPending || 0),
+        operationalLow: Number(payload.reviewSummary?.operationalLow || 0),
+        documentalLow: Number(payload.reviewSummary?.documentalLow || 0),
+      },
+      reviewQueue: (payload.reviewQueue || []).map((item, index) => ({
+        id: sanitizePlainText(item.id || `review-${index}`, 120),
+        masterContractId: sanitizePlainText(item.masterContractId, 120),
+        normalizedKey: sanitizePlainText(item.normalizedKey, 80),
+        contractNumber: sanitizePlainText(item.contractNumber, 80),
+        administration: sanitizePlainText(item.administration, 120),
+        organization: sanitizePlainText(item.organization, 180),
+        sourceStatus: sanitizePlainText(item.sourceStatus, 60),
+        managementState: sanitizePlainText(item.managementState, 60),
+        isCurrent: Boolean(item.isCurrent),
+        priority: sanitizePlainText(item.priority, 20),
+        priorityWeight: Number(item.priorityWeight || 0),
+        sourceAlignment: sanitizePlainText(item.sourceAlignment, 40),
+        reasonSummary: sanitizePlainText(item.reasonSummary, 280),
+        reasonCount: Number(item.reasonCount || 0),
+        candidateCount: Number(item.candidateCount || 0),
+        recommendedConfidence: sanitizePlainText(item.recommendedConfidence, 20),
+        recommendedScore: Number(item.recommendedScore || 0),
+        divergenceCount: Number(item.divergenceCount || 0),
+        divergenceTypes: (item.divergenceTypes || []).map((value) => sanitizePlainText(value, 60)),
+        criticalMissingFields: (item.criticalMissingFields || []).map((value) => sanitizePlainText(value, 60)),
+        overallConfidence: sanitizePlainText(item.overallConfidence, 20),
+        operationalConfidence: sanitizePlainText(item.operationalConfidence, 20),
+        documentalConfidence: sanitizePlainText(item.documentalConfidence, 20),
+        publishedAt: parseDate(item.publishedAt),
+        managementActAt: parseDate(item.managementActAt),
+        endDate: parseDate(item.endDate),
+        daysUntilEnd:
+          item.daysUntilEnd == null || Number.isNaN(Number(item.daysUntilEnd))
+            ? null
+            : Number(item.daysUntilEnd),
+        links: {
+          diary: sanitizeExternalUrl(item.links?.diary),
+          portal: sanitizeExternalUrl(item.links?.portal),
+        },
       })),
       generatedAt,
       records,
@@ -689,6 +741,7 @@
   function renderSummaryCards() {
     const summary = state.payload.summary;
     const currentTotal = summary.contratosAtuais || 0;
+    const reviewCurrent = state.payload.reviewSummary?.current || 0;
     const cards = [
       {
         label: "Contratos vigentes",
@@ -712,6 +765,12 @@
       },
     ];
 
+    cards[2] = {
+      label: "RevisÃ£o dirigida",
+      value: formatNumber(reviewCurrent),
+      detail: "Casos com conferÃªncia focal",
+    };
+
     setHtml(
       elements.summaryCards,
       cards
@@ -725,6 +784,49 @@
         `
       )
       .join("")
+    );
+  }
+
+  function renderSummaryCardsV2() {
+    const summary = state.payload.summary;
+    const currentTotal = summary.contratosAtuais || 0;
+    const reviewCurrent = state.payload.reviewSummary?.current || 0;
+    const cards = [
+      {
+        label: "Contratos vigentes",
+        value: formatNumber(currentTotal),
+        detail: "Registros atuais monitorados",
+      },
+      {
+        label: "Designacoes completas",
+        value: formatNumber(summary.comResponsaveisCompletos),
+        detail: formatPercent(summary.comResponsaveisCompletos, currentTotal),
+      },
+      {
+        label: "Revisao dirigida",
+        value: formatNumber(reviewCurrent),
+        detail: "Casos com conferencia focal",
+      },
+      {
+        label: "Ocorrencias criticas",
+        value: formatNumber(summary.alertasCriticos),
+        detail: "Demandam providencia",
+      },
+    ];
+
+    setHtml(
+      elements.summaryCards,
+      cards
+        .map(
+          (card) => `
+            <article class="metric-card">
+              <span class="eyebrow">${escapeHtml(card.label)}</span>
+              <strong class="metric-value">${escapeHtml(card.value)}</strong>
+              <span class="metric-detail">${escapeHtml(card.detail)}</span>
+            </article>
+          `
+        )
+        .join("")
     );
   }
 
@@ -1422,6 +1524,73 @@
     setHtml(elements.alertRecords, records.map(renderRecordCard).join(""));
   }
 
+  function renderReviewQueue() {
+    const summary = state.payload.reviewSummary || {};
+    const queue = state.payload.reviewQueue || [];
+
+    elements.reviewQueueSummary.textContent = queue.length
+      ? `${formatNumber(summary.current || 0)} contrato(s) atuais em revisao dirigida.`
+      : "Sem revisao dirigida aberta.";
+
+    renderCardCollection(elements.reviewSummaryGrid, [
+      {
+        label: "Fila atual",
+        value: formatNumber(summary.current),
+        detail: `${formatNumber(summary.total)} itens no total`,
+      },
+      {
+        label: "Prioridade alta",
+        value: formatNumber(summary.high),
+        detail: "Casos mais sensiveis",
+      },
+      {
+        label: "Cruzamento pendente",
+        value: formatNumber(summary.crossPending),
+        detail: "Correspondencia manual",
+      },
+      {
+        label: "Divergencias",
+        value: formatNumber(summary.divergent),
+        detail: "Fontes em conflito",
+      },
+    ]);
+
+    if (!queue.length) {
+      setHtml(elements.reviewQueue, `<div class="empty-state">Sem fila de revisao.</div>`);
+      return;
+    }
+
+    setHtml(
+      elements.reviewQueue,
+      queue
+        .slice(0, 8)
+        .map((item) => {
+          const stateLabel = item.isCurrent ? "Atual" : "Historico";
+          const secondary = [];
+          if (item.candidateCount > 0) secondary.push(`${formatNumber(item.candidateCount)} candidato(s)`);
+          if (item.divergenceCount > 0) secondary.push(`${formatNumber(item.divergenceCount)} divergencia(s)`);
+          if (item.daysUntilEnd != null) secondary.push(formatDayDelta(item.daysUntilEnd));
+
+          return `
+            <article class="compact-record">
+              <div class="compact-record-copy">
+                <strong>${escapeHtml(item.contractNumber || item.normalizedKey || "Contrato sem numero")}</strong>
+                <span>${escapeHtml(item.reasonSummary || "Revisao dirigida")}</span>
+                <small>${escapeHtml(item.organization || "Orgao nao informado")}</small>
+                <small>${escapeHtml(secondary.join(" · ") || "Sem complemento")}</small>
+              </div>
+              <div class="compact-record-meta">
+                <strong>${escapeHtml(item.priority || "baixa")}</strong>
+                <small>${escapeHtml(stateLabel)}</small>
+                <small>${escapeHtml(item.sourceAlignment || "parcial")}</small>
+              </div>
+            </article>
+          `;
+        })
+        .join("")
+    );
+  }
+
   function getActiveFiltersText() {
     const activeFilters = [];
     if (state.filters.query) activeFilters.push(`Busca: ${state.filters.query}`);
@@ -1494,7 +1663,7 @@
   function renderAll() {
     if (!state.payload) return;
     renderHero();
-    renderSummaryCards();
+    renderSummaryCardsV2();
     renderMethodology();
     renderStatusGrid();
     renderCoverageGrid();
@@ -1508,6 +1677,7 @@
     renderQuickPresets();
     renderAlertSummary();
     renderAlertRecords();
+    renderReviewQueue();
     renderResults();
     renderFooter();
     syncUrlState();
@@ -1815,6 +1985,9 @@
     setHtml(elements.priorityGroups, `<div class="empty-state">${escapeHtml(message)}</div>`);
     setHtml(elements.alertSummaryGrid, `<div class="empty-state">${escapeHtml(message)}</div>`);
     setHtml(elements.alertRecords, `<div class="empty-state">${escapeHtml(message)}</div>`);
+    elements.reviewQueueSummary.textContent = message;
+    setHtml(elements.reviewSummaryGrid, `<div class="empty-state">${escapeHtml(message)}</div>`);
+    setHtml(elements.reviewQueue, `<div class="empty-state">${escapeHtml(message)}</div>`);
     setHtml(elements.resultInsightGrid, `<div class="empty-state">${escapeHtml(message)}</div>`);
     setHtml(elements.recordList, `<div class="empty-state">${escapeHtml(message)}</div>`);
     elements.loadMore.classList.add("hidden");

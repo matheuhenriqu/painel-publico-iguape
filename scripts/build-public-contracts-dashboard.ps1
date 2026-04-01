@@ -1843,6 +1843,295 @@ function Get-OverallConfidence {
     return 'baixa'
 }
 
+function Get-ReviewPriorityWeight {
+    param(
+        [AllowNull()]
+        [string]$Level
+    )
+
+    switch ((Get-CleanText -Value $Level).ToLowerInvariant()) {
+        'alta' { return 3 }
+        'media' { return 2 }
+        default { return 1 }
+    }
+}
+
+function Get-CollectionCount {
+    param(
+        [AllowNull()]
+        [object]$Items
+    )
+
+    if ($null -eq $Items) {
+        return 0
+    }
+
+    if ($Items -is [System.Array]) {
+        return [int]$Items.Length
+    }
+
+    if ($Items -is [System.Collections.ICollection]) {
+        return [int]$Items.Count
+    }
+
+    return [int](@($Items).Length)
+}
+
+function Add-ReviewReason {
+    param(
+        [AllowEmptyCollection()]
+        [System.Collections.ArrayList]$Reasons,
+
+        [string]$Code,
+
+        [string]$Title,
+
+        [string]$Detail,
+
+        [string]$Priority = 'media'
+    )
+
+    if ($null -eq $Reasons -or [string]::IsNullOrWhiteSpace($Code)) {
+        return
+    }
+
+    foreach ($existing in @($Reasons)) {
+        if ([string](Get-ObjectValue -Item $existing -Name 'code') -eq $Code) {
+            return
+        }
+    }
+
+    $priorityLevel = (Get-CleanText -Value $Priority).ToLowerInvariant()
+    if ($priorityLevel -notin @('alta', 'media', 'baixa')) {
+        $priorityLevel = 'media'
+    }
+
+    [void]$Reasons.Add([pscustomobject][ordered]@{
+        code = Get-CleanText -Value $Code
+        title = Get-CleanText -Value $Title
+        detail = Get-CleanText -Value $Detail
+        priority = $priorityLevel
+        weight = Get-ReviewPriorityWeight -Level $priorityLevel
+    })
+}
+
+function Get-ReviewReasonSummary {
+    param(
+        [AllowNull()]
+        [object[]]$Reasons = @()
+    )
+
+    $reasonList = @($Reasons)
+    if ((Get-CollectionCount -Items $reasonList) -eq 0) {
+        return 'Sem revisao dirigida.'
+    }
+
+    $firstTitle = Get-CleanText -Value (Get-ObjectValue -Item $reasonList[0] -Name 'title')
+    if ((Get-CollectionCount -Items $reasonList) -eq 1) {
+        return $firstTitle
+    }
+
+    return ('{0} e mais {1} ponto(s).' -f $firstTitle, ((Get-CollectionCount -Items $reasonList) - 1))
+}
+
+function Get-ReviewSourceAlignment {
+    param(
+        [AllowNull()]
+        [string]$SourceStatus,
+
+        [AllowNull()]
+        [object[]]$ReviewItems = @(),
+
+        [AllowNull()]
+        [object[]]$Divergences = @()
+    )
+
+    $divergenceTypes = @(
+        @($Divergences) |
+        ForEach-Object { (Get-CleanText -Value (Get-ObjectValue -Item $_ -Name 'type')).ToLowerInvariant() } |
+        Where-Object { -not [string]::IsNullOrWhiteSpace($_) } |
+        Select-Object -Unique
+    )
+
+    if (($divergenceTypes -contains 'organization_mismatch') -or ($divergenceTypes -contains 'official_without_diary')) {
+        return 'divergente'
+    }
+
+    if (($divergenceTypes -contains 'pending_review') -or (Get-CollectionCount -Items $ReviewItems) -gt 0) {
+        return 'revisao'
+    }
+
+    if ((Get-CleanText -Value $SourceStatus).ToLowerInvariant() -eq 'cruzado') {
+        return 'alinhado'
+    }
+
+    return 'parcial'
+}
+
+function New-ReviewProfile {
+    param(
+        [bool]$IsCurrent = $false,
+
+        [string]$ManagementState = '',
+
+        [string]$SourceStatus = '',
+
+        [string]$OperationalConfidence = 'baixa',
+
+        [string]$DocumentalConfidence = 'baixa',
+
+        [string]$OverallConfidence = 'baixa',
+
+        [string[]]$MissingFields = @(),
+
+        [AllowNull()]
+        [object]$ManagerModel = $null,
+
+        [AllowNull()]
+        [object]$InspectorModel = $null,
+
+        [AllowNull()]
+        [object[]]$ReviewItems = @(),
+
+        [AllowNull()]
+        [object[]]$Divergences = @(),
+
+        [bool]$HasEndDate = $false,
+
+        [string]$VigencyState = ''
+    )
+
+    $reviewReasons = New-Object System.Collections.ArrayList
+    $criticalMissingFields = @(
+        @($MissingFields) |
+        Where-Object { $_ -in @('object', 'supplier', 'processNumber', 'startDate', 'endDate') } |
+        Select-Object -Unique
+    )
+    $sortedReviewItems = @(
+        @($ReviewItems) |
+        Sort-Object `
+            @{ Expression = { [int](Get-ObjectValue -Item $_ -Name 'recommendedScore' -Default 0) }; Descending = $true }, `
+            @{ Expression = { Get-CleanText -Value (Get-ObjectValue -Item $_ -Name 'recommendedConfidence') }; Descending = $true }
+    )
+    $topReviewItem = $sortedReviewItems | Select-Object -First 1
+    $recommendedConfidence = (Get-CleanText -Value (Get-ObjectValue -Item $topReviewItem -Name 'recommendedConfidence')).ToLowerInvariant()
+    $recommendedScore = [int](Get-ObjectValue -Item $topReviewItem -Name 'recommendedScore' -Default 0)
+    $divergenceTypes = @(
+        @($Divergences) |
+        ForEach-Object { (Get-CleanText -Value (Get-ObjectValue -Item $_ -Name 'type')).ToLowerInvariant() } |
+        Where-Object { -not [string]::IsNullOrWhiteSpace($_) } |
+        Select-Object -Unique
+    )
+
+    if ((Get-CollectionCount -Items $sortedReviewItems) -gt 0 -or ($divergenceTypes -contains 'pending_review')) {
+        Add-ReviewReason `
+            -Reasons $reviewReasons `
+            -Code 'cruzamento_pendente' `
+            -Title 'Cruzamento pendente com o portal' `
+            -Detail ('{0} candidato(s) exigem confirmacao manual.' -f (Get-CollectionCount -Items $sortedReviewItems)) `
+            -Priority $(if ($IsCurrent) { 'alta' } else { 'media' })
+    }
+
+    if ($divergenceTypes -contains 'organization_mismatch') {
+        Add-ReviewReason `
+            -Reasons $reviewReasons `
+            -Code 'divergencia_orgao' `
+            -Title 'Divergencia entre orgaos' `
+            -Detail 'Diario Oficial e portal apresentam orgaos diferentes para a mesma referencia.' `
+            -Priority 'alta'
+    }
+
+    if ($divergenceTypes -contains 'official_without_diary') {
+        Add-ReviewReason `
+            -Reasons $reviewReasons `
+            -Code 'portal_sem_diario' `
+            -Title 'Contrato oficial sem ato correspondente' `
+            -Detail 'O portal apresenta contrato sem ato consolidado correspondente no Diario Oficial.' `
+            -Priority $(if ($IsCurrent) { 'alta' } else { 'media' })
+    }
+
+    if ([bool](Get-ObjectValue -Item $ManagerModel -Name 'needsReview') -or [bool](Get-ObjectValue -Item $InspectorModel -Name 'needsReview')) {
+        Add-ReviewReason `
+            -Reasons $reviewReasons `
+            -Code 'responsavel_impreciso' `
+            -Title 'Responsavel com leitura imprecisa' `
+            -Detail 'A leitura automatica do nome ou cargo do responsavel precisa confirmacao manual.' `
+            -Priority $(if ($IsCurrent) { 'alta' } else { 'media' })
+    }
+
+    if ($IsCurrent -and $DocumentalConfidence -eq 'baixa' -and (Get-CollectionCount -Items $criticalMissingFields) -ge 3 -and $SourceStatus -ne 'cruzado' -and $ManagementState -eq 'completos') {
+        Add-ReviewReason `
+            -Reasons $reviewReasons `
+            -Code 'documentacao_incompleta' `
+            -Title 'Documentacao incompleta' `
+            -Detail 'Objeto, fornecedor, processo ou prazo ainda nao estao completos com confianca suficiente.' `
+            -Priority 'media'
+    }
+
+    $priorityWeight = 0
+    foreach ($reason in @($reviewReasons)) {
+        $weight = [int](Get-ObjectValue -Item $reason -Name 'weight' -Default 0)
+        if ($weight -gt $priorityWeight) {
+            $priorityWeight = $weight
+        }
+    }
+
+    $priority = switch ($priorityWeight) {
+        3 { 'alta' }
+        2 { 'media' }
+        default { 'baixa' }
+    }
+
+    $candidates = @(
+        $sortedReviewItems |
+        Select-Object -First 3 |
+        ForEach-Object {
+            [pscustomobject][ordered]@{
+                portalContractId = Get-CleanText -Value (Get-ObjectValue -Item $_ -Name 'portalContractId')
+                contractNumber = Get-CleanText -Value (Get-ObjectValue -Item $_ -Name 'contractNumber')
+                organization = Get-CleanText -Value (Get-ObjectValue -Item $_ -Name 'organization')
+                score = [int](Get-ObjectValue -Item $_ -Name 'recommendedScore' -Default (Get-ObjectValue -Item $_ -Name 'score' -Default 0))
+                confidence = (Get-CleanText -Value (Get-ObjectValue -Item $_ -Name 'recommendedConfidence')).ToLowerInvariant()
+                reason = Get-CleanText -Value (Get-ObjectValue -Item $_ -Name 'reason')
+            }
+        }
+    )
+
+    $divergenceSnapshot = @(
+        @($Divergences) |
+        Select-Object -First 3 |
+        ForEach-Object {
+            [pscustomobject][ordered]@{
+                type = (Get-CleanText -Value (Get-ObjectValue -Item $_ -Name 'type')).ToLowerInvariant()
+                title = Get-CleanText -Value (Get-ObjectValue -Item $_ -Name 'title')
+                reason = Get-CleanText -Value (Get-ObjectValue -Item $_ -Name 'reason')
+                severity = (Get-CleanText -Value (Get-ObjectValue -Item $_ -Name 'severity')).ToLowerInvariant()
+            }
+        }
+    )
+
+    return [ordered]@{
+        required = [bool]((Get-CollectionCount -Items $reviewReasons) -gt 0)
+        priority = $priority
+        priorityWeight = $priorityWeight
+        sourceAlignment = Get-ReviewSourceAlignment -SourceStatus $SourceStatus -ReviewItems $ReviewItems -Divergences $Divergences
+        reasonSummary = Get-ReviewReasonSummary -Reasons $reviewReasons
+        reasonCount = Get-CollectionCount -Items $reviewReasons
+        reasons = @($reviewReasons | Sort-Object weight -Descending)
+        candidateCount = Get-CollectionCount -Items $sortedReviewItems
+        recommendedConfidence = $recommendedConfidence
+        recommendedScore = $recommendedScore
+        candidates = $candidates
+        divergenceTypes = $divergenceTypes
+        divergenceCount = Get-CollectionCount -Items $Divergences
+        divergences = $divergenceSnapshot
+        criticalMissingFields = $criticalMissingFields
+        operationalConfidence = $OperationalConfidence
+        documentalConfidence = $DocumentalConfidence
+        overallConfidence = $OverallConfidence
+    }
+}
+
 function Get-AdditiveSummary {
     param(
         [AllowNull()]
@@ -2078,7 +2367,13 @@ function New-MasterContractModel {
 
         [string]$Organization = '',
 
-        [string]$SourceStatus = ''
+        [string]$SourceStatus = '',
+
+        [AllowNull()]
+        [object[]]$ReviewItems = @(),
+
+        [AllowNull()]
+        [object[]]$Divergences = @()
     )
 
     $lifecycleStartSource = switch ((Get-CleanText -Value (Get-ObjectValue -Item $Lifecycle -Name 'currentStartSource')).ToLowerInvariant()) {
@@ -2181,6 +2476,21 @@ function New-MasterContractModel {
         'baixa'
     }
 
+    $operationalConfidence = Get-OverallConfidence -Levels @(
+        $contractNumberField.confidence,
+        $termConfidence,
+        $managerModel.confidence,
+        $inspectorModel.confidence
+    )
+
+    $documentalConfidence = Get-OverallConfidence -Levels @(
+        $processNumberField.confidence,
+        $objectField.confidence,
+        $supplierField.confidence,
+        $valueConfidence,
+        $additivesConfidence
+    )
+
     $overallConfidence = Get-OverallConfidence -Levels @(
         $contractNumberField.confidence,
         $objectField.confidence,
@@ -2204,6 +2514,21 @@ function New-MasterContractModel {
             [void]$missingFields.Add([string]$item.name)
         }
     }
+
+    $review = New-ReviewProfile `
+        -IsCurrent ([bool](Get-ObjectValue -Item $Vigency -Name 'isCurrent')) `
+        -ManagementState $ManagementState `
+        -SourceStatus $SourceStatus `
+        -OperationalConfidence $operationalConfidence `
+        -DocumentalConfidence $documentalConfidence `
+        -OverallConfidence $overallConfidence `
+        -MissingFields @($missingFields) `
+        -ManagerModel $managerModel `
+        -InspectorModel $inspectorModel `
+        -ReviewItems $ReviewItems `
+        -Divergences $Divergences `
+        -HasEndDate ($null -ne $endDateField.value) `
+        -VigencyState (Get-CleanText -Value (Get-ObjectValue -Item $Vigency -Name 'state'))
 
     return [pscustomobject][ordered]@{
         id = $Id
@@ -2258,6 +2583,8 @@ function New-MasterContractModel {
         sources = $sources
         confidence = [ordered]@{
             overall = $overallConfidence
+            operational = $operationalConfidence
+            documental = $documentalConfidence
             contractNumber = $contractNumberField.confidence
             processNumber = $processNumberField.confidence
             organization = $organizationField.confidence
@@ -2269,6 +2596,7 @@ function New-MasterContractModel {
             inspector = $inspectorModel.confidence
             additives = $additivesConfidence
         }
+        review = $review
         missingFields = @($missingFields)
     }
 }
@@ -2332,6 +2660,19 @@ foreach ($item in @($source.crossSourceDivergences)) {
         $divergenceByKey[$normalized] = @()
     }
     $divergenceByKey[$normalized] = @($divergenceByKey[$normalized]) + @($item)
+}
+
+$reviewByKey = @{}
+foreach ($item in @($source.crossReviewQueue)) {
+    $normalized = Get-NormalizedContractKey -Value $(if ($item.crossKey) { $item.crossKey } else { $item.movementReference })
+    if ([string]::IsNullOrWhiteSpace($normalized)) {
+        continue
+    }
+
+    if (-not $reviewByKey.ContainsKey($normalized)) {
+        $reviewByKey[$normalized] = @()
+    }
+    $reviewByKey[$normalized] = @($reviewByKey[$normalized]) + @($item)
 }
 
 $usedPortalIds = @{}
@@ -2402,6 +2743,8 @@ foreach ($profile in @($source.managementProfiles)) {
         (Get-ObjectValue -Item $latestMovement -Name 'value'),
         (Get-ObjectValue -Item $officialContract -Name 'value')
     )
+    $reviewItems = if ($reviewByKey.ContainsKey($normalizedKey)) { @($reviewByKey[$normalizedKey]) } else { @() }
+    $divergences = if ($divergenceByKey.ContainsKey($normalizedKey)) { @($divergenceByKey[$normalizedKey]) } else { @() }
     $alerts = New-Object System.Collections.ArrayList
 
     if ($vigency.isCurrent -and $managementState -eq 'sem_gestor_e_fiscal') {
@@ -2453,7 +2796,7 @@ foreach ($profile in @($source.managementProfiles)) {
     $masterId = 'master:' + $normalizedKey
     $additives = Get-AdditiveSummary -OfficialContract $officialContract -Movements $movements -Lifecycle $lifecycle
 
-    [void]$masterContracts.Add((New-MasterContractModel `
+    $masterContract = New-MasterContractModel `
         -Id $masterId `
         -NormalizedKey $normalizedKey `
         -Profile $profile `
@@ -2472,8 +2815,10 @@ foreach ($profile in @($source.managementProfiles)) {
         -Administration (Get-AdministrationLabel -Year $year) `
         -Year $year `
         -Organization $organization `
-        -SourceStatus $(if ($officialContract) { 'cruzado' } else { 'somente_diario' })
-    ))
+        -SourceStatus $(if ($officialContract) { 'cruzado' } else { 'somente_diario' }) `
+        -ReviewItems $reviewItems `
+        -Divergences $divergences
+    [void]$masterContracts.Add($masterContract)
 
     [void]$records.Add([pscustomobject][ordered]@{
         id = $recordId
@@ -2503,6 +2848,8 @@ foreach ($profile in @($source.managementProfiles)) {
         hasDiary = $true
         hasOfficialPortal = [bool]$officialContract
         sourceStatus = if ($officialContract) { 'cruzado' } else { 'somente_diario' }
+        confidence = $masterContract.confidence
+        review = $masterContract.review
         publishedAt = Convert-ToIsoString -Value (Get-ObjectValue -Item $latestMovement -Name 'publishedAt')
         managementActAt = Convert-ToIsoString -Value $profile.lastManagementActAt
         lastMovementTitle = Get-CleanText -Value (Get-ObjectValue -Item $latestMovement -Name 'actTitle')
@@ -2531,6 +2878,8 @@ foreach ($official in @($source.officialContracts | Sort-Object @{ Expression = 
     $year = Get-ContractYear -NormalizedKey $normalizedKey -Movements $movements -OfficialContract $official
     $latestMovement = $movements | Sort-Object @{ Expression = { Convert-ToDateTimeSafe -Value $_.publishedAt }; Descending = $true } | Select-Object -First 1
     $preferredMovement = Get-PreferredMovement -Movements $movements
+    $reviewItems = if ($reviewByKey.ContainsKey($normalizedKey)) { @($reviewByKey[$normalizedKey]) } else { @() }
+    $divergences = if ($divergenceByKey.ContainsKey($normalizedKey)) { @($divergenceByKey[$normalizedKey]) } else { @() }
     $alerts = New-Object System.Collections.ArrayList
 
     if ($vigency.isCurrent -and -not @($movements).Count) {
@@ -2558,7 +2907,7 @@ foreach ($official in @($source.officialContracts | Sort-Object @{ Expression = 
     $emptyInspector = [ordered]@{ name = ''; role = ''; assignedAt = $null; needsReview = $false }
     $additives = Get-AdditiveSummary -OfficialContract $official -Movements $movements -Lifecycle $lifecycle
 
-    [void]$masterContracts.Add((New-MasterContractModel `
+    $masterContract = New-MasterContractModel `
         -Id $masterId `
         -NormalizedKey $normalizedKey `
         -Profile $null `
@@ -2575,8 +2924,10 @@ foreach ($official in @($source.officialContracts | Sort-Object @{ Expression = 
         -Administration (Get-AdministrationLabel -Year $year) `
         -Year $year `
         -Organization (Get-CleanText -Value (Get-ObjectValue -Item $official -Name 'primaryOrganizationName')) `
-        -SourceStatus $(if (@($movements).Count) { 'cruzado' } else { 'somente_portal' })
-    ))
+        -SourceStatus $(if (@($movements).Count) { 'cruzado' } else { 'somente_portal' }) `
+        -ReviewItems $reviewItems `
+        -Divergences $divergences
+    [void]$masterContracts.Add($masterContract)
 
     [void]$records.Add([pscustomobject][ordered]@{
         id = $recordId
@@ -2606,6 +2957,8 @@ foreach ($official in @($source.officialContracts | Sort-Object @{ Expression = 
         hasDiary = [bool](@($movements).Count)
         hasOfficialPortal = $true
         sourceStatus = if (@($movements).Count) { 'cruzado' } else { 'somente_portal' }
+        confidence = $masterContract.confidence
+        review = $masterContract.review
         publishedAt = Convert-ToIsoString -Value (Get-ObjectValue -Item $official -Name 'publishedAt')
         managementActAt = $null
         lastMovementTitle = ''
@@ -2645,6 +2998,55 @@ $sortedMasterContracts = @(
 )
 
 $currentRecords = @($sortedRecords | Where-Object { [bool]$_.vigency.isCurrent })
+$reviewQueue = @(
+    $sortedRecords |
+    Where-Object { [bool](Get-ObjectValue -Item (Get-ObjectValue -Item $_ -Name 'review') -Name 'required') } |
+    Sort-Object `
+        @{ Expression = { -1 * [int](Get-ObjectValue -Item (Get-ObjectValue -Item $_ -Name 'review') -Name 'priorityWeight' -Default 0) } }, `
+        @{ Expression = { if ([bool]$_.vigency.isCurrent) { 0 } else { 1 } } }, `
+        @{ Expression = { if ($null -ne $_.vigency.daysUntilEnd) { [int]$_.vigency.daysUntilEnd } else { 999999 } } }, `
+        @{ Expression = { Convert-ToDateTimeSafe -Value $_.managementActAt }; Descending = $true }, `
+        @{ Expression = { Convert-ToDateTimeSafe -Value $_.publishedAt }; Descending = $true } |
+    ForEach-Object {
+        $review = Get-ObjectValue -Item $_ -Name 'review'
+        $confidence = Get-ObjectValue -Item $_ -Name 'confidence'
+
+        [pscustomobject][ordered]@{
+            id = 'review:' + [string]$_.masterContractId
+            masterContractId = [string]$_.masterContractId
+            normalizedKey = Get-CleanText -Value $_.normalizedKey
+            contractNumber = Get-CleanText -Value $_.contractNumber
+            administration = Get-CleanText -Value $_.administration
+            organization = Get-CleanText -Value $_.organization
+            sourceStatus = Get-CleanText -Value $_.sourceStatus
+            managementState = Get-CleanText -Value $_.managementState
+            isCurrent = [bool]$_.vigency.isCurrent
+            priority = Get-CleanText -Value (Get-ObjectValue -Item $review -Name 'priority')
+            priorityWeight = [int](Get-ObjectValue -Item $review -Name 'priorityWeight' -Default 0)
+            sourceAlignment = Get-CleanText -Value (Get-ObjectValue -Item $review -Name 'sourceAlignment')
+            reasonSummary = Get-CleanText -Value (Get-ObjectValue -Item $review -Name 'reasonSummary')
+            reasonCount = [int](Get-ObjectValue -Item $review -Name 'reasonCount' -Default 0)
+            reasons = @($(Get-ObjectValue -Item $review -Name 'reasons'))
+            candidateCount = [int](Get-ObjectValue -Item $review -Name 'candidateCount' -Default 0)
+            recommendedConfidence = Get-CleanText -Value (Get-ObjectValue -Item $review -Name 'recommendedConfidence')
+            recommendedScore = [int](Get-ObjectValue -Item $review -Name 'recommendedScore' -Default 0)
+            divergenceCount = [int](Get-ObjectValue -Item $review -Name 'divergenceCount' -Default 0)
+            divergenceTypes = @($(Get-ObjectValue -Item $review -Name 'divergenceTypes'))
+            criticalMissingFields = @($(Get-ObjectValue -Item $review -Name 'criticalMissingFields'))
+            overallConfidence = Get-CleanText -Value (Get-ObjectValue -Item $confidence -Name 'overall')
+            operationalConfidence = Get-CleanText -Value (Get-ObjectValue -Item $confidence -Name 'operational')
+            documentalConfidence = Get-CleanText -Value (Get-ObjectValue -Item $confidence -Name 'documental')
+            publishedAt = Convert-ToIsoString -Value $_.publishedAt
+            managementActAt = Convert-ToIsoString -Value $_.managementActAt
+            endDate = Convert-ToIsoString -Value (Get-ObjectValue -Item $_.vigency -Name 'endDate')
+            daysUntilEnd = Get-ObjectValue -Item $_.vigency -Name 'daysUntilEnd'
+            links = [ordered]@{
+                diary = Get-CleanText -Value (Get-ObjectValue -Item (Get-ObjectValue -Item $_ -Name 'links') -Name 'diary')
+                portal = Get-CleanText -Value (Get-ObjectValue -Item (Get-ObjectValue -Item $_ -Name 'links') -Name 'portal')
+            }
+        }
+    }
+)
 $organizationSummary = @(
     $currentRecords |
     Group-Object organization |
@@ -2677,11 +3079,28 @@ $masterSummary = [ordered]@{
     highOverallConfidence = [int](@($sortedMasterContracts | Where-Object { [string]$_.confidence.overall -eq 'alta' }).Count)
     mediumOverallConfidence = [int](@($sortedMasterContracts | Where-Object { [string]$_.confidence.overall -eq 'media' }).Count)
     lowOverallConfidence = [int](@($sortedMasterContracts | Where-Object { [string]$_.confidence.overall -eq 'baixa' }).Count)
+    highOperationalConfidence = [int](@($sortedMasterContracts | Where-Object { [string]$_.confidence.operational -eq 'alta' }).Count)
+    mediumOperationalConfidence = [int](@($sortedMasterContracts | Where-Object { [string]$_.confidence.operational -eq 'media' }).Count)
+    lowOperationalConfidence = [int](@($sortedMasterContracts | Where-Object { [string]$_.confidence.operational -eq 'baixa' }).Count)
+    reviewRequired = [int](@($sortedMasterContracts | Where-Object { [bool]$_.review.required }).Count)
+    highReviewPriority = [int](@($sortedMasterContracts | Where-Object { [string]$_.review.priority -eq 'alta' }).Count)
+}
+
+$reviewSummary = [ordered]@{
+    total = [int]@($reviewQueue).Count
+    current = [int]@($reviewQueue | Where-Object { [bool]$_.isCurrent }).Count
+    high = [int]@($reviewQueue | Where-Object { [string]$_.priority -eq 'alta' }).Count
+    medium = [int]@($reviewQueue | Where-Object { [string]$_.priority -eq 'media' }).Count
+    low = [int]@($reviewQueue | Where-Object { [string]$_.priority -eq 'baixa' }).Count
+    divergent = [int]@($reviewQueue | Where-Object { [string]$_.sourceAlignment -eq 'divergente' }).Count
+    crossPending = [int]@($reviewQueue | Where-Object { [int]$_.candidateCount -gt 0 }).Count
+    operationalLow = [int]@($reviewQueue | Where-Object { [string]$_.operationalConfidence -eq 'baixa' }).Count
+    documentalLow = [int]@($reviewQueue | Where-Object { [string]$_.documentalConfidence -eq 'baixa' }).Count
 }
 
 $payload = [ordered]@{
     generatedAt = Convert-ToIsoString -Value $source.generatedAt
-    masterSchemaVersion = '2026-04-01.3'
+    masterSchemaVersion = '2026-04-01.4'
     methodology = [ordered]@{
         title = 'Leitura cruzada de contratos vigentes e responsáveis'
         summary = 'O painel cruza Diário Oficial, contratos do portal e eventos de gestão contratual para destacar vigência, gestor, fiscal e alertas de vacância.'
@@ -2708,6 +3127,7 @@ $payload = [ordered]@{
         somenteDiario = [int]@($currentRecords | Where-Object { [string]$_.sourceStatus -eq 'somente_diario' }).Count
         somentePortal = [int]@($currentRecords | Where-Object { [string]$_.sourceStatus -eq 'somente_portal' }).Count
         cruzados = [int]@($currentRecords | Where-Object { [string]$_.sourceStatus -eq 'cruzado' }).Count
+        revisaoDirigida = [int]@($reviewQueue | Where-Object { [bool]$_.isCurrent }).Count
         analisados = [int]$source.analyzedDiaryCount
         contratosPortal = [int]$source.officialPortalContracts
     }
@@ -2721,6 +3141,8 @@ $payload = [ordered]@{
     }
     organizationSummary = $organizationSummary
     masterSummary = $masterSummary
+    reviewSummary = $reviewSummary
+    reviewQueue = $reviewQueue
     masterContracts = $sortedMasterContracts
     records = $sortedRecords
 }

@@ -132,10 +132,13 @@ $records = @($dashboard.records)
 $masterContracts = @($dashboard.masterContracts)
 $summary = $dashboard.summary
 $masterSummary = $dashboard.masterSummary
+$reviewSummary = $dashboard.reviewSummary
+$reviewQueue = @($dashboard.reviewQueue)
 $filters = $dashboard.filters
 
 Assert-Condition -Condition ($null -ne $summary) -Message 'Dashboard summary missing.'
 Assert-Condition -Condition ($null -ne $masterSummary) -Message 'Dashboard masterSummary missing.'
+Assert-Condition -Condition ($null -ne $reviewSummary) -Message 'Dashboard reviewSummary missing.'
 Assert-Condition -Condition ($null -ne $filters) -Message 'Dashboard filters missing.'
 Assert-Condition -Condition ($records.Count -gt 0) -Message 'No contracts were generated for the public dashboard.'
 Assert-Condition -Condition ($masterContracts.Count -gt 0) -Message 'No canonical contracts were generated for the public dashboard.'
@@ -162,6 +165,7 @@ Assert-Condition -Condition ([int]$summary.comResponsaveisCompletos -eq @($curre
 Assert-Condition -Condition ([int]$summary.somenteDiario -eq @($currentRecords | Where-Object { $_.sourceStatus -eq 'somente_diario' }).Count) -Message 'Summary mismatch: somenteDiario.'
 Assert-Condition -Condition ([int]$summary.somentePortal -eq @($currentRecords | Where-Object { $_.sourceStatus -eq 'somente_portal' }).Count) -Message 'Summary mismatch: somentePortal.'
 Assert-Condition -Condition ([int]$summary.cruzados -eq @($currentRecords | Where-Object { $_.sourceStatus -eq 'cruzado' }).Count) -Message 'Summary mismatch: cruzados.'
+Assert-Condition -Condition ([int]$summary.revisaoDirigida -eq @($reviewQueue | Where-Object { $_.isCurrent }).Count) -Message 'Summary mismatch: revisaoDirigida.'
 Assert-Condition -Condition ([int]$masterSummary.withObject -eq @($masterContracts | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_.object) }).Count) -Message 'Summary mismatch: masterSummary.withObject.'
 Assert-Condition -Condition ([int]$masterSummary.withSupplier -eq @($masterContracts | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_.supplier.name) }).Count) -Message 'Summary mismatch: masterSummary.withSupplier.'
 Assert-Condition -Condition ([int]$masterSummary.withProcessNumber -eq @($masterContracts | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_.processNumber) }).Count) -Message 'Summary mismatch: masterSummary.withProcessNumber.'
@@ -169,6 +173,12 @@ Assert-Condition -Condition ([int]$masterSummary.withManager -eq @($masterContra
 Assert-Condition -Condition ([int]$masterSummary.withInspector -eq @($masterContracts | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_.responsibilities.inspector.name) }).Count) -Message 'Summary mismatch: masterSummary.withInspector.'
 Assert-Condition -Condition ([int]$masterSummary.withEndDate -eq @($masterContracts | Where-Object { $null -ne $_.term.endDate }).Count) -Message 'Summary mismatch: masterSummary.withEndDate.'
 Assert-Condition -Condition ([int]$masterSummary.aditivados -eq @($masterContracts | Where-Object { [bool]$_.additives.isAdditivado }).Count) -Message 'Summary mismatch: masterSummary.aditivados.'
+Assert-Condition -Condition ([int]$masterSummary.reviewRequired -eq @($masterContracts | Where-Object { [bool]$_.review.required }).Count) -Message 'Summary mismatch: masterSummary.reviewRequired.'
+Assert-Condition -Condition ([int]$masterSummary.highOperationalConfidence -eq @($masterContracts | Where-Object { [string]$_.confidence.operational -eq 'alta' }).Count) -Message 'Summary mismatch: masterSummary.highOperationalConfidence.'
+Assert-Condition -Condition ([int]$reviewSummary.total -eq $reviewQueue.Count) -Message 'Summary mismatch: reviewSummary.total.'
+Assert-Condition -Condition ([int]$reviewSummary.current -eq @($reviewQueue | Where-Object { $_.isCurrent }).Count) -Message 'Summary mismatch: reviewSummary.current.'
+Assert-Condition -Condition ([int]$reviewSummary.high -eq @($reviewQueue | Where-Object { $_.priority -eq 'alta' }).Count) -Message 'Summary mismatch: reviewSummary.high.'
+Assert-Condition -Condition ([int]$reviewSummary.crossPending -eq @($reviewQueue | Where-Object { [int]$_.candidateCount -gt 0 }).Count) -Message 'Summary mismatch: reviewSummary.crossPending.'
 
 $masterIds = @($masterContracts | ForEach-Object { [string]$_.id })
 foreach ($record in $records) {

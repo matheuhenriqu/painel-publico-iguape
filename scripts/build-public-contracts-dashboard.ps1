@@ -825,6 +825,605 @@ function Add-Alert {
     })
 }
 
+function Test-FieldValuePresent {
+    param(
+        [AllowNull()]
+        [object]$Value,
+
+        [string]$Kind = 'text'
+    )
+
+    switch ($Kind) {
+        'number' {
+            if ($null -eq $Value) {
+                return $false
+            }
+
+            try {
+                return ([double]$Value) -gt 0
+            }
+            catch {
+                return $false
+            }
+        }
+        'date' {
+            return -not [string]::IsNullOrWhiteSpace([string](Convert-ToIsoString -Value $Value))
+        }
+        default {
+            return -not [string]::IsNullOrWhiteSpace([string](Get-CleanText -Value $Value))
+        }
+    }
+}
+
+function Convert-FieldValue {
+    param(
+        [AllowNull()]
+        [object]$Value,
+
+        [string]$Kind = 'text'
+    )
+
+    switch ($Kind) {
+        'number' {
+            if (Test-FieldValuePresent -Value $Value -Kind $Kind) {
+                return [double]$Value
+            }
+            return $null
+        }
+        'date' {
+            return Convert-ToIsoString -Value $Value
+        }
+        default {
+            return Get-CleanText -Value $Value
+        }
+    }
+}
+
+function Get-SelectedFieldCandidate {
+    param(
+        [AllowNull()]
+        [object[]]$Candidates = @(),
+
+        [string]$Kind = 'text'
+    )
+
+    foreach ($candidate in @($Candidates)) {
+        if ($null -eq $candidate) {
+            continue
+        }
+
+        $value = Get-ObjectValue -Item $candidate -Name 'value'
+        if (-not (Test-FieldValuePresent -Value $value -Kind $Kind)) {
+            continue
+        }
+
+        return [ordered]@{
+            source = Get-CleanText -Value (Get-ObjectValue -Item $candidate -Name 'source')
+            value = Convert-FieldValue -Value $value -Kind $Kind
+        }
+    }
+
+    return $null
+}
+
+function Get-FieldSourceList {
+    param(
+        [AllowNull()]
+        [object[]]$Candidates = @(),
+
+        [string]$Kind = 'text'
+    )
+
+    $sources = New-Object System.Collections.ArrayList
+
+    foreach ($candidate in @($Candidates)) {
+        if ($null -eq $candidate) {
+            continue
+        }
+
+        $value = Get-ObjectValue -Item $candidate -Name 'value'
+        if (-not (Test-FieldValuePresent -Value $value -Kind $Kind)) {
+            continue
+        }
+
+        $source = Get-CleanText -Value (Get-ObjectValue -Item $candidate -Name 'source')
+        if (-not [string]::IsNullOrWhiteSpace($source) -and $source -notin $sources) {
+            [void]$sources.Add($source)
+        }
+    }
+
+    return @($sources)
+}
+
+function Get-FieldStatusProfile {
+    param(
+        [AllowNull()]
+        [object]$SelectedCandidate,
+
+        [string[]]$Sources = @(),
+
+        [bool]$NeedsReview = $false,
+
+        [bool]$IsInferred = $false
+    )
+
+    if ($null -eq $SelectedCandidate) {
+        return [ordered]@{
+            status = 'nao_localizado'
+            confidence = 'baixa'
+        }
+    }
+
+    if ($NeedsReview) {
+        return [ordered]@{
+            status = 'revisao'
+            confidence = 'baixa'
+        }
+    }
+
+    if ($IsInferred -or [string]$SelectedCandidate.source -eq 'inferencia') {
+        return [ordered]@{
+            status = 'inferido'
+            confidence = 'media'
+        }
+    }
+
+    if (($Sources -contains 'portal') -and ($Sources -contains 'diario')) {
+        return [ordered]@{
+            status = 'confirmado'
+            confidence = 'alta'
+        }
+    }
+
+    if ([string]$SelectedCandidate.source -eq 'portal') {
+        return [ordered]@{
+            status = 'confirmado'
+            confidence = 'alta'
+        }
+    }
+
+    if ([string]$SelectedCandidate.source -in @('diario', 'perfil')) {
+        return [ordered]@{
+            status = 'confirmado'
+            confidence = 'media'
+        }
+    }
+
+    return [ordered]@{
+        status = 'confirmado'
+        confidence = 'media'
+    }
+}
+
+function New-FieldProfile {
+    param(
+        [AllowNull()]
+        [object[]]$Candidates = @(),
+
+        [string]$Kind = 'text',
+
+        [bool]$NeedsReview = $false,
+
+        [bool]$IsInferred = $false
+    )
+
+    $selected = Get-SelectedFieldCandidate -Candidates $Candidates -Kind $Kind
+    $sources = @(Get-FieldSourceList -Candidates $Candidates -Kind $Kind)
+    $statusProfile = Get-FieldStatusProfile -SelectedCandidate $selected -Sources $sources -NeedsReview $NeedsReview -IsInferred $IsInferred
+
+    $defaultValue = if ($Kind -in @('number', 'date')) { $null } else { '' }
+
+    return [ordered]@{
+        value = if ($selected) { $selected.value } else { $defaultValue }
+        selectedSource = if ($selected) { [string]$selected.source } else { '' }
+        sources = $sources
+        status = [string]$statusProfile.status
+        confidence = [string]$statusProfile.confidence
+    }
+}
+
+function Get-ConfidenceWeight {
+    param(
+        [AllowNull()]
+        [string]$Level
+    )
+
+    switch ((Get-CleanText -Value $Level).ToLowerInvariant()) {
+        'alta' { return 3 }
+        'media' { return 2 }
+        default { return 1 }
+    }
+}
+
+function Get-OverallConfidence {
+    param(
+        [string[]]$Levels = @()
+    )
+
+    if (@($Levels).Count -eq 0) {
+        return 'baixa'
+    }
+
+    $weights = @($Levels | ForEach-Object { Get-ConfidenceWeight -Level $_ })
+    $average = ($weights | Measure-Object -Average).Average
+
+    if ($average -ge 2.6) {
+        return 'alta'
+    }
+    if ($average -ge 1.8) {
+        return 'media'
+    }
+
+    return 'baixa'
+}
+
+function Get-AdditiveSummary {
+    param(
+        [AllowNull()]
+        [object]$OfficialContract,
+
+        [AllowNull()]
+        [object[]]$Movements = @()
+    )
+
+    $portalCount = 0
+    try {
+        $portalCount = [int](Get-ObjectValue -Item $OfficialContract -Name 'aditiveCount')
+    }
+    catch {
+        $portalCount = 0
+    }
+
+    $diaryAdditives = @($Movements | Where-Object { (Get-CleanText -Value (Get-ObjectValue -Item $_ -Name 'type')) -eq 'Termo Aditivo' })
+    $apostilles = @($Movements | Where-Object { (Get-CleanText -Value (Get-ObjectValue -Item $_ -Name 'type')) -eq 'Apostilamento' })
+    $terminations = @($Movements | Where-Object { (Get-CleanText -Value (Get-ObjectValue -Item $_ -Name 'type')) -eq 'Rescisao' })
+    $latestAdditive = $diaryAdditives | Sort-Object @{ Expression = { Convert-ToDateTimeSafe -Value $_.publishedAt }; Descending = $true } | Select-Object -First 1
+    $knownCount = [Math]::Max($portalCount, @($diaryAdditives).Count)
+
+    return [ordered]@{
+        isAdditivado = [bool]($knownCount -gt 0)
+        totalKnown = [int]$knownCount
+        portalCount = [int]$portalCount
+        diaryCount = [int](@($diaryAdditives).Count)
+        apostilleCount = [int](@($apostilles).Count)
+        terminationCount = [int](@($terminations).Count)
+        latestAdditiveAt = Convert-ToIsoString -Value (Get-ObjectValue -Item $latestAdditive -Name 'publishedAt')
+    }
+}
+
+function Get-SourceEvidence {
+    param(
+        [AllowNull()]
+        [object]$OfficialContract,
+
+        [AllowNull()]
+        [object[]]$Movements = @(),
+
+        [AllowNull()]
+        [object]$LatestMovement,
+
+        [string]$SourceStatus = ''
+    )
+
+    $movementList = @($Movements)
+    $movementTypeCount = @{}
+    $diaryIds = New-Object System.Collections.ArrayList
+
+    foreach ($movement in $movementList) {
+        $type = Get-CleanText -Value (Get-ObjectValue -Item $movement -Name 'type')
+        if (-not [string]::IsNullOrWhiteSpace($type)) {
+            if (-not $movementTypeCount.ContainsKey($type)) {
+                $movementTypeCount[$type] = 0
+            }
+            $movementTypeCount[$type] = [int]$movementTypeCount[$type] + 1
+        }
+
+        $diaryId = Get-CleanText -Value (Get-ObjectValue -Item $movement -Name 'diaryId')
+        if (-not [string]::IsNullOrWhiteSpace($diaryId) -and $diaryId -notin $diaryIds) {
+            [void]$diaryIds.Add($diaryId)
+        }
+    }
+
+    $movementTypes = @(
+        $movementTypeCount.GetEnumerator() |
+        Sort-Object @{ Expression = { $_.Value }; Descending = $true }, @{ Expression = { $_.Name }; Descending = $false } |
+        ForEach-Object {
+            [pscustomobject][ordered]@{
+                type = [string]$_.Name
+                count = [int]$_.Value
+            }
+        }
+    )
+
+    $movementCount = [int](($movementList | Measure-Object).Count)
+
+    return [ordered]@{
+        sourceStatus = $SourceStatus
+        diary = [ordered]@{
+            hasDiary = [bool]($movementCount -gt 0)
+            movementCount = $movementCount
+            diaryIds = @($diaryIds)
+            latestDiaryId = Get-CleanText -Value (Get-ObjectValue -Item $LatestMovement -Name 'diaryId')
+            latestEdition = Get-CleanText -Value (Get-ObjectValue -Item $LatestMovement -Name 'edition')
+            latestPublishedAt = Convert-ToIsoString -Value (Get-ObjectValue -Item $LatestMovement -Name 'publishedAt')
+            latestActTitle = Get-CleanText -Value (Get-ObjectValue -Item $LatestMovement -Name 'actTitle')
+            movementTypes = $movementTypes
+            latestViewUrl = Get-CleanText -Value (Get-ObjectValue -Item $LatestMovement -Name 'viewUrl')
+        }
+        portal = [ordered]@{
+            hasPortal = [bool]$OfficialContract
+            portalContractId = Get-CleanText -Value (Get-ObjectValue -Item $OfficialContract -Name 'portalContractId')
+            updatedAt = Convert-ToIsoString -Value (Get-ObjectValue -Item $OfficialContract -Name 'updatedAt')
+            publishedAt = Convert-ToIsoString -Value (Get-ObjectValue -Item $OfficialContract -Name 'publishedAt')
+            portalStatus = Get-CleanText -Value (Get-ObjectValue -Item $OfficialContract -Name 'portalStatus')
+            aditiveCount = [int]$(if ($OfficialContract) { Get-ObjectValue -Item $OfficialContract -Name 'aditiveCount' -Default 0 } else { 0 })
+            viewUrl = Get-CleanText -Value (Get-ObjectValue -Item $OfficialContract -Name 'viewUrl')
+        }
+    }
+}
+
+function New-ResponsibilityRoleModel {
+    param(
+        [Parameter(Mandatory = $true)]
+        [hashtable]$Person,
+
+        [bool]$ExonerationSignal = $false
+    )
+
+    $needsReview = [bool]$Person.needsReview
+    $nameField = New-FieldProfile -Candidates @(@{ source = 'diario'; value = (Get-ObjectValue -Item $Person -Name 'name') }) -NeedsReview $needsReview
+    $roleField = New-FieldProfile -Candidates @(@{ source = 'diario'; value = (Get-ObjectValue -Item $Person -Name 'role') }) -NeedsReview $needsReview
+    $assignedAtField = New-FieldProfile -Candidates @(@{ source = 'diario'; value = (Get-ObjectValue -Item $Person -Name 'assignedAt') }) -Kind 'date' -NeedsReview $needsReview
+
+    $status = if ($ExonerationSignal) {
+        'exoneracao_sinalizada'
+    }
+    elseif ($needsReview) {
+        'revisao'
+    }
+    elseif (-not [string]::IsNullOrWhiteSpace([string]$nameField.value)) {
+        'confirmado'
+    }
+    else {
+        'nao_localizado'
+    }
+
+    return [ordered]@{
+        name = $nameField.value
+        role = $roleField.value
+        assignedAt = $assignedAtField.value
+        status = $status
+        confidence = Get-OverallConfidence -Levels @($nameField.confidence, $roleField.confidence, $assignedAtField.confidence)
+        needsReview = $needsReview
+        exonerationSignal = [bool]$ExonerationSignal
+        fields = [ordered]@{
+            name = $nameField
+            role = $roleField
+            assignedAt = $assignedAtField
+        }
+    }
+}
+
+function New-MasterContractModel {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Id,
+
+        [Parameter(Mandatory = $true)]
+        [string]$NormalizedKey,
+
+        [AllowNull()]
+        [object]$Profile,
+
+        [AllowNull()]
+        [object]$OfficialContract,
+
+        [AllowNull()]
+        [object[]]$Movements = @(),
+
+        [AllowNull()]
+        [object]$PreferredMovement,
+
+        [AllowNull()]
+        [object]$LatestMovement,
+
+        [AllowNull()]
+        [hashtable]$Vigency = @{},
+
+        [Parameter(Mandatory = $true)]
+        [hashtable]$Manager,
+
+        [Parameter(Mandatory = $true)]
+        [hashtable]$Inspector,
+
+        [string]$ManagementState = '',
+
+        [string]$ManagementSummary = '',
+
+        [bool]$ManagerExonerationSignal = $false,
+
+        [bool]$InspectorExonerationSignal = $false,
+
+        [string]$Administration = '',
+
+        [AllowNull()]
+        [object]$Year = $null,
+
+        [string]$Organization = '',
+
+        [string]$SourceStatus = ''
+    )
+
+    $contractNumberField = New-FieldProfile -Candidates @(
+        @{ source = 'perfil'; value = (Get-ObjectValue -Item $Profile -Name 'contractNumber') },
+        @{ source = 'diario'; value = (Get-ObjectValue -Item $PreferredMovement -Name 'contractNumber') },
+        @{ source = 'diario'; value = (Get-ObjectValue -Item $LatestMovement -Name 'contractNumber') },
+        @{ source = 'portal'; value = (Get-ObjectValue -Item $OfficialContract -Name 'contractNumber') },
+        @{ source = 'inferencia'; value = $NormalizedKey }
+    )
+
+    $processNumberField = New-FieldProfile -Candidates @(
+        @{ source = 'perfil'; value = (Get-ObjectValue -Item $Profile -Name 'processNumber') },
+        @{ source = 'diario'; value = (Get-ObjectValue -Item $PreferredMovement -Name 'processNumber') },
+        @{ source = 'diario'; value = (Get-ObjectValue -Item $LatestMovement -Name 'processNumber') },
+        @{ source = 'portal'; value = (Get-ObjectValue -Item $OfficialContract -Name 'processNumber') }
+    )
+
+    $organizationField = New-FieldProfile -Candidates @(
+        @{ source = 'diario'; value = (Get-ObjectValue -Item $PreferredMovement -Name 'primaryOrganizationName') },
+        @{ source = 'diario'; value = (Get-ObjectValue -Item $LatestMovement -Name 'primaryOrganizationName') },
+        @{ source = 'portal'; value = (Get-ObjectValue -Item $OfficialContract -Name 'primaryOrganizationName') }
+    )
+
+    $supplierField = New-FieldProfile -Candidates @(
+        @{ source = 'diario'; value = (Get-ObjectValue -Item $PreferredMovement -Name 'contractor') },
+        @{ source = 'diario'; value = (Get-ObjectValue -Item $LatestMovement -Name 'contractor') },
+        @{ source = 'portal'; value = (Get-ObjectValue -Item $OfficialContract -Name 'contractor') }
+    )
+
+    $supplierDocumentField = New-FieldProfile -Candidates @(
+        @{ source = 'diario'; value = (Get-ObjectValue -Item $PreferredMovement -Name 'cnpj') },
+        @{ source = 'diario'; value = (Get-ObjectValue -Item $LatestMovement -Name 'cnpj') },
+        @{ source = 'portal'; value = (Get-ObjectValue -Item $OfficialContract -Name 'cnpj') }
+    )
+
+    $objectField = New-FieldProfile -Candidates @(
+        @{ source = 'diario'; value = (Get-ObjectValue -Item $PreferredMovement -Name 'object') },
+        @{ source = 'diario'; value = (Get-ObjectValue -Item $LatestMovement -Name 'object') },
+        @{ source = 'portal'; value = (Get-ObjectValue -Item $OfficialContract -Name 'object') }
+    )
+
+    $valueLabelField = New-FieldProfile -Candidates @(
+        @{ source = 'diario'; value = (Get-ObjectValue -Item $PreferredMovement -Name 'value') },
+        @{ source = 'diario'; value = (Get-ObjectValue -Item $LatestMovement -Name 'value') },
+        @{ source = 'portal'; value = (Get-ObjectValue -Item $OfficialContract -Name 'value') }
+    )
+
+    $valueAmountField = New-FieldProfile -Candidates @(
+        @{ source = 'diario'; value = (Get-ObjectValue -Item $PreferredMovement -Name 'valueNumber') },
+        @{ source = 'diario'; value = (Get-ObjectValue -Item $LatestMovement -Name 'valueNumber') },
+        @{ source = 'portal'; value = (Get-ObjectValue -Item $OfficialContract -Name 'valueNumber') }
+    ) -Kind 'number'
+
+    $startDateField = New-FieldProfile -Candidates @(
+        @{ source = 'portal'; value = (Get-ObjectValue -Item $OfficialContract -Name 'signatureDate') },
+        @{ source = 'portal'; value = (Get-ObjectValue -Item (Get-ObjectValue -Item $OfficialContract -Name 'vigency') -Name 'signatureDate') },
+        @{ source = 'diario'; value = (Get-ObjectValue -Item $PreferredMovement -Name 'signatureDate') },
+        @{ source = 'diario'; value = (Get-ObjectValue -Item $LatestMovement -Name 'signatureDate') }
+    ) -Kind 'date'
+
+    $endDateField = New-FieldProfile -Candidates @(
+        @{ source = 'portal'; value = (Get-ObjectValue -Item (Get-ObjectValue -Item $OfficialContract -Name 'vigency') -Name 'endDate') },
+        @{ source = 'inferencia'; value = (Get-ObjectValue -Item $Vigency -Name 'endDate') }
+    ) -Kind 'date' -IsInferred ([string](Get-ObjectValue -Item $Vigency -Name 'state') -eq 'vigente_inferido')
+
+    $additives = Get-AdditiveSummary -OfficialContract $OfficialContract -Movements $Movements
+    $sources = Get-SourceEvidence -OfficialContract $OfficialContract -Movements $Movements -LatestMovement $LatestMovement -SourceStatus $SourceStatus
+    $managerModel = New-ResponsibilityRoleModel -Person $Manager -ExonerationSignal $ManagerExonerationSignal
+    $inspectorModel = New-ResponsibilityRoleModel -Person $Inspector -ExonerationSignal $InspectorExonerationSignal
+    $valueConfidence = Get-OverallConfidence -Levels @($valueLabelField.confidence, $valueAmountField.confidence)
+    $termConfidence = Get-OverallConfidence -Levels @($startDateField.confidence, $endDateField.confidence)
+    $additivesConfidence = if ([bool]$additives.isAdditivado) {
+        if ([int]$additives.portalCount -gt 0 -and [int]$additives.diaryCount -gt 0) { 'alta' } else { 'media' }
+    }
+    elseif ($OfficialContract) {
+        'media'
+    }
+    else {
+        'baixa'
+    }
+
+    $overallConfidence = Get-OverallConfidence -Levels @(
+        $contractNumberField.confidence,
+        $objectField.confidence,
+        $supplierField.confidence,
+        $termConfidence,
+        $managerModel.confidence,
+        $inspectorModel.confidence
+    )
+
+    $missingFields = New-Object System.Collections.ArrayList
+    foreach ($item in @(
+        @{ name = 'processNumber'; present = -not [string]::IsNullOrWhiteSpace([string]$processNumberField.value) },
+        @{ name = 'object'; present = -not [string]::IsNullOrWhiteSpace([string]$objectField.value) },
+        @{ name = 'supplier'; present = -not [string]::IsNullOrWhiteSpace([string]$supplierField.value) },
+        @{ name = 'manager'; present = -not [string]::IsNullOrWhiteSpace([string]$managerModel.name) },
+        @{ name = 'inspector'; present = -not [string]::IsNullOrWhiteSpace([string]$inspectorModel.name) },
+        @{ name = 'startDate'; present = $null -ne $startDateField.value },
+        @{ name = 'endDate'; present = $null -ne $endDateField.value }
+    )) {
+        if (-not [bool]$item.present) {
+            [void]$missingFields.Add([string]$item.name)
+        }
+    }
+
+    return [pscustomobject][ordered]@{
+        id = $Id
+        normalizedKey = $NormalizedKey
+        administration = Get-CleanText -Value $Administration
+        year = if ($null -ne $Year -and "$Year" -ne '') { [int]$Year } else { $null }
+        contractNumber = $contractNumberField.value
+        processNumber = $processNumberField.value
+        organization = if (-not [string]::IsNullOrWhiteSpace([string]$organizationField.value)) { $organizationField.value } else { Get-CleanText -Value $Organization }
+        supplier = [ordered]@{
+            name = $supplierField.value
+            document = $supplierDocumentField.value
+            confidence = Get-OverallConfidence -Levels @($supplierField.confidence, $supplierDocumentField.confidence)
+            fields = [ordered]@{
+                name = $supplierField
+                document = $supplierDocumentField
+            }
+        }
+        object = $objectField.value
+        value = [ordered]@{
+            amount = $valueAmountField.value
+            label = $valueLabelField.value
+            confidence = $valueConfidence
+            fields = [ordered]@{
+                amount = $valueAmountField
+                label = $valueLabelField
+            }
+        }
+        term = [ordered]@{
+            startDate = $startDateField.value
+            endDate = $endDateField.value
+            daysUntilEnd = Get-ObjectValue -Item $Vigency -Name 'daysUntilEnd'
+            state = Get-CleanText -Value (Get-ObjectValue -Item $Vigency -Name 'state')
+            label = Get-CleanText -Value (Get-ObjectValue -Item $Vigency -Name 'label')
+            sourceLabel = Get-CleanText -Value (Get-ObjectValue -Item $Vigency -Name 'sourceLabel')
+            isCurrent = [bool](Get-ObjectValue -Item $Vigency -Name 'isCurrent')
+            isConfirmed = [bool](Get-ObjectValue -Item $Vigency -Name 'isConfirmed')
+            confidence = $termConfidence
+            fields = [ordered]@{
+                startDate = $startDateField
+                endDate = $endDateField
+            }
+        }
+        additives = $additives
+        responsibilities = [ordered]@{
+            state = $ManagementState
+            summary = $ManagementSummary
+            manager = $managerModel
+            inspector = $inspectorModel
+        }
+        sources = $sources
+        confidence = [ordered]@{
+            overall = $overallConfidence
+            contractNumber = $contractNumberField.confidence
+            processNumber = $processNumberField.confidence
+            organization = $organizationField.confidence
+            supplier = $supplierField.confidence
+            object = $objectField.confidence
+            value = $valueConfidence
+            term = $termConfidence
+            manager = $managerModel.confidence
+            inspector = $inspectorModel.confidence
+            additives = $additivesConfidence
+        }
+        missingFields = @($missingFields)
+    }
+}
+
 $source = Get-Content -LiteralPath $SourcePath -Raw | ConvertFrom-Json
 
 $movementGroups = @{}
@@ -886,6 +1485,7 @@ foreach ($item in @($source.crossSourceDivergences)) {
 
 $usedPortalIds = @{}
 $records = New-Object System.Collections.ArrayList
+$masterContracts = New-Object System.Collections.ArrayList
 
 foreach ($profile in @($source.managementProfiles)) {
     $normalizedKey = Get-NormalizedContractKey -Value $profile.contractKey
@@ -928,6 +1528,12 @@ foreach ($profile in @($source.managementProfiles)) {
         (Get-ObjectValue -Item $preferredMovement -Name 'object'),
         (Get-ObjectValue -Item $latestMovement -Name 'object'),
         (Get-ObjectValue -Item $officialContract -Name 'object')
+    )
+    $processNumber = Get-PreferredTextValue -Values @(
+        (Get-ObjectValue -Item $profile -Name 'processNumber'),
+        (Get-ObjectValue -Item $preferredMovement -Name 'processNumber'),
+        (Get-ObjectValue -Item $latestMovement -Name 'processNumber'),
+        (Get-ObjectValue -Item $officialContract -Name 'processNumber')
     )
     $valueNumber = Get-PreferredNumericValue -Values @(
         (Get-ObjectValue -Item $preferredMovement -Name 'valueNumber'),
@@ -986,11 +1592,38 @@ foreach ($profile in @($source.managementProfiles)) {
         }
     }
 
+    $recordId = 'profile:' + $normalizedKey
+    $masterId = 'master:' + $normalizedKey
+    $additives = Get-AdditiveSummary -OfficialContract $officialContract -Movements $movements
+
+    [void]$masterContracts.Add((New-MasterContractModel `
+        -Id $masterId `
+        -NormalizedKey $normalizedKey `
+        -Profile $profile `
+        -OfficialContract $officialContract `
+        -Movements $movements `
+        -PreferredMovement $preferredMovement `
+        -LatestMovement $latestMovement `
+        -Vigency $vigency `
+        -Manager $manager `
+        -Inspector $inspector `
+        -ManagementState $managementState `
+        -ManagementSummary $managementSummary `
+        -ManagerExonerationSignal $managerExonerationSignal `
+        -InspectorExonerationSignal $inspectorExonerationSignal `
+        -Administration (Get-AdministrationLabel -Year $year) `
+        -Year $year `
+        -Organization $organization `
+        -SourceStatus $(if ($officialContract) { 'cruzado' } else { 'somente_diario' })
+    ))
+
     [void]$records.Add([pscustomobject][ordered]@{
-        id = 'profile:' + $normalizedKey
+        id = $recordId
+        masterContractId = $masterId
         recordType = 'diario_monitorado'
         normalizedKey = $normalizedKey
         contractNumber = Get-PreferredTextValue -Values @($profile.contractNumber, $preferredMovement.contractNumber, $latestMovement.contractNumber, $normalizedKey)
+        processNumber = $processNumber
         administration = Get-AdministrationLabel -Year $year
         year = $year
         organization = $organization
@@ -999,6 +1632,7 @@ foreach ($profile in @($source.managementProfiles)) {
         valueLabel = $valueLabel
         valueNumber = $valueNumber
         vigency = $vigency
+        additives = $additives
         managementState = $managementState
         managementSummary = $managementSummary
         manager = $manager
@@ -1030,6 +1664,8 @@ foreach ($official in @($source.officialContracts | Sort-Object @{ Expression = 
     $movements = if ($movementGroups.ContainsKey($normalizedKey)) { @($movementGroups[$normalizedKey]) } else { @() }
     $vigency = Get-RecordVigency -OfficialContract $official -Movements $movements
     $year = Get-ContractYear -NormalizedKey $normalizedKey -Movements $movements -OfficialContract $official
+    $latestMovement = $movements | Sort-Object @{ Expression = { Convert-ToDateTimeSafe -Value $_.publishedAt }; Descending = $true } | Select-Object -First 1
+    $preferredMovement = Get-PreferredMovement -Movements $movements
     $alerts = New-Object System.Collections.ArrayList
 
     if ($vigency.isCurrent -and -not @($movements).Count) {
@@ -1051,11 +1687,38 @@ foreach ($official in @($source.officialContracts | Sort-Object @{ Expression = 
         }
     }
 
+    $recordId = 'official:' + $(if ($portalId) { $portalId } else { $normalizedKey })
+    $masterId = 'master:' + $(if ($portalId) { $portalId } else { $normalizedKey })
+    $emptyManager = [ordered]@{ name = ''; role = ''; assignedAt = $null; needsReview = $false }
+    $emptyInspector = [ordered]@{ name = ''; role = ''; assignedAt = $null; needsReview = $false }
+    $additives = Get-AdditiveSummary -OfficialContract $official -Movements $movements
+
+    [void]$masterContracts.Add((New-MasterContractModel `
+        -Id $masterId `
+        -NormalizedKey $normalizedKey `
+        -Profile $null `
+        -OfficialContract $official `
+        -Movements $movements `
+        -PreferredMovement $preferredMovement `
+        -LatestMovement $latestMovement `
+        -Vigency $vigency `
+        -Manager $emptyManager `
+        -Inspector $emptyInspector `
+        -ManagementState 'sem_gestor_e_fiscal' `
+        -ManagementSummary (Get-CleanText -Value $official.managementSummary) `
+        -Administration (Get-AdministrationLabel -Year $year) `
+        -Year $year `
+        -Organization (Get-CleanText -Value (Get-ObjectValue -Item $official -Name 'primaryOrganizationName')) `
+        -SourceStatus $(if (@($movements).Count) { 'cruzado' } else { 'somente_portal' })
+    ))
+
     [void]$records.Add([pscustomobject][ordered]@{
-        id = 'official:' + $(if ($portalId) { $portalId } else { $normalizedKey })
+        id = $recordId
+        masterContractId = $masterId
         recordType = 'portal_oficial'
         normalizedKey = $normalizedKey
         contractNumber = Get-PreferredTextValue -Values @($official.contractNumber, $normalizedKey)
+        processNumber = Get-CleanText -Value (Get-ObjectValue -Item $official -Name 'processNumber')
         administration = Get-AdministrationLabel -Year $year
         year = $year
         organization = Get-CleanText -Value (Get-ObjectValue -Item $official -Name 'primaryOrganizationName')
@@ -1064,11 +1727,12 @@ foreach ($official in @($source.officialContracts | Sort-Object @{ Expression = 
         valueLabel = Get-CleanText -Value (Get-ObjectValue -Item $official -Name 'value')
         valueNumber = Get-PreferredNumericValue -Values @((Get-ObjectValue -Item $official -Name 'valueNumber'))
         vigency = $vigency
+        additives = $additives
         managementState = 'sem_gestor_e_fiscal'
         managementSummary = Get-CleanText -Value $official.managementSummary
-        manager = [ordered]@{ name = ''; role = ''; assignedAt = $null; needsReview = $false }
-        inspector = [ordered]@{ name = ''; role = ''; assignedAt = $null; needsReview = $false }
-        hasDiary = [bool]@($movements).Count
+        manager = $emptyManager
+        inspector = $emptyInspector
+        hasDiary = [bool](@($movements).Count)
         hasOfficialPortal = $true
         sourceStatus = if (@($movements).Count) { 'cruzado' } else { 'somente_portal' }
         publishedAt = Convert-ToIsoString -Value (Get-ObjectValue -Item $official -Name 'publishedAt')
@@ -1079,7 +1743,7 @@ foreach ($official in @($source.officialContracts | Sort-Object @{ Expression = 
         alertCount = @($alerts).Count
         alerts = @($alerts | Sort-Object weight -Descending)
         links = [ordered]@{
-            diary = Get-CleanText -Value $(if (@($movements).Count) { (Get-ObjectValue -Item (@($movements | Sort-Object @{ Expression = { Convert-ToDateTimeSafe -Value $_.publishedAt }; Descending = $true } | Select-Object -First 1)) -Name 'viewUrl') } else { '' })
+            diary = Get-CleanText -Value (Get-ObjectValue -Item $latestMovement -Name 'viewUrl')
             portal = Get-CleanText -Value (Get-ObjectValue -Item $official -Name 'viewUrl')
         }
     })
@@ -1092,6 +1756,21 @@ $sortedRecords = @(
         @{ Expression = { -1 * [int]$_.alertWeight } }, `
         @{ Expression = { Convert-ToDateTimeSafe -Value $_.managementActAt }; Descending = $true }, `
         @{ Expression = { Convert-ToDateTimeSafe -Value $_.publishedAt }; Descending = $true }
+)
+
+$masterById = @{}
+foreach ($master in @($masterContracts)) {
+    $masterById[[string]$master.id] = $master
+}
+
+$sortedMasterContracts = @(
+    $sortedRecords |
+    ForEach-Object {
+        $masterId = [string]$_.masterContractId
+        if (-not [string]::IsNullOrWhiteSpace($masterId) -and $masterById.ContainsKey($masterId)) {
+            $masterById[$masterId]
+        }
+    }
 )
 
 $currentRecords = @($sortedRecords | Where-Object { [bool]$_.vigency.isCurrent })
@@ -1109,8 +1788,27 @@ $organizationSummary = @(
     }
 )
 
+$masterSummary = [ordered]@{
+    totalContracts = [int](@($sortedMasterContracts).Count)
+    withContractNumber = [int](@($sortedMasterContracts | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_.contractNumber) }).Count)
+    withProcessNumber = [int](@($sortedMasterContracts | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_.processNumber) }).Count)
+    withObject = [int](@($sortedMasterContracts | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_.object) }).Count)
+    withSupplier = [int](@($sortedMasterContracts | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_.supplier.name) }).Count)
+    withValue = [int](@($sortedMasterContracts | Where-Object { $null -ne $_.value.amount -or -not [string]::IsNullOrWhiteSpace([string]$_.value.label) }).Count)
+    withStartDate = [int](@($sortedMasterContracts | Where-Object { $null -ne $_.term.startDate }).Count)
+    withEndDate = [int](@($sortedMasterContracts | Where-Object { $null -ne $_.term.endDate }).Count)
+    withManager = [int](@($sortedMasterContracts | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_.responsibilities.manager.name) }).Count)
+    withInspector = [int](@($sortedMasterContracts | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_.responsibilities.inspector.name) }).Count)
+    withCompleteResponsibilities = [int](@($sortedMasterContracts | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_.responsibilities.manager.name) -and -not [string]::IsNullOrWhiteSpace([string]$_.responsibilities.inspector.name) }).Count)
+    aditivados = [int](@($sortedMasterContracts | Where-Object { [bool]$_.additives.isAdditivado }).Count)
+    highOverallConfidence = [int](@($sortedMasterContracts | Where-Object { [string]$_.confidence.overall -eq 'alta' }).Count)
+    mediumOverallConfidence = [int](@($sortedMasterContracts | Where-Object { [string]$_.confidence.overall -eq 'media' }).Count)
+    lowOverallConfidence = [int](@($sortedMasterContracts | Where-Object { [string]$_.confidence.overall -eq 'baixa' }).Count)
+}
+
 $payload = [ordered]@{
     generatedAt = Convert-ToIsoString -Value $source.generatedAt
+    masterSchemaVersion = '2026-04-01.1'
     methodology = [ordered]@{
         title = 'Leitura cruzada de contratos vigentes e responsáveis'
         summary = 'O painel cruza Diário Oficial, contratos do portal e eventos de gestão contratual para destacar vigência, gestor, fiscal e alertas de vacância.'
@@ -1147,6 +1845,8 @@ $payload = [ordered]@{
         scopeStates = @('atuais', 'todos')
     }
     organizationSummary = $organizationSummary
+    masterSummary = $masterSummary
+    masterContracts = $sortedMasterContracts
     records = $sortedRecords
 }
 
@@ -1155,5 +1855,5 @@ if (-not (Test-Path -LiteralPath $outputDirectory)) {
     New-Item -ItemType Directory -Path $outputDirectory -Force | Out-Null
 }
 
-$payload | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $OutputPath -Encoding UTF8
+$payload | ConvertTo-Json -Depth 10 | Set-Content -LiteralPath $OutputPath -Encoding UTF8
 Write-Output ('Arquivo público gerado em ' + $OutputPath)

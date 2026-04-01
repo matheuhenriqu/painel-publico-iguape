@@ -129,13 +129,18 @@ Assert-FileExists -Path $StylesPath
 
 $dashboard = Get-Content -LiteralPath $DashboardDataPath -Raw -Encoding utf8 | ConvertFrom-Json
 $records = @($dashboard.records)
+$masterContracts = @($dashboard.masterContracts)
 $summary = $dashboard.summary
+$masterSummary = $dashboard.masterSummary
 $filters = $dashboard.filters
 
 Assert-Condition -Condition ($null -ne $summary) -Message 'Dashboard summary missing.'
+Assert-Condition -Condition ($null -ne $masterSummary) -Message 'Dashboard masterSummary missing.'
 Assert-Condition -Condition ($null -ne $filters) -Message 'Dashboard filters missing.'
 Assert-Condition -Condition ($records.Count -gt 0) -Message 'No contracts were generated for the public dashboard.'
+Assert-Condition -Condition ($masterContracts.Count -gt 0) -Message 'No canonical contracts were generated for the public dashboard.'
 Assert-Condition -Condition ($null -ne (Get-JsonValue -Item $dashboard -PropertyName 'generatedAt')) -Message 'generatedAt is missing.'
+Assert-Condition -Condition ($null -ne (Get-JsonValue -Item $dashboard -PropertyName 'masterSchemaVersion')) -Message 'masterSchemaVersion is missing.'
 
 $generatedAt = [DateTime]::MinValue
 Assert-Condition -Condition ([DateTime]::TryParse([string]$dashboard.generatedAt, [ref]$generatedAt)) -Message 'generatedAt is invalid.'
@@ -148,6 +153,8 @@ $currentRecords = @(
 
 Assert-Condition -Condition ($currentRecords.Count -gt 0) -Message 'No current contracts were generated for the public dashboard.'
 Assert-Condition -Condition ([int]$summary.contratosAtuais -eq $currentRecords.Count) -Message 'Summary mismatch: contratosAtuais.'
+Assert-Condition -Condition ($masterContracts.Count -eq $records.Count) -Message 'Canonical model mismatch: masterContracts count.'
+Assert-Condition -Condition ([int]$masterSummary.totalContracts -eq $masterContracts.Count) -Message 'Summary mismatch: masterSummary.totalContracts.'
 Assert-Condition -Condition ([int]$summary.semGestor -eq @($currentRecords | Where-Object { $_.managementState -eq 'sem_gestor' -or $_.managementState -eq 'sem_gestor_e_fiscal' }).Count) -Message 'Summary mismatch: semGestor.'
 Assert-Condition -Condition ([int]$summary.semFiscal -eq @($currentRecords | Where-Object { $_.managementState -eq 'sem_fiscal' -or $_.managementState -eq 'sem_gestor_e_fiscal' }).Count) -Message 'Summary mismatch: semFiscal.'
 Assert-Condition -Condition ([int]$summary.semGestorEFiscal -eq @($currentRecords | Where-Object { $_.managementState -eq 'sem_gestor_e_fiscal' }).Count) -Message 'Summary mismatch: semGestorEFiscal.'
@@ -155,6 +162,20 @@ Assert-Condition -Condition ([int]$summary.comResponsaveisCompletos -eq @($curre
 Assert-Condition -Condition ([int]$summary.somenteDiario -eq @($currentRecords | Where-Object { $_.sourceStatus -eq 'somente_diario' }).Count) -Message 'Summary mismatch: somenteDiario.'
 Assert-Condition -Condition ([int]$summary.somentePortal -eq @($currentRecords | Where-Object { $_.sourceStatus -eq 'somente_portal' }).Count) -Message 'Summary mismatch: somentePortal.'
 Assert-Condition -Condition ([int]$summary.cruzados -eq @($currentRecords | Where-Object { $_.sourceStatus -eq 'cruzado' }).Count) -Message 'Summary mismatch: cruzados.'
+Assert-Condition -Condition ([int]$masterSummary.withObject -eq @($masterContracts | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_.object) }).Count) -Message 'Summary mismatch: masterSummary.withObject.'
+Assert-Condition -Condition ([int]$masterSummary.withSupplier -eq @($masterContracts | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_.supplier.name) }).Count) -Message 'Summary mismatch: masterSummary.withSupplier.'
+Assert-Condition -Condition ([int]$masterSummary.withProcessNumber -eq @($masterContracts | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_.processNumber) }).Count) -Message 'Summary mismatch: masterSummary.withProcessNumber.'
+Assert-Condition -Condition ([int]$masterSummary.withManager -eq @($masterContracts | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_.responsibilities.manager.name) }).Count) -Message 'Summary mismatch: masterSummary.withManager.'
+Assert-Condition -Condition ([int]$masterSummary.withInspector -eq @($masterContracts | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_.responsibilities.inspector.name) }).Count) -Message 'Summary mismatch: masterSummary.withInspector.'
+Assert-Condition -Condition ([int]$masterSummary.withEndDate -eq @($masterContracts | Where-Object { $null -ne $_.term.endDate }).Count) -Message 'Summary mismatch: masterSummary.withEndDate.'
+Assert-Condition -Condition ([int]$masterSummary.aditivados -eq @($masterContracts | Where-Object { [bool]$_.additives.isAdditivado }).Count) -Message 'Summary mismatch: masterSummary.aditivados.'
+
+$masterIds = @($masterContracts | ForEach-Object { [string]$_.id })
+foreach ($record in $records) {
+    $masterId = [string](Get-JsonValue -Item $record -PropertyName 'masterContractId')
+    Assert-Condition -Condition (-not [string]::IsNullOrWhiteSpace($masterId)) -Message 'Record without masterContractId.'
+    Assert-Condition -Condition ($masterIds -contains $masterId) -Message "Record references unknown masterContractId: $masterId"
+}
 
 $externalUrls = @(Get-ExternalUrls -Records $records)
 foreach ($entry in $externalUrls) {

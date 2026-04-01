@@ -117,6 +117,8 @@
     coverageGrid: document.getElementById("coverage-grid"),
     sourceGrid: document.getElementById("source-grid"),
     deadlineGrid: document.getElementById("deadline-grid"),
+    pendingDeadlineSummary: document.getElementById("pending-deadline-summary"),
+    pendingDeadlineRecords: document.getElementById("pending-deadline-records"),
     recentMovements: document.getElementById("recent-movements"),
     insightList: document.getElementById("insight-list"),
     alertsSummary: document.getElementById("alerts-summary"),
@@ -888,6 +890,77 @@
     ]);
   }
 
+  function getPendingResponsibilityWithDeadlineRecords(records = getCurrentRecords()) {
+    return records
+      .filter(
+        (record) =>
+          (record.managementState === "sem_gestor" ||
+            record.managementState === "sem_fiscal" ||
+            record.managementState === "sem_gestor_e_fiscal") &&
+          record._endDate
+      )
+      .sort((a, b) => {
+        const aDays = a.vigency?.daysUntilEnd ?? Number.MAX_SAFE_INTEGER;
+        const bDays = b.vigency?.daysUntilEnd ?? Number.MAX_SAFE_INTEGER;
+        if (aDays !== bDays) return aDays - bDays;
+        return compareByPriority(a, b);
+      });
+  }
+
+  function renderPendingDeadlineAnalysis() {
+    const currentRecords = getCurrentRecords();
+    const pendingWithDeadline = getPendingResponsibilityWithDeadlineRecords(currentRecords);
+    const withoutManager = pendingWithDeadline.filter((record) => record.managementState === "sem_gestor");
+    const withoutInspector = pendingWithDeadline.filter((record) => record.managementState === "sem_fiscal");
+    const withoutBoth = pendingWithDeadline.filter((record) => record.managementState === "sem_gestor_e_fiscal");
+
+    elements.pendingDeadlineSummary.textContent =
+      pendingWithDeadline.length > 0
+        ? `${formatNumber(pendingWithDeadline.length)} contrato(s) sem gestor ou fiscal têm prazo final identificado.`
+        : "Nenhum contrato sem gestor ou fiscal tem prazo final identificado.";
+
+    if (!pendingWithDeadline.length) {
+      setHtml(elements.pendingDeadlineRecords, `<div class="empty-state">Sem pendências com prazo identificado.</div>`);
+      return;
+    }
+
+    setHtml(
+      elements.pendingDeadlineRecords,
+      `
+        <article class="compact-card">
+          <strong>${formatNumber(withoutManager.length)}</strong>
+          <span>Sem gestor com prazo</span>
+        </article>
+        <article class="compact-card">
+          <strong>${formatNumber(withoutInspector.length)}</strong>
+          <span>Sem fiscal com prazo</span>
+        </article>
+        <article class="compact-card">
+          <strong>${formatNumber(withoutBoth.length)}</strong>
+          <span>Sem responsáveis com prazo</span>
+        </article>
+        ${pendingWithDeadline
+          .slice(0, 6)
+          .map(
+            (record) => `
+              <article class="compact-record">
+                <div class="compact-record-copy">
+                  <strong>${escapeHtml(record.contractNumber || "Contrato sem número")}</strong>
+                  <span>${escapeHtml(getLabel("management", record.managementState))}</span>
+                  <small>${escapeHtml(record.organization || "Órgão não informado")}</small>
+                </div>
+                <div class="compact-record-meta">
+                  <strong>${escapeHtml(formatDate(record._endDate))}</strong>
+                  <small>${escapeHtml(formatDayDelta(record.vigency?.daysUntilEnd))}</small>
+                </div>
+              </article>
+            `
+          )
+          .join("")}
+      `
+    );
+  }
+
   function renderOrganizationSummary() {
     const list = state.payload.organizationSummary || [];
     if (!list.length) {
@@ -1277,6 +1350,11 @@
         detail: "Pendência de fiscalização",
       },
       {
+        label: "Pendências com prazo",
+        value: formatNumber(getPendingResponsibilityWithDeadlineRecords(alertRecords).length),
+        detail: "Sem gestor ou fiscal com vigência identificada",
+      },
+      {
         label: "Apenas Diário Oficial",
         value: formatNumber(summary.diaryOnly),
         detail: "Sem confirmação cruzada",
@@ -1376,6 +1454,7 @@
     renderCoverageGrid();
     renderSourceGrid();
     renderDeadlineGrid();
+    renderPendingDeadlineAnalysis();
     renderOrganizationSummary();
     renderRecentMovements();
     renderInsights();
@@ -1676,6 +1755,8 @@
     setHtml(elements.coverageGrid, `<div class="empty-state">${escapeHtml(message)}</div>`);
     setHtml(elements.sourceGrid, `<div class="empty-state">${escapeHtml(message)}</div>`);
     setHtml(elements.deadlineGrid, `<div class="empty-state">${escapeHtml(message)}</div>`);
+    elements.pendingDeadlineSummary.textContent = message;
+    setHtml(elements.pendingDeadlineRecords, `<div class="empty-state">${escapeHtml(message)}</div>`);
     setHtml(elements.organizationSummary, `<div class="empty-state">${escapeHtml(message)}</div>`);
     setHtml(elements.recentMovements, `<div class="empty-state">${escapeHtml(message)}</div>`);
     setHtml(elements.insightList, `<div class="empty-state">${escapeHtml(message)}</div>`);

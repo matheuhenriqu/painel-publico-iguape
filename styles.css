@@ -440,6 +440,68 @@ a {
   font-size: 0.92rem;
 }
 
+.inline-panel {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  display: grid;
+  gap: 12px;
+}
+
+.inline-panel-summary {
+  color: var(--text-soft);
+  font-size: 0.94rem;
+  line-height: 1.6;
+}
+
+.compact-list {
+  display: grid;
+  gap: 10px;
+}
+
+.compact-card,
+.compact-record {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-soft);
+}
+
+.compact-card {
+  padding: 14px 16px;
+  display: grid;
+  gap: 4px;
+}
+
+.compact-card strong,
+.compact-record strong {
+  color: var(--text);
+}
+
+.compact-card span,
+.compact-record span,
+.compact-record small {
+  color: var(--text-soft);
+}
+
+.compact-record {
+  padding: 14px 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.compact-record-copy,
+.compact-record-meta {
+  display: grid;
+  gap: 4px;
+}
+
+.compact-record-meta {
+  text-align: right;
+  flex: none;
+}
+
 .status-card strong {
   color: var(--text);
 }
@@ -954,6 +1016,7 @@ a {
   .results-bar,
   .toolbar-actions,
   .movement-item,
+  .compact-record,
   .record-head,
   .footer {
     flex-direction: column;
@@ -978,6 +1041,10 @@ a {
 
   .organization-summary {
     grid-template-columns: 1fr;
+  }
+
+  .compact-record-meta {
+    text-align: left;
   }
 }
 

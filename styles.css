@@ -1,27 +1,31 @@
 :root {
-  --page-bg: #f2f4f7;
-  --page-bg-soft: #f7f8fa;
+  --page-bg: #eef2f6;
+  --page-bg-soft: #f8fafc;
   --surface: #ffffff;
-  --surface-muted: #f8f9fb;
-  --surface-soft: #fff4ea;
-  --line: #d9dee6;
-  --line-strong: #c8d0db;
-  --ink: #20252c;
-  --ink-soft: #5e6a78;
-  --ink-muted: #8a94a2;
-  --accent: #e26d14;
-  --accent-strong: #c55708;
-  --accent-deep: #8f3b00;
-  --accent-soft: #fff0e3;
-  --success: #14795d;
+  --surface-muted: #f5f7fa;
+  --surface-soft: #eef4f9;
+  --line: #d7dee7;
+  --line-strong: #c4cfdb;
+  --ink: #1f2933;
+  --ink-soft: #59697a;
+  --ink-muted: #8190a0;
+  --brand: #245173;
+  --brand-strong: #183a54;
+  --brand-deep: #10273b;
+  --brand-soft: #e8f1f8;
+  --accent: #c4712f;
+  --accent-strong: #9f5821;
+  --accent-deep: #734019;
+  --accent-soft: #f8ece1;
+  --success: #1c7a5e;
   --success-soft: #ebfaf5;
-  --warning: #ba7a13;
+  --warning: #a8741d;
   --warning-soft: #fff7e7;
-  --danger: #b44a3d;
+  --danger: #b05045;
   --danger-soft: #fff0ee;
   --info: #0d5f95;
-  --shadow-sm: 0 12px 28px rgba(18, 26, 36, 0.05);
-  --shadow-md: 0 24px 48px rgba(18, 26, 36, 0.08);
+  --shadow-sm: 0 12px 28px rgba(16, 39, 59, 0.06);
+  --shadow-md: 0 24px 48px rgba(16, 39, 59, 0.12);
   --radius-xl: 28px;
   --radius-lg: 22px;
   --radius-md: 16px;
@@ -48,7 +52,7 @@ body {
 
 body {
   background:
-    linear-gradient(180deg, rgba(226, 109, 20, 0.08) 0, rgba(226, 109, 20, 0) 180px),
+    linear-gradient(180deg, rgba(36, 81, 115, 0.08) 0, rgba(36, 81, 115, 0) 220px),
     linear-gradient(180deg, var(--page-bg-soft), var(--page-bg));
   color: var(--ink);
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -111,7 +115,7 @@ button {
 }
 
 .government-bar {
-  background: linear-gradient(90deg, var(--accent-strong), var(--accent));
+  background: linear-gradient(90deg, var(--brand-strong), var(--brand));
   color: #fff;
   padding: 11px 24px;
   display: flex;
@@ -293,9 +297,9 @@ button {
 
 .utility-pill {
   min-height: 30px;
-  background: var(--surface-soft);
-  border-color: rgba(226, 109, 20, 0.15);
-  color: var(--accent-deep);
+  background: var(--brand-soft);
+  border-color: rgba(36, 81, 115, 0.14);
+  color: var(--brand-strong);
 }
 
 .utility-pill.muted {
@@ -309,12 +313,12 @@ button {
 .hero-secondary-link,
 .insight-action,
 .type-pill {
-  color: var(--accent-strong);
+  color: var(--brand-strong);
 }
 
 .portal-nav {
   padding: 0 14px;
-  background: linear-gradient(90deg, var(--accent-strong), var(--accent));
+  background: linear-gradient(90deg, var(--brand-strong), var(--brand));
   display: flex;
   gap: 6px;
   overflow-x: auto;
@@ -369,7 +373,7 @@ button {
 }
 
 .view-button span {
-  color: var(--accent-strong);
+  color: var(--brand-strong);
   font-size: 0.95rem;
   font-weight: 800;
 }
@@ -382,9 +386,9 @@ button {
 }
 
 .view-button.active {
-  border-color: rgba(226, 109, 20, 0.3);
-  background: linear-gradient(180deg, #fff, var(--accent-soft));
-  box-shadow: 0 14px 30px rgba(226, 109, 20, 0.08);
+  border-color: rgba(36, 81, 115, 0.24);
+  background: linear-gradient(180deg, #fff, var(--brand-soft));
+  box-shadow: 0 14px 30px rgba(36, 81, 115, 0.1);
 }
 
 .hero-grid,
@@ -425,7 +429,7 @@ button {
   position: relative;
   overflow: hidden;
   background:
-    linear-gradient(135deg, rgba(243, 120, 20, 0.98), rgba(203, 83, 10, 0.98)),
+    linear-gradient(135deg, rgba(36, 81, 115, 0.98), rgba(22, 58, 84, 0.98)),
     linear-gradient(90deg, rgba(255, 255, 255, 0.08), transparent);
   color: #fff;
   box-shadow: var(--shadow-md);
@@ -442,6 +446,17 @@ button {
   background:
     radial-gradient(circle at 82% 26%, rgba(255, 255, 255, 0.18), transparent 28%),
     linear-gradient(180deg, rgba(255, 255, 255, 0.08), transparent 45%);
+  pointer-events: none;
+}
+
+.hero-feature::after {
+  content: "";
+  position: absolute;
+  inset: auto -80px -120px auto;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(196, 113, 47, 0.18), rgba(196, 113, 47, 0) 68%);
   pointer-events: none;
 }
 
@@ -477,8 +492,8 @@ button {
   min-height: 42px;
   padding: 0 16px;
   border-radius: 999px;
-  background: #fff;
-  color: var(--accent-strong);
+  background: var(--accent);
+  color: #fff;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -697,8 +712,8 @@ button {
 .spotlight-box {
   display: grid;
   gap: 8px;
-  background: linear-gradient(180deg, var(--surface-soft), #fffaf5);
-  border-color: rgba(226, 109, 20, 0.18);
+  background: linear-gradient(180deg, var(--brand-soft), #f8fbfd);
+  border-color: rgba(36, 81, 115, 0.16);
 }
 
 .spotlight-box span:last-child,
@@ -730,7 +745,7 @@ button {
   right: 0;
   top: 0;
   height: 4px;
-  background: linear-gradient(90deg, var(--accent-strong), var(--accent));
+  background: linear-gradient(90deg, var(--brand), var(--accent));
 }
 
 .panel-head {
@@ -826,8 +841,8 @@ button {
 }
 
 .quick-filter-button.active {
-  border-color: rgba(226, 109, 20, 0.35);
-  background: linear-gradient(180deg, #fff, var(--accent-soft));
+  border-color: rgba(36, 81, 115, 0.28);
+  background: linear-gradient(180deg, #fff, var(--brand-soft));
 }
 
 .quick-filter-button-recent::before,
@@ -1037,15 +1052,15 @@ button {
 }
 
 .type-pill.active {
-  background: var(--accent);
-  border-color: var(--accent);
+  background: var(--brand);
+  border-color: var(--brand);
   color: #fff;
 }
 
 .records-intro {
   margin-bottom: 18px;
-  background: linear-gradient(180deg, var(--surface-soft), #fffaf5);
-  border-color: rgba(226, 109, 20, 0.18);
+  background: linear-gradient(180deg, var(--brand-soft), #f8fbfd);
+  border-color: rgba(36, 81, 115, 0.16);
 }
 
 .records-intro-copy {
@@ -1090,9 +1105,9 @@ button {
 .badge {
   min-height: 32px;
   padding: 0 12px;
-  background: var(--accent-soft);
-  border-color: rgba(226, 109, 20, 0.18);
-  color: var(--accent-deep);
+  background: var(--brand-soft);
+  border-color: rgba(36, 81, 115, 0.16);
+  color: var(--brand-strong);
 }
 
 .badge.neutral {
@@ -1169,8 +1184,8 @@ button {
 }
 
 .site-footer {
-  background: #2b3037;
-  border-color: #2b3037;
+  background: var(--brand-deep);
+  border-color: var(--brand-deep);
   color: rgba(255, 255, 255, 0.88);
   padding: 24px;
 }

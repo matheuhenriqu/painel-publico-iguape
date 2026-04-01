@@ -98,7 +98,7 @@ button {
 }
 
 .page-shell {
-  width: min(1240px, calc(100% - 32px));
+  width: min(1360px, calc(100% - 32px));
   margin: 18px auto 28px;
   display: grid;
   gap: 22px;
@@ -141,7 +141,7 @@ button {
 .portal-masthead {
   padding: 24px;
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.95fr) auto;
+  grid-template-columns: minmax(0, 1.25fr) minmax(320px, 0.92fr) auto;
   gap: 18px;
   align-items: center;
 }
@@ -415,10 +415,10 @@ button {
 
 .hero-grid {
   padding: 24px;
-  grid-template-columns: minmax(0, 1.42fr) minmax(320px, 0.82fr);
+  grid-template-columns: minmax(0, 1.5fr) minmax(320px, 0.78fr);
   gap: 22px;
   background:
-    linear-gradient(180deg, rgba(226, 109, 20, 0.04), transparent 180px),
+    linear-gradient(180deg, rgba(36, 81, 115, 0.04), transparent 180px),
     var(--surface);
 }
 
@@ -884,7 +884,7 @@ button {
 }
 
 .controls-grid {
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: minmax(240px, 1.45fr) repeat(5, minmax(0, 1fr));
   gap: 14px;
 }
 
@@ -919,7 +919,7 @@ button {
 }
 
 .content-grid {
-  grid-template-columns: minmax(0, 1.18fr) minmax(340px, 0.82fr);
+  grid-template-columns: minmax(0, 1.22fr) minmax(360px, 0.78fr);
   gap: 22px;
   align-items: start;
 }
@@ -1288,7 +1288,7 @@ a:focus-visible {
   }
 
   .controls-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: minmax(220px, 1.4fr) repeat(2, minmax(0, 1fr));
   }
 
   .hero-feature {
@@ -1344,6 +1344,10 @@ a:focus-visible {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .controls-grid label:first-child {
+    grid-column: 1 / -1;
+  }
+
   .contract-card {
     grid-template-columns: 1fr;
   }
@@ -1360,6 +1364,9 @@ a:focus-visible {
 @media (max-width: 640px) {
   .page-shell {
     width: min(100%, calc(100% - 12px));
+    margin-top: 8px;
+    margin-bottom: 18px;
+    gap: 12px;
   }
 
   .government-bar,
@@ -1458,5 +1465,303 @@ a:focus-visible {
 
   .footer-brand-block {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 540px) {
+  .page-shell {
+    width: min(100%, calc(100% - 8px));
+    margin-top: 4px;
+    margin-bottom: calc(14px + env(safe-area-inset-bottom));
+    gap: 10px;
+  }
+
+  .government-bar {
+    padding:
+      calc(8px + env(safe-area-inset-top))
+      calc(12px + env(safe-area-inset-right))
+      8px
+      calc(12px + env(safe-area-inset-left));
+    gap: 8px 12px;
+    font-size: 0.72rem;
+  }
+
+  .government-links {
+    gap: 8px 10px;
+  }
+
+  .portal-masthead,
+  .hero-grid,
+  .panel,
+  .site-footer {
+    padding-left: calc(12px + env(safe-area-inset-left));
+    padding-right: calc(12px + env(safe-area-inset-right));
+  }
+
+  .portal-masthead {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    gap: 12px;
+  }
+
+  .portal-brand {
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .brand-mark {
+    width: 56px;
+    height: 56px;
+  }
+
+  .brand-copy strong {
+    font-size: 1.58rem;
+  }
+
+  .brand-subcopy {
+    font-size: 0.82rem;
+    line-height: 1.4;
+  }
+
+  .portal-search input {
+    height: 44px;
+    padding: 0 14px;
+  }
+
+  .portal-search button {
+    min-height: 42px;
+  }
+
+  .utility-pills,
+  .utility-actions {
+    gap: 6px;
+  }
+
+  .utility-pill,
+  .utility-action,
+  .panel-link,
+  .ghost-button,
+  .hero-secondary-link,
+  .meta-chip,
+  .badge,
+  .type-pill,
+  .insight-action {
+    min-height: 32px;
+    padding: 0 10px;
+    font-size: 0.75rem;
+  }
+
+  .portal-nav {
+    padding: 0 8px;
+  }
+
+  .portal-nav a {
+    min-height: 42px;
+    padding: 0 12px;
+    font-size: 0.78rem;
+  }
+
+  .hero-grid {
+    gap: 12px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .hero-feature,
+  .hero-brief,
+  .controls-shell,
+  .side-panel,
+  .contract-card {
+    padding: 14px;
+  }
+
+  .hero-feature {
+    gap: 14px;
+  }
+
+  .hero-feature h1 {
+    margin-bottom: 10px;
+    font-size: clamp(1.85rem, 11vw, 2.4rem);
+  }
+
+  .hero-copy {
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
+
+  .hero-feature-side {
+    gap: 10px;
+  }
+
+  .hero-emblem,
+  .hero-orb-small {
+    display: none;
+  }
+
+  .hero-orb-large {
+    width: 180px;
+    height: 180px;
+    right: -48px;
+    top: auto;
+    bottom: -36px;
+  }
+
+  .hero-update-card {
+    padding: 14px;
+  }
+
+  .hero-update-title {
+    font-size: 1.08rem;
+  }
+
+  .hero-update-copy {
+    font-size: 0.84rem;
+    line-height: 1.45;
+  }
+
+  .headline-metrics {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    margin-top: 2px;
+  }
+
+  .metric-card {
+    padding: 12px;
+    gap: 4px;
+  }
+
+  .metric-card strong {
+    font-size: 1rem;
+  }
+
+  .metric-card-kicker,
+  .metric-card-label {
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+  }
+
+  .metric-card-meta {
+    font-size: 0.72rem;
+    line-height: 1.35;
+  }
+
+  .hero-sidebar {
+    gap: 12px;
+  }
+
+  .hero-brief {
+    gap: 12px;
+  }
+
+  .hero-sidebar > article.hero-brief:first-of-type,
+  .hero-brief.hero-brief-status .spotlight-box {
+    display: none !important;
+  }
+
+  .shortcut-grid,
+  .hero-brief-grid,
+  .quick-filters,
+  .selection-summary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .shortcut-card,
+  .hero-brief-card,
+  .spotlight-box,
+  .records-intro,
+  .quick-filter-button,
+  .selection-card {
+    padding: 12px;
+  }
+
+  .shortcut-card strong {
+    font-size: 0.86rem;
+  }
+
+  .shortcut-card span,
+  .selection-card p,
+  .quick-filter-button strong {
+    font-size: 0.76rem;
+    line-height: 1.35;
+  }
+
+  .view-switcher {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .view-button {
+    padding: 12px 10px;
+    gap: 4px;
+  }
+
+  .view-button span {
+    font-size: 0.8rem;
+  }
+
+  .view-button strong {
+    display: none;
+  }
+
+  .panel {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .panel-head {
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  .panel-title h2,
+  .side-panel-head h3 {
+    font-size: clamp(1.1rem, 7vw, 1.35rem);
+  }
+
+  .results-meta {
+    padding: 8px 10px;
+    font-size: 0.78rem;
+  }
+
+  .controls-shell {
+    gap: 10px;
+  }
+
+  .controls-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .controls-grid label:first-child {
+    grid-column: 1 / -1;
+  }
+
+  .controls-grid input,
+  .controls-grid select {
+    height: 44px;
+    padding: 0 12px;
+    font-size: 0.9rem;
+  }
+
+  .controls-grid label span {
+    font-size: 0.66rem;
+    letter-spacing: 0.08em;
+  }
+
+  .insight-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .contract-card {
+    gap: 14px;
+  }
+
+  .contract-summary {
+    font-size: 0.9rem;
+  }
+
+  .site-footer {
+    padding-bottom: calc(16px + env(safe-area-inset-bottom));
   }
 }

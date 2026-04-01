@@ -14,58 +14,58 @@
 
   const LABELS = {
     vigency: {
-      todos: "Todas as situações",
-      vigente_confirmado: "Vigência confirmada",
-      vigente_inferido: "Vigência inferida",
-      em_acompanhamento: "Em acompanhamento",
+      todos: "Todas",
+      vigente_confirmado: "Confirmada",
+      vigente_inferido: "Inferida",
+      em_acompanhamento: "Revisao",
       encerrado: "Encerrado",
-      sem_sinal_atual: "Sem sinal atual",
+      sem_sinal_atual: "Sem sinal",
     },
     management: {
-      todos: "Todas as situações",
-      completos: "Responsáveis completos",
-      sem_gestor: "Sem gestor atual",
-      sem_fiscal: "Sem fiscal atual",
+      todos: "Todos",
+      completos: "Completos",
+      sem_gestor: "Sem gestor",
+      sem_fiscal: "Sem fiscal",
       sem_gestor_e_fiscal: "Sem gestor e fiscal",
-      revisao: "Precisa revisão",
-      exoneracao: "Sinal de exoneração",
+      revisao: "Revisao",
+      exoneracao: "Exoneracao",
     },
     source: {
-      todos: "Todas as origens",
+      todos: "Todas",
       cruzado: "Cruzado",
-      somente_diario: "So Diario",
-      somente_portal: "Somente portal",
+      somente_diario: "Diario",
+      somente_portal: "Portal",
     },
     scope: {
-      atuais: "Somente contratos atuais",
-      todos: "Todos os contratos monitorados",
+      atuais: "Atuais",
+      todos: "Todos",
     },
   };
 
   const PRESETS = {
     semGestorEFiscal: {
       label: "Sem gestor e fiscal",
-      description: "Lista sem gestor e fiscal.",
+      description: "Sem gestor e fiscal.",
       filters: { management: "sem_gestor_e_fiscal", scope: "atuais" },
     },
     semGestor: {
       label: "Sem gestor",
-      description: "Lista sem gestor.",
+      description: "Sem gestor.",
       filters: { management: "sem_gestor", scope: "atuais" },
     },
     semFiscal: {
       label: "Sem fiscal",
-      description: "Lista sem fiscal.",
+      description: "Sem fiscal.",
       filters: { management: "sem_fiscal", scope: "atuais" },
     },
     somenteDiario: {
-      label: "So Diario",
-      description: "Lista desta origem.",
+      label: "Diario",
+      description: "Origem diario.",
       filters: { source: "somente_diario", scope: "atuais" },
     },
     completos: {
-      label: "Responsáveis completos",
-      description: "Lista com gestor e fiscal.",
+      label: "Completos",
+      description: "Gestor e fiscal.",
       filters: { management: "completos", scope: "atuais" },
     },
   };
@@ -154,14 +154,14 @@
   }
 
   function formatDate(value) {
-    if (!value) return "Não informado";
+    if (!value) return "Nao informado";
     const date = new Date(value);
     if (Number.isNaN(date.getTime())) return value;
     return new Intl.DateTimeFormat("pt-BR", { dateStyle: "medium" }).format(date);
   }
 
   function formatDateTime(value) {
-    if (!value) return "Não informado";
+    if (!value) return "Nao informado";
     const date = new Date(value);
     if (Number.isNaN(date.getTime())) return value;
     return new Intl.DateTimeFormat("pt-BR", { dateStyle: "medium", timeStyle: "short" }).format(date);
@@ -172,7 +172,7 @@
   }
 
   function formatCurrency(value) {
-    if (!value || Number(value) <= 0) return "Sem valor consolidado";
+    if (!value || Number(value) <= 0) return "Sem valor";
     return new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" }).format(Number(value));
   }
 
@@ -191,7 +191,7 @@
   }
 
   function getLabel(group, value) {
-    return LABELS[group]?.[value] || value || "Não informado";
+    return LABELS[group]?.[value] || value || "Nao informado";
   }
 
   function getToneClass(record) {
@@ -284,6 +284,7 @@
   function populateSelect(select, values, groupName, emptyValue = "todos") {
     const previous = select.value;
     select.innerHTML = "";
+
     const allOption = document.createElement("option");
     allOption.value = emptyValue;
     allOption.textContent = getLabel(groupName, emptyValue);
@@ -292,10 +293,10 @@
     values
       .filter((value) => value !== emptyValue)
       .forEach((value) => {
-      const option = document.createElement("option");
-      option.value = value;
-      option.textContent = getLabel(groupName, value);
-      select.appendChild(option);
+        const option = document.createElement("option");
+        option.value = value;
+        option.textContent = getLabel(groupName, value);
+        select.appendChild(option);
       });
 
     if ([...select.options].some((option) => option.value === previous)) {
@@ -305,28 +306,14 @@
 
   function renderSummaryCards() {
     const summary = state.payload.summary;
-    elements.summaryCards.innerHTML = [
-      {
-        label: "Contratos atuais",
-        value: summary.contratosAtuais,
-        detail: "Total atual.",
-      },
-      {
-        label: "Sem gestor e fiscal",
-        value: summary.semGestorEFiscal,
-        detail: "Sem responsáveis.",
-      },
-      {
-        label: "Responsáveis completos",
-        value: summary.comResponsaveisCompletos,
-        detail: "Com gestor e fiscal.",
-      },
-      {
-        label: "Alertas críticos",
-        value: summary.alertasCriticos,
-        detail: "Itens prioritários.",
-      },
-    ]
+    const cards = [
+      { label: "Atuais", value: summary.contratosAtuais, detail: "Contratos" },
+      { label: "Sem gestor e fiscal", value: summary.semGestorEFiscal, detail: "Pendentes" },
+      { label: "Completos", value: summary.comResponsaveisCompletos, detail: "Gestor e fiscal" },
+      { label: "Criticos", value: summary.alertasCriticos, detail: "Prioridade" },
+    ];
+
+    elements.summaryCards.innerHTML = cards
       .map(
         (card) => `
           <article class="metric-card">
@@ -341,16 +328,15 @@
 
   function renderMethodology() {
     elements.updatedAt.textContent = `Atualizado em ${formatDateTime(state.payload.generatedAt)}`;
-    elements.methodSummary.textContent = "Use as áreas abaixo.";
-    elements.methodNotes.innerHTML = ["Painel: resumo geral.", "Alertas: itens prioritários.", "Consulta: busca e filtros."]
+    elements.methodSummary.textContent = "Selecione a area.";
+    elements.methodNotes.innerHTML = ["Painel", "Alertas", "Consulta"]
       .map((note) => `<article class="note-card">${escapeHtml(note)}</article>`)
       .join("");
   }
 
   function renderHero() {
     const summary = state.payload.summary;
-    elements.heroSummary.textContent =
-      `${formatNumber(summary.contratosAtuais)} contratos atuais, ${formatNumber(summary.semGestorEFiscal)} sem gestor e fiscal, ${formatNumber(summary.comResponsaveisCompletos)} completos.`;
+    elements.heroSummary.textContent = `${formatNumber(summary.contratosAtuais)} contratos atuais.`;
     elements.heroCallout.textContent = "";
     elements.heroCallout.classList.add("hidden");
   }
@@ -358,30 +344,10 @@
   function renderStatusGrid() {
     const summary = state.payload.summary;
     const cards = [
-      {
-        label: "Vigência inferida",
-        value: summary.vigentesInferidos,
-        detail: "Prazo identificado.",
-        className: "status-card--warning",
-      },
-      {
-        label: "Em acompanhamento",
-        value: summary.emAcompanhamento,
-        detail: "Em acompanhamento.",
-        className: "status-card--warning",
-      },
-      {
-        label: "Sem gestor atual",
-        value: summary.semGestor,
-        detail: "Gestor pendente.",
-        className: "status-card--danger",
-      },
-      {
-        label: "Sem fiscal atual",
-        value: summary.semFiscal,
-        detail: "Fiscal pendente.",
-        className: "status-card--danger",
-      },
+      { label: "Inferida", value: summary.vigentesInferidos, detail: "Prazo", className: "status-card--warning" },
+      { label: "Revisao", value: summary.emAcompanhamento, detail: "Analise", className: "status-card--warning" },
+      { label: "Sem gestor", value: summary.semGestor, detail: "Pendente", className: "status-card--danger" },
+      { label: "Sem fiscal", value: summary.semFiscal, detail: "Pendente", className: "status-card--danger" },
     ];
 
     elements.statusGrid.innerHTML = cards
@@ -437,12 +403,11 @@
       .map(
         (group) => `
           <article class="priority-card">
-            <span class="eyebrow">Atalho de consulta</span>
+            <span class="eyebrow">Filtro</span>
             <strong>${escapeHtml(group.title)}</strong>
             <span class="priority-count">${formatNumber(group.count)}</span>
-            <p>${escapeHtml(PRESETS[group.preset].description)}</p>
-            <div class="priority-sample">${escapeHtml(group.sample || "Sem itens nesta lista.")}</div>
-            <button type="button" data-preset="${escapeHtml(group.preset)}">Abrir lista</button>
+            <div class="priority-sample">${escapeHtml(group.sample || "Sem itens.")}</div>
+            <button type="button" data-preset="${escapeHtml(group.preset)}">Ver</button>
           </article>
         `
       )
@@ -452,7 +417,7 @@
   function renderOrganizationSummary() {
     const list = state.payload.organizationSummary || [];
     if (!list.length) {
-      elements.organizationSummary.innerHTML = `<div class="empty-state">Sem órgãos para exibir.</div>`;
+      elements.organizationSummary.innerHTML = `<div class="empty-state">Sem itens.</div>`;
       return;
     }
 
@@ -463,7 +428,7 @@
           <div class="organization-row">
             <div class="organization-head">
               <strong>${escapeHtml(item.organization)}</strong>
-              <span>${formatNumber(item.count)} contrato(s)</span>
+              <span>${formatNumber(item.count)}</span>
             </div>
             <div class="organization-bar">
               <span style="width: ${Math.max(10, (item.count / maxCount) * 100)}%"></span>
@@ -493,20 +458,20 @@
     if (person?.name) {
       return {
         title: person.name,
-        subtitle: person.role || "Responsável atual.",
+        subtitle: person.role || "Responsavel",
       };
     }
 
     if (person?.needsReview) {
       return {
         title: "Revisar",
-        subtitle: "Nome pendente.",
+        subtitle: "Pendente",
       };
     }
 
     return {
-      title: "Não identificado",
-      subtitle: "Sem registro.",
+      title: "Nao identificado",
+      subtitle: "Sem registro",
     };
   }
 
@@ -553,26 +518,26 @@
     const manager = getPersonDisplay(record.manager);
     const inspector = getPersonDisplay(record.inspector);
     const diaryLink = record.links?.diary
-      ? `<a href="${escapeHtml(record.links.diary)}" target="_blank" rel="noopener noreferrer">Abrir Diário Oficial</a>`
+      ? `<a href="${escapeHtml(record.links.diary)}" target="_blank" rel="noopener noreferrer">Diario</a>`
       : "";
     const portalLink = record.links?.portal
-      ? `<a href="${escapeHtml(record.links.portal)}" target="_blank" rel="noopener noreferrer">Abrir portal</a>`
+      ? `<a href="${escapeHtml(record.links.portal)}" target="_blank" rel="noopener noreferrer">Portal</a>`
       : "";
 
     return `
       <article class="record-card ${getToneClass(record)}">
         <div class="record-head">
           <div class="record-heading">
-            <span class="record-number">${escapeHtml(record.contractNumber || "Contrato sem numero")}</span>
+            <span class="record-number">${escapeHtml(record.contractNumber || "Sem numero")}</span>
             <h3>${escapeHtml(record.organization || "Orgao nao identificado")}</h3>
-            <span class="record-summary">${escapeHtml(record.managementSummary || "Sem resumo.")}</span>
+            <span class="record-summary">${escapeHtml(record.managementSummary || "Sem resumo")}</span>
           </div>
           <div class="badge-row">
             ${renderBadges(record)}
           </div>
         </div>
 
-        <p class="record-object">${escapeHtml(truncateText(record.object || "Sem objeto resumido."))}</p>
+        <p class="record-object">${escapeHtml(truncateText(record.object || "Sem objeto"))}</p>
 
         <div class="record-meta">
           <div class="meta-block">
@@ -586,7 +551,7 @@
             <small>${escapeHtml(inspector.subtitle)}</small>
           </div>
           <div class="meta-block">
-            <span>Vigência</span>
+            <span>Vigencia</span>
             <strong>${escapeHtml(record.vigency?.label || "Sem vigencia")}</strong>
             <small>${escapeHtml(record.vigency?.sourceLabel || "Sem detalhe")}</small>
           </div>
@@ -615,7 +580,7 @@
           </div>
           <div class="meta-block">
             <span>Prazo final</span>
-            <strong>${record.vigency?.endDate ? escapeHtml(formatDate(record.vigency.endDate)) : "Sem data final"}</strong>
+            <strong>${record.vigency?.endDate ? escapeHtml(formatDate(record.vigency.endDate)) : "Sem data"}</strong>
             <small>${record.vigency?.daysUntilEnd != null ? `${escapeHtml(String(record.vigency.daysUntilEnd))} dia(s)` : "Sem prazo"}</small>
           </div>
         </div>
@@ -636,7 +601,7 @@
       .slice(0, 10);
 
     if (!records.length) {
-      elements.alertRecords.innerHTML = `<div class="empty-state">Sem alertas nesta lista.</div>`;
+      elements.alertRecords.innerHTML = `<div class="empty-state">Sem itens.</div>`;
       return;
     }
 
@@ -646,31 +611,23 @@
   function renderResults() {
     const filtered = getFilteredRecords();
     const visible = filtered.slice(0, state.visibleCount);
-    const currentInScope =
-      state.filters.scope === "atuais"
-        ? filtered.length
-        : filtered.filter((record) => record.vigency?.isCurrent).length;
 
-    elements.resultsMeta.textContent =
-      `${formatNumber(filtered.length)} contrato(s) exibidos. ` +
-      (state.filters.scope === "atuais"
-        ? "Mostrando contratos atuais."
-        : `${formatNumber(currentInScope)} atuais nesta lista.`);
+    elements.resultsMeta.textContent = `${formatNumber(filtered.length)} contratos`;
 
     const activeFilters = [];
     if (state.filters.query) activeFilters.push(`Busca: ${state.filters.query}`);
-    if (state.filters.organization) activeFilters.push(`Órgão: ${state.filters.organization}`);
-    if (state.filters.administration) activeFilters.push(`Gestão: ${state.filters.administration}`);
-    if (state.filters.vigency !== "todos") activeFilters.push(`Vigência: ${getLabel("vigency", state.filters.vigency)}`);
-    if (state.filters.management !== "todos") activeFilters.push(`Responsável: ${getLabel("management", state.filters.management)}`);
-    if (state.filters.source !== "todos") activeFilters.push(`Fonte: ${getLabel("source", state.filters.source)}`);
+    if (state.filters.organization) activeFilters.push(`Orgao: ${state.filters.organization}`);
+    if (state.filters.administration) activeFilters.push(`Gestao: ${state.filters.administration}`);
+    if (state.filters.vigency !== "todos") activeFilters.push(`Vigencia: ${getLabel("vigency", state.filters.vigency)}`);
+    if (state.filters.management !== "todos") activeFilters.push(`Responsavel: ${getLabel("management", state.filters.management)}`);
+    if (state.filters.source !== "todos") activeFilters.push(`Origem: ${getLabel("source", state.filters.source)}`);
     if (state.filters.scope !== DEFAULT_FILTERS.scope) activeFilters.push(`Escopo: ${getLabel("scope", state.filters.scope)}`);
-    elements.activeFilterSummary.textContent = activeFilters.length
-      ? activeFilters.join(" · ")
-      : "Sem filtros extras.";
+
+    elements.activeFilterSummary.textContent = activeFilters.join(" · ");
+    elements.activeFilterSummary.classList.toggle("hidden", activeFilters.length === 0);
 
     if (!visible.length) {
-      elements.recordList.innerHTML = `<div class="empty-state">Nenhum contrato encontrado.</div>`;
+      elements.recordList.innerHTML = `<div class="empty-state">Sem resultados.</div>`;
       elements.loadMore.classList.add("hidden");
       return;
     }
@@ -680,7 +637,7 @@
   }
 
   function renderFooter() {
-    elements.footerCopy.textContent = "Painel atualizado.";
+    elements.footerCopy.textContent = "Atualizado.";
   }
 
   function renderAll() {
@@ -767,7 +724,7 @@
 
     const response = await fetch(`./data/contracts-dashboard.json?ts=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) {
-      throw new Error(`Falha ao carregar a base pública (${response.status}).`);
+      throw new Error("Dados indisponiveis.");
     }
 
     state.payload = await response.json();
@@ -780,33 +737,37 @@
     const setPlainOptions = (select, values, emptyLabel) => {
       const previous = select.value;
       select.innerHTML = "";
+
       const empty = document.createElement("option");
       empty.value = "";
       empty.textContent = emptyLabel;
       select.appendChild(empty);
+
       values.forEach((value) => {
         const option = document.createElement("option");
         option.value = value;
         option.textContent = value;
         select.appendChild(option);
       });
+
       if ([...select.options].some((option) => option.value === previous)) {
         select.value = previous;
       }
     };
 
-    setPlainOptions(elements.organizationSelect, state.payload.filters.organizations || [], "Todos os órgãos");
-    setPlainOptions(elements.administrationSelect, state.payload.filters.administrations || [], "Todas as gestões");
+    setPlainOptions(elements.organizationSelect, state.payload.filters.organizations || [], "Todos");
+    setPlainOptions(elements.administrationSelect, state.payload.filters.administrations || [], "Todas");
     syncControls();
     setView(state.view);
     bindEvents();
     renderAll();
   }
 
-  bootstrap().catch((error) => {
-    const message = escapeHtml(error.message || "Não foi possível carregar a base pública.");
-    elements.heroSummary.textContent = "Falha ao carregar os dados públicos do painel.";
-    elements.heroCallout.textContent = error.message || "Não foi possível carregar a base pública.";
+  bootstrap().catch(() => {
+    const message = "Dados indisponiveis.";
+    elements.heroSummary.textContent = message;
+    elements.heroCallout.textContent = "";
+    elements.heroCallout.classList.add("hidden");
     elements.summaryCards.innerHTML = `<div class="empty-state">${message}</div>`;
     elements.methodNotes.innerHTML = `<div class="empty-state">${message}</div>`;
     elements.statusGrid.innerHTML = `<div class="empty-state">${message}</div>`;

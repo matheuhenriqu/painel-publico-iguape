@@ -6,11 +6,11 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="theme-color" content="#184a78">
-  <meta name="description" content="Painel de contratos vigentes de Iguape/SP com gestor, fiscal e alertas.">
-  <meta property="og:title" content="Contratos Vigentes e Responsáveis | Iguape/SP">
-  <meta property="og:description" content="Painel de contratos vigentes com gestor, fiscal e alertas.">
+  <meta name="description" content="Contratos vigentes de Iguape/SP.">
+  <meta property="og:title" content="Contratos Vigentes | Iguape/SP">
+  <meta property="og:description" content="Contratos vigentes, gestor e fiscal.">
   <meta property="og:type" content="website">
-  <title>Contratos Vigentes e Responsáveis | Iguape/SP</title>
+  <title>Contratos Vigentes | Iguape/SP</title>
   <link rel="icon" type="image/png" href="./assets/iguape-brasao.png">
   <link rel="stylesheet" href="./styles.css">
 </head>
@@ -18,25 +18,25 @@
   <main class="shell">
     <header class="topbar card">
       <div class="brand">
-        <img class="brand-mark" src="./assets/iguape-brasao.png" alt="Brasão da Prefeitura de Iguape">
+        <img class="brand-mark" src="./assets/iguape-brasao.png" alt="Brasao da Prefeitura de Iguape">
         <div class="brand-copy">
           <span class="eyebrow">Prefeitura de Iguape</span>
-          <h1>Contratos vigentes, gestor e fiscal</h1>
-          <p>Painel para ver contratos atuais, gestor, fiscal e alertas.</p>
+          <h1>Contratos vigentes</h1>
+          <p>Gestor, fiscal e vigencia.</p>
         </div>
       </div>
 
       <div class="topbar-actions">
         <a class="ghost-link" href="https://www.iguape.sp.gov.br/" target="_blank" rel="noopener noreferrer">Portal oficial</a>
-        <a class="ghost-link" href="https://www.iguape.sp.gov.br/portal/diario-oficial" target="_blank" rel="noopener noreferrer">Diário Oficial</a>
+        <a class="ghost-link" href="https://www.iguape.sp.gov.br/portal/diario-oficial" target="_blank" rel="noopener noreferrer">Diario Oficial</a>
       </div>
     </header>
 
     <section class="hero card">
       <div class="hero-copy">
-        <span class="eyebrow">Visão geral</span>
-        <h2>Contratos atuais e responsáveis.</h2>
-        <p id="hero-summary" class="hero-summary">Carregando resumo...</p>
+        <span class="eyebrow">Resumo</span>
+        <h2>Consulta rapida.</h2>
+        <p id="hero-summary" class="hero-summary">Atualizando...</p>
         <div id="hero-callout" class="hero-callout"></div>
       </div>
 
@@ -51,14 +51,14 @@
     <section class="methodology card">
       <div class="section-head">
         <div>
-          <span class="eyebrow">Navegação</span>
-          <h2>Escolha a área</h2>
+          <span class="eyebrow">Navegacao</span>
+          <h2>Escolha a area</h2>
         </div>
         <div id="updated-at" class="updated-at">Atualizando...</div>
       </div>
 
       <p id="method-summary" class="method-summary">
-        Carregando atalhos...
+        Atualizando...
       </p>
 
       <div id="method-notes" class="method-notes">
@@ -68,7 +68,7 @@
       </div>
     </section>
 
-    <section class="view-switcher card" aria-label="Navegação do painel">
+    <section class="view-switcher card" aria-label="Navegacao do painel">
       <button class="view-button active" type="button" data-view-button="overview">
         <span class="eyebrow">Resumo</span>
         <strong>Painel</strong>
@@ -88,8 +88,8 @@
         <section class="card">
           <div class="section-head">
             <div>
-              <span class="eyebrow">Situação atual</span>
-              <h2>Leitura rápida da base</h2>
+              <span class="eyebrow">Situacao</span>
+              <h2>Base atual</h2>
             </div>
           </div>
           <div id="status-grid" class="status-grid">
@@ -103,12 +103,12 @@
         <section class="card">
           <div class="section-head">
             <div>
-              <span class="eyebrow">Distribuição</span>
-              <h2>Órgãos com mais contratos atuais</h2>
+              <span class="eyebrow">Orgaos</span>
+              <h2>Mais contratos atuais</h2>
             </div>
           </div>
           <div id="organization-summary" class="organization-summary">
-            <div class="empty-state">Carregando órgãos...</div>
+            <div class="empty-state">Atualizando...</div>
           </div>
         </section>
       </div>
@@ -116,8 +116,8 @@
       <section class="card">
         <div class="section-head">
           <div>
-            <span class="eyebrow">Pontos de atenção</span>
-            <h2>Atalhos para o que mais importa</h2>
+            <span class="eyebrow">Atalhos</span>
+            <h2>Listas rapidas</h2>
           </div>
         </div>
         <div id="priority-groups" class="priority-grid">
@@ -133,13 +133,13 @@
       <section class="card">
         <div class="section-head">
           <div>
-            <span class="eyebrow">Alertas operacionais</span>
-            <h2>Contratos que pedem atenção primeiro</h2>
+            <span class="eyebrow">Alertas</span>
+            <h2>Prioridades</h2>
           </div>
-          <p class="section-copy">Lista priorizada.</p>
+          <p class="section-copy"></p>
         </div>
         <div id="alert-records" class="record-list">
-          <div class="empty-state">Carregando alertas...</div>
+          <div class="empty-state">Atualizando...</div>
         </div>
       </section>
     </section>
@@ -156,7 +156,7 @@
         <div class="filters-grid">
           <label class="field">
             <span>Busca</span>
-            <input id="search-input" type="search" placeholder="Contrato, órgão, gestor, fiscal ou objeto">
+            <input id="search-input" type="search" placeholder="Contrato, orgao, gestor, fiscal ou objeto">
           </label>
 
           <label class="field">
@@ -165,22 +165,22 @@
           </label>
 
           <label class="field">
-            <span>Órgão</span>
+            <span>Orgao</span>
             <select id="organization-select"></select>
           </label>
 
           <label class="field">
-            <span>Gestão / período</span>
+            <span>Gestao / periodo</span>
             <select id="administration-select"></select>
           </label>
 
           <label class="field">
-            <span>Vigência</span>
+            <span>Vigencia</span>
             <select id="vigency-select"></select>
           </label>
 
           <label class="field">
-            <span>Situação do responsável</span>
+            <span>Responsavel</span>
             <select id="management-select"></select>
           </label>
 
@@ -195,14 +195,14 @@
 
       <section class="results-section">
         <div class="results-bar">
-          <div id="results-meta" class="results-meta">Preparando resultados...</div>
+          <div id="results-meta" class="results-meta">Atualizando...</div>
           <button id="clear-filters" class="secondary-button" type="button">Limpar filtros</button>
         </div>
 
         <div id="active-filter-summary" class="active-filter-summary"></div>
 
         <div id="record-list" class="record-list">
-          <div class="empty-state">Carregando contratos...</div>
+          <div class="empty-state">Atualizando...</div>
         </div>
 
         <button id="load-more" class="load-more" type="button">Mostrar mais</button>
@@ -211,10 +211,10 @@
 
     <footer class="footer card">
       <div>
-        <span class="eyebrow">Painel público</span>
-        <strong>Contratos vigentes e responsáveis</strong>
+        <span class="eyebrow">Painel</span>
+        <strong>Contratos vigentes</strong>
       </div>
-      <p id="footer-copy">Atualizando painel...</p>
+      <p id="footer-copy">Atualizando...</p>
     </footer>
   </main>
 

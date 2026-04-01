@@ -135,6 +135,12 @@ a {
   margin: 10px 0 0;
 }
 
+.section-copy:empty,
+.hero-callout:empty,
+.footer p:empty {
+  display: none;
+}
+
 .eyebrow {
   display: inline-flex;
   align-items: center;

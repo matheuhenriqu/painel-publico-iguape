@@ -52,7 +52,7 @@
       <div class="section-head">
         <div>
           <span class="eyebrow">Navegação</span>
-          <h2>Selecione o módulo</h2>
+          <h2>Áreas do painel</h2>
         </div>
         <div id="updated-at" class="updated-at">Atualizando...</div>
       </div>
@@ -210,116 +210,150 @@
     </section>
 
     <section class="view-section hidden" data-view-panel="alerts">
-      <section class="card">
-        <div class="section-head">
-          <div>
-            <span class="eyebrow">Ocorrências</span>
-            <h2>Registros prioritários</h2>
+      <div class="alerts-layout">
+        <section class="card alerts-overview-card">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">Ocorrências</span>
+              <h2>Registros prioritários</h2>
+            </div>
+            <p id="alerts-summary" class="section-copy"></p>
           </div>
-          <p id="alerts-summary" class="section-copy"></p>
-        </div>
-        <div id="alert-summary-grid" class="analysis-grid">
-          <article class="analysis-card skeleton"></article>
-          <article class="analysis-card skeleton"></article>
-          <article class="analysis-card skeleton"></article>
-          <article class="analysis-card skeleton"></article>
-        </div>
-      </section>
+          <div id="alert-summary-grid" class="analysis-grid">
+            <article class="analysis-card skeleton"></article>
+            <article class="analysis-card skeleton"></article>
+            <article class="analysis-card skeleton"></article>
+            <article class="analysis-card skeleton"></article>
+          </div>
+        </section>
 
-      <section class="card">
-        <div id="alert-records" class="record-list">
-          <div class="empty-state">Atualizando...</div>
-        </div>
-      </section>
+        <section class="card alerts-records-card">
+          <div class="section-head section-head--compact">
+            <div>
+              <span class="eyebrow">Lista</span>
+              <h2>Contratos sinalizados</h2>
+            </div>
+          </div>
+          <div id="alert-records" class="record-list">
+            <div class="empty-state">Atualizando...</div>
+          </div>
+        </section>
+      </div>
     </section>
 
     <section class="view-section hidden" data-view-panel="contracts">
-      <section class="card filters-card">
-        <div class="section-head">
-          <div>
-            <span class="eyebrow">Consulta</span>
-            <h2>Consulta de contratos</h2>
+      <div class="contracts-layout">
+        <aside class="card filters-card">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">Consulta</span>
+              <h2>Consulta de contratos</h2>
+            </div>
           </div>
-        </div>
 
-        <div class="filters-grid">
           <label class="field field--search">
             <span>Busca</span>
             <input id="search-input" type="search" placeholder="Contrato, órgão, gestor, fiscal, fornecedor ou objeto">
           </label>
 
-          <label class="field">
-            <span>Escopo</span>
-            <select id="scope-select"></select>
-          </label>
+          <div class="filter-stack">
+            <section class="filter-block">
+              <div class="filter-block-head">
+                <span class="eyebrow">Recorte</span>
+                <strong>Escopo e período</strong>
+              </div>
 
-          <label class="field">
-            <span>Órgão</span>
-            <select id="organization-select"></select>
-          </label>
+              <div class="filters-grid filters-grid--compact">
+                <label class="field">
+                  <span>Escopo</span>
+                  <select id="scope-select"></select>
+                </label>
 
-          <label class="field">
-            <span>Gestão / período</span>
-            <select id="administration-select"></select>
-          </label>
+                <label class="field">
+                  <span>Órgão</span>
+                  <select id="organization-select"></select>
+                </label>
 
-          <label class="field">
-            <span>Vigência</span>
-            <select id="vigency-select"></select>
-          </label>
+                <label class="field">
+                  <span>Gestão / período</span>
+                  <select id="administration-select"></select>
+                </label>
 
-          <label class="field">
-            <span>Situação dos responsáveis</span>
-            <select id="management-select"></select>
-          </label>
+                <label class="field">
+                  <span>Vigência</span>
+                  <select id="vigency-select"></select>
+                </label>
+              </div>
+            </section>
 
-          <label class="field">
-            <span>Fonte</span>
-            <select id="source-select"></select>
-          </label>
+            <section class="filter-block">
+              <div class="filter-block-head">
+                <span class="eyebrow">Análise</span>
+                <strong>Situação e ordenação</strong>
+              </div>
 
-          <label class="field">
-            <span>Criticidade</span>
-            <select id="criticality-select"></select>
-          </label>
+              <div class="filters-grid filters-grid--compact">
+                <label class="field">
+                  <span>Situação dos responsáveis</span>
+                  <select id="management-select"></select>
+                </label>
 
-          <label class="field">
-            <span>Ordenação</span>
-            <select id="sort-select"></select>
-          </label>
-        </div>
+                <label class="field">
+                  <span>Fonte</span>
+                  <select id="source-select"></select>
+                </label>
 
-        <div id="quick-presets" class="quick-presets"></div>
-      </section>
+                <label class="field">
+                  <span>Criticidade</span>
+                  <select id="criticality-select"></select>
+                </label>
 
-      <section class="results-section">
-        <div class="results-toolbar">
-          <div class="results-bar">
-            <div id="results-meta" class="results-meta">Atualizando...</div>
-            <button id="clear-filters" class="secondary-button" type="button">Limpar filtros</button>
+                <label class="field">
+                  <span>Ordenação</span>
+                  <select id="sort-select"></select>
+                </label>
+              </div>
+            </section>
+
+            <section class="filter-block">
+              <div class="filter-block-head">
+                <span class="eyebrow">Atalhos</span>
+                <strong>Consultas rápidas</strong>
+              </div>
+              <div id="quick-presets" class="quick-presets"></div>
+            </section>
+          </div>
+        </aside>
+
+        <section class="card results-section">
+          <div class="results-toolbar">
+            <div class="results-bar">
+              <div id="results-meta" class="results-meta">Atualizando...</div>
+              <button id="clear-filters" class="secondary-button" type="button">Limpar filtros</button>
+            </div>
+
+            <div class="toolbar-actions">
+              <button id="share-view" class="secondary-button" type="button">Compartilhar consulta</button>
+              <button id="export-csv" class="secondary-button" type="button">Exportar CSV</button>
+            </div>
           </div>
 
-          <div class="toolbar-actions">
-            <button id="share-view" class="secondary-button" type="button">Compartilhar consulta</button>
-            <button id="export-csv" class="secondary-button" type="button">Exportar CSV</button>
+          <div id="active-filter-summary" class="active-filter-summary"></div>
+
+          <div id="result-insight-grid" class="result-insight-grid">
+            <article class="analysis-card skeleton"></article>
+            <article class="analysis-card skeleton"></article>
+            <article class="analysis-card skeleton"></article>
+            <article class="analysis-card skeleton"></article>
           </div>
-        </div>
 
-        <div id="active-filter-summary" class="active-filter-summary"></div>
+          <div id="record-list" class="record-list">
+            <div class="empty-state">Atualizando...</div>
+          </div>
 
-        <div id="result-insight-grid" class="result-insight-grid">
-          <article class="analysis-card skeleton"></article>
-          <article class="analysis-card skeleton"></article>
-          <article class="analysis-card skeleton"></article>
-          <article class="analysis-card skeleton"></article>
-        </div>
-
-        <div id="record-list" class="record-list">
-          <div class="empty-state">Atualizando...</div>
-        </div>
-
-        <button id="load-more" class="load-more" type="button">Mostrar mais</button>
-      </section>
+          <button id="load-more" class="load-more" type="button">Mostrar mais</button>
+        </section>
+      </div>
     </section>
 
     <footer class="footer card">

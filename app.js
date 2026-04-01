@@ -739,6 +739,52 @@
     );
   }
 
+  function renderMethodology() {
+    const summary = state.payload.summary || {};
+    const currentTotal = summary.contratosAtuais || 0;
+    const alertsTotal = summary.alertasCriticos || 0;
+    const searchableTotal = state.payload.records?.length || 0;
+
+    elements.updatedAt.textContent = `Atualizado em ${formatDateTime(state.payload.generatedAt)}`;
+    elements.methodSummary.textContent = "Escolha a \u00E1rea e siga pela navega\u00E7\u00E3o do painel.";
+    setHtml(
+      elements.methodNotes,
+      [
+        {
+          label: "Painel",
+          title: "Vis\u00E3o geral",
+          detail: `${formatNumber(currentTotal)} contratos vigentes monitorados`,
+          view: "overview",
+        },
+        {
+          label: "Ocorr\u00EAncias",
+          title: "Prioridades",
+          detail: `${formatNumber(alertsTotal)} registros com criticidade alta`,
+          view: "alerts",
+        },
+        {
+          label: "Consulta",
+          title: "Pesquisa",
+          detail: `${formatNumber(searchableTotal)} registros dispon\u00EDveis para busca`,
+          view: "contracts",
+        },
+      ]
+        .map(
+          (item) => `
+            <article class="note-card note-card--module">
+              <span class="eyebrow">${escapeHtml(item.label)}</span>
+              <strong>${escapeHtml(item.title)}</strong>
+              <span>${escapeHtml(item.detail)}</span>
+              <button class="secondary-button secondary-button--inline" type="button" data-open-view="${escapeHtml(item.view)}">
+                Abrir
+              </button>
+            </article>
+          `
+        )
+        .join("")
+    );
+  }
+
   function renderHero() {
     const summary = state.payload.summary;
     const currentTotal = summary.contratosAtuais || 0;
@@ -1666,6 +1712,12 @@
       const presetButton = event.target.closest("[data-preset]");
       if (!presetButton) return;
       applyPreset(presetButton.dataset.preset);
+    });
+
+    document.addEventListener("click", (event) => {
+      const viewButton = event.target.closest("[data-open-view]");
+      if (!viewButton) return;
+      setView(viewButton.dataset.openView);
     });
 
     window.addEventListener("popstate", () => {

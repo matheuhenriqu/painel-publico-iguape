@@ -1,0 +1,79 @@
+name: Update Public Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-data.yml"
+      - "scripts/**"
+      - "data/organization-catalog.json"
+      - "storage/analysis/**"
+      - "storage/personnel-analysis/**"
+      - "storage/diaries.json"
+      - "storage/contracts.json"
+      - "storage/portal-contracts.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-public-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: pwsh
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Restore sync cache
+        id: restore-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            storage/analysis
+            storage/personnel-analysis
+            storage/diaries.json
+            storage/contracts.json
+            storage/portal-contracts.json
+          key: public-sync-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            public-sync-${{ runner.os }}-
+
+      - name: Update public dataset
+        run: ./scripts/update-public-data.ps1
+
+      - name: Save sync cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            storage/analysis
+            storage/personnel-analysis
+            storage/diaries.json
+            storage/contracts.json
+            storage/portal-contracts.json
+          key: public-sync-${{ runner.os }}-${{ github.run_id }}
+
+      - name: Commit updated dataset
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if (git diff --quiet -- data/contracts-dashboard.json) {
+            Write-Host "Sem alteracoes no dataset publico."
+            exit 0
+          }
+
+          git add data/contracts-dashboard.json
+          git commit -m "Update public contract data"
+          git push

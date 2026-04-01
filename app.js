@@ -14,58 +14,58 @@
 
   const LABELS = {
     vigency: {
-      todos: "Todas",
-      vigente_confirmado: "Confirmada",
-      vigente_inferido: "Inferida",
-      em_acompanhamento: "Revisão",
+      todos: "Todas as situações",
+      vigente_confirmado: "Vigência confirmada",
+      vigente_inferido: "Vigência estimada",
+      em_acompanhamento: "Em validação",
       encerrado: "Encerrado",
-      sem_sinal_atual: "Sem sinal",
+      sem_sinal_atual: "Sem evidência recente",
     },
     management: {
-      todos: "Todos",
-      completos: "Completos",
-      sem_gestor: "Sem gestor",
-      sem_fiscal: "Sem fiscal",
-      sem_gestor_e_fiscal: "Sem gestor e fiscal",
-      revisao: "Revisão",
-      exoneracao: "Exoneração",
+      todos: "Todas as situações",
+      completos: "Designações completas",
+      sem_gestor: "Sem gestor designado",
+      sem_fiscal: "Sem fiscal designado",
+      sem_gestor_e_fiscal: "Sem responsáveis designados",
+      revisao: "Em revisão",
+      exoneracao: "Indício de exoneração",
     },
     source: {
-      todos: "Todas",
-      cruzado: "Cruzado",
-      somente_diario: "Diário",
-      somente_portal: "Portal",
+      todos: "Todas as fontes",
+      cruzado: "Cruzamento confirmado",
+      somente_diario: "Apenas Diário Oficial",
+      somente_portal: "Apenas Portal",
     },
     scope: {
-      atuais: "Atuais",
-      todos: "Todos",
+      atuais: "Apenas vigentes",
+      todos: "Todos os registros",
     },
   };
 
   const PRESETS = {
     semGestorEFiscal: {
-      label: "Sem gestor e fiscal",
-      description: "Sem gestor e fiscal.",
+      label: "Sem responsáveis designados",
+      description: "Registros sem responsáveis designados.",
       filters: { management: "sem_gestor_e_fiscal", scope: "atuais" },
     },
     semGestor: {
-      label: "Sem gestor",
-      description: "Sem gestor.",
+      label: "Sem gestor designado",
+      description: "Registros sem designação de gestor.",
       filters: { management: "sem_gestor", scope: "atuais" },
     },
     semFiscal: {
-      label: "Sem fiscal",
-      description: "Sem fiscal.",
+      label: "Sem fiscal designado",
+      description: "Registros sem designação de fiscal.",
       filters: { management: "sem_fiscal", scope: "atuais" },
     },
     somenteDiario: {
-      label: "Diário",
-      description: "Origem diário.",
+      label: "Apenas Diário Oficial",
+      description: "Registros sem confirmação cruzada.",
       filters: { source: "somente_diario", scope: "atuais" },
     },
     completos: {
-      label: "Completos",
-      description: "Gestor e fiscal.",
+      label: "Designações completas",
+      description: "Registros com gestor e fiscal.",
       filters: { management: "completos", scope: "atuais" },
     },
   };
@@ -307,10 +307,10 @@
   function renderSummaryCards() {
     const summary = state.payload.summary;
     const cards = [
-      { label: "Atuais", value: summary.contratosAtuais, detail: "Contratos" },
-      { label: "Sem gestor e fiscal", value: summary.semGestorEFiscal, detail: "Pendentes" },
-      { label: "Completos", value: summary.comResponsaveisCompletos, detail: "Gestor e fiscal" },
-      { label: "Críticos", value: summary.alertasCriticos, detail: "Prioridade" },
+      { label: "Contratos vigentes", value: summary.contratosAtuais, detail: "Registros atuais" },
+      { label: "Sem responsáveis designados", value: summary.semGestorEFiscal, detail: "Demandam providência" },
+      { label: "Designações completas", value: summary.comResponsaveisCompletos, detail: "Gestor e fiscal identificados" },
+      { label: "Ocorrências críticas", value: summary.alertasCriticos, detail: "Exigem atenção" },
     ];
 
     elements.summaryCards.innerHTML = cards
@@ -328,15 +328,15 @@
 
   function renderMethodology() {
     elements.updatedAt.textContent = `Atualizado em ${formatDateTime(state.payload.generatedAt)}`;
-    elements.methodSummary.textContent = "Selecione a área.";
-    elements.methodNotes.innerHTML = ["Painel", "Alertas", "Consulta"]
+    elements.methodSummary.textContent = "Acesse o módulo conforme a necessidade de consulta.";
+    elements.methodNotes.innerHTML = ["Painel gerencial", "Ocorrências prioritárias", "Consulta detalhada"]
       .map((note) => `<article class="note-card">${escapeHtml(note)}</article>`)
       .join("");
   }
 
   function renderHero() {
     const summary = state.payload.summary;
-    elements.heroSummary.textContent = `${formatNumber(summary.contratosAtuais)} contratos atuais.`;
+    elements.heroSummary.textContent = `${formatNumber(summary.contratosAtuais)} contratos vigentes monitorados.`;
     elements.heroCallout.textContent = "";
     elements.heroCallout.classList.add("hidden");
   }
@@ -344,10 +344,10 @@
   function renderStatusGrid() {
     const summary = state.payload.summary;
     const cards = [
-      { label: "Inferida", value: summary.vigentesInferidos, detail: "Prazo", className: "status-card--warning" },
-      { label: "Revisão", value: summary.emAcompanhamento, detail: "Análise", className: "status-card--warning" },
-      { label: "Sem gestor", value: summary.semGestor, detail: "Pendente", className: "status-card--danger" },
-      { label: "Sem fiscal", value: summary.semFiscal, detail: "Pendente", className: "status-card--danger" },
+      { label: "Vigência estimada", value: summary.vigentesInferidos, detail: "Prazo identificado", className: "status-card--warning" },
+      { label: "Em validação", value: summary.emAcompanhamento, detail: "Requer conferência", className: "status-card--warning" },
+      { label: "Sem gestor designado", value: summary.semGestor, detail: "Providência necessária", className: "status-card--danger" },
+      { label: "Sem fiscal designado", value: summary.semFiscal, detail: "Providência necessária", className: "status-card--danger" },
     ];
 
     elements.statusGrid.innerHTML = cards
@@ -403,11 +403,11 @@
       .map(
         (group) => `
           <article class="priority-card">
-            <span class="eyebrow">Filtro</span>
+            <span class="eyebrow">Consulta prioritária</span>
             <strong>${escapeHtml(group.title)}</strong>
             <span class="priority-count">${formatNumber(group.count)}</span>
-            <div class="priority-sample">${escapeHtml(group.sample || "Sem itens.")}</div>
-            <button type="button" data-preset="${escapeHtml(group.preset)}">Ver</button>
+            <div class="priority-sample">${escapeHtml(group.sample || "Nenhum registro disponível.")}</div>
+            <button type="button" data-preset="${escapeHtml(group.preset)}">Abrir</button>
           </article>
         `
       )
@@ -417,7 +417,7 @@
   function renderOrganizationSummary() {
     const list = state.payload.organizationSummary || [];
     if (!list.length) {
-      elements.organizationSummary.innerHTML = `<div class="empty-state">Sem itens.</div>`;
+      elements.organizationSummary.innerHTML = `<div class="empty-state">Nenhum registro disponível.</div>`;
       return;
     }
 
@@ -458,19 +458,19 @@
     if (person?.name) {
       return {
         title: person.name,
-        subtitle: person.role || "Responsável",
+        subtitle: person.role || "Responsável designado",
       };
     }
 
     if (person?.needsReview) {
       return {
-        title: "Revisar",
-        subtitle: "Pendente",
+        title: "Em validação",
+        subtitle: "Identificação pendente",
       };
     }
 
     return {
-      title: "Não identificado",
+      title: "Não informado",
       subtitle: "Sem registro",
     };
   }
@@ -518,26 +518,26 @@
     const manager = getPersonDisplay(record.manager);
     const inspector = getPersonDisplay(record.inspector);
     const diaryLink = record.links?.diary
-      ? `<a href="${escapeHtml(record.links.diary)}" target="_blank" rel="noopener noreferrer">Diário</a>`
+      ? `<a href="${escapeHtml(record.links.diary)}" target="_blank" rel="noopener noreferrer">Diário Oficial</a>`
       : "";
     const portalLink = record.links?.portal
-      ? `<a href="${escapeHtml(record.links.portal)}" target="_blank" rel="noopener noreferrer">Portal</a>`
+      ? `<a href="${escapeHtml(record.links.portal)}" target="_blank" rel="noopener noreferrer">Portal da Transparência</a>`
       : "";
 
     return `
       <article class="record-card ${getToneClass(record)}">
         <div class="record-head">
           <div class="record-heading">
-            <span class="record-number">${escapeHtml(record.contractNumber || "Sem número")}</span>
+            <span class="record-number">${escapeHtml(record.contractNumber || "Contrato sem número")}</span>
             <h3>${escapeHtml(record.organization || "Órgão não identificado")}</h3>
-            <span class="record-summary">${escapeHtml(record.managementSummary || "Sem resumo")}</span>
+            <span class="record-summary">${escapeHtml(record.managementSummary || "Síntese não disponível")}</span>
           </div>
           <div class="badge-row">
             ${renderBadges(record)}
           </div>
         </div>
 
-        <p class="record-object">${escapeHtml(truncateText(record.object || "Sem objeto"))}</p>
+        <p class="record-object">${escapeHtml(truncateText(record.object || "Objeto não informado"))}</p>
 
         <div class="record-meta">
           <div class="meta-block">
@@ -552,36 +552,36 @@
           </div>
           <div class="meta-block">
             <span>Vigência</span>
-            <strong>${escapeHtml(record.vigency?.label || "Sem vigência")}</strong>
-            <small>${escapeHtml(record.vigency?.sourceLabel || "Sem detalhe")}</small>
+            <strong>${escapeHtml(record.vigency?.label || "Vigência não informada")}</strong>
+            <small>${escapeHtml(record.vigency?.sourceLabel || "Sem detalhamento")}</small>
           </div>
           <div class="meta-block">
-            <span>Última data</span>
+            <span>Última movimentação</span>
             <strong>${escapeHtml(formatDate(record.managementActAt || record.publishedAt))}</strong>
-            <small>${escapeHtml(record.lastMovementTitle || record.administration || "Sem detalhe")}</small>
+            <small>${escapeHtml(record.lastMovementTitle || record.administration || "Sem detalhamento")}</small>
           </div>
         </div>
 
         <div class="record-meta">
           <div class="meta-block">
             <span>Fornecedor</span>
-            <strong>${escapeHtml(record.supplier || "Não identificado")}</strong>
+            <strong>${escapeHtml(record.supplier || "Não informado")}</strong>
             <small>${escapeHtml(record.valueLabel || formatCurrency(record.valueNumber))}</small>
           </div>
           <div class="meta-block">
             <span>Gestão</span>
-            <strong>${escapeHtml(record.administration || "Não identificado")}</strong>
-            <small>${escapeHtml(record.year ? `Ano ${record.year}` : "Sem ano")}</small>
+            <strong>${escapeHtml(record.administration || "Não informado")}</strong>
+            <small>${escapeHtml(record.year ? `Ano ${record.year}` : "Ano não informado")}</small>
           </div>
           <div class="meta-block">
-            <span>Origem</span>
+            <span>Fonte</span>
             <strong>${escapeHtml(getLabel("source", record.sourceStatus))}</strong>
             <small>${escapeHtml(`${record.movementCount || 0} registro(s)`)}</small>
           </div>
           <div class="meta-block">
             <span>Prazo final</span>
-            <strong>${record.vigency?.endDate ? escapeHtml(formatDate(record.vigency.endDate)) : "Sem data"}</strong>
-            <small>${record.vigency?.daysUntilEnd != null ? `${escapeHtml(String(record.vigency.daysUntilEnd))} dia(s)` : "Sem prazo"}</small>
+            <strong>${record.vigency?.endDate ? escapeHtml(formatDate(record.vigency.endDate)) : "Data não informada"}</strong>
+            <small>${record.vigency?.daysUntilEnd != null ? `${escapeHtml(String(record.vigency.daysUntilEnd))} dia(s)` : "Sem prazo definido"}</small>
           </div>
         </div>
 
@@ -601,7 +601,7 @@
       .slice(0, 10);
 
     if (!records.length) {
-      elements.alertRecords.innerHTML = `<div class="empty-state">Sem itens.</div>`;
+      elements.alertRecords.innerHTML = `<div class="empty-state">Nenhuma ocorrência prioritária.</div>`;
       return;
     }
 
@@ -612,22 +612,22 @@
     const filtered = getFilteredRecords();
     const visible = filtered.slice(0, state.visibleCount);
 
-    elements.resultsMeta.textContent = `${formatNumber(filtered.length)} contratos`;
+    elements.resultsMeta.textContent = `${formatNumber(filtered.length)} registros encontrados`;
 
     const activeFilters = [];
     if (state.filters.query) activeFilters.push(`Busca: ${state.filters.query}`);
     if (state.filters.organization) activeFilters.push(`Órgão: ${state.filters.organization}`);
     if (state.filters.administration) activeFilters.push(`Gestão: ${state.filters.administration}`);
     if (state.filters.vigency !== "todos") activeFilters.push(`Vigência: ${getLabel("vigency", state.filters.vigency)}`);
-    if (state.filters.management !== "todos") activeFilters.push(`Responsável: ${getLabel("management", state.filters.management)}`);
-    if (state.filters.source !== "todos") activeFilters.push(`Origem: ${getLabel("source", state.filters.source)}`);
+    if (state.filters.management !== "todos") activeFilters.push(`Responsáveis: ${getLabel("management", state.filters.management)}`);
+    if (state.filters.source !== "todos") activeFilters.push(`Fonte: ${getLabel("source", state.filters.source)}`);
     if (state.filters.scope !== DEFAULT_FILTERS.scope) activeFilters.push(`Escopo: ${getLabel("scope", state.filters.scope)}`);
 
     elements.activeFilterSummary.textContent = activeFilters.join(" · ");
     elements.activeFilterSummary.classList.toggle("hidden", activeFilters.length === 0);
 
     if (!visible.length) {
-      elements.recordList.innerHTML = `<div class="empty-state">Sem resultados.</div>`;
+      elements.recordList.innerHTML = `<div class="empty-state">Nenhum registro encontrado.</div>`;
       elements.loadMore.classList.add("hidden");
       return;
     }
@@ -637,7 +637,7 @@
   }
 
   function renderFooter() {
-    elements.footerCopy.textContent = "Atualizado.";
+    elements.footerCopy.textContent = "Dados atualizados.";
   }
 
   function renderAll() {
@@ -724,7 +724,7 @@
 
     const response = await fetch(`./data/contracts-dashboard.json?ts=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) {
-      throw new Error("Dados indisponíveis.");
+      throw new Error("Informações indisponíveis.");
     }
 
     state.payload = await response.json();
@@ -755,8 +755,8 @@
       }
     };
 
-    setPlainOptions(elements.organizationSelect, state.payload.filters.organizations || [], "Todos");
-    setPlainOptions(elements.administrationSelect, state.payload.filters.administrations || [], "Todas");
+    setPlainOptions(elements.organizationSelect, state.payload.filters.organizations || [], "Todos os órgãos");
+    setPlainOptions(elements.administrationSelect, state.payload.filters.administrations || [], "Todas as gestões");
     syncControls();
     setView(state.view);
     bindEvents();
@@ -764,7 +764,7 @@
   }
 
   bootstrap().catch(() => {
-    const message = "Dados indisponíveis.";
+    const message = "Informações indisponíveis.";
     elements.heroSummary.textContent = message;
     elements.heroCallout.textContent = "";
     elements.heroCallout.classList.add("hidden");

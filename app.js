@@ -310,7 +310,7 @@
       { label: "Atuais", value: summary.contratosAtuais, detail: "Contratos" },
       { label: "Sem gestor e fiscal", value: summary.semGestorEFiscal, detail: "Pendentes" },
       { label: "Completos", value: summary.comResponsaveisCompletos, detail: "Gestor e fiscal" },
-      { label: "Criticos", value: summary.alertasCriticos, detail: "Prioridade" },
+      { label: "Críticos", value: summary.alertasCriticos, detail: "Prioridade" },
     ];
 
     elements.summaryCards.innerHTML = cards
@@ -528,7 +528,7 @@
       <article class="record-card ${getToneClass(record)}">
         <div class="record-head">
           <div class="record-heading">
-            <span class="record-number">${escapeHtml(record.contractNumber || "Sem numero")}</span>
+            <span class="record-number">${escapeHtml(record.contractNumber || "Sem número")}</span>
             <h3>${escapeHtml(record.organization || "Órgão não identificado")}</h3>
             <span class="record-summary">${escapeHtml(record.managementSummary || "Sem resumo")}</span>
           </div>
@@ -556,7 +556,7 @@
             <small>${escapeHtml(record.vigency?.sourceLabel || "Sem detalhe")}</small>
           </div>
           <div class="meta-block">
-            <span>Ultima data</span>
+            <span>Última data</span>
             <strong>${escapeHtml(formatDate(record.managementActAt || record.publishedAt))}</strong>
             <small>${escapeHtml(record.lastMovementTitle || record.administration || "Sem detalhe")}</small>
           </div>

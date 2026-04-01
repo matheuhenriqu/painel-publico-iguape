@@ -18,7 +18,7 @@ if ([string]::IsNullOrWhiteSpace($SourcePath)) {
     $SourcePath = Join-Path $scriptRoot '..\storage\contracts.json'
 }
 if ([string]::IsNullOrWhiteSpace($OutputPath)) {
-    $OutputPath = Join-Path $scriptRoot '..\docs\data\contracts-dashboard.json'
+    $OutputPath = Join-Path $scriptRoot '..\data\contracts-dashboard.json'
 }
 
 . (Join-Path $scriptRoot 'common.ps1')
@@ -98,7 +98,7 @@ function Get-ObjectValue {
         return $Default
     }
 
-    if ($Item -is [hashtable] -and $Item.ContainsKey($Name)) {
+    if ($Item -is [System.Collections.IDictionary] -and $Item.Contains($Name)) {
         return $Item[$Name]
     }
 
@@ -672,7 +672,428 @@ function Get-PreferredNumericValue {
     return 0
 }
 
-function Get-RecordVigency {
+function Get-LifecycleSourceLabel {
+    param(
+        [AllowNull()]
+        [string[]]$Sources = @()
+    )
+
+    $normalizedSources = @(
+        @($Sources) |
+        ForEach-Object { (Get-CleanText -Value $_).ToLowerInvariant() } |
+        Where-Object { -not [string]::IsNullOrWhiteSpace($_) } |
+        Select-Object -Unique
+    )
+
+    if (($normalizedSources -contains 'portal') -and ($normalizedSources -contains 'diario')) {
+        return 'Portal da Transparência e Diário Oficial'
+    }
+    if ($normalizedSources -contains 'portal') {
+        return 'Portal da Transparência'
+    }
+    if ($normalizedSources -contains 'diario') {
+        return 'Diário Oficial'
+    }
+    if ($normalizedSources -contains 'inferencia') {
+        return 'Inferência documental'
+    }
+
+    return 'Ciclo contratual'
+}
+
+function Get-LifecycleTextBundle {
+    param(
+        [AllowNull()]
+        [object[]]$Values = @()
+    )
+
+    $parts = @(
+        @($Values) |
+        ForEach-Object { Get-CleanText -Value $_ } |
+        Where-Object { -not [string]::IsNullOrWhiteSpace($_) }
+    )
+
+    $raw = Collapse-Whitespace -Text ($parts -join ' ')
+    return [ordered]@{
+        raw = $raw
+        normalized = Get-ContractCrossSimpleText -Text $raw
+    }
+}
+
+function Get-LifecycleSignatureProfile {
+    param(
+        [AllowNull()]
+        [object[]]$TextValues = @(),
+
+        [AllowNull()]
+        [object]$FallbackSignatureDate = $null,
+
+        [AllowNull()]
+        [object]$FallbackPublishedAt = $null
+    )
+
+    $bundle = Get-LifecycleTextBundle -Values $TextValues
+    $raw = [string]$bundle.raw
+    foreach ($pattern in @(
+            'DATA(?:\s+DA)?\s+ASSINATURA\s*[:\-]?\s*(?<date>\d{2}/\d{2}/\d{4})',
+            'ASSINADO\s+EM\s*[:\-]?\s*(?<date>\d{2}/\d{2}/\d{4})',
+            'DATA\s*[:\-]?\s*(?<date>\d{2}/\d{2}/\d{4})'
+        )) {
+        if ($raw -match $pattern) {
+            return [ordered]@{
+                text = [string]$matches['date']
+                iso = Convert-ToIsoString -Value ([string]$matches['date'])
+            }
+        }
+    }
+
+    $fallbackSignatureText = Get-CleanText -Value $FallbackSignatureDate
+    if (-not [string]::IsNullOrWhiteSpace($fallbackSignatureText)) {
+        return [ordered]@{
+            text = $fallbackSignatureText
+            iso = Convert-ToIsoString -Value $fallbackSignatureText
+        }
+    }
+
+    $fallbackPublishedText = Get-CleanText -Value $FallbackPublishedAt
+    return [ordered]@{
+        text = $fallbackPublishedText
+        iso = Convert-ToIsoString -Value $fallbackPublishedText
+    }
+}
+
+function Get-LifecycleDateWindow {
+    param(
+        [AllowNull()]
+        [object[]]$TextValues = @(),
+
+        [AllowNull()]
+        [object]$FallbackSignatureDate = $null,
+
+        [AllowNull()]
+        [object]$FallbackPublishedAt = $null,
+
+        [AllowNull()]
+        [object]$FallbackEndDate = $null
+    )
+
+    $bundle = Get-LifecycleTextBundle -Values $TextValues
+    $signature = Get-LifecycleSignatureProfile -TextValues $TextValues -FallbackSignatureDate $FallbackSignatureDate -FallbackPublishedAt $FallbackPublishedAt
+    $raw = [string]$bundle.raw
+
+    foreach ($pattern in @(
+            '(?<start>\d{2}/\d{2}/\d{4})\s*(?:A|ATE|ATÉ|-)\s*(?<end>\d{2}/\d{2}/\d{4})',
+            'PERIODO(?:\s+DE)?\s*(?<start>\d{2}/\d{2}/\d{4})\s*(?:A|ATE|ATÉ|-)\s*(?<end>\d{2}/\d{2}/\d{4})',
+            'VIGENCIA(?:\s+DO\s+AJUSTE)?[^\d]{0,20}(?<start>\d{2}/\d{2}/\d{4})\s*(?:A|ATE|ATÉ|-)\s*(?<end>\d{2}/\d{2}/\d{4})'
+        )) {
+        if ($raw -match $pattern) {
+            return [ordered]@{
+                startDate = Convert-ToIsoString -Value ([string]$matches['start'])
+                endDate = Convert-ToIsoString -Value ([string]$matches['end'])
+                resolution = 'document_range'
+            }
+        }
+    }
+
+    $fallbackEndIso = Convert-ToIsoString -Value $FallbackEndDate
+    if (-not [string]::IsNullOrWhiteSpace($fallbackEndIso)) {
+        return [ordered]@{
+            startDate = $signature.iso
+            endDate = $fallbackEndIso
+            resolution = 'explicit_end'
+        }
+    }
+
+    $vigencyProbe = Get-OfficialContractVigencyInfo -Item ([pscustomobject]@{
+            portalStatus = ''
+            signatureDate = [string]$signature.text
+            object = $raw
+            excerpt = $raw
+            term = $raw
+            actTitle = $raw
+        })
+    $probeEndDate = Convert-ToIsoString -Value (Get-ObjectValue -Item $vigencyProbe -Name 'endDate')
+    if (-not [string]::IsNullOrWhiteSpace($probeEndDate)) {
+        return [ordered]@{
+            startDate = $signature.iso
+            endDate = $probeEndDate
+            resolution = Get-CleanText -Value (Get-ObjectValue -Item $vigencyProbe -Name 'source')
+        }
+    }
+
+    return [ordered]@{
+        startDate = $signature.iso
+        endDate = $null
+        resolution = ''
+    }
+}
+
+function Get-LifecycleEffectiveDate {
+    param(
+        [AllowNull()]
+        [object[]]$TextValues = @(),
+
+        [AllowNull()]
+        [object]$FallbackSignatureDate = $null,
+
+        [AllowNull()]
+        [object]$FallbackPublishedAt = $null
+    )
+
+    $bundle = Get-LifecycleTextBundle -Values $TextValues
+    $normalized = [string]$bundle.normalized
+    foreach ($pattern in @(
+            'A PARTIR DE (?<date>\d{2}/\d{2}/\d{4})',
+            'RETROAG\w*.*?(?<date>\d{2}/\d{2}/\d{4})',
+            'EFEITOS?.{0,40}?(?<date>\d{2}/\d{2}/\d{4})'
+        )) {
+        if ($normalized -match $pattern) {
+            return Convert-ToIsoString -Value ([string]$matches['date'])
+        }
+    }
+
+    $signature = Get-LifecycleSignatureProfile -TextValues $TextValues -FallbackSignatureDate $FallbackSignatureDate -FallbackPublishedAt $FallbackPublishedAt
+    if (-not [string]::IsNullOrWhiteSpace([string]$signature.iso)) {
+        return [string]$signature.iso
+    }
+
+    return Convert-ToIsoString -Value $FallbackPublishedAt
+}
+
+function Get-LifecycleEventOrdinal {
+    param(
+        [AllowNull()]
+        [string]$Text
+    )
+
+    $cleanText = Get-CleanText -Value $Text
+    if ($cleanText -match '(?<!\d)(?<value>\d{1,2})\s*[ºo°]') {
+        return [int]$matches['value']
+    }
+    if ($cleanText -match 'N[ºo°]?\s*(?<value>\d{1,2})(?!\d)') {
+        return [int]$matches['value']
+    }
+
+    return $null
+}
+
+function Get-LifecycleEventClass {
+    param(
+        [AllowNull()]
+        [string]$Type
+    )
+
+    $normalizedType = Get-ContractCrossSimpleText -Text $Type
+    switch -Regex ($normalizedType) {
+        '^TERMO ADITIVO$' { return 'termo_aditivo' }
+        '^APOSTILAMENTO$' { return 'apostilamento' }
+        '^RESCISAO$' { return 'rescisao' }
+        '^(CONTRATO|CONVENIO|CG - CONTRATOS GERAIS/OUTROS|ATO CONTRATUAL|TC - TERMO DE COLABORACAO|AC - ACORDO DE COOPERACAO|ARP - ATA DE REGISTRO DE PRECO|CL - CONTRATO DE LOCACAO|TERMO DE PARCERIA)$' { return 'contrato' }
+        default { return '' }
+    }
+}
+
+function Get-LifecycleEventClassification {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$EventClass,
+
+        [AllowNull()]
+        [object[]]$TextValues = @()
+    )
+
+    $normalized = [string](Get-LifecycleTextBundle -Values $TextValues).normalized
+
+    switch ($EventClass) {
+        'rescisao' {
+            if ($normalized -match 'ANULAC\w*\s+DA\s+RESCISAO|ANULAD\w*.*RESCISAO|RESCISAO\s+CONTRATUAL\s+ANTERIORMENTE\s+FORMALIZADA') {
+                return [ordered]@{
+                    kind = 'anulacao_rescisao'
+                    label = 'Anulação de rescisão'
+                    affectsTerm = $false
+                    affectsTermination = $false
+                    reversesTermination = $true
+                }
+            }
+
+            return [ordered]@{
+                kind = 'rescisao'
+                label = 'Rescisão'
+                affectsTerm = $false
+                affectsTermination = $true
+                reversesTermination = $false
+            }
+        }
+        'termo_aditivo' {
+            if ($normalized -match 'PRORROG|PRAZO|VIGENCIA') {
+                return [ordered]@{
+                    kind = 'prorrogacao_prazo'
+                    label = 'Prorrogação de prazo'
+                    affectsTerm = $true
+                    affectsTermination = $false
+                    reversesTermination = $false
+                }
+            }
+            if ($normalized -match 'ACRESCIMO.*VALOR|REAJUSTE|REEQUILIBRIO|VALOR') {
+                return [ordered]@{
+                    kind = 'alteracao_valor'
+                    label = 'Alteração de valor'
+                    affectsTerm = $false
+                    affectsTermination = $false
+                    reversesTermination = $false
+                }
+            }
+            if ($normalized -match 'SUPRESS') {
+                return [ordered]@{
+                    kind = 'supressao'
+                    label = 'Supressão'
+                    affectsTerm = $false
+                    affectsTermination = $false
+                    reversesTermination = $false
+                }
+            }
+            if ($normalized -match 'INCORPORACAO|CESSAO|SUBROG|SUCESSAO|ALTERACAO\s+DE\s+EMPRESA') {
+                return [ordered]@{
+                    kind = 'alteracao_partes'
+                    label = 'Alteração de partes'
+                    affectsTerm = $false
+                    affectsTermination = $false
+                    reversesTermination = $false
+                }
+            }
+
+            return [ordered]@{
+                kind = 'termo_aditivo'
+                label = 'Termo aditivo'
+                affectsTerm = $false
+                affectsTermination = $false
+                reversesTermination = $false
+            }
+        }
+        'apostilamento' {
+            return [ordered]@{
+                kind = 'apostilamento'
+                label = 'Apostilamento'
+                affectsTerm = [bool]($normalized -match 'PRORROG|PRAZO|VIGENCIA')
+                affectsTermination = $false
+                reversesTermination = $false
+            }
+        }
+        default {
+            return [ordered]@{
+                kind = 'contrato_inicial'
+                label = 'Contrato inicial'
+                affectsTerm = $true
+                affectsTermination = $false
+                reversesTermination = $false
+            }
+        }
+    }
+}
+
+function New-LifecycleEventModel {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Source,
+
+        [Parameter(Mandatory = $true)]
+        [string]$EventClass,
+
+        [Parameter(Mandatory = $true)]
+        [hashtable]$Classification,
+
+        [AllowNull()]
+        [string]$Title = '',
+
+        [AllowNull()]
+        [object]$PublishedAt = $null,
+
+        [AllowNull()]
+        [object]$EffectiveDate = $null,
+
+        [AllowNull()]
+        [object]$StartDate = $null,
+
+        [AllowNull()]
+        [object]$EndDate = $null,
+
+        [AllowNull()]
+        [object]$Ordinal = $null,
+
+        [AllowNull()]
+        [string]$ViewUrl = '',
+
+        [AllowNull()]
+        [string]$Reference = ''
+    )
+
+    return [pscustomobject][ordered]@{
+        source = $Source
+        sourceLabel = Get-LifecycleSourceLabel -Sources @($Source)
+        eventClass = $EventClass
+        kind = Get-CleanText -Value (Get-ObjectValue -Item $Classification -Name 'kind')
+        label = Get-CleanText -Value (Get-ObjectValue -Item $Classification -Name 'label')
+        ordinal = $Ordinal
+        title = Get-CleanText -Value $Title
+        publishedAt = Convert-ToIsoString -Value $PublishedAt
+        effectiveDate = Convert-ToIsoString -Value $EffectiveDate
+        startDate = Convert-ToIsoString -Value $StartDate
+        endDate = Convert-ToIsoString -Value $EndDate
+        affectsTerm = [bool](Get-ObjectValue -Item $Classification -Name 'affectsTerm')
+        affectsTermination = [bool](Get-ObjectValue -Item $Classification -Name 'affectsTermination')
+        reversesTermination = [bool](Get-ObjectValue -Item $Classification -Name 'reversesTermination')
+        viewUrl = Get-CleanText -Value $ViewUrl
+        reference = Get-CleanText -Value $Reference
+    }
+}
+
+function New-LifecycleEventFromMovement {
+    param(
+        [AllowNull()]
+        [object]$Movement
+    )
+
+    if ($null -eq $Movement) {
+        return $null
+    }
+
+    $eventClass = Get-LifecycleEventClass -Type (Get-ObjectValue -Item $Movement -Name 'type')
+    if ([string]::IsNullOrWhiteSpace($eventClass)) {
+        return $null
+    }
+
+    $title = Get-CleanText -Value (Get-ObjectValue -Item $Movement -Name 'actTitle')
+    $textValues = @(
+        $title,
+        (Get-ObjectValue -Item $Movement -Name 'term'),
+        (Get-ObjectValue -Item $Movement -Name 'excerpt'),
+        (Get-ObjectValue -Item $Movement -Name 'object')
+    )
+    $classification = Get-LifecycleEventClassification -EventClass $eventClass -TextValues $textValues
+    $dateWindow = Get-LifecycleDateWindow -TextValues $textValues -FallbackSignatureDate (Get-ObjectValue -Item $Movement -Name 'signatureDate') -FallbackPublishedAt (Get-ObjectValue -Item $Movement -Name 'publishedAt')
+    $effectiveDate = if ($eventClass -eq 'rescisao') {
+        Get-LifecycleEffectiveDate -TextValues $textValues -FallbackSignatureDate (Get-ObjectValue -Item $Movement -Name 'signatureDate') -FallbackPublishedAt (Get-ObjectValue -Item $Movement -Name 'publishedAt')
+    }
+    else {
+        Get-PreferredTextValue -Values @((Get-ObjectValue -Item $dateWindow -Name 'startDate'), (Get-ObjectValue -Item $Movement -Name 'signatureDate'), (Get-ObjectValue -Item $Movement -Name 'publishedAt'))
+    }
+
+    return (New-LifecycleEventModel `
+            -Source 'diario' `
+            -EventClass $eventClass `
+            -Classification $classification `
+            -Title $title `
+            -PublishedAt (Get-ObjectValue -Item $Movement -Name 'publishedAt') `
+            -EffectiveDate $effectiveDate `
+            -StartDate (Get-ObjectValue -Item $dateWindow -Name 'startDate') `
+            -EndDate (Get-ObjectValue -Item $dateWindow -Name 'endDate') `
+            -Ordinal $(if ($eventClass -eq 'termo_aditivo') { Get-LifecycleEventOrdinal -Text $title } else { $null }) `
+            -ViewUrl (Get-ObjectValue -Item $Movement -Name 'viewUrl') `
+            -Reference ('diario:' + [string](Get-ObjectValue -Item $Movement -Name 'diaryId'))
+        )
+}
+
+function Get-ContractLifecycle {
     param(
         [AllowNull()]
         [object]$OfficialContract,
@@ -681,20 +1102,280 @@ function Get-RecordVigency {
         [object[]]$Movements = @()
     )
 
-    $today = (Get-Date).Date
+    $events = New-Object System.Collections.ArrayList
 
+    if ($OfficialContract) {
+        $contractTextValues = @(
+            (Get-ObjectValue -Item $OfficialContract -Name 'actTitle'),
+            (Get-ObjectValue -Item $OfficialContract -Name 'term'),
+            (Get-ObjectValue -Item $OfficialContract -Name 'object'),
+            (Get-ObjectValue -Item $OfficialContract -Name 'excerpt')
+        )
+        $contractWindow = Get-LifecycleDateWindow `
+            -TextValues $contractTextValues `
+            -FallbackSignatureDate (Get-ObjectValue -Item $OfficialContract -Name 'signatureDate') `
+            -FallbackPublishedAt (Get-ObjectValue -Item $OfficialContract -Name 'publishedAt') `
+            -FallbackEndDate (Get-ObjectValue -Item (Get-ObjectValue -Item $OfficialContract -Name 'vigency') -Name 'endDate')
+
+        [void]$events.Add((New-LifecycleEventModel `
+                -Source 'portal' `
+                -EventClass 'contrato' `
+                -Classification (Get-LifecycleEventClassification -EventClass 'contrato' -TextValues $contractTextValues) `
+                -Title (Get-PreferredTextValue -Values @((Get-ObjectValue -Item $OfficialContract -Name 'actTitle'), ('Contrato ' + [string](Get-ObjectValue -Item $OfficialContract -Name 'contractNumber')))) `
+                -PublishedAt (Get-ObjectValue -Item $OfficialContract -Name 'publishedAt') `
+                -EffectiveDate (Get-PreferredTextValue -Values @((Get-ObjectValue -Item $contractWindow -Name 'startDate'), (Get-ObjectValue -Item $OfficialContract -Name 'signatureDate'), (Get-ObjectValue -Item $OfficialContract -Name 'publishedAt'))) `
+                -StartDate (Get-ObjectValue -Item $contractWindow -Name 'startDate') `
+                -EndDate (Get-ObjectValue -Item $contractWindow -Name 'endDate') `
+                -ViewUrl (Get-ObjectValue -Item $OfficialContract -Name 'viewUrl') `
+                -Reference ('portal:' + [string](Get-ObjectValue -Item $OfficialContract -Name 'portalContractId'))
+            ))
+
+        foreach ($portalAdditive in @($(Get-ObjectValue -Item $OfficialContract -Name 'additives'))) {
+            $portalTextValues = @(
+                (Get-ObjectValue -Item $portalAdditive -Name 'title'),
+                (Get-ObjectValue -Item $portalAdditive -Name 'term'),
+                (Get-ObjectValue -Item $portalAdditive -Name 'observations'),
+                (Get-ObjectValue -Item $portalAdditive -Name 'documentType')
+            )
+            $portalWindow = Get-LifecycleDateWindow `
+                -TextValues $portalTextValues `
+                -FallbackSignatureDate (Get-ObjectValue -Item $portalAdditive -Name 'signatureDate') `
+                -FallbackPublishedAt (Get-ObjectValue -Item $portalAdditive -Name 'signatureDateIso') `
+                -FallbackEndDate (Get-ObjectValue -Item $portalAdditive -Name 'termEndDate')
+
+            [void]$events.Add((New-LifecycleEventModel `
+                    -Source 'portal' `
+                    -EventClass 'termo_aditivo' `
+                    -Classification (Get-LifecycleEventClassification -EventClass 'termo_aditivo' -TextValues $portalTextValues) `
+                    -Title (Get-ObjectValue -Item $portalAdditive -Name 'title') `
+                    -PublishedAt (Get-ObjectValue -Item $portalAdditive -Name 'signatureDateIso') `
+                    -EffectiveDate (Get-PreferredTextValue -Values @((Get-ObjectValue -Item $portalWindow -Name 'startDate'), (Get-ObjectValue -Item $portalAdditive -Name 'signatureDateIso'))) `
+                    -StartDate (Get-ObjectValue -Item $portalWindow -Name 'startDate') `
+                    -EndDate (Get-ObjectValue -Item $portalWindow -Name 'endDate') `
+                    -Ordinal (Get-LifecycleEventOrdinal -Text (Get-ObjectValue -Item $portalAdditive -Name 'title')) `
+                    -ViewUrl (Get-ObjectValue -Item $portalAdditive -Name 'webPdfPath') `
+                    -Reference ('portal-additivo:' + [string](Get-ObjectValue -Item $portalAdditive -Name 'downloadTokenPath'))
+                ))
+        }
+    }
+
+    foreach ($movement in @($Movements)) {
+        $event = New-LifecycleEventFromMovement -Movement $movement
+        if ($event) {
+            [void]$events.Add($event)
+        }
+    }
+
+    $sortedEvents = @(
+        @($events) |
+        Sort-Object `
+            @{ Expression = { Convert-ToDateTimeSafe -Value $(if ([string]$_.effectiveDate) { $_.effectiveDate } else { $_.publishedAt }) }; Descending = $false }, `
+            @{ Expression = { switch ([string]$_.eventClass) { 'contrato' { 0 } 'termo_aditivo' { 1 } 'apostilamento' { 2 } 'rescisao' { 3 } default { 9 } } }; Descending = $false }, `
+            @{ Expression = { [string]$_.title }; Descending = $false }
+    )
+
+    $currentStartDate = $null
+    $currentStartTitle = ''
+    $currentStartSource = ''
+    $currentStartSourceLabel = ''
+    $currentEndDate = $null
+    $currentEndTitle = ''
+    $currentEndSource = ''
+    $currentEndSourceLabel = ''
+    $terminationDate = $null
+    $terminationTitle = ''
+    $hasActiveTermination = $false
+    $latestEventAt = $null
+    $latestEventTitle = ''
+
+    foreach ($event in @($sortedEvents)) {
+        $eventMoment = Convert-ToDateTimeSafe -Value $(if ([string]$event.effectiveDate) { $event.effectiveDate } else { $event.publishedAt })
+        if ($eventMoment -and ($null -eq $latestEventAt -or $eventMoment -gt $latestEventAt)) {
+            $latestEventAt = $eventMoment
+            $latestEventTitle = [string]$event.title
+        }
+
+        if ([bool]$event.reversesTermination) {
+            $hasActiveTermination = $false
+            $terminationDate = $null
+            $terminationTitle = ''
+            continue
+        }
+
+        if ([bool]$event.affectsTermination) {
+            $hasActiveTermination = $true
+            $terminationDate = Convert-ToDateTimeSafe -Value $(if ([string]$event.effectiveDate) { $event.effectiveDate } else { $event.publishedAt })
+            $terminationTitle = [string]$event.title
+            continue
+        }
+
+        if ([bool]$event.affectsTerm) {
+            $eventStartDate = Convert-ToDateTimeSafe -Value $event.startDate
+            if ($eventStartDate) {
+                $currentStartDate = $eventStartDate
+                $currentStartTitle = [string]$event.title
+                $currentStartSource = [string]$event.source
+                $currentStartSourceLabel = Get-LifecycleSourceLabel -Sources @([string]$event.source)
+            }
+
+            if (-not [string]::IsNullOrWhiteSpace([string]$event.endDate)) {
+                $currentEndDate = Convert-ToDateTimeSafe -Value $event.endDate
+                $currentEndTitle = [string]$event.title
+                $currentEndSource = [string]$event.source
+                $currentEndSourceLabel = Get-LifecycleSourceLabel -Sources @([string]$event.source)
+                if ($hasActiveTermination -and $terminationDate -and $eventMoment -and $eventMoment -ge $terminationDate) {
+                    $hasActiveTermination = $false
+                    $terminationDate = $null
+                    $terminationTitle = ''
+                }
+            }
+        }
+    }
+
+    $uniqueKeySet = New-Object 'System.Collections.Generic.HashSet[string]'
+    $additiveEvents = New-Object System.Collections.ArrayList
+    $apostilleEvents = New-Object System.Collections.ArrayList
+    $terminationEvents = New-Object System.Collections.ArrayList
+    foreach ($event in @($sortedEvents)) {
+        $key = [string]::Join('|', @(
+                [string]$event.eventClass,
+                [string]$(if ($null -ne $event.ordinal) { $event.ordinal } else { '' }),
+                [string]$event.kind,
+                [string]$event.startDate,
+                [string]$event.endDate,
+                [string]$event.effectiveDate,
+                [string]$event.title
+            ))
+        if (-not $uniqueKeySet.Add($key)) {
+            continue
+        }
+
+        switch ([string]$event.eventClass) {
+            'termo_aditivo' { [void]$additiveEvents.Add($event) }
+            'apostilamento' { [void]$apostilleEvents.Add($event) }
+            'rescisao' { [void]$terminationEvents.Add($event) }
+        }
+    }
+
+    $summary = if ($hasActiveTermination -and $terminationDate) {
+        'Encerrado por rescisão em ' + $terminationDate.ToString('dd/MM/yyyy')
+    }
+    elseif ($currentEndDate) {
+        'Prazo consolidado até ' + $currentEndDate.ToString('dd/MM/yyyy')
+    }
+    else {
+        'Sem prazo consolidado'
+    }
+
+    return [ordered]@{
+        summary = $summary
+        eventCount = [int]@($sortedEvents).Count
+        latestEventAt = Convert-ToIsoString -Value $latestEventAt
+        latestEventTitle = $latestEventTitle
+        currentStartDate = Convert-ToIsoString -Value $currentStartDate
+        currentStartTitle = $currentStartTitle
+        currentStartSource = $currentStartSource
+        currentStartSourceLabel = $currentStartSourceLabel
+        currentEndDate = Convert-ToIsoString -Value $currentEndDate
+        currentEndTitle = $currentEndTitle
+        currentEndSource = $currentEndSource
+        currentEndSourceLabel = $currentEndSourceLabel
+        additiveCount = [int]@($additiveEvents).Count
+        apostilleCount = [int]@($apostilleEvents).Count
+        terminationCount = [int]@($terminationEvents).Count
+        hasActiveTermination = [bool]$hasActiveTermination
+        terminationDate = Convert-ToIsoString -Value $terminationDate
+        terminationTitle = $terminationTitle
+        isAdditivado = [bool](@($additiveEvents).Count -gt 0)
+        events = @(
+            @($sortedEvents) |
+            ForEach-Object {
+                [pscustomobject][ordered]@{
+                    source = [string]$_.source
+                    sourceLabel = [string]$_.sourceLabel
+                    eventClass = [string]$_.eventClass
+                    kind = [string]$_.kind
+                    label = [string]$_.label
+                    ordinal = $_.ordinal
+                    title = [string]$_.title
+                    publishedAt = [string]$_.publishedAt
+                    effectiveDate = [string]$_.effectiveDate
+                    startDate = [string]$_.startDate
+                    endDate = [string]$_.endDate
+                    affectsTerm = [bool]$_.affectsTerm
+                    affectsTermination = [bool]$_.affectsTermination
+                    reversesTermination = [bool]$_.reversesTermination
+                    viewUrl = [string]$_.viewUrl
+                    reference = [string]$_.reference
+                }
+            }
+        )
+    }
+}
+
+function Get-RecordVigency {
+    param(
+        [AllowNull()]
+        [object]$OfficialContract,
+
+        [AllowNull()]
+        [object[]]$Movements = @(),
+
+        [AllowNull()]
+        [hashtable]$Lifecycle = @{}
+    )
+
+    $today = (Get-Date).Date
+    $lifecycleEndDate = Convert-ToDateTimeSafe -Value (Get-ObjectValue -Item $Lifecycle -Name 'currentEndDate')
+    $lifecycleEndSourceLabel = Get-CleanText -Value (Get-ObjectValue -Item $Lifecycle -Name 'currentEndSourceLabel')
+    $terminationDate = Convert-ToDateTimeSafe -Value (Get-ObjectValue -Item $Lifecycle -Name 'terminationDate')
+    $hasActiveTermination = [bool](Get-ObjectValue -Item $Lifecycle -Name 'hasActiveTermination')
+    $officialVigency = $null
     if ($OfficialContract -and $OfficialContract.PSObject.Properties['vigency'] -and $OfficialContract.vigency) {
         $officialVigency = $OfficialContract.vigency
+    }
+
+    if ($hasActiveTermination) {
+        return [ordered]@{
+            state = 'encerrado'
+            label = if ($terminationDate) { 'Encerrado por rescisão em ' + $terminationDate.ToString('dd/MM/yyyy') } else { 'Encerrado por rescisão contratual' }
+            sourceLabel = Get-PreferredTextValue -Values @('Cadeia de vida contratual', (Get-CleanText -Value (Get-ObjectValue -Item $Lifecycle -Name 'terminationTitle')))
+            endDate = Convert-ToIsoString -Value $(if ($terminationDate) { $terminationDate } elseif ($lifecycleEndDate) { $lifecycleEndDate } else { $null })
+            daysUntilEnd = if ($terminationDate) { [int][Math]::Floor(($terminationDate.Date - $today).TotalDays) } else { $null }
+            isCurrent = $false
+            isConfirmed = $false
+        }
+    }
+
+    if ($officialVigency) {
         if ([bool]$officialVigency.isActive) {
-            return [ordered]@{
-                state = if ([bool]$officialVigency.activeByPortal) { 'vigente_confirmado' } else { 'vigente_inferido' }
-                label = Get-CleanText -Value $officialVigency.summaryLabel
-                sourceLabel = Get-CleanText -Value $officialVigency.sourceLabel
-                endDate = Convert-ToIsoString -Value $officialVigency.endDate
-                daysUntilEnd = if ($null -ne $officialVigency.daysUntilEnd) { [int]$officialVigency.daysUntilEnd } else { $null }
-                isCurrent = $true
-                isConfirmed = [bool]$officialVigency.activeByPortal
+            $confirmedEndDate = if ($lifecycleEndDate -and $lifecycleEndDate.Date -ge $today) {
+                $lifecycleEndDate
             }
+            else {
+                Convert-ToDateTimeSafe -Value $officialVigency.endDate
+            }
+            return [ordered]@{
+                state = 'vigente_confirmado'
+                label = if ($confirmedEndDate) { 'Vigente até ' + $confirmedEndDate.ToString('dd/MM/yyyy') } else { Get-CleanText -Value $officialVigency.summaryLabel }
+                sourceLabel = Get-PreferredTextValue -Values @($lifecycleEndSourceLabel, (Get-CleanText -Value $officialVigency.sourceLabel))
+                endDate = Convert-ToIsoString -Value $confirmedEndDate
+                daysUntilEnd = if ($confirmedEndDate) { [int][Math]::Floor(($confirmedEndDate.Date - $today).TotalDays) } elseif ($null -ne $officialVigency.daysUntilEnd) { [int]$officialVigency.daysUntilEnd } else { $null }
+                isCurrent = $true
+                isConfirmed = $true
+            }
+        }
+    }
+
+    if ($lifecycleEndDate -and $lifecycleEndDate.Date -ge $today) {
+        return [ordered]@{
+            state = 'vigente_inferido'
+            label = 'Prazo consolidado até ' + $lifecycleEndDate.ToString('dd/MM/yyyy')
+            sourceLabel = Get-PreferredTextValue -Values @($lifecycleEndSourceLabel, 'Cadeia de vida contratual')
+            endDate = Convert-ToIsoString -Value $lifecycleEndDate
+            daysUntilEnd = [int][Math]::Floor(($lifecycleEndDate.Date - $today).TotalDays)
+            isCurrent = $true
+            isConfirmed = $false
         }
     }
 
@@ -734,15 +1415,27 @@ function Get-RecordVigency {
         }
     }
 
-    if ($OfficialContract -and $OfficialContract.PSObject.Properties['vigency'] -and $OfficialContract.vigency) {
+    if ($officialVigency) {
         return [ordered]@{
             state = 'encerrado'
-            label = Get-CleanText -Value $OfficialContract.vigency.summaryLabel
-            sourceLabel = Get-CleanText -Value $OfficialContract.vigency.sourceLabel
-            endDate = Convert-ToIsoString -Value $OfficialContract.vigency.endDate
-            daysUntilEnd = if ($null -ne $OfficialContract.vigency.daysUntilEnd) { [int]$OfficialContract.vigency.daysUntilEnd } else { $null }
+            label = if ($lifecycleEndDate) { 'Encerrado em ' + $lifecycleEndDate.ToString('dd/MM/yyyy') } else { Get-CleanText -Value $officialVigency.summaryLabel }
+            sourceLabel = Get-PreferredTextValue -Values @($lifecycleEndSourceLabel, (Get-CleanText -Value $officialVigency.sourceLabel))
+            endDate = Convert-ToIsoString -Value $(if ($lifecycleEndDate) { $lifecycleEndDate } else { $officialVigency.endDate })
+            daysUntilEnd = if ($lifecycleEndDate) { [int][Math]::Floor(($lifecycleEndDate.Date - $today).TotalDays) } elseif ($null -ne $officialVigency.daysUntilEnd) { [int]$officialVigency.daysUntilEnd } else { $null }
             isCurrent = $false
-            isConfirmed = [bool]$OfficialContract.vigency.activeByPortal
+            isConfirmed = [bool]$officialVigency.activeByPortal
+        }
+    }
+
+    if ($lifecycleEndDate) {
+        return [ordered]@{
+            state = 'encerrado'
+            label = 'Encerrado em ' + $lifecycleEndDate.ToString('dd/MM/yyyy')
+            sourceLabel = Get-PreferredTextValue -Values @($lifecycleEndSourceLabel, 'Cadeia de vida contratual')
+            endDate = Convert-ToIsoString -Value $lifecycleEndDate
+            daysUntilEnd = [int][Math]::Floor(($lifecycleEndDate.Date - $today).TotalDays)
+            isCurrent = $false
+            isConfirmed = $false
         }
     }
 
@@ -1113,32 +1806,70 @@ function Get-AdditiveSummary {
         [object]$OfficialContract,
 
         [AllowNull()]
-        [object[]]$Movements = @()
+        [object[]]$Movements = @(),
+
+        [AllowNull()]
+        [hashtable]$Lifecycle = @{}
     )
 
-    $portalCount = 0
-    try {
-        $portalCount = [int](Get-ObjectValue -Item $OfficialContract -Name 'aditiveCount')
-    }
-    catch {
-        $portalCount = 0
-    }
-
-    $diaryAdditives = @($Movements | Where-Object { (Get-CleanText -Value (Get-ObjectValue -Item $_ -Name 'type')) -eq 'Termo Aditivo' })
-    $apostilles = @($Movements | Where-Object { (Get-CleanText -Value (Get-ObjectValue -Item $_ -Name 'type')) -eq 'Apostilamento' })
-    $terminations = @($Movements | Where-Object { (Get-CleanText -Value (Get-ObjectValue -Item $_ -Name 'type')) -eq 'Rescisao' })
-    $latestAdditive = $diaryAdditives | Sort-Object @{ Expression = { Convert-ToDateTimeSafe -Value $_.publishedAt }; Descending = $true } | Select-Object -First 1
-    $knownCount = [Math]::Max($portalCount, @($diaryAdditives).Count)
+    $lifecycleEvents = @($(Get-ObjectValue -Item $Lifecycle -Name 'events'))
+    $additiveEvents = @($lifecycleEvents | Where-Object { [string]$_.eventClass -eq 'termo_aditivo' })
+    $apostilles = @($lifecycleEvents | Where-Object { [string]$_.eventClass -eq 'apostilamento' })
+    $terminations = @($lifecycleEvents | Where-Object { [string]$_.eventClass -eq 'rescisao' })
+    $latestAdditive = $additiveEvents | Sort-Object @{ Expression = { Convert-ToDateTimeSafe -Value $_.publishedAt }; Descending = $true } | Select-Object -First 1
+    $portalCount = [int]@($additiveEvents | Where-Object { [string]$_.source -eq 'portal' }).Count
+    $diaryCount = [int]@($additiveEvents | Where-Object { [string]$_.source -eq 'diario' }).Count
+    $knownCount = [int]@($additiveEvents).Count
 
     return [ordered]@{
         isAdditivado = [bool]($knownCount -gt 0)
         totalKnown = [int]$knownCount
         portalCount = [int]$portalCount
-        diaryCount = [int](@($diaryAdditives).Count)
+        diaryCount = $diaryCount
         apostilleCount = [int](@($apostilles).Count)
         terminationCount = [int](@($terminations).Count)
         latestAdditiveAt = Convert-ToIsoString -Value (Get-ObjectValue -Item $latestAdditive -Name 'publishedAt')
+        currentEndDate = Convert-ToIsoString -Value (Get-ObjectValue -Item $Lifecycle -Name 'currentEndDate')
+        hasActiveTermination = [bool](Get-ObjectValue -Item $Lifecycle -Name 'hasActiveTermination')
+        terminationDate = Convert-ToIsoString -Value (Get-ObjectValue -Item $Lifecycle -Name 'terminationDate')
     }
+}
+
+function Get-LifecycleSnapshot {
+    param(
+        [AllowNull()]
+        [hashtable]$Lifecycle = @{},
+
+        [switch]$IncludeEvents
+    )
+
+    $snapshot = [ordered]@{
+        summary = Get-CleanText -Value (Get-ObjectValue -Item $Lifecycle -Name 'summary')
+        eventCount = [int](Get-ObjectValue -Item $Lifecycle -Name 'eventCount' -Default 0)
+        latestEventAt = Convert-ToIsoString -Value (Get-ObjectValue -Item $Lifecycle -Name 'latestEventAt')
+        latestEventTitle = Get-CleanText -Value (Get-ObjectValue -Item $Lifecycle -Name 'latestEventTitle')
+        currentStartDate = Convert-ToIsoString -Value (Get-ObjectValue -Item $Lifecycle -Name 'currentStartDate')
+        currentStartTitle = Get-CleanText -Value (Get-ObjectValue -Item $Lifecycle -Name 'currentStartTitle')
+        currentStartSource = Get-CleanText -Value (Get-ObjectValue -Item $Lifecycle -Name 'currentStartSource')
+        currentStartSourceLabel = Get-CleanText -Value (Get-ObjectValue -Item $Lifecycle -Name 'currentStartSourceLabel')
+        currentEndDate = Convert-ToIsoString -Value (Get-ObjectValue -Item $Lifecycle -Name 'currentEndDate')
+        currentEndTitle = Get-CleanText -Value (Get-ObjectValue -Item $Lifecycle -Name 'currentEndTitle')
+        currentEndSource = Get-CleanText -Value (Get-ObjectValue -Item $Lifecycle -Name 'currentEndSource')
+        currentEndSourceLabel = Get-CleanText -Value (Get-ObjectValue -Item $Lifecycle -Name 'currentEndSourceLabel')
+        additiveCount = [int](Get-ObjectValue -Item $Lifecycle -Name 'additiveCount' -Default 0)
+        apostilleCount = [int](Get-ObjectValue -Item $Lifecycle -Name 'apostilleCount' -Default 0)
+        terminationCount = [int](Get-ObjectValue -Item $Lifecycle -Name 'terminationCount' -Default 0)
+        isAdditivado = [bool](Get-ObjectValue -Item $Lifecycle -Name 'isAdditivado')
+        hasActiveTermination = [bool](Get-ObjectValue -Item $Lifecycle -Name 'hasActiveTermination')
+        terminationDate = Convert-ToIsoString -Value (Get-ObjectValue -Item $Lifecycle -Name 'terminationDate')
+        terminationTitle = Get-CleanText -Value (Get-ObjectValue -Item $Lifecycle -Name 'terminationTitle')
+    }
+
+    if ($IncludeEvents) {
+        $snapshot['events'] = @($(Get-ObjectValue -Item $Lifecycle -Name 'events'))
+    }
+
+    return $snapshot
 }
 
 function Get-SourceEvidence {
@@ -1280,6 +2011,9 @@ function New-MasterContractModel {
         [AllowNull()]
         [hashtable]$Vigency = @{},
 
+        [AllowNull()]
+        [hashtable]$Lifecycle = @{},
+
         [Parameter(Mandatory = $true)]
         [hashtable]$Manager,
 
@@ -1303,6 +2037,17 @@ function New-MasterContractModel {
 
         [string]$SourceStatus = ''
     )
+
+    $lifecycleStartSource = switch ((Get-CleanText -Value (Get-ObjectValue -Item $Lifecycle -Name 'currentStartSource')).ToLowerInvariant()) {
+        'portal' { 'portal' }
+        'diario' { 'diario' }
+        default { 'inferencia' }
+    }
+    $lifecycleEndSource = switch ((Get-CleanText -Value (Get-ObjectValue -Item $Lifecycle -Name 'currentEndSource')).ToLowerInvariant()) {
+        'portal' { 'portal' }
+        'diario' { 'diario' }
+        default { 'inferencia' }
+    }
 
     $contractNumberField = New-FieldProfile -Candidates @(
         @{ source = 'perfil'; value = (Get-ObjectValue -Item $Profile -Name 'contractNumber') },
@@ -1362,6 +2107,7 @@ function New-MasterContractModel {
     ) -Kind 'number'
 
     $startDateField = New-FieldProfile -Candidates @(
+        @{ source = $lifecycleStartSource; value = (Get-ObjectValue -Item $Lifecycle -Name 'currentStartDate') },
         @{ source = 'portal'; value = (Get-ObjectValue -Item $OfficialContract -Name 'signatureDate') },
         @{ source = 'portal'; value = (Get-ObjectValue -Item (Get-ObjectValue -Item $OfficialContract -Name 'vigency') -Name 'signatureDate') },
         @(
@@ -1370,11 +2116,13 @@ function New-MasterContractModel {
     ) -Kind 'date'
 
     $endDateField = New-FieldProfile -Candidates @(
+        @{ source = $lifecycleEndSource; value = (Get-ObjectValue -Item $Lifecycle -Name 'currentEndDate') },
         @{ source = 'portal'; value = (Get-ObjectValue -Item (Get-ObjectValue -Item $OfficialContract -Name 'vigency') -Name 'endDate') },
         @{ source = 'inferencia'; value = (Get-ObjectValue -Item $Vigency -Name 'endDate') }
-    ) -Kind 'date' -IsInferred ([string](Get-ObjectValue -Item $Vigency -Name 'state') -eq 'vigente_inferido')
+    ) -Kind 'date'
 
-    $additives = Get-AdditiveSummary -OfficialContract $OfficialContract -Movements $Movements
+    $additives = Get-AdditiveSummary -OfficialContract $OfficialContract -Movements $Movements -Lifecycle $Lifecycle
+    $lifecycleSnapshot = Get-LifecycleSnapshot -Lifecycle $Lifecycle -IncludeEvents
     $sources = Get-SourceEvidence -OfficialContract $OfficialContract -Movements $Movements -LatestMovement $LatestMovement -SourceStatus $SourceStatus
     $managerModel = New-ResponsibilityRoleModel -Person $Manager -ExonerationSignal $ManagerExonerationSignal
     $inspectorModel = New-ResponsibilityRoleModel -Person $Inspector -ExonerationSignal $InspectorExonerationSignal
@@ -1456,6 +2204,7 @@ function New-MasterContractModel {
                 endDate = $endDateField
             }
         }
+        lifecycle = $lifecycleSnapshot
         additives = $additives
         responsibilities = [ordered]@{
             state = $ManagementState
@@ -1559,10 +2308,12 @@ foreach ($profile in @($source.managementProfiles)) {
 
     $latestMovement = @($movements | Sort-Object @{ Expression = { Convert-ToDateTimeSafe -Value $_.publishedAt }; Descending = $true }) | Select-Object -First 1
     $preferredMovement = Get-PreferredMovement -Movements $movements
+    $lifecycle = Get-ContractLifecycle -OfficialContract $officialContract -Movements $movements
+    $lifecycleSnapshot = Get-LifecycleSnapshot -Lifecycle $lifecycle
     $resolvedPeople = Get-ResolvedManagementPeople -Profile $profile -Movements $movements
     $manager = $resolvedPeople.manager
     $inspector = $resolvedPeople.inspector
-    $vigency = Get-RecordVigency -OfficialContract $officialContract -Movements $movements
+    $vigency = Get-RecordVigency -OfficialContract $officialContract -Movements $movements -Lifecycle $lifecycle
     $managerExonerationSignal = [bool]$profile.managerExonerationSignal
     $inspectorExonerationSignal = [bool]$profile.inspectorExonerationSignal
     $managementState = Get-ManagementState -Manager $manager -Inspector $inspector -ManagerExonerationSignal $managerExonerationSignal -InspectorExonerationSignal $inspectorExonerationSignal
@@ -1651,7 +2402,7 @@ foreach ($profile in @($source.managementProfiles)) {
 
     $recordId = 'profile:' + $normalizedKey
     $masterId = 'master:' + $normalizedKey
-    $additives = Get-AdditiveSummary -OfficialContract $officialContract -Movements $movements
+    $additives = Get-AdditiveSummary -OfficialContract $officialContract -Movements $movements -Lifecycle $lifecycle
 
     [void]$masterContracts.Add((New-MasterContractModel `
         -Id $masterId `
@@ -1662,6 +2413,7 @@ foreach ($profile in @($source.managementProfiles)) {
         -PreferredMovement $preferredMovement `
         -LatestMovement $latestMovement `
         -Vigency $vigency `
+        -Lifecycle $lifecycle `
         -Manager $manager `
         -Inspector $inspector `
         -ManagementState $managementState `
@@ -1689,6 +2441,7 @@ foreach ($profile in @($source.managementProfiles)) {
         valueLabel = $valueLabel
         valueNumber = $valueNumber
         vigency = $vigency
+        lifecycle = $lifecycleSnapshot
         additives = $additives
         managementState = $managementState
         managementSummary = $managementSummary
@@ -1719,7 +2472,9 @@ foreach ($official in @($source.officialContracts | Sort-Object @{ Expression = 
 
     $normalizedKey = Get-NormalizedContractKey -Value $(if ($official.referenceKey) { $official.referenceKey } else { $official.contractNumber })
     $movements = if ($movementGroups.ContainsKey($normalizedKey)) { @($movementGroups[$normalizedKey]) } else { @() }
-    $vigency = Get-RecordVigency -OfficialContract $official -Movements $movements
+    $lifecycle = Get-ContractLifecycle -OfficialContract $official -Movements $movements
+    $lifecycleSnapshot = Get-LifecycleSnapshot -Lifecycle $lifecycle
+    $vigency = Get-RecordVigency -OfficialContract $official -Movements $movements -Lifecycle $lifecycle
     $year = Get-ContractYear -NormalizedKey $normalizedKey -Movements $movements -OfficialContract $official
     $latestMovement = $movements | Sort-Object @{ Expression = { Convert-ToDateTimeSafe -Value $_.publishedAt }; Descending = $true } | Select-Object -First 1
     $preferredMovement = Get-PreferredMovement -Movements $movements
@@ -1748,7 +2503,7 @@ foreach ($official in @($source.officialContracts | Sort-Object @{ Expression = 
     $masterId = 'master:' + $(if ($portalId) { $portalId } else { $normalizedKey })
     $emptyManager = [ordered]@{ name = ''; role = ''; assignedAt = $null; needsReview = $false }
     $emptyInspector = [ordered]@{ name = ''; role = ''; assignedAt = $null; needsReview = $false }
-    $additives = Get-AdditiveSummary -OfficialContract $official -Movements $movements
+    $additives = Get-AdditiveSummary -OfficialContract $official -Movements $movements -Lifecycle $lifecycle
 
     [void]$masterContracts.Add((New-MasterContractModel `
         -Id $masterId `
@@ -1759,6 +2514,7 @@ foreach ($official in @($source.officialContracts | Sort-Object @{ Expression = 
         -PreferredMovement $preferredMovement `
         -LatestMovement $latestMovement `
         -Vigency $vigency `
+        -Lifecycle $lifecycle `
         -Manager $emptyManager `
         -Inspector $emptyInspector `
         -ManagementState 'sem_gestor_e_fiscal' `
@@ -1784,6 +2540,7 @@ foreach ($official in @($source.officialContracts | Sort-Object @{ Expression = 
         valueLabel = Get-CleanText -Value (Get-ObjectValue -Item $official -Name 'value')
         valueNumber = Get-PreferredNumericValue -Values @((Get-ObjectValue -Item $official -Name 'valueNumber'))
         vigency = $vigency
+        lifecycle = $lifecycleSnapshot
         additives = $additives
         managementState = 'sem_gestor_e_fiscal'
         managementSummary = Get-CleanText -Value $official.managementSummary
@@ -1858,6 +2615,8 @@ $masterSummary = [ordered]@{
     withInspector = [int](@($sortedMasterContracts | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_.responsibilities.inspector.name) }).Count)
     withCompleteResponsibilities = [int](@($sortedMasterContracts | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_.responsibilities.manager.name) -and -not [string]::IsNullOrWhiteSpace([string]$_.responsibilities.inspector.name) }).Count)
     aditivados = [int](@($sortedMasterContracts | Where-Object { [bool]$_.additives.isAdditivado }).Count)
+    apostilados = [int](@($sortedMasterContracts | Where-Object { [int]$_.lifecycle.apostilleCount -gt 0 }).Count)
+    rescindidos = [int](@($sortedMasterContracts | Where-Object { [bool]$_.lifecycle.hasActiveTermination }).Count)
     highOverallConfidence = [int](@($sortedMasterContracts | Where-Object { [string]$_.confidence.overall -eq 'alta' }).Count)
     mediumOverallConfidence = [int](@($sortedMasterContracts | Where-Object { [string]$_.confidence.overall -eq 'media' }).Count)
     lowOverallConfidence = [int](@($sortedMasterContracts | Where-Object { [string]$_.confidence.overall -eq 'baixa' }).Count)
@@ -1865,7 +2624,7 @@ $masterSummary = [ordered]@{
 
 $payload = [ordered]@{
     generatedAt = Convert-ToIsoString -Value $source.generatedAt
-    masterSchemaVersion = '2026-04-01.1'
+    masterSchemaVersion = '2026-04-01.2'
     methodology = [ordered]@{
         title = 'Leitura cruzada de contratos vigentes e responsáveis'
         summary = 'O painel cruza Diário Oficial, contratos do portal e eventos de gestão contratual para destacar vigência, gestor, fiscal e alertas de vacância.'
@@ -1887,6 +2646,8 @@ $payload = [ordered]@{
         comResponsaveisCompletos = [int]@($currentRecords | Where-Object { [string]$_.managementState -eq 'completos' }).Count
         sinaisExoneracao = [int]@($currentRecords | Where-Object { [string]$_.managementState -eq 'exoneracao' }).Count
         alertasCriticos = [int]@($currentRecords | Where-Object { [int]$_.alertWeight -ge 3 }).Count
+        aditivadosAtuais = [int]@($currentRecords | Where-Object { [bool]$_.additives.isAdditivado }).Count
+        comPrazoConsolidado = [int]@($currentRecords | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_.lifecycle.currentEndDate) }).Count
         somenteDiario = [int]@($currentRecords | Where-Object { [string]$_.sourceStatus -eq 'somente_diario' }).Count
         somentePortal = [int]@($currentRecords | Where-Object { [string]$_.sourceStatus -eq 'somente_portal' }).Count
         cruzados = [int]@($currentRecords | Where-Object { [string]$_.sourceStatus -eq 'cruzado' }).Count

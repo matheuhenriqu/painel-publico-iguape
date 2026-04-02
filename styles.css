@@ -895,6 +895,19 @@ a {
   line-height: 1.18;
 }
 
+.record-kicker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.record-summary {
+  color: var(--text-soft);
+  line-height: 1.6;
+}
+
 .badge-row {
   display: flex;
   flex-wrap: wrap;
@@ -946,6 +959,167 @@ a {
 
 .record-object {
   margin: 0;
+}
+
+.record-overview {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.overview-block,
+.record-section,
+.assignment-card,
+.evidence-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-soft);
+}
+
+.overview-block {
+  padding: 15px 16px;
+  display: grid;
+  gap: 8px;
+}
+
+.overview-label,
+.assignment-label,
+.evidence-card span {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.overview-block strong,
+.assignment-card strong,
+.section-mini-head strong,
+.evidence-card strong {
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.overview-block small,
+.assignment-card small,
+.evidence-card small {
+  color: var(--text-soft);
+  line-height: 1.6;
+}
+
+.overview-block--object {
+  background: linear-gradient(180deg, var(--surface), var(--surface-soft));
+}
+
+.record-section-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  gap: 12px;
+}
+
+.record-section {
+  padding: 15px 16px;
+  display: grid;
+  gap: 14px;
+}
+
+.section-mini-head {
+  display: grid;
+  gap: 4px;
+}
+
+.assignment-grid,
+.evidence-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.assignment-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.evidence-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.assignment-card,
+.evidence-card {
+  padding: 14px 15px;
+  display: grid;
+  gap: 8px;
+}
+
+.assignment-card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 10px;
+}
+
+.assignment-status {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.assignment-status--primary {
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+
+.assignment-status--success {
+  background: var(--success-soft);
+  color: var(--success);
+}
+
+.assignment-status--warning {
+  background: var(--warning-soft);
+  color: var(--warning);
+}
+
+.assignment-status--danger {
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+.assignment-status--muted {
+  background: var(--bg-accent);
+  color: var(--text-soft);
+}
+
+.assignment-card--danger,
+.evidence-card--danger {
+  border-color: rgba(179, 75, 71, 0.2);
+  background: linear-gradient(180deg, #fffdfd, var(--danger-soft));
+}
+
+.assignment-card--warning,
+.evidence-card--warning {
+  border-color: rgba(167, 110, 23, 0.18);
+  background: linear-gradient(180deg, #fffefb, var(--warning-soft));
+}
+
+.assignment-card--success,
+.evidence-card--success {
+  border-color: rgba(34, 122, 87, 0.18);
+  background: linear-gradient(180deg, #fbfefd, var(--success-soft));
+}
+
+.assignment-card--primary,
+.evidence-card--primary {
+  border-color: rgba(24, 74, 120, 0.15);
+  background: linear-gradient(180deg, #fbfdff, var(--primary-soft));
+}
+
+.assignment-card--muted {
+  background: linear-gradient(180deg, var(--surface), #f1f5f9);
 }
 
 .record-meta {
@@ -1000,6 +1174,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  padding-top: 2px;
 }
 
 .empty-state {
@@ -1075,6 +1250,14 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   }
 
+  .record-overview {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .record-section-grid {
+    grid-template-columns: 1fr;
+  }
+
   .priority-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1114,7 +1297,10 @@ a {
   .result-insight-grid,
   .insight-grid,
   .filters-grid,
-  .record-meta {
+  .record-meta,
+  .record-overview,
+  .assignment-grid,
+  .evidence-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1141,6 +1327,11 @@ a {
 
   .badge-row {
     justify-content: flex-start;
+  }
+
+  .assignment-card-head {
+    flex-direction: column;
+    align-items: stretch;
   }
 
   .footer p {

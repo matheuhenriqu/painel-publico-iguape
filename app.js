@@ -441,6 +441,7 @@
       ...record,
       id: record.id || `record-${index}`,
       contractNumber: sanitizePlainText(record.contractNumber, 80),
+      processNumber: sanitizePlainText(record.processNumber, 120),
       administration: sanitizePlainText(record.administration, 160),
       organization: sanitizePlainText(record.organization, 160),
       supplier: sanitizePlainText(record.supplier, 240),
@@ -449,6 +450,40 @@
       managementSummary: sanitizePlainText(record.managementSummary, 300),
       lastMovementTitle: sanitizePlainText(record.lastMovementTitle, 220),
       normalizedKey: sanitizePlainText(record.normalizedKey, 80),
+      managerPersonnelStatus: sanitizePlainText(record.managerPersonnelStatus, 40),
+      inspectorPersonnelStatus: sanitizePlainText(record.inspectorPersonnelStatus, 40),
+      managerExonerationSignal: Boolean(record.managerExonerationSignal),
+      inspectorExonerationSignal: Boolean(record.inspectorExonerationSignal),
+      lifecycle: {
+        ...record.lifecycle,
+        summary: sanitizePlainText(record.lifecycle?.summary, 220),
+        eventCount: Number(record.lifecycle?.eventCount || 0),
+        additiveCount: Number(record.lifecycle?.additiveCount || 0),
+        apostilleCount: Number(record.lifecycle?.apostilleCount || 0),
+        terminationCount: Number(record.lifecycle?.terminationCount || 0),
+        isAdditivado: Boolean(record.lifecycle?.isAdditivado),
+        hasActiveTermination: Boolean(record.lifecycle?.hasActiveTermination),
+      },
+      additives: {
+        ...record.additives,
+        isAdditivado: Boolean(record.additives?.isAdditivado),
+        totalKnown: Number(record.additives?.totalKnown || 0),
+        portalCount: Number(record.additives?.portalCount || 0),
+        diaryCount: Number(record.additives?.diaryCount || 0),
+        apostilleCount: Number(record.additives?.apostilleCount || 0),
+        terminationCount: Number(record.additives?.terminationCount || 0),
+        hasActiveTermination: Boolean(record.additives?.hasActiveTermination),
+      },
+      review: {
+        ...record.review,
+        required: Boolean(record.review?.required),
+        priority: sanitizePlainText(record.review?.priority, 24),
+        sourceAlignment: sanitizePlainText(record.review?.sourceAlignment, 32),
+        reasonSummary: sanitizePlainText(record.review?.reasonSummary, 220),
+        reasonCount: Number(record.review?.reasonCount || 0),
+        candidateCount: Number(record.review?.candidateCount || 0),
+        divergenceCount: Number(record.review?.divergenceCount || 0),
+      },
       manager,
       inspector,
       alerts,
@@ -471,6 +506,7 @@
       _searchText: normalizeText(
         [
           record.contractNumber,
+          record.processNumber,
           record.normalizedKey,
           record.organization,
           record.supplier,
@@ -826,17 +862,6 @@
             </article>
           `
         )
-        .join("")
-    );
-  }
-
-  function renderMethodology() {
-    elements.updatedAt.textContent = `Atualizado em ${formatDateTime(state.payload.generatedAt)}`;
-    elements.methodSummary.textContent = "Visão geral, ocorrências prioritárias e consulta detalhada.";
-    setHtml(
-      elements.methodNotes,
-      ["Painel estratégico", "Priorização operacional", "Consulta avançada"]
-        .map((note) => `<article class="note-card">${escapeHtml(note)}</article>`)
         .join("")
     );
   }
@@ -1353,8 +1378,113 @@
     return "";
   }
 
+  function getAssignmentTone(person, personnelStatus, exonerationSignal) {
+    if (exonerationSignal || personnelStatus === "exonerado") return "danger";
+    if (person?.needsReview) return "warning";
+    if (person?.name && personnelStatus === "ativo") return "success";
+    if (person?.name) return "primary";
+    return "muted";
+  }
+
+  function getAssignmentStatusLabel(person, personnelStatus, exonerationSignal) {
+    if (exonerationSignal || personnelStatus === "exonerado") return "Exoneracao identificada";
+    if (person?.needsReview) return "Em revisao";
+    if (person?.name && personnelStatus === "ativo") return "Servidor ativo";
+    if (person?.name) return "Designacao localizada";
+    return "Sem designacao";
+  }
+
+  function getAdditiveDisplay(record) {
+    const additiveCount = Number(record.additives?.totalKnown || 0);
+    const apostilleCount = Number(record.additives?.apostilleCount || 0);
+    const terminationCount = Number(record.additives?.terminationCount || 0);
+    const lifecycleSummary = record.lifecycle?.summary || "Sem movimentacao complementar localizada";
+
+    if (record.additives?.hasActiveTermination || terminationCount > 0) {
+      return {
+        title: "Rescisao localizada",
+        detail: lifecycleSummary,
+      };
+    }
+
+    if (additiveCount > 0) {
+      return {
+        title: `${formatNumber(additiveCount)} evento(s)`,
+        detail: lifecycleSummary,
+      };
+    }
+
+    if (apostilleCount > 0) {
+      return {
+        title: `${formatNumber(apostilleCount)} apostila(s)`,
+        detail: lifecycleSummary,
+      };
+    }
+
+    return {
+      title: "Sem aditivos",
+      detail: lifecycleSummary,
+    };
+  }
+
+  function getReviewDisplay(record) {
+    if (!record.review?.required) {
+      return {
+        title: "Sem revisao aberta",
+        detail: "Registro consolidado pela automacao atual",
+        tone: "success",
+      };
+    }
+
+    const detailParts = [];
+    if (record.review?.reasonCount > 0) detailParts.push(`${formatNumber(record.review.reasonCount)} motivo(s)`);
+    if (record.review?.candidateCount > 0) detailParts.push(`${formatNumber(record.review.candidateCount)} cruzamento(s)`);
+    if (record.review?.divergenceCount > 0) detailParts.push(`${formatNumber(record.review.divergenceCount)} divergencia(s)`);
+
+    return {
+      title: record.review?.reasonSummary || "Revisao dirigida",
+      detail: detailParts.join(" · ") || "Conferencia focal necessaria",
+      tone: record.review?.priority === "alta" ? "danger" : "warning",
+    };
+  }
+
+  function renderAssignmentCard(label, person, personnelStatus, exonerationSignal) {
+    const display = getPersonDisplay(person);
+    const tone = getAssignmentTone(person, personnelStatus, exonerationSignal);
+    const statusLabel = getAssignmentStatusLabel(person, personnelStatus, exonerationSignal);
+
+    let detail = display.subtitle;
+    if (person?.assignedAt) {
+      detail = `Ato em ${formatDate(person.assignedAt)}`;
+    }
+    if (exonerationSignal || personnelStatus === "exonerado") {
+      detail = "Substituicao atual nao confirmada";
+    }
+
+    return `
+      <article class="assignment-card assignment-card--${escapeHtml(tone)}">
+        <div class="assignment-card-head">
+          <span class="assignment-label">${escapeHtml(label)}</span>
+          <span class="assignment-status assignment-status--${escapeHtml(tone)}">${escapeHtml(statusLabel)}</span>
+        </div>
+        <strong>${escapeHtml(display.title)}</strong>
+        <small>${escapeHtml(detail)}</small>
+      </article>
+    `;
+  }
+
+  function renderEvidenceCard(label, title, detail, tone = "primary") {
+    return `
+      <article class="evidence-card evidence-card--${escapeHtml(tone)}">
+        <span>${escapeHtml(label)}</span>
+        <strong>${escapeHtml(title)}</strong>
+        <small>${escapeHtml(detail)}</small>
+      </article>
+    `;
+  }
+
   function renderBadges(record) {
-    return [
+    const badges = [
       {
         tone: getBadgeToneByVigency(record.vigency?.state),
         label: getLabel("vigency", record.vigency?.state),
@@ -1371,7 +1501,20 @@
         tone: getBadgeToneByCriticality(record._criticality),
         label: getLabel("criticality", record._criticality),
       },
-    ]
+    ];
+
+    if (record.additives?.isAdditivado || Number(record.additives?.totalKnown || 0) > 0) {
+      badges.push({ tone: "primary", label: "Com aditivos" });
+    }
+
+    if (record.review?.required) {
+      badges.push({
+        tone: record.review?.priority === "alta" ? "danger" : "warning",
+        label: "Revisao dirigida",
+      });
+    }
+
+    return badges
       .map((badge) => `<span class="badge badge--${escapeHtml(badge.tone)}">${escapeHtml(badge.label)}</span>`)
       .join("");
   }
@@ -1462,6 +1605,117 @@
             <strong>${escapeHtml(formatDate(record._movementDate))}</strong>
             <small>${escapeHtml(record.lastMovementTitle || "Sem detalhamento")}</small>
           </div>
+        </div>
+
+        ${renderAlertPills(record)}
+
+        <div class="record-actions">
+          ${diaryLink}
+          ${portalLink}
+        </div>
+      </article>
+    `;
+  }
+
+  function renderRecordCardV2(record) {
+    const additive = getAdditiveDisplay(record);
+    const review = getReviewDisplay(record);
+    const contractMeta = [
+      record.processNumber ? `Processo ${record.processNumber}` : "",
+      record.administration || "",
+      record.year ? `Ano ${record.year}` : "",
+    ]
+      .filter(Boolean)
+      .join(" · ");
+    const sourceDetailParts = [];
+    if (record.hasDiary) sourceDetailParts.push(`${formatNumber(record.movementCount || 0)} ato(s) no Diario`);
+    if (record.hasOfficialPortal) sourceDetailParts.push("Cadastro localizado no portal");
+    if (record.review?.candidateCount > 0) {
+      sourceDetailParts.push(`${formatNumber(record.review.candidateCount)} cruzamento(s) pendente(s)`);
+    }
+    const objectText = record.object || record.lastMovementTitle || "Objeto nao localizado";
+    const diaryLink = record.links?.diary
+      ? `<a href="${escapeHtml(record.links.diary)}" target="_blank" rel="noopener noreferrer">Diario Oficial</a>`
+      : "";
+    const portalLink = record.links?.portal
+      ? `<a href="${escapeHtml(record.links.portal)}" target="_blank" rel="noopener noreferrer">Portal da Transparencia</a>`
+      : "";
+
+    return `
+      <article class="record-card ${getToneClass(record)}">
+        <div class="record-head">
+          <div class="record-heading">
+            <span class="record-number">${escapeHtml(record.contractNumber || "Contrato sem numero")}</span>
+            <h3>${escapeHtml(record.organization || "Orgao nao identificado")}</h3>
+            ${contractMeta ? `<div class="record-kicker">${escapeHtml(contractMeta)}</div>` : ""}
+            <span class="record-summary">${escapeHtml(record.managementSummary || "Sintese nao disponivel")}</span>
+          </div>
+          <div class="badge-row">
+            ${renderBadges(record)}
+          </div>
+        </div>
+
+        <div class="record-overview">
+          <article class="overview-block overview-block--object">
+            <span class="overview-label">Objeto / servico</span>
+            <p class="record-object">${escapeHtml(truncateText(objectText, 420))}</p>
+          </article>
+          <article class="overview-block">
+            <span class="overview-label">Fornecedor</span>
+            <strong>${escapeHtml(record.supplier || "Nao localizado")}</strong>
+            <small>${escapeHtml(record.valueLabel || formatCurrency(record._valueNumber))}</small>
+          </article>
+          <article class="overview-block">
+            <span class="overview-label">Prazo atual</span>
+            <strong>${escapeHtml(record._endDate ? formatDate(record._endDate) : "Prazo nao localizado")}</strong>
+            <small>${escapeHtml(formatDayDelta(record.vigency?.daysUntilEnd))}</small>
+          </article>
+          <article class="overview-block">
+            <span class="overview-label">Aditivos</span>
+            <strong>${escapeHtml(additive.title)}</strong>
+            <small>${escapeHtml(additive.detail)}</small>
+          </article>
+        </div>
+
+        <div class="record-section-grid">
+          <section class="record-section">
+            <div class="section-mini-head">
+              <span class="eyebrow">Responsaveis</span>
+              <strong>Gestao contratual</strong>
+            </div>
+            <div class="assignment-grid">
+              ${renderAssignmentCard("Gestor", record.manager, record.managerPersonnelStatus, record.managerExonerationSignal)}
+              ${renderAssignmentCard("Fiscal", record.inspector, record.inspectorPersonnelStatus, record.inspectorExonerationSignal)}
+            </div>
+          </section>
+
+          <section class="record-section">
+            <div class="section-mini-head">
+              <span class="eyebrow">Evidencias</span>
+              <strong>Rastreio do contrato</strong>
+            </div>
+            <div class="evidence-grid">
+              ${renderEvidenceCard(
+                "Situacao contratual",
+                record.vigency?.label || "Vigencia nao informada",
+                record.vigency?.sourceLabel || "Sem detalhamento",
+                getBadgeToneByVigency(record.vigency?.state)
+              )}
+              ${renderEvidenceCard(
+                "Base documental",
+                getLabel("source", record.sourceStatus),
+                sourceDetailParts.join(" · ") || "Sem rastreio complementar",
+                getBadgeToneBySource(record.sourceStatus)
+              )}
+              ${renderEvidenceCard(
+                "Ultima movimentacao",
+                formatDate(record._movementDate),
+                record.lastMovementTitle || "Sem detalhamento",
+                "primary"
+              )}
+              ${renderEvidenceCard("Revisao", review.title, review.detail, review.tone)}
+            </div>
+          </section>
         </div>
 
         ${renderAlertPills(record)}
@@ -1607,6 +1861,9 @@
 
   function renderResultInsights(records) {
     const summary = summarizeRecordSet(records);
+    const withAdditives = records.filter(
+      (record) => record.additives?.isAdditivado || Number(record.additives?.totalKnown || 0) > 0
+    ).length;
     const topOrganization = getTopOrganization(records);
 
     renderCardCollection(elements.resultInsightGrid, [
@@ -1633,17 +1890,49 @@
     ]);
   }
 
+  function renderResultInsightsV2(records) {
+    const summary = summarizeRecordSet(records);
+    const withAdditives = records.filter(
+      (record) => record.additives?.isAdditivado || Number(record.additives?.totalKnown || 0) > 0
+    ).length;
+
+    renderCardCollection(elements.resultInsightGrid, [
+      {
+        label: "Registros no recorte",
+        value: formatNumber(summary.total),
+        detail: "Resultado atual da consulta",
+      },
+      {
+        label: "Prazo identificado",
+        value: formatNumber(summary.withDeadline),
+        detail: formatPercent(summary.withDeadline, summary.total),
+      },
+      {
+        label: "Com aditivos",
+        value: formatNumber(withAdditives),
+        detail: formatPercent(withAdditives, summary.total),
+      },
+      {
+        label: "Designacoes completas",
+        value: formatNumber(summary.withCompleteAssignments),
+        detail: formatPercent(summary.withCompleteAssignments, summary.total),
+      },
+    ]);
+  }
+
   function renderResults() {
     const filtered = getFilteredRecords();
     const visible = filtered.slice(0, state.visibleCount);
 
     elements.resultsMeta.textContent = `${formatNumber(filtered.length)} registros encontrados · ${getLabel("sort", state.filters.sort)}`;
 
+    elements.resultsMeta.textContent = `${formatNumber(filtered.length)} ficha(s) contratuais · ${getLabel("sort", state.filters.sort)}`;
+
     const activeFilters = getActiveFiltersText();
     elements.activeFilterSummary.textContent = activeFilters.join(" · ");
     elements.activeFilterSummary.classList.toggle("hidden", activeFilters.length === 0);
 
-    renderResultInsights(filtered);
+    renderResultInsightsV2(filtered);
 
     if (!visible.length) {
       setHtml(elements.recordList, `<div class="empty-state">Nenhum registro encontrado.</div>`);
@@ -1651,7 +1940,7 @@
       return;
     }
 
-    setHtml(elements.recordList, visible.map(renderRecordCard).join(""));
+    setHtml(elements.recordList, visible.map(renderRecordCardV2).join(""));
     elements.loadMore.classList.toggle("hidden", visible.length >= filtered.length);
   }
 
